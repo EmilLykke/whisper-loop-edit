@@ -1,0 +1,59 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,000", "to": "00:00:30,000" },
+      "offsets":    { "from": 0, "to": 30000 },
+      "text":       " Fjernsynsrapportet til Asia viser, at der kommer hvid røg fra kraftværket.",
+      "words": [
+        { "text": " Fjernsynsrapportet", "t0": 0, "t1": 490, "offsets": { "from": 0, "to": 4900 } },
+        { "text": " til", "t0": 490, "t1": 490, "offsets": { "from": 4900, "to": 4900 } },
+        { "text": " Asia", "t0": 490, "t1": 490, "offsets": { "from": 4900, "to": 4900 } },
+        { "text": " viser,", "t0": 490, "t1": 490, "offsets": { "from": 4900, "to": 4900 } },
+        { "text": " at", "t0": 490, "t1": 490, "offsets": { "from": 4900, "to": 4900 } },
+        { "text": " der", "t0": 490, "t1": 490, "offsets": { "from": 4900, "to": 4900 } },
+        { "text": " kommer", "t0": 490, "t1": 490, "offsets": { "from": 4900, "to": 4900 } },
+        { "text": " hvid", "t0": 490, "t1": 490, "offsets": { "from": 4900, "to": 4900 } },
+        { "text": " røg", "t0": 490, "t1": 490, "offsets": { "from": 4900, "to": 4900 } },
+        { "text": " fra", "t0": 490, "t1": 490, "offsets": { "from": 4900, "to": 4900 } },
+        { "text": " kraftværket.", "t0": 490, "t1": 490, "offsets": { "from": 4900, "to": 4900 } }
+      ],
+      "tokens": [
+        { "text": " F", "p": 0.938998, "t0": 0, "t1": 43, "offsets": { "from": 0, "to": 430 } },
+        { "text": "j", "p": 0.999619, "t0": 70, "t1": 86, "offsets": { "from": 700, "to": 860 } },
+        { "text": "ern", "p": 0.999729, "t0": 86, "t1": 216, "offsets": { "from": 860, "to": 2160 } },
+        { "text": "s", "p": 0.964319, "t0": 216, "t1": 259, "offsets": { "from": 2160, "to": 2590 } },
+        { "text": "yn", "p": 0.999664, "t0": 259, "t1": 339, "offsets": { "from": 2590, "to": 3390 } },
+        { "text": "s", "p": 0.949975, "t0": 351, "t1": 378, "offsets": { "from": 3510, "to": 3780 } },
+        { "text": "ra", "p": 0.953506, "t0": 389, "t1": 419, "offsets": { "from": 3890, "to": 4190 } },
+        { "text": "pp", "p": 0.999571, "t0": 473, "t1": 490, "offsets": { "from": 4730, "to": 4900 } },
+        { "text": "ort", "p": 0.997567, "t0": 490, "t1": 490, "offsets": { "from": 4900, "to": 4900 } },
+        { "text": "et", "p": 0.759494, "t0": 490, "t1": 490, "offsets": { "from": 4900, "to": 4900 } },
+        { "text": " til", "p": 0.976122, "t0": 490, "t1": 490, "offsets": { "from": 4900, "to": 4900 } },
+        { "text": " Asia", "p": 0.508549, "t0": 490, "t1": 490, "offsets": { "from": 4900, "to": 4900 } },
+        { "text": " vis", "p": 0.930036, "t0": 490, "t1": 490, "offsets": { "from": 4900, "to": 4900 } },
+        { "text": "er", "p": 0.999003, "t0": 490, "t1": 490, "offsets": { "from": 4900, "to": 4900 } },
+        { "text": ",", "p": 0.533981, "t0": 490, "t1": 490, "offsets": { "from": 4900, "to": 4900 } },
+        { "text": " at", "p": 0.959263, "t0": 490, "t1": 490, "offsets": { "from": 4900, "to": 4900 } },
+        { "text": " der", "p": 0.993852, "t0": 490, "t1": 490, "offsets": { "from": 4900, "to": 4900 } },
+        { "text": " kommer", "p": 0.986852, "t0": 490, "t1": 490, "offsets": { "from": 4900, "to": 4900 } },
+        { "text": " h", "p": 0.966649, "t0": 490, "t1": 490, "offsets": { "from": 4900, "to": 4900 } },
+        { "text": "vid", "p": 0.990499, "t0": 490, "t1": 490, "offsets": { "from": 4900, "to": 4900 } },
+        { "text": " r", "p": 0.836372, "t0": 490, "t1": 490, "offsets": { "from": 4900, "to": 4900 } },
+        { "text": "ø", "p": 0.995708, "t0": 490, "t1": 490, "offsets": { "from": 4900, "to": 4900 } },
+        { "text": "g", "p": 0.993087, "t0": 490, "t1": 490, "offsets": { "from": 4900, "to": 4900 } },
+        { "text": " fra", "p": 0.993206, "t0": 490, "t1": 490, "offsets": { "from": 4900, "to": 4900 } },
+        { "text": " k", "p": 0.826693, "t0": 490, "t1": 490, "offsets": { "from": 4900, "to": 4900 } },
+        { "text": "raft", "p": 0.998005, "t0": 490, "t1": 490, "offsets": { "from": 4900, "to": 4900 } },
+        { "text": "v", "p": 0.902151, "t0": 490, "t1": 490, "offsets": { "from": 4900, "to": 4900 } },
+        { "text": "ær", "p": 0.994345, "t0": 490, "t1": 490, "offsets": { "from": 4900, "to": 4900 } },
+        { "text": "ket", "p": 0.986747, "t0": 490, "t1": 490, "offsets": { "from": 4900, "to": 4900 } },
+        { "text": ".", "p": 0.909146, "t0": 490, "t1": 490, "offsets": { "from": 4900, "to": 4900 } }
+      ]
+    }
+  ]
+}

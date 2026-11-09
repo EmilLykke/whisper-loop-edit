@@ -1,0 +1,60 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,170", "to": "00:00:30,170" },
+      "offsets":    { "from": 170, "to": 30170 },
+      "text":       " Den store pyramide i Giza er det eneste af de syv vidunder, der stadig står i dag.",
+      "words": [
+        { "text": " Den", "t0": 145, "t1": 145, "offsets": { "from": 1450, "to": 1450 } },
+        { "text": " store", "t0": 147, "t1": 358, "offsets": { "from": 1470, "to": 3580 } },
+        { "text": " pyramide", "t0": 359, "t1": 698, "offsets": { "from": 3590, "to": 6980 } },
+        { "text": " i", "t0": 701, "t1": 744, "offsets": { "from": 7010, "to": 7440 } },
+        { "text": " Giza", "t0": 744, "t1": 839, "offsets": { "from": 7440, "to": 8390 } },
+        { "text": " er", "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } },
+        { "text": " det", "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } },
+        { "text": " eneste", "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } },
+        { "text": " af", "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } },
+        { "text": " de", "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } },
+        { "text": " syv", "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } },
+        { "text": " vidunder,", "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } },
+        { "text": " der", "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } },
+        { "text": " stadig", "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } },
+        { "text": " står", "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } },
+        { "text": " i", "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } },
+        { "text": " dag.", "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } }
+      ],
+      "tokens": [
+        { "text": " Den", "p": 0.933636, "t0": 145, "t1": 145, "offsets": { "from": 1450, "to": 1450 } },
+        { "text": " store", "p": 0.888681, "t0": 147, "t1": 358, "offsets": { "from": 1470, "to": 3580 } },
+        { "text": " pyram", "p": 0.767039, "t0": 359, "t1": 573, "offsets": { "from": 3590, "to": 5730 } },
+        { "text": "ide", "p": 0.994512, "t0": 573, "t1": 698, "offsets": { "from": 5730, "to": 6980 } },
+        { "text": " i", "p": 0.927195, "t0": 701, "t1": 744, "offsets": { "from": 7010, "to": 7440 } },
+        { "text": " G", "p": 0.988018, "t0": 744, "t1": 783, "offsets": { "from": 7440, "to": 7830 } },
+        { "text": "iza", "p": 0.987943, "t0": 800, "t1": 839, "offsets": { "from": 8000, "to": 8390 } },
+        { "text": " er", "p": 0.779603, "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } },
+        { "text": " det", "p": 0.891815, "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } },
+        { "text": " en", "p": 0.994566, "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } },
+        { "text": "este", "p": 0.995733, "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } },
+        { "text": " af", "p": 0.97301, "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } },
+        { "text": " de", "p": 0.975513, "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } },
+        { "text": " sy", "p": 0.879659, "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } },
+        { "text": "v", "p": 0.998542, "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } },
+        { "text": " vid", "p": 0.801151, "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } },
+        { "text": "under", "p": 0.940571, "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } },
+        { "text": ",", "p": 0.503276, "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } },
+        { "text": " der", "p": 0.938786, "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } },
+        { "text": " stad", "p": 0.989985, "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } },
+        { "text": "ig", "p": 0.994397, "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } },
+        { "text": " står", "p": 0.993074, "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } },
+        { "text": " i", "p": 0.949859, "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } },
+        { "text": " dag", "p": 0.998001, "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } },
+        { "text": ".", "p": 0.94382, "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } }
+      ]
+    }
+  ]
+}

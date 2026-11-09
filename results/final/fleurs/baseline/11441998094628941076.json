@@ -1,0 +1,69 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,780", "to": "00:00:30,780" },
+      "offsets":    { "from": 780, "to": 30780 },
+      "text":       " Elementer som calcium og kalium betragtes som metaller. Selvfølgelig er der også metaller som sølv og guld.",
+      "words": [
+        { "text": " Elementer", "t0": 98, "t1": 346, "offsets": { "from": 980, "to": 3460 } },
+        { "text": " som", "t0": 357, "t1": 430, "offsets": { "from": 3570, "to": 4300 } },
+        { "text": " calcium", "t0": 457, "t1": 656, "offsets": { "from": 4570, "to": 6560 } },
+        { "text": " og", "t0": 658, "t1": 711, "offsets": { "from": 6580, "to": 7110 } },
+        { "text": " kalium", "t0": 722, "t1": 774, "offsets": { "from": 7220, "to": 7740 } },
+        { "text": " betragtes", "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": " som", "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": " metaller.", "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": " Selvfølgelig", "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": " er", "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": " der", "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": " også", "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": " metaller", "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": " som", "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": " sølv", "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": " og", "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": " guld.", "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } }
+      ],
+      "tokens": [
+        { "text": " Element", "p": 0.972655, "t0": 98, "t1": 292, "offsets": { "from": 980, "to": 2920 } },
+        { "text": "er", "p": 0.984553, "t0": 292, "t1": 346, "offsets": { "from": 2920, "to": 3460 } },
+        { "text": " som", "p": 0.976016, "t0": 357, "t1": 430, "offsets": { "from": 3570, "to": 4300 } },
+        { "text": " calcium", "p": 0.698501, "t0": 457, "t1": 656, "offsets": { "from": 4570, "to": 6560 } },
+        { "text": " og", "p": 0.893779, "t0": 658, "t1": 711, "offsets": { "from": 6580, "to": 7110 } },
+        { "text": " kal", "p": 0.63274, "t0": 722, "t1": 755, "offsets": { "from": 7220, "to": 7550 } },
+        { "text": "ium", "p": 0.999022, "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": " bet", "p": 0.866227, "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": "rag", "p": 0.997187, "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": "tes", "p": 0.99752, "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": " som", "p": 0.993991, "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": " metall", "p": 0.960625, "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": "er", "p": 0.99958, "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": ".", "p": 0.584086, "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": " Sel", "p": 0.957262, "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": "v", "p": 0.995835, "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": "f", "p": 0.99835, "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": "ø", "p": 0.998123, "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": "l", "p": 0.999205, "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": "gel", "p": 0.997215, "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": "ig", "p": 0.948035, "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": " er", "p": 0.976973, "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": " der", "p": 0.98695, "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": " også", "p": 0.987359, "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": " metall", "p": 0.983499, "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": "er", "p": 0.998256, "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": " som", "p": 0.816649, "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": " s", "p": 0.938992, "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": "ø", "p": 0.998788, "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": "lv", "p": 0.997088, "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": " og", "p": 0.986073, "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": " gu", "p": 0.794357, "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": "ld", "p": 0.999661, "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": ".", "p": 0.96521, "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } }
+      ]
+    }
+  ]
+}

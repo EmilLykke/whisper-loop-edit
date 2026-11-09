@@ -1,0 +1,213 @@
+| Model | Loops ts / nt (copy) | ts+nt | drop | bare | silero / vad Loops | lost ts / nt / silero / vad / bare | WER ts / nt / silero / vad / bare | FLEURS test WER |
+|---|---|---|---|---|---|---|---|---|
+| baseline | 15 (15) / 10 (8) | 25 |  | 41 (25) | 0 / 0 | 59 / 119 / 19 / 14 / 84 | 31.0 / 38.3 / 15.5 / 14.4 / 56.5 | 12.56% |
+| E3 | 4 (4) / 2 (0) | 6 | 76% | 23 (7) | 0 / 0 | 26 / 107 / 18 / 15 / 11 | 19.7 / 36.2 / 15.2 / 14.2 / 23.7 | 12.45% |
+| C1 | 12 (11) / 10 (10) | 22 | 12% | 27 (14) | 0 / 0 | 35 / 120 / 18 / 15 / 60 | 24.5 / 38.3 / 15.3 / 14.6 / 55.1 | 12.71% |
+| C4 | 15 (12) / 11 (10) | 26 | -4% | 35 (24) | 0 / 0 | 71 / 132 / 19 / 14 / 53 | 36.1 / 41.0 / 15.2 / 14.1 / 39.3 | - |
+
+bar: {"c1_loopsDown80":false,"c2_controlsNoEffect":true,"c3_lostNotWorsePerPath":false,"c4_ntVadNoLoops":true,"c5_fleursWithin03pp":true} -> FAIL
+  baseline timestamps heldout_da_5min_01 [copy 22w @219.1-230.9 s] fra de fleste telefoner uden omkostninger der er ikke rapporteret nogen jordskældsaktivitet i heklaområdet inden for de sidste 48 timer oplyser ici
+  baseline timestamps heldout_da_5min_01 [copy 56w @231.9-242.9 s] fra de fleste telefoner uden omkostninger der er ikke rapporteret nogen jordskældsaktivitet i heklaområdet inden for de sidste 48 timer oplyser ici der er ikke 
+  baseline timestamps heldout_da_5min_02 [copy 22w @162.8-172.9 s] en salittelefon er generelt ikke en erstatning for en mobiltelefon da du skal være udenfor og have frit udsyn til mobiltelefoner en salittelefon er generelt ikk
+  baseline timestamps heldout_da_5min_03 [copy 30w @136.6-146.6 s] ninh thuot der så oversvømmelser så høje som 20 fod da orkanen katrina ramte har i øjeblikket vandt til talgehøjde da den nærliggende dige blev oversvømmet ninh
+  baseline timestamps heldout_da_5min_03 [copy 15w @202.1-210.6 s] du kan også have legeringer der inkluderer små mængder af ikkemetalliske elementer såsom kuldestof du kan også have legeringer der inkluderer små mængder af ikk
+  baseline timestamps heldout_da_5min_03 [copy 107w @235.7-248.8 s] kommissæren sagde vi har endnu ikke aftalt oprindelsesregler og tolaftaler men de rammer vi har er nok til at begynde at handle kommissæren sagde vi har endnu i
+  baseline timestamps heldout_da_5min_04 [copy 61w @126.0-140.4 s] du skal have en returbillet eller en billet til en videre rejse for at bevise længden af dit ophold du skal have en returbillet eller en billet til en videre re
+  baseline timestamps heldout_da_5min_05 [copy 25w @248.7-260.9 s] vi ser at de første dage bør overveje ikke holde tilbage med at bruge penge på hoteller mad og service i vestski vi ser at de første dage bør overveje ikke hold
+  baseline timestamps heldout_da_5min_06 [copy 30w @134.9-146.5 s] før en organisation kan være innovativ skal lederne skabe en kultur som fremmer innovationer samt viden deling og organ i historisk læring før en organisation k
+  baseline timestamps heldout_da_5min_06 [copy 25w @174.3-182.4 s] den spanske arvefølgekrig var den første krig hvis centralet punkt var magtbalancen den spanske arvefølgekrig var den første krig hvis centralet punkt var magtb
+  baseline timestamps heldout_da_5min_06 [copy 156w @210.1-227.6 s] resort i kenya i national park ngorongoro conservation area og maswa game resort i kenya uden mulighed for at tilberede mad er valget dog begrænset til færdigre
+  baseline timestamps heldout_da_5min_07 [copy 540w @109.3-115.8 s] vi starter som trægte der kommer ned fra stormskyerne vi starter som trægte der kommer ned fra stormskyerne vi starter som trægte der kommer ned fra stormskyern
+  baseline timestamps heldout_da_5min_09 [copy 31w @143.6-157.8 s] tornadoer river træer ud med deres rødder river brædder af bygninger og kaster bilen op i luften de mest voldsomme 2 af tornadoer varer mere end 3 timer tornado
+  baseline timestamps heldout_da_5min_10 [copy 26w @194.8-200.7 s] under alle omstændigheder er du nødt til at booke telefonisk direkte hos grønland under alle omstændigheder er du nødt til at booke telefonisk direkte hos grønl
+  baseline timestamps heldout_da_5min_12 [copy 13w @221.6-226.5 s] det er værd at bruge en halv times tid på at gå rundt det er værd at bruge en halv times tid på at gå rundt det
+  baseline timestamps-bare heldout_da_5min_01 [copy 7w @73.7-83.5 s] ansvarlige for at levere regerings og retstjenester
+  baseline timestamps-bare heldout_da_5min_01 [made-up 665w @172.8-184.5 s] været i en af de største steder i historien de har været i en af de største steder i historien de har været i en af de største steder i historien de har været i
+  baseline timestamps-bare heldout_da_5min_02 [made-up 588w @57.5-68.4 s] hvad er det du skal gøre hvad er det du skal gøre hvad er det du skal gøre hvad er det du skal gøre hvad er det du skal gøre hvad er det du skal gøre hvad er de
+  baseline timestamps-bare heldout_da_5min_03 [copy 5w @55.1-67.1 s] om du er blevet opdaget og om du er blevet opdaget
+  baseline timestamps-bare heldout_da_5min_03 [copy 6w @105.6-124.5 s] at de ikke havde modtaget deres tradition at de ikke havde modtaget deres
+  baseline timestamps-bare heldout_da_5min_03 [copy 4w @136.6-146.6 s] at de ikke havde modtaget
+  baseline timestamps-bare heldout_da_5min_03 [copy 10w @177.2-182.9 s] han er før blevet beskyldt for krænkelse af opdragsretten han er før blevet beskyldt for krænkelse af opdragsretten
+  baseline timestamps-bare heldout_da_5min_04 [copy 7w @61.2-72.9 s] januar præsentationen ved tokyo game show afslørede nintendos præsident satoru iwasa designer og controller til virksomhedens nye nintendo evolutionkontolen
+  baseline timestamps-bare heldout_da_5min_04 [copy 40w @85.3-101.9 s] 11 januar præsentationen ved tokyo game show afslørede nintendos præsident satoru iwasa designer og controller til virksomhedens nye nintendo evolutionkontolen 
+  baseline timestamps-bare heldout_da_5min_04 [made-up 3w @228.4-244.3 s] er blevet uddannet
+  baseline timestamps-bare heldout_da_5min_04 [made-up 3w @268.9-285.5 s] er blevet uddannet
+  baseline timestamps-bare heldout_da_2min_01 [made-up 5w @89.2-108.4 s] af den uikuiske etniske kultur
+  baseline timestamps-bare heldout_da_2min_03 [copy 64w @100.5-109.9 s] i principet er den tibetanske buddhisme meget enkelt i principet er den tibetanske buddhisme meget enkelt i principet er den tibetanske buddhisme meget enkelt i
+  baseline timestamps-bare heldout_da_5min_05 [made-up 188w @223.2-247.7 s] det var et af de fleste der havde været i fængsel det var et af de fleste der havde været i fængsel det var et af de fleste der havde været i fængsel det var et
+  baseline timestamps-bare heldout_da_5min_06 [copy 18w @77.3-94.4 s] en større værdi end hvad de havde været nødt til at få de havde været nødt til at få en større værdi end hvad
+  baseline timestamps-bare heldout_da_5min_06 [copy 137w @183.4-194.6 s] hjerte i æresindfaldets linje de nye æresindfaldets papillærer de endelige resultater fra namibias præsident og parlamentsvalg indikerer at siddende præsident h
+  baseline timestamps-bare heldout_da_5min_07 [made-up 4w @32.3-40.4 s] den kliniske tilstand forændres forbliver den kliniske tilstand
+  baseline timestamps-bare heldout_da_5min_07 [copy 3w @116.8-124.6 s] der kommer ned
+  baseline timestamps-bare heldout_da_5min_08 [copy 188w @81.8-88.3 s] i lyset af sentilforholdet skudder den 4 oktober 1838 i lyset af sentilforholdet skudder den 4 oktober 1838 i lyset af sentilforholdet skudder den 4 oktober 183
+  baseline timestamps-bare heldout_da_5min_08 [copy 238w @122.4-135.9 s] hvilket vil hjælpe sundhedsvæsenet med at forberede sig til næste år hvilket vil hjælpe sundhedsvæsenet med at forberede sig til næste år hvilket vil hjælpe sun
+  baseline timestamps-bare heldout_da_5min_08 [copy 41w @208.9-215.2 s] den britiske avis the guardian mente at deutsche bank kontrollerede ca en 10årig sted i denne tid den britiske avis the guardian mente at deutsche bank kontroll
+  baseline timestamps-bare heldout_da_2min_05 [copy 6w @53.8-71.1 s] usa siger at de har modtaget
+  baseline timestamps-bare heldout_da_2min_06 [made-up 9w @50.6-58.1 s] det er også en stor fornøjelse for rytters fornøjelse
+  baseline timestamps-bare heldout_da_2min_06 [made-up 18w @68.8-81.2 s] det er også en stor fornøjelse for rytters fornøjelse det er også en stor fornøjelse for rytters fornøjelse
+  baseline timestamps-bare heldout_da_2min_06 [copy 27w @82.2-92.1 s] den havde heller ingen ret til at tilsidesætte skattelåg og tariffet på de biler der var i landet den havde heller ingen ret til at tilsidesætte skattelåg og ta
+  baseline timestamps-bare heldout_da_2min_06 [copy 194w @93.1-99.4 s] til dem der godt kan lide udendørs aktiviteter er en tur op ad sea to sky korridoren essentiel til dem der godt kan lide udendørs aktiviteter er en tur op ad se
+  baseline timestamps-bare heldout_da_continuous_90s_05 [copy 48w @41.5-60.9 s] i 1683 tager qing dynastiet 16441912 tropper kontrol over taiwans vestlige og nordlige kystområder og erklærer i 1885 taiwan som en provins i qing i 1683 tager 
+  baseline timestamps-bare heldout_da_5min_09 [made-up 235w @53.4-64.1 s] hvad er det du vil gøre hvad er det du vil gøre hvad er det du vil gøre hvad er det du vil gøre hvad er det du vil gøre hvad er det du vil gøre hvad er det du v
+  baseline timestamps-bare heldout_da_5min_10 [copy 3w @115.6-122.8 s] men det er
+  baseline timestamps-bare heldout_da_5min_10 [made-up 588w @140.6-158.9 s] vi har været i sverige i flere år men vi har ikke været i sverige i flere år men vi har været i sverige i flere år vi har været i sverige i flere år vi har være
+  baseline timestamps-bare heldout_da_5min_11 [copy 27w @164.0-171.5 s] kæreste augustus begyndte at rekruttere læger og lavede en af de første romske lægekorps der skulle bruges i kølvandet for slagene kæreste augustus begyndte at 
+  baseline timestamps-bare heldout_da_5min_11 [copy 101w @184.6-203.5 s] selvom chile erklærede sig uafhængigt i 1810 midt i napoleons krige som efterlod spanien uden en fungerende centralregering i et par år opnåede de først den afg
+  baseline timestamps-bare heldout_da_5min_11 [copy 35w @228.2-241.7 s] hall blev sammen med 4tallige personer til den samme test og blev indkaldt hall blev sammen med 4tallige personer til den samme test og blev indkaldt hall blev 
+  baseline timestamps-bare heldout_da_5min_12 [copy 8w @202.7-220.6 s] kølig temperaturen kan være vildledende kølig temperaturen kan være vildledende kølig temperaturen
+  baseline timestamps-bare heldout_da_5min_12 [copy 190w @227.5-245.5 s] det kan laves så tyndt at det er nogenlunde koldt det kan laves så tyndt at det er nogenlunde koldt det kan laves så tyndt at det er nogenlunde koldt det kan la
+  baseline timestamps-bare heldout_da_2min_07 [copy 95w @78.5-92.6 s] at børn i tyrkiet nu er blevet indsat at børn i tyrkiet nu er blevet indsat at børn i tyrkiet nu er blevet indsat at børn i tyrkiet nu er blevet indsat at børn 
+  baseline timestamps-bare heldout_da_2min_08 [made-up 3w @54.9-65.1 s] hvad er vandrehjem
+  baseline timestamps-bare heldout_da_2min_08 [made-up 3w @66.1-76.5 s] hvad er vandrehjem
+  baseline timestamps-bare heldout_da_2min_08 [made-up 3w @77.5-84.2 s] hvad er vandrehjem
+  baseline timestamps-bare heldout_da_2min_08 [made-up 3w @85.2-98.7 s] hvad er vandrehjem
+  baseline timestamps-bare heldout_da_2min_08 [made-up 21w @110.3-120.2 s] hvad er vandrehjem hvad er vandrehjem hvad er vandrehjem hvad er vandrehjem hvad er vandrehjem hvad er vandrehjem hvad er vandrehjem
+  baseline nt heldout_da_5min_01 [copy 41w @231.9-242.9 s] telefonnummer som der kan ringes til fra de fleste telefoner uden omkostninger det er også et af de fleste telefonnummer som der kan ringes til fra de fleste te
+  baseline nt heldout_da_5min_02 [made-up 3w @86.9-96.6 s] det er en
+  baseline nt heldout_da_5min_03 [copy 30w @220.3-234.7 s] i sidste måned oplevede iran sin værste katastrofe i lufthavnen i flere år da et fly der var på vej til aramien styrtede ned hvor de 168 ombord omkom i sidste m
+  baseline nt heldout_da_5min_04 [copy 4w @85.3-101.9 s] tilpasset til at bo
+  baseline nt heldout_da_5min_04 [copy 79w @126.0-140.4 s] rejse du skal have en returbillet eller en billet til en videre rejse du skal have en returbillet eller en billet til en videre rejse du skal have en returbille
+  baseline nt heldout_da_5min_05 [copy 6w @197.0-214.4 s] dødsårsagen blev meddelt som værende intrahepatisk
+  baseline nt heldout_da_5min_06 [copy 24w @265.7-275.2 s] planerne for levering af vacciner til de historisk hårdest ramte områder i år blev forsinket på grund af manglende pengemidler og lav prioritering i forhold til
+  baseline nt heldout_da_2min_06 [copy 16w @16.1-27.1 s] sikkerheden kan også begrænses ved sne der falder eller blæser eller ved kondens eller is på køretøjetryger sikkerheden kan også begrænses ved sne der falder el
+  baseline nt heldout_da_5min_10 [copy 3w @9.0-17.9 s] nødt til at
+  baseline nt heldout_da_5min_10 [made-up 15w @159.9-171.0 s] det er en del af det der er blevet uddannet at det er en del af det der er blevet uddannet
+  E3 timestamps heldout_da_5min_05 [copy 3w @93.4-107.2 s] nogle af dem
+  E3 timestamps heldout_da_5min_10 [copy 4w @65.9-77.9 s] sagde desuden at ændringen er svær lodvin sagde desuden at ændringen
+  E3 timestamps heldout_da_5min_10 [copy 3w @78.9-84.8 s] sagde desuden at
+  E3 timestamps heldout_da_5min_10 [copy 3w @201.7-209.0 s] til at booke
+  E3 timestamps-bare heldout_da_5min_01 [copy 3w @73.7-83.5 s] en kærlighed til
+  E3 timestamps-bare heldout_da_5min_04 [copy 17w @228.4-244.3 s] 36 af de 116 deltagere fik slaglum 36 af de 116 deltagere fik slaglum det var en god fornøjelse fordi de havde en god fornøjelse
+  E3 timestamps-bare heldout_da_5min_04 [made-up 6w @228.4-244.3 s] det det var en god fornøjelse
+  E3 timestamps-bare heldout_da_5min_04 [made-up 18w @228.4-244.3 s] det det var en god tid for dem det var en god fornøjelse det var en god tid for
+  E3 timestamps-bare heldout_da_5min_05 [made-up 4w @85.2-92.4 s] en forholdsfuld forhold til
+  E3 timestamps-bare heldout_da_5min_05 [made-up 4w @108.2-121.5 s] en forholdsfuld forhold til
+  E3 timestamps-bare heldout_da_5min_05 [made-up 6w @149.1-158.1 s] en forholdsfuld forhold til et skræk
+  E3 timestamps-bare heldout_da_5min_05 [made-up 3w @149.1-158.1 s] til et skræk
+  E3 timestamps-bare heldout_da_5min_06 [made-up 3w @77.3-94.4 s] en af de fleste
+  E3 timestamps-bare heldout_da_5min_06 [made-up 4w @174.3-182.4 s] en af de fleste
+  E3 timestamps-bare heldout_da_5min_08 [made-up 115w @81.8-88.3 s] i denne forhold jeg har været i denne forholdning hvor jeg har været i denne forholdning hvor jeg har været i denne forholdning jeg har været i denne forholdnin
+  E3 timestamps-bare heldout_da_5min_08 [copy 3w @122.4-135.9 s] det er ikke
+  E3 timestamps-bare heldout_da_continuous_90s_05 [made-up 6w @41.5-60.9 s] den kultur som er blevet brugt
+  E3 timestamps-bare heldout_da_continuous_90s_05 [made-up 6w @41.5-60.9 s] den kultur som er blevet brugt
+  E3 timestamps-bare heldout_da_5min_09 [made-up 3w @53.4-64.1 s] til at tage
+  E3 timestamps-bare heldout_da_5min_09 [copy 5w @200.3-206.9 s] i forhold til at tage
+  E3 timestamps-bare heldout_da_5min_10 [made-up 3w @85.8-91.5 s] det er en
+  E3 timestamps-bare heldout_da_5min_10 [made-up 3w @115.6-122.8 s] det er en
+  E3 timestamps-bare heldout_da_5min_11 [made-up 3w @164.0-171.5 s] en af de
+  E3 timestamps-bare heldout_da_5min_11 [made-up 47w @204.5-216.6 s] er en af de største regeringer i europa det er en af de største regeringer der har været i det hele tidspunkt det er en af de største regeringer der har været i
+  E3 timestamps-bare heldout_da_5min_11 [copy 27w @228.2-241.7 s] beviser indikerede herefter at denne dag var en af de største regeringer der har været i spanien beviser indikerede herefter at denne dag var en af de største r
+  E3 timestamps-bare heldout_da_5min_12 [copy 5w @253.5-267.8 s] svært at finde en udgang det er også svært at finde en udgang
+  E3 timestamps-bare heldout_da_2min_07 [copy 37w @93.6-105.9 s] ii 76 har været en vigtig komponent inden for både det russiske og det slovenske ii 76 har været en vigtig komponent inden for både det russiske og det slovensk
+  E3 nt heldout_da_5min_01 [made-up 3w @116.4-126.5 s] en af de
+  E3 nt heldout_da_5min_10 [made-up 69w @140.6-158.9 s] hvor de har været i en krig hvor de har været i en krig hvor de har været i en krig hvor de har været i en krig hvor de har været i en krig hvor de har været i 
+  C1 timestamps heldout_da_5min_03 [copy 88w @68.1-83.7 s] dyr er lavet af mange dyr de spiser ting og fordøjer dem i deres kroppe de fleste dyr kan blive opdaget og om du ikke bliver fanget igen eller afhængigt af dine
+  C1 timestamps heldout_da_5min_04 [copy 60w @245.3-257.9 s] de fleste billetter til begivenheden kostede mellem 2500 og 130000 yen hvor de typiske billetter som man kan finde på google translate er i øjeblikket de fleste
+  C1 timestamps heldout_da_5min_05 [copy 27w @248.7-260.9 s] vi ser at de første dage bør overveje ikke holde tilbage med at bruge penge på hoteller mad og service i vestlige skier vi ser at de første dage bør overveje ik
+  C1 timestamps heldout_da_5min_06 [copy 8w @134.9-146.5 s] før en organisation kan være innovativ skal lederne skabe en kultur som fremmer innovationer samt viden deling og organ i historisk læring
+  C1 timestamps heldout_da_5min_06 [copy 56w @183.4-194.6 s] før en organisation kan være innovativ skal lederne skabe en kultur som fremmer innovationer samt viden deling og organ i historisk læring men hvis udtrykket br
+  C1 timestamps heldout_da_5min_06 [copy 80w @210.1-227.6 s] den billigste måde at få mad på er normalt at købe en mad i supermarkedet uden mulighed for at tilberede mad er valget dog begrænset til færdigretter den billig
+  C1 timestamps heldout_da_5min_07 [copy 20w @109.3-115.8 s] vi starter som trægte der kommer ned fra stormskyer vi starter som trægte der kommer ned fra stormskyer vi starter som trægte der kommer ned fra stormskyer
+  C1 timestamps heldout_da_5min_07 [copy 5w @147.0-160.6 s] i udviklede lande vil du
+  C1 timestamps heldout_da_5min_08 [made-up 28w @194.1-207.9 s] med opfindelsen af æerhjulet blev de asyriske stedsvogne både udgivet og udgivet med opfindelsen af æerhjulet blev de asyriske stedsvogne både udgivet og udgive
+  C1 timestamps heldout_da_5min_11 [copy 69w @164.0-171.5 s] selvom chile erklærede sig uafhængigt i 1810 midt i napoleons krise den efterlod spanien uden en funktionalitet selvom chile erklærede sig uafhængigt i 1810 mid
+  C1 timestamps heldout_da_5min_11 [copy 21w @204.5-216.6 s] åbne et par sekunder mens du sætter dig ind i bilen for at myggen kan komme ind i bilen med dig du skal åbne et par sekunder mens du sætter dig ind i bilen for 
+  C1 timestamps heldout_da_2min_07 [copy 40w @93.6-105.9 s] ii 76 har været en vigtig komponent inden for både det russiske og det sovjetske militær siden 1970 ii 76 har været en vigtig komponent inden for både det russi
+  C1 timestamps-bare heldout_da_5min_01 [made-up 665w @172.8-184.5 s] været i en af de største steder i historien de har været i en af de største steder i historien de har været i en af de største steder i historien de har været i
+  C1 timestamps-bare heldout_da_5min_02 [made-up 104w @57.5-68.4 s] hvis du er en ægte så skal du være en ægte hvis du er en ægte så skal du være en ægte hvis du er en ægte så skal du være en ægte hvis du er en ægte så skal du v
+  C1 timestamps-bare heldout_da_5min_02 [copy 68w @114.6-121.8 s] der vil typisk være et ondt sted der vil typisk være et ondt sted der vil typisk være et ondt sted der vil typisk være et ondt sted der vil typisk være et ondt 
+  C1 timestamps-bare heldout_da_5min_02 [made-up 12w @233.0-251.0 s] en forhold som kan være forvaltende er det ikke en forhold som kan være forvaltende
+  C1 timestamps-bare heldout_da_5min_02 [copy 79w @252.0-270.7 s] i et partnerskab mellem npws og sporting shooters association of australia blev kvalificeret frivilligt rekrutteret under sporting shooters i et partnerskab mel
+  C1 timestamps-bare heldout_da_2min_03 [copy 90w @85.6-99.5 s] i principet er den tibetanske buddhisme meget enkelt den består af kundalini yoga meditation og stien af alt omfattende kærlighed i principet er den tibetanske 
+  C1 timestamps-bare heldout_da_5min_05 [copy 5w @197.0-214.4 s] han sagde at det var et faktisk spørgsmål han sagde at det
+  C1 timestamps-bare heldout_da_5min_06 [copy 13w @174.3-182.4 s] auerfølgekrig var den første land som brugte køkkenet til at bruge køkkenet til at bruge det den gamle auerfølgekrig var den første
+  C1 timestamps-bare heldout_da_5min_06 [made-up 3w @183.4-194.6 s] hjerte i aarhusens falds
+  C1 timestamps-bare heldout_da_5min_06 [made-up 3w @183.4-194.6 s] hjerte i aarhusens falds
+  C1 timestamps-bare heldout_da_5min_07 [made-up 4w @32.3-40.4 s] den kliniske tilstand forændres forbliver den kliniske tilstand
+  C1 timestamps-bare heldout_da_5min_08 [made-up 213w @231.5-236.9 s] det det var derfor at de var så udmavlige at indtage det det var derfor at de var så udmavlige at indtage det det var derfor at de var så udmavlige at indtage d
+  C1 timestamps-bare heldout_da_2min_05 [copy 6w @53.8-71.1 s] usa siger at de har modtaget
+  C1 timestamps-bare heldout_da_2min_06 [copy 96w @93.1-99.4 s] det var en af de største udviklinger der var i den tid det var en af de største udviklinger der var i den tid piqué junior blev fyret efter grand prixet i ungar
+  C1 timestamps-bare heldout_da_continuous_90s_04 [made-up 42w @52.3-73.6 s] grunden for denne opgave er at det var en af de fleste af øerne der havde været aflyset af denne opgave grunden for denne opgave er at det var en af de fleste a
+  C1 timestamps-bare heldout_da_continuous_90s_05 [made-up 42w @41.5-60.9 s] det er en stor forhold til den kultur som er blevet brugt i 1880 det er en stor forhold til den kultur som er blevet brugt i 1880 det er en stor forhold til den
+  C1 timestamps-bare heldout_da_continuous_90s_06 [made-up 49w @46.9-57.5 s] det var en af de største afslutninger der var udført i denne årsag det var en af de største afslutninger der var udført i denne årsag det var en af de største a
+  C1 timestamps-bare heldout_da_continuous_90s_06 [copy 14w @76.1-89.3 s] der er et begrænset antal tilladelser forbeholdt dropin anmodninger som er tilgængelige efter førsttilmølleprincippet der er et begrænset antal tilladelser forb
+  C1 timestamps-bare heldout_da_5min_09 [made-up 1007w @88.1-102.5 s] det var en af de fleste der var i det det var en af de fleste der var i det det var en af de fleste der var i det det var en af de fleste der var i det det var 
+  C1 timestamps-bare heldout_da_5min_10 [made-up 25w @78.9-84.8 s] en krisetid prejsen for at flytte fra landet var en krisetid prejsen for at flytte fra landet var en krisetid prejsen for at flytte fra landet var en krisetid p
+  C1 timestamps-bare heldout_da_5min_10 [copy 889w @115.6-122.8 s] det er en af de fleste der har været i nigeria det er en af de fleste der har været i nigeria det er en af de fleste der har været i nigeria det er en af de fle
+  C1 timestamps-bare heldout_da_5min_11 [made-up 14w @228.2-241.7 s] som havde været i det samme land som havde været i det samme land
+  C1 timestamps-bare heldout_da_5min_11 [copy 3w @242.7-253.6 s] opdannelsen af hans grav i 1922 gjorde ham berømt selvom mange af forsiden skravet blev
+  C1 timestamps-bare heldout_da_5min_11 [copy 108w @242.7-253.6 s] blev rødt været hans grav de meget lange dage om sommeren kan føre til problemer med at få nok søvn og med det kan man også få en fornøjelse opdannelsen af hans
+  C1 timestamps-bare heldout_da_5min_12 [copy 86w @202.7-220.6 s] kølig temperaturen kan være vildledende kølig temperaturen kan være vildledende kølig temperaturen kan være vildledende kølig temperaturen kan være vildledende 
+  C1 timestamps-bare heldout_da_5min_12 [copy 139w @246.5-252.5 s] det kan laves meget tyndt og sættes på andet metal det kan laves meget tyndt og sættes på andet metal det kan laves meget tyndt og sættes på andet metal årets s
+  C1 timestamps-bare heldout_da_2min_07 [copy 31w @106.9-123.9 s] havde været med i denne forhold de havde været med i denne forhold og havde allerede opdaget en alvorlig ulykke i rusland sidste måned de havde været med i denn
+  C1 nt heldout_da_5min_01 [copy 41w @231.9-242.9 s] telefonnummer som der kan ringes til fra de fleste telefoner uden omkostninger det er også et af de fleste telefonnummer som der kan ringes til fra de fleste te
+  C1 nt heldout_da_5min_02 [copy 5w @173.9-182.7 s] udsat for at være udsat for at foretage telefonopkald
+  C1 nt heldout_da_5min_03 [copy 30w @220.3-234.7 s] i sidste måned oplevede iran sin værste katastrofe i lufthavnen i flere år da et fly der var på vej til aramien styrtede ned hvor de 168 ombord omkom i sidste m
+  C1 nt heldout_da_5min_04 [copy 4w @85.3-101.9 s] tilpasset til at bo
+  C1 nt heldout_da_5min_04 [copy 91w @126.0-140.4 s] rejse du skal have en returbillet eller en billet til en videre rejse du skal have en returbillet eller en billet til en videre rejse du skal have en returbille
+  C1 nt heldout_da_5min_06 [copy 24w @265.7-275.2 s] planerne for levering af vacciner til de historisk hårdest ramte områder i år blev forsinket på grund af manglende pengemidler og lav prioritering i forhold til
+  C1 nt heldout_da_2min_06 [copy 16w @50.6-58.1 s] hvis en rytter er trukket med kan han blive trukket med hvis han er trukket med hvis han er trukket med
+  C1 nt heldout_da_5min_10 [copy 3w @9.0-17.9 s] nødt til at
+  C1 nt heldout_da_5min_10 [copy 7w @159.9-171.0 s] en af de fleste der havde været i det
+  C1 nt heldout_da_5min_10 [copy 7w @172.0-185.0 s] en af de fleste der havde været i det
+  C4 timestamps heldout_da_5min_02 [copy 40w @193.7-204.9 s] at de vil øge deres internationale skormandat til nyhedsrapportering markant med tre nye udsendelser psykisme er en religion som stammer fra det indiske subkont
+  C4 timestamps heldout_da_5min_04 [copy 13w @73.9-84.3 s] mange almindelige formater eksempelvis apsformaterne er lige med eller tæt på dette billedformat mange almindelige formater eksempelvis apsformaterne er lige me
+  C4 timestamps heldout_da_5min_04 [copy 67w @126.0-140.4 s] du skal have en returbillet eller en billet til en videre rejse for at bevise længden af dit ophold du skal have en returbillet eller en billet til en videre re
+  C4 timestamps heldout_da_continuous_90s_03 [copy 27w @55.7-70.3 s] ind i en masse problemer da de engagerer sig i risikabel adfærd kommer i slagsmål og udfordrer autoriteterne hvis de allierede havde fejlet ville tyskland sands
+  C4 timestamps heldout_da_5min_05 [copy 86w @215.4-222.2 s] at det ville være uetisk at kommentere på detaljerne i lignende sager dommeren fortalte at det ville være uetisk at kommentere på detaljerne i lignende sager do
+  C4 timestamps heldout_da_5min_06 [copy 16w @164.9-173.3 s] som oprindeligt stammer fra det centrale og østlige del af hovedøen java den spanske affølgekrig var den første krig hvis centralet punkt var magtbalancen den s
+  C4 timestamps heldout_da_5min_06 [copy 127w @210.1-227.6 s] den sidste affølgekrig var den første krig som oprindeligt stammer fra det centrale og østlige del af hovedøen java den sidste affølgekrig var den første krig s
+  C4 timestamps heldout_da_5min_07 [made-up 595w @109.3-115.8 s] de kogner søen når de er i skatmørk som en troll de kogner søen når de er i skatmørk som en troll de kogner søen når de er i skatmørk som en troll de kogner søe
+  C4 timestamps heldout_da_2min_05 [copy 16w @72.1-81.8 s] det er helt sikkert at drikke det lokale vand fra hanen men det er nemt at vide det er helt sikkert at drikke det lokale vand fra hanen men det er nemt at
+  C4 timestamps heldout_da_2min_05 [copy 18w @92.1-102.7 s] nogle lande har meget strenge straffe selv for førstegangsforbrydelser feks fængselsstraffe på over 10 år eller dødstraf nogle lande har meget strenge straffe s
+  C4 timestamps heldout_da_5min_09 [copy 30w @143.6-157.8 s] tornadoer river træer ud med deres rødder river brædder af bygninger og kaster bilen op i luften de mest voldsomme 2 af tornadoer varer mere end tre timer torna
+  C4 timestamps heldout_da_5min_09 [copy 14w @246.2-252.3 s] dens alt opfattende magt påvirkede alle fra kongen til almindelige borgere dens alt opfattende magt påvirkede alle fra kongen til almindelige borgere
+  C4 timestamps heldout_da_5min_10 [copy 544w @159.9-171.0 s] den måde fransk tales på i falkland og schweiz er en smule anderledes end i frankrig den måde fransk tales på i frankrig er en smule anderledes end i frankrig d
+  C4 timestamps heldout_da_5min_11 [made-up 4w @217.6-227.2 s] dk artea sagde at
+  C4 timestamps heldout_da_5min_11 [made-up 4w @228.2-241.7 s] dk artea sagde at
+  C4 timestamps-bare heldout_da_5min_01 [copy 7w @73.7-83.5 s] ansvarlige for at levere regerings og retstjenester
+  C4 timestamps-bare heldout_da_5min_01 [copy 264w @172.8-184.5 s] været i højde i de seneste århundrede de har været i højde i de seneste århundrede de har været i højde i de seneste århundrede de har været i højde i de senest
+  C4 timestamps-bare heldout_da_5min_02 [copy 6w @134.8-145.4 s] den anden lokale øl hedder manta den anden lokale øl hedder manta
+  C4 timestamps-bare heldout_da_5min_02 [copy 94w @162.8-172.9 s] en salittelefon er generelt ikke en erstatning for en mobiltelefon da du skal være udenfor og have frit udsyn til telefonopkald pas på her bliver små barer ikke
+  C4 timestamps-bare heldout_da_5min_04 [copy 21w @268.9-285.5 s] største by med en befolkning på ca 37 millioner landets næststørste havn efter istanbul og et meget stort transportknudepunkt ismir er den største by med en bef
+  C4 timestamps-bare heldout_da_2min_01 [made-up 4w @50.2-61.7 s] det er en stor gruppe
+  C4 timestamps-bare heldout_da_2min_01 [made-up 5w @89.2-108.4 s] det er en stor gruppe
+  C4 timestamps-bare heldout_da_2min_03 [copy 71w @85.6-99.5 s] i principet er den tibetanske buddhisme meget enkelt den består af kundaliniyoga meditation og stien af alt omfattende kærlighed i principet er den tibetanske b
+  C4 timestamps-bare heldout_da_5min_05 [copy 73w @149.1-158.1 s] dokumenterne viste at 14 banker hjalp velhævende kunder med at skjule formuer på milliarder af amerikanske dollars for at undgå skatter og andre reguleringer do
+  C4 timestamps-bare heldout_da_5min_05 [copy 102w @172.0-181.9 s] det bliver værd for cow parade der er verdens største offentlige kunstbegivenhed det bliver værd for cow parade der er verdens største offentlige kunstbegivenhe
+  C4 timestamps-bare heldout_da_5min_06 [made-up 57w @77.3-94.4 s] de havde været i tidligere århundrede de havde været i det 12 århundrede og de havde været i det 12 århundrede og de havde været i det 12 århundrede de havde væ
+  C4 timestamps-bare heldout_da_5min_06 [copy 28w @134.9-146.5 s] før en organisation kan være innovativ skal lederne skabe en kultur som fremmer innovationen før en organisation kan være innovativ skal lederne skabe en kultur
+  C4 timestamps-bare heldout_da_5min_06 [copy 162w @195.6-209.1 s] det er også en af de største afslutninger der er blevet udviklet i år det er også en af de største afslutninger der er blevet udviklet i år det er også en af de
+  C4 timestamps-bare heldout_da_5min_07 [made-up 4w @32.3-40.4 s] den kliniske tilstand forændres forbliver den kliniske tilstand
+  C4 timestamps-bare heldout_da_5min_08 [copy 62w @81.8-88.3 s] i løbet af sin tidforholdet skulle han kigge med træen ud fordi han havde en stor kæft i løbet af sin tidforholdet skulle han kigge med træen ud fordi han havde
+  C4 timestamps-bare heldout_da_5min_08 [copy 18w @110.6-121.4 s] men i andre dele af verden hvor den bakteriologiske fagne er ny for at kigge så er det
+  C4 timestamps-bare heldout_da_5min_08 [copy 41w @110.6-121.4 s] men i andre dele af verden hvor den bakteriologiske fagne er ny for at kigge er du langt mere tilbøjelig til at løbe ind i problemet er du langt mere tilbøjelig
+  C4 timestamps-bare heldout_da_5min_08 [made-up 3w @231.5-236.9 s] så er det
+  C4 timestamps-bare heldout_da_2min_04 [copy 20w @87.1-100.3 s] han blev med det samme i denne års tid udlagt han blev med det samme i denne års tid udlagt han blev med det samme
+  C4 timestamps-bare heldout_da_2min_04 [copy 83w @111.3-124.4 s] når folk ikke ser elge som potentielt farlige kan de ikke komme for tæt på og sætte sig selv i fare når folk ikke ser elge som potentielt farlige kan de ikke ko
+  C4 timestamps-bare heldout_da_2min_05 [copy 5w @82.8-91.1 s] det er nemt at finde flad det er nemt at finde flad
+  C4 timestamps-bare heldout_da_2min_06 [copy 48w @50.6-58.1 s] det er større stabilitet for rytteren men kan give sikkerhedsproblemer på grund af muligheden for at en rytters fødder sætter sig fast i den det er større stabi
+  C4 timestamps-bare heldout_da_2min_06 [copy 14w @82.2-92.1 s] den havde heller ingen ret til at tilsidesætte skattelåb og tariffer mellem stater den havde heller ingen ret til at tilsidesætte skattelåb og tariffer mellem s
+  C4 timestamps-bare heldout_da_2min_06 [copy 58w @93.1-99.4 s] til dem der godt kan lide udendørs aktiviteter er en tur op ad sea to sky korridoren essentiel til dem der godt kan lide udendørs aktiviteter er en tur op ad se
+  C4 timestamps-bare heldout_da_continuous_90s_04 [copy 47w @52.3-73.6 s] grunden for denne opkald er at det var en af de fleste af øerne der var i gang med at skabe en forfattelse grunden for denne opkald er at det var en af de flest
+  C4 timestamps-bare heldout_da_continuous_90s_05 [copy 16w @60.9-67.7 s] blive brugt som en narkotikabærer uden din viden hvilket vil forårsage en masse problemer for dig
+  C4 timestamps-bare heldout_da_continuous_90s_06 [made-up 172w @46.9-57.5 s] det var en af de største forhold der var i dag det var en af de største forhold der var i dag det var en af de største forhold der var i dag det var en af de st
+  C4 timestamps-bare heldout_da_5min_09 [made-up 73w @53.4-64.1 s] hvad er det du vil gøre hvad er det du vil gøre hvad er det du vil gøre hvad er det du vil gøre hvad er det du vil gøre hvad er det du vil gøre hvad er det du v
+  C4 timestamps-bare heldout_da_5min_10 [copy 3w @9.0-17.9 s] nødt til at
+  C4 timestamps-bare heldout_da_5min_10 [made-up 42w @45.5-59.5 s] det er ikke så vigtigt at få en god forhold men det er ikke så vigtigt at få en god forhold det er ikke så vigtigt at få en god forhold men det er ikke så vigti
+  C4 timestamps-bare heldout_da_5min_10 [copy 38w @222.9-229.6 s] i slutningen af 2015 etablerede tokenet datterselskabet astronet radio i slutningen af 2015 etablerede tokenet datterselskabet astronet radio i slutningen af 20
+  C4 timestamps-bare heldout_da_5min_11 [made-up 186w @172.5-183.6 s] hvorfor for at forstå hvad der sker i dag hvorfor for at forstå hvad der sker i dag hvorfor for at forstå hvad der sker i dag hvorfor for at forstå hvad der ske
+  C4 timestamps-bare heldout_da_2min_07 [copy 55w @93.6-105.9 s] ii 76 har været en vigtig komponent inden for både det russiske og det amerikanske ii 76 har været en vigtig komponent inden for både det russiske og det amerik
+  C4 timestamps-bare heldout_da_2min_08 [made-up 3w @54.9-65.1 s] hvad er vandrehjem
+  C4 timestamps-bare heldout_da_2min_08 [made-up 3w @66.1-76.5 s] hvad er vandrehjem
+  C4 nt heldout_da_5min_01 [copy 255w @84.5-92.9 s] ansvarlige for at levere regerings og retstjenester i henhold til artikel 247 i den pakistanske forfatning de er også ansvarlige for at levere retstjenester i h
+  C4 nt heldout_da_5min_02 [made-up 23w @86.9-96.6 s] der er også en skærm i skærm der er i skærm der er i skærm der er også en skærm der er i skærm der
+  C4 nt heldout_da_5min_03 [copy 30w @220.3-234.7 s] i sidste måned oplevede iran sin værste katastrofe i lufthavnen i flere år da et fly der var på vej til aramien styrtede ned hvor de 168 ombord omkom i sidste m
+  C4 nt heldout_da_5min_04 [copy 4w @85.3-101.9 s] tilpasset til at bo
+  C4 nt heldout_da_5min_04 [copy 193w @110.3-125.0 s] rejse du skal have en returbillet eller billet til en videre rejse du skal have en returbillet eller billet til en videre rejse du skal have en returbillet elle
+  C4 nt heldout_da_5min_05 [copy 93w @197.0-214.4 s] vise forsikringsselskabets emailadresse og internationale telefonnumre for rådgivning autorisationer og for at anmelde sager de skal også vise forsikringsselska
+  C4 nt heldout_da_5min_06 [copy 24w @265.7-275.2 s] planerne for levering af vacciner til de historisk hårdest ramte områder i år blev forsinket på grund af manglende pengemidler og lav prioritering i forhold til
+  C4 nt heldout_da_2min_06 [copy 16w @16.1-27.1 s] sikkerheden kan også begrænses ved sne der falder eller blæser eller ved kondens eller is på køretøjetryger sikkerheden kan også begrænses ved sne der falder el
+  C4 nt heldout_da_5min_10 [copy 3w @9.0-17.9 s] nødt til at
+  C4 nt heldout_da_5min_10 [copy 10w @140.6-158.9 s] fra 2014 flyver turkish airlines til 39 destinationer i 30 afrikanske lande fra 2014 flyver turkish airlines til 39 destinationer i 30 afrikanske lande
+  C4 nt heldout_da_5min_10 [copy 61w @240.2-249.8 s] sjau og xiaopo rapporterede at de var på sikker afstand til de styreraketter der kontrollerede højden sjau og xiaopo rapporterede at de var på sikker afstand ti

@@ -1,0 +1,57 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E5-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,090", "to": "00:00:30,090" },
+      "offsets":    { "from": 90, "to": 30090 },
+      "text":       " I 1884 fløde Tesla til USA for at arbejde hos Edison Company i New York City.",
+      "words": [
+        { "text": " I", "t0": 28, "t1": 50, "offsets": { "from": 280, "to": 500 } },
+        { "text": " 1884", "t0": 113, "t1": 535, "offsets": { "from": 1130, "to": 5350 } },
+        { "text": " fløde", "t0": 542, "t1": 762, "offsets": { "from": 5420, "to": 7620 } },
+        { "text": " Tesla", "t0": 782, "t1": 782, "offsets": { "from": 7820, "to": 7820 } },
+        { "text": " til", "t0": 782, "t1": 782, "offsets": { "from": 7820, "to": 7820 } },
+        { "text": " USA", "t0": 782, "t1": 782, "offsets": { "from": 7820, "to": 7820 } },
+        { "text": " for", "t0": 782, "t1": 782, "offsets": { "from": 7820, "to": 7820 } },
+        { "text": " at", "t0": 782, "t1": 782, "offsets": { "from": 7820, "to": 7820 } },
+        { "text": " arbejde", "t0": 782, "t1": 782, "offsets": { "from": 7820, "to": 7820 } },
+        { "text": " hos", "t0": 782, "t1": 782, "offsets": { "from": 7820, "to": 7820 } },
+        { "text": " Edison", "t0": 782, "t1": 782, "offsets": { "from": 7820, "to": 7820 } },
+        { "text": " Company", "t0": 782, "t1": 782, "offsets": { "from": 7820, "to": 7820 } },
+        { "text": " i", "t0": 782, "t1": 782, "offsets": { "from": 7820, "to": 7820 } },
+        { "text": " New", "t0": 782, "t1": 782, "offsets": { "from": 7820, "to": 7820 } },
+        { "text": " York", "t0": 782, "t1": 782, "offsets": { "from": 7820, "to": 7820 } },
+        { "text": " City.", "t0": 782, "t1": 782, "offsets": { "from": 7820, "to": 7820 } }
+      ],
+      "tokens": [
+        { "text": " I", "p": 0.96127, "t0": 28, "t1": 50, "offsets": { "from": 280, "to": 500 } },
+        { "text": " 18", "p": 0.883122, "t0": 113, "t1": 291, "offsets": { "from": 1130, "to": 2910 } },
+        { "text": "84", "p": 0.994736, "t0": 296, "t1": 535, "offsets": { "from": 2960, "to": 5350 } },
+        { "text": " fl", "p": 0.864884, "t0": 542, "t1": 620, "offsets": { "from": 5420, "to": 6200 } },
+        { "text": "ø", "p": 0.998885, "t0": 625, "t1": 706, "offsets": { "from": 6250, "to": 7060 } },
+        { "text": "de", "p": 0.458203, "t0": 706, "t1": 762, "offsets": { "from": 7060, "to": 7620 } },
+        { "text": " Tesla", "p": 0.965768, "t0": 782, "t1": 782, "offsets": { "from": 7820, "to": 7820 } },
+        { "text": " til", "p": 0.953555, "t0": 782, "t1": 782, "offsets": { "from": 7820, "to": 7820 } },
+        { "text": " USA", "p": 0.997562, "t0": 782, "t1": 782, "offsets": { "from": 7820, "to": 7820 } },
+        { "text": " for", "p": 0.903582, "t0": 782, "t1": 782, "offsets": { "from": 7820, "to": 7820 } },
+        { "text": " at", "p": 0.555625, "t0": 782, "t1": 782, "offsets": { "from": 7820, "to": 7820 } },
+        { "text": " arbe", "p": 0.998938, "t0": 782, "t1": 782, "offsets": { "from": 7820, "to": 7820 } },
+        { "text": "j", "p": 0.984301, "t0": 782, "t1": 782, "offsets": { "from": 7820, "to": 7820 } },
+        { "text": "de", "p": 0.986833, "t0": 782, "t1": 782, "offsets": { "from": 7820, "to": 7820 } },
+        { "text": " h", "p": 0.9939, "t0": 782, "t1": 782, "offsets": { "from": 7820, "to": 7820 } },
+        { "text": "os", "p": 0.988829, "t0": 782, "t1": 782, "offsets": { "from": 7820, "to": 7820 } },
+        { "text": " Edison", "p": 0.994235, "t0": 782, "t1": 782, "offsets": { "from": 7820, "to": 7820 } },
+        { "text": " Company", "p": 0.831359, "t0": 782, "t1": 782, "offsets": { "from": 7820, "to": 7820 } },
+        { "text": " i", "p": 0.850576, "t0": 782, "t1": 782, "offsets": { "from": 7820, "to": 7820 } },
+        { "text": " New", "p": 0.975082, "t0": 782, "t1": 782, "offsets": { "from": 7820, "to": 7820 } },
+        { "text": " York", "p": 0.99955, "t0": 782, "t1": 782, "offsets": { "from": 7820, "to": 7820 } },
+        { "text": " City", "p": 0.99795, "t0": 782, "t1": 782, "offsets": { "from": 7820, "to": 7820 } },
+        { "text": ".", "p": 0.911478, "t0": 782, "t1": 782, "offsets": { "from": 7820, "to": 7820 } }
+      ]
+    }
+  ]
+}

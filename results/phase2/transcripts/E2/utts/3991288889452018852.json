@@ -1,0 +1,70 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E2-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,000", "to": "00:00:30,000" },
+      "offsets":    { "from": 0, "to": 30000 },
+      "text":       " For at vende tilbage til deres tidligere energiniveau, skal de forbrænde den ekstra energi de fik fra lyset.",
+      "words": [
+        { "text": " For", "t0": 8, "t1": 94, "offsets": { "from": 80, "to": 940 } },
+        { "text": " at", "t0": 96, "t1": 153, "offsets": { "from": 960, "to": 1530 } },
+        { "text": " vende", "t0": 169, "t1": 314, "offsets": { "from": 1690, "to": 3140 } },
+        { "text": " tilbage", "t0": 314, "t1": 526, "offsets": { "from": 3140, "to": 5260 } },
+        { "text": " til", "t0": 535, "t1": 618, "offsets": { "from": 5350, "to": 6180 } },
+        { "text": " deres", "t0": 628, "t1": 772, "offsets": { "from": 6280, "to": 7720 } },
+        { "text": " tidligere", "t0": 785, "t1": 792, "offsets": { "from": 7850, "to": 7920 } },
+        { "text": " energiniveau,", "t0": 792, "t1": 792, "offsets": { "from": 7920, "to": 7920 } },
+        { "text": " skal", "t0": 792, "t1": 792, "offsets": { "from": 7920, "to": 7920 } },
+        { "text": " de", "t0": 792, "t1": 792, "offsets": { "from": 7920, "to": 7920 } },
+        { "text": " forbrænde", "t0": 792, "t1": 792, "offsets": { "from": 7920, "to": 7920 } },
+        { "text": " den", "t0": 792, "t1": 792, "offsets": { "from": 7920, "to": 7920 } },
+        { "text": " ekstra", "t0": 792, "t1": 792, "offsets": { "from": 7920, "to": 7920 } },
+        { "text": " energi", "t0": 792, "t1": 792, "offsets": { "from": 7920, "to": 7920 } },
+        { "text": " de", "t0": 792, "t1": 792, "offsets": { "from": 7920, "to": 7920 } },
+        { "text": " fik", "t0": 792, "t1": 792, "offsets": { "from": 7920, "to": 7920 } },
+        { "text": " fra", "t0": 792, "t1": 792, "offsets": { "from": 7920, "to": 7920 } },
+        { "text": " lyset.", "t0": 792, "t1": 792, "offsets": { "from": 7920, "to": 7920 } }
+      ],
+      "tokens": [
+        { "text": " For", "p": 0.945417, "t0": 8, "t1": 94, "offsets": { "from": 80, "to": 940 } },
+        { "text": " at", "p": 0.995653, "t0": 96, "t1": 153, "offsets": { "from": 960, "to": 1530 } },
+        { "text": " v", "p": 0.991493, "t0": 169, "t1": 188, "offsets": { "from": 1690, "to": 1880 } },
+        { "text": "ende", "p": 0.995389, "t0": 188, "t1": 314, "offsets": { "from": 1880, "to": 3140 } },
+        { "text": " til", "p": 0.996084, "t0": 314, "t1": 408, "offsets": { "from": 3140, "to": 4080 } },
+        { "text": "bage", "p": 0.991764, "t0": 408, "t1": 526, "offsets": { "from": 4080, "to": 5260 } },
+        { "text": " til", "p": 0.983903, "t0": 535, "t1": 618, "offsets": { "from": 5350, "to": 6180 } },
+        { "text": " der", "p": 0.983971, "t0": 628, "t1": 722, "offsets": { "from": 6280, "to": 7220 } },
+        { "text": "es", "p": 0.992578, "t0": 722, "t1": 772, "offsets": { "from": 7220, "to": 7720 } },
+        { "text": " tid", "p": 0.997018, "t0": 785, "t1": 792, "offsets": { "from": 7850, "to": 7920 } },
+        { "text": "lig", "p": 0.992142, "t0": 792, "t1": 792, "offsets": { "from": 7920, "to": 7920 } },
+        { "text": "ere", "p": 0.999922, "t0": 792, "t1": 792, "offsets": { "from": 7920, "to": 7920 } },
+        { "text": " ener", "p": 0.968572, "t0": 792, "t1": 792, "offsets": { "from": 7920, "to": 7920 } },
+        { "text": "gin", "p": 0.819977, "t0": 792, "t1": 792, "offsets": { "from": 7920, "to": 7920 } },
+        { "text": "ive", "p": 0.99144, "t0": 792, "t1": 792, "offsets": { "from": 7920, "to": 7920 } },
+        { "text": "au", "p": 0.996346, "t0": 792, "t1": 792, "offsets": { "from": 7920, "to": 7920 } },
+        { "text": ",", "p": 0.636209, "t0": 792, "t1": 792, "offsets": { "from": 7920, "to": 7920 } },
+        { "text": " skal", "p": 0.985582, "t0": 792, "t1": 792, "offsets": { "from": 7920, "to": 7920 } },
+        { "text": " de", "p": 0.940449, "t0": 792, "t1": 792, "offsets": { "from": 7920, "to": 7920 } },
+        { "text": " for", "p": 0.888854, "t0": 792, "t1": 792, "offsets": { "from": 7920, "to": 7920 } },
+        { "text": "br", "p": 0.994332, "t0": 792, "t1": 792, "offsets": { "from": 7920, "to": 7920 } },
+        { "text": "æ", "p": 0.897953, "t0": 792, "t1": 792, "offsets": { "from": 7920, "to": 7920 } },
+        { "text": "nde", "p": 0.998599, "t0": 792, "t1": 792, "offsets": { "from": 7920, "to": 7920 } },
+        { "text": " den", "p": 0.935645, "t0": 792, "t1": 792, "offsets": { "from": 7920, "to": 7920 } },
+        { "text": " ek", "p": 0.993926, "t0": 792, "t1": 792, "offsets": { "from": 7920, "to": 7920 } },
+        { "text": "stra", "p": 0.997697, "t0": 792, "t1": 792, "offsets": { "from": 7920, "to": 7920 } },
+        { "text": " ener", "p": 0.987918, "t0": 792, "t1": 792, "offsets": { "from": 7920, "to": 7920 } },
+        { "text": "gi", "p": 0.999887, "t0": 792, "t1": 792, "offsets": { "from": 7920, "to": 7920 } },
+        { "text": " de", "p": 0.557554, "t0": 792, "t1": 792, "offsets": { "from": 7920, "to": 7920 } },
+        { "text": " fik", "p": 0.989406, "t0": 792, "t1": 792, "offsets": { "from": 7920, "to": 7920 } },
+        { "text": " fra", "p": 0.989899, "t0": 792, "t1": 792, "offsets": { "from": 7920, "to": 7920 } },
+        { "text": " lys", "p": 0.998091, "t0": 792, "t1": 792, "offsets": { "from": 7920, "to": 7920 } },
+        { "text": "et", "p": 0.998873, "t0": 792, "t1": 792, "offsets": { "from": 7920, "to": 7920 } },
+        { "text": ".", "p": 0.920846, "t0": 792, "t1": 792, "offsets": { "from": 7920, "to": 7920 } }
+      ]
+    }
+  ]
+}

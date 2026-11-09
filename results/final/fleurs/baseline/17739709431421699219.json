@@ -1,0 +1,71 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,000", "to": "00:00:30,000" },
+      "offsets":    { "from": 0, "to": 30000 },
+      "text":       " Der er også mange mennesker til stede, at der ikke var mulighed for at få adgang til begravelsen på Peterspladsen.",
+      "words": [
+        { "text": " Der", "t0": 8, "t1": 89, "offsets": { "from": 80, "to": 890 } },
+        { "text": " er", "t0": 89, "t1": 143, "offsets": { "from": 890, "to": 1430 } },
+        { "text": " også", "t0": 152, "t1": 295, "offsets": { "from": 1520, "to": 2950 } },
+        { "text": " mange", "t0": 296, "t1": 433, "offsets": { "from": 2960, "to": 4330 } },
+        { "text": " mennesker", "t0": 443, "t1": 635, "offsets": { "from": 4430, "to": 6350 } },
+        { "text": " til", "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " stede,", "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " at", "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " der", "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " ikke", "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " var", "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " mulighed", "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " for", "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " at", "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " få", "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " adgang", "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " til", "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " begravelsen", "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " på", "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " Peterspladsen.", "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } }
+      ],
+      "tokens": [
+        { "text": " Der", "p": 0.96409, "t0": 8, "t1": 89, "offsets": { "from": 80, "to": 890 } },
+        { "text": " er", "p": 0.876451, "t0": 89, "t1": 143, "offsets": { "from": 890, "to": 1430 } },
+        { "text": " også", "p": 0.926835, "t0": 152, "t1": 295, "offsets": { "from": 1520, "to": 2950 } },
+        { "text": " mange", "p": 0.987443, "t0": 296, "t1": 433, "offsets": { "from": 2960, "to": 4330 } },
+        { "text": " men", "p": 0.985571, "t0": 443, "t1": 505, "offsets": { "from": 4430, "to": 5050 } },
+        { "text": "nes", "p": 0.996478, "t0": 528, "t1": 621, "offsets": { "from": 5280, "to": 6210 } },
+        { "text": "ker", "p": 0.992208, "t0": 621, "t1": 635, "offsets": { "from": 6210, "to": 6350 } },
+        { "text": " til", "p": 0.957914, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " st", "p": 0.920297, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": "ede", "p": 0.696172, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": ",", "p": 0.791941, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " at", "p": 0.561687, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " der", "p": 0.968047, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " ikke", "p": 0.993042, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " var", "p": 0.925627, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " mul", "p": 0.997828, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": "igh", "p": 0.99193, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": "ed", "p": 0.983194, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " for", "p": 0.673535, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " at", "p": 0.432687, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " få", "p": 0.974317, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " ad", "p": 0.996784, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": "gang", "p": 0.999302, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " til", "p": 0.988832, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " beg", "p": 0.992057, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": "ravel", "p": 0.811877, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": "sen", "p": 0.993801, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " på", "p": 0.899869, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " Peters", "p": 0.985535, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": "pl", "p": 0.824112, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": "ads", "p": 0.990592, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": "en", "p": 0.996489, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": ".", "p": 0.898607, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } }
+      ]
+    }
+  ]
+}

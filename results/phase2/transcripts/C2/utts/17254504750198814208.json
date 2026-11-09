@@ -1,0 +1,49 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C2-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,260", "to": "00:00:30,260" },
+      "offsets":    { "from": 260, "to": 30260 },
+      "text":       " Folk slog på ruderne med stole, men vinduerne kunne ikke smadres.",
+      "words": [
+        { "text": " Folk", "t0": 62, "t1": 228, "offsets": { "from": 620, "to": 2280 } },
+        { "text": " slog", "t0": 228, "t1": 428, "offsets": { "from": 2280, "to": 4280 } },
+        { "text": " på", "t0": 428, "t1": 582, "offsets": { "from": 4280, "to": 5820 } },
+        { "text": " ruderne", "t0": 583, "t1": 623, "offsets": { "from": 5830, "to": 6230 } },
+        { "text": " med", "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " stole,", "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " men", "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " vinduerne", "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " kunne", "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " ikke", "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " smadres.", "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } }
+      ],
+      "tokens": [
+        { "text": " Fol", "p": 0.938288, "t0": 62, "t1": 178, "offsets": { "from": 620, "to": 1780 } },
+        { "text": "k", "p": 0.999937, "t0": 178, "t1": 228, "offsets": { "from": 1780, "to": 2280 } },
+        { "text": " slog", "p": 0.923055, "t0": 228, "t1": 428, "offsets": { "from": 2280, "to": 4280 } },
+        { "text": " på", "p": 0.993148, "t0": 428, "t1": 582, "offsets": { "from": 4280, "to": 5820 } },
+        { "text": " r", "p": 0.829506, "t0": 583, "t1": 623, "offsets": { "from": 5830, "to": 6230 } },
+        { "text": "uder", "p": 0.992074, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": "ne", "p": 0.988056, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " med", "p": 0.994205, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " stole", "p": 0.922963, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": ",", "p": 0.910495, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " men", "p": 0.989227, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " vind", "p": 0.993765, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": "uer", "p": 0.99956, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": "ne", "p": 0.997421, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " kunne", "p": 0.99497, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " ikke", "p": 0.987684, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " sm", "p": 0.997232, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": "ad", "p": 0.939827, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": "res", "p": 0.703921, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": ".", "p": 0.94151, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,170", "to": "00:00:30,170" },
+      "offsets":    { "from": 170, "to": 30170 },
+      "text":       " Flokkene består af 1-3 beslægtede voksne hanner samt op til 30 hunder og unger.",
+      "words": [
+        { "text": " Flokkene", "t0": 36, "t1": 323, "offsets": { "from": 360, "to": 3230 } },
+        { "text": " består", "t0": 323, "t1": 591, "offsets": { "from": 3230, "to": 5910 } },
+        { "text": " af", "t0": 591, "t1": 668, "offsets": { "from": 5910, "to": 6680 } },
+        { "text": " 1-3", "t0": 668, "t1": 936, "offsets": { "from": 6680, "to": 9360 } },
+        { "text": " beslægtede", "t0": 936, "t1": 971, "offsets": { "from": 9360, "to": 9710 } },
+        { "text": " voksne", "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } },
+        { "text": " hanner", "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } },
+        { "text": " samt", "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } },
+        { "text": " op", "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } },
+        { "text": " til", "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } },
+        { "text": " 30", "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } },
+        { "text": " hunder", "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } },
+        { "text": " og", "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } },
+        { "text": " unger.", "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } }
+      ],
+      "tokens": [
+        { "text": " Fl", "p": 0.961067, "t0": 36, "t1": 94, "offsets": { "from": 360, "to": 940 } },
+        { "text": "ok", "p": 0.99855, "t0": 144, "t1": 167, "offsets": { "from": 1440, "to": 1670 } },
+        { "text": "k", "p": 0.80728, "t0": 170, "t1": 202, "offsets": { "from": 1700, "to": 2020 } },
+        { "text": "ene", "p": 0.988393, "t0": 215, "t1": 323, "offsets": { "from": 2150, "to": 3230 } },
+        { "text": " best", "p": 0.991769, "t0": 323, "t1": 476, "offsets": { "from": 3230, "to": 4760 } },
+        { "text": "år", "p": 0.998801, "t0": 476, "t1": 591, "offsets": { "from": 4760, "to": 5910 } },
+        { "text": " af", "p": 0.987956, "t0": 591, "t1": 668, "offsets": { "from": 5910, "to": 6680 } },
+        { "text": " 1", "p": 0.801901, "t0": 668, "t1": 780, "offsets": { "from": 6680, "to": 7800 } },
+        { "text": "-", "p": 0.865595, "t0": 780, "t1": 804, "offsets": { "from": 7800, "to": 8040 } },
+        { "text": "3", "p": 0.98998, "t0": 820, "t1": 936, "offsets": { "from": 8200, "to": 9360 } },
+        { "text": " bes", "p": 0.753647, "t0": 936, "t1": 965, "offsets": { "from": 9360, "to": 9650 } },
+        { "text": "l", "p": 0.887991, "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } },
+        { "text": "æ", "p": 0.998906, "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } },
+        { "text": "gt", "p": 0.997012, "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } },
+        { "text": "ede", "p": 0.974697, "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } },
+        { "text": " v", "p": 0.958919, "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } },
+        { "text": "oks", "p": 0.997619, "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } },
+        { "text": "ne", "p": 0.857662, "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } },
+        { "text": " h", "p": 0.544919, "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } },
+        { "text": "anner", "p": 0.813053, "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } },
+        { "text": " sam", "p": 0.54125, "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } },
+        { "text": "t", "p": 0.999016, "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } },
+        { "text": " op", "p": 0.907935, "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } },
+        { "text": " til", "p": 0.957569, "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } },
+        { "text": " 30", "p": 0.987072, "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } },
+        { "text": " h", "p": 0.989765, "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } },
+        { "text": "under", "p": 0.907715, "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } },
+        { "text": " og", "p": 0.993796, "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } },
+        { "text": " un", "p": 0.984189, "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } },
+        { "text": "ger", "p": 0.99179, "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } },
+        { "text": ".", "p": 0.923691, "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } }
+      ]
+    }
+  ]
+}

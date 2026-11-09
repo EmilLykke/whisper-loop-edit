@@ -1,0 +1,68 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E7-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,760", "to": "00:00:30,760" },
+      "offsets":    { "from": 760, "to": 30760 },
+      "text":       " Det var planen, at det skulle fælles tirsdag, men det blev reddet af en nødbestemmelse i retten.",
+      "words": [
+        { "text": " Det", "t0": 96, "t1": 180, "offsets": { "from": 960, "to": 1800 } },
+        { "text": " var", "t0": 180, "t1": 275, "offsets": { "from": 1800, "to": 2750 } },
+        { "text": " planen,", "t0": 286, "t1": 502, "offsets": { "from": 2860, "to": 5020 } },
+        { "text": " at", "t0": 522, "t1": 522, "offsets": { "from": 5220, "to": 5220 } },
+        { "text": " det", "t0": 522, "t1": 522, "offsets": { "from": 5220, "to": 5220 } },
+        { "text": " skulle", "t0": 522, "t1": 522, "offsets": { "from": 5220, "to": 5220 } },
+        { "text": " fælles", "t0": 522, "t1": 522, "offsets": { "from": 5220, "to": 5220 } },
+        { "text": " tirsdag,", "t0": 522, "t1": 522, "offsets": { "from": 5220, "to": 5220 } },
+        { "text": " men", "t0": 522, "t1": 522, "offsets": { "from": 5220, "to": 5220 } },
+        { "text": " det", "t0": 522, "t1": 522, "offsets": { "from": 5220, "to": 5220 } },
+        { "text": " blev", "t0": 522, "t1": 522, "offsets": { "from": 5220, "to": 5220 } },
+        { "text": " reddet", "t0": 522, "t1": 522, "offsets": { "from": 5220, "to": 5220 } },
+        { "text": " af", "t0": 522, "t1": 522, "offsets": { "from": 5220, "to": 5220 } },
+        { "text": " en", "t0": 522, "t1": 522, "offsets": { "from": 5220, "to": 5220 } },
+        { "text": " nødbestemmelse", "t0": 522, "t1": 522, "offsets": { "from": 5220, "to": 5220 } },
+        { "text": " i", "t0": 522, "t1": 522, "offsets": { "from": 5220, "to": 5220 } },
+        { "text": " retten.", "t0": 522, "t1": 522, "offsets": { "from": 5220, "to": 5220 } }
+      ],
+      "tokens": [
+        { "text": " Det", "p": 0.952769, "t0": 96, "t1": 180, "offsets": { "from": 960, "to": 1800 } },
+        { "text": " var", "p": 0.989963, "t0": 180, "t1": 275, "offsets": { "from": 1800, "to": 2750 } },
+        { "text": " plan", "p": 0.990561, "t0": 286, "t1": 423, "offsets": { "from": 2860, "to": 4230 } },
+        { "text": "en", "p": 0.998483, "t0": 423, "t1": 484, "offsets": { "from": 4230, "to": 4840 } },
+        { "text": ",", "p": 0.428736, "t0": 491, "t1": 502, "offsets": { "from": 4910, "to": 5020 } },
+        { "text": " at", "p": 0.978566, "t0": 522, "t1": 522, "offsets": { "from": 5220, "to": 5220 } },
+        { "text": " det", "p": 0.978485, "t0": 522, "t1": 522, "offsets": { "from": 5220, "to": 5220 } },
+        { "text": " skulle", "p": 0.996808, "t0": 522, "t1": 522, "offsets": { "from": 5220, "to": 5220 } },
+        { "text": " f", "p": 0.991576, "t0": 522, "t1": 522, "offsets": { "from": 5220, "to": 5220 } },
+        { "text": "æ", "p": 0.999321, "t0": 522, "t1": 522, "offsets": { "from": 5220, "to": 5220 } },
+        { "text": "lles", "p": 0.841691, "t0": 522, "t1": 522, "offsets": { "from": 5220, "to": 5220 } },
+        { "text": " t", "p": 0.954653, "t0": 522, "t1": 522, "offsets": { "from": 5220, "to": 5220 } },
+        { "text": "irs", "p": 0.999628, "t0": 522, "t1": 522, "offsets": { "from": 5220, "to": 5220 } },
+        { "text": "dag", "p": 0.999478, "t0": 522, "t1": 522, "offsets": { "from": 5220, "to": 5220 } },
+        { "text": ",", "p": 0.926452, "t0": 522, "t1": 522, "offsets": { "from": 5220, "to": 5220 } },
+        { "text": " men", "p": 0.995025, "t0": 522, "t1": 522, "offsets": { "from": 5220, "to": 5220 } },
+        { "text": " det", "p": 0.937505, "t0": 522, "t1": 522, "offsets": { "from": 5220, "to": 5220 } },
+        { "text": " blev", "p": 0.993218, "t0": 522, "t1": 522, "offsets": { "from": 5220, "to": 5220 } },
+        { "text": " red", "p": 0.914637, "t0": 522, "t1": 522, "offsets": { "from": 5220, "to": 5220 } },
+        { "text": "det", "p": 0.983099, "t0": 522, "t1": 522, "offsets": { "from": 5220, "to": 5220 } },
+        { "text": " af", "p": 0.993919, "t0": 522, "t1": 522, "offsets": { "from": 5220, "to": 5220 } },
+        { "text": " en", "p": 0.987071, "t0": 522, "t1": 522, "offsets": { "from": 5220, "to": 5220 } },
+        { "text": " n", "p": 0.666992, "t0": 522, "t1": 522, "offsets": { "from": 5220, "to": 5220 } },
+        { "text": "ø", "p": 0.99863, "t0": 522, "t1": 522, "offsets": { "from": 5220, "to": 5220 } },
+        { "text": "d", "p": 0.999844, "t0": 522, "t1": 522, "offsets": { "from": 5220, "to": 5220 } },
+        { "text": "best", "p": 0.999258, "t0": 522, "t1": 522, "offsets": { "from": 5220, "to": 5220 } },
+        { "text": "em", "p": 0.876608, "t0": 522, "t1": 522, "offsets": { "from": 5220, "to": 5220 } },
+        { "text": "mel", "p": 0.994033, "t0": 522, "t1": 522, "offsets": { "from": 5220, "to": 5220 } },
+        { "text": "se", "p": 0.999949, "t0": 522, "t1": 522, "offsets": { "from": 5220, "to": 5220 } },
+        { "text": " i", "p": 0.992831, "t0": 522, "t1": 522, "offsets": { "from": 5220, "to": 5220 } },
+        { "text": " ret", "p": 0.95722, "t0": 522, "t1": 522, "offsets": { "from": 5220, "to": 5220 } },
+        { "text": "ten", "p": 0.998473, "t0": 522, "t1": 522, "offsets": { "from": 5220, "to": 5220 } },
+        { "text": ".", "p": 0.969074, "t0": 522, "t1": 522, "offsets": { "from": 5220, "to": 5220 } }
+      ]
+    }
+  ]
+}

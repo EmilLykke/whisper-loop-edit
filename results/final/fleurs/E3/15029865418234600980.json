@@ -1,0 +1,73 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,170", "to": "00:00:30,170" },
+      "offsets":    { "from": 170, "to": 30170 },
+      "text":       " Legeringen af grundlæggende blandinger af 2 eller 4 metaller. Glem ikke at der er mange stoffer i det periodiske system.",
+      "words": [
+        { "text": " Legeringen", "t0": 36, "t1": 288, "offsets": { "from": 360, "to": 2880 } },
+        { "text": " af", "t0": 288, "t1": 342, "offsets": { "from": 2880, "to": 3420 } },
+        { "text": " grundlæggende", "t0": 342, "t1": 721, "offsets": { "from": 3420, "to": 7210 } },
+        { "text": " blandinger", "t0": 721, "t1": 992, "offsets": { "from": 7210, "to": 9920 } },
+        { "text": " af", "t0": 992, "t1": 1005, "offsets": { "from": 9920, "to": 10050 } },
+        { "text": " 2", "t0": 1046, "t1": 1128, "offsets": { "from": 10460, "to": 11280 } },
+        { "text": " eller", "t0": 1128, "t1": 1263, "offsets": { "from": 11280, "to": 12630 } },
+        { "text": " 4", "t0": 1263, "t1": 1343, "offsets": { "from": 12630, "to": 13430 } },
+        { "text": " metaller.", "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": " Glem", "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": " ikke", "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": " at", "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": " der", "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": " er", "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": " mange", "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": " stoffer", "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": " i", "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": " det", "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": " periodiske", "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": " system.", "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } }
+      ],
+      "tokens": [
+        { "text": " Leg", "p": 0.862019, "t0": 36, "t1": 98, "offsets": { "from": 360, "to": 980 } },
+        { "text": "ering", "p": 0.997537, "t0": 145, "t1": 220, "offsets": { "from": 1450, "to": 2200 } },
+        { "text": "en", "p": 0.556951, "t0": 249, "t1": 288, "offsets": { "from": 2490, "to": 2880 } },
+        { "text": " af", "p": 0.701354, "t0": 288, "t1": 342, "offsets": { "from": 2880, "to": 3420 } },
+        { "text": " grund", "p": 0.939773, "t0": 342, "t1": 478, "offsets": { "from": 3420, "to": 4780 } },
+        { "text": "l", "p": 0.991531, "t0": 478, "t1": 505, "offsets": { "from": 4780, "to": 5050 } },
+        { "text": "æ", "p": 0.999674, "t0": 505, "t1": 527, "offsets": { "from": 5050, "to": 5270 } },
+        { "text": "gg", "p": 0.997253, "t0": 573, "t1": 612, "offsets": { "from": 5730, "to": 6120 } },
+        { "text": "ende", "p": 0.998671, "t0": 617, "t1": 721, "offsets": { "from": 6170, "to": 7210 } },
+        { "text": " bland", "p": 0.99282, "t0": 721, "t1": 857, "offsets": { "from": 7210, "to": 8570 } },
+        { "text": "inger", "p": 0.897936, "t0": 857, "t1": 992, "offsets": { "from": 8570, "to": 9920 } },
+        { "text": " af", "p": 0.729007, "t0": 992, "t1": 1005, "offsets": { "from": 9920, "to": 10050 } },
+        { "text": " 2", "p": 0.604433, "t0": 1046, "t1": 1128, "offsets": { "from": 10460, "to": 11280 } },
+        { "text": " eller", "p": 0.930864, "t0": 1128, "t1": 1263, "offsets": { "from": 11280, "to": 12630 } },
+        { "text": " 4", "p": 0.982427, "t0": 1263, "t1": 1343, "offsets": { "from": 12630, "to": 13430 } },
+        { "text": " metall", "p": 0.979215, "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": "er", "p": 0.999222, "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": ".", "p": 0.693363, "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": " G", "p": 0.988984, "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": "lem", "p": 0.999884, "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": " ikke", "p": 0.984906, "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": " at", "p": 0.592113, "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": " der", "p": 0.97334, "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": " er", "p": 0.937169, "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": " mange", "p": 0.988927, "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": " st", "p": 0.995691, "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": "off", "p": 0.998207, "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": "er", "p": 0.993059, "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": " i", "p": 0.990558, "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": " det", "p": 0.959485, "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": " period", "p": 0.969573, "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": "is", "p": 0.991539, "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": "ke", "p": 0.999786, "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": " system", "p": 0.978945, "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": ".", "p": 0.900052, "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } }
+      ]
+    }
+  ]
+}

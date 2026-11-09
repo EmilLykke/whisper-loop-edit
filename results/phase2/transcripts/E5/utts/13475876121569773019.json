@@ -1,0 +1,64 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E5-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,930", "to": "00:00:30,930" },
+      "offsets":    { "from": 930, "to": 30930 },
+      "text":       " Mens projektbaserede læring bude gøre læring lettere og mere interessant, går Stilasering et skridt yder.",
+      "words": [
+        { "text": " Mens", "t0": 113, "t1": 215, "offsets": { "from": 1130, "to": 2150 } },
+        { "text": " projektbaserede", "t0": 215, "t1": 671, "offsets": { "from": 2150, "to": 6710 } },
+        { "text": " læring", "t0": 676, "t1": 786, "offsets": { "from": 6760, "to": 7860 } },
+        { "text": " bude", "t0": 786, "t1": 786, "offsets": { "from": 7860, "to": 7860 } },
+        { "text": " gøre", "t0": 786, "t1": 786, "offsets": { "from": 7860, "to": 7860 } },
+        { "text": " læring", "t0": 786, "t1": 786, "offsets": { "from": 7860, "to": 7860 } },
+        { "text": " lettere", "t0": 786, "t1": 786, "offsets": { "from": 7860, "to": 7860 } },
+        { "text": " og", "t0": 786, "t1": 786, "offsets": { "from": 7860, "to": 7860 } },
+        { "text": " mere", "t0": 786, "t1": 786, "offsets": { "from": 7860, "to": 7860 } },
+        { "text": " interessant,", "t0": 786, "t1": 786, "offsets": { "from": 7860, "to": 7860 } },
+        { "text": " går", "t0": 786, "t1": 786, "offsets": { "from": 7860, "to": 7860 } },
+        { "text": " Stilasering", "t0": 786, "t1": 786, "offsets": { "from": 7860, "to": 7860 } },
+        { "text": " et", "t0": 786, "t1": 786, "offsets": { "from": 7860, "to": 7860 } },
+        { "text": " skridt", "t0": 786, "t1": 786, "offsets": { "from": 7860, "to": 7860 } },
+        { "text": " yder.", "t0": 786, "t1": 786, "offsets": { "from": 7860, "to": 7860 } }
+      ],
+      "tokens": [
+        { "text": " Mens", "p": 0.95806, "t0": 113, "t1": 215, "offsets": { "from": 1130, "to": 2150 } },
+        { "text": " projekt", "p": 0.967383, "t0": 215, "t1": 427, "offsets": { "from": 2150, "to": 4270 } },
+        { "text": "bas", "p": 0.956014, "t0": 433, "t1": 518, "offsets": { "from": 4330, "to": 5180 } },
+        { "text": "ered", "p": 0.610797, "t0": 547, "t1": 640, "offsets": { "from": 5470, "to": 6400 } },
+        { "text": "e", "p": 0.998161, "t0": 642, "t1": 671, "offsets": { "from": 6420, "to": 6710 } },
+        { "text": " læ", "p": 0.98441, "t0": 676, "t1": 764, "offsets": { "from": 6760, "to": 7640 } },
+        { "text": "ring", "p": 0.988054, "t0": 764, "t1": 786, "offsets": { "from": 7640, "to": 7860 } },
+        { "text": " b", "p": 0.280826, "t0": 786, "t1": 786, "offsets": { "from": 7860, "to": 7860 } },
+        { "text": "ude", "p": 0.866296, "t0": 786, "t1": 786, "offsets": { "from": 7860, "to": 7860 } },
+        { "text": " g", "p": 0.976928, "t0": 786, "t1": 786, "offsets": { "from": 7860, "to": 7860 } },
+        { "text": "øre", "p": 0.922212, "t0": 786, "t1": 786, "offsets": { "from": 7860, "to": 7860 } },
+        { "text": " læ", "p": 0.901057, "t0": 786, "t1": 786, "offsets": { "from": 7860, "to": 7860 } },
+        { "text": "ring", "p": 0.988783, "t0": 786, "t1": 786, "offsets": { "from": 7860, "to": 7860 } },
+        { "text": " lett", "p": 0.916613, "t0": 786, "t1": 786, "offsets": { "from": 7860, "to": 7860 } },
+        { "text": "ere", "p": 0.999436, "t0": 786, "t1": 786, "offsets": { "from": 7860, "to": 7860 } },
+        { "text": " og", "p": 0.819067, "t0": 786, "t1": 786, "offsets": { "from": 7860, "to": 7860 } },
+        { "text": " mere", "p": 0.997286, "t0": 786, "t1": 786, "offsets": { "from": 7860, "to": 7860 } },
+        { "text": " interessant", "p": 0.960144, "t0": 786, "t1": 786, "offsets": { "from": 7860, "to": 7860 } },
+        { "text": ",", "p": 0.625562, "t0": 786, "t1": 786, "offsets": { "from": 7860, "to": 7860 } },
+        { "text": " går", "p": 0.991843, "t0": 786, "t1": 786, "offsets": { "from": 7860, "to": 7860 } },
+        { "text": " St", "p": 0.437103, "t0": 786, "t1": 786, "offsets": { "from": 7860, "to": 7860 } },
+        { "text": "il", "p": 0.817853, "t0": 786, "t1": 786, "offsets": { "from": 7860, "to": 7860 } },
+        { "text": "as", "p": 0.189253, "t0": 786, "t1": 786, "offsets": { "from": 7860, "to": 7860 } },
+        { "text": "ering", "p": 0.999491, "t0": 786, "t1": 786, "offsets": { "from": 7860, "to": 7860 } },
+        { "text": " et", "p": 0.962085, "t0": 786, "t1": 786, "offsets": { "from": 7860, "to": 7860 } },
+        { "text": " sk", "p": 0.969176, "t0": 786, "t1": 786, "offsets": { "from": 7860, "to": 7860 } },
+        { "text": "rid", "p": 0.885046, "t0": 786, "t1": 786, "offsets": { "from": 7860, "to": 7860 } },
+        { "text": "t", "p": 0.99962, "t0": 786, "t1": 786, "offsets": { "from": 7860, "to": 7860 } },
+        { "text": " y", "p": 0.665634, "t0": 786, "t1": 786, "offsets": { "from": 7860, "to": 7860 } },
+        { "text": "der", "p": 0.977907, "t0": 786, "t1": 786, "offsets": { "from": 7860, "to": 7860 } },
+        { "text": ".", "p": 0.566156, "t0": 786, "t1": 786, "offsets": { "from": 7860, "to": 7860 } }
+      ]
+    }
+  ]
+}

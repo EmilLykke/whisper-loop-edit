@@ -1,0 +1,45 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,670", "to": "00:00:30,670" },
+      "offsets":    { "from": 670, "to": 30670 },
+      "text":       " En af bummerne sprang uden for Generalgouverneurens kontor.",
+      "words": [
+        { "text": " En", "t0": 87, "t1": 177, "offsets": { "from": 870, "to": 1770 } },
+        { "text": " af", "t0": 178, "t1": 288, "offsets": { "from": 1780, "to": 2880 } },
+        { "text": " bummerne", "t0": 289, "t1": 402, "offsets": { "from": 2890, "to": 4020 } },
+        { "text": " sprang", "t0": 402, "t1": 402, "offsets": { "from": 4020, "to": 4020 } },
+        { "text": " uden", "t0": 402, "t1": 402, "offsets": { "from": 4020, "to": 4020 } },
+        { "text": " for", "t0": 402, "t1": 402, "offsets": { "from": 4020, "to": 4020 } },
+        { "text": " Generalgouverneurens", "t0": 402, "t1": 402, "offsets": { "from": 4020, "to": 4020 } },
+        { "text": " kontor.", "t0": 402, "t1": 402, "offsets": { "from": 4020, "to": 4020 } }
+      ],
+      "tokens": [
+        { "text": " En", "p": 0.946054, "t0": 87, "t1": 177, "offsets": { "from": 870, "to": 1770 } },
+        { "text": " af", "p": 0.97729, "t0": 178, "t1": 288, "offsets": { "from": 1780, "to": 2880 } },
+        { "text": " bum", "p": 0.408487, "t0": 289, "t1": 383, "offsets": { "from": 2890, "to": 3830 } },
+        { "text": "mer", "p": 0.964847, "t0": 402, "t1": 402, "offsets": { "from": 4020, "to": 4020 } },
+        { "text": "ne", "p": 0.991486, "t0": 402, "t1": 402, "offsets": { "from": 4020, "to": 4020 } },
+        { "text": " spr", "p": 0.977573, "t0": 402, "t1": 402, "offsets": { "from": 4020, "to": 4020 } },
+        { "text": "ang", "p": 0.999617, "t0": 402, "t1": 402, "offsets": { "from": 4020, "to": 4020 } },
+        { "text": " u", "p": 0.971723, "t0": 402, "t1": 402, "offsets": { "from": 4020, "to": 4020 } },
+        { "text": "den", "p": 0.999011, "t0": 402, "t1": 402, "offsets": { "from": 4020, "to": 4020 } },
+        { "text": " for", "p": 0.690362, "t0": 402, "t1": 402, "offsets": { "from": 4020, "to": 4020 } },
+        { "text": " General", "p": 0.392272, "t0": 402, "t1": 402, "offsets": { "from": 4020, "to": 4020 } },
+        { "text": "g", "p": 0.451412, "t0": 402, "t1": 402, "offsets": { "from": 4020, "to": 4020 } },
+        { "text": "ouver", "p": 0.946037, "t0": 402, "t1": 402, "offsets": { "from": 4020, "to": 4020 } },
+        { "text": "ne", "p": 0.989927, "t0": 402, "t1": 402, "offsets": { "from": 4020, "to": 4020 } },
+        { "text": "ure", "p": 0.970232, "t0": 402, "t1": 402, "offsets": { "from": 4020, "to": 4020 } },
+        { "text": "ns", "p": 0.987174, "t0": 402, "t1": 402, "offsets": { "from": 4020, "to": 4020 } },
+        { "text": " kont", "p": 0.985801, "t0": 402, "t1": 402, "offsets": { "from": 4020, "to": 4020 } },
+        { "text": "or", "p": 0.997172, "t0": 402, "t1": 402, "offsets": { "from": 4020, "to": 4020 } },
+        { "text": ".", "p": 0.890321, "t0": 402, "t1": 402, "offsets": { "from": 4020, "to": 4020 } }
+      ]
+    }
+  ]
+}

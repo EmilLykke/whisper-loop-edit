@@ -1,0 +1,54 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,170", "to": "00:00:30,170" },
+      "offsets":    { "from": 170, "to": 30170 },
+      "text":       " Efter ulykken blev Gibson bragt til et hospital med en død kort tid efter.",
+      "words": [
+        { "text": " Efter", "t0": 36, "t1": 251, "offsets": { "from": 360, "to": 2510 } },
+        { "text": " ulykken", "t0": 251, "t1": 521, "offsets": { "from": 2510, "to": 5210 } },
+        { "text": " blev", "t0": 575, "t1": 672, "offsets": { "from": 5750, "to": 6720 } },
+        { "text": " Gibson", "t0": 813, "t1": 959, "offsets": { "from": 8130, "to": 9590 } },
+        { "text": " bragt", "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } },
+        { "text": " til", "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } },
+        { "text": " et", "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } },
+        { "text": " hospital", "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } },
+        { "text": " med", "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } },
+        { "text": " en", "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } },
+        { "text": " død", "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } },
+        { "text": " kort", "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } },
+        { "text": " tid", "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } },
+        { "text": " efter.", "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } }
+      ],
+      "tokens": [
+        { "text": " E", "p": 0.922987, "t0": 36, "t1": 63, "offsets": { "from": 360, "to": 630 } },
+        { "text": "fter", "p": 0.999234, "t0": 160, "t1": 251, "offsets": { "from": 1600, "to": 2510 } },
+        { "text": " u", "p": 0.940385, "t0": 251, "t1": 296, "offsets": { "from": 2510, "to": 2960 } },
+        { "text": "ly", "p": 0.998289, "t0": 296, "t1": 391, "offsets": { "from": 2960, "to": 3910 } },
+        { "text": "k", "p": 0.993076, "t0": 401, "t1": 437, "offsets": { "from": 4010, "to": 4370 } },
+        { "text": "ken", "p": 0.999321, "t0": 437, "t1": 521, "offsets": { "from": 4370, "to": 5210 } },
+        { "text": " blev", "p": 0.953755, "t0": 575, "t1": 672, "offsets": { "from": 5750, "to": 6720 } },
+        { "text": " Gibson", "p": 0.955611, "t0": 813, "t1": 959, "offsets": { "from": 8130, "to": 9590 } },
+        { "text": " bra", "p": 0.734336, "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } },
+        { "text": "gt", "p": 0.990917, "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } },
+        { "text": " til", "p": 0.976146, "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } },
+        { "text": " et", "p": 0.951929, "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } },
+        { "text": " hospital", "p": 0.968158, "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } },
+        { "text": " med", "p": 0.624138, "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } },
+        { "text": " en", "p": 0.989308, "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } },
+        { "text": " d", "p": 0.984273, "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } },
+        { "text": "ø", "p": 0.99996, "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } },
+        { "text": "d", "p": 0.876796, "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } },
+        { "text": " kort", "p": 0.976802, "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } },
+        { "text": " tid", "p": 0.998371, "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } },
+        { "text": " efter", "p": 0.973086, "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } },
+        { "text": ".", "p": 0.924348, "t0": 971, "t1": 971, "offsets": { "from": 9710, "to": 9710 } }
+      ]
+    }
+  ]
+}

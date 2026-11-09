@@ -1,0 +1,59 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,170", "to": "00:00:30,170" },
+      "offsets":    { "from": 170, "to": 30170 },
+      "text":       " I nord grænser regionen op til Sahel, og i syd og vest til Atlanterhavet.",
+      "words": [
+        { "text": " I", "t0": 36, "t1": 64, "offsets": { "from": 360, "to": 640 } },
+        { "text": " nord", "t0": 175, "t1": 251, "offsets": { "from": 1750, "to": 2510 } },
+        { "text": " grænser", "t0": 251, "t1": 616, "offsets": { "from": 2510, "to": 6160 } },
+        { "text": " regionen", "t0": 623, "t1": 998, "offsets": { "from": 6230, "to": 9980 } },
+        { "text": " op", "t0": 998, "t1": 1034, "offsets": { "from": 9980, "to": 10340 } },
+        { "text": " til", "t0": 1034, "t1": 1034, "offsets": { "from": 10340, "to": 10340 } },
+        { "text": " Sahel,", "t0": 1034, "t1": 1034, "offsets": { "from": 10340, "to": 10340 } },
+        { "text": " og", "t0": 1034, "t1": 1034, "offsets": { "from": 10340, "to": 10340 } },
+        { "text": " i", "t0": 1034, "t1": 1034, "offsets": { "from": 10340, "to": 10340 } },
+        { "text": " syd", "t0": 1034, "t1": 1034, "offsets": { "from": 10340, "to": 10340 } },
+        { "text": " og", "t0": 1034, "t1": 1034, "offsets": { "from": 10340, "to": 10340 } },
+        { "text": " vest", "t0": 1034, "t1": 1034, "offsets": { "from": 10340, "to": 10340 } },
+        { "text": " til", "t0": 1034, "t1": 1034, "offsets": { "from": 10340, "to": 10340 } },
+        { "text": " Atlanterhavet.", "t0": 1034, "t1": 1034, "offsets": { "from": 10340, "to": 10340 } }
+      ],
+      "tokens": [
+        { "text": " I", "p": 0.945458, "t0": 36, "t1": 64, "offsets": { "from": 360, "to": 640 } },
+        { "text": " nord", "p": 0.853333, "t0": 175, "t1": 251, "offsets": { "from": 1750, "to": 2510 } },
+        { "text": " gr", "p": 0.899019, "t0": 251, "t1": 345, "offsets": { "from": 2510, "to": 3450 } },
+        { "text": "æ", "p": 0.999375, "t0": 345, "t1": 438, "offsets": { "from": 3450, "to": 4380 } },
+        { "text": "ns", "p": 0.998296, "t0": 438, "t1": 531, "offsets": { "from": 4380, "to": 5310 } },
+        { "text": "er", "p": 0.942626, "t0": 531, "t1": 616, "offsets": { "from": 5310, "to": 6160 } },
+        { "text": " region", "p": 0.841682, "t0": 623, "t1": 706, "offsets": { "from": 6230, "to": 7060 } },
+        { "text": "en", "p": 0.940575, "t0": 905, "t1": 998, "offsets": { "from": 9050, "to": 9980 } },
+        { "text": " op", "p": 0.889067, "t0": 998, "t1": 1034, "offsets": { "from": 9980, "to": 10340 } },
+        { "text": " til", "p": 0.99429, "t0": 1034, "t1": 1034, "offsets": { "from": 10340, "to": 10340 } },
+        { "text": " Sah", "p": 0.974738, "t0": 1034, "t1": 1034, "offsets": { "from": 10340, "to": 10340 } },
+        { "text": "el", "p": 0.985297, "t0": 1034, "t1": 1034, "offsets": { "from": 10340, "to": 10340 } },
+        { "text": ",", "p": 0.451678, "t0": 1034, "t1": 1034, "offsets": { "from": 10340, "to": 10340 } },
+        { "text": " og", "p": 0.962338, "t0": 1034, "t1": 1034, "offsets": { "from": 10340, "to": 10340 } },
+        { "text": " i", "p": 0.972917, "t0": 1034, "t1": 1034, "offsets": { "from": 10340, "to": 10340 } },
+        { "text": " sy", "p": 0.948545, "t0": 1034, "t1": 1034, "offsets": { "from": 10340, "to": 10340 } },
+        { "text": "d", "p": 0.999855, "t0": 1034, "t1": 1034, "offsets": { "from": 10340, "to": 10340 } },
+        { "text": " og", "p": 0.969993, "t0": 1034, "t1": 1034, "offsets": { "from": 10340, "to": 10340 } },
+        { "text": " vest", "p": 0.993803, "t0": 1034, "t1": 1034, "offsets": { "from": 10340, "to": 10340 } },
+        { "text": " til", "p": 0.963318, "t0": 1034, "t1": 1034, "offsets": { "from": 10340, "to": 10340 } },
+        { "text": " At", "p": 0.608775, "t0": 1034, "t1": 1034, "offsets": { "from": 10340, "to": 10340 } },
+        { "text": "lan", "p": 0.993185, "t0": 1034, "t1": 1034, "offsets": { "from": 10340, "to": 10340 } },
+        { "text": "ter", "p": 0.965891, "t0": 1034, "t1": 1034, "offsets": { "from": 10340, "to": 10340 } },
+        { "text": "h", "p": 0.903851, "t0": 1034, "t1": 1034, "offsets": { "from": 10340, "to": 10340 } },
+        { "text": "av", "p": 0.999664, "t0": 1034, "t1": 1034, "offsets": { "from": 10340, "to": 10340 } },
+        { "text": "et", "p": 0.999577, "t0": 1034, "t1": 1034, "offsets": { "from": 10340, "to": 10340 } },
+        { "text": ".", "p": 0.938833, "t0": 1034, "t1": 1034, "offsets": { "from": 10340, "to": 10340 } }
+      ]
+    }
+  ]
+}

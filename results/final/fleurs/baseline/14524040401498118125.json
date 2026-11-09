@@ -1,0 +1,71 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,540", "to": "00:00:30,540" },
+      "offsets":    { "from": 540, "to": 30540 },
+      "text":       " Alle navneord, inklusiv ordet sige for dig, begynder altid med stort og så i midten af en sætning.",
+      "words": [
+        { "text": " Alle", "t0": 74, "t1": 191, "offsets": { "from": 740, "to": 1910 } },
+        { "text": " navneord,", "t0": 191, "t1": 524, "offsets": { "from": 1910, "to": 5240 } },
+        { "text": " inklusiv", "t0": 549, "t1": 693, "offsets": { "from": 5490, "to": 6930 } },
+        { "text": " ordet", "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": " sige", "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": " for", "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": " dig,", "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": " begynder", "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": " altid", "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": " med", "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": " stort", "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": " og", "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": " så", "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": " i", "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": " midten", "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": " af", "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": " en", "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": " sætning.", "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } }
+      ],
+      "tokens": [
+        { "text": " Alle", "p": 0.95094, "t0": 74, "t1": 191, "offsets": { "from": 740, "to": 1910 } },
+        { "text": " nav", "p": 0.996744, "t0": 191, "t1": 294, "offsets": { "from": 1910, "to": 2940 } },
+        { "text": "ne", "p": 0.887297, "t0": 294, "t1": 352, "offsets": { "from": 2940, "to": 3520 } },
+        { "text": "ord", "p": 0.922873, "t0": 414, "t1": 465, "offsets": { "from": 4140, "to": 4650 } },
+        { "text": ",", "p": 0.437915, "t0": 465, "t1": 524, "offsets": { "from": 4650, "to": 5240 } },
+        { "text": " ink", "p": 0.973725, "t0": 549, "t1": 636, "offsets": { "from": 5490, "to": 6360 } },
+        { "text": "lus", "p": 0.795885, "t0": 636, "t1": 675, "offsets": { "from": 6360, "to": 6750 } },
+        { "text": "iv", "p": 0.997978, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": " ord", "p": 0.96327, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": "et", "p": 0.994715, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": " s", "p": 0.546155, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": "ige", "p": 0.999798, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": " for", "p": 0.387235, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": " dig", "p": 0.991327, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": ",", "p": 0.681243, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": " be", "p": 0.98502, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": "gy", "p": 0.999891, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": "nder", "p": 0.991584, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": " alt", "p": 0.938851, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": "id", "p": 0.999504, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": " med", "p": 0.991864, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": " st", "p": 0.923983, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": "ort", "p": 0.998892, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": " og", "p": 0.750088, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": " så", "p": 0.849026, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": " i", "p": 0.961603, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": " mid", "p": 0.995946, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": "ten", "p": 0.999234, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": " af", "p": 0.9936, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": " en", "p": 0.990148, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": " s", "p": 0.994586, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": "æ", "p": 0.999966, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": "t", "p": 0.999786, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": "ning", "p": 0.999249, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": ".", "p": 0.938376, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } }
+      ]
+    }
+  ]
+}

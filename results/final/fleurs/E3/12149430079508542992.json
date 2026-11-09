@@ -1,0 +1,64 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,510", "to": "00:00:30,510" },
+      "offsets":    { "from": 510, "to": 30510 },
+      "text":       " Som i alle sydafrikanske nationalparker er der daglige besvarelses- og adgangskapyrer til parken.",
+      "words": [
+        { "text": " Som", "t0": 72, "t1": 154, "offsets": { "from": 720, "to": 1540 } },
+        { "text": " i", "t0": 154, "t1": 188, "offsets": { "from": 1540, "to": 1880 } },
+        { "text": " alle", "t0": 188, "t1": 326, "offsets": { "from": 1880, "to": 3260 } },
+        { "text": " sydafrikanske", "t0": 326, "t1": 619, "offsets": { "from": 3260, "to": 6190 } },
+        { "text": " nationalparker", "t0": 619, "t1": 619, "offsets": { "from": 6190, "to": 6190 } },
+        { "text": " er", "t0": 619, "t1": 619, "offsets": { "from": 6190, "to": 6190 } },
+        { "text": " der", "t0": 619, "t1": 619, "offsets": { "from": 6190, "to": 6190 } },
+        { "text": " daglige", "t0": 619, "t1": 619, "offsets": { "from": 6190, "to": 6190 } },
+        { "text": " besvarelses-", "t0": 619, "t1": 619, "offsets": { "from": 6190, "to": 6190 } },
+        { "text": " og", "t0": 619, "t1": 619, "offsets": { "from": 6190, "to": 6190 } },
+        { "text": " adgangskapyrer", "t0": 619, "t1": 619, "offsets": { "from": 6190, "to": 6190 } },
+        { "text": " til", "t0": 619, "t1": 619, "offsets": { "from": 6190, "to": 6190 } },
+        { "text": " parken.", "t0": 619, "t1": 619, "offsets": { "from": 6190, "to": 6190 } }
+      ],
+      "tokens": [
+        { "text": " Som", "p": 0.949313, "t0": 72, "t1": 154, "offsets": { "from": 720, "to": 1540 } },
+        { "text": " i", "p": 0.946169, "t0": 154, "t1": 188, "offsets": { "from": 1540, "to": 1880 } },
+        { "text": " alle", "p": 0.982883, "t0": 188, "t1": 326, "offsets": { "from": 1880, "to": 3260 } },
+        { "text": " sy", "p": 0.51953, "t0": 326, "t1": 385, "offsets": { "from": 3260, "to": 3850 } },
+        { "text": "da", "p": 0.99818, "t0": 395, "t1": 462, "offsets": { "from": 3950, "to": 4620 } },
+        { "text": "f", "p": 0.999397, "t0": 470, "t1": 497, "offsets": { "from": 4700, "to": 4970 } },
+        { "text": "rik", "p": 0.9959, "t0": 497, "t1": 599, "offsets": { "from": 4970, "to": 5990 } },
+        { "text": "ans", "p": 0.998553, "t0": 605, "t1": 605, "offsets": { "from": 6050, "to": 6050 } },
+        { "text": "ke", "p": 0.995902, "t0": 619, "t1": 619, "offsets": { "from": 6190, "to": 6190 } },
+        { "text": " national", "p": 0.973402, "t0": 619, "t1": 619, "offsets": { "from": 6190, "to": 6190 } },
+        { "text": "park", "p": 0.960845, "t0": 619, "t1": 619, "offsets": { "from": 6190, "to": 6190 } },
+        { "text": "er", "p": 0.994495, "t0": 619, "t1": 619, "offsets": { "from": 6190, "to": 6190 } },
+        { "text": " er", "p": 0.815093, "t0": 619, "t1": 619, "offsets": { "from": 6190, "to": 6190 } },
+        { "text": " der", "p": 0.998037, "t0": 619, "t1": 619, "offsets": { "from": 6190, "to": 6190 } },
+        { "text": " dag", "p": 0.991734, "t0": 619, "t1": 619, "offsets": { "from": 6190, "to": 6190 } },
+        { "text": "l", "p": 0.844768, "t0": 619, "t1": 619, "offsets": { "from": 6190, "to": 6190 } },
+        { "text": "ige", "p": 0.999781, "t0": 619, "t1": 619, "offsets": { "from": 6190, "to": 6190 } },
+        { "text": " bes", "p": 0.99303, "t0": 619, "t1": 619, "offsets": { "from": 6190, "to": 6190 } },
+        { "text": "v", "p": 0.973695, "t0": 619, "t1": 619, "offsets": { "from": 6190, "to": 6190 } },
+        { "text": "arel", "p": 0.482263, "t0": 619, "t1": 619, "offsets": { "from": 6190, "to": 6190 } },
+        { "text": "ses", "p": 0.97923, "t0": 619, "t1": 619, "offsets": { "from": 6190, "to": 6190 } },
+        { "text": "-", "p": 0.750931, "t0": 619, "t1": 619, "offsets": { "from": 6190, "to": 6190 } },
+        { "text": " og", "p": 0.993985, "t0": 619, "t1": 619, "offsets": { "from": 6190, "to": 6190 } },
+        { "text": " ad", "p": 0.996109, "t0": 619, "t1": 619, "offsets": { "from": 6190, "to": 6190 } },
+        { "text": "gang", "p": 0.999127, "t0": 619, "t1": 619, "offsets": { "from": 6190, "to": 6190 } },
+        { "text": "sk", "p": 0.324858, "t0": 619, "t1": 619, "offsets": { "from": 6190, "to": 6190 } },
+        { "text": "ap", "p": 0.905346, "t0": 619, "t1": 619, "offsets": { "from": 6190, "to": 6190 } },
+        { "text": "yr", "p": 0.326778, "t0": 619, "t1": 619, "offsets": { "from": 6190, "to": 6190 } },
+        { "text": "er", "p": 0.93233, "t0": 619, "t1": 619, "offsets": { "from": 6190, "to": 6190 } },
+        { "text": " til", "p": 0.983001, "t0": 619, "t1": 619, "offsets": { "from": 6190, "to": 6190 } },
+        { "text": " park", "p": 0.947083, "t0": 619, "t1": 619, "offsets": { "from": 6190, "to": 6190 } },
+        { "text": "en", "p": 0.984669, "t0": 619, "t1": 619, "offsets": { "from": 6190, "to": 6190 } },
+        { "text": ".", "p": 0.885419, "t0": 619, "t1": 619, "offsets": { "from": 6190, "to": 6190 } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,000", "to": "00:00:30,000" },
+      "offsets":    { "from": 0, "to": 30000 },
+      "text":       " Aerosmith har aflyst de resterende koncerter på deres turné.",
+      "words": [
+        { "text": " Aerosmith", "t0": 0, "t1": 448, "offsets": { "from": 0, "to": 4480 } },
+        { "text": " har", "t0": 479, "t1": 571, "offsets": { "from": 4790, "to": 5710 } },
+        { "text": " aflyst", "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " de", "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " resterende", "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " koncerter", "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " på", "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " deres", "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " turné.", "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } }
+      ],
+      "tokens": [
+        { "text": " A", "p": 0.80654, "t0": 0, "t1": 53, "offsets": { "from": 0, "to": 530 } },
+        { "text": "eros", "p": 0.828672, "t0": 140, "t1": 267, "offsets": { "from": 1400, "to": 2670 } },
+        { "text": "mith", "p": 0.998742, "t0": 267, "t1": 448, "offsets": { "from": 2670, "to": 4480 } },
+        { "text": " har", "p": 0.963455, "t0": 479, "t1": 571, "offsets": { "from": 4790, "to": 5710 } },
+        { "text": " af", "p": 0.997619, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": "ly", "p": 0.990726, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": "st", "p": 0.999567, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " de", "p": 0.970961, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " rester", "p": 0.998131, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": "ende", "p": 0.99708, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " kon", "p": 0.986982, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": "cer", "p": 0.996651, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": "ter", "p": 0.999838, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " på", "p": 0.981652, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " der", "p": 0.994837, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": "es", "p": 0.999674, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " turn", "p": 0.90616, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": "é", "p": 0.995628, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": ".", "p": 0.829306, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } }
+      ]
+    }
+  ]
+}

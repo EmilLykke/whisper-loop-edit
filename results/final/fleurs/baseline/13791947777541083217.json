@@ -1,0 +1,56 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,680", "to": "00:00:30,680" },
+      "offsets":    { "from": 680, "to": 30680 },
+      "text":       " Mundens overflade er lavet af sten og støv. Mundens yderlag kaldes skorpen.",
+      "words": [
+        { "text": " Mundens", "t0": 92, "t1": 371, "offsets": { "from": 920, "to": 3710 } },
+        { "text": " overflade", "t0": 380, "t1": 559, "offsets": { "from": 3800, "to": 5590 } },
+        { "text": " er", "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": " lavet", "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": " af", "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": " sten", "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": " og", "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": " støv.", "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": " Mundens", "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": " yderlag", "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": " kaldes", "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": " skorpen.", "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } }
+      ],
+      "tokens": [
+        { "text": " Mund", "p": 0.460733, "t0": 92, "t1": 242, "offsets": { "from": 920, "to": 2420 } },
+        { "text": "ens", "p": 0.941715, "t0": 242, "t1": 371, "offsets": { "from": 2420, "to": 3710 } },
+        { "text": " over", "p": 0.991535, "t0": 380, "t1": 513, "offsets": { "from": 3800, "to": 5130 } },
+        { "text": "fl", "p": 0.996818, "t0": 545, "t1": 547, "offsets": { "from": 5450, "to": 5470 } },
+        { "text": "ade", "p": 0.996272, "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": " er", "p": 0.990388, "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": " la", "p": 0.977471, "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": "vet", "p": 0.999565, "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": " af", "p": 0.998312, "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": " sten", "p": 0.997662, "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": " og", "p": 0.981332, "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": " st", "p": 0.99783, "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": "ø", "p": 0.996136, "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": "v", "p": 0.999577, "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": ".", "p": 0.674038, "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": " Mund", "p": 0.973391, "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": "ens", "p": 0.981665, "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": " y", "p": 0.997898, "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": "der", "p": 0.984067, "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": "lag", "p": 0.552171, "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": " kald", "p": 0.904225, "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": "es", "p": 0.993873, "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": " sk", "p": 0.925615, "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": "or", "p": 0.744746, "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": "pen", "p": 0.852889, "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": ".", "p": 0.950115, "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } }
+      ]
+    }
+  ]
+}

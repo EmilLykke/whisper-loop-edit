@@ -1,0 +1,73 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,540", "to": "00:00:30,540" },
+      "offsets":    { "from": 540, "to": 30540 },
+      "text":       " For at skrive noget beskrivet gennem computerskærm, behøver jeg aldrig at komme i nærheden af en blyantspidser.",
+      "words": [
+        { "text": " For", "t0": 81, "t1": 143, "offsets": { "from": 810, "to": 1430 } },
+        { "text": " at", "t0": 143, "t1": 202, "offsets": { "from": 1430, "to": 2020 } },
+        { "text": " skrive", "t0": 202, "t1": 375, "offsets": { "from": 2020, "to": 3750 } },
+        { "text": " noget", "t0": 380, "t1": 527, "offsets": { "from": 3800, "to": 5270 } },
+        { "text": " beskrivet", "t0": 527, "t1": 665, "offsets": { "from": 5270, "to": 6650 } },
+        { "text": " gennem", "t0": 665, "t1": 665, "offsets": { "from": 6650, "to": 6650 } },
+        { "text": " computerskærm,", "t0": 665, "t1": 665, "offsets": { "from": 6650, "to": 6650 } },
+        { "text": " behøver", "t0": 665, "t1": 665, "offsets": { "from": 6650, "to": 6650 } },
+        { "text": " jeg", "t0": 665, "t1": 665, "offsets": { "from": 6650, "to": 6650 } },
+        { "text": " aldrig", "t0": 665, "t1": 665, "offsets": { "from": 6650, "to": 6650 } },
+        { "text": " at", "t0": 665, "t1": 665, "offsets": { "from": 6650, "to": 6650 } },
+        { "text": " komme", "t0": 665, "t1": 665, "offsets": { "from": 6650, "to": 6650 } },
+        { "text": " i", "t0": 665, "t1": 665, "offsets": { "from": 6650, "to": 6650 } },
+        { "text": " nærheden", "t0": 665, "t1": 665, "offsets": { "from": 6650, "to": 6650 } },
+        { "text": " af", "t0": 665, "t1": 665, "offsets": { "from": 6650, "to": 6650 } },
+        { "text": " en", "t0": 665, "t1": 665, "offsets": { "from": 6650, "to": 6650 } },
+        { "text": " blyantspidser.", "t0": 665, "t1": 665, "offsets": { "from": 6650, "to": 6650 } }
+      ],
+      "tokens": [
+        { "text": " For", "p": 0.776656, "t0": 81, "t1": 143, "offsets": { "from": 810, "to": 1430 } },
+        { "text": " at", "p": 0.92444, "t0": 143, "t1": 202, "offsets": { "from": 1430, "to": 2020 } },
+        { "text": " sk", "p": 0.959941, "t0": 202, "t1": 261, "offsets": { "from": 2020, "to": 2610 } },
+        { "text": "rive", "p": 0.996871, "t0": 261, "t1": 375, "offsets": { "from": 2610, "to": 3750 } },
+        { "text": " noget", "p": 0.588704, "t0": 380, "t1": 527, "offsets": { "from": 3800, "to": 5270 } },
+        { "text": " bes", "p": 0.934306, "t0": 527, "t1": 610, "offsets": { "from": 5270, "to": 6100 } },
+        { "text": "k", "p": 0.788187, "t0": 615, "t1": 645, "offsets": { "from": 6150, "to": 6450 } },
+        { "text": "ri", "p": 0.553027, "t0": 645, "t1": 665, "offsets": { "from": 6450, "to": 6650 } },
+        { "text": "vet", "p": 0.989008, "t0": 665, "t1": 665, "offsets": { "from": 6650, "to": 6650 } },
+        { "text": " gen", "p": 0.697885, "t0": 665, "t1": 665, "offsets": { "from": 6650, "to": 6650 } },
+        { "text": "nem", "p": 0.994442, "t0": 665, "t1": 665, "offsets": { "from": 6650, "to": 6650 } },
+        { "text": " computers", "p": 0.630498, "t0": 665, "t1": 665, "offsets": { "from": 6650, "to": 6650 } },
+        { "text": "k", "p": 0.971441, "t0": 665, "t1": 665, "offsets": { "from": 6650, "to": 6650 } },
+        { "text": "ær", "p": 0.981199, "t0": 665, "t1": 665, "offsets": { "from": 6650, "to": 6650 } },
+        { "text": "m", "p": 0.477697, "t0": 665, "t1": 665, "offsets": { "from": 6650, "to": 6650 } },
+        { "text": ",", "p": 0.461049, "t0": 665, "t1": 665, "offsets": { "from": 6650, "to": 6650 } },
+        { "text": " beh", "p": 0.866691, "t0": 665, "t1": 665, "offsets": { "from": 6650, "to": 6650 } },
+        { "text": "ø", "p": 0.999712, "t0": 665, "t1": 665, "offsets": { "from": 6650, "to": 6650 } },
+        { "text": "ver", "p": 0.981734, "t0": 665, "t1": 665, "offsets": { "from": 6650, "to": 6650 } },
+        { "text": " jeg", "p": 0.447566, "t0": 665, "t1": 665, "offsets": { "from": 6650, "to": 6650 } },
+        { "text": " ald", "p": 0.910969, "t0": 665, "t1": 665, "offsets": { "from": 6650, "to": 6650 } },
+        { "text": "rig", "p": 0.999771, "t0": 665, "t1": 665, "offsets": { "from": 6650, "to": 6650 } },
+        { "text": " at", "p": 0.460098, "t0": 665, "t1": 665, "offsets": { "from": 6650, "to": 6650 } },
+        { "text": " komme", "p": 0.990885, "t0": 665, "t1": 665, "offsets": { "from": 6650, "to": 6650 } },
+        { "text": " i", "p": 0.975042, "t0": 665, "t1": 665, "offsets": { "from": 6650, "to": 6650 } },
+        { "text": " n", "p": 0.996003, "t0": 665, "t1": 665, "offsets": { "from": 6650, "to": 6650 } },
+        { "text": "ær", "p": 0.999786, "t0": 665, "t1": 665, "offsets": { "from": 6650, "to": 6650 } },
+        { "text": "h", "p": 0.948044, "t0": 665, "t1": 665, "offsets": { "from": 6650, "to": 6650 } },
+        { "text": "eden", "p": 0.998298, "t0": 665, "t1": 665, "offsets": { "from": 6650, "to": 6650 } },
+        { "text": " af", "p": 0.977691, "t0": 665, "t1": 665, "offsets": { "from": 6650, "to": 6650 } },
+        { "text": " en", "p": 0.979365, "t0": 665, "t1": 665, "offsets": { "from": 6650, "to": 6650 } },
+        { "text": " b", "p": 0.926284, "t0": 665, "t1": 665, "offsets": { "from": 6650, "to": 6650 } },
+        { "text": "ly", "p": 0.9875, "t0": 665, "t1": 665, "offsets": { "from": 6650, "to": 6650 } },
+        { "text": "ants", "p": 0.921486, "t0": 665, "t1": 665, "offsets": { "from": 6650, "to": 6650 } },
+        { "text": "p", "p": 0.982922, "t0": 665, "t1": 665, "offsets": { "from": 6650, "to": 6650 } },
+        { "text": "ids", "p": 0.986402, "t0": 665, "t1": 665, "offsets": { "from": 6650, "to": 6650 } },
+        { "text": "er", "p": 0.994031, "t0": 665, "t1": 665, "offsets": { "from": 6650, "to": 6650 } },
+        { "text": ".", "p": 0.909181, "t0": 665, "t1": 665, "offsets": { "from": 6650, "to": 6650 } }
+      ]
+    }
+  ]
+}

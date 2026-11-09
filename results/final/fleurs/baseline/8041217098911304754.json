@@ -1,0 +1,61 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,170", "to": "00:00:30,170" },
+      "offsets":    { "from": 170, "to": 30170 },
+      "text":       " Den potro førte tidlig i anden sæt, men også dette endte uafgjort med 6-6.",
+      "words": [
+        { "text": " Den", "t0": 36, "t1": 143, "offsets": { "from": 360, "to": 1430 } },
+        { "text": " potro", "t0": 198, "t1": 353, "offsets": { "from": 1980, "to": 3530 } },
+        { "text": " førte", "t0": 353, "t1": 605, "offsets": { "from": 3530, "to": 6050 } },
+        { "text": " tidlig", "t0": 605, "t1": 854, "offsets": { "from": 6050, "to": 8540 } },
+        { "text": " i", "t0": 858, "t1": 899, "offsets": { "from": 8580, "to": 8990 } },
+        { "text": " anden", "t0": 908, "t1": 1013, "offsets": { "from": 9080, "to": 10130 } },
+        { "text": " sæt,", "t0": 1013, "t1": 1013, "offsets": { "from": 10130, "to": 10130 } },
+        { "text": " men", "t0": 1013, "t1": 1013, "offsets": { "from": 10130, "to": 10130 } },
+        { "text": " også", "t0": 1013, "t1": 1013, "offsets": { "from": 10130, "to": 10130 } },
+        { "text": " dette", "t0": 1013, "t1": 1013, "offsets": { "from": 10130, "to": 10130 } },
+        { "text": " endte", "t0": 1013, "t1": 1013, "offsets": { "from": 10130, "to": 10130 } },
+        { "text": " uafgjort", "t0": 1013, "t1": 1013, "offsets": { "from": 10130, "to": 10130 } },
+        { "text": " med", "t0": 1013, "t1": 1013, "offsets": { "from": 10130, "to": 10130 } },
+        { "text": " 6-6.", "t0": 1013, "t1": 1013, "offsets": { "from": 10130, "to": 10130 } }
+      ],
+      "tokens": [
+        { "text": " Den", "p": 0.815963, "t0": 36, "t1": 143, "offsets": { "from": 360, "to": 1430 } },
+        { "text": " pot", "p": 0.527862, "t0": 198, "t1": 263, "offsets": { "from": 1980, "to": 2630 } },
+        { "text": "ro", "p": 0.975439, "t0": 278, "t1": 353, "offsets": { "from": 2780, "to": 3530 } },
+        { "text": " før", "p": 0.937326, "t0": 353, "t1": 516, "offsets": { "from": 3530, "to": 5160 } },
+        { "text": "te", "p": 0.604643, "t0": 526, "t1": 605, "offsets": { "from": 5260, "to": 6050 } },
+        { "text": " tid", "p": 0.946256, "t0": 605, "t1": 717, "offsets": { "from": 6050, "to": 7170 } },
+        { "text": "lig", "p": 0.782216, "t0": 742, "t1": 854, "offsets": { "from": 7420, "to": 8540 } },
+        { "text": " i", "p": 0.855544, "t0": 858, "t1": 899, "offsets": { "from": 8580, "to": 8990 } },
+        { "text": " and", "p": 0.923224, "t0": 908, "t1": 1013, "offsets": { "from": 9080, "to": 10130 } },
+        { "text": "en", "p": 0.631849, "t0": 1013, "t1": 1013, "offsets": { "from": 10130, "to": 10130 } },
+        { "text": " s", "p": 0.892251, "t0": 1013, "t1": 1013, "offsets": { "from": 10130, "to": 10130 } },
+        { "text": "æ", "p": 0.999887, "t0": 1013, "t1": 1013, "offsets": { "from": 10130, "to": 10130 } },
+        { "text": "t", "p": 0.99938, "t0": 1013, "t1": 1013, "offsets": { "from": 10130, "to": 10130 } },
+        { "text": ",", "p": 0.875729, "t0": 1013, "t1": 1013, "offsets": { "from": 10130, "to": 10130 } },
+        { "text": " men", "p": 0.970241, "t0": 1013, "t1": 1013, "offsets": { "from": 10130, "to": 10130 } },
+        { "text": " også", "p": 0.943887, "t0": 1013, "t1": 1013, "offsets": { "from": 10130, "to": 10130 } },
+        { "text": " dette", "p": 0.950717, "t0": 1013, "t1": 1013, "offsets": { "from": 10130, "to": 10130 } },
+        { "text": " end", "p": 0.968846, "t0": 1013, "t1": 1013, "offsets": { "from": 10130, "to": 10130 } },
+        { "text": "te", "p": 0.999777, "t0": 1013, "t1": 1013, "offsets": { "from": 10130, "to": 10130 } },
+        { "text": " u", "p": 0.973697, "t0": 1013, "t1": 1013, "offsets": { "from": 10130, "to": 10130 } },
+        { "text": "af", "p": 0.99802, "t0": 1013, "t1": 1013, "offsets": { "from": 10130, "to": 10130 } },
+        { "text": "g", "p": 0.990571, "t0": 1013, "t1": 1013, "offsets": { "from": 10130, "to": 10130 } },
+        { "text": "j", "p": 0.999066, "t0": 1013, "t1": 1013, "offsets": { "from": 10130, "to": 10130 } },
+        { "text": "ort", "p": 0.994738, "t0": 1013, "t1": 1013, "offsets": { "from": 10130, "to": 10130 } },
+        { "text": " med", "p": 0.9826, "t0": 1013, "t1": 1013, "offsets": { "from": 10130, "to": 10130 } },
+        { "text": " 6", "p": 0.926266, "t0": 1013, "t1": 1013, "offsets": { "from": 10130, "to": 10130 } },
+        { "text": "-", "p": 0.77575, "t0": 1013, "t1": 1013, "offsets": { "from": 10130, "to": 10130 } },
+        { "text": "6", "p": 0.997042, "t0": 1013, "t1": 1013, "offsets": { "from": 10130, "to": 10130 } },
+        { "text": ".", "p": 0.852706, "t0": 1013, "t1": 1013, "offsets": { "from": 10130, "to": 10130 } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,170", "to": "00:00:30,170" },
+      "offsets":    { "from": 170, "to": 30170 },
+      "text":       " Moldovas hovedsted er Chisinau. Lokalspråget er romansk, men der tales også russisk i et bredt omfang.",
+      "chunk_id":   0,
+      "words": [
+        { "text": " Moldovas", "t0": 36, "t1": 269, "offsets": { "from": 360, "to": 2690 } },
+        { "text": " hovedsted", "t0": 269, "t1": 556, "offsets": { "from": 2690, "to": 5560 } },
+        { "text": " er", "t0": 556, "t1": 604, "offsets": { "from": 5560, "to": 6040 } },
+        { "text": " Chisinau.", "t0": 634, "t1": 913, "offsets": { "from": 6340, "to": 9130 } },
+        { "text": " Lokalspråget", "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " er", "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " romansk,", "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " men", "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " der", "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " tales", "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " også", "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " russisk", "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " i", "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " et", "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " bredt", "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " omfang.", "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } }
+      ],
+      "tokens": [
+        { "text": " M", "p": 0.973467, "t0": 36, "t1": 49, "offsets": { "from": 360, "to": 490 } },
+        { "text": "old", "p": 0.999861, "t0": 49, "t1": 144, "offsets": { "from": 490, "to": 1440 } },
+        { "text": "ov", "p": 0.783503, "t0": 164, "t1": 207, "offsets": { "from": 1640, "to": 2070 } },
+        { "text": "as", "p": 0.98011, "t0": 207, "t1": 269, "offsets": { "from": 2070, "to": 2690 } },
+        { "text": " ho", "p": 0.955166, "t0": 269, "t1": 309, "offsets": { "from": 2690, "to": 3090 } },
+        { "text": "ved", "p": 0.99987, "t0": 351, "t1": 418, "offsets": { "from": 3510, "to": 4180 } },
+        { "text": "sted", "p": 0.141111, "t0": 483, "t1": 556, "offsets": { "from": 4830, "to": 5560 } },
+        { "text": " er", "p": 0.996805, "t0": 556, "t1": 604, "offsets": { "from": 5560, "to": 6040 } },
+        { "text": " Ch", "p": 0.315159, "t0": 634, "t1": 672, "offsets": { "from": 6340, "to": 6720 } },
+        { "text": "is", "p": 0.710859, "t0": 697, "t1": 746, "offsets": { "from": 6970, "to": 7460 } },
+        { "text": "ina", "p": 0.998279, "t0": 750, "t1": 821, "offsets": { "from": 7500, "to": 8210 } },
+        { "text": "u", "p": 0.997881, "t0": 848, "t1": 861, "offsets": { "from": 8480, "to": 8610 } },
+        { "text": ".", "p": 0.732269, "t0": 876, "t1": 913, "offsets": { "from": 8760, "to": 9130 } },
+        { "text": " Lok", "p": 0.972664, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": "als", "p": 0.998152, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": "pr", "p": 0.628091, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": "å", "p": 0.986005, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": "get", "p": 0.874491, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " er", "p": 0.992193, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " rom", "p": 0.680997, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": "ans", "p": 0.732047, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": "k", "p": 0.999274, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": ",", "p": 0.919603, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " men", "p": 0.989608, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " der", "p": 0.988565, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " tales", "p": 0.904696, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " også", "p": 0.996079, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " r", "p": 0.959071, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": "uss", "p": 0.999285, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": "isk", "p": 0.997906, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " i", "p": 0.979124, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " et", "p": 0.971543, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " bred", "p": 0.99958, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": "t", "p": 0.998999, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " om", "p": 0.997995, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": "fang", "p": 0.996263, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": ".", "p": 0.958901, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } }
+      ]
+    },
+    {
+      "timestamps": { "from": "00:00:10,660", "to": "00:00:40,660" },
+      "offsets":    { "from": 10660, "to": 40660 },
+      "text":       " Så er det en god fornøjelse.",
+      "chunk_id":   1,
+      "words": [
+        { "text": " Så", "t0": 1090, "t1": 1235, "offsets": { "from": 10900, "to": 12350 } },
+        { "text": " er", "t0": 1235, "t1": 1235, "offsets": { "from": 12350, "to": 12350 } },
+        { "text": " det", "t0": 1235, "t1": 1235, "offsets": { "from": 12350, "to": 12350 } },
+        { "text": " en", "t0": 1235, "t1": 1235, "offsets": { "from": 12350, "to": 12350 } },
+        { "text": " god", "t0": 1235, "t1": 1235, "offsets": { "from": 12350, "to": 12350 } },
+        { "text": " fornøjelse.", "t0": 1235, "t1": 1235, "offsets": { "from": 12350, "to": 12350 } }
+      ],
+      "tokens": [
+        { "text": " Så", "p": 0.560429, "t0": 1090, "t1": 1235, "offsets": { "from": 10900, "to": 12350 } },
+        { "text": " er", "p": 0.252731, "t0": 1235, "t1": 1235, "offsets": { "from": 12350, "to": 12350 } },
+        { "text": " det", "p": 0.829058, "t0": 1235, "t1": 1235, "offsets": { "from": 12350, "to": 12350 } },
+        { "text": " en", "p": 0.622157, "t0": 1235, "t1": 1235, "offsets": { "from": 12350, "to": 12350 } },
+        { "text": " god", "p": 0.997855, "t0": 1235, "t1": 1235, "offsets": { "from": 12350, "to": 12350 } },
+        { "text": " for", "p": 0.698683, "t0": 1235, "t1": 1235, "offsets": { "from": 12350, "to": 12350 } },
+        { "text": "n", "p": 0.999893, "t0": 1235, "t1": 1235, "offsets": { "from": 12350, "to": 12350 } },
+        { "text": "ø", "p": 1, "t0": 1235, "t1": 1235, "offsets": { "from": 12350, "to": 12350 } },
+        { "text": "j", "p": 1, "t0": 1235, "t1": 1235, "offsets": { "from": 12350, "to": 12350 } },
+        { "text": "else", "p": 1, "t0": 1235, "t1": 1235, "offsets": { "from": 12350, "to": 12350 } },
+        { "text": ".", "p": 0.373817, "t0": 1235, "t1": 1235, "offsets": { "from": 12350, "to": 12350 } }
+      ]
+    }
+  ]
+}

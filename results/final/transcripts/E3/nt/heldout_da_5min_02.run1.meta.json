@@ -1,0 +1,26 @@
+{
+  "path": "nt",
+  "clip": "heldout_da_5min_02",
+  "run": 1,
+  "argv": [
+    "../codictate/vendors/crispasr/crispasr",
+    "-m",
+    "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "-t",
+    "14",
+    "--language",
+    "da",
+    "-f",
+    "data/clips/heldout/heldout_da_5min_02.wav",
+    "--no-prints",
+    "-nt",
+    "-ojf",
+    "-of",
+    "results/final/transcripts/E3/nt/heldout_da_5min_02.run1"
+  ],
+  "wallSeconds": 15.04,
+  "exitCode": 0,
+  "error": null,
+  "stdoutBytes": 2717,
+  "stderrTail": "output_json: saving output to 'results/final/transcripts/E3/nt/heldout_da_5min_02.run1.json'\n"
+}

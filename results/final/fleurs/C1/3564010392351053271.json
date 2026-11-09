@@ -1,0 +1,67 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,000", "to": "00:00:30,000" },
+      "offsets":    { "from": 0, "to": 30000 },
+      "text":       " Gennem natten blev der lavet mellem 150 og 200 kopier, som nu er kendt som Dunlap Broad Sights.",
+      "words": [
+        { "text": " Gennem", "t0": 0, "t1": 192, "offsets": { "from": 0, "to": 1920 } },
+        { "text": " natten", "t0": 192, "t1": 384, "offsets": { "from": 1920, "to": 3840 } },
+        { "text": " blev", "t0": 385, "t1": 513, "offsets": { "from": 3850, "to": 5130 } },
+        { "text": " der", "t0": 513, "t1": 609, "offsets": { "from": 5130, "to": 6090 } },
+        { "text": " lavet", "t0": 609, "t1": 769, "offsets": { "from": 6090, "to": 7690 } },
+        { "text": " mellem", "t0": 769, "t1": 959, "offsets": { "from": 7690, "to": 9590 } },
+        { "text": " 150", "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": " og", "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": " 200", "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": " kopier,", "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": " som", "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": " nu", "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": " er", "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": " kendt", "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": " som", "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": " Dunlap", "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": " Broad", "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": " Sights.", "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } }
+      ],
+      "tokens": [
+        { "text": " G", "p": 0.815298, "t0": 0, "t1": 31, "offsets": { "from": 0, "to": 310 } },
+        { "text": "enn", "p": 0.998873, "t0": 97, "t1": 128, "offsets": { "from": 970, "to": 1280 } },
+        { "text": "em", "p": 0.996679, "t0": 128, "t1": 192, "offsets": { "from": 1280, "to": 1920 } },
+        { "text": " nat", "p": 0.997284, "t0": 192, "t1": 283, "offsets": { "from": 1920, "to": 2830 } },
+        { "text": "ten", "p": 0.995338, "t0": 291, "t1": 384, "offsets": { "from": 2910, "to": 3840 } },
+        { "text": " blev", "p": 0.947787, "t0": 385, "t1": 513, "offsets": { "from": 3850, "to": 5130 } },
+        { "text": " der", "p": 0.993157, "t0": 513, "t1": 609, "offsets": { "from": 5130, "to": 6090 } },
+        { "text": " la", "p": 0.95937, "t0": 609, "t1": 673, "offsets": { "from": 6090, "to": 6730 } },
+        { "text": "vet", "p": 0.998881, "t0": 673, "t1": 769, "offsets": { "from": 6730, "to": 7690 } },
+        { "text": " me", "p": 0.68465, "t0": 769, "t1": 821, "offsets": { "from": 7690, "to": 8210 } },
+        { "text": "ll", "p": 0.999167, "t0": 821, "t1": 896, "offsets": { "from": 8210, "to": 8960 } },
+        { "text": "em", "p": 0.998595, "t0": 897, "t1": 959, "offsets": { "from": 8970, "to": 9590 } },
+        { "text": " 150", "p": 0.444553, "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": " og", "p": 0.902906, "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": " 200", "p": 0.992627, "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": " kop", "p": 0.994564, "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": "ier", "p": 0.995545, "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": ",", "p": 0.690395, "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": " som", "p": 0.965154, "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": " nu", "p": 0.939931, "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": " er", "p": 0.989036, "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": " kend", "p": 0.997223, "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": "t", "p": 0.982885, "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": " som", "p": 0.989665, "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": " Dun", "p": 0.744113, "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": "l", "p": 0.916149, "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": "ap", "p": 0.655616, "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": " Broad", "p": 0.522059, "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": " S", "p": 0.481554, "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": "ights", "p": 0.678227, "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": ".", "p": 0.841441, "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } }
+      ]
+    }
+  ]
+}

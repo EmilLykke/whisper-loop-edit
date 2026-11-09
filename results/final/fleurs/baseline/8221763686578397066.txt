@@ -1,0 +1,1 @@
+Dette gør den bareudkompatibel med 802.11a, 802.11b og 802.11g, hvis man forudsætter at basestationen har to radioer.

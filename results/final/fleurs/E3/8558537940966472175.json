@@ -1,0 +1,52 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,500", "to": "00:00:30,500" },
+      "offsets":    { "from": 500, "to": 30500 },
+      "text":       " Mellem 10 til 0, 11. MDT startede indsatte en brand i gården.",
+      "words": [
+        { "text": " Mellem", "t0": 70, "t1": 321, "offsets": { "from": 700, "to": 3210 } },
+        { "text": " 10", "t0": 323, "t1": 593, "offsets": { "from": 3230, "to": 5930 } },
+        { "text": " til", "t0": 593, "t1": 726, "offsets": { "from": 5930, "to": 7260 } },
+        { "text": " 0,", "t0": 731, "t1": 909, "offsets": { "from": 7310, "to": 9090 } },
+        { "text": " 11.", "t0": 932, "t1": 932, "offsets": { "from": 9320, "to": 9320 } },
+        { "text": " MDT", "t0": 932, "t1": 932, "offsets": { "from": 9320, "to": 9320 } },
+        { "text": " startede", "t0": 932, "t1": 932, "offsets": { "from": 9320, "to": 9320 } },
+        { "text": " indsatte", "t0": 932, "t1": 932, "offsets": { "from": 9320, "to": 9320 } },
+        { "text": " en", "t0": 932, "t1": 932, "offsets": { "from": 9320, "to": 9320 } },
+        { "text": " brand", "t0": 932, "t1": 932, "offsets": { "from": 9320, "to": 9320 } },
+        { "text": " i", "t0": 932, "t1": 932, "offsets": { "from": 9320, "to": 9320 } },
+        { "text": " gården.", "t0": 932, "t1": 932, "offsets": { "from": 9320, "to": 9320 } }
+      ],
+      "tokens": [
+        { "text": " M", "p": 0.299881, "t0": 70, "t1": 95, "offsets": { "from": 700, "to": 950 } },
+        { "text": "ell", "p": 0.892821, "t0": 95, "t1": 140, "offsets": { "from": 950, "to": 1400 } },
+        { "text": "em", "p": 0.998614, "t0": 247, "t1": 321, "offsets": { "from": 2470, "to": 3210 } },
+        { "text": " 10", "p": 0.92673, "t0": 323, "t1": 593, "offsets": { "from": 3230, "to": 5930 } },
+        { "text": " til", "p": 0.393924, "t0": 593, "t1": 726, "offsets": { "from": 5930, "to": 7260 } },
+        { "text": " 0", "p": 0.529236, "t0": 731, "t1": 863, "offsets": { "from": 7310, "to": 8630 } },
+        { "text": ",", "p": 0.333989, "t0": 871, "t1": 909, "offsets": { "from": 8710, "to": 9090 } },
+        { "text": " 11", "p": 0.567928, "t0": 932, "t1": 932, "offsets": { "from": 9320, "to": 9320 } },
+        { "text": ".", "p": 0.465675, "t0": 932, "t1": 932, "offsets": { "from": 9320, "to": 9320 } },
+        { "text": " MD", "p": 0.461641, "t0": 932, "t1": 932, "offsets": { "from": 9320, "to": 9320 } },
+        { "text": "T", "p": 0.928786, "t0": 932, "t1": 932, "offsets": { "from": 9320, "to": 9320 } },
+        { "text": " started", "p": 0.62862, "t0": 932, "t1": 932, "offsets": { "from": 9320, "to": 9320 } },
+        { "text": "e", "p": 0.99964, "t0": 932, "t1": 932, "offsets": { "from": 9320, "to": 9320 } },
+        { "text": " ind", "p": 0.938013, "t0": 932, "t1": 932, "offsets": { "from": 9320, "to": 9320 } },
+        { "text": "s", "p": 0.996491, "t0": 932, "t1": 932, "offsets": { "from": 9320, "to": 9320 } },
+        { "text": "atte", "p": 0.954361, "t0": 932, "t1": 932, "offsets": { "from": 9320, "to": 9320 } },
+        { "text": " en", "p": 0.534947, "t0": 932, "t1": 932, "offsets": { "from": 9320, "to": 9320 } },
+        { "text": " brand", "p": 0.877877, "t0": 932, "t1": 932, "offsets": { "from": 9320, "to": 9320 } },
+        { "text": " i", "p": 0.95846, "t0": 932, "t1": 932, "offsets": { "from": 9320, "to": 9320 } },
+        { "text": " går", "p": 0.975919, "t0": 932, "t1": 932, "offsets": { "from": 9320, "to": 9320 } },
+        { "text": "den", "p": 0.999251, "t0": 932, "t1": 932, "offsets": { "from": 9320, "to": 9320 } },
+        { "text": ".", "p": 0.896784, "t0": 932, "t1": 932, "offsets": { "from": 9320, "to": 9320 } }
+      ]
+    }
+  ]
+}

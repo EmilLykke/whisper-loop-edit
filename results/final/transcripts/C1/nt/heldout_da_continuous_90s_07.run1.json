@@ -1,0 +1,599 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | ACCELERATE = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "large",
+		"multilingual": true,
+		"vocab": 51866,
+		"audio": {
+			"ctx": 1500,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"mels": 128,
+		"ftype": 1
+	},
+	"params": {
+		"model": "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+		"language": "da",
+		"translate": false
+	},
+	"result": {
+		"language": "da"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:-16:-47,-300",
+				"to": "00:00:30,000"
+			},
+			"offsets": {
+				"from": -1007300,
+				"to": 30000
+			},
+			"text": " Han skrev en dokumentarbo om sig selv i 1998.",
+			"tokens": [
+				{
+					"text": " Han",
+					"id": 7820,
+					"p": 0.965662,
+					"t_dtw": -1
+				},
+				{
+					"text": " sk",
+					"id": 1110,
+					"p": 0.999409,
+					"t_dtw": -1
+				},
+				{
+					"text": "rev",
+					"id": 40382,
+					"p": 0.998746,
+					"t_dtw": -1
+				},
+				{
+					"text": " en",
+					"id": 465,
+					"p": 0.997533,
+					"t_dtw": -1
+				},
+				{
+					"text": " dokument",
+					"id": 40858,
+					"p": 0.999809,
+					"t_dtw": -1
+				},
+				{
+					"text": "ar",
+					"id": 289,
+					"p": 0.709348,
+					"t_dtw": -1
+				},
+				{
+					"text": "bo",
+					"id": 1763,
+					"p": 0.707163,
+					"t_dtw": -1
+				},
+				{
+					"text": " om",
+					"id": 3406,
+					"p": 0.551512,
+					"t_dtw": -1
+				},
+				{
+					"text": " sig",
+					"id": 4556,
+					"p": 0.999218,
+					"t_dtw": -1
+				},
+				{
+					"text": " selv",
+					"id": 33277,
+					"p": 0.999264,
+					"t_dtw": -1
+				},
+				{
+					"text": " i",
+					"id": 741,
+					"p": 0.992557,
+					"t_dtw": -1
+				},
+				{
+					"text": " 1998",
+					"id": 21404,
+					"p": 0.998708,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.950105,
+					"t_dtw": -1
+				},
+				{
+					"text": "<|endoftext|>",
+					"timestamps": {
+						"from": "00:00:30,000",
+						"to": "00:00:30,000"
+					},
+					"offsets": {
+						"from": 30000,
+						"to": 30000
+					},
+					"id": 50257,
+					"p": 0.478282,
+					"t_dtw": -1
+				}
+			]
+		},
+		{
+			"timestamps": {
+				"from": "00:-16:-17,-300",
+				"to": "00:01:00,000"
+			},
+			"offsets": {
+				"from": -977300,
+				"to": 60000
+			},
+			"text": " Kernen består af to partikler, neutroner og protoner.",
+			"tokens": [
+				{
+					"text": " K",
+					"id": 591,
+					"p": 0.205384,
+					"t_dtw": -1
+				},
+				{
+					"text": "ernen",
+					"id": 25657,
+					"p": 0.93942,
+					"t_dtw": -1
+				},
+				{
+					"text": " best",
+					"id": 1151,
+					"p": 0.97302,
+					"t_dtw": -1
+				},
+				{
+					"text": "år",
+					"id": 6057,
+					"p": 0.969655,
+					"t_dtw": -1
+				},
+				{
+					"text": " af",
+					"id": 3238,
+					"p": 0.983723,
+					"t_dtw": -1
+				},
+				{
+					"text": " to",
+					"id": 281,
+					"p": 0.898369,
+					"t_dtw": -1
+				},
+				{
+					"text": " part",
+					"id": 644,
+					"p": 0.992114,
+					"t_dtw": -1
+				},
+				{
+					"text": "ik",
+					"id": 1035,
+					"p": 0.999489,
+					"t_dtw": -1
+				},
+				{
+					"text": "ler",
+					"id": 1918,
+					"p": 0.998831,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.639323,
+					"t_dtw": -1
+				},
+				{
+					"text": " neutron",
+					"id": 44362,
+					"p": 0.969152,
+					"t_dtw": -1
+				},
+				{
+					"text": "er",
+					"id": 260,
+					"p": 0.998868,
+					"t_dtw": -1
+				},
+				{
+					"text": " og",
+					"id": 5360,
+					"p": 0.995835,
+					"t_dtw": -1
+				},
+				{
+					"text": " proton",
+					"id": 31728,
+					"p": 0.993576,
+					"t_dtw": -1
+				},
+				{
+					"text": "er",
+					"id": 260,
+					"p": 0.999743,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.97903,
+					"t_dtw": -1
+				},
+				{
+					"text": "<|endoftext|>",
+					"timestamps": {
+						"from": "00:01:00,000",
+						"to": "00:01:00,000"
+					},
+					"offsets": {
+						"from": 60000,
+						"to": 60000
+					},
+					"id": 50257,
+					"p": 0.725631,
+					"t_dtw": -1
+				}
+			]
+		},
+		{
+			"timestamps": {
+				"from": "00:-15:-47,-300",
+				"to": "00:01:30,000"
+			},
+			"offsets": {
+				"from": -947300,
+				"to": 90000
+			},
+			"text": " Fuglænder top 10 placeringerne i Drivers Championship med fire løb tilbage i sæsonen. Forskere siger, at eksplosionen, der blev forseret af kollisionen, var enorm.",
+			"tokens": [
+				{
+					"text": " F",
+					"id": 479,
+					"p": 0.569859,
+					"t_dtw": -1
+				},
+				{
+					"text": "ug",
+					"id": 697,
+					"p": 0.499615,
+					"t_dtw": -1
+				},
+				{
+					"text": "l",
+					"id": 75,
+					"p": 0.657335,
+					"t_dtw": -1
+				},
+				{
+					"text": "æ",
+					"id": 7303,
+					"p": 0.645237,
+					"t_dtw": -1
+				},
+				{
+					"text": "nder",
+					"id": 20535,
+					"p": 0.937535,
+					"t_dtw": -1
+				},
+				{
+					"text": " top",
+					"id": 1192,
+					"p": 0.881061,
+					"t_dtw": -1
+				},
+				{
+					"text": " 10",
+					"id": 1266,
+					"p": 0.833429,
+					"t_dtw": -1
+				},
+				{
+					"text": " plac",
+					"id": 20831,
+					"p": 0.451382,
+					"t_dtw": -1
+				},
+				{
+					"text": "ering",
+					"id": 1794,
+					"p": 0.998066,
+					"t_dtw": -1
+				},
+				{
+					"text": "erne",
+					"id": 48135,
+					"p": 0.909545,
+					"t_dtw": -1
+				},
+				{
+					"text": " i",
+					"id": 741,
+					"p": 0.989758,
+					"t_dtw": -1
+				},
+				{
+					"text": " Dri",
+					"id": 19150,
+					"p": 0.93359,
+					"t_dtw": -1
+				},
+				{
+					"text": "vers",
+					"id": 840,
+					"p": 0.997691,
+					"t_dtw": -1
+				},
+				{
+					"text": " Championship",
+					"id": 24310,
+					"p": 0.713192,
+					"t_dtw": -1
+				},
+				{
+					"text": " med",
+					"id": 1205,
+					"p": 0.855326,
+					"t_dtw": -1
+				},
+				{
+					"text": " fire",
+					"id": 2610,
+					"p": 0.84569,
+					"t_dtw": -1
+				},
+				{
+					"text": " l",
+					"id": 287,
+					"p": 0.99572,
+					"t_dtw": -1
+				},
+				{
+					"text": "ø",
+					"id": 6715,
+					"p": 0.999983,
+					"t_dtw": -1
+				},
+				{
+					"text": "b",
+					"id": 65,
+					"p": 0.996272,
+					"t_dtw": -1
+				},
+				{
+					"text": " til",
+					"id": 8440,
+					"p": 0.997923,
+					"t_dtw": -1
+				},
+				{
+					"text": "bage",
+					"id": 9742,
+					"p": 0.999457,
+					"t_dtw": -1
+				},
+				{
+					"text": " i",
+					"id": 741,
+					"p": 0.994048,
+					"t_dtw": -1
+				},
+				{
+					"text": " s",
+					"id": 262,
+					"p": 0.998504,
+					"t_dtw": -1
+				},
+				{
+					"text": "æ",
+					"id": 7303,
+					"p": 0.999239,
+					"t_dtw": -1
+				},
+				{
+					"text": "son",
+					"id": 3015,
+					"p": 0.994328,
+					"t_dtw": -1
+				},
+				{
+					"text": "en",
+					"id": 268,
+					"p": 0.894983,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.974877,
+					"t_dtw": -1
+				},
+				{
+					"text": " Fors",
+					"id": 48202,
+					"p": 0.72976,
+					"t_dtw": -1
+				},
+				{
+					"text": "k",
+					"id": 74,
+					"p": 0.832353,
+					"t_dtw": -1
+				},
+				{
+					"text": "ere",
+					"id": 323,
+					"p": 0.997676,
+					"t_dtw": -1
+				},
+				{
+					"text": " sig",
+					"id": 4556,
+					"p": 0.997499,
+					"t_dtw": -1
+				},
+				{
+					"text": "er",
+					"id": 260,
+					"p": 0.999481,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.435235,
+					"t_dtw": -1
+				},
+				{
+					"text": " at",
+					"id": 412,
+					"p": 0.71492,
+					"t_dtw": -1
+				},
+				{
+					"text": " eks",
+					"id": 30724,
+					"p": 0.947354,
+					"t_dtw": -1
+				},
+				{
+					"text": "pl",
+					"id": 564,
+					"p": 0.997417,
+					"t_dtw": -1
+				},
+				{
+					"text": "os",
+					"id": 329,
+					"p": 0.989596,
+					"t_dtw": -1
+				},
+				{
+					"text": "ionen",
+					"id": 17068,
+					"p": 0.992489,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.846557,
+					"t_dtw": -1
+				},
+				{
+					"text": " der",
+					"id": 1163,
+					"p": 0.993653,
+					"t_dtw": -1
+				},
+				{
+					"text": " blev",
+					"id": 37332,
+					"p": 0.511349,
+					"t_dtw": -1
+				},
+				{
+					"text": " for",
+					"id": 337,
+					"p": 0.908935,
+					"t_dtw": -1
+				},
+				{
+					"text": "ser",
+					"id": 12484,
+					"p": 0.233351,
+					"t_dtw": -1
+				},
+				{
+					"text": "et",
+					"id": 302,
+					"p": 0.998308,
+					"t_dtw": -1
+				},
+				{
+					"text": " af",
+					"id": 3238,
+					"p": 0.99031,
+					"t_dtw": -1
+				},
+				{
+					"text": " koll",
+					"id": 44693,
+					"p": 0.894957,
+					"t_dtw": -1
+				},
+				{
+					"text": "ision",
+					"id": 1991,
+					"p": 0.988142,
+					"t_dtw": -1
+				},
+				{
+					"text": "en",
+					"id": 268,
+					"p": 0.923916,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.900212,
+					"t_dtw": -1
+				},
+				{
+					"text": " var",
+					"id": 1374,
+					"p": 0.998597,
+					"t_dtw": -1
+				},
+				{
+					"text": " enorm",
+					"id": 8473,
+					"p": 0.997457,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.946871,
+					"t_dtw": -1
+				},
+				{
+					"text": "<|endoftext|>",
+					"timestamps": {
+						"from": "00:01:30,000",
+						"to": "00:01:30,000"
+					},
+					"offsets": {
+						"from": 90000,
+						"to": 90000
+					},
+					"id": 50257,
+					"p": 0.996766,
+					"t_dtw": -1
+				}
+			]
+		}
+	]
+}

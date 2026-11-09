@@ -1,0 +1,65 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,470", "to": "00:00:30,470" },
+      "offsets":    { "from": 470, "to": 30470 },
+      "text":       " I dag er guldsmeden og døgnfluen de eneste insekter, der ikke kan folde vingernes væg.",
+      "words": [
+        { "text": " I", "t0": 67, "t1": 86, "offsets": { "from": 670, "to": 860 } },
+        { "text": " dag", "t0": 86, "t1": 186, "offsets": { "from": 860, "to": 1860 } },
+        { "text": " er", "t0": 204, "t1": 277, "offsets": { "from": 2040, "to": 2770 } },
+        { "text": " guldsmeden", "t0": 283, "t1": 479, "offsets": { "from": 2830, "to": 4790 } },
+        { "text": " og", "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": " døgnfluen", "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": " de", "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": " eneste", "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": " insekter,", "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": " der", "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": " ikke", "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": " kan", "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": " folde", "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": " vingernes", "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": " væg.", "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } }
+      ],
+      "tokens": [
+        { "text": " I", "p": 0.889532, "t0": 67, "t1": 86, "offsets": { "from": 670, "to": 860 } },
+        { "text": " dag", "p": 0.923645, "t0": 86, "t1": 186, "offsets": { "from": 860, "to": 1860 } },
+        { "text": " er", "p": 0.954469, "t0": 204, "t1": 277, "offsets": { "from": 2040, "to": 2770 } },
+        { "text": " gu", "p": 0.971875, "t0": 283, "t1": 359, "offsets": { "from": 2830, "to": 3590 } },
+        { "text": "ld", "p": 0.996816, "t0": 359, "t1": 436, "offsets": { "from": 3590, "to": 4360 } },
+        { "text": "s", "p": 0.659069, "t0": 436, "t1": 474, "offsets": { "from": 4360, "to": 4740 } },
+        { "text": "meden", "p": 0.426038, "t0": 474, "t1": 479, "offsets": { "from": 4740, "to": 4790 } },
+        { "text": " og", "p": 0.988619, "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": " d", "p": 0.989698, "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": "ø", "p": 0.999914, "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": "gn", "p": 0.645337, "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": "flu", "p": 0.661576, "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": "en", "p": 0.995984, "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": " de", "p": 0.934809, "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": " en", "p": 0.996483, "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": "este", "p": 0.998443, "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": " in", "p": 0.921799, "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": "sek", "p": 0.999504, "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": "ter", "p": 0.999609, "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": ",", "p": 0.5739, "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": " der", "p": 0.973249, "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": " ikke", "p": 0.976107, "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": " kan", "p": 0.993087, "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": " fold", "p": 0.960035, "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": "e", "p": 0.999373, "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": " v", "p": 0.978818, "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": "ing", "p": 0.951724, "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": "ern", "p": 0.968865, "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": "es", "p": 0.998424, "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": " væ", "p": 0.346939, "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": "g", "p": 0.990578, "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": ".", "p": 0.92123, "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } }
+      ]
+    }
+  ]
+}

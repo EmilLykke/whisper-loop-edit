@@ -1,0 +1,72 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E4-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,320", "to": "00:00:30,320" },
+      "offsets":    { "from": 320, "to": 30320 },
+      "text":       " Politiet udtalte, at de mistænker en antaget tilhænger af Dash, ISIS, for at være ansvarlig for angrebet.",
+      "words": [
+        { "text": " Politiet", "t0": 52, "t1": 277, "offsets": { "from": 520, "to": 2770 } },
+        { "text": " udtalte,", "t0": 281, "t1": 554, "offsets": { "from": 2810, "to": 5540 } },
+        { "text": " at", "t0": 554, "t1": 607, "offsets": { "from": 5540, "to": 6070 } },
+        { "text": " de", "t0": 620, "t1": 678, "offsets": { "from": 6200, "to": 6780 } },
+        { "text": " mistænker", "t0": 678, "t1": 984, "offsets": { "from": 6780, "to": 9840 } },
+        { "text": " en", "t0": 984, "t1": 989, "offsets": { "from": 9840, "to": 9890 } },
+        { "text": " antaget", "t0": 989, "t1": 989, "offsets": { "from": 9890, "to": 9890 } },
+        { "text": " tilhænger", "t0": 989, "t1": 989, "offsets": { "from": 9890, "to": 9890 } },
+        { "text": " af", "t0": 989, "t1": 989, "offsets": { "from": 9890, "to": 9890 } },
+        { "text": " Dash,", "t0": 989, "t1": 989, "offsets": { "from": 9890, "to": 9890 } },
+        { "text": " ISIS,", "t0": 989, "t1": 989, "offsets": { "from": 9890, "to": 9890 } },
+        { "text": " for", "t0": 989, "t1": 989, "offsets": { "from": 9890, "to": 9890 } },
+        { "text": " at", "t0": 989, "t1": 989, "offsets": { "from": 9890, "to": 9890 } },
+        { "text": " være", "t0": 989, "t1": 989, "offsets": { "from": 9890, "to": 9890 } },
+        { "text": " ansvarlig", "t0": 989, "t1": 989, "offsets": { "from": 9890, "to": 9890 } },
+        { "text": " for", "t0": 989, "t1": 989, "offsets": { "from": 9890, "to": 9890 } },
+        { "text": " angrebet.", "t0": 989, "t1": 989, "offsets": { "from": 9890, "to": 9890 } }
+      ],
+      "tokens": [
+        { "text": " Polit", "p": 0.838248, "t0": 52, "t1": 184, "offsets": { "from": 520, "to": 1840 } },
+        { "text": "iet", "p": 0.999947, "t0": 186, "t1": 277, "offsets": { "from": 1860, "to": 2770 } },
+        { "text": " ud", "p": 0.991932, "t0": 281, "t1": 340, "offsets": { "from": 2810, "to": 3400 } },
+        { "text": "tal", "p": 0.998683, "t0": 340, "t1": 432, "offsets": { "from": 3400, "to": 4320 } },
+        { "text": "te", "p": 0.965725, "t0": 432, "t1": 491, "offsets": { "from": 4320, "to": 4910 } },
+        { "text": ",", "p": 0.628399, "t0": 500, "t1": 554, "offsets": { "from": 5000, "to": 5540 } },
+        { "text": " at", "p": 0.993104, "t0": 554, "t1": 607, "offsets": { "from": 5540, "to": 6070 } },
+        { "text": " de", "p": 0.993038, "t0": 620, "t1": 678, "offsets": { "from": 6200, "to": 6780 } },
+        { "text": " mist", "p": 0.992869, "t0": 678, "t1": 797, "offsets": { "from": 6780, "to": 7970 } },
+        { "text": "æ", "p": 0.998831, "t0": 799, "t1": 860, "offsets": { "from": 7990, "to": 8600 } },
+        { "text": "n", "p": 0.999895, "t0": 861, "t1": 892, "offsets": { "from": 8610, "to": 8920 } },
+        { "text": "ker", "p": 0.988744, "t0": 892, "t1": 984, "offsets": { "from": 8920, "to": 9840 } },
+        { "text": " en", "p": 0.949849, "t0": 984, "t1": 989, "offsets": { "from": 9840, "to": 9890 } },
+        { "text": " ant", "p": 0.968439, "t0": 989, "t1": 989, "offsets": { "from": 9890, "to": 9890 } },
+        { "text": "ag", "p": 0.989991, "t0": 989, "t1": 989, "offsets": { "from": 9890, "to": 9890 } },
+        { "text": "et", "p": 0.980421, "t0": 989, "t1": 989, "offsets": { "from": 9890, "to": 9890 } },
+        { "text": " til", "p": 0.981416, "t0": 989, "t1": 989, "offsets": { "from": 9890, "to": 9890 } },
+        { "text": "h", "p": 0.907833, "t0": 989, "t1": 989, "offsets": { "from": 9890, "to": 9890 } },
+        { "text": "æ", "p": 0.999439, "t0": 989, "t1": 989, "offsets": { "from": 9890, "to": 9890 } },
+        { "text": "ng", "p": 0.997771, "t0": 989, "t1": 989, "offsets": { "from": 9890, "to": 9890 } },
+        { "text": "er", "p": 0.988502, "t0": 989, "t1": 989, "offsets": { "from": 9890, "to": 9890 } },
+        { "text": " af", "p": 0.36229, "t0": 989, "t1": 989, "offsets": { "from": 9890, "to": 9890 } },
+        { "text": " Dash", "p": 0.680149, "t0": 989, "t1": 989, "offsets": { "from": 9890, "to": 9890 } },
+        { "text": ",", "p": 0.323763, "t0": 989, "t1": 989, "offsets": { "from": 9890, "to": 9890 } },
+        { "text": " ISIS", "p": 0.80781, "t0": 989, "t1": 989, "offsets": { "from": 9890, "to": 9890 } },
+        { "text": ",", "p": 0.945276, "t0": 989, "t1": 989, "offsets": { "from": 9890, "to": 9890 } },
+        { "text": " for", "p": 0.995188, "t0": 989, "t1": 989, "offsets": { "from": 9890, "to": 9890 } },
+        { "text": " at", "p": 0.999216, "t0": 989, "t1": 989, "offsets": { "from": 9890, "to": 9890 } },
+        { "text": " være", "p": 0.998201, "t0": 989, "t1": 989, "offsets": { "from": 9890, "to": 9890 } },
+        { "text": " ans", "p": 0.97921, "t0": 989, "t1": 989, "offsets": { "from": 9890, "to": 9890 } },
+        { "text": "var", "p": 0.910896, "t0": 989, "t1": 989, "offsets": { "from": 9890, "to": 9890 } },
+        { "text": "lig", "p": 0.993468, "t0": 989, "t1": 989, "offsets": { "from": 9890, "to": 9890 } },
+        { "text": " for", "p": 0.997896, "t0": 989, "t1": 989, "offsets": { "from": 9890, "to": 9890 } },
+        { "text": " ang", "p": 0.999754, "t0": 989, "t1": 989, "offsets": { "from": 9890, "to": 9890 } },
+        { "text": "re", "p": 0.955166, "t0": 989, "t1": 989, "offsets": { "from": 9890, "to": 9890 } },
+        { "text": "bet", "p": 0.999464, "t0": 989, "t1": 989, "offsets": { "from": 9890, "to": 9890 } },
+        { "text": ".", "p": 0.97751, "t0": 989, "t1": 989, "offsets": { "from": 9890, "to": 9890 } }
+      ]
+    }
+  ]
+}

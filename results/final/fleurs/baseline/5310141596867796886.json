@@ -1,0 +1,73 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,920", "to": "00:00:30,920" },
+      "offsets":    { "from": 920, "to": 30920 },
+      "text":       " Desværre er det svært at studere trafikstrømme, fordi bilisters adfærd ikke kan forudsiges med 100% sikkerhed.",
+      "words": [
+        { "text": " Desværre", "t0": 113, "t1": 340, "offsets": { "from": 1130, "to": 3400 } },
+        { "text": " er", "t0": 340, "t1": 395, "offsets": { "from": 3400, "to": 3950 } },
+        { "text": " det", "t0": 395, "t1": 469, "offsets": { "from": 3950, "to": 4690 } },
+        { "text": " svært", "t0": 479, "t1": 643, "offsets": { "from": 4790, "to": 6430 } },
+        { "text": " at", "t0": 643, "t1": 658, "offsets": { "from": 6430, "to": 6580 } },
+        { "text": " studere", "t0": 678, "t1": 678, "offsets": { "from": 6780, "to": 6780 } },
+        { "text": " trafikstrømme,", "t0": 678, "t1": 678, "offsets": { "from": 6780, "to": 6780 } },
+        { "text": " fordi", "t0": 678, "t1": 678, "offsets": { "from": 6780, "to": 6780 } },
+        { "text": " bilisters", "t0": 678, "t1": 678, "offsets": { "from": 6780, "to": 6780 } },
+        { "text": " adfærd", "t0": 678, "t1": 678, "offsets": { "from": 6780, "to": 6780 } },
+        { "text": " ikke", "t0": 678, "t1": 678, "offsets": { "from": 6780, "to": 6780 } },
+        { "text": " kan", "t0": 678, "t1": 678, "offsets": { "from": 6780, "to": 6780 } },
+        { "text": " forudsiges", "t0": 678, "t1": 678, "offsets": { "from": 6780, "to": 6780 } },
+        { "text": " med", "t0": 678, "t1": 678, "offsets": { "from": 6780, "to": 6780 } },
+        { "text": " 100%", "t0": 678, "t1": 678, "offsets": { "from": 6780, "to": 6780 } },
+        { "text": " sikkerhed.", "t0": 678, "t1": 678, "offsets": { "from": 6780, "to": 6780 } }
+      ],
+      "tokens": [
+        { "text": " Des", "p": 0.831204, "t0": 113, "t1": 171, "offsets": { "from": 1130, "to": 1710 } },
+        { "text": "v", "p": 0.99379, "t0": 176, "t1": 198, "offsets": { "from": 1760, "to": 1980 } },
+        { "text": "ær", "p": 0.997221, "t0": 205, "t1": 285, "offsets": { "from": 2050, "to": 2850 } },
+        { "text": "re", "p": 0.998386, "t0": 285, "t1": 340, "offsets": { "from": 2850, "to": 3400 } },
+        { "text": " er", "p": 0.960396, "t0": 340, "t1": 395, "offsets": { "from": 3400, "to": 3950 } },
+        { "text": " det", "p": 0.995668, "t0": 395, "t1": 469, "offsets": { "from": 3950, "to": 4690 } },
+        { "text": " sv", "p": 0.990055, "t0": 479, "t1": 533, "offsets": { "from": 4790, "to": 5330 } },
+        { "text": "æ", "p": 0.99523, "t0": 533, "t1": 588, "offsets": { "from": 5330, "to": 5880 } },
+        { "text": "rt", "p": 0.998734, "t0": 588, "t1": 643, "offsets": { "from": 5880, "to": 6430 } },
+        { "text": " at", "p": 0.992481, "t0": 643, "t1": 658, "offsets": { "from": 6430, "to": 6580 } },
+        { "text": " stud", "p": 0.961775, "t0": 678, "t1": 678, "offsets": { "from": 6780, "to": 6780 } },
+        { "text": "ere", "p": 0.99593, "t0": 678, "t1": 678, "offsets": { "from": 6780, "to": 6780 } },
+        { "text": " tra", "p": 0.959551, "t0": 678, "t1": 678, "offsets": { "from": 6780, "to": 6780 } },
+        { "text": "fik", "p": 0.998313, "t0": 678, "t1": 678, "offsets": { "from": 6780, "to": 6780 } },
+        { "text": "str", "p": 0.981588, "t0": 678, "t1": 678, "offsets": { "from": 6780, "to": 6780 } },
+        { "text": "ø", "p": 0.999949, "t0": 678, "t1": 678, "offsets": { "from": 6780, "to": 6780 } },
+        { "text": "m", "p": 0.82515, "t0": 678, "t1": 678, "offsets": { "from": 6780, "to": 6780 } },
+        { "text": "me", "p": 0.810424, "t0": 678, "t1": 678, "offsets": { "from": 6780, "to": 6780 } },
+        { "text": ",", "p": 0.705035, "t0": 678, "t1": 678, "offsets": { "from": 6780, "to": 6780 } },
+        { "text": " fordi", "p": 0.969352, "t0": 678, "t1": 678, "offsets": { "from": 6780, "to": 6780 } },
+        { "text": " bil", "p": 0.776345, "t0": 678, "t1": 678, "offsets": { "from": 6780, "to": 6780 } },
+        { "text": "isters", "p": 0.607596, "t0": 678, "t1": 678, "offsets": { "from": 6780, "to": 6780 } },
+        { "text": " ad", "p": 0.983914, "t0": 678, "t1": 678, "offsets": { "from": 6780, "to": 6780 } },
+        { "text": "f", "p": 0.999579, "t0": 678, "t1": 678, "offsets": { "from": 6780, "to": 6780 } },
+        { "text": "æ", "p": 0.993006, "t0": 678, "t1": 678, "offsets": { "from": 6780, "to": 6780 } },
+        { "text": "rd", "p": 0.998275, "t0": 678, "t1": 678, "offsets": { "from": 6780, "to": 6780 } },
+        { "text": " ikke", "p": 0.986199, "t0": 678, "t1": 678, "offsets": { "from": 6780, "to": 6780 } },
+        { "text": " kan", "p": 0.99225, "t0": 678, "t1": 678, "offsets": { "from": 6780, "to": 6780 } },
+        { "text": " for", "p": 0.812156, "t0": 678, "t1": 678, "offsets": { "from": 6780, "to": 6780 } },
+        { "text": "uds", "p": 0.186833, "t0": 678, "t1": 678, "offsets": { "from": 6780, "to": 6780 } },
+        { "text": "iges", "p": 0.845354, "t0": 678, "t1": 678, "offsets": { "from": 6780, "to": 6780 } },
+        { "text": " med", "p": 0.98578, "t0": 678, "t1": 678, "offsets": { "from": 6780, "to": 6780 } },
+        { "text": " 100", "p": 0.992947, "t0": 678, "t1": 678, "offsets": { "from": 6780, "to": 6780 } },
+        { "text": "%", "p": 0.905022, "t0": 678, "t1": 678, "offsets": { "from": 6780, "to": 6780 } },
+        { "text": " s", "p": 0.955633, "t0": 678, "t1": 678, "offsets": { "from": 6780, "to": 6780 } },
+        { "text": "ik", "p": 0.996799, "t0": 678, "t1": 678, "offsets": { "from": 6780, "to": 6780 } },
+        { "text": "ker", "p": 0.999262, "t0": 678, "t1": 678, "offsets": { "from": 6780, "to": 6780 } },
+        { "text": "hed", "p": 0.996217, "t0": 678, "t1": 678, "offsets": { "from": 6780, "to": 6780 } },
+        { "text": ".", "p": 0.929987, "t0": 678, "t1": 678, "offsets": { "from": 6780, "to": 6780 } }
+      ]
+    }
+  ]
+}

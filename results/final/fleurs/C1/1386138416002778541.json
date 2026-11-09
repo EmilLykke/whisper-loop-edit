@@ -1,0 +1,55 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,650", "to": "00:00:30,650" },
+      "offsets":    { "from": 650, "to": 30650 },
+      "text":       " pH-værdien angives ved mængden af brintioner i det testede kemikalie.",
+      "words": [
+        { "text": " pH-værdien", "t0": 86, "t1": 577, "offsets": { "from": 860, "to": 5770 } },
+        { "text": " angives", "t0": 577, "t1": 797, "offsets": { "from": 5770, "to": 7970 } },
+        { "text": " ved", "t0": 797, "t1": 797, "offsets": { "from": 7970, "to": 7970 } },
+        { "text": " mængden", "t0": 797, "t1": 797, "offsets": { "from": 7970, "to": 7970 } },
+        { "text": " af", "t0": 797, "t1": 797, "offsets": { "from": 7970, "to": 7970 } },
+        { "text": " brintioner", "t0": 797, "t1": 797, "offsets": { "from": 7970, "to": 7970 } },
+        { "text": " i", "t0": 797, "t1": 797, "offsets": { "from": 7970, "to": 7970 } },
+        { "text": " det", "t0": 797, "t1": 797, "offsets": { "from": 7970, "to": 7970 } },
+        { "text": " testede", "t0": 797, "t1": 797, "offsets": { "from": 7970, "to": 7970 } },
+        { "text": " kemikalie.", "t0": 797, "t1": 797, "offsets": { "from": 7970, "to": 7970 } }
+      ],
+      "tokens": [
+        { "text": " pH", "p": 0.701493, "t0": 86, "t1": 158, "offsets": { "from": 860, "to": 1580 } },
+        { "text": "-", "p": 0.616166, "t0": 159, "t1": 203, "offsets": { "from": 1590, "to": 2030 } },
+        { "text": "v", "p": 0.933223, "t0": 207, "t1": 251, "offsets": { "from": 2070, "to": 2510 } },
+        { "text": "æ", "p": 0.962001, "t0": 251, "t1": 344, "offsets": { "from": 2510, "to": 3440 } },
+        { "text": "rd", "p": 0.999447, "t0": 344, "t1": 433, "offsets": { "from": 3440, "to": 4330 } },
+        { "text": "ien", "p": 0.96001, "t0": 441, "t1": 577, "offsets": { "from": 4410, "to": 5770 } },
+        { "text": " ang", "p": 0.949729, "t0": 577, "t1": 681, "offsets": { "from": 5770, "to": 6810 } },
+        { "text": "ives", "p": 0.982491, "t0": 794, "t1": 797, "offsets": { "from": 7940, "to": 7970 } },
+        { "text": " ved", "p": 0.863853, "t0": 797, "t1": 797, "offsets": { "from": 7970, "to": 7970 } },
+        { "text": " m", "p": 0.985308, "t0": 797, "t1": 797, "offsets": { "from": 7970, "to": 7970 } },
+        { "text": "æ", "p": 0.999424, "t0": 797, "t1": 797, "offsets": { "from": 7970, "to": 7970 } },
+        { "text": "ng", "p": 0.998178, "t0": 797, "t1": 797, "offsets": { "from": 7970, "to": 7970 } },
+        { "text": "den", "p": 0.998009, "t0": 797, "t1": 797, "offsets": { "from": 7970, "to": 7970 } },
+        { "text": " af", "p": 0.997168, "t0": 797, "t1": 797, "offsets": { "from": 7970, "to": 7970 } },
+        { "text": " br", "p": 0.904821, "t0": 797, "t1": 797, "offsets": { "from": 7970, "to": 7970 } },
+        { "text": "int", "p": 0.405097, "t0": 797, "t1": 797, "offsets": { "from": 7970, "to": 7970 } },
+        { "text": "ion", "p": 0.957308, "t0": 797, "t1": 797, "offsets": { "from": 7970, "to": 7970 } },
+        { "text": "er", "p": 0.995853, "t0": 797, "t1": 797, "offsets": { "from": 7970, "to": 7970 } },
+        { "text": " i", "p": 0.271245, "t0": 797, "t1": 797, "offsets": { "from": 7970, "to": 7970 } },
+        { "text": " det", "p": 0.966566, "t0": 797, "t1": 797, "offsets": { "from": 7970, "to": 7970 } },
+        { "text": " test", "p": 0.893829, "t0": 797, "t1": 797, "offsets": { "from": 7970, "to": 7970 } },
+        { "text": "ede", "p": 0.993019, "t0": 797, "t1": 797, "offsets": { "from": 7970, "to": 7970 } },
+        { "text": " ke", "p": 0.98419, "t0": 797, "t1": 797, "offsets": { "from": 7970, "to": 7970 } },
+        { "text": "m", "p": 0.99416, "t0": 797, "t1": 797, "offsets": { "from": 7970, "to": 7970 } },
+        { "text": "ik", "p": 0.541098, "t0": 797, "t1": 797, "offsets": { "from": 7970, "to": 7970 } },
+        { "text": "alie", "p": 0.965073, "t0": 797, "t1": 797, "offsets": { "from": 7970, "to": 7970 } },
+        { "text": ".", "p": 0.904316, "t0": 797, "t1": 797, "offsets": { "from": 7970, "to": 7970 } }
+      ]
+    }
+  ]
+}

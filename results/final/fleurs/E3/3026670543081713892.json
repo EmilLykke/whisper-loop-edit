@@ -1,0 +1,58 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,740", "to": "00:00:30,740" },
+      "offsets":    { "from": 740, "to": 30740 },
+      "text":       " Brænden og redningspersonalet slukkede om sider af brænden kl. 11.35 pm.",
+      "words": [
+        { "text": " Brænden", "t0": 94, "t1": 378, "offsets": { "from": 940, "to": 3780 } },
+        { "text": " og", "t0": 399, "t1": 456, "offsets": { "from": 3990, "to": 4560 } },
+        { "text": " redningspersonalet", "t0": 456, "t1": 571, "offsets": { "from": 4560, "to": 5710 } },
+        { "text": " slukkede", "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " om", "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " sider", "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " af", "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " brænden", "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " kl.", "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " 11.35", "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " pm.", "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } }
+      ],
+      "tokens": [
+        { "text": " Br", "p": 0.470626, "t0": 94, "t1": 151, "offsets": { "from": 940, "to": 1510 } },
+        { "text": "æ", "p": 0.994262, "t0": 151, "t1": 227, "offsets": { "from": 1510, "to": 2270 } },
+        { "text": "nd", "p": 0.944209, "t0": 227, "t1": 299, "offsets": { "from": 2270, "to": 2990 } },
+        { "text": "en", "p": 0.470727, "t0": 310, "t1": 378, "offsets": { "from": 3100, "to": 3780 } },
+        { "text": " og", "p": 0.968226, "t0": 399, "t1": 456, "offsets": { "from": 3990, "to": 4560 } },
+        { "text": " red", "p": 0.944236, "t0": 456, "t1": 553, "offsets": { "from": 4560, "to": 5530 } },
+        { "text": "ning", "p": 0.999321, "t0": 570, "t1": 571, "offsets": { "from": 5700, "to": 5710 } },
+        { "text": "sp", "p": 0.993974, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": "erson", "p": 0.888681, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": "alet", "p": 0.498144, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " sl", "p": 0.775818, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": "uk", "p": 0.99612, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": "k", "p": 0.508924, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": "ede", "p": 0.998089, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " om", "p": 0.353723, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " s", "p": 0.834695, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": "ider", "p": 0.90034, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " af", "p": 0.494226, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " br", "p": 0.474377, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": "æ", "p": 0.999506, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": "nd", "p": 0.999089, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": "en", "p": 0.998618, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " kl", "p": 0.980671, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": ".", "p": 0.888482, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " 11", "p": 0.963025, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": ".", "p": 0.980907, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": "35", "p": 0.989493, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " pm", "p": 0.737886, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": ".", "p": 0.867557, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } }
+      ]
+    }
+  ]
+}

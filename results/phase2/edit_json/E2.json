@@ -1,0 +1,92 @@
+{
+ "id": "E2",
+ "description": "zero the late-5 copy-writer heads",
+ "formula": [
+  "for (L, h) in heads: model.decoder.layers.L.self_attn.out_proj.weight[:, 64h:64h+64] <- 0"
+ ],
+ "heads": [
+  "L21H14",
+  "L24H0",
+  "L25H18",
+  "L25H19",
+  "L26H6"
+ ],
+ "direction": null,
+ "seeds": null,
+ "compute": "fp32 from the fp16 originals, rounded once to fp16 (round-to-nearest-even)",
+ "base": {
+  "path": "models/hf/whisper-large-v3/model.safetensors",
+  "sha256": "a8e94b85976e5864ba3e9525c7e6c83b2a1eca42d4b797a0c7c24d778e40fd95"
+ },
+ "tensors_touched": [
+  {
+   "name": "model.decoder.layers.21.self_attn.out_proj.weight",
+   "ggml": "decoder.blocks.21.attn.out.weight",
+   "shape": [
+    1280,
+    1280
+   ],
+   "rel_frobenius_change": 0.2357911616563797,
+   "max_abs_change": 0.078369140625,
+   "fp16_rounding_max_abs": 0.0,
+   "unchanged_after_rounding": false
+  },
+  {
+   "name": "model.decoder.layers.24.self_attn.out_proj.weight",
+   "ggml": "decoder.blocks.24.attn.out.weight",
+   "shape": [
+    1280,
+    1280
+   ],
+   "rel_frobenius_change": 0.27554333209991455,
+   "max_abs_change": 0.09271240234375,
+   "fp16_rounding_max_abs": 0.0,
+   "unchanged_after_rounding": false
+  },
+  {
+   "name": "model.decoder.layers.25.self_attn.out_proj.weight",
+   "ggml": "decoder.blocks.25.attn.out.weight",
+   "shape": [
+    1280,
+    1280
+   ],
+   "rel_frobenius_change": 0.4168611168861389,
+   "max_abs_change": 0.0982666015625,
+   "fp16_rounding_max_abs": 0.0,
+   "unchanged_after_rounding": false
+  },
+  {
+   "name": "model.decoder.layers.26.self_attn.out_proj.weight",
+   "ggml": "decoder.blocks.26.attn.out.weight",
+   "shape": [
+    1280,
+    1280
+   ],
+   "rel_frobenius_change": 0.24244394898414612,
+   "max_abs_change": 0.0823974609375,
+   "fp16_rounding_max_abs": 0.0,
+   "unchanged_after_rounding": false
+  }
+ ],
+ "n_tensors_touched": 4,
+ "safetensors_sha256": "4cc7db1a797358835433c5daf2d17536a130ba32fa5b0f90fd0cc1a42a07f021",
+ "script": {
+  "path": "scripts/phase2_edit.py",
+  "sha256": "998fd7f0b68ec5668c20d4b3188871b06c65325a2d5b46ab42547cc49dba0261"
+ },
+ "built": "2026-11-08T18:00:07",
+ "ggml": {
+  "path": "models/ggml/edits/ggml-large-v3-E2-f16.bin",
+  "sha256": "8c38fead836fa39ecda45b40b1395e9204f1cefaa09e5cc7b958bab58dd4a7a6",
+  "bytes": 3095053647,
+  "verified_against_hf_fp16": {
+   "checked": 1259,
+   "touched": 4,
+   "touched_equal": 4,
+   "mismatches": [],
+   "touched_missing": [],
+   "ggml_tensors": 1259,
+   "hf_unmatched": []
+  }
+ }
+}

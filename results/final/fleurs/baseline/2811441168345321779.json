@@ -1,0 +1,73 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:01,030", "to": "00:00:31,030" },
+      "offsets":    { "from": 1030, "to": 31030 },
+      "text":       " Desværre er det svært at studere trafikstrømme, fordi bilisters adfærd ikke kan forudsiges med 100% sikkerhed.",
+      "words": [
+        { "text": " Desværre", "t0": 125, "t1": 351, "offsets": { "from": 1250, "to": 3510 } },
+        { "text": " er", "t0": 351, "t1": 406, "offsets": { "from": 3510, "to": 4060 } },
+        { "text": " det", "t0": 406, "t1": 489, "offsets": { "from": 4060, "to": 4890 } },
+        { "text": " svært", "t0": 489, "t1": 654, "offsets": { "from": 4890, "to": 6540 } },
+        { "text": " at", "t0": 654, "t1": 707, "offsets": { "from": 6540, "to": 7070 } },
+        { "text": " studere", "t0": 708, "t1": 716, "offsets": { "from": 7080, "to": 7160 } },
+        { "text": " trafikstrømme,", "t0": 716, "t1": 716, "offsets": { "from": 7160, "to": 7160 } },
+        { "text": " fordi", "t0": 716, "t1": 716, "offsets": { "from": 7160, "to": 7160 } },
+        { "text": " bilisters", "t0": 716, "t1": 716, "offsets": { "from": 7160, "to": 7160 } },
+        { "text": " adfærd", "t0": 716, "t1": 716, "offsets": { "from": 7160, "to": 7160 } },
+        { "text": " ikke", "t0": 716, "t1": 716, "offsets": { "from": 7160, "to": 7160 } },
+        { "text": " kan", "t0": 716, "t1": 716, "offsets": { "from": 7160, "to": 7160 } },
+        { "text": " forudsiges", "t0": 716, "t1": 716, "offsets": { "from": 7160, "to": 7160 } },
+        { "text": " med", "t0": 716, "t1": 716, "offsets": { "from": 7160, "to": 7160 } },
+        { "text": " 100%", "t0": 716, "t1": 716, "offsets": { "from": 7160, "to": 7160 } },
+        { "text": " sikkerhed.", "t0": 716, "t1": 716, "offsets": { "from": 7160, "to": 7160 } }
+      ],
+      "tokens": [
+        { "text": " Des", "p": 0.874815, "t0": 125, "t1": 180, "offsets": { "from": 1250, "to": 1800 } },
+        { "text": "v", "p": 0.991463, "t0": 188, "t1": 210, "offsets": { "from": 1880, "to": 2100 } },
+        { "text": "ær", "p": 0.994979, "t0": 212, "t1": 294, "offsets": { "from": 2120, "to": 2940 } },
+        { "text": "re", "p": 0.998809, "t0": 303, "t1": 351, "offsets": { "from": 3030, "to": 3510 } },
+        { "text": " er", "p": 0.972746, "t0": 351, "t1": 406, "offsets": { "from": 3510, "to": 4060 } },
+        { "text": " det", "p": 0.996084, "t0": 406, "t1": 489, "offsets": { "from": 4060, "to": 4890 } },
+        { "text": " sv", "p": 0.993794, "t0": 489, "t1": 544, "offsets": { "from": 4890, "to": 5440 } },
+        { "text": "æ", "p": 0.998045, "t0": 544, "t1": 597, "offsets": { "from": 5440, "to": 5970 } },
+        { "text": "rt", "p": 0.998692, "t0": 599, "t1": 654, "offsets": { "from": 5990, "to": 6540 } },
+        { "text": " at", "p": 0.971938, "t0": 654, "t1": 707, "offsets": { "from": 6540, "to": 7070 } },
+        { "text": " stud", "p": 0.986701, "t0": 708, "t1": 716, "offsets": { "from": 7080, "to": 7160 } },
+        { "text": "ere", "p": 0.994359, "t0": 716, "t1": 716, "offsets": { "from": 7160, "to": 7160 } },
+        { "text": " tra", "p": 0.908482, "t0": 716, "t1": 716, "offsets": { "from": 7160, "to": 7160 } },
+        { "text": "fik", "p": 0.998283, "t0": 716, "t1": 716, "offsets": { "from": 7160, "to": 7160 } },
+        { "text": "str", "p": 0.988321, "t0": 716, "t1": 716, "offsets": { "from": 7160, "to": 7160 } },
+        { "text": "ø", "p": 0.999763, "t0": 716, "t1": 716, "offsets": { "from": 7160, "to": 7160 } },
+        { "text": "m", "p": 0.979996, "t0": 716, "t1": 716, "offsets": { "from": 7160, "to": 7160 } },
+        { "text": "me", "p": 0.993961, "t0": 716, "t1": 716, "offsets": { "from": 7160, "to": 7160 } },
+        { "text": ",", "p": 0.801634, "t0": 716, "t1": 716, "offsets": { "from": 7160, "to": 7160 } },
+        { "text": " fordi", "p": 0.958263, "t0": 716, "t1": 716, "offsets": { "from": 7160, "to": 7160 } },
+        { "text": " bil", "p": 0.848574, "t0": 716, "t1": 716, "offsets": { "from": 7160, "to": 7160 } },
+        { "text": "isters", "p": 0.547855, "t0": 716, "t1": 716, "offsets": { "from": 7160, "to": 7160 } },
+        { "text": " ad", "p": 0.983611, "t0": 716, "t1": 716, "offsets": { "from": 7160, "to": 7160 } },
+        { "text": "f", "p": 0.997956, "t0": 716, "t1": 716, "offsets": { "from": 7160, "to": 7160 } },
+        { "text": "æ", "p": 0.99142, "t0": 716, "t1": 716, "offsets": { "from": 7160, "to": 7160 } },
+        { "text": "rd", "p": 0.999144, "t0": 716, "t1": 716, "offsets": { "from": 7160, "to": 7160 } },
+        { "text": " ikke", "p": 0.986536, "t0": 716, "t1": 716, "offsets": { "from": 7160, "to": 7160 } },
+        { "text": " kan", "p": 0.992447, "t0": 716, "t1": 716, "offsets": { "from": 7160, "to": 7160 } },
+        { "text": " for", "p": 0.465739, "t0": 716, "t1": 716, "offsets": { "from": 7160, "to": 7160 } },
+        { "text": "uds", "p": 0.641596, "t0": 716, "t1": 716, "offsets": { "from": 7160, "to": 7160 } },
+        { "text": "iges", "p": 0.831733, "t0": 716, "t1": 716, "offsets": { "from": 7160, "to": 7160 } },
+        { "text": " med", "p": 0.981175, "t0": 716, "t1": 716, "offsets": { "from": 7160, "to": 7160 } },
+        { "text": " 100", "p": 0.992593, "t0": 716, "t1": 716, "offsets": { "from": 7160, "to": 7160 } },
+        { "text": "%", "p": 0.96088, "t0": 716, "t1": 716, "offsets": { "from": 7160, "to": 7160 } },
+        { "text": " s", "p": 0.973448, "t0": 716, "t1": 716, "offsets": { "from": 7160, "to": 7160 } },
+        { "text": "ik", "p": 0.998717, "t0": 716, "t1": 716, "offsets": { "from": 7160, "to": 7160 } },
+        { "text": "ker", "p": 0.999756, "t0": 716, "t1": 716, "offsets": { "from": 7160, "to": 7160 } },
+        { "text": "hed", "p": 0.995442, "t0": 716, "t1": 716, "offsets": { "from": 7160, "to": 7160 } },
+        { "text": ".", "p": 0.942791, "t0": 716, "t1": 716, "offsets": { "from": 7160, "to": 7160 } }
+      ]
+    }
+  ]
+}

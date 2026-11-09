@@ -1,0 +1,188 @@
+{
+"clip": "find_da_5min_03",
+"source": "crispasr v0.8.41 stderr (same argv as the timestamps path, without --no-prints); VAD segment lines after merging/filtering",
+"threshold": 0.25,
+"samples_overlap_s": 0.1,
+"segments": [
+{
+"start": 131,
+"end": 662
+},
+{
+"start": 695,
+"end": 1033
+},
+{
+"start": 1373,
+"end": 1904
+},
+{
+"start": 1933,
+"end": 2121
+},
+{
+"start": 2432,
+"end": 2899
+},
+{
+"start": 2925,
+"end": 3469
+},
+{
+"start": 3693,
+"end": 4272
+},
+{
+"start": 4563,
+"end": 5008
+},
+{
+"start": 5024,
+"end": 5360
+},
+{
+"start": 5418,
+"end": 5929
+},
+{
+"start": 5984,
+"end": 6093
+},
+{
+"start": 6445,
+"end": 7472
+},
+{
+"start": 7949,
+"end": 8790
+},
+{
+"start": 9155,
+"end": 9862
+},
+{
+"start": 10275,
+"end": 10985
+},
+{
+"start": 11309,
+"end": 11625
+},
+{
+"start": 11683,
+"end": 11872
+},
+{
+"start": 12131,
+"end": 13059
+},
+{
+"start": 13367,
+"end": 14032
+},
+{
+"start": 14314,
+"end": 15097
+},
+{
+"start": 15143,
+"end": 15491
+},
+{
+"start": 15677,
+"end": 15712
+},
+{
+"start": 15795,
+"end": 16214
+},
+{
+"start": 16247,
+"end": 16541
+},
+{
+"start": 16915,
+"end": 17353
+},
+{
+"start": 17805,
+"end": 18646
+},
+{
+"start": 18669,
+"end": 18877
+},
+{
+"start": 18960,
+"end": 19149
+},
+{
+"start": 19191,
+"end": 19488
+},
+{
+"start": 19949,
+"end": 20249
+},
+{
+"start": 20295,
+"end": 20745
+},
+{
+"start": 21069,
+"end": 21481
+},
+{
+"start": 21565,
+"end": 22080
+},
+{
+"start": 22365,
+"end": 22646
+},
+{
+"start": 22743,
+"end": 23197
+},
+{
+"start": 23280,
+"end": 23552
+},
+{
+"start": 23568,
+"end": 23705
+},
+{
+"start": 23946,
+"end": 24547
+},
+{
+"start": 25197,
+"end": 25286
+},
+{
+"start": 25325,
+"end": 25507
+},
+{
+"start": 25533,
+"end": 26022
+},
+{
+"start": 26074,
+"end": 26272
+},
+{
+"start": 26307,
+"end": 26656
+},
+{
+"start": 27018,
+"end": 27465
+},
+{
+"start": 27939,
+"end": 29241
+}
+]
+}

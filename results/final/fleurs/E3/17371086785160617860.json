@@ -1,0 +1,62 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,460", "to": "00:00:30,460" },
+      "offsets":    { "from": 460, "to": 30460 },
+      "text":       " Ifølge Japans atomagentur er radioaktiv cesium og jodet blevet identificeret på anlægget.",
+      "words": [
+        { "text": " Ifølge", "t0": 66, "t1": 297, "offsets": { "from": 660, "to": 2970 } },
+        { "text": " Japans", "t0": 298, "t1": 514, "offsets": { "from": 2980, "to": 5140 } },
+        { "text": " atomagentur", "t0": 514, "t1": 693, "offsets": { "from": 5140, "to": 6930 } },
+        { "text": " er", "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": " radioaktiv", "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": " cesium", "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": " og", "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": " jodet", "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": " blevet", "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": " identificeret", "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": " på", "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": " anlægget.", "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } }
+      ],
+      "tokens": [
+        { "text": " If", "p": 0.717283, "t0": 66, "t1": 118, "offsets": { "from": 660, "to": 1180 } },
+        { "text": "ø", "p": 0.998275, "t0": 118, "t1": 190, "offsets": { "from": 1180, "to": 1900 } },
+        { "text": "l", "p": 0.999386, "t0": 190, "t1": 226, "offsets": { "from": 1900, "to": 2260 } },
+        { "text": "ge", "p": 0.998851, "t0": 226, "t1": 297, "offsets": { "from": 2260, "to": 2970 } },
+        { "text": " Jap", "p": 0.791717, "t0": 298, "t1": 405, "offsets": { "from": 2980, "to": 4050 } },
+        { "text": "ans", "p": 0.711694, "t0": 407, "t1": 514, "offsets": { "from": 4070, "to": 5140 } },
+        { "text": " atom", "p": 0.929326, "t0": 514, "t1": 658, "offsets": { "from": 5140, "to": 6580 } },
+        { "text": "ag", "p": 0.922909, "t0": 658, "t1": 678, "offsets": { "from": 6580, "to": 6780 } },
+        { "text": "ent", "p": 0.999012, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": "ur", "p": 0.980705, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": " er", "p": 0.953552, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": " radio", "p": 0.974037, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": "akt", "p": 0.992562, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": "iv", "p": 0.961051, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": " ces", "p": 0.334062, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": "ium", "p": 0.999725, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": " og", "p": 0.971399, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": " j", "p": 0.976554, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": "od", "p": 0.662069, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": "et", "p": 0.925933, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": " ble", "p": 0.958845, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": "vet", "p": 0.999929, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": " identific", "p": 0.971834, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": "er", "p": 0.967089, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": "et", "p": 0.99842, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": " på", "p": 0.973664, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": " an", "p": 0.616913, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": "l", "p": 0.99246, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": "æ", "p": 0.99992, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": "g", "p": 0.997301, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": "get", "p": 0.999577, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } },
+        { "text": ".", "p": 0.925433, "t0": 693, "t1": 693, "offsets": { "from": 6930, "to": 6930 } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,090", "to": "00:00:30,090" },
+      "offsets":    { "from": 90, "to": 30090 },
+      "text":       " En af styrkerne ved Charlotte, North Carolina, er at byen har masser af højkvalitetstilbud til familier.",
+      "words": [
+        { "text": " En", "t0": 28, "t1": 73, "offsets": { "from": 280, "to": 730 } },
+        { "text": " af", "t0": 111, "t1": 137, "offsets": { "from": 1110, "to": 1370 } },
+        { "text": " styrkerne", "t0": 137, "t1": 409, "offsets": { "from": 1370, "to": 4090 } },
+        { "text": " ved", "t0": 469, "t1": 512, "offsets": { "from": 4690, "to": 5120 } },
+        { "text": " Charlotte,", "t0": 525, "t1": 867, "offsets": { "from": 5250, "to": 8670 } },
+        { "text": " North", "t0": 867, "t1": 867, "offsets": { "from": 8670, "to": 8670 } },
+        { "text": " Carolina,", "t0": 887, "t1": 887, "offsets": { "from": 8870, "to": 8870 } },
+        { "text": " er", "t0": 887, "t1": 887, "offsets": { "from": 8870, "to": 8870 } },
+        { "text": " at", "t0": 887, "t1": 887, "offsets": { "from": 8870, "to": 8870 } },
+        { "text": " byen", "t0": 887, "t1": 887, "offsets": { "from": 8870, "to": 8870 } },
+        { "text": " har", "t0": 887, "t1": 887, "offsets": { "from": 8870, "to": 8870 } },
+        { "text": " masser", "t0": 887, "t1": 887, "offsets": { "from": 8870, "to": 8870 } },
+        { "text": " af", "t0": 887, "t1": 887, "offsets": { "from": 8870, "to": 8870 } },
+        { "text": " højkvalitetstilbud", "t0": 887, "t1": 887, "offsets": { "from": 8870, "to": 8870 } },
+        { "text": " til", "t0": 887, "t1": 887, "offsets": { "from": 8870, "to": 8870 } },
+        { "text": " familier.", "t0": 887, "t1": 887, "offsets": { "from": 8870, "to": 8870 } }
+      ],
+      "tokens": [
+        { "text": " En", "p": 0.897253, "t0": 28, "t1": 73, "offsets": { "from": 280, "to": 730 } },
+        { "text": " af", "p": 0.991972, "t0": 111, "t1": 137, "offsets": { "from": 1110, "to": 1370 } },
+        { "text": " st", "p": 0.997073, "t0": 137, "t1": 201, "offsets": { "from": 1370, "to": 2010 } },
+        { "text": "yr", "p": 0.999165, "t0": 201, "t1": 264, "offsets": { "from": 2010, "to": 2640 } },
+        { "text": "ker", "p": 0.935556, "t0": 264, "t1": 359, "offsets": { "from": 2640, "to": 3590 } },
+        { "text": "ne", "p": 0.998491, "t0": 359, "t1": 409, "offsets": { "from": 3590, "to": 4090 } },
+        { "text": " ved", "p": 0.993665, "t0": 469, "t1": 512, "offsets": { "from": 4690, "to": 5120 } },
+        { "text": " Charlotte", "p": 0.955099, "t0": 525, "t1": 795, "offsets": { "from": 5250, "to": 7950 } },
+        { "text": ",", "p": 0.605081, "t0": 807, "t1": 867, "offsets": { "from": 8070, "to": 8670 } },
+        { "text": " North", "p": 0.907586, "t0": 867, "t1": 867, "offsets": { "from": 8670, "to": 8670 } },
+        { "text": " Carolina", "p": 0.977763, "t0": 887, "t1": 887, "offsets": { "from": 8870, "to": 8870 } },
+        { "text": ",", "p": 0.485232, "t0": 887, "t1": 887, "offsets": { "from": 8870, "to": 8870 } },
+        { "text": " er", "p": 0.99058, "t0": 887, "t1": 887, "offsets": { "from": 8870, "to": 8870 } },
+        { "text": " at", "p": 0.72359, "t0": 887, "t1": 887, "offsets": { "from": 8870, "to": 8870 } },
+        { "text": " by", "p": 0.990423, "t0": 887, "t1": 887, "offsets": { "from": 8870, "to": 8870 } },
+        { "text": "en", "p": 0.99787, "t0": 887, "t1": 887, "offsets": { "from": 8870, "to": 8870 } },
+        { "text": " har", "p": 0.985188, "t0": 887, "t1": 887, "offsets": { "from": 8870, "to": 8870 } },
+        { "text": " mass", "p": 0.990777, "t0": 887, "t1": 887, "offsets": { "from": 8870, "to": 8870 } },
+        { "text": "er", "p": 0.983815, "t0": 887, "t1": 887, "offsets": { "from": 8870, "to": 8870 } },
+        { "text": " af", "p": 0.993117, "t0": 887, "t1": 887, "offsets": { "from": 8870, "to": 8870 } },
+        { "text": " h", "p": 0.991635, "t0": 887, "t1": 887, "offsets": { "from": 8870, "to": 8870 } },
+        { "text": "ø", "p": 0.99967, "t0": 887, "t1": 887, "offsets": { "from": 8870, "to": 8870 } },
+        { "text": "j", "p": 0.886231, "t0": 887, "t1": 887, "offsets": { "from": 8870, "to": 8870 } },
+        { "text": "k", "p": 0.740498, "t0": 887, "t1": 887, "offsets": { "from": 8870, "to": 8870 } },
+        { "text": "val", "p": 0.99838, "t0": 887, "t1": 887, "offsets": { "from": 8870, "to": 8870 } },
+        { "text": "itet", "p": 0.775222, "t0": 887, "t1": 887, "offsets": { "from": 8870, "to": 8870 } },
+        { "text": "st", "p": 0.768981, "t0": 887, "t1": 887, "offsets": { "from": 8870, "to": 8870 } },
+        { "text": "il", "p": 0.999588, "t0": 887, "t1": 887, "offsets": { "from": 8870, "to": 8870 } },
+        { "text": "bud", "p": 0.999081, "t0": 887, "t1": 887, "offsets": { "from": 8870, "to": 8870 } },
+        { "text": " til", "p": 0.987867, "t0": 887, "t1": 887, "offsets": { "from": 8870, "to": 8870 } },
+        { "text": " famil", "p": 0.995651, "t0": 887, "t1": 887, "offsets": { "from": 8870, "to": 8870 } },
+        { "text": "ier", "p": 0.988135, "t0": 887, "t1": 887, "offsets": { "from": 8870, "to": 8870 } },
+        { "text": ".", "p": 0.796042, "t0": 887, "t1": 887, "offsets": { "from": 8870, "to": 8870 } }
+      ]
+    }
+  ]
+}

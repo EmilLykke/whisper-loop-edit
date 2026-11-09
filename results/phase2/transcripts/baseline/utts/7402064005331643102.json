@@ -1,0 +1,66 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,000", "to": "00:00:30,000" },
+      "offsets":    { "from": 0, "to": 30000 },
+      "text":       " Nigeria meldte tidligere ud, at de planlagde at slutte sig til AFCFTA i ugen før topmødet.",
+      "words": [
+        { "text": " Nigeria", "t0": 8, "t1": 262, "offsets": { "from": 80, "to": 2620 } },
+        { "text": " meldte", "t0": 262, "t1": 485, "offsets": { "from": 2620, "to": 4850 } },
+        { "text": " tidligere", "t0": 485, "t1": 821, "offsets": { "from": 4850, "to": 8210 } },
+        { "text": " ud,", "t0": 821, "t1": 970, "offsets": { "from": 8210, "to": 9700 } },
+        { "text": " at", "t0": 970, "t1": 979, "offsets": { "from": 9700, "to": 9790 } },
+        { "text": " de", "t0": 999, "t1": 999, "offsets": { "from": 9990, "to": 9990 } },
+        { "text": " planlagde", "t0": 999, "t1": 999, "offsets": { "from": 9990, "to": 9990 } },
+        { "text": " at", "t0": 999, "t1": 999, "offsets": { "from": 9990, "to": 9990 } },
+        { "text": " slutte", "t0": 999, "t1": 999, "offsets": { "from": 9990, "to": 9990 } },
+        { "text": " sig", "t0": 999, "t1": 999, "offsets": { "from": 9990, "to": 9990 } },
+        { "text": " til", "t0": 999, "t1": 999, "offsets": { "from": 9990, "to": 9990 } },
+        { "text": " AFCFTA", "t0": 999, "t1": 999, "offsets": { "from": 9990, "to": 9990 } },
+        { "text": " i", "t0": 999, "t1": 999, "offsets": { "from": 9990, "to": 9990 } },
+        { "text": " ugen", "t0": 999, "t1": 999, "offsets": { "from": 9990, "to": 9990 } },
+        { "text": " før", "t0": 999, "t1": 999, "offsets": { "from": 9990, "to": 9990 } },
+        { "text": " topmødet.", "t0": 999, "t1": 999, "offsets": { "from": 9990, "to": 9990 } }
+      ],
+      "tokens": [
+        { "text": " Nigeria", "p": 0.953614, "t0": 8, "t1": 262, "offsets": { "from": 80, "to": 2620 } },
+        { "text": " mel", "p": 0.993486, "t0": 262, "t1": 374, "offsets": { "from": 2620, "to": 3740 } },
+        { "text": "d", "p": 0.992667, "t0": 374, "t1": 411, "offsets": { "from": 3740, "to": 4110 } },
+        { "text": "te", "p": 0.993466, "t0": 411, "t1": 485, "offsets": { "from": 4110, "to": 4850 } },
+        { "text": " tid", "p": 0.995308, "t0": 485, "t1": 597, "offsets": { "from": 4850, "to": 5970 } },
+        { "text": "lig", "p": 0.991491, "t0": 597, "t1": 709, "offsets": { "from": 5970, "to": 7090 } },
+        { "text": "ere", "p": 0.998711, "t0": 709, "t1": 821, "offsets": { "from": 7090, "to": 8210 } },
+        { "text": " ud", "p": 0.995366, "t0": 821, "t1": 896, "offsets": { "from": 8210, "to": 8960 } },
+        { "text": ",", "p": 0.704282, "t0": 896, "t1": 970, "offsets": { "from": 8960, "to": 9700 } },
+        { "text": " at", "p": 0.992733, "t0": 970, "t1": 979, "offsets": { "from": 9700, "to": 9790 } },
+        { "text": " de", "p": 0.991936, "t0": 999, "t1": 999, "offsets": { "from": 9990, "to": 9990 } },
+        { "text": " plan", "p": 0.980559, "t0": 999, "t1": 999, "offsets": { "from": 9990, "to": 9990 } },
+        { "text": "lag", "p": 0.851743, "t0": 999, "t1": 999, "offsets": { "from": 9990, "to": 9990 } },
+        { "text": "de", "p": 0.997428, "t0": 999, "t1": 999, "offsets": { "from": 9990, "to": 9990 } },
+        { "text": " at", "p": 0.940821, "t0": 999, "t1": 999, "offsets": { "from": 9990, "to": 9990 } },
+        { "text": " slut", "p": 0.985275, "t0": 999, "t1": 999, "offsets": { "from": 9990, "to": 9990 } },
+        { "text": "te", "p": 0.999767, "t0": 999, "t1": 999, "offsets": { "from": 9990, "to": 9990 } },
+        { "text": " sig", "p": 0.973606, "t0": 999, "t1": 999, "offsets": { "from": 9990, "to": 9990 } },
+        { "text": " til", "p": 0.951216, "t0": 999, "t1": 999, "offsets": { "from": 9990, "to": 9990 } },
+        { "text": " A", "p": 0.816527, "t0": 999, "t1": 999, "offsets": { "from": 9990, "to": 9990 } },
+        { "text": "FC", "p": 0.988378, "t0": 999, "t1": 999, "offsets": { "from": 9990, "to": 9990 } },
+        { "text": "F", "p": 0.953666, "t0": 999, "t1": 999, "offsets": { "from": 9990, "to": 9990 } },
+        { "text": "TA", "p": 0.816619, "t0": 999, "t1": 999, "offsets": { "from": 9990, "to": 9990 } },
+        { "text": " i", "p": 0.868404, "t0": 999, "t1": 999, "offsets": { "from": 9990, "to": 9990 } },
+        { "text": " u", "p": 0.998378, "t0": 999, "t1": 999, "offsets": { "from": 9990, "to": 9990 } },
+        { "text": "gen", "p": 0.986493, "t0": 999, "t1": 999, "offsets": { "from": 9990, "to": 9990 } },
+        { "text": " før", "p": 0.969272, "t0": 999, "t1": 999, "offsets": { "from": 9990, "to": 9990 } },
+        { "text": " top", "p": 0.760489, "t0": 999, "t1": 999, "offsets": { "from": 9990, "to": 9990 } },
+        { "text": "m", "p": 0.909983, "t0": 999, "t1": 999, "offsets": { "from": 9990, "to": 9990 } },
+        { "text": "ø", "p": 0.978355, "t0": 999, "t1": 999, "offsets": { "from": 9990, "to": 9990 } },
+        { "text": "det", "p": 0.789177, "t0": 999, "t1": 999, "offsets": { "from": 9990, "to": 9990 } },
+        { "text": ".", "p": 0.909679, "t0": 999, "t1": 999, "offsets": { "from": 9990, "to": 9990 } }
+      ]
+    }
+  ]
+}

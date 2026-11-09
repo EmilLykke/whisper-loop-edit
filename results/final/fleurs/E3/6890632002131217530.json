@@ -1,0 +1,71 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,170", "to": "00:00:30,170" },
+      "offsets":    { "from": 170, "to": 30170 },
+      "text":       " Byen står i skarp kontrast til resten af landets byer, fordi den har et mere arabisk flair end et afrikansk.",
+      "words": [
+        { "text": " Byen", "t0": 36, "t1": 145, "offsets": { "from": 360, "to": 1450 } },
+        { "text": " står", "t0": 145, "t1": 306, "offsets": { "from": 1450, "to": 3060 } },
+        { "text": " i", "t0": 306, "t1": 333, "offsets": { "from": 3060, "to": 3330 } },
+        { "text": " skarp", "t0": 341, "t1": 498, "offsets": { "from": 3410, "to": 4980 } },
+        { "text": " kontrast", "t0": 498, "t1": 755, "offsets": { "from": 4980, "to": 7550 } },
+        { "text": " til", "t0": 755, "t1": 850, "offsets": { "from": 7550, "to": 8500 } },
+        { "text": " resten", "t0": 850, "t1": 1044, "offsets": { "from": 8500, "to": 10440 } },
+        { "text": " af", "t0": 1045, "t1": 1105, "offsets": { "from": 10450, "to": 11050 } },
+        { "text": " landets", "t0": 1193, "t1": 1223, "offsets": { "from": 11930, "to": 12230 } },
+        { "text": " byer,", "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": " fordi", "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": " den", "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": " har", "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": " et", "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": " mere", "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": " arabisk", "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": " flair", "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": " end", "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": " et", "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": " afrikansk.", "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } }
+      ],
+      "tokens": [
+        { "text": " By", "p": 0.795549, "t0": 36, "t1": 81, "offsets": { "from": 360, "to": 810 } },
+        { "text": "en", "p": 0.997077, "t0": 141, "t1": 145, "offsets": { "from": 1410, "to": 1450 } },
+        { "text": " står", "p": 0.993242, "t0": 145, "t1": 306, "offsets": { "from": 1450, "to": 3060 } },
+        { "text": " i", "p": 0.995695, "t0": 306, "t1": 333, "offsets": { "from": 3060, "to": 3330 } },
+        { "text": " sk", "p": 0.991282, "t0": 341, "t1": 387, "offsets": { "from": 3410, "to": 3870 } },
+        { "text": "arp", "p": 0.960494, "t0": 402, "t1": 498, "offsets": { "from": 4020, "to": 4980 } },
+        { "text": " kont", "p": 0.996588, "t0": 498, "t1": 627, "offsets": { "from": 4980, "to": 6270 } },
+        { "text": "rast", "p": 0.996058, "t0": 627, "t1": 755, "offsets": { "from": 6270, "to": 7550 } },
+        { "text": " til", "p": 0.987914, "t0": 755, "t1": 850, "offsets": { "from": 7550, "to": 8500 } },
+        { "text": " rest", "p": 0.998087, "t0": 850, "t1": 922, "offsets": { "from": 8500, "to": 9220 } },
+        { "text": "en", "p": 0.999108, "t0": 922, "t1": 1044, "offsets": { "from": 9220, "to": 10440 } },
+        { "text": " af", "p": 0.995118, "t0": 1045, "t1": 1105, "offsets": { "from": 10450, "to": 11050 } },
+        { "text": " land", "p": 0.979677, "t0": 1193, "t1": 1223, "offsets": { "from": 11930, "to": 12230 } },
+        { "text": "ets", "p": 0.971082, "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": " by", "p": 0.979768, "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": "er", "p": 0.998658, "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": ",", "p": 0.696559, "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": " fordi", "p": 0.981693, "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": " den", "p": 0.980924, "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": " har", "p": 0.991684, "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": " et", "p": 0.986229, "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": " mere", "p": 0.934132, "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": " arab", "p": 0.990391, "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": "isk", "p": 0.994334, "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": " f", "p": 0.846771, "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": "lair", "p": 0.994456, "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": " end", "p": 0.81746, "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": " et", "p": 0.914104, "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": " af", "p": 0.99882, "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": "rik", "p": 0.971899, "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": "ans", "p": 0.999367, "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": "k", "p": 0.992854, "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": ".", "p": 0.892836, "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } }
+      ]
+    }
+  ]
+}

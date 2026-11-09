@@ -1,0 +1,59 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,520", "to": "00:00:30,520" },
+      "offsets":    { "from": 520, "to": 30520 },
+      "text":       " Alle er en del af samfundet og benytter transportsystemerne. Næsten alle klager over transportsystemerne.",
+      "words": [
+        { "text": " Alle", "t0": 72, "t1": 175, "offsets": { "from": 720, "to": 1750 } },
+        { "text": " er", "t0": 175, "t1": 237, "offsets": { "from": 1750, "to": 2370 } },
+        { "text": " en", "t0": 237, "t1": 299, "offsets": { "from": 2370, "to": 2990 } },
+        { "text": " del", "t0": 299, "t1": 391, "offsets": { "from": 2990, "to": 3910 } },
+        { "text": " af", "t0": 391, "t1": 453, "offsets": { "from": 3910, "to": 4530 } },
+        { "text": " samfundet", "t0": 453, "t1": 604, "offsets": { "from": 4530, "to": 6040 } },
+        { "text": " og", "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": " benytter", "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": " transportsystemerne.", "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": " Næsten", "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": " alle", "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": " klager", "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": " over", "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": " transportsystemerne.", "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } }
+      ],
+      "tokens": [
+        { "text": " Alle", "p": 0.923583, "t0": 72, "t1": 175, "offsets": { "from": 720, "to": 1750 } },
+        { "text": " er", "p": 0.972108, "t0": 175, "t1": 237, "offsets": { "from": 1750, "to": 2370 } },
+        { "text": " en", "p": 0.986286, "t0": 237, "t1": 299, "offsets": { "from": 2370, "to": 2990 } },
+        { "text": " del", "p": 0.991622, "t0": 299, "t1": 391, "offsets": { "from": 2990, "to": 3910 } },
+        { "text": " af", "p": 0.997642, "t0": 391, "t1": 453, "offsets": { "from": 3910, "to": 4530 } },
+        { "text": " sam", "p": 0.989783, "t0": 453, "t1": 542, "offsets": { "from": 4530, "to": 5420 } },
+        { "text": "fund", "p": 0.999239, "t0": 548, "t1": 588, "offsets": { "from": 5480, "to": 5880 } },
+        { "text": "et", "p": 0.998748, "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": " og", "p": 0.888123, "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": " ben", "p": 0.990678, "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": "yt", "p": 0.995091, "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": "ter", "p": 0.998325, "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": " transport", "p": 0.989078, "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": "system", "p": 0.918345, "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": "erne", "p": 0.982577, "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": ".", "p": 0.885902, "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": " N", "p": 0.908256, "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": "æ", "p": 0.998334, "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": "sten", "p": 0.999119, "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": " alle", "p": 0.997092, "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": " kl", "p": 0.990178, "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": "ager", "p": 0.998679, "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": " over", "p": 0.992918, "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": " transport", "p": 0.989329, "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": "system", "p": 0.990527, "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": "erne", "p": 0.986739, "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": ".", "p": 0.915747, "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } }
+      ]
+    }
+  ]
+}

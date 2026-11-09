@@ -1,0 +1,65 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,170", "to": "00:00:30,170" },
+      "offsets":    { "from": 170, "to": 30170 },
+      "text":       " Det er dog ikke sandt, selvom der står skrevet noget bag på dokumentet, er det ikke et skattekort.",
+      "words": [
+        { "text": " Det", "t0": 36, "t1": 120, "offsets": { "from": 360, "to": 1200 } },
+        { "text": " er", "t0": 145, "t1": 189, "offsets": { "from": 1450, "to": 1890 } },
+        { "text": " dog", "t0": 189, "t1": 292, "offsets": { "from": 1890, "to": 2920 } },
+        { "text": " ikke", "t0": 292, "t1": 429, "offsets": { "from": 2920, "to": 4290 } },
+        { "text": " sandt,", "t0": 429, "t1": 668, "offsets": { "from": 4290, "to": 6680 } },
+        { "text": " selvom", "t0": 668, "t1": 872, "offsets": { "from": 6680, "to": 8720 } },
+        { "text": " der", "t0": 883, "t1": 976, "offsets": { "from": 8830, "to": 9760 } },
+        { "text": " står", "t0": 976, "t1": 1004, "offsets": { "from": 9760, "to": 10040 } },
+        { "text": " skrevet", "t0": 1007, "t1": 1007, "offsets": { "from": 10070, "to": 10070 } },
+        { "text": " noget", "t0": 1007, "t1": 1007, "offsets": { "from": 10070, "to": 10070 } },
+        { "text": " bag", "t0": 1007, "t1": 1007, "offsets": { "from": 10070, "to": 10070 } },
+        { "text": " på", "t0": 1007, "t1": 1007, "offsets": { "from": 10070, "to": 10070 } },
+        { "text": " dokumentet,", "t0": 1007, "t1": 1007, "offsets": { "from": 10070, "to": 10070 } },
+        { "text": " er", "t0": 1007, "t1": 1007, "offsets": { "from": 10070, "to": 10070 } },
+        { "text": " det", "t0": 1007, "t1": 1007, "offsets": { "from": 10070, "to": 10070 } },
+        { "text": " ikke", "t0": 1007, "t1": 1007, "offsets": { "from": 10070, "to": 10070 } },
+        { "text": " et", "t0": 1007, "t1": 1007, "offsets": { "from": 10070, "to": 10070 } },
+        { "text": " skattekort.", "t0": 1007, "t1": 1007, "offsets": { "from": 10070, "to": 10070 } }
+      ],
+      "tokens": [
+        { "text": " Det", "p": 0.915767, "t0": 36, "t1": 120, "offsets": { "from": 360, "to": 1200 } },
+        { "text": " er", "p": 0.993883, "t0": 145, "t1": 189, "offsets": { "from": 1450, "to": 1890 } },
+        { "text": " dog", "p": 0.967918, "t0": 189, "t1": 292, "offsets": { "from": 1890, "to": 2920 } },
+        { "text": " ikke", "p": 0.99387, "t0": 292, "t1": 429, "offsets": { "from": 2920, "to": 4290 } },
+        { "text": " sand", "p": 0.979019, "t0": 429, "t1": 566, "offsets": { "from": 4290, "to": 5660 } },
+        { "text": "t", "p": 0.995784, "t0": 566, "t1": 599, "offsets": { "from": 5660, "to": 5990 } },
+        { "text": ",", "p": 0.569488, "t0": 599, "t1": 668, "offsets": { "from": 5990, "to": 6680 } },
+        { "text": " selv", "p": 0.887666, "t0": 668, "t1": 753, "offsets": { "from": 6680, "to": 7530 } },
+        { "text": "om", "p": 0.794255, "t0": 805, "t1": 872, "offsets": { "from": 8050, "to": 8720 } },
+        { "text": " der", "p": 0.985152, "t0": 883, "t1": 976, "offsets": { "from": 8830, "to": 9760 } },
+        { "text": " står", "p": 0.986417, "t0": 976, "t1": 1004, "offsets": { "from": 9760, "to": 10040 } },
+        { "text": " sk", "p": 0.946435, "t0": 1007, "t1": 1007, "offsets": { "from": 10070, "to": 10070 } },
+        { "text": "re", "p": 0.99179, "t0": 1007, "t1": 1007, "offsets": { "from": 10070, "to": 10070 } },
+        { "text": "vet", "p": 0.999914, "t0": 1007, "t1": 1007, "offsets": { "from": 10070, "to": 10070 } },
+        { "text": " noget", "p": 0.987195, "t0": 1007, "t1": 1007, "offsets": { "from": 10070, "to": 10070 } },
+        { "text": " bag", "p": 0.947974, "t0": 1007, "t1": 1007, "offsets": { "from": 10070, "to": 10070 } },
+        { "text": " på", "p": 0.736251, "t0": 1007, "t1": 1007, "offsets": { "from": 10070, "to": 10070 } },
+        { "text": " dokument", "p": 0.994203, "t0": 1007, "t1": 1007, "offsets": { "from": 10070, "to": 10070 } },
+        { "text": "et", "p": 0.99229, "t0": 1007, "t1": 1007, "offsets": { "from": 10070, "to": 10070 } },
+        { "text": ",", "p": 0.766418, "t0": 1007, "t1": 1007, "offsets": { "from": 10070, "to": 10070 } },
+        { "text": " er", "p": 0.766135, "t0": 1007, "t1": 1007, "offsets": { "from": 10070, "to": 10070 } },
+        { "text": " det", "p": 0.993155, "t0": 1007, "t1": 1007, "offsets": { "from": 10070, "to": 10070 } },
+        { "text": " ikke", "p": 0.979337, "t0": 1007, "t1": 1007, "offsets": { "from": 10070, "to": 10070 } },
+        { "text": " et", "p": 0.980883, "t0": 1007, "t1": 1007, "offsets": { "from": 10070, "to": 10070 } },
+        { "text": " sk", "p": 0.964409, "t0": 1007, "t1": 1007, "offsets": { "from": 10070, "to": 10070 } },
+        { "text": "att", "p": 0.982549, "t0": 1007, "t1": 1007, "offsets": { "from": 10070, "to": 10070 } },
+        { "text": "ek", "p": 0.998557, "t0": 1007, "t1": 1007, "offsets": { "from": 10070, "to": 10070 } },
+        { "text": "ort", "p": 0.999413, "t0": 1007, "t1": 1007, "offsets": { "from": 10070, "to": 10070 } },
+        { "text": ".", "p": 0.857184, "t0": 1007, "t1": 1007, "offsets": { "from": 10070, "to": 10070 } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,170", "to": "00:00:30,170" },
+      "offsets":    { "from": 170, "to": 30170 },
+      "text":       " Han satte ikke et tal på nedskæringerne og sagde, at det ville være baseret på Kinas økonomiske produktion.",
+      "words": [
+        { "text": " Han", "t0": 36, "t1": 108, "offsets": { "from": 360, "to": 1080 } },
+        { "text": " satte", "t0": 173, "t1": 246, "offsets": { "from": 1730, "to": 2460 } },
+        { "text": " ikke", "t0": 263, "t1": 381, "offsets": { "from": 2630, "to": 3810 } },
+        { "text": " et", "t0": 381, "t1": 443, "offsets": { "from": 3810, "to": 4430 } },
+        { "text": " tal", "t0": 443, "t1": 534, "offsets": { "from": 4430, "to": 5340 } },
+        { "text": " på", "t0": 534, "t1": 625, "offsets": { "from": 5340, "to": 6250 } },
+        { "text": " nedskæringerne", "t0": 625, "t1": 1080, "offsets": { "from": 6250, "to": 10800 } },
+        { "text": " og", "t0": 1080, "t1": 1080, "offsets": { "from": 10800, "to": 10800 } },
+        { "text": " sagde,", "t0": 1080, "t1": 1080, "offsets": { "from": 10800, "to": 10800 } },
+        { "text": " at", "t0": 1080, "t1": 1080, "offsets": { "from": 10800, "to": 10800 } },
+        { "text": " det", "t0": 1080, "t1": 1080, "offsets": { "from": 10800, "to": 10800 } },
+        { "text": " ville", "t0": 1080, "t1": 1080, "offsets": { "from": 10800, "to": 10800 } },
+        { "text": " være", "t0": 1080, "t1": 1080, "offsets": { "from": 10800, "to": 10800 } },
+        { "text": " baseret", "t0": 1080, "t1": 1080, "offsets": { "from": 10800, "to": 10800 } },
+        { "text": " på", "t0": 1080, "t1": 1080, "offsets": { "from": 10800, "to": 10800 } },
+        { "text": " Kinas", "t0": 1080, "t1": 1080, "offsets": { "from": 10800, "to": 10800 } },
+        { "text": " økonomiske", "t0": 1080, "t1": 1080, "offsets": { "from": 10800, "to": 10800 } },
+        { "text": " produktion.", "t0": 1080, "t1": 1080, "offsets": { "from": 10800, "to": 10800 } }
+      ],
+      "tokens": [
+        { "text": " Han", "p": 0.953157, "t0": 36, "t1": 108, "offsets": { "from": 360, "to": 1080 } },
+        { "text": " sat", "p": 0.969756, "t0": 173, "t1": 199, "offsets": { "from": 1730, "to": 1990 } },
+        { "text": "te", "p": 0.999897, "t0": 199, "t1": 246, "offsets": { "from": 1990, "to": 2460 } },
+        { "text": " ikke", "p": 0.981193, "t0": 263, "t1": 381, "offsets": { "from": 2630, "to": 3810 } },
+        { "text": " et", "p": 0.71493, "t0": 381, "t1": 443, "offsets": { "from": 3810, "to": 4430 } },
+        { "text": " tal", "p": 0.985887, "t0": 443, "t1": 534, "offsets": { "from": 4430, "to": 5340 } },
+        { "text": " på", "p": 0.98873, "t0": 534, "t1": 625, "offsets": { "from": 5340, "to": 6250 } },
+        { "text": " n", "p": 0.959, "t0": 625, "t1": 655, "offsets": { "from": 6250, "to": 6550 } },
+        { "text": "eds", "p": 0.999376, "t0": 655, "t1": 744, "offsets": { "from": 6550, "to": 7440 } },
+        { "text": "k", "p": 0.994856, "t0": 757, "t1": 764, "offsets": { "from": 7570, "to": 7640 } },
+        { "text": "æ", "p": 0.99422, "t0": 776, "t1": 828, "offsets": { "from": 7760, "to": 8280 } },
+        { "text": "ring", "p": 0.999632, "t0": 859, "t1": 908, "offsets": { "from": 8590, "to": 9080 } },
+        { "text": "erne", "p": 0.977838, "t0": 955, "t1": 1080, "offsets": { "from": 9550, "to": 10800 } },
+        { "text": " og", "p": 0.577061, "t0": 1080, "t1": 1080, "offsets": { "from": 10800, "to": 10800 } },
+        { "text": " sag", "p": 0.991147, "t0": 1080, "t1": 1080, "offsets": { "from": 10800, "to": 10800 } },
+        { "text": "de", "p": 0.999685, "t0": 1080, "t1": 1080, "offsets": { "from": 10800, "to": 10800 } },
+        { "text": ",", "p": 0.669515, "t0": 1080, "t1": 1080, "offsets": { "from": 10800, "to": 10800 } },
+        { "text": " at", "p": 0.940003, "t0": 1080, "t1": 1080, "offsets": { "from": 10800, "to": 10800 } },
+        { "text": " det", "p": 0.923994, "t0": 1080, "t1": 1080, "offsets": { "from": 10800, "to": 10800 } },
+        { "text": " ville", "p": 0.967222, "t0": 1080, "t1": 1080, "offsets": { "from": 10800, "to": 10800 } },
+        { "text": " være", "p": 0.982611, "t0": 1080, "t1": 1080, "offsets": { "from": 10800, "to": 10800 } },
+        { "text": " bas", "p": 0.997219, "t0": 1080, "t1": 1080, "offsets": { "from": 10800, "to": 10800 } },
+        { "text": "er", "p": 0.995082, "t0": 1080, "t1": 1080, "offsets": { "from": 10800, "to": 10800 } },
+        { "text": "et", "p": 0.999825, "t0": 1080, "t1": 1080, "offsets": { "from": 10800, "to": 10800 } },
+        { "text": " på", "p": 0.997609, "t0": 1080, "t1": 1080, "offsets": { "from": 10800, "to": 10800 } },
+        { "text": " K", "p": 0.950111, "t0": 1080, "t1": 1080, "offsets": { "from": 10800, "to": 10800 } },
+        { "text": "inas", "p": 0.999376, "t0": 1080, "t1": 1080, "offsets": { "from": 10800, "to": 10800 } },
+        { "text": " ø", "p": 0.995543, "t0": 1080, "t1": 1080, "offsets": { "from": 10800, "to": 10800 } },
+        { "text": "k", "p": 0.998894, "t0": 1080, "t1": 1080, "offsets": { "from": 10800, "to": 10800 } },
+        { "text": "onom", "p": 0.999846, "t0": 1080, "t1": 1080, "offsets": { "from": 10800, "to": 10800 } },
+        { "text": "is", "p": 0.972057, "t0": 1080, "t1": 1080, "offsets": { "from": 10800, "to": 10800 } },
+        { "text": "ke", "p": 0.999741, "t0": 1080, "t1": 1080, "offsets": { "from": 10800, "to": 10800 } },
+        { "text": " produ", "p": 0.996269, "t0": 1080, "t1": 1080, "offsets": { "from": 10800, "to": 10800 } },
+        { "text": "ktion", "p": 0.999794, "t0": 1080, "t1": 1080, "offsets": { "from": 10800, "to": 10800 } },
+        { "text": ".", "p": 0.932268, "t0": 1080, "t1": 1080, "offsets": { "from": 10800, "to": 10800 } }
+      ]
+    }
+  ]
+}

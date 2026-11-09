@@ -1,0 +1,73 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E7-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,000", "to": "00:00:30,000" },
+      "offsets":    { "from": 0, "to": 30000 },
+      "text":       " Hjemmet betyder denne konstant eksponering over for lokale bakterier, at du sandsynligvis allerede er immun overfor dem.",
+      "words": [
+        { "text": " Hjemmet", "t0": 1, "t1": 191, "offsets": { "from": 10, "to": 1910 } },
+        { "text": " betyder", "t0": 195, "t1": 388, "offsets": { "from": 1950, "to": 3880 } },
+        { "text": " denne", "t0": 388, "t1": 527, "offsets": { "from": 3880, "to": 5270 } },
+        { "text": " konstant", "t0": 527, "t1": 750, "offsets": { "from": 5270, "to": 7500 } },
+        { "text": " eksponering", "t0": 750, "t1": 752, "offsets": { "from": 7500, "to": 7520 } },
+        { "text": " over", "t0": 752, "t1": 752, "offsets": { "from": 7520, "to": 7520 } },
+        { "text": " for", "t0": 752, "t1": 752, "offsets": { "from": 7520, "to": 7520 } },
+        { "text": " lokale", "t0": 752, "t1": 752, "offsets": { "from": 7520, "to": 7520 } },
+        { "text": " bakterier,", "t0": 752, "t1": 752, "offsets": { "from": 7520, "to": 7520 } },
+        { "text": " at", "t0": 752, "t1": 752, "offsets": { "from": 7520, "to": 7520 } },
+        { "text": " du", "t0": 752, "t1": 752, "offsets": { "from": 7520, "to": 7520 } },
+        { "text": " sandsynligvis", "t0": 752, "t1": 752, "offsets": { "from": 7520, "to": 7520 } },
+        { "text": " allerede", "t0": 752, "t1": 752, "offsets": { "from": 7520, "to": 7520 } },
+        { "text": " er", "t0": 752, "t1": 752, "offsets": { "from": 7520, "to": 7520 } },
+        { "text": " immun", "t0": 752, "t1": 752, "offsets": { "from": 7520, "to": 7520 } },
+        { "text": " overfor", "t0": 752, "t1": 752, "offsets": { "from": 7520, "to": 7520 } },
+        { "text": " dem.", "t0": 752, "t1": 752, "offsets": { "from": 7520, "to": 7520 } }
+      ],
+      "tokens": [
+        { "text": " H", "p": 0.368951, "t0": 1, "t1": 28, "offsets": { "from": 10, "to": 280 } },
+        { "text": "jem", "p": 0.886358, "t0": 39, "t1": 111, "offsets": { "from": 390, "to": 1110 } },
+        { "text": "met", "p": 0.7978, "t0": 111, "t1": 191, "offsets": { "from": 1110, "to": 1910 } },
+        { "text": " bet", "p": 0.977166, "t0": 195, "t1": 278, "offsets": { "from": 1950, "to": 2780 } },
+        { "text": "y", "p": 0.999701, "t0": 278, "t1": 305, "offsets": { "from": 2780, "to": 3050 } },
+        { "text": "der", "p": 0.999628, "t0": 305, "t1": 388, "offsets": { "from": 3050, "to": 3880 } },
+        { "text": " den", "p": 0.409902, "t0": 388, "t1": 471, "offsets": { "from": 3880, "to": 4710 } },
+        { "text": "ne", "p": 0.949367, "t0": 473, "t1": 527, "offsets": { "from": 4730, "to": 5270 } },
+        { "text": " konst", "p": 0.989415, "t0": 527, "t1": 651, "offsets": { "from": 5270, "to": 6510 } },
+        { "text": "ant", "p": 0.474679, "t0": 661, "t1": 750, "offsets": { "from": 6610, "to": 7500 } },
+        { "text": " eks", "p": 0.577934, "t0": 750, "t1": 752, "offsets": { "from": 7500, "to": 7520 } },
+        { "text": "p", "p": 0.996732, "t0": 752, "t1": 752, "offsets": { "from": 7520, "to": 7520 } },
+        { "text": "on", "p": 0.996614, "t0": 752, "t1": 752, "offsets": { "from": 7520, "to": 7520 } },
+        { "text": "ering", "p": 0.997994, "t0": 752, "t1": 752, "offsets": { "from": 7520, "to": 7520 } },
+        { "text": " over", "p": 0.813731, "t0": 752, "t1": 752, "offsets": { "from": 7520, "to": 7520 } },
+        { "text": " for", "p": 0.530018, "t0": 752, "t1": 752, "offsets": { "from": 7520, "to": 7520 } },
+        { "text": " lok", "p": 0.981699, "t0": 752, "t1": 752, "offsets": { "from": 7520, "to": 7520 } },
+        { "text": "ale", "p": 0.997723, "t0": 752, "t1": 752, "offsets": { "from": 7520, "to": 7520 } },
+        { "text": " bak", "p": 0.982625, "t0": 752, "t1": 752, "offsets": { "from": 7520, "to": 7520 } },
+        { "text": "ter", "p": 0.99955, "t0": 752, "t1": 752, "offsets": { "from": 7520, "to": 7520 } },
+        { "text": "ier", "p": 0.996881, "t0": 752, "t1": 752, "offsets": { "from": 7520, "to": 7520 } },
+        { "text": ",", "p": 0.671246, "t0": 752, "t1": 752, "offsets": { "from": 7520, "to": 7520 } },
+        { "text": " at", "p": 0.969951, "t0": 752, "t1": 752, "offsets": { "from": 7520, "to": 7520 } },
+        { "text": " du", "p": 0.986083, "t0": 752, "t1": 752, "offsets": { "from": 7520, "to": 7520 } },
+        { "text": " s", "p": 0.983338, "t0": 752, "t1": 752, "offsets": { "from": 7520, "to": 7520 } },
+        { "text": "ands", "p": 0.980612, "t0": 752, "t1": 752, "offsets": { "from": 7520, "to": 7520 } },
+        { "text": "yn", "p": 0.998908, "t0": 752, "t1": 752, "offsets": { "from": 7520, "to": 7520 } },
+        { "text": "lig", "p": 0.945318, "t0": 752, "t1": 752, "offsets": { "from": 7520, "to": 7520 } },
+        { "text": "vis", "p": 0.994315, "t0": 752, "t1": 752, "offsets": { "from": 7520, "to": 7520 } },
+        { "text": " all", "p": 0.93478, "t0": 752, "t1": 752, "offsets": { "from": 7520, "to": 7520 } },
+        { "text": "ered", "p": 0.999428, "t0": 752, "t1": 752, "offsets": { "from": 7520, "to": 7520 } },
+        { "text": "e", "p": 0.998976, "t0": 752, "t1": 752, "offsets": { "from": 7520, "to": 7520 } },
+        { "text": " er", "p": 0.984506, "t0": 752, "t1": 752, "offsets": { "from": 7520, "to": 7520 } },
+        { "text": " immun", "p": 0.975115, "t0": 752, "t1": 752, "offsets": { "from": 7520, "to": 7520 } },
+        { "text": " over", "p": 0.967493, "t0": 752, "t1": 752, "offsets": { "from": 7520, "to": 7520 } },
+        { "text": "for", "p": 0.685824, "t0": 752, "t1": 752, "offsets": { "from": 7520, "to": 7520 } },
+        { "text": " dem", "p": 0.970165, "t0": 752, "t1": 752, "offsets": { "from": 7520, "to": 7520 } },
+        { "text": ".", "p": 0.922574, "t0": 752, "t1": 752, "offsets": { "from": 7520, "to": 7520 } }
+      ]
+    }
+  ]
+}

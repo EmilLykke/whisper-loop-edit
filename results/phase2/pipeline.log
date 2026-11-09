@@ -1,0 +1,133 @@
+=== baseline 17:00:02
+155 utterances decoded in 260 s -> results/phase2/transcripts/baseline/utts
+=== E3 17:04:22
+E3: loop 0.00 (fuzzy 0.00) LD -1.66 | clean lp -0.500 unchanged 0.45 | natural 0/5 {'ts04_onset': False, 'ts04_copy': False, 'bare01_copy': False, 'nt02_copy': False, 'ts03_onset': False} | 83.4 s
+timestamps find_da_5min_04 run1: 19.8 s, 449 words
+timestamps-bare find_da_5min_04 run1: 23.1 s, 644 words
+nt find_da_5min_04 run1: 15.2 s, 406 words
+nt-silero find_da_5min_04 run1: 20.0 s, 434 words
+nt-vad find_da_5min_04 run1: 22.7 s, 476 words
+timestamps find_da_5min_04 run2: 17.3 s, 449 words
+155 utterances decoded in 260 s -> results/phase2/transcripts/E3/utts
+/dev/disk3s5   926Gi   878Gi    20Gi    98%    9.2M  210M    4%   /System/Volumes/Data
+=== C1 17:21:48
+C1: 9 tensors, sha256 d6218a59a3ebec66, 8 s
+W1108 17:21:59.305000 98469 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/1259 [00:00<?, ?it/s]Loading weights: 100%|██████████| 1259/1259 [00:00<00:00, 24001.44it/s]
+e23c87a2841e5681775bb2219affacaa83d3478785dc583697ed3c409478bc21  models/ggml/edits/ggml-large-v3-C1-f16.bin
+C1: checked 1259 ggml tensors against HF fp16 by name; touched 9, equal 9; mismatches 0 []; touched not found []
+C1: ggml sha256 e23c87a2841e5681775bb2219affacaa83d3478785dc583697ed3c409478bc21
+--- restarted 17:24:18: keep ggml (coordinator), E3 ggml rebuilt bit-identically
+=== C1 17:24:18
+C1: loop 0.68 (fuzzy 0.67) LD 2.03 | clean lp -0.380 unchanged 0.64 | natural 3/5 {'ts04_onset': True, 'ts04_copy': True, 'bare01_copy': False, 'nt02_copy': True, 'ts03_onset': False} | 73.5 s
+timestamps find_da_5min_04 run1: 20.3 s, 464 words
+timestamps-bare find_da_5min_04 run1: 31.3 s, 682 words
+nt find_da_5min_04 run1: 15.9 s, 432 words
+nt-silero find_da_5min_04 run1: 19.6 s, 434 words
+nt-vad find_da_5min_04 run1: 22.4 s, 479 words
+timestamps find_da_5min_04 run2: 18.8 s, 464 words
+155 utterances decoded in 262 s -> results/phase2/transcripts/C1/utts
+/dev/disk3s5   926Gi   883Gi    15Gi    99%    9.2M  153M    6%   /System/Volumes/Data
+=== E1 17:42:08
+E1: 2 tensors, sha256 ae346c0bbf6e0a8d, 8 s
+W1108 17:42:17.878000 15875 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/1259 [00:00<?, ?it/s]Loading weights: 100%|██████████| 1259/1259 [00:00<00:00, 24005.59it/s]
+4eed39becc855e4eac13486d21ccaa83a2ba003ab4cc9ae66c69af7cedfa10cc  models/ggml/edits/ggml-large-v3-E1-f16.bin
+E1: checked 1259 ggml tensors against HF fp16 by name; touched 2, equal 2; mismatches 0 []; touched not found []
+E1: ggml sha256 4eed39becc855e4eac13486d21ccaa83a2ba003ab4cc9ae66c69af7cedfa10cc
+E1: loop 0.06 (fuzzy 0.11) LD 0.42 | clean lp -0.462 unchanged 0.52 | natural 1/5 {'ts04_onset': False, 'ts04_copy': False, 'bare01_copy': False, 'nt02_copy': False, 'ts03_onset': True} | 75.6 s
+timestamps find_da_5min_04 run1: 20.9 s, 488 words
+timestamps-bare find_da_5min_04 run1: 28.0 s, 712 words
+nt find_da_5min_04 run1: 15.8 s, 439 words
+nt-silero find_da_5min_04 run1: 19.9 s, 433 words
+nt-vad find_da_5min_04 run1: 22.2 s, 477 words
+timestamps find_da_5min_04 run2: 19.7 s, 488 words
+155 utterances decoded in 263 s -> results/phase2/transcripts/E1/utts
+/dev/disk3s5   926Gi   886Gi    12Gi    99%    9.2M  122M    7%   /System/Volumes/Data
+=== E2 17:59:59
+E2: 4 tensors, sha256 4cc7db1a79735883, 8 s
+W1108 18:00:09.678000 30717 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/1259 [00:00<?, ?it/s]Loading weights: 100%|██████████| 1259/1259 [00:00<00:00, 23800.02it/s]
+8c38fead836fa39ecda45b40b1395e9204f1cefaa09e5cc7b958bab58dd4a7a6  models/ggml/edits/ggml-large-v3-E2-f16.bin
+E2: checked 1259 ggml tensors against HF fp16 by name; touched 4, equal 4; mismatches 0 []; touched not found []
+E2: ggml sha256 8c38fead836fa39ecda45b40b1395e9204f1cefaa09e5cc7b958bab58dd4a7a6
+E2: loop 0.21 (fuzzy 0.20) LD 0.04 | clean lp -0.415 unchanged 0.69 | natural 2/5 {'ts04_onset': True, 'ts04_copy': False, 'bare01_copy': False, 'nt02_copy': True, 'ts03_onset': False} | 74.5 s
+timestamps find_da_5min_04 run1: 19.8 s, 474 words
+timestamps-bare find_da_5min_04 run1: 51.6 s, 988 words
+nt find_da_5min_04 run1: 14.2 s, 357 words
+nt-silero find_da_5min_04 run1: 19.5 s, 434 words
+nt-vad find_da_5min_04 run1: 22.1 s, 478 words
+timestamps find_da_5min_04 run2: 19.2 s, 474 words
+155 utterances decoded in 262 s -> results/phase2/transcripts/E2/utts
+/dev/disk3s5   926Gi   889Gi   8.8Gi   100%    9.2M   92M    9%   /System/Volumes/Data
+=== E4 18:18:21
+pruning models/ggml/edits/ggml-large-v3-C1-f16.bin (free 8 GiB before building E4)
+E4: 48 tensors, sha256 e7eefe1d205cbcb7, 8 s
+W1108 18:18:32.293000 46019 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/1259 [00:00<?, ?it/s]Loading weights: 100%|██████████| 1259/1259 [00:00<00:00, 22640.13it/s]
+158fb729eb5630efab277e55ea731a0f93e0c2cb1a842442973df6c8268f34b2  models/ggml/edits/ggml-large-v3-E4-f16.bin
+E4: checked 1259 ggml tensors against HF fp16 by name; touched 48, equal 48; mismatches 0 []; touched not found []
+E4: ggml sha256 158fb729eb5630efab277e55ea731a0f93e0c2cb1a842442973df6c8268f34b2
+pruning models/ggml/edits/ggml-large-v3-E2-f16.bin (coordinator rule: crispasr + utterances finished)
+E4: loop 0.06 (fuzzy 0.06) LD -1.87 | clean lp -0.403 unchanged 0.53 | natural 2/5 {'ts04_onset': True, 'ts04_copy': False, 'bare01_copy': True, 'nt02_copy': False, 'ts03_onset': False} | 75.6 s
+timestamps find_da_5min_04 run1: 19.3 s, 474 words
+timestamps-bare find_da_5min_04 run1: 33.5 s, 714 words
+nt find_da_5min_04 run1: 14.5 s, 380 words
+nt-silero find_da_5min_04 run1: 19.5 s, 434 words
+nt-vad find_da_5min_04 run1: 22.0 s, 476 words
+timestamps find_da_5min_04 run2: 18.5 s, 474 words
+155 utterances decoded in 262 s -> results/phase2/transcripts/E4/utts
+/dev/disk3s5   926Gi   880Gi    17Gi    99%    9.2M  183M    5%   /System/Volumes/Data
+=== E5 18:35:54
+pruning models/ggml/edits/ggml-large-v3-E4-f16.bin (coordinator rule: crispasr + utterances finished)
+E5: 48 tensors, sha256 9e6bbde994c4da39, 8 s
+W1108 18:36:05.605000 60946 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/1259 [00:00<?, ?it/s]Loading weights: 100%|██████████| 1259/1259 [00:00<00:00, 24190.11it/s]
+0d5fc44eab3a297578fc8774bd7d52cc86647bc432494d0c93eb80f8d4bc53b9  models/ggml/edits/ggml-large-v3-E5-f16.bin
+E5: checked 1259 ggml tensors against HF fp16 by name; touched 48, equal 48; mismatches 0 []; touched not found []
+E5: ggml sha256 0d5fc44eab3a297578fc8774bd7d52cc86647bc432494d0c93eb80f8d4bc53b9
+E5: loop 0.00 (fuzzy 0.00) LD -3.25 | clean lp -0.694 unchanged 0.28 | natural 1/5 {'ts04_onset': True, 'ts04_copy': False, 'bare01_copy': False, 'nt02_copy': False, 'ts03_onset': False} | 74.7 s
+timestamps find_da_5min_04 run1: 17.2 s, 422 words
+timestamps-bare find_da_5min_04 run1: 19.8 s, 528 words
+nt find_da_5min_04 run1: 14.7 s, 381 words
+nt-silero find_da_5min_04 run1: 19.9 s, 434 words
+nt-vad find_da_5min_04 run1: 24.3 s, 467 words
+timestamps find_da_5min_04 run2: 16.5 s, 422 words
+155 utterances decoded in 266 s -> results/phase2/transcripts/E5/utts
+/dev/disk3s5   926Gi   880Gi    17Gi    99%    9.2M  183M    5%   /System/Volumes/Data
+=== C2 18:53:20
+pruning models/ggml/edits/ggml-large-v3-E5-f16.bin (coordinator rule: crispasr + utterances finished)
+C2: 48 tensors, sha256 b8ca55b775cb0b70, 8 s
+W1108 18:53:30.988000 75486 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/1259 [00:00<?, ?it/s]Loading weights: 100%|██████████| 1259/1259 [00:00<00:00, 21441.48it/s]
+1e1cc60f33f9b8c7ab8b1e0eb9aa4873e0a7c7cceb22cb430c5cb9cf599c2d71  models/ggml/edits/ggml-large-v3-C2-f16.bin
+C2: checked 1259 ggml tensors against HF fp16 by name; touched 48, equal 48; mismatches 0 []; touched not found []
+C2: ggml sha256 1e1cc60f33f9b8c7ab8b1e0eb9aa4873e0a7c7cceb22cb430c5cb9cf599c2d71
+C2: loop 0.66 (fuzzy 0.66) LD 1.83 | clean lp -0.386 unchanged 0.69 | natural 3/5 {'ts04_onset': False, 'ts04_copy': True, 'bare01_copy': True, 'nt02_copy': False, 'ts03_onset': True} | 74.3 s
+timestamps find_da_5min_04 run1: 24.3 s, 469 words
+timestamps-bare find_da_5min_04 run1: 27.5 s, 866 words
+nt find_da_5min_04 run1: 14.2 s, 343 words
+nt-silero find_da_5min_04 run1: 19.2 s, 435 words
+nt-vad find_da_5min_04 run1: 22.0 s, 478 words
+timestamps find_da_5min_04 run2: 22.8 s, 469 words
+155 utterances decoded in 262 s -> results/phase2/transcripts/C2/utts
+pruning models/ggml/edits/ggml-large-v3-C2-f16.bin (coordinator rule: crispasr + utterances finished)
+/dev/disk3s5   926Gi   877Gi    20Gi    98%    9.2M  213M    4%   /System/Volumes/Data
+=== E6 19:12:01
+E6: 50 tensors, sha256 b05d8b62345ddf0b, 8 s
+W1108 19:12:11.218000 91558 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/1259 [00:00<?, ?it/s]Loading weights: 100%|██████████| 1259/1259 [00:00<00:00, 19085.55it/s]
+4235b011f74b885e961dd9a2b563e0aaf95f22a73b5ed7ae2f04e1dc4c0e40b7  models/ggml/edits/ggml-large-v3-E6-f16.bin
+E6: checked 1259 ggml tensors against HF fp16 by name; touched 50, equal 50; mismatches 0 []; touched not found []
+E6: ggml sha256 4235b011f74b885e961dd9a2b563e0aaf95f22a73b5ed7ae2f04e1dc4c0e40b7
+E6: loop 0.11 (fuzzy 0.11) LD -1.04 | clean lp -0.420 unchanged 0.59 | natural 1/5 {'ts04_onset': True, 'ts04_copy': False, 'bare01_copy': False, 'nt02_copy': False, 'ts03_onset': False} | 73.7 s
+timestamps find_da_5min_04 run1: 19.0 s, 487 words
+timestamps-bare find_da_5min_04 run1: 43.4 s, 838 words
+nt find_da_5min_04 run1: 14.1 s, 357 words
+nt-silero find_da_5min_04 run1: 19.2 s, 434 words
+nt-vad find_da_5min_04 run1: 21.9 s, 478 words
+timestamps find_da_5min_04 run2: 18.9 s, 487 words
+155 utterances decoded in 261 s -> results/phase2/transcripts/E6/utts
+/dev/disk3s5   926Gi   880Gi    18Gi    98%    9.2M  192M    5%   /System/Volumes/Data
+=== done 19:29:29
+pruning models/ggml/edits/ggml-large-v3-E6-f16.bin (coordinator rule: crispasr + utterances finished)

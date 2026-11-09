@@ -1,0 +1,65 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,640", "to": "00:00:30,640" },
+      "offsets":    { "from": 640, "to": 30640 },
+      "text":       " Bare så du ved det, ved du kan romansprog, vil det være lettere for dig at lære portugisisk.",
+      "words": [
+        { "text": " Bare", "t0": 84, "t1": 208, "offsets": { "from": 840, "to": 2080 } },
+        { "text": " så", "t0": 216, "t1": 306, "offsets": { "from": 2160, "to": 3060 } },
+        { "text": " du", "t0": 320, "t1": 392, "offsets": { "from": 3200, "to": 3920 } },
+        { "text": " ved", "t0": 392, "t1": 499, "offsets": { "from": 3920, "to": 4990 } },
+        { "text": " det,", "t0": 501, "t1": 569, "offsets": { "from": 5010, "to": 5690 } },
+        { "text": " ved", "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": " du", "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": " kan", "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": " romansprog,", "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": " vil", "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": " det", "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": " være", "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": " lettere", "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": " for", "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": " dig", "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": " at", "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": " lære", "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": " portugisisk.", "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } }
+      ],
+      "tokens": [
+        { "text": " Bare", "p": 0.882859, "t0": 84, "t1": 208, "offsets": { "from": 840, "to": 2080 } },
+        { "text": " så", "p": 0.983515, "t0": 216, "t1": 306, "offsets": { "from": 2160, "to": 3060 } },
+        { "text": " du", "p": 0.980492, "t0": 320, "t1": 392, "offsets": { "from": 3200, "to": 3920 } },
+        { "text": " ved", "p": 0.986321, "t0": 392, "t1": 499, "offsets": { "from": 3920, "to": 4990 } },
+        { "text": " det", "p": 0.964862, "t0": 501, "t1": 550, "offsets": { "from": 5010, "to": 5500 } },
+        { "text": ",", "p": 0.644858, "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": " ved", "p": 0.919796, "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": " du", "p": 0.868367, "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": " kan", "p": 0.749747, "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": " rom", "p": 0.459379, "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": "ans", "p": 0.991787, "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": "pro", "p": 0.496139, "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": "g", "p": 0.978413, "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": ",", "p": 0.695704, "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": " vil", "p": 0.843512, "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": " det", "p": 0.985338, "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": " være", "p": 0.996917, "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": " lett", "p": 0.880317, "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": "ere", "p": 0.999659, "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": " for", "p": 0.884092, "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": " dig", "p": 0.998919, "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": " at", "p": 0.908996, "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": " læ", "p": 0.990535, "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": "re", "p": 0.991612, "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": " port", "p": 0.956736, "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": "ug", "p": 0.983858, "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": "is", "p": 0.969535, "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": "isk", "p": 0.99858, "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": ".", "p": 0.916948, "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } }
+      ]
+    }
+  ]
+}

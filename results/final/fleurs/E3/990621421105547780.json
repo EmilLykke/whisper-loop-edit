@@ -1,0 +1,72 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,000", "to": "00:00:30,000" },
+      "offsets":    { "from": 0, "to": 30000 },
+      "text":       " Fissionspumpen virker ud fra det princip, at det kræver energi at sammensætte en kerne med mange protoner og neutroner.",
+      "words": [
+        { "text": " Fissionspumpen", "t0": 0, "t1": 392, "offsets": { "from": 0, "to": 3920 } },
+        { "text": " virker", "t0": 398, "t1": 562, "offsets": { "from": 3980, "to": 5620 } },
+        { "text": " ud", "t0": 562, "t1": 618, "offsets": { "from": 5620, "to": 6180 } },
+        { "text": " fra", "t0": 618, "t1": 702, "offsets": { "from": 6180, "to": 7020 } },
+        { "text": " det", "t0": 702, "t1": 784, "offsets": { "from": 7020, "to": 7840 } },
+        { "text": " princip,", "t0": 788, "t1": 860, "offsets": { "from": 7880, "to": 8600 } },
+        { "text": " at", "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": " det", "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": " kræver", "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": " energi", "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": " at", "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": " sammensætte", "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": " en", "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": " kerne", "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": " med", "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": " mange", "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": " protoner", "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": " og", "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": " neutroner.", "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } }
+      ],
+      "tokens": [
+        { "text": " F", "p": 0.908557, "t0": 0, "t1": 28, "offsets": { "from": 0, "to": 280 } },
+        { "text": "issions", "p": 0.534553, "t0": 152, "t1": 225, "offsets": { "from": 1520, "to": 2250 } },
+        { "text": "p", "p": 0.832364, "t0": 225, "t1": 253, "offsets": { "from": 2250, "to": 2530 } },
+        { "text": "ump", "p": 0.978833, "t0": 253, "t1": 334, "offsets": { "from": 2530, "to": 3340 } },
+        { "text": "en", "p": 0.999085, "t0": 337, "t1": 392, "offsets": { "from": 3370, "to": 3920 } },
+        { "text": " vir", "p": 0.980507, "t0": 398, "t1": 478, "offsets": { "from": 3980, "to": 4780 } },
+        { "text": "ker", "p": 0.997685, "t0": 478, "t1": 562, "offsets": { "from": 4780, "to": 5620 } },
+        { "text": " ud", "p": 0.977191, "t0": 562, "t1": 618, "offsets": { "from": 5620, "to": 6180 } },
+        { "text": " fra", "p": 0.95107, "t0": 618, "t1": 702, "offsets": { "from": 6180, "to": 7020 } },
+        { "text": " det", "p": 0.976923, "t0": 702, "t1": 784, "offsets": { "from": 7020, "to": 7840 } },
+        { "text": " princip", "p": 0.863811, "t0": 788, "t1": 860, "offsets": { "from": 7880, "to": 8600 } },
+        { "text": ",", "p": 0.603367, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": " at", "p": 0.954802, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": " det", "p": 0.974702, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": " kr", "p": 0.994273, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": "æ", "p": 0.997438, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": "ver", "p": 0.999826, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": " ener", "p": 0.983164, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": "gi", "p": 0.999699, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": " at", "p": 0.836415, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": " sam", "p": 0.994507, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": "mens", "p": 0.990713, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": "æ", "p": 0.999815, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": "tte", "p": 0.99165, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": " en", "p": 0.985242, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": " ker", "p": 0.988732, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": "ne", "p": 0.999912, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": " med", "p": 0.902266, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": " mange", "p": 0.995683, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": " proton", "p": 0.996333, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": "er", "p": 0.994757, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": " og", "p": 0.980034, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": " neutron", "p": 0.99201, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": "er", "p": 0.999396, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": ".", "p": 0.93478, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } }
+      ]
+    }
+  ]
+}

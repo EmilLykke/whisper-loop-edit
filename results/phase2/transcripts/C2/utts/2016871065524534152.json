@@ -1,0 +1,63 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C2-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,280", "to": "00:00:30,280" },
+      "offsets":    { "from": 280, "to": 30280 },
+      "text":       " Tidligere rapporterede det kinesiske nyhedsbyrå Tsinghua, at et fly var blevet kagebrød.",
+      "words": [
+        { "text": " Tidligere", "t0": 28, "t1": 354, "offsets": { "from": 280, "to": 3540 } },
+        { "text": " rapporterede", "t0": 354, "t1": 747, "offsets": { "from": 3540, "to": 7470 } },
+        { "text": " det", "t0": 748, "t1": 748, "offsets": { "from": 7480, "to": 7480 } },
+        { "text": " kinesiske", "t0": 748, "t1": 748, "offsets": { "from": 7480, "to": 7480 } },
+        { "text": " nyhedsbyrå", "t0": 748, "t1": 748, "offsets": { "from": 7480, "to": 7480 } },
+        { "text": " Tsinghua,", "t0": 748, "t1": 748, "offsets": { "from": 7480, "to": 7480 } },
+        { "text": " at", "t0": 748, "t1": 748, "offsets": { "from": 7480, "to": 7480 } },
+        { "text": " et", "t0": 748, "t1": 748, "offsets": { "from": 7480, "to": 7480 } },
+        { "text": " fly", "t0": 748, "t1": 748, "offsets": { "from": 7480, "to": 7480 } },
+        { "text": " var", "t0": 748, "t1": 748, "offsets": { "from": 7480, "to": 7480 } },
+        { "text": " blevet", "t0": 748, "t1": 748, "offsets": { "from": 7480, "to": 7480 } },
+        { "text": " kagebrød.", "t0": 748, "t1": 748, "offsets": { "from": 7480, "to": 7480 } }
+      ],
+      "tokens": [
+        { "text": " T", "p": 0.931832, "t0": 28, "t1": 64, "offsets": { "from": 280, "to": 640 } },
+        { "text": "id", "p": 0.998719, "t0": 64, "t1": 137, "offsets": { "from": 640, "to": 1370 } },
+        { "text": "lig", "p": 0.994089, "t0": 146, "t1": 246, "offsets": { "from": 1460, "to": 2460 } },
+        { "text": "ere", "p": 0.999821, "t0": 246, "t1": 354, "offsets": { "from": 2460, "to": 3540 } },
+        { "text": " rapp", "p": 0.968529, "t0": 354, "t1": 501, "offsets": { "from": 3540, "to": 5010 } },
+        { "text": "orter", "p": 0.998969, "t0": 502, "t1": 678, "offsets": { "from": 5020, "to": 6780 } },
+        { "text": "ede", "p": 0.991978, "t0": 682, "t1": 747, "offsets": { "from": 6820, "to": 7470 } },
+        { "text": " det", "p": 0.952941, "t0": 748, "t1": 748, "offsets": { "from": 7480, "to": 7480 } },
+        { "text": " k", "p": 0.974964, "t0": 748, "t1": 748, "offsets": { "from": 7480, "to": 7480 } },
+        { "text": "ines", "p": 0.999687, "t0": 748, "t1": 748, "offsets": { "from": 7480, "to": 7480 } },
+        { "text": "is", "p": 0.998671, "t0": 748, "t1": 748, "offsets": { "from": 7480, "to": 7480 } },
+        { "text": "ke", "p": 0.999838, "t0": 748, "t1": 748, "offsets": { "from": 7480, "to": 7480 } },
+        { "text": " ny", "p": 0.994719, "t0": 748, "t1": 748, "offsets": { "from": 7480, "to": 7480 } },
+        { "text": "h", "p": 0.999777, "t0": 748, "t1": 748, "offsets": { "from": 7480, "to": 7480 } },
+        { "text": "eds", "p": 0.998586, "t0": 748, "t1": 748, "offsets": { "from": 7480, "to": 7480 } },
+        { "text": "by", "p": 0.553546, "t0": 748, "t1": 748, "offsets": { "from": 7480, "to": 7480 } },
+        { "text": "rå", "p": 0.999081, "t0": 748, "t1": 748, "offsets": { "from": 7480, "to": 7480 } },
+        { "text": " Ts", "p": 0.382159, "t0": 748, "t1": 748, "offsets": { "from": 7480, "to": 7480 } },
+        { "text": "ing", "p": 0.904278, "t0": 748, "t1": 748, "offsets": { "from": 7480, "to": 7480 } },
+        { "text": "hua", "p": 0.97086, "t0": 748, "t1": 748, "offsets": { "from": 7480, "to": 7480 } },
+        { "text": ",", "p": 0.822273, "t0": 748, "t1": 748, "offsets": { "from": 7480, "to": 7480 } },
+        { "text": " at", "p": 0.994368, "t0": 748, "t1": 748, "offsets": { "from": 7480, "to": 7480 } },
+        { "text": " et", "p": 0.980312, "t0": 748, "t1": 748, "offsets": { "from": 7480, "to": 7480 } },
+        { "text": " fly", "p": 0.997023, "t0": 748, "t1": 748, "offsets": { "from": 7480, "to": 7480 } },
+        { "text": " var", "p": 0.969958, "t0": 748, "t1": 748, "offsets": { "from": 7480, "to": 7480 } },
+        { "text": " ble", "p": 0.993364, "t0": 748, "t1": 748, "offsets": { "from": 7480, "to": 7480 } },
+        { "text": "vet", "p": 0.999941, "t0": 748, "t1": 748, "offsets": { "from": 7480, "to": 7480 } },
+        { "text": " k", "p": 0.657109, "t0": 748, "t1": 748, "offsets": { "from": 7480, "to": 7480 } },
+        { "text": "age", "p": 0.434012, "t0": 748, "t1": 748, "offsets": { "from": 7480, "to": 7480 } },
+        { "text": "br", "p": 0.611618, "t0": 748, "t1": 748, "offsets": { "from": 7480, "to": 7480 } },
+        { "text": "ø", "p": 0.981115, "t0": 748, "t1": 748, "offsets": { "from": 7480, "to": 7480 } },
+        { "text": "d", "p": 0.950425, "t0": 748, "t1": 748, "offsets": { "from": 7480, "to": 7480 } },
+        { "text": ".", "p": 0.934265, "t0": 748, "t1": 748, "offsets": { "from": 7480, "to": 7480 } }
+      ]
+    }
+  ]
+}

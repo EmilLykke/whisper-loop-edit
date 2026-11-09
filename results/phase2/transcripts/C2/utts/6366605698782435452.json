@@ -1,0 +1,53 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C2-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,000", "to": "00:00:30,000" },
+      "offsets":    { "from": 0, "to": 30000 },
+      "text":       " Retssagen fandt sted i Birmingham Crown Court og afsluttede den 3. august.",
+      "words": [
+        { "text": " Retssagen", "t0": 8, "t1": 348, "offsets": { "from": 80, "to": 3480 } },
+        { "text": " fandt", "t0": 393, "t1": 606, "offsets": { "from": 3930, "to": 6060 } },
+        { "text": " sted", "t0": 606, "t1": 658, "offsets": { "from": 6060, "to": 6580 } },
+        { "text": " i", "t0": 658, "t1": 658, "offsets": { "from": 6580, "to": 6580 } },
+        { "text": " Birmingham", "t0": 658, "t1": 658, "offsets": { "from": 6580, "to": 6580 } },
+        { "text": " Crown", "t0": 658, "t1": 658, "offsets": { "from": 6580, "to": 6580 } },
+        { "text": " Court", "t0": 658, "t1": 658, "offsets": { "from": 6580, "to": 6580 } },
+        { "text": " og", "t0": 658, "t1": 658, "offsets": { "from": 6580, "to": 6580 } },
+        { "text": " afsluttede", "t0": 658, "t1": 658, "offsets": { "from": 6580, "to": 6580 } },
+        { "text": " den", "t0": 658, "t1": 658, "offsets": { "from": 6580, "to": 6580 } },
+        { "text": " 3.", "t0": 658, "t1": 658, "offsets": { "from": 6580, "to": 6580 } },
+        { "text": " august.", "t0": 658, "t1": 658, "offsets": { "from": 6580, "to": 6580 } }
+      ],
+      "tokens": [
+        { "text": " R", "p": 0.782068, "t0": 8, "t1": 43, "offsets": { "from": 80, "to": 430 } },
+        { "text": "ets", "p": 0.995589, "t0": 43, "t1": 173, "offsets": { "from": 430, "to": 1730 } },
+        { "text": "s", "p": 0.929922, "t0": 173, "t1": 216, "offsets": { "from": 1730, "to": 2160 } },
+        { "text": "agen", "p": 0.998201, "t0": 216, "t1": 348, "offsets": { "from": 2160, "to": 3480 } },
+        { "text": " fand", "p": 0.997472, "t0": 393, "t1": 563, "offsets": { "from": 3930, "to": 5630 } },
+        { "text": "t", "p": 0.993659, "t0": 563, "t1": 606, "offsets": { "from": 5630, "to": 6060 } },
+        { "text": " st", "p": 0.91458, "t0": 606, "t1": 638, "offsets": { "from": 6060, "to": 6380 } },
+        { "text": "ed", "p": 0.999066, "t0": 658, "t1": 658, "offsets": { "from": 6580, "to": 6580 } },
+        { "text": " i", "p": 0.993015, "t0": 658, "t1": 658, "offsets": { "from": 6580, "to": 6580 } },
+        { "text": " Birmingham", "p": 0.954482, "t0": 658, "t1": 658, "offsets": { "from": 6580, "to": 6580 } },
+        { "text": " Crown", "p": 0.913073, "t0": 658, "t1": 658, "offsets": { "from": 6580, "to": 6580 } },
+        { "text": " Court", "p": 0.990002, "t0": 658, "t1": 658, "offsets": { "from": 6580, "to": 6580 } },
+        { "text": " og", "p": 0.888808, "t0": 658, "t1": 658, "offsets": { "from": 6580, "to": 6580 } },
+        { "text": " af", "p": 0.972264, "t0": 658, "t1": 658, "offsets": { "from": 6580, "to": 6580 } },
+        { "text": "sl", "p": 0.994676, "t0": 658, "t1": 658, "offsets": { "from": 6580, "to": 6580 } },
+        { "text": "utt", "p": 0.999699, "t0": 658, "t1": 658, "offsets": { "from": 6580, "to": 6580 } },
+        { "text": "ede", "p": 0.983494, "t0": 658, "t1": 658, "offsets": { "from": 6580, "to": 6580 } },
+        { "text": " den", "p": 0.786954, "t0": 658, "t1": 658, "offsets": { "from": 6580, "to": 6580 } },
+        { "text": " 3", "p": 0.975141, "t0": 658, "t1": 658, "offsets": { "from": 6580, "to": 6580 } },
+        { "text": ".", "p": 0.993756, "t0": 658, "t1": 658, "offsets": { "from": 6580, "to": 6580 } },
+        { "text": " aug", "p": 0.979342, "t0": 658, "t1": 658, "offsets": { "from": 6580, "to": 6580 } },
+        { "text": "ust", "p": 0.999579, "t0": 658, "t1": 658, "offsets": { "from": 6580, "to": 6580 } },
+        { "text": ".", "p": 0.846097, "t0": 658, "t1": 658, "offsets": { "from": 6580, "to": 6580 } }
+      ]
+    }
+  ]
+}

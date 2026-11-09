@@ -1,0 +1,72 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,700", "to": "00:00:30,700" },
+      "offsets":    { "from": 700, "to": 30700 },
+      "text":       " Hunelab er liggende på toppen af en af bjergene nord for Mekka, og helt isoleret fra resten af verden.",
+      "words": [
+        { "text": " Hunelab", "t0": 95, "t1": 307, "offsets": { "from": 950, "to": 3070 } },
+        { "text": " er", "t0": 307, "t1": 367, "offsets": { "from": 3070, "to": 3670 } },
+        { "text": " liggende", "t0": 393, "t1": 648, "offsets": { "from": 3930, "to": 6480 } },
+        { "text": " på", "t0": 648, "t1": 681, "offsets": { "from": 6480, "to": 6810 } },
+        { "text": " toppen", "t0": 748, "t1": 753, "offsets": { "from": 7480, "to": 7530 } },
+        { "text": " af", "t0": 753, "t1": 753, "offsets": { "from": 7530, "to": 7530 } },
+        { "text": " en", "t0": 753, "t1": 753, "offsets": { "from": 7530, "to": 7530 } },
+        { "text": " af", "t0": 753, "t1": 753, "offsets": { "from": 7530, "to": 7530 } },
+        { "text": " bjergene", "t0": 753, "t1": 753, "offsets": { "from": 7530, "to": 7530 } },
+        { "text": " nord", "t0": 753, "t1": 753, "offsets": { "from": 7530, "to": 7530 } },
+        { "text": " for", "t0": 753, "t1": 753, "offsets": { "from": 7530, "to": 7530 } },
+        { "text": " Mekka,", "t0": 753, "t1": 753, "offsets": { "from": 7530, "to": 7530 } },
+        { "text": " og", "t0": 753, "t1": 753, "offsets": { "from": 7530, "to": 7530 } },
+        { "text": " helt", "t0": 753, "t1": 753, "offsets": { "from": 7530, "to": 7530 } },
+        { "text": " isoleret", "t0": 753, "t1": 753, "offsets": { "from": 7530, "to": 7530 } },
+        { "text": " fra", "t0": 753, "t1": 753, "offsets": { "from": 7530, "to": 7530 } },
+        { "text": " resten", "t0": 753, "t1": 753, "offsets": { "from": 7530, "to": 7530 } },
+        { "text": " af", "t0": 753, "t1": 753, "offsets": { "from": 7530, "to": 7530 } },
+        { "text": " verden.", "t0": 753, "t1": 753, "offsets": { "from": 7530, "to": 7530 } }
+      ],
+      "tokens": [
+        { "text": " Hun", "p": 0.669597, "t0": 95, "t1": 172, "offsets": { "from": 950, "to": 1720 } },
+        { "text": "el", "p": 0.950577, "t0": 172, "t1": 240, "offsets": { "from": 1720, "to": 2400 } },
+        { "text": "ab", "p": 0.575745, "t0": 240, "t1": 307, "offsets": { "from": 2400, "to": 3070 } },
+        { "text": " er", "p": 0.402743, "t0": 307, "t1": 367, "offsets": { "from": 3070, "to": 3670 } },
+        { "text": " l", "p": 0.905126, "t0": 393, "t1": 410, "offsets": { "from": 3930, "to": 4100 } },
+        { "text": "igg", "p": 0.999828, "t0": 410, "t1": 512, "offsets": { "from": 4100, "to": 5120 } },
+        { "text": "ende", "p": 0.998894, "t0": 512, "t1": 648, "offsets": { "from": 5120, "to": 6480 } },
+        { "text": " på", "p": 0.978745, "t0": 648, "t1": 681, "offsets": { "from": 6480, "to": 6810 } },
+        { "text": " to", "p": 0.998346, "t0": 748, "t1": 753, "offsets": { "from": 7480, "to": 7530 } },
+        { "text": "ppen", "p": 0.99964, "t0": 753, "t1": 753, "offsets": { "from": 7530, "to": 7530 } },
+        { "text": " af", "p": 0.984673, "t0": 753, "t1": 753, "offsets": { "from": 7530, "to": 7530 } },
+        { "text": " en", "p": 0.956472, "t0": 753, "t1": 753, "offsets": { "from": 7530, "to": 7530 } },
+        { "text": " af", "p": 0.407532, "t0": 753, "t1": 753, "offsets": { "from": 7530, "to": 7530 } },
+        { "text": " b", "p": 0.958868, "t0": 753, "t1": 753, "offsets": { "from": 7530, "to": 7530 } },
+        { "text": "jer", "p": 0.922244, "t0": 753, "t1": 753, "offsets": { "from": 7530, "to": 7530 } },
+        { "text": "g", "p": 0.980598, "t0": 753, "t1": 753, "offsets": { "from": 7530, "to": 7530 } },
+        { "text": "ene", "p": 0.992901, "t0": 753, "t1": 753, "offsets": { "from": 7530, "to": 7530 } },
+        { "text": " nord", "p": 0.904684, "t0": 753, "t1": 753, "offsets": { "from": 7530, "to": 7530 } },
+        { "text": " for", "p": 0.609081, "t0": 753, "t1": 753, "offsets": { "from": 7530, "to": 7530 } },
+        { "text": " M", "p": 0.535787, "t0": 753, "t1": 753, "offsets": { "from": 7530, "to": 7530 } },
+        { "text": "ek", "p": 0.863808, "t0": 753, "t1": 753, "offsets": { "from": 7530, "to": 7530 } },
+        { "text": "ka", "p": 0.967757, "t0": 753, "t1": 753, "offsets": { "from": 7530, "to": 7530 } },
+        { "text": ",", "p": 0.442669, "t0": 753, "t1": 753, "offsets": { "from": 7530, "to": 7530 } },
+        { "text": " og", "p": 0.98112, "t0": 753, "t1": 753, "offsets": { "from": 7530, "to": 7530 } },
+        { "text": " helt", "p": 0.988519, "t0": 753, "t1": 753, "offsets": { "from": 7530, "to": 7530 } },
+        { "text": " isol", "p": 0.993441, "t0": 753, "t1": 753, "offsets": { "from": 7530, "to": 7530 } },
+        { "text": "er", "p": 0.996518, "t0": 753, "t1": 753, "offsets": { "from": 7530, "to": 7530 } },
+        { "text": "et", "p": 0.999483, "t0": 753, "t1": 753, "offsets": { "from": 7530, "to": 7530 } },
+        { "text": " fra", "p": 0.890899, "t0": 753, "t1": 753, "offsets": { "from": 7530, "to": 7530 } },
+        { "text": " rest", "p": 0.998898, "t0": 753, "t1": 753, "offsets": { "from": 7530, "to": 7530 } },
+        { "text": "en", "p": 0.999788, "t0": 753, "t1": 753, "offsets": { "from": 7530, "to": 7530 } },
+        { "text": " af", "p": 0.998003, "t0": 753, "t1": 753, "offsets": { "from": 7530, "to": 7530 } },
+        { "text": " ver", "p": 0.988076, "t0": 753, "t1": 753, "offsets": { "from": 7530, "to": 7530 } },
+        { "text": "den", "p": 0.999901, "t0": 753, "t1": 753, "offsets": { "from": 7530, "to": 7530 } },
+        { "text": ".", "p": 0.942121, "t0": 753, "t1": 753, "offsets": { "from": 7530, "to": 7530 } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+ "ts04_onset": {
+  "crispasr": {
+   "branch_after": "<|28.00|><|28.00|>",
+   "p_loop_next": 0.31051690071843363,
+   "raw_loop_next": -1.1766409195960446,
+   "loop_next": " Det",
+   "p_eot": 0.010750551768377695,
+   "raw_eot": -4.5399221695960446,
+   "loop_segment_sum_raw": -5.174912974894964,
+   "loop_segment_n": 20,
+   "stop_sum_raw": -4.605030147889925
+  },
+  "no_prev_text": {
+   "branch_after": "<|28.00|><|28.00|>",
+   "p_loop_next": 0.014676846273551048,
+   "raw_loop_next": -4.222089647286767,
+   "loop_next": " Det",
+   "p_eot": 0.936848111837204,
+   "raw_eot": -0.06583964728676683,
+   "loop_segment_sum_raw": -6.066198442338688,
+   "loop_segment_n": 20,
+   "stop_sum_raw": -0.3374944228534762
+  },
+  "user_prompt_only": {
+   "branch_after": "<|28.00|><|28.00|>",
+   "p_loop_next": 0.021971168408580932,
+   "raw_loop_next": -3.8188427452095475,
+   "loop_next": " Det",
+   "p_eot": 0.9161680577309057,
+   "raw_eot": -0.08837399520954747,
+   "loop_segment_sum_raw": -5.75482719119827,
+   "loop_segment_n": 20,
+   "stop_sum_raw": -0.38486395478352087
+  }
+ },
+ "ts03_onset": {
+  "crispasr": {
+   "branch_after": "<|27.00|><|27.00|>",
+   "p_loop_next": 0.19727393177239633,
+   "raw_loop_next": -1.6334961098011735,
+   "loop_next": " Ecuador",
+   "p_eot": 0.3656880982388114,
+   "raw_eot": -1.0163086098011735,
+   "loop_segment_sum_raw": -3.0531993690844743,
+   "loop_segment_n": 42,
+   "stop_sum_raw": -1.1443760993397998
+  },
+  "no_prev_text": {
+   "branch_after": "<|27.00|><|27.00|>",
+   "p_loop_next": 0.009327022711259798,
+   "raw_loop_next": -4.67516723185099,
+   "loop_next": " Ecuador",
+   "p_eot": 0.9777554667208607,
+   "raw_eot": -0.022823481850990035,
+   "loop_segment_sum_raw": -6.033039571319662,
+   "loop_segment_n": 42,
+   "stop_sum_raw": -0.3845177030382345
+  },
+  "user_prompt_only": {
+   "branch_after": "<|27.00|><|27.00|>",
+   "p_loop_next": 0.010863864848507175,
+   "raw_loop_next": -4.52277683197773,
+   "loop_next": " Ecuador",
+   "p_eot": 0.9703236061345692,
+   "raw_eot": -0.030589331977729728,
+   "loop_segment_sum_raw": -6.197278299735386,
+   "loop_segment_n": 42,
+   "stop_sum_raw": -0.4486014144404642
+  }
+ },
+ "nt02_copy_greedy_T0": {
+  "failed": true,
+  "n": 220,
+  "text": " Hvis du har et forhold til kvindes helbred, så er det ikke en succes. Han sagde i et interview, at den nye variant var meget bekymrende, hvor der var grund til alarm på grund af den meget høje dødelighed. Ulovlig spyrertrusk indeholder forskellige farlige urenheder, hævner metanol, som kan forårsage blindhed eller død selv i små mængder. Ulovlig spyrertrusk indeholder forskellige farlige urenheder, hævner metanol, som kan forårsage blindhed eller død selv i små mængder. Ulovlig spyrertrusk indeholder forskellige farlige urenheder, hævner metanol, som kan forårsage blindhed eller død selv i små mængder. Ulovlig spyrert"
+ },
+ "ts03_onset_prev_text_without_user_prompt": {
+  "variant": "prev_text_without_user_prompt",
+  "n_prompt": 144,
+  "decodes": {
+   "greedy": {
+    "loops": 2,
+    "text": "<|27.00|> Ecuador kræver at kubanske borgere modtager et invitationsbrev før indrejse til Ecuador via internationale lufthavne eller græder.<|28.00|><|28.00|> Ecuador kræver at kubanske borgere modtager et invitationsbrev før indrejse til Ecuador via internationale lufthavne eller græder.<|29.00|><|29.00|>"
+   },
+   "beam5": {
+    "loops": 2,
+    "text": "<|27.00|> Ecuador kræver at kubanske borgere modtager et invitationsbrev før indrejse til Ecuador via internationale lufthavne eller græder.<|28.00|><|28.00|> Ecuador kræver at kubanske borgere modtager et invitationsbrev før indrejse til Ecuador via internationale lufthavne eller græder.<|29.00|><|29.00|>"
+   },
+   "cppbeam_seed0": {
+    "loops": 2,
+    "text": "<|27.00|> Ecuador kræver at kubanske borgere modtager et invitationsbrev før indrejse til Ecuador via internationale lufthavne eller græder.<|28.00|><|28.00|> Ecuador kræver at kubanske borgere modtager et invitationsbrev før indrejse til Ecuador via internationale lufthavne eller græder.<|29.00|><|29.00|>"
+   },
+   "cppbeam_seed1": {
+    "loops": 2,
+    "text": "<|27.00|> Ecuador kræver at kubanske borgere modtager et invitationsbrev før indrejse til Ecuador via internationale lufthavne eller græder.<|28.00|><|28.00|> Ecuador kræver at kubanske borgere modtager et invitationsbrev før indrejse til Ecuador via internationale lufthavne eller græder.<|29.00|><|29.00|>"
+   },
+   "cppbeam_seed2": {
+    "loops": 2,
+    "text": "<|27.00|> Ecuador kræver at kubanske borgere modtager et invitationsbrev før indrejse til Ecuador via internationale lufthavne eller græder.<|28.00|><|28.00|> Ecuador kræver at kubanske borgere modtager et invitationsbrev før indrejse til Ecuador via internationale lufthavne eller græder.<|29.00|><|29.00|>"
+   },
+   "cppbeam_seed3": {
+    "loops": 2,
+    "text": "<|27.00|> Ecuador kræver at kubanske borgere modtager et invitationsbrev før indrejse til Ecuador via internationale lufthavne eller græder.<|28.00|><|28.00|> Ecuador kræver at kubanske borgere modtager et invitationsbrev før indrejse til Ecuador via internationale lufthavne eller græder.<|29.00|><|29.00|>"
+   }
+  },
+  "branch": {
+   "p_loop_next": 0.4871606659688705,
+   "p_eot": 0.00542244653193281
+  }
+ }
+}

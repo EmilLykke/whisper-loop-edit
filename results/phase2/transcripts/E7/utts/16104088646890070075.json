@@ -1,0 +1,71 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E7-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,090", "to": "00:00:30,090" },
+      "offsets":    { "from": 90, "to": 30090 },
+      "text":       " Dele af nutidens Belgien hørte førhen under Luxembourg, men blev belgisk efter den belgiske revolution i 1830'erne.",
+      "words": [
+        { "text": " Dele", "t0": 9, "t1": 115, "offsets": { "from": 90, "to": 1150 } },
+        { "text": " af", "t0": 115, "t1": 168, "offsets": { "from": 1150, "to": 1680 } },
+        { "text": " nutidens", "t0": 173, "t1": 381, "offsets": { "from": 1730, "to": 3810 } },
+        { "text": " Belgien", "t0": 381, "t1": 568, "offsets": { "from": 3810, "to": 5680 } },
+        { "text": " hørte", "t0": 568, "t1": 728, "offsets": { "from": 5680, "to": 7280 } },
+        { "text": " førhen", "t0": 728, "t1": 913, "offsets": { "from": 7280, "to": 9130 } },
+        { "text": " under", "t0": 915, "t1": 1043, "offsets": { "from": 9150, "to": 10430 } },
+        { "text": " Luxembourg,", "t0": 1049, "t1": 1236, "offsets": { "from": 10490, "to": 12360 } },
+        { "text": " men", "t0": 1236, "t1": 1236, "offsets": { "from": 12360, "to": 12360 } },
+        { "text": " blev", "t0": 1236, "t1": 1236, "offsets": { "from": 12360, "to": 12360 } },
+        { "text": " belgisk", "t0": 1236, "t1": 1236, "offsets": { "from": 12360, "to": 12360 } },
+        { "text": " efter", "t0": 1236, "t1": 1236, "offsets": { "from": 12360, "to": 12360 } },
+        { "text": " den", "t0": 1236, "t1": 1236, "offsets": { "from": 12360, "to": 12360 } },
+        { "text": " belgiske", "t0": 1236, "t1": 1236, "offsets": { "from": 12360, "to": 12360 } },
+        { "text": " revolution", "t0": 1236, "t1": 1236, "offsets": { "from": 12360, "to": 12360 } },
+        { "text": " i", "t0": 1236, "t1": 1236, "offsets": { "from": 12360, "to": 12360 } },
+        { "text": " 1830'erne.", "t0": 1236, "t1": 1236, "offsets": { "from": 12360, "to": 12360 } }
+      ],
+      "tokens": [
+        { "text": " De", "p": 0.648565, "t0": 9, "t1": 62, "offsets": { "from": 90, "to": 620 } },
+        { "text": "le", "p": 0.996474, "t0": 62, "t1": 115, "offsets": { "from": 620, "to": 1150 } },
+        { "text": " af", "p": 0.991265, "t0": 115, "t1": 168, "offsets": { "from": 1150, "to": 1680 } },
+        { "text": " nut", "p": 0.991735, "t0": 173, "t1": 248, "offsets": { "from": 1730, "to": 2480 } },
+        { "text": "id", "p": 0.998352, "t0": 248, "t1": 301, "offsets": { "from": 2480, "to": 3010 } },
+        { "text": "ens", "p": 0.998755, "t0": 301, "t1": 381, "offsets": { "from": 3010, "to": 3810 } },
+        { "text": " Belg", "p": 0.876674, "t0": 381, "t1": 488, "offsets": { "from": 3810, "to": 4880 } },
+        { "text": "ien", "p": 0.996061, "t0": 488, "t1": 568, "offsets": { "from": 4880, "to": 5680 } },
+        { "text": " h", "p": 0.966566, "t0": 568, "t1": 595, "offsets": { "from": 5680, "to": 5950 } },
+        { "text": "ør", "p": 0.989357, "t0": 600, "t1": 675, "offsets": { "from": 6000, "to": 6750 } },
+        { "text": "te", "p": 0.998182, "t0": 675, "t1": 728, "offsets": { "from": 6750, "to": 7280 } },
+        { "text": " før", "p": 0.972489, "t0": 728, "t1": 834, "offsets": { "from": 7280, "to": 8340 } },
+        { "text": "hen", "p": 0.916661, "t0": 835, "t1": 913, "offsets": { "from": 8350, "to": 9130 } },
+        { "text": " under", "p": 0.993098, "t0": 915, "t1": 1043, "offsets": { "from": 9150, "to": 10430 } },
+        { "text": " Lux", "p": 0.972557, "t0": 1049, "t1": 1113, "offsets": { "from": 10490, "to": 11130 } },
+        { "text": "em", "p": 0.990571, "t0": 1113, "t1": 1181, "offsets": { "from": 11130, "to": 11810 } },
+        { "text": "bourg", "p": 0.760142, "t0": 1181, "t1": 1236, "offsets": { "from": 11810, "to": 12360 } },
+        { "text": ",", "p": 0.807724, "t0": 1236, "t1": 1236, "offsets": { "from": 12360, "to": 12360 } },
+        { "text": " men", "p": 0.988476, "t0": 1236, "t1": 1236, "offsets": { "from": 12360, "to": 12360 } },
+        { "text": " blev", "p": 0.998195, "t0": 1236, "t1": 1236, "offsets": { "from": 12360, "to": 12360 } },
+        { "text": " bel", "p": 0.885328, "t0": 1236, "t1": 1236, "offsets": { "from": 12360, "to": 12360 } },
+        { "text": "g", "p": 0.999529, "t0": 1236, "t1": 1236, "offsets": { "from": 12360, "to": 12360 } },
+        { "text": "isk", "p": 0.994179, "t0": 1236, "t1": 1236, "offsets": { "from": 12360, "to": 12360 } },
+        { "text": " efter", "p": 0.989098, "t0": 1236, "t1": 1236, "offsets": { "from": 12360, "to": 12360 } },
+        { "text": " den", "p": 0.945902, "t0": 1236, "t1": 1236, "offsets": { "from": 12360, "to": 12360 } },
+        { "text": " bel", "p": 0.702427, "t0": 1236, "t1": 1236, "offsets": { "from": 12360, "to": 12360 } },
+        { "text": "g", "p": 0.996177, "t0": 1236, "t1": 1236, "offsets": { "from": 12360, "to": 12360 } },
+        { "text": "is", "p": 0.993347, "t0": 1236, "t1": 1236, "offsets": { "from": 12360, "to": 12360 } },
+        { "text": "ke", "p": 0.999664, "t0": 1236, "t1": 1236, "offsets": { "from": 12360, "to": 12360 } },
+        { "text": " revolution", "p": 0.94325, "t0": 1236, "t1": 1236, "offsets": { "from": 12360, "to": 12360 } },
+        { "text": " i", "p": 0.993083, "t0": 1236, "t1": 1236, "offsets": { "from": 12360, "to": 12360 } },
+        { "text": " 18", "p": 0.988755, "t0": 1236, "t1": 1236, "offsets": { "from": 12360, "to": 12360 } },
+        { "text": "30", "p": 0.997495, "t0": 1236, "t1": 1236, "offsets": { "from": 12360, "to": 12360 } },
+        { "text": "'", "p": 0.878103, "t0": 1236, "t1": 1236, "offsets": { "from": 12360, "to": 12360 } },
+        { "text": "erne", "p": 0.996468, "t0": 1236, "t1": 1236, "offsets": { "from": 12360, "to": 12360 } },
+        { "text": ".", "p": 0.946353, "t0": 1236, "t1": 1236, "offsets": { "from": 12360, "to": 12360 } }
+      ]
+    }
+  ]
+}

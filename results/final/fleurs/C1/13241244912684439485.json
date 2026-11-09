@@ -1,0 +1,46 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,170", "to": "00:00:30,170" },
+      "offsets":    { "from": 170, "to": 30170 },
+      "text":       " Det har givet os toget, bilen og mange andre transportmidler.",
+      "words": [
+        { "text": " Det", "t0": 169, "t1": 180, "offsets": { "from": 1690, "to": 1800 } },
+        { "text": " har", "t0": 180, "t1": 343, "offsets": { "from": 1800, "to": 3430 } },
+        { "text": " givet", "t0": 343, "t1": 552, "offsets": { "from": 3430, "to": 5520 } },
+        { "text": " os", "t0": 612, "t1": 722, "offsets": { "from": 6120, "to": 7220 } },
+        { "text": " toget,", "t0": 723, "t1": 875, "offsets": { "from": 7230, "to": 8750 } },
+        { "text": " bilen", "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } },
+        { "text": " og", "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } },
+        { "text": " mange", "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } },
+        { "text": " andre", "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } },
+        { "text": " transportmidler.", "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } }
+      ],
+      "tokens": [
+        { "text": " Det", "p": 0.902064, "t0": 169, "t1": 180, "offsets": { "from": 1690, "to": 1800 } },
+        { "text": " har", "p": 0.959417, "t0": 180, "t1": 343, "offsets": { "from": 1800, "to": 3430 } },
+        { "text": " g", "p": 0.988167, "t0": 343, "t1": 397, "offsets": { "from": 3430, "to": 3970 } },
+        { "text": "iv", "p": 0.999527, "t0": 397, "t1": 505, "offsets": { "from": 3970, "to": 5050 } },
+        { "text": "et", "p": 0.999703, "t0": 505, "t1": 552, "offsets": { "from": 5050, "to": 5520 } },
+        { "text": " os", "p": 0.980802, "t0": 612, "t1": 722, "offsets": { "from": 6120, "to": 7220 } },
+        { "text": " toget", "p": 0.925783, "t0": 723, "t1": 875, "offsets": { "from": 7230, "to": 8750 } },
+        { "text": ",", "p": 0.956776, "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } },
+        { "text": " bil", "p": 0.996147, "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } },
+        { "text": "en", "p": 0.993453, "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } },
+        { "text": " og", "p": 0.92047, "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } },
+        { "text": " mange", "p": 0.980847, "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } },
+        { "text": " and", "p": 0.973512, "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } },
+        { "text": "re", "p": 0.994076, "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } },
+        { "text": " transport", "p": 0.992377, "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } },
+        { "text": "mid", "p": 0.961305, "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } },
+        { "text": "ler", "p": 0.999243, "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } },
+        { "text": ".", "p": 0.907591, "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } }
+      ]
+    }
+  ]
+}

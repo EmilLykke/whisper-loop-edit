@@ -1,0 +1,64 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,000", "to": "00:00:30,000" },
+      "offsets":    { "from": 0, "to": 30000 },
+      "text":       " Sanskridt er et gammelt sprog i sammenhængelse med et latinsk sprog, der tales i Europa.",
+      "words": [
+        { "text": " Sanskridt", "t0": 1, "t1": 343, "offsets": { "from": 10, "to": 3430 } },
+        { "text": " er", "t0": 344, "t1": 420, "offsets": { "from": 3440, "to": 4200 } },
+        { "text": " et", "t0": 420, "t1": 498, "offsets": { "from": 4200, "to": 4980 } },
+        { "text": " gammelt", "t0": 498, "t1": 519, "offsets": { "from": 4980, "to": 5190 } },
+        { "text": " sprog", "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": " i", "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": " sammenhængelse", "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": " med", "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": " et", "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": " latinsk", "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": " sprog,", "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": " der", "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": " tales", "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": " i", "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": " Europa.", "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } }
+      ],
+      "tokens": [
+        { "text": " Sans", "p": 0.144611, "t0": 1, "t1": 153, "offsets": { "from": 10, "to": 1530 } },
+        { "text": "k", "p": 0.716357, "t0": 153, "t1": 190, "offsets": { "from": 1530, "to": 1900 } },
+        { "text": "rid", "p": 0.6409, "t0": 203, "t1": 306, "offsets": { "from": 2030, "to": 3060 } },
+        { "text": "t", "p": 0.998372, "t0": 306, "t1": 343, "offsets": { "from": 3060, "to": 3430 } },
+        { "text": " er", "p": 0.955647, "t0": 344, "t1": 420, "offsets": { "from": 3440, "to": 4200 } },
+        { "text": " et", "p": 0.987076, "t0": 420, "t1": 498, "offsets": { "from": 4200, "to": 4980 } },
+        { "text": " g", "p": 0.972988, "t0": 498, "t1": 519, "offsets": { "from": 4980, "to": 5190 } },
+        { "text": "amm", "p": 0.999926, "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": "elt", "p": 0.940602, "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": " sp", "p": 0.834049, "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": "rog", "p": 0.998748, "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": " i", "p": 0.705024, "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": " sam", "p": 0.985838, "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": "men", "p": 0.833599, "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": "h", "p": 0.783666, "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": "æ", "p": 0.998216, "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": "ng", "p": 0.988998, "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": "else", "p": 0.725798, "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": " med", "p": 0.981362, "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": " et", "p": 0.519404, "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": " lat", "p": 0.928299, "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": "ins", "p": 0.943768, "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": "k", "p": 0.900985, "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": " sp", "p": 0.971295, "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": "rog", "p": 0.999439, "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": ",", "p": 0.595058, "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": " der", "p": 0.966907, "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": " tales", "p": 0.902979, "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": " i", "p": 0.927041, "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": " Europa", "p": 0.925031, "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": ".", "p": 0.905839, "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } }
+      ]
+    }
+  ]
+}

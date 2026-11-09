@@ -1,0 +1,62 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,610", "to": "00:00:30,610" },
+      "offsets":    { "from": 610, "to": 30610 },
+      "text":       " Goma er en turistby i den demokratiske republik Kongo og ligger helt østpå nær Rwanda.",
+      "words": [
+        { "text": " Goma", "t0": 62, "t1": 216, "offsets": { "from": 620, "to": 2160 } },
+        { "text": " er", "t0": 216, "t1": 294, "offsets": { "from": 2160, "to": 2940 } },
+        { "text": " en", "t0": 294, "t1": 369, "offsets": { "from": 2940, "to": 3690 } },
+        { "text": " turistby", "t0": 375, "t1": 682, "offsets": { "from": 3750, "to": 6820 } },
+        { "text": " i", "t0": 682, "t1": 717, "offsets": { "from": 6820, "to": 7170 } },
+        { "text": " den", "t0": 745, "t1": 780, "offsets": { "from": 7450, "to": 7800 } },
+        { "text": " demokratiske", "t0": 795, "t1": 801, "offsets": { "from": 7950, "to": 8010 } },
+        { "text": " republik", "t0": 801, "t1": 801, "offsets": { "from": 8010, "to": 8010 } },
+        { "text": " Kongo", "t0": 801, "t1": 801, "offsets": { "from": 8010, "to": 8010 } },
+        { "text": " og", "t0": 801, "t1": 801, "offsets": { "from": 8010, "to": 8010 } },
+        { "text": " ligger", "t0": 801, "t1": 801, "offsets": { "from": 8010, "to": 8010 } },
+        { "text": " helt", "t0": 801, "t1": 801, "offsets": { "from": 8010, "to": 8010 } },
+        { "text": " østpå", "t0": 801, "t1": 801, "offsets": { "from": 8010, "to": 8010 } },
+        { "text": " nær", "t0": 801, "t1": 801, "offsets": { "from": 8010, "to": 8010 } },
+        { "text": " Rwanda.", "t0": 801, "t1": 801, "offsets": { "from": 8010, "to": 8010 } }
+      ],
+      "tokens": [
+        { "text": " G", "p": 0.529785, "t0": 62, "t1": 99, "offsets": { "from": 620, "to": 990 } },
+        { "text": "oma", "p": 0.994471, "t0": 112, "t1": 216, "offsets": { "from": 1120, "to": 2160 } },
+        { "text": " er", "p": 0.984356, "t0": 216, "t1": 294, "offsets": { "from": 2160, "to": 2940 } },
+        { "text": " en", "p": 0.991076, "t0": 294, "t1": 369, "offsets": { "from": 2940, "to": 3690 } },
+        { "text": " tur", "p": 0.994715, "t0": 375, "t1": 488, "offsets": { "from": 3750, "to": 4880 } },
+        { "text": "ist", "p": 0.997377, "t0": 489, "t1": 605, "offsets": { "from": 4890, "to": 6050 } },
+        { "text": "by", "p": 0.838237, "t0": 605, "t1": 682, "offsets": { "from": 6050, "to": 6820 } },
+        { "text": " i", "p": 0.986805, "t0": 682, "t1": 717, "offsets": { "from": 6820, "to": 7170 } },
+        { "text": " den", "p": 0.909578, "t0": 745, "t1": 780, "offsets": { "from": 7450, "to": 7800 } },
+        { "text": " demokrat", "p": 0.950173, "t0": 795, "t1": 801, "offsets": { "from": 7950, "to": 8010 } },
+        { "text": "is", "p": 0.993972, "t0": 801, "t1": 801, "offsets": { "from": 8010, "to": 8010 } },
+        { "text": "ke", "p": 0.999693, "t0": 801, "t1": 801, "offsets": { "from": 8010, "to": 8010 } },
+        { "text": " rep", "p": 0.941542, "t0": 801, "t1": 801, "offsets": { "from": 8010, "to": 8010 } },
+        { "text": "ublik", "p": 0.997868, "t0": 801, "t1": 801, "offsets": { "from": 8010, "to": 8010 } },
+        { "text": " Kong", "p": 0.9036, "t0": 801, "t1": 801, "offsets": { "from": 8010, "to": 8010 } },
+        { "text": "o", "p": 0.999214, "t0": 801, "t1": 801, "offsets": { "from": 8010, "to": 8010 } },
+        { "text": " og", "p": 0.6522, "t0": 801, "t1": 801, "offsets": { "from": 8010, "to": 8010 } },
+        { "text": " ligger", "p": 0.995, "t0": 801, "t1": 801, "offsets": { "from": 8010, "to": 8010 } },
+        { "text": " helt", "p": 0.979757, "t0": 801, "t1": 801, "offsets": { "from": 8010, "to": 8010 } },
+        { "text": " ø", "p": 0.957355, "t0": 801, "t1": 801, "offsets": { "from": 8010, "to": 8010 } },
+        { "text": "st", "p": 0.999651, "t0": 801, "t1": 801, "offsets": { "from": 8010, "to": 8010 } },
+        { "text": "p", "p": 0.774873, "t0": 801, "t1": 801, "offsets": { "from": 8010, "to": 8010 } },
+        { "text": "å", "p": 0.999794, "t0": 801, "t1": 801, "offsets": { "from": 8010, "to": 8010 } },
+        { "text": " n", "p": 0.868977, "t0": 801, "t1": 801, "offsets": { "from": 8010, "to": 8010 } },
+        { "text": "ær", "p": 0.998731, "t0": 801, "t1": 801, "offsets": { "from": 8010, "to": 8010 } },
+        { "text": " R", "p": 0.910863, "t0": 801, "t1": 801, "offsets": { "from": 8010, "to": 8010 } },
+        { "text": "w", "p": 0.994304, "t0": 801, "t1": 801, "offsets": { "from": 8010, "to": 8010 } },
+        { "text": "anda", "p": 0.999987, "t0": 801, "t1": 801, "offsets": { "from": 8010, "to": 8010 } },
+        { "text": ".", "p": 0.865313, "t0": 801, "t1": 801, "offsets": { "from": 8010, "to": 8010 } }
+      ]
+    }
+  ]
+}

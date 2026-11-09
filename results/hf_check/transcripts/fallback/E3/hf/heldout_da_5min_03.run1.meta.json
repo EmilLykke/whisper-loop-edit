@@ -1,0 +1,29 @@
+{
+ "engine": "transformers",
+ "model": "E3",
+ "config": "fallback",
+ "clip": "heldout_da_5min_03",
+ "generate_kwargs": {
+  "language": "da",
+  "task": "transcribe",
+  "return_timestamps": true,
+  "return_segments": true,
+  "num_beams": 1,
+  "condition_on_prev_tokens": true,
+  "temperature": [
+   0.0,
+   0.2,
+   0.4,
+   0.6,
+   0.8,
+   1.0
+  ],
+  "compression_ratio_threshold": 1.35,
+  "logprob_threshold": -1.0,
+  "no_speech_threshold": 0.6
+ },
+ "device": "mps",
+ "dtype": "torch.float16",
+ "error": null,
+ "wallSeconds": 58.4
+}

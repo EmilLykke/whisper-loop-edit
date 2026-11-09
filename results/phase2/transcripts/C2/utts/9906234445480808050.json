@@ -1,0 +1,56 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C2-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,500", "to": "00:00:30,500" },
+      "offsets":    { "from": 500, "to": 30500 },
+      "text":       " Cirka 10 minutter før den planlagte landing fra den anden indflyvning forsvandt den.",
+      "words": [
+        { "text": " Cirka", "t0": 70, "t1": 239, "offsets": { "from": 700, "to": 2390 } },
+        { "text": " 10", "t0": 239, "t1": 463, "offsets": { "from": 2390, "to": 4630 } },
+        { "text": " minutter", "t0": 477, "t1": 665, "offsets": { "from": 4770, "to": 6650 } },
+        { "text": " før", "t0": 685, "t1": 685, "offsets": { "from": 6850, "to": 6850 } },
+        { "text": " den", "t0": 685, "t1": 685, "offsets": { "from": 6850, "to": 6850 } },
+        { "text": " planlagte", "t0": 685, "t1": 685, "offsets": { "from": 6850, "to": 6850 } },
+        { "text": " landing", "t0": 685, "t1": 685, "offsets": { "from": 6850, "to": 6850 } },
+        { "text": " fra", "t0": 685, "t1": 685, "offsets": { "from": 6850, "to": 6850 } },
+        { "text": " den", "t0": 685, "t1": 685, "offsets": { "from": 6850, "to": 6850 } },
+        { "text": " anden", "t0": 685, "t1": 685, "offsets": { "from": 6850, "to": 6850 } },
+        { "text": " indflyvning", "t0": 685, "t1": 685, "offsets": { "from": 6850, "to": 6850 } },
+        { "text": " forsvandt", "t0": 685, "t1": 685, "offsets": { "from": 6850, "to": 6850 } },
+        { "text": " den.", "t0": 685, "t1": 685, "offsets": { "from": 6850, "to": 6850 } }
+      ],
+      "tokens": [
+        { "text": " Cir", "p": 0.847299, "t0": 70, "t1": 164, "offsets": { "from": 700, "to": 1640 } },
+        { "text": "ka", "p": 0.968132, "t0": 164, "t1": 239, "offsets": { "from": 1640, "to": 2390 } },
+        { "text": " 10", "p": 0.743313, "t0": 239, "t1": 463, "offsets": { "from": 2390, "to": 4630 } },
+        { "text": " min", "p": 0.905114, "t0": 477, "t1": 580, "offsets": { "from": 4770, "to": 5800 } },
+        { "text": "utter", "p": 0.923889, "t0": 580, "t1": 665, "offsets": { "from": 5800, "to": 6650 } },
+        { "text": " før", "p": 0.957698, "t0": 685, "t1": 685, "offsets": { "from": 6850, "to": 6850 } },
+        { "text": " den", "p": 0.955137, "t0": 685, "t1": 685, "offsets": { "from": 6850, "to": 6850 } },
+        { "text": " plan", "p": 0.990614, "t0": 685, "t1": 685, "offsets": { "from": 6850, "to": 6850 } },
+        { "text": "lag", "p": 0.90004, "t0": 685, "t1": 685, "offsets": { "from": 6850, "to": 6850 } },
+        { "text": "te", "p": 0.990165, "t0": 685, "t1": 685, "offsets": { "from": 6850, "to": 6850 } },
+        { "text": " landing", "p": 0.946294, "t0": 685, "t1": 685, "offsets": { "from": 6850, "to": 6850 } },
+        { "text": " fra", "p": 0.487103, "t0": 685, "t1": 685, "offsets": { "from": 6850, "to": 6850 } },
+        { "text": " den", "p": 0.609171, "t0": 685, "t1": 685, "offsets": { "from": 6850, "to": 6850 } },
+        { "text": " and", "p": 0.897636, "t0": 685, "t1": 685, "offsets": { "from": 6850, "to": 6850 } },
+        { "text": "en", "p": 0.973153, "t0": 685, "t1": 685, "offsets": { "from": 6850, "to": 6850 } },
+        { "text": " ind", "p": 0.959758, "t0": 685, "t1": 685, "offsets": { "from": 6850, "to": 6850 } },
+        { "text": "fly", "p": 0.998291, "t0": 685, "t1": 685, "offsets": { "from": 6850, "to": 6850 } },
+        { "text": "v", "p": 0.932431, "t0": 685, "t1": 685, "offsets": { "from": 6850, "to": 6850 } },
+        { "text": "ning", "p": 0.995484, "t0": 685, "t1": 685, "offsets": { "from": 6850, "to": 6850 } },
+        { "text": " fors", "p": 0.910536, "t0": 685, "t1": 685, "offsets": { "from": 6850, "to": 6850 } },
+        { "text": "v", "p": 0.994657, "t0": 685, "t1": 685, "offsets": { "from": 6850, "to": 6850 } },
+        { "text": "and", "p": 0.99831, "t0": 685, "t1": 685, "offsets": { "from": 6850, "to": 6850 } },
+        { "text": "t", "p": 0.980649, "t0": 685, "t1": 685, "offsets": { "from": 6850, "to": 6850 } },
+        { "text": " den", "p": 0.982469, "t0": 685, "t1": 685, "offsets": { "from": 6850, "to": 6850 } },
+        { "text": ".", "p": 0.867696, "t0": 685, "t1": 685, "offsets": { "from": 6850, "to": 6850 } }
+      ]
+    }
+  ]
+}

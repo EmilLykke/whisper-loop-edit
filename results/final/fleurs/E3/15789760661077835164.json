@@ -1,0 +1,51 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,170", "to": "00:00:30,170" },
+      "offsets":    { "from": 170, "to": 30170 },
+      "text":       " Sygdommen bliver bort, da svin overføres til mennesker via myg.",
+      "words": [
+        { "text": " Sygdommen", "t0": 36, "t1": 480, "offsets": { "from": 360, "to": 4800 } },
+        { "text": " bliver", "t0": 480, "t1": 557, "offsets": { "from": 4800, "to": 5570 } },
+        { "text": " bort,", "t0": 785, "t1": 839, "offsets": { "from": 7850, "to": 8390 } },
+        { "text": " da", "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } },
+        { "text": " svin", "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } },
+        { "text": " overføres", "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } },
+        { "text": " til", "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } },
+        { "text": " mennesker", "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } },
+        { "text": " via", "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } },
+        { "text": " myg.", "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } }
+      ],
+      "tokens": [
+        { "text": " Sy", "p": 0.879859, "t0": 36, "t1": 119, "offsets": { "from": 360, "to": 1190 } },
+        { "text": "g", "p": 0.992848, "t0": 164, "t1": 171, "offsets": { "from": 1640, "to": 1710 } },
+        { "text": "d", "p": 0.90132, "t0": 176, "t1": 221, "offsets": { "from": 1760, "to": 2210 } },
+        { "text": "ommen", "p": 0.786252, "t0": 222, "t1": 480, "offsets": { "from": 2220, "to": 4800 } },
+        { "text": " bliver", "p": 0.912913, "t0": 480, "t1": 557, "offsets": { "from": 4800, "to": 5570 } },
+        { "text": " b", "p": 0.782148, "t0": 785, "t1": 839, "offsets": { "from": 7850, "to": 8390 } },
+        { "text": "ort", "p": 0.749243, "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } },
+        { "text": ",", "p": 0.403088, "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } },
+        { "text": " da", "p": 0.53789, "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } },
+        { "text": " s", "p": 0.977502, "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } },
+        { "text": "vin", "p": 0.998723, "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } },
+        { "text": " over", "p": 0.926347, "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } },
+        { "text": "f", "p": 0.998527, "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } },
+        { "text": "ø", "p": 0.991, "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } },
+        { "text": "res", "p": 0.997031, "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } },
+        { "text": " til", "p": 0.992661, "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } },
+        { "text": " men", "p": 0.98848, "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } },
+        { "text": "nes", "p": 0.999182, "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } },
+        { "text": "ker", "p": 0.983871, "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } },
+        { "text": " via", "p": 0.978885, "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } },
+        { "text": " my", "p": 0.907946, "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } },
+        { "text": "g", "p": 0.841538, "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } },
+        { "text": ".", "p": 0.913346, "t0": 839, "t1": 839, "offsets": { "from": 8390, "to": 8390 } }
+      ]
+    }
+  ]
+}

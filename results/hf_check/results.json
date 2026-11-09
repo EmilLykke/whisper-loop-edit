@@ -1,0 +1,969 @@
+{
+ "generated": "2026-11-09T12:07:27.021Z",
+ "clips": [
+  "heldout_da_5min_01",
+  "heldout_da_5min_02",
+  "heldout_da_5min_03",
+  "heldout_da_5min_04",
+  "heldout_da_2min_01",
+  "heldout_da_2min_02",
+  "heldout_da_2min_03",
+  "heldout_da_continuous_90s_01",
+  "heldout_da_continuous_90s_02",
+  "heldout_da_continuous_90s_03"
+ ],
+ "results": {
+  "fallback": {
+   "baseline": {
+    "loops": 21,
+    "copyLoops": 14,
+    "madeUpLoops": 7,
+    "clipsWithLoop": 6,
+    "loopWords": 388,
+    "lost": 9,
+    "heard": 0.8130311614730878,
+    "wer": 0.32263141328297135,
+    "promptEcho": 0,
+    "errors": 0,
+    "loopSpans": [
+     {
+      "clip": "heldout_da_5min_01",
+      "words": 3,
+      "text": "st petersburg i rosland",
+      "hypIndex": 28,
+      "utterance": 1,
+      "clipTime": "10.4-18.8 s",
+      "segmentTime": "10.94-17.02 s",
+      "refTrigramShare": 0,
+      "kind": "made-up"
+     },
+     {
+      "clip": "heldout_da_5min_01",
+      "words": 166,
+      "text": "på stedet en uges ophold uden at forlade disneys ejendom og en retur til st petersburg det typiske besøg består i at flyve til st petersburg i rosland på stedet en uges ophold uden at forlade disneys ejendom og en retur til st petersburg i rosland på stedet en uges ophold uden at forlade disneys ejendom da de er i samme tidszone som hawaii bliver ørene så med tide er tænkt på som hawaii nedenfor da de er i samme tidszone som hawaii bliver ørene så med tide er tænkt på som hawaii nedenfor da de er i samme tidszone som hawaii bliver ørene så med tide er tænkt på som hawaii nedenfor da de er i samme tidszone som hawaii bliver ørene så med tide er tænkt på som hawaii nedenfor da de er i samme tidszone som hawaii bliver ørene så med tide er tænkt på som hawaii nedenfor da de er i samme tidszone som hawaii bliver ørene så med tide er tænkt på som hawaii nedenfor da de er i samme tidszone som hawaii bliver ørene så med tide er tænkt på som hawaii nedenfor da de er i samme tidszone som hawaii bliver ørende sommertider tænkt på som hawaii nedenfor",
+      "hypIndex": 70,
+      "utterance": 3,
+      "clipTime": "33.1-50.0 s",
+      "segmentTime": "45.96-47.00 s",
+      "refTrigramShare": 0.56,
+      "kind": "copy"
+     },
+     {
+      "clip": "heldout_da_5min_01",
+      "words": 20,
+      "text": "demonstrationer fandt også sted i paris sofia vilnius valletta tallinn sammen med edinburgh og glasgow demonstrationer fandt også sted i paris sofia valletta tallinn sammen med edinburgh og glasgow",
+      "hypIndex": 328,
+      "utterance": 13,
+      "clipTime": "154.1-171.8 s",
+      "segmentTime": "155.14-173.14 s",
+      "refTrigramShare": 0.44,
+      "kind": "copy"
+     },
+     {
+      "clip": "heldout_da_5min_01",
+      "words": 16,
+      "text": "nogle forskere mener at triceratops spiste koglepalmitter en plantetype som var almindelig i krigstiden nogle forskere mener at triceratops spiste koglepalmitter en plantetype som var almindelig i krigstiden",
+      "hypIndex": 417,
+      "utterance": 16,
+      "clipTime": "195.3-206.0 s",
+      "segmentTime": "193.42-205.40 s",
+      "refTrigramShare": 0.62,
+      "kind": "copy"
+     },
+     {
+      "clip": "heldout_da_5min_01",
+      "words": 13,
+      "text": "til disse tjenester er ofte via tolv minerydningsskib men den der er derudover",
+      "hypIndex": 459,
+      "utterance": 18,
+      "clipTime": "219.1-230.9 s",
+      "segmentTime": "217.42-219.34 s",
+      "refTrigramShare": 0.36,
+      "kind": "copy"
+     },
+     {
+      "clip": "heldout_da_5min_01",
+      "words": 13,
+      "text": "til disse tjenester er ofte via tolv minerydningsskib men den der er derudover",
+      "hypIndex": 495,
+      "utterance": 18,
+      "clipTime": "219.1-230.9 s",
+      "segmentTime": "219.34-221.40 s",
+      "refTrigramShare": 0.36,
+      "kind": "copy"
+     },
+     {
+      "clip": "heldout_da_5min_02",
+      "words": 10,
+      "text": "og det er der hvor du skal starte ved frøen",
+      "hypIndex": 92,
+      "utterance": 4,
+      "clipTime": "57.5-68.4 s",
+      "segmentTime": "54.00-57.00 s",
+      "refTrigramShare": 0.38,
+      "kind": "copy"
+     },
+     {
+      "clip": "heldout_da_5min_02",
+      "words": 9,
+      "text": "og det er der hvor du skal starte ved frøen",
+      "hypIndex": 156,
+      "utterance": 6,
+      "clipTime": "79.9-85.9 s",
+      "segmentTime": "84.00-87.00 s",
+      "refTrigramShare": 0.38,
+      "kind": "copy"
+     },
+     {
+      "clip": "heldout_da_5min_02",
+      "words": 5,
+      "text": "salitten for at foretage et",
+      "hypIndex": 312,
+      "utterance": 15,
+      "clipTime": "162.8-172.9 s",
+      "segmentTime": "166.00-170.00 s",
+      "refTrigramShare": 0.67,
+      "kind": "copy"
+     },
+     {
+      "clip": "heldout_da_5min_03",
+      "words": 9,
+      "text": "du kan ikke blive fanget igen og du kan ikke blive fanget igen",
+      "hypIndex": 111,
+      "utterance": 4,
+      "clipTime": "55.1-67.1 s",
+      "segmentTime": "60.00-89.98 s",
+      "refTrigramShare": 0,
+      "kind": "made-up"
+     },
+     {
+      "clip": "heldout_da_5min_03",
+      "words": 5,
+      "text": "at de skulle være med",
+      "hypIndex": 230,
+      "utterance": 11,
+      "clipTime": "147.6-161.1 s",
+      "segmentTime": "148.16-148.64 s",
+      "refTrigramShare": 0,
+      "kind": "made-up"
+     },
+     {
+      "clip": "heldout_da_5min_03",
+      "words": 15,
+      "text": "at de skulle være med indviderede de forbrugere i forbrugere indviderede de forbrugere i forbrugere",
+      "hypIndex": 243,
+      "utterance": 11,
+      "clipTime": "147.6-161.1 s",
+      "segmentTime": "148.64-149.04 s",
+      "refTrigramShare": 0,
+      "kind": "made-up"
+     },
+     {
+      "clip": "heldout_da_5min_03",
+      "words": 33,
+      "text": "men der blev ikke rejt tænkelse mod ham men der blev ikke rejt tænkelse mod ham mitt romney massachusetts tidligere guvernør vandt tirsdag det republikanske partis primærvalg i florida med over 46 af stemmerne mitt romney massachusetts tidligere guvernør vandt tirsdag det republikanske partis primærvalg i florida med over 46 af stemmerne du kan også have legeringer der inkluderer små mængder af",
+      "hypIndex": 326,
+      "utterance": 13,
+      "clipTime": "177.2-182.9 s",
+      "segmentTime": "176.42-182.50 s",
+      "refTrigramShare": 0.73,
+      "kind": "copy"
+     },
+     {
+      "clip": "heldout_da_5min_03",
+      "words": 4,
+      "text": "du kan også have ligeringer der inkluderer små mængder af",
+      "hypIndex": 393,
+      "utterance": 15,
+      "clipTime": "193.6-201.1 s",
+      "segmentTime": "193.56-200.62 s",
+      "refTrigramShare": 0.63,
+      "kind": "copy"
+     },
+     {
+      "clip": "heldout_da_5min_03",
+      "words": 3,
+      "text": "hvis du besøger",
+      "hypIndex": 542,
+      "utterance": 22,
+      "clipTime": "276.9-289.6 s",
+      "segmentTime": "277.12-278.12 s",
+      "refTrigramShare": 1,
+      "kind": "copy"
+     },
+     {
+      "clip": "heldout_da_5min_04",
+      "words": 34,
+      "text": "bragdelene bliver sporet af den strategiske kategori som er udviklet i denne kategori det er en kategori som er udviklet i denne kategori det er en kategori som er udviklet i denne kategori bragdelene bliver sporet af den strategiske",
+      "hypIndex": 432,
+      "utterance": 19,
+      "clipTime": "258.9-267.9 s",
+      "segmentTime": "248.00-254.00 s",
+      "refTrigramShare": 0.24,
+      "kind": "copy"
+     },
+     {
+      "clip": "heldout_da_2min_01",
+      "words": 4,
+      "text": "det er en stor gruppe",
+      "hypIndex": 94,
+      "utterance": 5,
+      "clipTime": "50.2-61.7 s",
+      "segmentTime": "60.00-62.00 s",
+      "refTrigramShare": 0,
+      "kind": "made-up"
+     },
+     {
+      "clip": "heldout_da_2min_01",
+      "words": 5,
+      "text": "det er en stor gruppe",
+      "hypIndex": 131,
+      "utterance": 9,
+      "clipTime": "89.2-108.4 s",
+      "segmentTime": "86.78-86.90 s",
+      "refTrigramShare": 0,
+      "kind": "made-up"
+     },
+     {
+      "clip": "heldout_da_2min_02",
+      "words": 4,
+      "text": "bagværk med frugter er",
+      "hypIndex": 164,
+      "utterance": 7,
+      "clipTime": "87.1-97.1 s",
+      "segmentTime": "85.22-87.14 s",
+      "refTrigramShare": 0,
+      "kind": "made-up"
+     },
+     {
+      "clip": "heldout_da_2min_02",
+      "words": 7,
+      "text": "at forstå hvordan de lever og lever",
+      "hypIndex": 178,
+      "utterance": 7,
+      "clipTime": "87.1-97.1 s",
+      "segmentTime": "85.22-87.14 s",
+      "refTrigramShare": 0.2,
+      "kind": "copy"
+     },
+     {
+      "clip": "heldout_da_2min_02",
+      "words": 10,
+      "text": "de lever og lever endnu vi kalder dem fugle bagværk med frugter er",
+      "hypIndex": 189,
+      "utterance": 7,
+      "clipTime": "87.1-97.1 s",
+      "segmentTime": "85.22-87.14 s",
+      "refTrigramShare": 0.45,
+      "kind": "copy"
+     }
+    ],
+    "clips": [
+     {
+      "clip": "heldout_da_5min_01",
+      "loops": 6,
+      "loopWords": 231,
+      "lost": [
+       "51-63 s",
+       "64-73 s",
+       "74-83 s",
+       "84-93 s",
+       "94-105 s",
+       "106-115 s"
+      ],
+      "wer": 0.6143911439114391
+     },
+     {
+      "clip": "heldout_da_5min_02",
+      "loops": 3,
+      "loopWords": 24,
+      "lost": [],
+      "wer": 0.3148148148148148
+     },
+     {
+      "clip": "heldout_da_5min_03",
+      "loops": 6,
+      "loopWords": 69,
+      "lost": [
+       "68-84 s",
+       "85-94 s"
+      ],
+      "wer": 0.3929273084479371
+     },
+     {
+      "clip": "heldout_da_5min_04",
+      "loops": 1,
+      "loopWords": 34,
+      "lost": [],
+      "wer": 0.23870967741935484
+     },
+     {
+      "clip": "heldout_da_2min_01",
+      "loops": 2,
+      "loopWords": 9,
+      "lost": [
+       "72-81 s"
+      ],
+      "wer": 0.2864321608040201
+     },
+     {
+      "clip": "heldout_da_2min_02",
+      "loops": 3,
+      "loopWords": 21,
+      "lost": [],
+      "wer": 0.38571428571428573
+     },
+     {
+      "clip": "heldout_da_2min_03",
+      "loops": 0,
+      "loopWords": 0,
+      "lost": [],
+      "wer": 0.07731958762886598
+     },
+     {
+      "clip": "heldout_da_continuous_90s_01",
+      "loops": 0,
+      "loopWords": 0,
+      "lost": [],
+      "wer": 0.13020833333333334
+     },
+     {
+      "clip": "heldout_da_continuous_90s_02",
+      "loops": 0,
+      "loopWords": 0,
+      "lost": [],
+      "wer": 0.1736842105263158
+     },
+     {
+      "clip": "heldout_da_continuous_90s_03",
+      "loops": 0,
+      "loopWords": 0,
+      "lost": [],
+      "wer": 0.08947368421052632
+     }
+    ],
+    "longLoops": 10
+   },
+   "E3": {
+    "loops": 3,
+    "copyLoops": 1,
+    "madeUpLoops": 2,
+    "clipsWithLoop": 2,
+    "loopWords": 11,
+    "lost": 2,
+    "heard": 0.87598363235757,
+    "wer": 0.29493232609379916,
+    "promptEcho": 0,
+    "errors": 0,
+    "loopSpans": [
+     {
+      "clip": "heldout_da_5min_04",
+      "words": 5,
+      "text": "en af de mest fremdeles",
+      "hypIndex": 376,
+      "utterance": 15,
+      "clipTime": "206.0-219.8 s",
+      "segmentTime": "208.00-209.00 s",
+      "refTrigramShare": 0.67,
+      "kind": "copy"
+     },
+     {
+      "clip": "heldout_da_2min_01",
+      "words": 3,
+      "text": "at man ikke",
+      "hypIndex": 260,
+      "utterance": 10,
+      "clipTime": "109.4-118.8 s",
+      "segmentTime": "127.00-131.00 s",
+      "refTrigramShare": 0,
+      "kind": "made-up"
+     },
+     {
+      "clip": "heldout_da_2min_01",
+      "words": 3,
+      "text": "at man ikke",
+      "hypIndex": 314,
+      "utterance": 10,
+      "clipTime": "109.4-118.8 s",
+      "segmentTime": "145.00-147.00 s",
+      "refTrigramShare": 0,
+      "kind": "made-up"
+     }
+    ],
+    "clips": [
+     {
+      "clip": "heldout_da_5min_01",
+      "loops": 0,
+      "loopWords": 0,
+      "lost": [],
+      "wer": 0.22140221402214022
+     },
+     {
+      "clip": "heldout_da_5min_02",
+      "loops": 0,
+      "loopWords": 0,
+      "lost": [
+       "69-79 s",
+       "80-86 s"
+      ],
+      "wer": 0.2757201646090535
+     },
+     {
+      "clip": "heldout_da_5min_03",
+      "loops": 0,
+      "loopWords": 0,
+      "lost": [],
+      "wer": 0.16306483300589392
+     },
+     {
+      "clip": "heldout_da_5min_04",
+      "loops": 1,
+      "loopWords": 5,
+      "lost": [],
+      "wer": 0.22795698924731184
+     },
+     {
+      "clip": "heldout_da_2min_01",
+      "loops": 2,
+      "loopWords": 6,
+      "lost": [],
+      "wer": 0.8190954773869347
+     },
+     {
+      "clip": "heldout_da_2min_02",
+      "loops": 0,
+      "loopWords": 0,
+      "lost": [],
+      "wer": 0.6904761904761905
+     },
+     {
+      "clip": "heldout_da_2min_03",
+      "loops": 0,
+      "loopWords": 0,
+      "lost": [],
+      "wer": 0.07731958762886598
+     },
+     {
+      "clip": "heldout_da_continuous_90s_01",
+      "loops": 0,
+      "loopWords": 0,
+      "lost": [],
+      "wer": 0.11458333333333333
+     },
+     {
+      "clip": "heldout_da_continuous_90s_02",
+      "loops": 0,
+      "loopWords": 0,
+      "lost": [],
+      "wer": 0.7263157894736842
+     },
+     {
+      "clip": "heldout_da_continuous_90s_03",
+      "loops": 0,
+      "loopWords": 0,
+      "lost": [],
+      "wer": 0.05789473684210526
+     }
+    ],
+    "longLoops": 0
+   }
+  },
+  "nofallback": {
+   "baseline": {
+    "loops": 18,
+    "copyLoops": 10,
+    "madeUpLoops": 8,
+    "clipsWithLoop": 7,
+    "loopWords": 3132,
+    "lost": 37,
+    "heard": 0.6739062008183822,
+    "wer": 1.1199244570349387,
+    "promptEcho": 0,
+    "errors": 0,
+    "loopSpans": [
+     {
+      "clip": "heldout_da_5min_01",
+      "words": 3,
+      "text": "st petersburg i rosland",
+      "hypIndex": 28,
+      "utterance": 1,
+      "clipTime": "10.4-18.8 s",
+      "segmentTime": "10.94-17.02 s",
+      "refTrigramShare": 0,
+      "kind": "made-up"
+     },
+     {
+      "clip": "heldout_da_5min_01",
+      "words": 144,
+      "text": "på stedet en uges ophold uden at forlade disneys ejendom og en retur til st petersburg det typiske besøg består i at flyve til st petersburg i rosland på stedet en uges ophold uden at forlade disneys ejendom og en retur til st petersburg i rosland på stedet en uges ophold uden at forlade disneys ejendom og en retur til st petersburg i rosland på stedet en uges ophold uden at forlade disneys ejendom og en retur til st petersburg i rosland på stedet en uges ophold uden at forlade disneys ejendom og en retur til st petersburg i rosland på stedet en uges ophold uden at forlade disneys ejendom og en retur til st petersburg i rosland på stedet en uges ophold uden at forlade disneys ejendom og en retur til st petersburg i rosland på stedet en uges ophold uden at forlade disneys ejendom og en retur til st petersburg i rosland på stedet en uges ophold uden at forlade disneys ejendom",
+      "hypIndex": 70,
+      "utterance": 4,
+      "clipTime": "51.0-63.3 s",
+      "segmentTime": "45.96-47.00 s",
+      "refTrigramShare": 0.58,
+      "kind": "copy"
+     },
+     {
+      "clip": "heldout_da_5min_01",
+      "words": 3,
+      "text": "vilnius i lishavn",
+      "hypIndex": 288,
+      "utterance": 13,
+      "clipTime": "154.1-171.8 s",
+      "segmentTime": "152.00-161.00 s",
+      "refTrigramShare": 0,
+      "kind": "made-up"
+     },
+     {
+      "clip": "heldout_da_5min_02",
+      "words": 249,
+      "text": "hvis du har en kæreste så er det en god idé at køre med din kæreste hvis du har en kæreste så er det en god idé at køre med din kæreste hvis du har en kæreste så er det en god idé at køre med din kæreste hvis du har en kæreste så er det en god idé at køre med din kæreste hvis du har en kæreste så er det en god idé at køre med din kæreste hvis du har en kæreste så er det en god idé at køre med din kæreste hvis du har en kæreste så er det en god idé at køre med din kæreste hvis du har en kæreste så er det en god idé at køre med din kæreste hvis du har en kæreste så er det en god idé at køre med din kæreste hvis du har en kæreste så er det en god idé at køre med din kæreste hvis du har en kæreste så er det en god idé at køre med din kæreste hvis du har en kæreste så er det en god idé at køre med din kæreste hvis du har en kæreste så er det en god idé at køre med din kæreste hvis du har en kæreste så er det en god idé at køre med din kæreste hvis du har en kæreste så er det en god idé at køre med din kæreste hvis du har en kæreste så er det en god idé at køre med din kæreste",
+      "hypIndex": 92,
+      "utterance": 4,
+      "clipTime": "57.5-68.4 s",
+      "segmentTime": "54.00-57.00 s",
+      "refTrigramShare": 0,
+      "kind": "made-up"
+     },
+     {
+      "clip": "heldout_da_5min_02",
+      "words": 73,
+      "text": "der vil typisk være et ondt og et højt der vil typisk være et ondt og et højt der vil typisk være et ondt og et højt der vil typisk være et ondt og et højt der vil typisk være et ondt og et højt alle disse ting samt flere fremhæver ondario som vadda betragtes som ægte kanadisk er udefrakommende alle disse ting samt flere fremhæver ondario som vadda betragtes som ægte kanadisk er udefrakommende alle disse ting samt flere fremhæver ondario som vadda betragtes som ægte kanadisk er udefrakommende",
+      "hypIndex": 388,
+      "utterance": 10,
+      "clipTime": "114.6-121.8 s",
+      "segmentTime": "114.00-116.00 s",
+      "refTrigramShare": 0.34,
+      "kind": "copy"
+     },
+     {
+      "clip": "heldout_da_5min_02",
+      "words": 225,
+      "text": "den anden lokale øl hedder manta den anden lokale øl hedder manta den anden lokale øl hedder manta da premien blev uddelt havde skolerne i atlanta oplevet en stor forbedring af testresultaterne da premien blev uddelt havde skolerne i atlanta oplevet en stor forbedring af testresultaterne da premien blev uddelt havde skolerne i atlanta oplevet en stor forbedring af testresultaterne da premien blev uddelt havde skolerne i atlanta oplevet en stor forbedring af testresultaterne der er tillæg for at have mere end to passagerer så den måde kan blive dyrere end det er nødvendigt der er tillæg for at have mere end to passagerer så den måde kan blive dyrere end det er nødvendigt der er tillæg for at have mere end to passagerer så den måde kan blive dyrere end det er nødvendigt en salittelefon er generelt ikke en erstatning for en mobiltelefon da du skal være udenfor og have frit udsyn til salitten for at foretage telefonopkald en salittelefon er generelt ikke en erstatning for en mobiltelefon da du skal være udenfor og have frit udsyn til salitten for at foretage telefonopkald en salittelefon er generelt ikke en erstatning for en mobiltelefon da du skal være udenfor og have frit udsyn til salitten for at foretage telefonopkald en salittelefon er generelt ikke en erstatning for en mobiltelefon da du skal være udenfor og have frit udsyn til salitten for at foretage telefonopkald en salittelefon er generelt ikke en erstatning for en mobiltelefon da du skal være udenfor og have frit udsyn til salitten for at foretage telefonopkald en salittelefon er generelt ikke en erstatning for en mobiltelefon da du skal være udenfor og have frit udsyn til salitten for at foretage telefonopkald",
+      "hypIndex": 498,
+      "utterance": 12,
+      "clipTime": "134.8-145.4 s",
+      "segmentTime": "142.00-144.00 s",
+      "refTrigramShare": 0.66,
+      "kind": "copy"
+     },
+     {
+      "clip": "heldout_da_5min_02",
+      "words": 41,
+      "text": "nyhedsrapportering markant med tre nye udsættelser nyhedsrapportering markant med tre nye udsættelser nyhedsrapportering markant med tre nye udsættelser psykisme er en religion som stammer fra det indiske subkontinent den opstod i punjabregionen i det 15 århundrede som følge af en tekterisk splittelse i hindutraditionen psykisme er en religion som stammer fra det indiske subkontinent den opstod i punjabregionen i det 15 århundrede som følge af en tekterisk splittelse i hindutraditionen",
+      "hypIndex": 823,
+      "utterance": 18,
+      "clipTime": "193.7-204.9 s",
+      "segmentTime": "194.00-202.00 s",
+      "refTrigramShare": 0.72,
+      "kind": "copy"
+     },
+     {
+      "clip": "heldout_da_5min_03",
+      "words": 12,
+      "text": "du kan ikke blive fanget igen og du kan ikke blive fanget igen",
+      "hypIndex": 111,
+      "utterance": 4,
+      "clipTime": "55.1-67.1 s",
+      "segmentTime": "60.00-89.98 s",
+      "refTrigramShare": 0,
+      "kind": "made-up"
+     },
+     {
+      "clip": "heldout_da_5min_03",
+      "words": 1539,
+      "text": "det var en af de fleste der havde modtaget det det var en af de fleste der havde modtaget det det var en af de fleste der havde modtaget det folk der kan lidt spansk kan da hurtigt konkludere at portugæsisk minder nok om det til at man ikke behøver at studere det separat folk der kan lidt spansk kan da hurtigt konkludere at portugæsisk minder nok om det til at man ikke behøver at studere det separat folk der kan lidt spansk kan da hurtigt konkludere at portugæsisk minder nok om det til at man ikke behøver at studere det separat folk der kan lidt spansk kan da hurtigt konkludere at portugæsisk minder nok om det til at man ikke behøver at studere det separat folk der kan lidt spansk kan da hurtigt konkludere at portugæsisk minder nok om det til at man ikke behøver at studere det separat folk der kan lidt spansk kan da hurtigt konkludere at portugæsisk minder nok om det til at man ikke behøver at studere det separat thailanderne invaderede kambodsja flere gange i det 18 århundrede og i 1772 ødelagde penang pan thailanderne invaderede kambodsja flere gange i det 18 århundrede og i 1772 ødelagde penang pan thailanderne invaderede kambodsja flere gange i det 18 århundrede og i 1772 ødelagde penang pan thailanderne invaderede kambodsja flere gange i det 18 århundrede og i 1772 ødelagde penang pan thailanderne invaderede kambodsja flere gange i det 18 århundrede og i 1772 ødelagde penang pan ninh tuat der så oversvømmelser så høje som 20 fode da vulkanen katrina ramte her i øjeblikket vand til talgehøjde da den nærliggende dige blev oversvømmet ninh tuat der så oversvømmelser så høje som 20 fode da vulkanen katrina ramte her i øjeblikket vand til talgehøjde da den nærliggende dige blev oversvømmet ninh tuat der så oversvømmelser så høje som 20 fode da vulkanen katrina ramte her i øjeblikket vand til talgehøjde da den nærliggende dige blev oversvømmet ninh tuat der så oversvømmelser så høje som 20 fode da vulkanen katrina ramte her i øjeblikket vand til talgehøjde da den nærliggende dige blev oversvømmet squash karate og rullesport prøvede at komme på det olympiske program ligesom også baseball og softball gjorde det men dog blev fjernet fra de olympiske lege i 2005 squash karate og rullesport prøvede at komme på det olympiske program ligesom også baseball og softball gjorde det men dog blev fjernet fra de olympiske lege i 2005 squash karate og rullesport prøvede at komme på det olympiske program ligesom også baseball og softball gjorde det men dog blev fjernet fra de olympiske lege i 2005 han er før blevet beskyldt for krankelse af ophavsretten men der blev ikke rejst sikkelse mod ham han er før blevet beskyldt for krankelse af ophavsretten men der blev ikke rejst sikkelse mod ham han er før blevet beskyldt for krankelse af ophavsretten men der blev ikke rejst sikkelse mod ham han er før blevet beskyldt for krankelse af ophavsretten men der blev ikke rejst sikkelse mod ham med romney massachusetts tidligere guvernør vandt tirsdag det republikanske partis primærvalg i florida med over 46 af stemmerne med romney massachusetts tidligere guvernør vandt tirsdag det republikanske partis primærvalg i florida med over 46 af stemmerne med romney massachusetts tidligere guvernør vandt tirsdag det republikanske partis primærvalg i florida med over 46 af stemmerne med romney massachusetts tidligere guvernør vandt tirsdag det republikanske partis primærvalg i florida med over 46 af stemmerne med romney massachusetts tidligere guvernør vandt tirsdag det republikanske partis primærvalg i florida med over 46 af stemmerne med romney massachusetts tidligere guvernør vandt tirsdag det republikanske partis primærvalg i florida med over 46 af stemmerne med romney massachusetts tidligere guvernør vandt tirsdag det republikanske partis primærvalg i florida med over 46 af stemmerne med romney massachusetts tidligere guvernør vandt tirsdag det republikanske partis primærvalg i florida med over 46 af stemmerne med romney massachusetts tidligere guvernør vandt tirsdag det republikanske partis primærvalg i florida med over 46 af stemmerne med romney massachusetts tidligere guvernør vandt tirsdag det republikanske partis primærvalg i florida med over 46 af stemmerne med romney massachusetts tidligere guvernør vandt tirsdag det republikanske partis primærvalg i florida med over 46 af stemmerne med romney massachusetts tidligere guvernør vandt tirsdag det republikanske partis primærvalg i florida med over 46 af stemmerne med romney massachusetts tidligere guvernør vandt tirsdag det republikanske partis primærvalg i florida med over 46 af stemmerne med romney massachusetts tidligere guvernør vandt tirsdag det republikanske partis primærvalg i florida med over 46 af stemmerne med romney massachusetts tidligere guvernør vandt tirsdag det republikanske partis primærvalg i florida med over 46 af stemmerne med romney massachusetts tidligere guvernør vandt tirsdag det republikanske partis primærvalg i florida med over 46 af stemmerne med romney massachusetts tidligere guvernør vandt tirsdag det republikanske partis primærvalg i florida med over 46 af stemmerne med romney massachusetts tidligere guvernør vandt tirsdag det republikanske partis primærvalg i florida med over 46 af stemmerne med romney massachusetts tidligere guvernør vandt tirsdag det republikanske partis primærvalg i florida med over 46 af stemmerne med romney massachusetts tidligere guvernør vandt tirsdag det republikanske partis primærvalg i florida med over 46 af stemmerne med romney massachusetts tidligere guvernør vandt tirsdag det republikanske partis primærvalg i florida med over 46 af stemmerne med romney massachusetts tidligere guvernør vandt tirsdag det republikanske partis primærvalg i florida med over 46 af stemmerne med romney massachusetts tidligere guvernør vandt tirsdag det republikanske partis primærvalg i florida med over 46 af stemmerne med romney massachusetts tidligere guvernør vandt tirsdag det republikanske partis primærvalg i florida med over 46 af stemmerne med romney massachusetts tidligere guvernør vandt tirsdag det republikanske partis primærvalg i florida med over 46 af stemmerne med romney massachusetts tidligere guvernør vandt tirsdag det republikanske partis primærvalg i florida med over 46 af stemmerne med romney massachusetts tidligere guvernør vandt tirsdag det republikanske partis primærvalg i florida med over 46 af stemmerne med romney massachusetts tidligere guvernør vandt tirsdag det republikanske partis primærvalg i florida med over 46 af stemmerne med romney massachusetts tidligere guvernør vandt tirsdag det republikanske partis primærvalg i florida med over 46 af stemmerne med romney massachusetts tidligere guvernør vandt tirsdag det republikanske partis primærvalg i florida med over 46 af stemmerne med romney massachusetts tidligere guvernør vandt tirsdag det republikanske partis primærvalg i florida med over 46 af stemmerne med romney massachusetts tidligere guvernør vandt tirsdag det republikanske partis primærvalg i florida med over 46 af stemmerne til sidst efter tusinder eller endda millioner af år vil de to befolkningsgrupper se så forskellige ud at de ikke kan kaldes den samme art til sidst efter tusinder eller endda millioner af år vil de to befolkningsgrupper se så forskellige ud at de ikke kan kaldes den samme art til sidst efter tusinder eller endda millioner af år vil de to befolkningsgrupper se så forskellige ud at de ikke kan kaldes den samme art til sidst efter tusinder eller endda millioner af år vil de to befolkningsgrupper se så forskellige ud at de ikke kan kaldes den samme art til sidst efter tusinder eller endda millioner af år vil de to befolkningsgrupper se så forskellige ud at de ikke kan kaldes den samme art til sidst efter tusinder eller endda millioner af år vil de to befolkningsgrupper se så forskellige ud at de ikke kan kaldes den samme art til sidst efter tusinder eller endda millioner af år vil de to befolkningsgrupper se så forskellige ud at de ikke kan kaldes den samme art til sidst efter tusinder eller endda millioner af år vil de to befolkningsgrupper se så forskellige ud at de ikke kan kaldes den samme art til sidst efter tusinder eller endda millioner af år vil de to befolkningsgrupper se så forskellige ud at de ikke kan kaldes den samme art til sidst efter tusinder eller endda millioner af år vil de to befolkningsgrupper se så forskellige ud at de ikke kan kaldes den samme art til sidst efter tusinder eller endda millioner af år vil de to befolkningsgrupper se så forskellige ud at de ikke kan kaldes den samme art til sidst efter tusinder eller endda millioner af år vil de to befolkningsgrupper se så forskellige ud at de ikke kan kaldes den samme art til sidst efter tusinder eller endda millioner af år vil de to befolkningsgrupper se så forskellige ud at de ikke kan kaldes den samme art til sidst efter tusinder eller endda millioner af år vil de to befolkningsgrupper se så forskellige ud at de ikke kan kaldes den samme art til sidst efter tusinder eller endda millioner af år vil de to befolkningsgrupper se så forskellige ud at de ikke kan kaldes den samme art til sidst efter tusinder eller endda millioner af år vil de to befolkningsgrupper se så forskellige ud at de ikke kan kaldes den samme art til sidst efter tusinder eller endda millioner af år vil de to befolkningsgrupper se så forskellige ud at de ikke kan kaldes den samme art til sidst efter tusinder eller endda millioner af år vil de to befolkningsgrupper se så forskellige ud at de ikke kan kaldes den samme art til sidst efter tusinder eller endda millioner af år vil de to befolkningsgrupper se så forskellige ud at de ikke kan kaldes den samme art til sidst efter tusinder eller endda millioner af år vil de to befolkningsgrupper se så forskellige ud at de ikke kan kaldes den samme art til sidst efter tusinder eller endda millioner af år vil de to befolkningsgrupper se så forskellige ud at de ikke kan kaldes den samme art til sidst efter tusinder eller endda millioner af år vil de to befolkningsgrupper se så forskellige ud at de ikke kan kaldes den samme art til sidst efter tusinder eller endda millioner af år vil de to befolkningsgrupper se så forskellige ud at de ikke kan kaldes den samme art til sidst efter tusinder eller endda millioner af år vil de to befolkningsgrupper se så forskellige ud at de ikke kan kaldes den samme art til sidst efter tusinder eller endda millioner af år vil de to befolkningsgrupper se så forskellige ud at de ikke kan kaldes den samme art",
+      "hypIndex": 168,
+      "utterance": 4,
+      "clipTime": "55.1-67.1 s",
+      "segmentTime": "120.00-122.00 s",
+      "refTrigramShare": 0.76,
+      "kind": "copy"
+     },
+     {
+      "clip": "heldout_da_5min_04",
+      "words": 8,
+      "text": "12 januar præsentationen ved tokyo game show afslørede nintendos præsident satoru iwasa designer og controller til virksomhedens nye nintendo evolutionkontolen",
+      "hypIndex": 120,
+      "utterance": 5,
+      "clipTime": "61.2-72.9 s",
+      "segmentTime": "61.00-72.00 s",
+      "refTrigramShare": 0.44,
+      "kind": "copy"
+     },
+     {
+      "clip": "heldout_da_5min_04",
+      "words": 652,
+      "text": "januar præsentationen ved tokyo game show afslørede nintendos præsident satoru iwasa designer og controller til virksomhedens nye nintendo evolutionkontolen 12 januar præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afsl 12 januar præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afsl afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game show afslørede nintendos præsentationen ved tokyo game",
+      "hypIndex": 154,
+      "utterance": 7,
+      "clipTime": "85.3-101.9 s",
+      "segmentTime": "84.00-88.00 s",
+      "refTrigramShare": 0.54,
+      "kind": "copy"
+     },
+     {
+      "clip": "heldout_da_2min_01",
+      "words": 4,
+      "text": "det er en stor gruppe",
+      "hypIndex": 94,
+      "utterance": 5,
+      "clipTime": "50.2-61.7 s",
+      "segmentTime": "60.00-62.00 s",
+      "refTrigramShare": 0,
+      "kind": "made-up"
+     },
+     {
+      "clip": "heldout_da_2min_01",
+      "words": 5,
+      "text": "det er en stor gruppe",
+      "hypIndex": 131,
+      "utterance": 9,
+      "clipTime": "89.2-108.4 s",
+      "segmentTime": "86.78-86.90 s",
+      "refTrigramShare": 0,
+      "kind": "made-up"
+     },
+     {
+      "clip": "heldout_da_2min_02",
+      "words": 4,
+      "text": "bagværk med frugter er",
+      "hypIndex": 164,
+      "utterance": 7,
+      "clipTime": "87.1-97.1 s",
+      "segmentTime": "85.22-87.14 s",
+      "refTrigramShare": 0,
+      "kind": "made-up"
+     },
+     {
+      "clip": "heldout_da_2min_02",
+      "words": 7,
+      "text": "at forstå hvordan de lever og lever",
+      "hypIndex": 178,
+      "utterance": 7,
+      "clipTime": "87.1-97.1 s",
+      "segmentTime": "85.22-87.14 s",
+      "refTrigramShare": 0.2,
+      "kind": "copy"
+     },
+     {
+      "clip": "heldout_da_2min_02",
+      "words": 10,
+      "text": "de lever og lever endnu vi kalder dem fugle bagværk med frugter er",
+      "hypIndex": 189,
+      "utterance": 7,
+      "clipTime": "87.1-97.1 s",
+      "segmentTime": "85.22-87.14 s",
+      "refTrigramShare": 0.45,
+      "kind": "copy"
+     },
+     {
+      "clip": "heldout_da_2min_02",
+      "words": 31,
+      "text": "de største beskæftigelse sektorer er professionelle tjenesteydelser den offentlige sektor finans handel og faglæring de største beskæftigelse sektorer er professionelle tjenesteydelser den offentlige sektor finans handel og faglæring de største beskæftigelse sektorer er professionelle tjenesteydelser den offentlige sektor finans handel og faglæring",
+      "hypIndex": 236,
+      "utterance": 9,
+      "clipTime": "110.1-119.9 s",
+      "segmentTime": "106.18-111.98 s",
+      "refTrigramShare": 0.53,
+      "kind": "copy"
+     },
+     {
+      "clip": "heldout_da_continuous_90s_01",
+      "words": 122,
+      "text": "de har også været i forhold til at købe en køkken som de har brug for i dag de har også været i forhold til at købe en køkken som de har brug for i dag de har også været i forhold til at købe en køkken som de har brug for i dag de har været i forhold til at købe en køkken som de har brug for i dag de har været i forhold til at købe en køkken som de har brug for i dag de har været i forhold til at købe en køkken som de har brug for i dag de har været i forhold til at købe en køkken som de har brug for i dag",
+      "hypIndex": 200,
+      "utterance": 8,
+      "clipTime": "79.4-90.2 s",
+      "segmentTime": "90.00-93.00 s",
+      "refTrigramShare": 0,
+      "kind": "made-up"
+     }
+    ],
+    "clips": [
+     {
+      "clip": "heldout_da_5min_01",
+      "loops": 3,
+      "loopWords": 150,
+      "lost": [
+       "51-63 s",
+       "64-73 s",
+       "74-83 s",
+       "84-93 s",
+       "94-105 s",
+       "106-115 s",
+       "116-127 s",
+       "128-134 s"
+      ],
+      "wer": 0.47232472324723246
+     },
+     {
+      "clip": "heldout_da_5min_02",
+      "loops": 4,
+      "loopWords": 588,
+      "lost": [
+       "57-68 s",
+       "69-79 s",
+       "80-86 s"
+      ],
+      "wer": 1.3477366255144032
+     },
+     {
+      "clip": "heldout_da_5min_03",
+      "loops": 2,
+      "loopWords": 1551,
+      "lost": [
+       "68-84 s",
+       "85-94 s",
+       "95-105 s",
+       "106-125 s",
+       "194-201 s",
+       "202-211 s",
+       "212-219 s",
+       "220-235 s",
+       "236-249 s",
+       "262-276 s",
+       "277-290 s"
+      ],
+      "wer": 3.143418467583497
+     },
+     {
+      "clip": "heldout_da_5min_04",
+      "loops": 2,
+      "loopWords": 660,
+      "lost": [
+       "85-102 s",
+       "103-109 s",
+       "110-125 s",
+       "126-140 s",
+       "141-160 s",
+       "161-175 s",
+       "176-188 s",
+       "189-205 s",
+       "206-220 s",
+       "221-227 s",
+       "228-244 s",
+       "245-258 s",
+       "259-268 s",
+       "269-286 s"
+      ],
+      "wer": 1.4795698924731182
+     },
+     {
+      "clip": "heldout_da_2min_01",
+      "loops": 2,
+      "loopWords": 9,
+      "lost": [
+       "72-81 s"
+      ],
+      "wer": 0.2864321608040201
+     },
+     {
+      "clip": "heldout_da_2min_02",
+      "loops": 4,
+      "loopWords": 52,
+      "lost": [],
+      "wer": 0.42857142857142855
+     },
+     {
+      "clip": "heldout_da_2min_03",
+      "loops": 0,
+      "loopWords": 0,
+      "lost": [],
+      "wer": 0.07731958762886598
+     },
+     {
+      "clip": "heldout_da_continuous_90s_01",
+      "loops": 1,
+      "loopWords": 122,
+      "lost": [],
+      "wer": 0.765625
+     },
+     {
+      "clip": "heldout_da_continuous_90s_02",
+      "loops": 0,
+      "loopWords": 0,
+      "lost": [],
+      "wer": 0.1736842105263158
+     },
+     {
+      "clip": "heldout_da_continuous_90s_03",
+      "loops": 0,
+      "loopWords": 0,
+      "lost": [],
+      "wer": 0.08947368421052632
+     }
+    ],
+    "longLoops": 11
+   },
+   "E3": {
+    "loops": 7,
+    "copyLoops": 2,
+    "madeUpLoops": 5,
+    "clipsWithLoop": 4,
+    "loopWords": 388,
+    "lost": 3,
+    "heard": 0.8737802958766132,
+    "wer": 0.3059490084985836,
+    "promptEcho": 0,
+    "errors": 0,
+    "loopSpans": [
+     {
+      "clip": "heldout_da_5min_02",
+      "words": 52,
+      "text": "hvis du har en kæreste så er det en god idé at tage en kæreste til din hjem hvis du har en kæreste så er det en god idé at tage en kæreste med til din hjem det er en god fornøjelse at have en kæreste som kan hjælpe dig med at få",
+      "hypIndex": 93,
+      "utterance": 4,
+      "clipTime": "57.5-68.4 s",
+      "segmentTime": "54.00-57.00 s",
+      "refTrigramShare": 0,
+      "kind": "made-up"
+     },
+     {
+      "clip": "heldout_da_5min_02",
+      "words": 81,
+      "text": "frem det er en god fornøjelse at have en kæreste som kan hjælpe dig med at få det til at gå frem det er en god fornøjelse at have en kæreste som kan hjælpe dig med at få det til at gå frem det er en god fornøjelse at have en kæreste som kan hjælpe dig med at få det til at gå frem det er en god fornøjelse at have en kæreste som kan hjælpe dig det er en god fornøjelse at",
+      "hypIndex": 151,
+      "utterance": 4,
+      "clipTime": "57.5-68.4 s",
+      "segmentTime": "60.00-63.00 s",
+      "refTrigramShare": 0,
+      "kind": "made-up"
+     },
+     {
+      "clip": "heldout_da_5min_02",
+      "words": 104,
+      "text": "hvis du har en kæreste så er det en god fornøjelse at have en kæreste som kan hjælpe dig med at få det til at gå frem det er en god fornøjelse at have en kæreste som kan hjælpe dig med at få det til at gå frem det er en god fornøjelse at have en kæreste som kan hjælpe dig med at få det til at gå frem det er en god fornøjelse at have en kæreste som kan hjælpe dig med at få det til at gå frem det er en god fornøjelse at have en kæreste som kan hjælpe dig med at få det til at gå frem det er",
+      "hypIndex": 238,
+      "utterance": 4,
+      "clipTime": "57.5-68.4 s",
+      "segmentTime": "76.00-81.00 s",
+      "refTrigramShare": 0,
+      "kind": "made-up"
+     },
+     {
+      "clip": "heldout_da_5min_04",
+      "words": 5,
+      "text": "en af de mest fremdeles",
+      "hypIndex": 376,
+      "utterance": 15,
+      "clipTime": "206.0-219.8 s",
+      "segmentTime": "208.00-209.00 s",
+      "refTrigramShare": 0.67,
+      "kind": "copy"
+     },
+     {
+      "clip": "heldout_da_2min_01",
+      "words": 4,
+      "text": "de fleste af dem",
+      "hypIndex": 206,
+      "utterance": 10,
+      "clipTime": "109.4-118.8 s",
+      "segmentTime": "117.00-119.00 s",
+      "refTrigramShare": 1,
+      "kind": "copy"
+     },
+     {
+      "clip": "heldout_da_2min_02",
+      "words": 3,
+      "text": "som er udviklet",
+      "hypIndex": 167,
+      "utterance": 7,
+      "clipTime": "87.1-97.1 s",
+      "segmentTime": "85.52-89.52 s",
+      "refTrigramShare": 0,
+      "kind": "made-up"
+     },
+     {
+      "clip": "heldout_da_2min_02",
+      "words": 139,
+      "text": "det er en af de fleste af de kulturarv som er udviklet i denne video det er en af de fleste af dem som er udviklet i denne video det er en af de fleste af dem som er udviklet i denne video det er en af de fleste af dem som er udviklet i denne video det er en af de fleste af dem som er udviklet i denne video det er en af de fleste af dem som er udviklet i denne video det er en af de fleste af dem som er udviklet i denne video det er en af de fleste af dem som er udviklet i denne video det er en af de fleste af dem som er udviklet i denne video det er en af de fleste af dem som er udviklet i denne video",
+      "hypIndex": 225,
+      "utterance": 9,
+      "clipTime": "110.1-119.9 s",
+      "segmentTime": "119.52-121.52 s",
+      "refTrigramShare": 0,
+      "kind": "made-up"
+     }
+    ],
+    "clips": [
+     {
+      "clip": "heldout_da_5min_01",
+      "loops": 0,
+      "loopWords": 0,
+      "lost": [],
+      "wer": 0.22140221402214022
+     },
+     {
+      "clip": "heldout_da_5min_02",
+      "loops": 3,
+      "loopWords": 237,
+      "lost": [
+       "57-68 s",
+       "69-79 s",
+       "80-86 s"
+      ],
+      "wer": 0.6975308641975309
+     },
+     {
+      "clip": "heldout_da_5min_03",
+      "loops": 0,
+      "loopWords": 0,
+      "lost": [],
+      "wer": 0.16306483300589392
+     },
+     {
+      "clip": "heldout_da_5min_04",
+      "loops": 1,
+      "loopWords": 5,
+      "lost": [],
+      "wer": 0.22795698924731184
+     },
+     {
+      "clip": "heldout_da_2min_01",
+      "loops": 1,
+      "loopWords": 4,
+      "lost": [],
+      "wer": 0.23618090452261306
+     },
+     {
+      "clip": "heldout_da_2min_02",
+      "loops": 2,
+      "loopWords": 142,
+      "lost": [],
+      "wer": 0.8571428571428571
+     },
+     {
+      "clip": "heldout_da_2min_03",
+      "loops": 0,
+      "loopWords": 0,
+      "lost": [],
+      "wer": 0.07731958762886598
+     },
+     {
+      "clip": "heldout_da_continuous_90s_01",
+      "loops": 0,
+      "loopWords": 0,
+      "lost": [],
+      "wer": 0.16666666666666666
+     },
+     {
+      "clip": "heldout_da_continuous_90s_02",
+      "loops": 0,
+      "loopWords": 0,
+      "lost": [],
+      "wer": 0.20526315789473684
+     },
+     {
+      "clip": "heldout_da_continuous_90s_03",
+      "loops": 0,
+      "loopWords": 0,
+      "lost": [],
+      "wer": 0.05789473684210526
+     }
+    ],
+    "longLoops": 4
+   }
+  }
+ }
+}

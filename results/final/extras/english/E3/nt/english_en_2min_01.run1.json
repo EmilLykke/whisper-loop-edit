@@ -1,0 +1,1259 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | ACCELERATE = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "large",
+		"multilingual": true,
+		"vocab": 51866,
+		"audio": {
+			"ctx": 1500,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"mels": 128,
+		"ftype": 1
+	},
+	"params": {
+		"model": "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+		"language": "en",
+		"translate": false
+	},
+	"result": {
+		"language": "en"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:-16:-47,-300",
+				"to": "00:00:30,000"
+			},
+			"offsets": {
+				"from": -1007300,
+				"to": 30000
+			},
+			"text": " Robin Mutapa made the inning's highest score, 70 runs and just 41 balls by hitting 11 fours and two sixes. Women should realize that cultural differences may result in what they would consider harassment and it is not uncommon to be followed, grabbed by the arm, etc. He built a Wi-Fi doorbell, he said.",
+			"tokens": [
+				{
+					"text": " Robin",
+					"id": 16533,
+					"p": 0.758423,
+					"t_dtw": -1
+				},
+				{
+					"text": " Mut",
+					"id": 18517,
+					"p": 0.255481,
+					"t_dtw": -1
+				},
+				{
+					"text": "apa",
+					"id": 7961,
+					"p": 0.953119,
+					"t_dtw": -1
+				},
+				{
+					"text": " made",
+					"id": 1027,
+					"p": 0.977989,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.989793,
+					"t_dtw": -1
+				},
+				{
+					"text": " inning",
+					"id": 49989,
+					"p": 0.435166,
+					"t_dtw": -1
+				},
+				{
+					"text": "'s",
+					"id": 311,
+					"p": 0.964639,
+					"t_dtw": -1
+				},
+				{
+					"text": " highest",
+					"id": 6343,
+					"p": 0.995898,
+					"t_dtw": -1
+				},
+				{
+					"text": " score",
+					"id": 6175,
+					"p": 0.982746,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.736532,
+					"t_dtw": -1
+				},
+				{
+					"text": " 70",
+					"id": 5285,
+					"p": 0.985269,
+					"t_dtw": -1
+				},
+				{
+					"text": " runs",
+					"id": 6676,
+					"p": 0.994797,
+					"t_dtw": -1
+				},
+				{
+					"text": " and",
+					"id": 293,
+					"p": 0.83531,
+					"t_dtw": -1
+				},
+				{
+					"text": " just",
+					"id": 445,
+					"p": 0.989955,
+					"t_dtw": -1
+				},
+				{
+					"text": " 41",
+					"id": 18173,
+					"p": 0.99806,
+					"t_dtw": -1
+				},
+				{
+					"text": " balls",
+					"id": 9803,
+					"p": 0.99559,
+					"t_dtw": -1
+				},
+				{
+					"text": " by",
+					"id": 538,
+					"p": 0.842576,
+					"t_dtw": -1
+				},
+				{
+					"text": " hitting",
+					"id": 8850,
+					"p": 0.99609,
+					"t_dtw": -1
+				},
+				{
+					"text": " 11",
+					"id": 2975,
+					"p": 0.990724,
+					"t_dtw": -1
+				},
+				{
+					"text": " four",
+					"id": 1451,
+					"p": 0.786446,
+					"t_dtw": -1
+				},
+				{
+					"text": "s",
+					"id": 82,
+					"p": 0.997661,
+					"t_dtw": -1
+				},
+				{
+					"text": " and",
+					"id": 293,
+					"p": 0.995347,
+					"t_dtw": -1
+				},
+				{
+					"text": " two",
+					"id": 732,
+					"p": 0.823248,
+					"t_dtw": -1
+				},
+				{
+					"text": " six",
+					"id": 2309,
+					"p": 0.97075,
+					"t_dtw": -1
+				},
+				{
+					"text": "es",
+					"id": 279,
+					"p": 0.999222,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.983983,
+					"t_dtw": -1
+				},
+				{
+					"text": " Women",
+					"id": 11065,
+					"p": 0.96986,
+					"t_dtw": -1
+				},
+				{
+					"text": " should",
+					"id": 820,
+					"p": 0.998597,
+					"t_dtw": -1
+				},
+				{
+					"text": " realize",
+					"id": 4325,
+					"p": 0.998831,
+					"t_dtw": -1
+				},
+				{
+					"text": " that",
+					"id": 300,
+					"p": 0.998599,
+					"t_dtw": -1
+				},
+				{
+					"text": " cultural",
+					"id": 6988,
+					"p": 0.998782,
+					"t_dtw": -1
+				},
+				{
+					"text": " differences",
+					"id": 7300,
+					"p": 0.998932,
+					"t_dtw": -1
+				},
+				{
+					"text": " may",
+					"id": 815,
+					"p": 0.997714,
+					"t_dtw": -1
+				},
+				{
+					"text": " result",
+					"id": 1874,
+					"p": 0.999314,
+					"t_dtw": -1
+				},
+				{
+					"text": " in",
+					"id": 294,
+					"p": 0.999384,
+					"t_dtw": -1
+				},
+				{
+					"text": " what",
+					"id": 437,
+					"p": 0.9995,
+					"t_dtw": -1
+				},
+				{
+					"text": " they",
+					"id": 436,
+					"p": 0.999173,
+					"t_dtw": -1
+				},
+				{
+					"text": " would",
+					"id": 576,
+					"p": 0.993534,
+					"t_dtw": -1
+				},
+				{
+					"text": " consider",
+					"id": 1949,
+					"p": 0.997364,
+					"t_dtw": -1
+				},
+				{
+					"text": " harassment",
+					"id": 25836,
+					"p": 0.997428,
+					"t_dtw": -1
+				},
+				{
+					"text": " and",
+					"id": 293,
+					"p": 0.694525,
+					"t_dtw": -1
+				},
+				{
+					"text": " it",
+					"id": 309,
+					"p": 0.997828,
+					"t_dtw": -1
+				},
+				{
+					"text": " is",
+					"id": 307,
+					"p": 0.998955,
+					"t_dtw": -1
+				},
+				{
+					"text": " not",
+					"id": 406,
+					"p": 0.99931,
+					"t_dtw": -1
+				},
+				{
+					"text": " uncommon",
+					"id": 29289,
+					"p": 0.99991,
+					"t_dtw": -1
+				},
+				{
+					"text": " to",
+					"id": 281,
+					"p": 0.987519,
+					"t_dtw": -1
+				},
+				{
+					"text": " be",
+					"id": 312,
+					"p": 0.999093,
+					"t_dtw": -1
+				},
+				{
+					"text": " followed",
+					"id": 6263,
+					"p": 0.996932,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.981324,
+					"t_dtw": -1
+				},
+				{
+					"text": " grabbed",
+					"id": 18607,
+					"p": 0.992284,
+					"t_dtw": -1
+				},
+				{
+					"text": " by",
+					"id": 538,
+					"p": 0.999193,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.998891,
+					"t_dtw": -1
+				},
+				{
+					"text": " arm",
+					"id": 3726,
+					"p": 0.998055,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.993743,
+					"t_dtw": -1
+				},
+				{
+					"text": " etc",
+					"id": 5183,
+					"p": 0.942581,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.992089,
+					"t_dtw": -1
+				},
+				{
+					"text": " He",
+					"id": 634,
+					"p": 0.926143,
+					"t_dtw": -1
+				},
+				{
+					"text": " built",
+					"id": 3094,
+					"p": 0.950164,
+					"t_dtw": -1
+				},
+				{
+					"text": " a",
+					"id": 257,
+					"p": 0.999485,
+					"t_dtw": -1
+				},
+				{
+					"text": " Wi",
+					"id": 14035,
+					"p": 0.924146,
+					"t_dtw": -1
+				},
+				{
+					"text": "-",
+					"id": 12,
+					"p": 0.99954,
+					"t_dtw": -1
+				},
+				{
+					"text": "Fi",
+					"id": 13229,
+					"p": 0.999899,
+					"t_dtw": -1
+				},
+				{
+					"text": " door",
+					"id": 2853,
+					"p": 0.998053,
+					"t_dtw": -1
+				},
+				{
+					"text": "bell",
+					"id": 7100,
+					"p": 0.997653,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.939435,
+					"t_dtw": -1
+				},
+				{
+					"text": " he",
+					"id": 415,
+					"p": 0.996848,
+					"t_dtw": -1
+				},
+				{
+					"text": " said",
+					"id": 848,
+					"p": 0.967685,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.99811,
+					"t_dtw": -1
+				},
+				{
+					"text": "<|endoftext|>",
+					"timestamps": {
+						"from": "00:00:30,000",
+						"to": "00:00:30,000"
+					},
+					"offsets": {
+						"from": 30000,
+						"to": 30000
+					},
+					"id": 50257,
+					"p": 0.61675,
+					"t_dtw": -1
+				}
+			]
+		},
+		{
+			"timestamps": {
+				"from": "00:-16:-17,-300",
+				"to": "00:01:00,000"
+			},
+			"offsets": {
+				"from": -977300,
+				"to": 60000
+			},
+			"text": " The qualities are determined as subculture as distinct, maybe linguistic, aesthetic, religious, political, sexual, geographical, or a combination of factors.",
+			"tokens": [
+				{
+					"text": " The",
+					"id": 440,
+					"p": 0.415279,
+					"t_dtw": -1
+				},
+				{
+					"text": " qualities",
+					"id": 16477,
+					"p": 0.19591,
+					"t_dtw": -1
+				},
+				{
+					"text": " are",
+					"id": 366,
+					"p": 0.772351,
+					"t_dtw": -1
+				},
+				{
+					"text": " determined",
+					"id": 9540,
+					"p": 0.868718,
+					"t_dtw": -1
+				},
+				{
+					"text": " as",
+					"id": 382,
+					"p": 0.721537,
+					"t_dtw": -1
+				},
+				{
+					"text": " sub",
+					"id": 1422,
+					"p": 0.818589,
+					"t_dtw": -1
+				},
+				{
+					"text": "c",
+					"id": 66,
+					"p": 0.917851,
+					"t_dtw": -1
+				},
+				{
+					"text": "ulture",
+					"id": 8389,
+					"p": 0.941111,
+					"t_dtw": -1
+				},
+				{
+					"text": " as",
+					"id": 382,
+					"p": 0.790325,
+					"t_dtw": -1
+				},
+				{
+					"text": " distinct",
+					"id": 10644,
+					"p": 0.945529,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.354218,
+					"t_dtw": -1
+				},
+				{
+					"text": " maybe",
+					"id": 1310,
+					"p": 0.7811,
+					"t_dtw": -1
+				},
+				{
+					"text": " linguistic",
+					"id": 43002,
+					"p": 0.976103,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.927932,
+					"t_dtw": -1
+				},
+				{
+					"text": " aesthetic",
+					"id": 20092,
+					"p": 0.97524,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.981513,
+					"t_dtw": -1
+				},
+				{
+					"text": " religious",
+					"id": 7185,
+					"p": 0.991007,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.986562,
+					"t_dtw": -1
+				},
+				{
+					"text": " political",
+					"id": 3905,
+					"p": 0.990858,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.981781,
+					"t_dtw": -1
+				},
+				{
+					"text": " sexual",
+					"id": 6701,
+					"p": 0.990055,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.965015,
+					"t_dtw": -1
+				},
+				{
+					"text": " geographical",
+					"id": 39872,
+					"p": 0.981352,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.70273,
+					"t_dtw": -1
+				},
+				{
+					"text": " or",
+					"id": 420,
+					"p": 0.996588,
+					"t_dtw": -1
+				},
+				{
+					"text": " a",
+					"id": 257,
+					"p": 0.991639,
+					"t_dtw": -1
+				},
+				{
+					"text": " combination",
+					"id": 6562,
+					"p": 0.997866,
+					"t_dtw": -1
+				},
+				{
+					"text": " of",
+					"id": 295,
+					"p": 0.995196,
+					"t_dtw": -1
+				},
+				{
+					"text": " factors",
+					"id": 6771,
+					"p": 0.993687,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.975104,
+					"t_dtw": -1
+				},
+				{
+					"text": "<|endoftext|>",
+					"timestamps": {
+						"from": "00:01:00,000",
+						"to": "00:01:00,000"
+					},
+					"offsets": {
+						"from": 60000,
+						"to": 60000
+					},
+					"id": 50257,
+					"p": 0.539622,
+					"t_dtw": -1
+				}
+			]
+		},
+		{
+			"timestamps": {
+				"from": "00:-15:-47,-300",
+				"to": "00:01:30,000"
+			},
+			"offsets": {
+				"from": -947300,
+				"to": 90000
+			},
+			"text": " It's not a complex beer, but pleasant and refreshing. The other local beer is called Manta.",
+			"tokens": [
+				{
+					"text": " It",
+					"id": 467,
+					"p": 0.905391,
+					"t_dtw": -1
+				},
+				{
+					"text": "'s",
+					"id": 311,
+					"p": 0.790385,
+					"t_dtw": -1
+				},
+				{
+					"text": " not",
+					"id": 406,
+					"p": 0.997634,
+					"t_dtw": -1
+				},
+				{
+					"text": " a",
+					"id": 257,
+					"p": 0.989885,
+					"t_dtw": -1
+				},
+				{
+					"text": " complex",
+					"id": 3997,
+					"p": 0.995587,
+					"t_dtw": -1
+				},
+				{
+					"text": " beer",
+					"id": 8795,
+					"p": 0.97614,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.690146,
+					"t_dtw": -1
+				},
+				{
+					"text": " but",
+					"id": 457,
+					"p": 0.997297,
+					"t_dtw": -1
+				},
+				{
+					"text": " pleasant",
+					"id": 16232,
+					"p": 0.991662,
+					"t_dtw": -1
+				},
+				{
+					"text": " and",
+					"id": 293,
+					"p": 0.993184,
+					"t_dtw": -1
+				},
+				{
+					"text": " refreshing",
+					"id": 19772,
+					"p": 0.99846,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.934254,
+					"t_dtw": -1
+				},
+				{
+					"text": " The",
+					"id": 440,
+					"p": 0.951234,
+					"t_dtw": -1
+				},
+				{
+					"text": " other",
+					"id": 661,
+					"p": 0.998852,
+					"t_dtw": -1
+				},
+				{
+					"text": " local",
+					"id": 2654,
+					"p": 0.992854,
+					"t_dtw": -1
+				},
+				{
+					"text": " beer",
+					"id": 8795,
+					"p": 0.990866,
+					"t_dtw": -1
+				},
+				{
+					"text": " is",
+					"id": 307,
+					"p": 0.988838,
+					"t_dtw": -1
+				},
+				{
+					"text": " called",
+					"id": 1219,
+					"p": 0.997369,
+					"t_dtw": -1
+				},
+				{
+					"text": " M",
+					"id": 376,
+					"p": 0.812408,
+					"t_dtw": -1
+				},
+				{
+					"text": "anta",
+					"id": 5983,
+					"p": 0.998664,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.927129,
+					"t_dtw": -1
+				},
+				{
+					"text": "<|endoftext|>",
+					"timestamps": {
+						"from": "00:01:30,000",
+						"to": "00:01:30,000"
+					},
+					"offsets": {
+						"from": 90000,
+						"to": 90000
+					},
+					"id": 50257,
+					"p": 0.498167,
+					"t_dtw": -1
+				}
+			]
+		},
+		{
+			"timestamps": {
+				"from": "00:-15:-17,-300",
+				"to": "00:02:00,000"
+			},
+			"offsets": {
+				"from": -917300,
+				"to": 120000
+			},
+			"text": " Many formats, APS family of formats, for example, are equal to or closely approximate to this aspect ratio. The major religion in Moldova is Orthodox Christian. In Japan, the first cherry blossom parties were hosted by the emperor only for himself and other members of the aristocracy around the imperial court.",
+			"tokens": [
+				{
+					"text": " Many",
+					"id": 5126,
+					"p": 0.906288,
+					"t_dtw": -1
+				},
+				{
+					"text": " formats",
+					"id": 25879,
+					"p": 0.998374,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.947467,
+					"t_dtw": -1
+				},
+				{
+					"text": " AP",
+					"id": 5372,
+					"p": 0.985329,
+					"t_dtw": -1
+				},
+				{
+					"text": "S",
+					"id": 50,
+					"p": 0.999577,
+					"t_dtw": -1
+				},
+				{
+					"text": " family",
+					"id": 1605,
+					"p": 0.803642,
+					"t_dtw": -1
+				},
+				{
+					"text": " of",
+					"id": 295,
+					"p": 0.999708,
+					"t_dtw": -1
+				},
+				{
+					"text": " formats",
+					"id": 25879,
+					"p": 0.999706,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.853043,
+					"t_dtw": -1
+				},
+				{
+					"text": " for",
+					"id": 337,
+					"p": 0.999373,
+					"t_dtw": -1
+				},
+				{
+					"text": " example",
+					"id": 1365,
+					"p": 0.999844,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.997054,
+					"t_dtw": -1
+				},
+				{
+					"text": " are",
+					"id": 366,
+					"p": 0.999743,
+					"t_dtw": -1
+				},
+				{
+					"text": " equal",
+					"id": 2681,
+					"p": 0.999783,
+					"t_dtw": -1
+				},
+				{
+					"text": " to",
+					"id": 281,
+					"p": 0.999401,
+					"t_dtw": -1
+				},
+				{
+					"text": " or",
+					"id": 420,
+					"p": 0.997122,
+					"t_dtw": -1
+				},
+				{
+					"text": " closely",
+					"id": 8185,
+					"p": 0.991853,
+					"t_dtw": -1
+				},
+				{
+					"text": " approximate",
+					"id": 30874,
+					"p": 0.999114,
+					"t_dtw": -1
+				},
+				{
+					"text": " to",
+					"id": 281,
+					"p": 0.999657,
+					"t_dtw": -1
+				},
+				{
+					"text": " this",
+					"id": 341,
+					"p": 0.999323,
+					"t_dtw": -1
+				},
+				{
+					"text": " aspect",
+					"id": 4171,
+					"p": 0.998624,
+					"t_dtw": -1
+				},
+				{
+					"text": " ratio",
+					"id": 8509,
+					"p": 0.999588,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.999478,
+					"t_dtw": -1
+				},
+				{
+					"text": " The",
+					"id": 440,
+					"p": 0.974633,
+					"t_dtw": -1
+				},
+				{
+					"text": " major",
+					"id": 2563,
+					"p": 0.998904,
+					"t_dtw": -1
+				},
+				{
+					"text": " religion",
+					"id": 7561,
+					"p": 0.998751,
+					"t_dtw": -1
+				},
+				{
+					"text": " in",
+					"id": 294,
+					"p": 0.998898,
+					"t_dtw": -1
+				},
+				{
+					"text": " M",
+					"id": 376,
+					"p": 0.824026,
+					"t_dtw": -1
+				},
+				{
+					"text": "old",
+					"id": 2641,
+					"p": 0.99947,
+					"t_dtw": -1
+				},
+				{
+					"text": "ova",
+					"id": 27924,
+					"p": 0.999382,
+					"t_dtw": -1
+				},
+				{
+					"text": " is",
+					"id": 307,
+					"p": 0.999542,
+					"t_dtw": -1
+				},
+				{
+					"text": " Orthodox",
+					"id": 32833,
+					"p": 0.994903,
+					"t_dtw": -1
+				},
+				{
+					"text": " Christian",
+					"id": 5778,
+					"p": 0.990645,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.998342,
+					"t_dtw": -1
+				},
+				{
+					"text": " In",
+					"id": 682,
+					"p": 0.467919,
+					"t_dtw": -1
+				},
+				{
+					"text": " Japan",
+					"id": 3367,
+					"p": 0.999314,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.994097,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.999436,
+					"t_dtw": -1
+				},
+				{
+					"text": " first",
+					"id": 700,
+					"p": 0.98981,
+					"t_dtw": -1
+				},
+				{
+					"text": " cherry",
+					"id": 20164,
+					"p": 0.894649,
+					"t_dtw": -1
+				},
+				{
+					"text": " blossom",
+					"id": 38524,
+					"p": 0.997449,
+					"t_dtw": -1
+				},
+				{
+					"text": " parties",
+					"id": 8265,
+					"p": 0.999274,
+					"t_dtw": -1
+				},
+				{
+					"text": " were",
+					"id": 645,
+					"p": 0.999094,
+					"t_dtw": -1
+				},
+				{
+					"text": " hosted",
+					"id": 19204,
+					"p": 0.999369,
+					"t_dtw": -1
+				},
+				{
+					"text": " by",
+					"id": 538,
+					"p": 0.998948,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.999274,
+					"t_dtw": -1
+				},
+				{
+					"text": " emperor",
+					"id": 20255,
+					"p": 0.957397,
+					"t_dtw": -1
+				},
+				{
+					"text": " only",
+					"id": 787,
+					"p": 0.997122,
+					"t_dtw": -1
+				},
+				{
+					"text": " for",
+					"id": 337,
+					"p": 0.998312,
+					"t_dtw": -1
+				},
+				{
+					"text": " himself",
+					"id": 3647,
+					"p": 0.999316,
+					"t_dtw": -1
+				},
+				{
+					"text": " and",
+					"id": 293,
+					"p": 0.985973,
+					"t_dtw": -1
+				},
+				{
+					"text": " other",
+					"id": 661,
+					"p": 0.99644,
+					"t_dtw": -1
+				},
+				{
+					"text": " members",
+					"id": 2679,
+					"p": 0.9991,
+					"t_dtw": -1
+				},
+				{
+					"text": " of",
+					"id": 295,
+					"p": 0.995889,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.990862,
+					"t_dtw": -1
+				},
+				{
+					"text": " arist",
+					"id": 40105,
+					"p": 0.999245,
+					"t_dtw": -1
+				},
+				{
+					"text": "ocracy",
+					"id": 38186,
+					"p": 0.999872,
+					"t_dtw": -1
+				},
+				{
+					"text": " around",
+					"id": 926,
+					"p": 0.985359,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.998974,
+					"t_dtw": -1
+				},
+				{
+					"text": " imperial",
+					"id": 21143,
+					"p": 0.994915,
+					"t_dtw": -1
+				},
+				{
+					"text": " court",
+					"id": 4753,
+					"p": 0.938509,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.981843,
+					"t_dtw": -1
+				},
+				{
+					"text": "<|endoftext|>",
+					"timestamps": {
+						"from": "00:02:00,000",
+						"to": "00:02:00,000"
+					},
+					"offsets": {
+						"from": 120000,
+						"to": 120000
+					},
+					"id": 50257,
+					"p": 0.999664,
+					"t_dtw": -1
+				}
+			]
+		},
+		{
+			"timestamps": {
+				"from": "00:-14:-47,-300",
+				"to": "00:02:30,000"
+			},
+			"offsets": {
+				"from": -887300,
+				"to": 150000
+			},
+			"text": " you",
+			"tokens": [
+				{
+					"text": " you",
+					"id": 291,
+					"p": 0.237798,
+					"t_dtw": -1
+				},
+				{
+					"text": "<|endoftext|>",
+					"timestamps": {
+						"from": "00:02:30,000",
+						"to": "00:02:30,000"
+					},
+					"offsets": {
+						"from": 150000,
+						"to": 150000
+					},
+					"id": 50257,
+					"p": 0.994052,
+					"t_dtw": -1
+				}
+			]
+		}
+	]
+}

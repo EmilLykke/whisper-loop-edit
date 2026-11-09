@@ -1,0 +1,51 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,600", "to": "00:00:30,600" },
+      "offsets":    { "from": 600, "to": 30600 },
+      "text":       " Guvernørens kontor sagde, at 19 af de sårede var politifolk.",
+      "words": [
+        { "text": " Guvernørens", "t0": 80, "t1": 428, "offsets": { "from": 800, "to": 4280 } },
+        { "text": " kontor", "t0": 428, "t1": 428, "offsets": { "from": 4280, "to": 4280 } },
+        { "text": " sagde,", "t0": 428, "t1": 428, "offsets": { "from": 4280, "to": 4280 } },
+        { "text": " at", "t0": 428, "t1": 428, "offsets": { "from": 4280, "to": 4280 } },
+        { "text": " 19", "t0": 428, "t1": 428, "offsets": { "from": 4280, "to": 4280 } },
+        { "text": " af", "t0": 428, "t1": 428, "offsets": { "from": 4280, "to": 4280 } },
+        { "text": " de", "t0": 428, "t1": 428, "offsets": { "from": 4280, "to": 4280 } },
+        { "text": " sårede", "t0": 428, "t1": 428, "offsets": { "from": 4280, "to": 4280 } },
+        { "text": " var", "t0": 428, "t1": 428, "offsets": { "from": 4280, "to": 4280 } },
+        { "text": " politifolk.", "t0": 428, "t1": 428, "offsets": { "from": 4280, "to": 4280 } }
+      ],
+      "tokens": [
+        { "text": " Gu", "p": 0.40412, "t0": 80, "t1": 160, "offsets": { "from": 800, "to": 1600 } },
+        { "text": "vern", "p": 0.962792, "t0": 160, "t1": 354, "offsets": { "from": 1600, "to": 3540 } },
+        { "text": "ø", "p": 0.918317, "t0": 360, "t1": 408, "offsets": { "from": 3600, "to": 4080 } },
+        { "text": "ren", "p": 0.981894, "t0": 428, "t1": 428, "offsets": { "from": 4280, "to": 4280 } },
+        { "text": "s", "p": 0.996537, "t0": 428, "t1": 428, "offsets": { "from": 4280, "to": 4280 } },
+        { "text": " kont", "p": 0.943894, "t0": 428, "t1": 428, "offsets": { "from": 4280, "to": 4280 } },
+        { "text": "or", "p": 0.993978, "t0": 428, "t1": 428, "offsets": { "from": 4280, "to": 4280 } },
+        { "text": " sag", "p": 0.992148, "t0": 428, "t1": 428, "offsets": { "from": 4280, "to": 4280 } },
+        { "text": "de", "p": 0.999089, "t0": 428, "t1": 428, "offsets": { "from": 4280, "to": 4280 } },
+        { "text": ",", "p": 0.604182, "t0": 428, "t1": 428, "offsets": { "from": 4280, "to": 4280 } },
+        { "text": " at", "p": 0.991338, "t0": 428, "t1": 428, "offsets": { "from": 4280, "to": 4280 } },
+        { "text": " 19", "p": 0.910463, "t0": 428, "t1": 428, "offsets": { "from": 4280, "to": 4280 } },
+        { "text": " af", "p": 0.97645, "t0": 428, "t1": 428, "offsets": { "from": 4280, "to": 4280 } },
+        { "text": " de", "p": 0.976999, "t0": 428, "t1": 428, "offsets": { "from": 4280, "to": 4280 } },
+        { "text": " så", "p": 0.842574, "t0": 428, "t1": 428, "offsets": { "from": 4280, "to": 4280 } },
+        { "text": "red", "p": 0.962979, "t0": 428, "t1": 428, "offsets": { "from": 4280, "to": 4280 } },
+        { "text": "e", "p": 0.99979, "t0": 428, "t1": 428, "offsets": { "from": 4280, "to": 4280 } },
+        { "text": " var", "p": 0.952434, "t0": 428, "t1": 428, "offsets": { "from": 4280, "to": 4280 } },
+        { "text": " polit", "p": 0.988992, "t0": 428, "t1": 428, "offsets": { "from": 4280, "to": 4280 } },
+        { "text": "if", "p": 0.996533, "t0": 428, "t1": 428, "offsets": { "from": 4280, "to": 4280 } },
+        { "text": "ol", "p": 0.999603, "t0": 428, "t1": 428, "offsets": { "from": 4280, "to": 4280 } },
+        { "text": "k", "p": 0.998325, "t0": 428, "t1": 428, "offsets": { "from": 4280, "to": 4280 } },
+        { "text": ".", "p": 0.895212, "t0": 428, "t1": 428, "offsets": { "from": 4280, "to": 4280 } }
+      ]
+    }
+  ]
+}

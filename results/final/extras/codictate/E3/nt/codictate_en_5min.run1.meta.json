@@ -1,0 +1,26 @@
+{
+  "path": "nt",
+  "clip": "codictate_en_5min",
+  "run": 1,
+  "argv": [
+    "../codictate/vendors/crispasr/crispasr",
+    "-m",
+    "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "-t",
+    "14",
+    "--language",
+    "en",
+    "-f",
+    "data/clips/codictate/codictate_en_5min.wav",
+    "--no-prints",
+    "-nt",
+    "-ojf",
+    "-of",
+    "results/final/extras/codictate/E3/nt/codictate_en_5min.run1"
+  ],
+  "wallSeconds": 10.66,
+  "exitCode": 0,
+  "error": null,
+  "stdoutBytes": 2277,
+  "stderrTail": "output_json: saving output to 'results/final/extras/codictate/E3/nt/codictate_en_5min.run1.json'\n"
+}

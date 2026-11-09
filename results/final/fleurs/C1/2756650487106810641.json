@@ -1,0 +1,47 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,170", "to": "00:00:30,170" },
+      "offsets":    { "from": 170, "to": 30170 },
+      "text":       " Han blev efterfølgende overflyttet til Attenbrokes Hospital i Cambridge.",
+      "words": [
+        { "text": " Han", "t0": 36, "t1": 148, "offsets": { "from": 360, "to": 1480 } },
+        { "text": " blev", "t0": 162, "t1": 318, "offsets": { "from": 1620, "to": 3180 } },
+        { "text": " efterfølgende", "t0": 330, "t1": 942, "offsets": { "from": 3300, "to": 9420 } },
+        { "text": " overflyttet", "t0": 954, "t1": 1031, "offsets": { "from": 9540, "to": 10310 } },
+        { "text": " til", "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } },
+        { "text": " Attenbrokes", "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } },
+        { "text": " Hospital", "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } },
+        { "text": " i", "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } },
+        { "text": " Cambridge.", "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } }
+      ],
+      "tokens": [
+        { "text": " Han", "p": 0.898512, "t0": 36, "t1": 148, "offsets": { "from": 360, "to": 1480 } },
+        { "text": " blev", "p": 0.978301, "t0": 162, "t1": 318, "offsets": { "from": 1620, "to": 3180 } },
+        { "text": " efter", "p": 0.970008, "t0": 330, "t1": 550, "offsets": { "from": 3300, "to": 5500 } },
+        { "text": "f", "p": 0.998266, "t0": 558, "t1": 598, "offsets": { "from": 5580, "to": 5980 } },
+        { "text": "ø", "p": 0.998942, "t0": 598, "t1": 657, "offsets": { "from": 5980, "to": 6570 } },
+        { "text": "l", "p": 0.998898, "t0": 657, "t1": 730, "offsets": { "from": 6570, "to": 7300 } },
+        { "text": "gende", "p": 0.993017, "t0": 730, "t1": 942, "offsets": { "from": 7300, "to": 9420 } },
+        { "text": " over", "p": 0.991285, "t0": 954, "t1": 1031, "offsets": { "from": 9540, "to": 10310 } },
+        { "text": "fly", "p": 0.99449, "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } },
+        { "text": "tt", "p": 0.998974, "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } },
+        { "text": "et", "p": 0.999819, "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } },
+        { "text": " til", "p": 0.974387, "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } },
+        { "text": " At", "p": 0.628415, "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } },
+        { "text": "ten", "p": 0.999201, "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } },
+        { "text": "bro", "p": 0.655839, "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } },
+        { "text": "kes", "p": 0.767804, "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } },
+        { "text": " Hospital", "p": 0.725841, "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } },
+        { "text": " i", "p": 0.96973, "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } },
+        { "text": " Cambridge", "p": 0.991768, "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } },
+        { "text": ".", "p": 0.78744, "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } }
+      ]
+    }
+  ]
+}

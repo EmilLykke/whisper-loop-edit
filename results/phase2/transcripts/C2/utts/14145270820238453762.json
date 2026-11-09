@@ -1,0 +1,71 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C2-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,800", "to": "00:00:30,800" },
+      "offsets":    { "from": 800, "to": 30800 },
+      "text":       " De havde en fason, som lignede rum. Han var den første, der var i stand til at observere døde celler.",
+      "words": [
+        { "text": " De", "t0": 104, "t1": 146, "offsets": { "from": 1040, "to": 1460 } },
+        { "text": " havde", "t0": 146, "t1": 312, "offsets": { "from": 1460, "to": 3120 } },
+        { "text": " en", "t0": 312, "t1": 363, "offsets": { "from": 3120, "to": 3630 } },
+        { "text": " fason,", "t0": 377, "t1": 610, "offsets": { "from": 3770, "to": 6100 } },
+        { "text": " som", "t0": 610, "t1": 710, "offsets": { "from": 6100, "to": 7100 } },
+        { "text": " lignede", "t0": 710, "t1": 800, "offsets": { "from": 7100, "to": 8000 } },
+        { "text": " rum.", "t0": 800, "t1": 800, "offsets": { "from": 8000, "to": 8000 } },
+        { "text": " Han", "t0": 800, "t1": 800, "offsets": { "from": 8000, "to": 8000 } },
+        { "text": " var", "t0": 800, "t1": 800, "offsets": { "from": 8000, "to": 8000 } },
+        { "text": " den", "t0": 800, "t1": 800, "offsets": { "from": 8000, "to": 8000 } },
+        { "text": " første,", "t0": 800, "t1": 800, "offsets": { "from": 8000, "to": 8000 } },
+        { "text": " der", "t0": 800, "t1": 800, "offsets": { "from": 8000, "to": 8000 } },
+        { "text": " var", "t0": 800, "t1": 800, "offsets": { "from": 8000, "to": 8000 } },
+        { "text": " i", "t0": 800, "t1": 800, "offsets": { "from": 8000, "to": 8000 } },
+        { "text": " stand", "t0": 800, "t1": 800, "offsets": { "from": 8000, "to": 8000 } },
+        { "text": " til", "t0": 800, "t1": 800, "offsets": { "from": 8000, "to": 8000 } },
+        { "text": " at", "t0": 800, "t1": 800, "offsets": { "from": 8000, "to": 8000 } },
+        { "text": " observere", "t0": 800, "t1": 800, "offsets": { "from": 8000, "to": 8000 } },
+        { "text": " døde", "t0": 800, "t1": 800, "offsets": { "from": 8000, "to": 8000 } },
+        { "text": " celler.", "t0": 800, "t1": 800, "offsets": { "from": 8000, "to": 8000 } }
+      ],
+      "tokens": [
+        { "text": " De", "p": 0.89892, "t0": 104, "t1": 146, "offsets": { "from": 1040, "to": 1460 } },
+        { "text": " hav", "p": 0.992909, "t0": 146, "t1": 235, "offsets": { "from": 1460, "to": 2350 } },
+        { "text": "de", "p": 0.999807, "t0": 292, "t1": 312, "offsets": { "from": 2920, "to": 3120 } },
+        { "text": " en", "p": 0.979733, "t0": 312, "t1": 363, "offsets": { "from": 3120, "to": 3630 } },
+        { "text": " f", "p": 0.431075, "t0": 377, "t1": 411, "offsets": { "from": 3770, "to": 4110 } },
+        { "text": "ason", "p": 0.753618, "t0": 440, "t1": 538, "offsets": { "from": 4400, "to": 5380 } },
+        { "text": ",", "p": 0.681584, "t0": 572, "t1": 610, "offsets": { "from": 5720, "to": 6100 } },
+        { "text": " som", "p": 0.887549, "t0": 610, "t1": 710, "offsets": { "from": 6100, "to": 7100 } },
+        { "text": " l", "p": 0.993191, "t0": 710, "t1": 743, "offsets": { "from": 7100, "to": 7430 } },
+        { "text": "ign", "p": 0.994378, "t0": 743, "t1": 779, "offsets": { "from": 7430, "to": 7790 } },
+        { "text": "ede", "p": 0.990679, "t0": 798, "t1": 800, "offsets": { "from": 7980, "to": 8000 } },
+        { "text": " rum", "p": 0.706138, "t0": 800, "t1": 800, "offsets": { "from": 8000, "to": 8000 } },
+        { "text": ".", "p": 0.824801, "t0": 800, "t1": 800, "offsets": { "from": 8000, "to": 8000 } },
+        { "text": " Han", "p": 0.98112, "t0": 800, "t1": 800, "offsets": { "from": 8000, "to": 8000 } },
+        { "text": " var", "p": 0.996947, "t0": 800, "t1": 800, "offsets": { "from": 8000, "to": 8000 } },
+        { "text": " den", "p": 0.980458, "t0": 800, "t1": 800, "offsets": { "from": 8000, "to": 8000 } },
+        { "text": " før", "p": 0.989561, "t0": 800, "t1": 800, "offsets": { "from": 8000, "to": 8000 } },
+        { "text": "ste", "p": 0.998371, "t0": 800, "t1": 800, "offsets": { "from": 8000, "to": 8000 } },
+        { "text": ",", "p": 0.657329, "t0": 800, "t1": 800, "offsets": { "from": 8000, "to": 8000 } },
+        { "text": " der", "p": 0.96329, "t0": 800, "t1": 800, "offsets": { "from": 8000, "to": 8000 } },
+        { "text": " var", "p": 0.992782, "t0": 800, "t1": 800, "offsets": { "from": 8000, "to": 8000 } },
+        { "text": " i", "p": 0.987662, "t0": 800, "t1": 800, "offsets": { "from": 8000, "to": 8000 } },
+        { "text": " stand", "p": 0.981029, "t0": 800, "t1": 800, "offsets": { "from": 8000, "to": 8000 } },
+        { "text": " til", "p": 0.950293, "t0": 800, "t1": 800, "offsets": { "from": 8000, "to": 8000 } },
+        { "text": " at", "p": 0.938319, "t0": 800, "t1": 800, "offsets": { "from": 8000, "to": 8000 } },
+        { "text": " observ", "p": 0.966992, "t0": 800, "t1": 800, "offsets": { "from": 8000, "to": 8000 } },
+        { "text": "ere", "p": 0.999588, "t0": 800, "t1": 800, "offsets": { "from": 8000, "to": 8000 } },
+        { "text": " d", "p": 0.993428, "t0": 800, "t1": 800, "offsets": { "from": 8000, "to": 8000 } },
+        { "text": "ø", "p": 0.999857, "t0": 800, "t1": 800, "offsets": { "from": 8000, "to": 8000 } },
+        { "text": "de", "p": 0.966997, "t0": 800, "t1": 800, "offsets": { "from": 8000, "to": 8000 } },
+        { "text": " cell", "p": 0.893641, "t0": 800, "t1": 800, "offsets": { "from": 8000, "to": 8000 } },
+        { "text": "er", "p": 0.999876, "t0": 800, "t1": 800, "offsets": { "from": 8000, "to": 8000 } },
+        { "text": ".", "p": 0.918666, "t0": 800, "t1": 800, "offsets": { "from": 8000, "to": 8000 } }
+      ]
+    }
+  ]
+}

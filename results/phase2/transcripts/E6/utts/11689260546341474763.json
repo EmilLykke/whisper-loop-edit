@@ -1,0 +1,58 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E6-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,000", "to": "00:00:30,000" },
+      "offsets":    { "from": 0, "to": 30000 },
+      "text":       " Mennesket er langt den mest talentfulde art med hensyn til at læse andres tanker.",
+      "words": [
+        { "text": " Mennesket", "t0": 8, "t1": 378, "offsets": { "from": 80, "to": 3780 } },
+        { "text": " er", "t0": 378, "t1": 462, "offsets": { "from": 3780, "to": 4620 } },
+        { "text": " langt", "t0": 462, "t1": 635, "offsets": { "from": 4620, "to": 6350 } },
+        { "text": " den", "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " mest", "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " talentfulde", "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " art", "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " med", "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " hensyn", "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " til", "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " at", "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " læse", "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " andres", "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " tanker.", "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } }
+      ],
+      "tokens": [
+        { "text": " M", "p": 0.930087, "t0": 8, "t1": 32, "offsets": { "from": 80, "to": 320 } },
+        { "text": "ennes", "p": 0.997248, "t0": 66, "t1": 252, "offsets": { "from": 660, "to": 2520 } },
+        { "text": "ket", "p": 0.954949, "t0": 252, "t1": 378, "offsets": { "from": 2520, "to": 3780 } },
+        { "text": " er", "p": 0.988804, "t0": 378, "t1": 462, "offsets": { "from": 3780, "to": 4620 } },
+        { "text": " lang", "p": 0.994268, "t0": 462, "t1": 616, "offsets": { "from": 4620, "to": 6160 } },
+        { "text": "t", "p": 0.985054, "t0": 630, "t1": 635, "offsets": { "from": 6300, "to": 6350 } },
+        { "text": " den", "p": 0.99232, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " mest", "p": 0.998173, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " talent", "p": 0.996291, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": "f", "p": 0.985994, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": "uld", "p": 0.999563, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": "e", "p": 0.969322, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " art", "p": 0.987667, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " med", "p": 0.868061, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " h", "p": 0.996818, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": "ens", "p": 0.997116, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": "yn", "p": 0.999727, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " til", "p": 0.997847, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " at", "p": 0.976021, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " læ", "p": 0.998416, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": "se", "p": 0.999127, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " and", "p": 0.993119, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": "res", "p": 0.993456, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " tank", "p": 0.996883, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": "er", "p": 0.999638, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": ".", "p": 0.912355, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } }
+      ]
+    }
+  ]
+}

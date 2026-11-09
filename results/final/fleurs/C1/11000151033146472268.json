@@ -1,0 +1,65 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,610", "to": "00:00:30,610" },
+      "offsets":    { "from": 610, "to": 30610 },
+      "text":       " I 1976, hvor 30% af Machu Picchu blev genetableret og udgravningerne fortsætter den dag i dag.",
+      "words": [
+        { "text": " I", "t0": 80, "t1": 89, "offsets": { "from": 800, "to": 890 } },
+        { "text": " 1976,", "t0": 101, "t1": 532, "offsets": { "from": 1010, "to": 5320 } },
+        { "text": " hvor", "t0": 546, "t1": 659, "offsets": { "from": 5460, "to": 6590 } },
+        { "text": " 30%", "t0": 659, "t1": 879, "offsets": { "from": 6590, "to": 8790 } },
+        { "text": " af", "t0": 879, "t1": 942, "offsets": { "from": 8790, "to": 9420 } },
+        { "text": " Machu", "t0": 942, "t1": 959, "offsets": { "from": 9420, "to": 9590 } },
+        { "text": " Picchu", "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": " blev", "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": " genetableret", "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": " og", "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": " udgravningerne", "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": " fortsætter", "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": " den", "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": " dag", "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": " i", "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": " dag.", "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } }
+      ],
+      "tokens": [
+        { "text": " I", "p": 0.731653, "t0": 80, "t1": 89, "offsets": { "from": 800, "to": 890 } },
+        { "text": " 1976", "p": 0.996711, "t0": 101, "t1": 467, "offsets": { "from": 1010, "to": 4670 } },
+        { "text": ",", "p": 0.173537, "t0": 470, "t1": 532, "offsets": { "from": 4700, "to": 5320 } },
+        { "text": " hvor", "p": 0.518258, "t0": 546, "t1": 659, "offsets": { "from": 5460, "to": 6590 } },
+        { "text": " 30", "p": 0.941591, "t0": 659, "t1": 827, "offsets": { "from": 6590, "to": 8270 } },
+        { "text": "%", "p": 0.660323, "t0": 847, "t1": 879, "offsets": { "from": 8470, "to": 8790 } },
+        { "text": " af", "p": 0.994137, "t0": 879, "t1": 942, "offsets": { "from": 8790, "to": 9420 } },
+        { "text": " Mach", "p": 0.877451, "t0": 942, "t1": 959, "offsets": { "from": 9420, "to": 9590 } },
+        { "text": "u", "p": 0.992173, "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": " Pic", "p": 0.984958, "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": "chu", "p": 0.990306, "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": " blev", "p": 0.832228, "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": " gen", "p": 0.931388, "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": "et", "p": 0.384417, "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": "ab", "p": 0.481114, "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": "ler", "p": 0.948784, "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": "et", "p": 0.996683, "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": " og", "p": 0.689752, "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": " ud", "p": 0.884453, "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": "grav", "p": 0.946185, "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": "ning", "p": 0.929331, "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": "erne", "p": 0.961971, "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": " forts", "p": 0.385653, "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": "æ", "p": 0.973673, "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": "t", "p": 0.977107, "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": "ter", "p": 0.99865, "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": " den", "p": 0.822916, "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": " dag", "p": 0.97958, "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": " i", "p": 0.933044, "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": " dag", "p": 0.999316, "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } },
+        { "text": ".", "p": 0.924165, "t0": 959, "t1": 959, "offsets": { "from": 9590, "to": 9590 } }
+      ]
+    }
+  ]
+}

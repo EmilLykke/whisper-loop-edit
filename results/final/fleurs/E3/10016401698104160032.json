@@ -1,0 +1,56 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,530", "to": "00:00:30,530" },
+      "offsets":    { "from": 530, "to": 30530 },
+      "text":       " Det der er en vigtig måde at skælde mellem nogle verber og objektiver.",
+      "words": [
+        { "text": " Det", "t0": 74, "t1": 198, "offsets": { "from": 740, "to": 1980 } },
+        { "text": " der", "t0": 198, "t1": 341, "offsets": { "from": 1980, "to": 3410 } },
+        { "text": " er", "t0": 342, "t1": 382, "offsets": { "from": 3420, "to": 3820 } },
+        { "text": " en", "t0": 401, "t1": 401, "offsets": { "from": 4010, "to": 4010 } },
+        { "text": " vigtig", "t0": 401, "t1": 401, "offsets": { "from": 4010, "to": 4010 } },
+        { "text": " måde", "t0": 401, "t1": 401, "offsets": { "from": 4010, "to": 4010 } },
+        { "text": " at", "t0": 401, "t1": 401, "offsets": { "from": 4010, "to": 4010 } },
+        { "text": " skælde", "t0": 401, "t1": 401, "offsets": { "from": 4010, "to": 4010 } },
+        { "text": " mellem", "t0": 401, "t1": 401, "offsets": { "from": 4010, "to": 4010 } },
+        { "text": " nogle", "t0": 401, "t1": 401, "offsets": { "from": 4010, "to": 4010 } },
+        { "text": " verber", "t0": 401, "t1": 401, "offsets": { "from": 4010, "to": 4010 } },
+        { "text": " og", "t0": 401, "t1": 401, "offsets": { "from": 4010, "to": 4010 } },
+        { "text": " objektiver.", "t0": 401, "t1": 401, "offsets": { "from": 4010, "to": 4010 } }
+      ],
+      "tokens": [
+        { "text": " Det", "p": 0.580866, "t0": 74, "t1": 198, "offsets": { "from": 740, "to": 1980 } },
+        { "text": " der", "p": 0.477129, "t0": 198, "t1": 341, "offsets": { "from": 1980, "to": 3410 } },
+        { "text": " er", "p": 0.965814, "t0": 342, "t1": 382, "offsets": { "from": 3420, "to": 3820 } },
+        { "text": " en", "p": 0.989102, "t0": 401, "t1": 401, "offsets": { "from": 4010, "to": 4010 } },
+        { "text": " v", "p": 0.976401, "t0": 401, "t1": 401, "offsets": { "from": 4010, "to": 4010 } },
+        { "text": "igt", "p": 0.998957, "t0": 401, "t1": 401, "offsets": { "from": 4010, "to": 4010 } },
+        { "text": "ig", "p": 0.995306, "t0": 401, "t1": 401, "offsets": { "from": 4010, "to": 4010 } },
+        { "text": " må", "p": 0.994981, "t0": 401, "t1": 401, "offsets": { "from": 4010, "to": 4010 } },
+        { "text": "de", "p": 0.979062, "t0": 401, "t1": 401, "offsets": { "from": 4010, "to": 4010 } },
+        { "text": " at", "p": 0.964168, "t0": 401, "t1": 401, "offsets": { "from": 4010, "to": 4010 } },
+        { "text": " sk", "p": 0.974843, "t0": 401, "t1": 401, "offsets": { "from": 4010, "to": 4010 } },
+        { "text": "æ", "p": 0.572719, "t0": 401, "t1": 401, "offsets": { "from": 4010, "to": 4010 } },
+        { "text": "ld", "p": 0.939676, "t0": 401, "t1": 401, "offsets": { "from": 4010, "to": 4010 } },
+        { "text": "e", "p": 0.999138, "t0": 401, "t1": 401, "offsets": { "from": 4010, "to": 4010 } },
+        { "text": " me", "p": 0.97612, "t0": 401, "t1": 401, "offsets": { "from": 4010, "to": 4010 } },
+        { "text": "ll", "p": 0.999174, "t0": 401, "t1": 401, "offsets": { "from": 4010, "to": 4010 } },
+        { "text": "em", "p": 0.999512, "t0": 401, "t1": 401, "offsets": { "from": 4010, "to": 4010 } },
+        { "text": " nogle", "p": 0.857596, "t0": 401, "t1": 401, "offsets": { "from": 4010, "to": 4010 } },
+        { "text": " ver", "p": 0.522142, "t0": 401, "t1": 401, "offsets": { "from": 4010, "to": 4010 } },
+        { "text": "ber", "p": 0.993803, "t0": 401, "t1": 401, "offsets": { "from": 4010, "to": 4010 } },
+        { "text": " og", "p": 0.993138, "t0": 401, "t1": 401, "offsets": { "from": 4010, "to": 4010 } },
+        { "text": " ob", "p": 0.996881, "t0": 401, "t1": 401, "offsets": { "from": 4010, "to": 4010 } },
+        { "text": "jekt", "p": 0.996521, "t0": 401, "t1": 401, "offsets": { "from": 4010, "to": 4010 } },
+        { "text": "iver", "p": 0.947366, "t0": 401, "t1": 401, "offsets": { "from": 4010, "to": 4010 } },
+        { "text": ".", "p": 0.910564, "t0": 401, "t1": 401, "offsets": { "from": 4010, "to": 4010 } }
+      ]
+    }
+  ]
+}

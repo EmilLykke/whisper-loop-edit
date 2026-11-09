@@ -1,0 +1,68 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,170", "to": "00:00:30,170" },
+      "offsets":    { "from": 170, "to": 30170 },
+      "text":       " Apia er Samoas hovedstad. Byen ligger på øen Opulu og har et indbyggertal på lige under 40.000.",
+      "words": [
+        { "text": " Apia", "t0": 36, "t1": 139, "offsets": { "from": 360, "to": 1390 } },
+        { "text": " er", "t0": 160, "t1": 200, "offsets": { "from": 1600, "to": 2000 } },
+        { "text": " Samoas", "t0": 200, "t1": 382, "offsets": { "from": 2000, "to": 3820 } },
+        { "text": " hovedstad.", "t0": 382, "t1": 736, "offsets": { "from": 3820, "to": 7360 } },
+        { "text": " Byen", "t0": 808, "t1": 854, "offsets": { "from": 8080, "to": 8540 } },
+        { "text": " ligger", "t0": 880, "t1": 1038, "offsets": { "from": 8800, "to": 10380 } },
+        { "text": " på", "t0": 1046, "t1": 1142, "offsets": { "from": 10460, "to": 11420 } },
+        { "text": " øen", "t0": 1142, "t1": 1265, "offsets": { "from": 11420, "to": 12650 } },
+        { "text": " Opulu", "t0": 1265, "t1": 1343, "offsets": { "from": 12650, "to": 13430 } },
+        { "text": " og", "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": " har", "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": " et", "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": " indbyggertal", "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": " på", "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": " lige", "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": " under", "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": " 40.000.", "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } }
+      ],
+      "tokens": [
+        { "text": " Ap", "p": 0.38103, "t0": 36, "t1": 78, "offsets": { "from": 360, "to": 780 } },
+        { "text": "ia", "p": 0.758924, "t0": 78, "t1": 139, "offsets": { "from": 780, "to": 1390 } },
+        { "text": " er", "p": 0.980252, "t0": 160, "t1": 200, "offsets": { "from": 1600, "to": 2000 } },
+        { "text": " Sam", "p": 0.60685, "t0": 200, "t1": 261, "offsets": { "from": 2000, "to": 2610 } },
+        { "text": "o", "p": 0.500505, "t0": 261, "t1": 317, "offsets": { "from": 2610, "to": 3170 } },
+        { "text": "as", "p": 0.991352, "t0": 353, "t1": 382, "offsets": { "from": 3530, "to": 3820 } },
+        { "text": " ho", "p": 0.927836, "t0": 382, "t1": 443, "offsets": { "from": 3820, "to": 4430 } },
+        { "text": "ved", "p": 0.999443, "t0": 443, "t1": 534, "offsets": { "from": 4430, "to": 5340 } },
+        { "text": "stad", "p": 0.995606, "t0": 534, "t1": 642, "offsets": { "from": 5340, "to": 6420 } },
+        { "text": ".", "p": 0.78955, "t0": 670, "t1": 736, "offsets": { "from": 6700, "to": 7360 } },
+        { "text": " By", "p": 0.942708, "t0": 808, "t1": 808, "offsets": { "from": 8080, "to": 8080 } },
+        { "text": "en", "p": 0.997295, "t0": 815, "t1": 854, "offsets": { "from": 8150, "to": 8540 } },
+        { "text": " ligger", "p": 0.992523, "t0": 880, "t1": 1038, "offsets": { "from": 8800, "to": 10380 } },
+        { "text": " på", "p": 0.988512, "t0": 1046, "t1": 1142, "offsets": { "from": 10460, "to": 11420 } },
+        { "text": " ø", "p": 0.893468, "t0": 1142, "t1": 1201, "offsets": { "from": 11420, "to": 12010 } },
+        { "text": "en", "p": 0.997274, "t0": 1201, "t1": 1265, "offsets": { "from": 12010, "to": 12650 } },
+        { "text": " Op", "p": 0.897158, "t0": 1265, "t1": 1325, "offsets": { "from": 12650, "to": 13250 } },
+        { "text": "ulu", "p": 0.805379, "t0": 1333, "t1": 1343, "offsets": { "from": 13330, "to": 13430 } },
+        { "text": " og", "p": 0.605961, "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": " har", "p": 0.988395, "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": " et", "p": 0.952706, "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": " ind", "p": 0.988834, "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": "by", "p": 0.998889, "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": "gg", "p": 0.500494, "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": "ert", "p": 0.887763, "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": "al", "p": 0.992506, "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": " på", "p": 0.961016, "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": " lige", "p": 0.921909, "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": " under", "p": 0.975941, "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": " 40", "p": 0.990282, "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": ".", "p": 0.964294, "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": "000", "p": 0.997368, "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } },
+        { "text": ".", "p": 0.794235, "t0": 1343, "t1": 1343, "offsets": { "from": 13430, "to": 13430 } }
+      ]
+    }
+  ]
+}

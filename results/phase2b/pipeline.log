@@ -1,0 +1,24 @@
+=== E7 21:52:33
+E7: 52 tensors, sha256 dc6dbfe8e7fab0ab, 8 s
+W1108 21:52:44.403000 5689 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/1259 [00:00<?, ?it/s]Loading weights: 100%|██████████| 1259/1259 [00:00<00:00, 23263.50it/s]
+d43c3d785299640a32ec88e91551ad7c748cc021666d763bf15d0acbcaf293cc  models/ggml/edits/ggml-large-v3-E7-f16.bin
+E7: checked 1259 ggml tensors against HF fp16 by name; touched 52, equal 52; mismatches 0 []; touched not found []
+E7: ggml sha256 d43c3d785299640a32ec88e91551ad7c748cc021666d763bf15d0acbcaf293cc
+E7: loop 0.00 (fuzzy 0.00) LD -1.82 | clean lp -0.502 unchanged 0.45 | natural 0/5 {'ts04_onset': False, 'ts04_copy': False, 'bare01_copy': False, 'nt02_copy': False, 'ts03_onset': False} | 75.5 s
+timestamps find_da_5min_04 run1: 17.7 s, 414 words
+timestamps-bare find_da_5min_04 run1: 20.3 s, 489 words
+nt find_da_5min_04 run1: 14.0 s, 406 words
+nt-silero find_da_5min_04 run1: 18.6 s, 435 words
+nt-vad find_da_5min_04 run1: 21.2 s, 476 words
+timestamps find_da_5min_04 run2: 16.5 s, 414 words
+155 utterances decoded in 264 s -> results/phase2/transcripts/E7/utts
+/dev/disk3s5   926Gi   792Gi   107Gi    89%    9.0M  1.1G    1%   /System/Volumes/Data
+=== E9 22:09:13
+E9: 32 tensors, sha256 050ce79ae52b8651, 8 s
+W1108 22:09:25.004000 19759 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/1259 [00:00<?, ?it/s]Loading weights: 100%|██████████| 1259/1259 [00:00<00:00, 19324.63it/s]
+0b1028903e453ff31bff39ee4880620e72269e2311dd5b82a3130d5258e050b4  models/ggml/edits/ggml-large-v3-E9-f16.bin
+E9: checked 1259 ggml tensors against HF fp16 by name; touched 32, equal 32; mismatches 0 []; touched not found []
+E9: ggml sha256 0b1028903e453ff31bff39ee4880620e72269e2311dd5b82a3130d5258e050b4
+E9: loop 0.03 (fuzzy 0.04) LD -1.36 | clean lp -0.781 unchanged 0.02 | natural 0/5 {'ts04_onset': False, 'ts04_copy': False, 'bare01_copy': False, 'nt02_copy': False, 'ts03_onset': False} | 74.0 s

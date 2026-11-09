@@ -1,0 +1,26 @@
+{
+  "path": "nt",
+  "clip": "english_en_2min_01",
+  "run": 1,
+  "argv": [
+    "../codictate/vendors/crispasr/crispasr",
+    "-m",
+    "models/ggml/ggml-large-v3-ours-f16.bin",
+    "-t",
+    "14",
+    "--language",
+    "en",
+    "-f",
+    "data/clips/english/english_en_2min_01.wav",
+    "--no-prints",
+    "-nt",
+    "-ojf",
+    "-of",
+    "results/final/extras/english/baseline/nt/english_en_2min_01.run1"
+  ],
+  "wallSeconds": 6.49,
+  "exitCode": 0,
+  "error": null,
+  "stdoutBytes": 834,
+  "stderrTail": "output_json: saving output to 'results/final/extras/english/baseline/nt/english_en_2min_01.run1.json'\n"
+}

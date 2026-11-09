@@ -1,0 +1,60 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,160", "to": "00:00:30,160" },
+      "offsets":    { "from": 160, "to": 30160 },
+      "text":       " Månens overflade er lavet af sten og støv. Månens yderlag kaldes skorpen.",
+      "words": [
+        { "text": " Månens", "t0": 36, "t1": 315, "offsets": { "from": 360, "to": 3150 } },
+        { "text": " overflade", "t0": 318, "t1": 695, "offsets": { "from": 3180, "to": 6950 } },
+        { "text": " er", "t0": 708, "t1": 795, "offsets": { "from": 7080, "to": 7950 } },
+        { "text": " lavet", "t0": 795, "t1": 1012, "offsets": { "from": 7950, "to": 10120 } },
+        { "text": " af", "t0": 1012, "t1": 1073, "offsets": { "from": 10120, "to": 10730 } },
+        { "text": " sten", "t0": 1073, "t1": 1073, "offsets": { "from": 10730, "to": 10730 } },
+        { "text": " og", "t0": 1073, "t1": 1073, "offsets": { "from": 10730, "to": 10730 } },
+        { "text": " støv.", "t0": 1073, "t1": 1073, "offsets": { "from": 10730, "to": 10730 } },
+        { "text": " Månens", "t0": 1073, "t1": 1073, "offsets": { "from": 10730, "to": 10730 } },
+        { "text": " yderlag", "t0": 1073, "t1": 1073, "offsets": { "from": 10730, "to": 10730 } },
+        { "text": " kaldes", "t0": 1073, "t1": 1073, "offsets": { "from": 10730, "to": 10730 } },
+        { "text": " skorpen.", "t0": 1073, "t1": 1073, "offsets": { "from": 10730, "to": 10730 } }
+      ],
+      "tokens": [
+        { "text": " M", "p": 0.834504, "t0": 36, "t1": 58, "offsets": { "from": 360, "to": 580 } },
+        { "text": "å", "p": 0.985113, "t0": 145, "t1": 145, "offsets": { "from": 1450, "to": 1450 } },
+        { "text": "n", "p": 0.538356, "t0": 152, "t1": 186, "offsets": { "from": 1520, "to": 1860 } },
+        { "text": "ens", "p": 0.590392, "t0": 188, "t1": 315, "offsets": { "from": 1880, "to": 3150 } },
+        { "text": " over", "p": 0.978092, "t0": 318, "t1": 490, "offsets": { "from": 3180, "to": 4900 } },
+        { "text": "fl", "p": 0.997078, "t0": 499, "t1": 556, "offsets": { "from": 4990, "to": 5560 } },
+        { "text": "ade", "p": 0.983462, "t0": 588, "t1": 695, "offsets": { "from": 5880, "to": 6950 } },
+        { "text": " er", "p": 0.976898, "t0": 708, "t1": 795, "offsets": { "from": 7080, "to": 7950 } },
+        { "text": " la", "p": 0.987144, "t0": 795, "t1": 881, "offsets": { "from": 7950, "to": 8810 } },
+        { "text": "vet", "p": 0.999352, "t0": 896, "t1": 1012, "offsets": { "from": 8960, "to": 10120 } },
+        { "text": " af", "p": 0.99795, "t0": 1012, "t1": 1073, "offsets": { "from": 10120, "to": 10730 } },
+        { "text": " sten", "p": 0.99593, "t0": 1073, "t1": 1073, "offsets": { "from": 10730, "to": 10730 } },
+        { "text": " og", "p": 0.995078, "t0": 1073, "t1": 1073, "offsets": { "from": 10730, "to": 10730 } },
+        { "text": " st", "p": 0.996126, "t0": 1073, "t1": 1073, "offsets": { "from": 10730, "to": 10730 } },
+        { "text": "ø", "p": 0.999417, "t0": 1073, "t1": 1073, "offsets": { "from": 10730, "to": 10730 } },
+        { "text": "v", "p": 0.999586, "t0": 1073, "t1": 1073, "offsets": { "from": 10730, "to": 10730 } },
+        { "text": ".", "p": 0.846981, "t0": 1073, "t1": 1073, "offsets": { "from": 10730, "to": 10730 } },
+        { "text": " M", "p": 0.99107, "t0": 1073, "t1": 1073, "offsets": { "from": 10730, "to": 10730 } },
+        { "text": "å", "p": 0.999584, "t0": 1073, "t1": 1073, "offsets": { "from": 10730, "to": 10730 } },
+        { "text": "n", "p": 0.977113, "t0": 1073, "t1": 1073, "offsets": { "from": 10730, "to": 10730 } },
+        { "text": "ens", "p": 0.999375, "t0": 1073, "t1": 1073, "offsets": { "from": 10730, "to": 10730 } },
+        { "text": " y", "p": 0.998835, "t0": 1073, "t1": 1073, "offsets": { "from": 10730, "to": 10730 } },
+        { "text": "der", "p": 0.994414, "t0": 1073, "t1": 1073, "offsets": { "from": 10730, "to": 10730 } },
+        { "text": "lag", "p": 0.973539, "t0": 1073, "t1": 1073, "offsets": { "from": 10730, "to": 10730 } },
+        { "text": " kald", "p": 0.973288, "t0": 1073, "t1": 1073, "offsets": { "from": 10730, "to": 10730 } },
+        { "text": "es", "p": 0.999535, "t0": 1073, "t1": 1073, "offsets": { "from": 10730, "to": 10730 } },
+        { "text": " sk", "p": 0.969352, "t0": 1073, "t1": 1073, "offsets": { "from": 10730, "to": 10730 } },
+        { "text": "or", "p": 0.969625, "t0": 1073, "t1": 1073, "offsets": { "from": 10730, "to": 10730 } },
+        { "text": "pen", "p": 0.982725, "t0": 1073, "t1": 1073, "offsets": { "from": 10730, "to": 10730 } },
+        { "text": ".", "p": 0.931926, "t0": 1073, "t1": 1073, "offsets": { "from": 10730, "to": 10730 } }
+      ]
+    }
+  ]
+}

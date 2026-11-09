@@ -1,0 +1,1 @@
+Adskillelse og rekombination blander variationen frem og tilbage mellem de to puljer med hver generation.

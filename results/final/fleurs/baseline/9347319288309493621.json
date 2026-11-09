@@ -1,0 +1,62 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,170", "to": "00:00:30,170" },
+      "offsets":    { "from": 170, "to": 30170 },
+      "text":       " Martellis svar på de omfattende antiregimeprotester, som begyndte i oktober, var kommissionen.",
+      "words": [
+        { "text": " Martellis", "t0": 103, "t1": 323, "offsets": { "from": 1030, "to": 3230 } },
+        { "text": " svar", "t0": 323, "t1": 453, "offsets": { "from": 3230, "to": 4530 } },
+        { "text": " på", "t0": 460, "t1": 561, "offsets": { "from": 4600, "to": 5610 } },
+        { "text": " de", "t0": 561, "t1": 622, "offsets": { "from": 5610, "to": 6220 } },
+        { "text": " omfattende", "t0": 633, "t1": 966, "offsets": { "from": 6330, "to": 9660 } },
+        { "text": " antiregimeprotester,", "t0": 969, "t1": 1019, "offsets": { "from": 9690, "to": 10190 } },
+        { "text": " som", "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } },
+        { "text": " begyndte", "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } },
+        { "text": " i", "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } },
+        { "text": " oktober,", "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } },
+        { "text": " var", "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } },
+        { "text": " kommissionen.", "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } }
+      ],
+      "tokens": [
+        { "text": " Mart", "p": 0.850986, "t0": 103, "t1": 153, "offsets": { "from": 1030, "to": 1530 } },
+        { "text": "ell", "p": 0.37472, "t0": 153, "t1": 255, "offsets": { "from": 1530, "to": 2550 } },
+        { "text": "is", "p": 0.95682, "t0": 255, "t1": 323, "offsets": { "from": 2550, "to": 3230 } },
+        { "text": " s", "p": 0.988814, "t0": 323, "t1": 357, "offsets": { "from": 3230, "to": 3570 } },
+        { "text": "var", "p": 0.999857, "t0": 357, "t1": 453, "offsets": { "from": 3570, "to": 4530 } },
+        { "text": " på", "p": 0.985252, "t0": 460, "t1": 561, "offsets": { "from": 4600, "to": 5610 } },
+        { "text": " de", "p": 0.965226, "t0": 561, "t1": 622, "offsets": { "from": 5610, "to": 6220 } },
+        { "text": " om", "p": 0.978248, "t0": 633, "t1": 691, "offsets": { "from": 6330, "to": 6910 } },
+        { "text": "f", "p": 0.999439, "t0": 697, "t1": 699, "offsets": { "from": 6970, "to": 6990 } },
+        { "text": "att", "p": 0.99586, "t0": 735, "t1": 833, "offsets": { "from": 7350, "to": 8330 } },
+        { "text": "ende", "p": 0.997959, "t0": 833, "t1": 966, "offsets": { "from": 8330, "to": 9660 } },
+        { "text": " ant", "p": 0.887385, "t0": 969, "t1": 1019, "offsets": { "from": 9690, "to": 10190 } },
+        { "text": "ire", "p": 0.515741, "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } },
+        { "text": "g", "p": 0.981287, "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } },
+        { "text": "ime", "p": 0.974314, "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } },
+        { "text": "prot", "p": 0.371282, "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } },
+        { "text": "ester", "p": 0.997961, "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } },
+        { "text": ",", "p": 0.738945, "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } },
+        { "text": " som", "p": 0.987852, "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } },
+        { "text": " be", "p": 0.978505, "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } },
+        { "text": "gy", "p": 0.999851, "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } },
+        { "text": "nd", "p": 0.998631, "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } },
+        { "text": "te", "p": 0.991707, "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } },
+        { "text": " i", "p": 0.996645, "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } },
+        { "text": " ok", "p": 0.966813, "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } },
+        { "text": "tober", "p": 0.999809, "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } },
+        { "text": ",", "p": 0.879674, "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } },
+        { "text": " var", "p": 0.987879, "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } },
+        { "text": " komm", "p": 0.874013, "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } },
+        { "text": "ission", "p": 0.961327, "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } },
+        { "text": "en", "p": 0.985188, "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } },
+        { "text": ".", "p": 0.818458, "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } }
+      ]
+    }
+  ]
+}

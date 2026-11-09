@@ -1,0 +1,73 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,430", "to": "00:00:30,430" },
+      "offsets":    { "from": 430, "to": 30430 },
+      "text":       " Liberal kritik af genopbygningsindsatsen har fokuseret på tildelingen af genopbygningskontrakter til betragtede Washington Insider.",
+      "words": [
+        { "text": " Liberal", "t0": 73, "t1": 209, "offsets": { "from": 730, "to": 2090 } },
+        { "text": " kritik", "t0": 215, "t1": 364, "offsets": { "from": 2150, "to": 3640 } },
+        { "text": " af", "t0": 364, "t1": 413, "offsets": { "from": 3640, "to": 4130 } },
+        { "text": " genopbygningsindsatsen", "t0": 413, "t1": 918, "offsets": { "from": 4130, "to": 9180 } },
+        { "text": " har", "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": " fokuseret", "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": " på", "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": " tildelingen", "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": " af", "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": " genopbygningskontrakter", "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": " til", "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": " betragtede", "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": " Washington", "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": " Insider.", "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } }
+      ],
+      "tokens": [
+        { "text": " Liberal", "p": 0.948204, "t0": 73, "t1": 209, "offsets": { "from": 730, "to": 2090 } },
+        { "text": " krit", "p": 0.987603, "t0": 215, "t1": 315, "offsets": { "from": 2150, "to": 3150 } },
+        { "text": "ik", "p": 0.99946, "t0": 315, "t1": 364, "offsets": { "from": 3150, "to": 3640 } },
+        { "text": " af", "p": 0.995097, "t0": 364, "t1": 413, "offsets": { "from": 3640, "to": 4130 } },
+        { "text": " gen", "p": 0.977877, "t0": 413, "t1": 487, "offsets": { "from": 4130, "to": 4870 } },
+        { "text": "op", "p": 0.992757, "t0": 487, "t1": 536, "offsets": { "from": 4870, "to": 5360 } },
+        { "text": "by", "p": 0.988923, "t0": 536, "t1": 585, "offsets": { "from": 5360, "to": 5850 } },
+        { "text": "g", "p": 0.997615, "t0": 585, "t1": 609, "offsets": { "from": 5850, "to": 6090 } },
+        { "text": "nings", "p": 0.971293, "t0": 609, "t1": 732, "offsets": { "from": 6090, "to": 7320 } },
+        { "text": "ind", "p": 0.955912, "t0": 732, "t1": 806, "offsets": { "from": 7320, "to": 8060 } },
+        { "text": "s", "p": 0.999636, "t0": 806, "t1": 826, "offsets": { "from": 8060, "to": 8260 } },
+        { "text": "ats", "p": 0.995864, "t0": 830, "t1": 904, "offsets": { "from": 8300, "to": 9040 } },
+        { "text": "en", "p": 0.994693, "t0": 904, "t1": 918, "offsets": { "from": 9040, "to": 9180 } },
+        { "text": " har", "p": 0.959464, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": " f", "p": 0.973824, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": "ok", "p": 0.95967, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": "user", "p": 0.99942, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": "et", "p": 0.999392, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": " på", "p": 0.996215, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": " t", "p": 0.958714, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": "ild", "p": 0.999317, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": "eling", "p": 0.98335, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": "en", "p": 0.751381, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": " af", "p": 0.99289, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": " gen", "p": 0.98293, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": "op", "p": 0.995526, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": "by", "p": 0.997016, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": "g", "p": 0.998409, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": "ning", "p": 0.994994, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": "sk", "p": 0.987466, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": "ont", "p": 0.999131, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": "rak", "p": 0.996951, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": "ter", "p": 0.998093, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": " til", "p": 0.98018, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": " bet", "p": 0.985706, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": "ragt", "p": 0.864293, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": "ede", "p": 0.939616, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": " Washington", "p": 0.97951, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": " Ins", "p": 0.930774, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": "ider", "p": 0.982534, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": ".", "p": 0.854683, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } }
+      ]
+    }
+  ]
+}

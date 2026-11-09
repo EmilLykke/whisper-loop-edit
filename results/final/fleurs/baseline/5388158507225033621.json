@@ -1,0 +1,59 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:01,540", "to": "00:00:31,540" },
+      "offsets":    { "from": 1540, "to": 31540 },
+      "text":       " Skotur bus 403 kører jævnligt til Sintra og stopper ved Cabo da Roca.",
+      "words": [
+        { "text": " Skotur", "t0": 180, "t1": 421, "offsets": { "from": 1800, "to": 4210 } },
+        { "text": " bus", "t0": 421, "t1": 551, "offsets": { "from": 4210, "to": 5510 } },
+        { "text": " 403", "t0": 557, "t1": 863, "offsets": { "from": 5570, "to": 8630 } },
+        { "text": " kører", "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": " jævnligt", "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": " til", "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": " Sintra", "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": " og", "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": " stopper", "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": " ved", "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": " Cabo", "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": " da", "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": " Roca.", "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } }
+      ],
+      "tokens": [
+        { "text": " Sk", "p": 0.583442, "t0": 180, "t1": 235, "offsets": { "from": 1800, "to": 2350 } },
+        { "text": "ot", "p": 0.721733, "t0": 246, "t1": 331, "offsets": { "from": 2460, "to": 3310 } },
+        { "text": "ur", "p": 0.720372, "t0": 351, "t1": 421, "offsets": { "from": 3510, "to": 4210 } },
+        { "text": " bus", "p": 0.567831, "t0": 421, "t1": 551, "offsets": { "from": 4210, "to": 5510 } },
+        { "text": " 40", "p": 0.965104, "t0": 557, "t1": 745, "offsets": { "from": 5570, "to": 7450 } },
+        { "text": "3", "p": 0.99931, "t0": 821, "t1": 863, "offsets": { "from": 8210, "to": 8630 } },
+        { "text": " k", "p": 0.966439, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": "ø", "p": 0.935012, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": "rer", "p": 0.999108, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": " j", "p": 0.966342, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": "æ", "p": 0.999718, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": "v", "p": 0.999882, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": "n", "p": 0.944274, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": "ligt", "p": 0.808951, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": " til", "p": 0.992103, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": " S", "p": 0.986851, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": "int", "p": 0.998988, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": "ra", "p": 0.996656, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": " og", "p": 0.770259, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": " stop", "p": 0.994295, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": "per", "p": 0.997099, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": " ved", "p": 0.99489, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": " Cab", "p": 0.541463, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": "o", "p": 0.832674, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": " da", "p": 0.975487, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": " Ro", "p": 0.941536, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": "ca", "p": 0.996873, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": ".", "p": 0.847043, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } }
+      ]
+    }
+  ]
+}

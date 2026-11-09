@@ -1,0 +1,42 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,400", "to": "00:00:30,400" },
+      "offsets":    { "from": 400, "to": 30400 },
+      "text":       " Du skal se skiruten som en lignende vandrerute.",
+      "words": [
+        { "text": " Du", "t0": 62, "t1": 182, "offsets": { "from": 620, "to": 1820 } },
+        { "text": " skal", "t0": 182, "t1": 376, "offsets": { "from": 1820, "to": 3760 } },
+        { "text": " se", "t0": 400, "t1": 400, "offsets": { "from": 4000, "to": 4000 } },
+        { "text": " skiruten", "t0": 400, "t1": 400, "offsets": { "from": 4000, "to": 4000 } },
+        { "text": " som", "t0": 400, "t1": 400, "offsets": { "from": 4000, "to": 4000 } },
+        { "text": " en", "t0": 400, "t1": 400, "offsets": { "from": 4000, "to": 4000 } },
+        { "text": " lignende", "t0": 400, "t1": 400, "offsets": { "from": 4000, "to": 4000 } },
+        { "text": " vandrerute.", "t0": 400, "t1": 400, "offsets": { "from": 4000, "to": 4000 } }
+      ],
+      "tokens": [
+        { "text": " Du", "p": 0.958547, "t0": 62, "t1": 182, "offsets": { "from": 620, "to": 1820 } },
+        { "text": " skal", "p": 0.981165, "t0": 182, "t1": 376, "offsets": { "from": 1820, "to": 3760 } },
+        { "text": " se", "p": 0.982221, "t0": 400, "t1": 400, "offsets": { "from": 4000, "to": 4000 } },
+        { "text": " sk", "p": 0.883434, "t0": 400, "t1": 400, "offsets": { "from": 4000, "to": 4000 } },
+        { "text": "ir", "p": 0.987698, "t0": 400, "t1": 400, "offsets": { "from": 4000, "to": 4000 } },
+        { "text": "uten", "p": 0.940566, "t0": 400, "t1": 400, "offsets": { "from": 4000, "to": 4000 } },
+        { "text": " som", "p": 0.656067, "t0": 400, "t1": 400, "offsets": { "from": 4000, "to": 4000 } },
+        { "text": " en", "p": 0.497094, "t0": 400, "t1": 400, "offsets": { "from": 4000, "to": 4000 } },
+        { "text": " l", "p": 0.88305, "t0": 400, "t1": 400, "offsets": { "from": 4000, "to": 4000 } },
+        { "text": "ign", "p": 0.996584, "t0": 400, "t1": 400, "offsets": { "from": 4000, "to": 4000 } },
+        { "text": "ende", "p": 0.996514, "t0": 400, "t1": 400, "offsets": { "from": 4000, "to": 4000 } },
+        { "text": " v", "p": 0.996685, "t0": 400, "t1": 400, "offsets": { "from": 4000, "to": 4000 } },
+        { "text": "and", "p": 0.993261, "t0": 400, "t1": 400, "offsets": { "from": 4000, "to": 4000 } },
+        { "text": "rer", "p": 0.553166, "t0": 400, "t1": 400, "offsets": { "from": 4000, "to": 4000 } },
+        { "text": "ute", "p": 0.744407, "t0": 400, "t1": 400, "offsets": { "from": 4000, "to": 4000 } },
+        { "text": ".", "p": 0.786177, "t0": 400, "t1": 400, "offsets": { "from": 4000, "to": 4000 } }
+      ]
+    }
+  ]
+}

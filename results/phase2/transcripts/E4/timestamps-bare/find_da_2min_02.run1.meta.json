@@ -1,0 +1,25 @@
+{
+  "path": "timestamps-bare",
+  "clip": "find_da_2min_02",
+  "run": 1,
+  "argv": [
+    "../codictate/vendors/crispasr/crispasr",
+    "-m",
+    "models/ggml/edits/ggml-large-v3-E4-f16.bin",
+    "-t",
+    "14",
+    "--language",
+    "da",
+    "-f",
+    "data/clips/find/find_da_2min_02.wav",
+    "--no-prints",
+    "-ojf",
+    "-of",
+    "results/phase2/transcripts/E4/timestamps-bare/find_da_2min_02.run1"
+  ],
+  "wallSeconds": 9.91,
+  "exitCode": 0,
+  "error": null,
+  "stdoutBytes": 1921,
+  "stderrTail": "output_json: saving output to 'results/phase2/transcripts/E4/timestamps-bare/find_da_2min_02.run1.json'\n"
+}

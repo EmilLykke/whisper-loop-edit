@@ -1,0 +1,25 @@
+{
+  "path": "timestamps-bare",
+  "clip": "heldout_da_continuous_90s_05",
+  "run": 1,
+  "argv": [
+    "../codictate/vendors/crispasr/crispasr",
+    "-m",
+    "models/ggml/edits/ggml-large-v3-C4-f16.bin",
+    "-t",
+    "14",
+    "--language",
+    "da",
+    "-f",
+    "data/clips/heldout/heldout_da_continuous_90s_05.wav",
+    "--no-prints",
+    "-ojf",
+    "-of",
+    "results/final/transcripts/C4/timestamps-bare/heldout_da_continuous_90s_05.run1"
+  ],
+  "wallSeconds": 8.04,
+  "exitCode": 0,
+  "error": null,
+  "stdoutBytes": 1448,
+  "stderrTail": "output_json: saving output to 'results/final/transcripts/C4/timestamps-bare/heldout_da_continuous_90s_05.run1.json'\n"
+}

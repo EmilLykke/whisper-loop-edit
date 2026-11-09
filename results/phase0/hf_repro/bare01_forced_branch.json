@@ -1,0 +1,21 @@
+{
+ "case": "bare01_copy",
+ "forced_prefix": "<|0.00|> \"Selvom v",
+ "note": "HF and crispasr disagree at token 7 (\" v\" vs \" fod\", p 0.0957 vs 0.1026 in HF; crispasr p(\" v\")=0.0985 was its argmax). Forcing crispasr's choice:",
+ "runs": {
+  "greedy": {
+   "text": "<|0.00|> \"Selvom vandstanden kun stiger fod efter oversvømmelsen, håber eksperter, at det vil være nok til at genoprette.\"<|5.00|><|6.00|> \"Selvom vandstanden kun stiger fod efter oversvømmelsen, håber eksperter, at det vil være nok til at genoprette.\"<|15.00|><|16.00|> \"Selvom vandstanden kun stiger fod efter oversvømmelsen, håber eksperter, at det vil være nok til at genoprette.\"<|28.00|><|29.00|>",
+   "loops": 3,
+   "avg_logprobs": -0.154992452664371
+  },
+  "beam": {
+   "text": "<|0.00|> \"Selvom vandstanden kun stiger fod efter oversvømmelsen, håber eksperter, at det vil være nok til at genoprette.\"<|6.00|><|7.00|> \"Selvom vandstanden kun stiger fod efter oversvømmelsen, håber eksperter, at det vil være nok til at genoprette.\"<|15.00|><|16.00|> \"Selvom vandstanden kun stiger fod efter oversvømmelsen, håber eksperter, at det vil være nok til at genoprette.\"<|24.00|><|25.00|> \"Selvom vandstanden kun stiger fod efter oversvømmelsen, håber eksperter, at det vil være nok til at genoprette.\"<|29.00|>",
+   "loops": 4,
+   "avg_logprobs": -0.1316824459443789
+  },
+  "greedy_no_prev": {
+   "text": "<|0.00|> \"Selvom vores køer er rådrede sandbanker langs med floden.\"<|5.00|><|6.00|> \"Du får som minimum brug for fodtøj med paske søvler.\"<|10.00|><|10.00|> \"Sommersko er ofte meget glatte på is og sne, og nogle vinterstøvler er endda utilstrækkelige.\"<|19.00|><|20.00|> \"Jerusalem har mange historiske, arkeologiske og kulturelle steder som livlige og prafulde indkøbscentre, caféer og restauranter.\"<|28.00|><|29.00|>",
+   "loops": 0
+  }
+ }
+}

@@ -1,0 +1,1 @@
+{"crispasr_vad":{"version":1,"kind":"chunks","sample_rate":16000,"num_slices":4,"slices":[{"start":0,"end":374240,"t0_cs":0,"t1_cs":2339},{"start":375200,"end":812000,"t0_cs":2345,"t1_cs":5075},{"start":832960,"end":1112160,"t0_cs":5206,"t1_cs":6951},{"start":1112160,"end":1480320,"t0_cs":6951,"t1_cs":9252}]}}

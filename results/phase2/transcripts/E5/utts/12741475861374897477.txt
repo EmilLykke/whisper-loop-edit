@@ -1,0 +1,1 @@
+De er bedre end WebFox i flere årsager. De omdirigerer alt internettrafik, ikke kun HTTP.

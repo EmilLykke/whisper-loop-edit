@@ -1,0 +1,33 @@
+{
+  "utterance": "12546289956022754254",
+  "clip": "find_da_5min_03",
+  "argv": [
+    "../codictate/vendors/crispasr/crispasr",
+    "--backend",
+    "whisper",
+    "-m",
+    "models/ggml/edits/ggml-large-v3-E6-f16.bin",
+    "-t",
+    "14",
+    "--language",
+    "da",
+    "-f",
+    "data/raw/fleurs_da_dk/extracted/train/12546289956022754254.wav",
+    "--no-prints",
+    "-nt",
+    "--vad-import",
+    "results/phase2/transcripts/E6/utts/12546289956022754254.slices.json",
+    "-sns",
+    "-bs",
+    "5",
+    "--prompt",
+    "Hej, dette er en diktering. Jeg skriver i hele sætninger, med kommaer hvor jeg holder pause.",
+    "-ojf",
+    "-of",
+    "results/phase2/transcripts/E6/utts/12546289956022754254"
+  ],
+  "wallSeconds": 1.73,
+  "exitCode": 0,
+  "error": null,
+  "stderrTail": "ackend_init_gpu: found GPU device 0: MTL0 (type: 1, cnt: 0)\nwhisper_backend_init_gpu: using MTL0 backend\nggml_metal_init: allocating\nggml_metal_init: found device: Apple M4 Max\nggml_metal_init: picking default device: Apple M4 Max\nggml_metal_init: use fusion         = true\nggml_metal_init: use concurrency    = true\nggml_metal_init: use graph optimize = true\nwhisper_backend_init: using BLAS backend\nwhisper_init_state: kv self size  =   83.89 MB\nwhisper_init_state: kv cross size =  251.66 MB\nwhisper_init_state: kv pad  size  =    7.86 MB\nwhisper_init_state: compute buffer (conv)   =   65.26 MB\nwhisper_init_state: compute buffer (encode) =   67.76 MB\nwhisper_init_state: compute buffer (cross)  =  132.41 MB\nwhisper_init_state: compute buffer (decode) =  100.30 MB\nggml_metal_free: deallocating\n"
+}

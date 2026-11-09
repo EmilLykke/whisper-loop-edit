@@ -1,0 +1,58 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E5-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:01,200", "to": "00:00:31,200" },
+      "offsets":    { "from": 1200, "to": 31200 },
+      "text":       " Mennesket har fremstillet og anvendt linse til forstørrelse i tusindvis af år.",
+      "words": [
+        { "text": " Mennesket", "t0": 140, "t1": 498, "offsets": { "from": 1400, "to": 4980 } },
+        { "text": " har", "t0": 498, "t1": 566, "offsets": { "from": 4980, "to": 5660 } },
+        { "text": " fremstillet", "t0": 587, "t1": 587, "offsets": { "from": 5870, "to": 5870 } },
+        { "text": " og", "t0": 587, "t1": 587, "offsets": { "from": 5870, "to": 5870 } },
+        { "text": " anvendt", "t0": 587, "t1": 587, "offsets": { "from": 5870, "to": 5870 } },
+        { "text": " linse", "t0": 587, "t1": 587, "offsets": { "from": 5870, "to": 5870 } },
+        { "text": " til", "t0": 587, "t1": 587, "offsets": { "from": 5870, "to": 5870 } },
+        { "text": " forstørrelse", "t0": 587, "t1": 587, "offsets": { "from": 5870, "to": 5870 } },
+        { "text": " i", "t0": 587, "t1": 587, "offsets": { "from": 5870, "to": 5870 } },
+        { "text": " tusindvis", "t0": 587, "t1": 587, "offsets": { "from": 5870, "to": 5870 } },
+        { "text": " af", "t0": 587, "t1": 587, "offsets": { "from": 5870, "to": 5870 } },
+        { "text": " år.", "t0": 587, "t1": 587, "offsets": { "from": 5870, "to": 5870 } }
+      ],
+      "tokens": [
+        { "text": " M", "p": 0.742006, "t0": 140, "t1": 162, "offsets": { "from": 1400, "to": 1620 } },
+        { "text": "ennes", "p": 0.964628, "t0": 162, "t1": 370, "offsets": { "from": 1620, "to": 3700 } },
+        { "text": "ket", "p": 0.730699, "t0": 376, "t1": 498, "offsets": { "from": 3760, "to": 4980 } },
+        { "text": " har", "p": 0.749724, "t0": 498, "t1": 566, "offsets": { "from": 4980, "to": 5660 } },
+        { "text": " fre", "p": 0.998272, "t0": 587, "t1": 587, "offsets": { "from": 5870, "to": 5870 } },
+        { "text": "m", "p": 0.996331, "t0": 587, "t1": 587, "offsets": { "from": 5870, "to": 5870 } },
+        { "text": "still", "p": 0.664673, "t0": 587, "t1": 587, "offsets": { "from": 5870, "to": 5870 } },
+        { "text": "et", "p": 0.990951, "t0": 587, "t1": 587, "offsets": { "from": 5870, "to": 5870 } },
+        { "text": " og", "p": 0.85879, "t0": 587, "t1": 587, "offsets": { "from": 5870, "to": 5870 } },
+        { "text": " an", "p": 0.996913, "t0": 587, "t1": 587, "offsets": { "from": 5870, "to": 5870 } },
+        { "text": "v", "p": 0.997824, "t0": 587, "t1": 587, "offsets": { "from": 5870, "to": 5870 } },
+        { "text": "end", "p": 0.960516, "t0": 587, "t1": 587, "offsets": { "from": 5870, "to": 5870 } },
+        { "text": "t", "p": 0.806551, "t0": 587, "t1": 587, "offsets": { "from": 5870, "to": 5870 } },
+        { "text": " l", "p": 0.620468, "t0": 587, "t1": 587, "offsets": { "from": 5870, "to": 5870 } },
+        { "text": "inse", "p": 0.413262, "t0": 587, "t1": 587, "offsets": { "from": 5870, "to": 5870 } },
+        { "text": " til", "p": 0.99128, "t0": 587, "t1": 587, "offsets": { "from": 5870, "to": 5870 } },
+        { "text": " for", "p": 0.985098, "t0": 587, "t1": 587, "offsets": { "from": 5870, "to": 5870 } },
+        { "text": "st", "p": 0.982163, "t0": 587, "t1": 587, "offsets": { "from": 5870, "to": 5870 } },
+        { "text": "ør", "p": 0.978465, "t0": 587, "t1": 587, "offsets": { "from": 5870, "to": 5870 } },
+        { "text": "rel", "p": 0.998685, "t0": 587, "t1": 587, "offsets": { "from": 5870, "to": 5870 } },
+        { "text": "se", "p": 0.986022, "t0": 587, "t1": 587, "offsets": { "from": 5870, "to": 5870 } },
+        { "text": " i", "p": 0.804319, "t0": 587, "t1": 587, "offsets": { "from": 5870, "to": 5870 } },
+        { "text": " tus", "p": 0.886035, "t0": 587, "t1": 587, "offsets": { "from": 5870, "to": 5870 } },
+        { "text": "ind", "p": 0.956508, "t0": 587, "t1": 587, "offsets": { "from": 5870, "to": 5870 } },
+        { "text": "vis", "p": 0.980267, "t0": 587, "t1": 587, "offsets": { "from": 5870, "to": 5870 } },
+        { "text": " af", "p": 0.99574, "t0": 587, "t1": 587, "offsets": { "from": 5870, "to": 5870 } },
+        { "text": " år", "p": 0.997385, "t0": 587, "t1": 587, "offsets": { "from": 5870, "to": 5870 } },
+        { "text": ".", "p": 0.860328, "t0": 587, "t1": 587, "offsets": { "from": 5870, "to": 5870 } }
+      ]
+    }
+  ]
+}

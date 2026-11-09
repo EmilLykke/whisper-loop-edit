@@ -1,0 +1,1049 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | ACCELERATE = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "large",
+		"multilingual": true,
+		"vocab": 51866,
+		"audio": {
+			"ctx": 1500,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"mels": 128,
+		"ftype": 1
+	},
+	"params": {
+		"model": "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+		"language": "en",
+		"translate": false
+	},
+	"result": {
+		"language": "en"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:-16:-47,-300",
+				"to": "00:00:30,000"
+			},
+			"offsets": {
+				"from": -1007300,
+				"to": 30000
+			},
+			"text": " If you visit the Arctic or Antarctic areas in the winter, you will experience the polar night, which means the sun doesn't rise above the horizon. It also had no authority to override tax laws and tariffs between states. These theories suggest that people have certain needs and or desires which have been internalized as they mature to adulthood.",
+			"tokens": [
+				{
+					"text": " If",
+					"id": 759,
+					"p": 0.828812,
+					"t_dtw": -1
+				},
+				{
+					"text": " you",
+					"id": 291,
+					"p": 0.998123,
+					"t_dtw": -1
+				},
+				{
+					"text": " visit",
+					"id": 3441,
+					"p": 0.969438,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.967549,
+					"t_dtw": -1
+				},
+				{
+					"text": " Arctic",
+					"id": 27241,
+					"p": 0.778449,
+					"t_dtw": -1
+				},
+				{
+					"text": " or",
+					"id": 420,
+					"p": 0.806351,
+					"t_dtw": -1
+				},
+				{
+					"text": " Antar",
+					"id": 30536,
+					"p": 0.953243,
+					"t_dtw": -1
+				},
+				{
+					"text": "ctic",
+					"id": 15518,
+					"p": 0.999594,
+					"t_dtw": -1
+				},
+				{
+					"text": " areas",
+					"id": 3179,
+					"p": 0.906244,
+					"t_dtw": -1
+				},
+				{
+					"text": " in",
+					"id": 294,
+					"p": 0.979232,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.952643,
+					"t_dtw": -1
+				},
+				{
+					"text": " winter",
+					"id": 6355,
+					"p": 0.98762,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.74556,
+					"t_dtw": -1
+				},
+				{
+					"text": " you",
+					"id": 291,
+					"p": 0.996424,
+					"t_dtw": -1
+				},
+				{
+					"text": " will",
+					"id": 486,
+					"p": 0.933442,
+					"t_dtw": -1
+				},
+				{
+					"text": " experience",
+					"id": 1752,
+					"p": 0.998232,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.92441,
+					"t_dtw": -1
+				},
+				{
+					"text": " polar",
+					"id": 12367,
+					"p": 0.631511,
+					"t_dtw": -1
+				},
+				{
+					"text": " night",
+					"id": 1818,
+					"p": 0.997832,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.642734,
+					"t_dtw": -1
+				},
+				{
+					"text": " which",
+					"id": 597,
+					"p": 0.998363,
+					"t_dtw": -1
+				},
+				{
+					"text": " means",
+					"id": 1355,
+					"p": 0.998571,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.985206,
+					"t_dtw": -1
+				},
+				{
+					"text": " sun",
+					"id": 3295,
+					"p": 0.945099,
+					"t_dtw": -1
+				},
+				{
+					"text": " doesn",
+					"id": 1177,
+					"p": 0.974957,
+					"t_dtw": -1
+				},
+				{
+					"text": "'t",
+					"id": 380,
+					"p": 0.998738,
+					"t_dtw": -1
+				},
+				{
+					"text": " rise",
+					"id": 6272,
+					"p": 0.99855,
+					"t_dtw": -1
+				},
+				{
+					"text": " above",
+					"id": 3673,
+					"p": 0.998121,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.997383,
+					"t_dtw": -1
+				},
+				{
+					"text": " horizon",
+					"id": 18046,
+					"p": 0.998831,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.962875,
+					"t_dtw": -1
+				},
+				{
+					"text": " It",
+					"id": 467,
+					"p": 0.800604,
+					"t_dtw": -1
+				},
+				{
+					"text": " also",
+					"id": 611,
+					"p": 0.997227,
+					"t_dtw": -1
+				},
+				{
+					"text": " had",
+					"id": 632,
+					"p": 0.711709,
+					"t_dtw": -1
+				},
+				{
+					"text": " no",
+					"id": 572,
+					"p": 0.998058,
+					"t_dtw": -1
+				},
+				{
+					"text": " authority",
+					"id": 8281,
+					"p": 0.998321,
+					"t_dtw": -1
+				},
+				{
+					"text": " to",
+					"id": 281,
+					"p": 0.998321,
+					"t_dtw": -1
+				},
+				{
+					"text": " override",
+					"id": 42321,
+					"p": 0.992511,
+					"t_dtw": -1
+				},
+				{
+					"text": " tax",
+					"id": 3366,
+					"p": 0.990463,
+					"t_dtw": -1
+				},
+				{
+					"text": " laws",
+					"id": 6064,
+					"p": 0.986572,
+					"t_dtw": -1
+				},
+				{
+					"text": " and",
+					"id": 293,
+					"p": 0.98759,
+					"t_dtw": -1
+				},
+				{
+					"text": " tariffs",
+					"id": 39661,
+					"p": 0.996614,
+					"t_dtw": -1
+				},
+				{
+					"text": " between",
+					"id": 1296,
+					"p": 0.99686,
+					"t_dtw": -1
+				},
+				{
+					"text": " states",
+					"id": 4368,
+					"p": 0.975532,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.985098,
+					"t_dtw": -1
+				},
+				{
+					"text": " These",
+					"id": 1981,
+					"p": 0.861996,
+					"t_dtw": -1
+				},
+				{
+					"text": " theories",
+					"id": 13667,
+					"p": 0.989221,
+					"t_dtw": -1
+				},
+				{
+					"text": " suggest",
+					"id": 3402,
+					"p": 0.991603,
+					"t_dtw": -1
+				},
+				{
+					"text": " that",
+					"id": 300,
+					"p": 0.996337,
+					"t_dtw": -1
+				},
+				{
+					"text": " people",
+					"id": 561,
+					"p": 0.998572,
+					"t_dtw": -1
+				},
+				{
+					"text": " have",
+					"id": 362,
+					"p": 0.965917,
+					"t_dtw": -1
+				},
+				{
+					"text": " certain",
+					"id": 1629,
+					"p": 0.998957,
+					"t_dtw": -1
+				},
+				{
+					"text": " needs",
+					"id": 2203,
+					"p": 0.999272,
+					"t_dtw": -1
+				},
+				{
+					"text": " and",
+					"id": 293,
+					"p": 0.990796,
+					"t_dtw": -1
+				},
+				{
+					"text": " or",
+					"id": 420,
+					"p": 0.729023,
+					"t_dtw": -1
+				},
+				{
+					"text": " desires",
+					"id": 18005,
+					"p": 0.999056,
+					"t_dtw": -1
+				},
+				{
+					"text": " which",
+					"id": 597,
+					"p": 0.721202,
+					"t_dtw": -1
+				},
+				{
+					"text": " have",
+					"id": 362,
+					"p": 0.993132,
+					"t_dtw": -1
+				},
+				{
+					"text": " been",
+					"id": 668,
+					"p": 0.999529,
+					"t_dtw": -1
+				},
+				{
+					"text": " internal",
+					"id": 6920,
+					"p": 0.998995,
+					"t_dtw": -1
+				},
+				{
+					"text": "ized",
+					"id": 1602,
+					"p": 0.998283,
+					"t_dtw": -1
+				},
+				{
+					"text": " as",
+					"id": 382,
+					"p": 0.997025,
+					"t_dtw": -1
+				},
+				{
+					"text": " they",
+					"id": 436,
+					"p": 0.99914,
+					"t_dtw": -1
+				},
+				{
+					"text": " mature",
+					"id": 14442,
+					"p": 0.9998,
+					"t_dtw": -1
+				},
+				{
+					"text": " to",
+					"id": 281,
+					"p": 0.991344,
+					"t_dtw": -1
+				},
+				{
+					"text": " adulthood",
+					"id": 42328,
+					"p": 0.999851,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.98587,
+					"t_dtw": -1
+				},
+				{
+					"text": "<|endoftext|>",
+					"timestamps": {
+						"from": "00:00:30,000",
+						"to": "00:00:30,000"
+					},
+					"offsets": {
+						"from": 30000,
+						"to": 30000
+					},
+					"id": 50257,
+					"p": 0.94029,
+					"t_dtw": -1
+				}
+			]
+		},
+		{
+			"timestamps": {
+				"from": "00:-16:-17,-300",
+				"to": "00:01:00,000"
+			},
+			"offsets": {
+				"from": -977300,
+				"to": 60000
+			},
+			"text": " In the churchyard, there are interesting marble sculptures of doves over some tombs.",
+			"tokens": [
+				{
+					"text": " In",
+					"id": 682,
+					"p": 0.82413,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.981953,
+					"t_dtw": -1
+				},
+				{
+					"text": " church",
+					"id": 4128,
+					"p": 0.87008,
+					"t_dtw": -1
+				},
+				{
+					"text": "yard",
+					"id": 13862,
+					"p": 0.964545,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.764102,
+					"t_dtw": -1
+				},
+				{
+					"text": " there",
+					"id": 456,
+					"p": 0.955348,
+					"t_dtw": -1
+				},
+				{
+					"text": " are",
+					"id": 366,
+					"p": 0.986769,
+					"t_dtw": -1
+				},
+				{
+					"text": " interesting",
+					"id": 1880,
+					"p": 0.993579,
+					"t_dtw": -1
+				},
+				{
+					"text": " marble",
+					"id": 26844,
+					"p": 0.951346,
+					"t_dtw": -1
+				},
+				{
+					"text": " sculptures",
+					"id": 37544,
+					"p": 0.998748,
+					"t_dtw": -1
+				},
+				{
+					"text": " of",
+					"id": 295,
+					"p": 0.998094,
+					"t_dtw": -1
+				},
+				{
+					"text": " do",
+					"id": 360,
+					"p": 0.863677,
+					"t_dtw": -1
+				},
+				{
+					"text": "ves",
+					"id": 977,
+					"p": 0.99992,
+					"t_dtw": -1
+				},
+				{
+					"text": " over",
+					"id": 670,
+					"p": 0.833165,
+					"t_dtw": -1
+				},
+				{
+					"text": " some",
+					"id": 512,
+					"p": 0.993959,
+					"t_dtw": -1
+				},
+				{
+					"text": " tom",
+					"id": 2916,
+					"p": 0.938092,
+					"t_dtw": -1
+				},
+				{
+					"text": "bs",
+					"id": 929,
+					"p": 0.998708,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.971394,
+					"t_dtw": -1
+				},
+				{
+					"text": "<|endoftext|>",
+					"timestamps": {
+						"from": "00:01:00,000",
+						"to": "00:01:00,000"
+					},
+					"offsets": {
+						"from": 60000,
+						"to": 60000
+					},
+					"id": 50257,
+					"p": 0.563029,
+					"t_dtw": -1
+				}
+			]
+		},
+		{
+			"timestamps": {
+				"from": "00:-15:-47,-300",
+				"to": "00:01:30,000"
+			},
+			"offsets": {
+				"from": -947300,
+				"to": 90000
+			},
+			"text": " Buffalo-Pittsburgh Highway, passing frequently through isolated backwoods terrain. Technology offers a solution with virtual field trips. Students can look at museum artifacts, visit an aquarium, or admire beautiful art while sitting with their class. The Portuguese destroyed and rebuilt it under the name Casa Branca, only to abandon it after an earthquake in 1755.",
+			"tokens": [
+				{
+					"text": " Buffalo",
+					"id": 33855,
+					"p": 0.928991,
+					"t_dtw": -1
+				},
+				{
+					"text": "-",
+					"id": 12,
+					"p": 0.816192,
+					"t_dtw": -1
+				},
+				{
+					"text": "P",
+					"id": 47,
+					"p": 0.958691,
+					"t_dtw": -1
+				},
+				{
+					"text": "itt",
+					"id": 593,
+					"p": 0.999523,
+					"t_dtw": -1
+				},
+				{
+					"text": "s",
+					"id": 82,
+					"p": 0.998992,
+					"t_dtw": -1
+				},
+				{
+					"text": "burgh",
+					"id": 21898,
+					"p": 0.827326,
+					"t_dtw": -1
+				},
+				{
+					"text": " Highway",
+					"id": 30911,
+					"p": 0.851671,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.541888,
+					"t_dtw": -1
+				},
+				{
+					"text": " passing",
+					"id": 8437,
+					"p": 0.892446,
+					"t_dtw": -1
+				},
+				{
+					"text": " frequently",
+					"id": 10374,
+					"p": 0.849141,
+					"t_dtw": -1
+				},
+				{
+					"text": " through",
+					"id": 807,
+					"p": 0.987788,
+					"t_dtw": -1
+				},
+				{
+					"text": " isolated",
+					"id": 14621,
+					"p": 0.933337,
+					"t_dtw": -1
+				},
+				{
+					"text": " back",
+					"id": 646,
+					"p": 0.611961,
+					"t_dtw": -1
+				},
+				{
+					"text": "wood",
+					"id": 6092,
+					"p": 0.992922,
+					"t_dtw": -1
+				},
+				{
+					"text": "s",
+					"id": 82,
+					"p": 0.992506,
+					"t_dtw": -1
+				},
+				{
+					"text": " terrain",
+					"id": 17674,
+					"p": 0.944984,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.973171,
+					"t_dtw": -1
+				},
+				{
+					"text": " Technology",
+					"id": 15037,
+					"p": 0.879733,
+					"t_dtw": -1
+				},
+				{
+					"text": " offers",
+					"id": 7736,
+					"p": 0.996671,
+					"t_dtw": -1
+				},
+				{
+					"text": " a",
+					"id": 257,
+					"p": 0.80015,
+					"t_dtw": -1
+				},
+				{
+					"text": " solution",
+					"id": 3827,
+					"p": 0.998995,
+					"t_dtw": -1
+				},
+				{
+					"text": " with",
+					"id": 365,
+					"p": 0.990131,
+					"t_dtw": -1
+				},
+				{
+					"text": " virtual",
+					"id": 6374,
+					"p": 0.991244,
+					"t_dtw": -1
+				},
+				{
+					"text": " field",
+					"id": 2519,
+					"p": 0.998586,
+					"t_dtw": -1
+				},
+				{
+					"text": " trips",
+					"id": 16051,
+					"p": 0.995207,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.951495,
+					"t_dtw": -1
+				},
+				{
+					"text": " Students",
+					"id": 17244,
+					"p": 0.9968,
+					"t_dtw": -1
+				},
+				{
+					"text": " can",
+					"id": 393,
+					"p": 0.998576,
+					"t_dtw": -1
+				},
+				{
+					"text": " look",
+					"id": 574,
+					"p": 0.997508,
+					"t_dtw": -1
+				},
+				{
+					"text": " at",
+					"id": 412,
+					"p": 0.996413,
+					"t_dtw": -1
+				},
+				{
+					"text": " museum",
+					"id": 8441,
+					"p": 0.979922,
+					"t_dtw": -1
+				},
+				{
+					"text": " artifacts",
+					"id": 24617,
+					"p": 0.988289,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.985693,
+					"t_dtw": -1
+				},
+				{
+					"text": " visit",
+					"id": 3441,
+					"p": 0.996012,
+					"t_dtw": -1
+				},
+				{
+					"text": " an",
+					"id": 364,
+					"p": 0.981798,
+					"t_dtw": -1
+				},
+				{
+					"text": " aquarium",
+					"id": 30149,
+					"p": 0.989525,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.866672,
+					"t_dtw": -1
+				},
+				{
+					"text": " or",
+					"id": 420,
+					"p": 0.996107,
+					"t_dtw": -1
+				},
+				{
+					"text": " admire",
+					"id": 21951,
+					"p": 0.999009,
+					"t_dtw": -1
+				},
+				{
+					"text": " beautiful",
+					"id": 2238,
+					"p": 0.994199,
+					"t_dtw": -1
+				},
+				{
+					"text": " art",
+					"id": 1523,
+					"p": 0.996662,
+					"t_dtw": -1
+				},
+				{
+					"text": " while",
+					"id": 1339,
+					"p": 0.990161,
+					"t_dtw": -1
+				},
+				{
+					"text": " sitting",
+					"id": 3798,
+					"p": 0.996972,
+					"t_dtw": -1
+				},
+				{
+					"text": " with",
+					"id": 365,
+					"p": 0.995165,
+					"t_dtw": -1
+				},
+				{
+					"text": " their",
+					"id": 641,
+					"p": 0.996824,
+					"t_dtw": -1
+				},
+				{
+					"text": " class",
+					"id": 1508,
+					"p": 0.997592,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.992322,
+					"t_dtw": -1
+				},
+				{
+					"text": " The",
+					"id": 440,
+					"p": 0.966813,
+					"t_dtw": -1
+				},
+				{
+					"text": " Portuguese",
+					"id": 22759,
+					"p": 0.884825,
+					"t_dtw": -1
+				},
+				{
+					"text": " destroyed",
+					"id": 8937,
+					"p": 0.994746,
+					"t_dtw": -1
+				},
+				{
+					"text": " and",
+					"id": 293,
+					"p": 0.828286,
+					"t_dtw": -1
+				},
+				{
+					"text": " rebuilt",
+					"id": 38532,
+					"p": 0.989495,
+					"t_dtw": -1
+				},
+				{
+					"text": " it",
+					"id": 309,
+					"p": 0.946266,
+					"t_dtw": -1
+				},
+				{
+					"text": " under",
+					"id": 833,
+					"p": 0.991128,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.999085,
+					"t_dtw": -1
+				},
+				{
+					"text": " name",
+					"id": 1315,
+					"p": 0.998692,
+					"t_dtw": -1
+				},
+				{
+					"text": " Casa",
+					"id": 44843,
+					"p": 0.66769,
+					"t_dtw": -1
+				},
+				{
+					"text": " Br",
+					"id": 1603,
+					"p": 0.951478,
+					"t_dtw": -1
+				},
+				{
+					"text": "anca",
+					"id": 40835,
+					"p": 0.994347,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.610554,
+					"t_dtw": -1
+				},
+				{
+					"text": " only",
+					"id": 787,
+					"p": 0.998845,
+					"t_dtw": -1
+				},
+				{
+					"text": " to",
+					"id": 281,
+					"p": 0.999662,
+					"t_dtw": -1
+				},
+				{
+					"text": " abandon",
+					"id": 9072,
+					"p": 0.998828,
+					"t_dtw": -1
+				},
+				{
+					"text": " it",
+					"id": 309,
+					"p": 0.997438,
+					"t_dtw": -1
+				},
+				{
+					"text": " after",
+					"id": 934,
+					"p": 0.986145,
+					"t_dtw": -1
+				},
+				{
+					"text": " an",
+					"id": 364,
+					"p": 0.991618,
+					"t_dtw": -1
+				},
+				{
+					"text": " earthquake",
+					"id": 18778,
+					"p": 0.997733,
+					"t_dtw": -1
+				},
+				{
+					"text": " in",
+					"id": 294,
+					"p": 0.997269,
+					"t_dtw": -1
+				},
+				{
+					"text": " 17",
+					"id": 3282,
+					"p": 0.986996,
+					"t_dtw": -1
+				},
+				{
+					"text": "55",
+					"id": 13622,
+					"p": 0.984863,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.991333,
+					"t_dtw": -1
+				},
+				{
+					"text": "<|endoftext|>",
+					"timestamps": {
+						"from": "00:01:30,000",
+						"to": "00:01:30,000"
+					},
+					"offsets": {
+						"from": 90000,
+						"to": 90000
+					},
+					"id": 50257,
+					"p": 0.997059,
+					"t_dtw": -1
+				}
+			]
+		}
+	]
+}

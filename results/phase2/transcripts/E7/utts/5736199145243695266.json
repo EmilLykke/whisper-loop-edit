@@ -1,0 +1,53 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E7-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,000", "to": "00:00:30,000" },
+      "offsets":    { "from": 0, "to": 30000 },
+      "text":       " Filmen med Royan Gosling og Emma Stone blev nomineret i alle hovedkategorier.",
+      "words": [
+        { "text": " Filmen", "t0": 42, "t1": 264, "offsets": { "from": 420, "to": 2640 } },
+        { "text": " med", "t0": 264, "t1": 396, "offsets": { "from": 2640, "to": 3960 } },
+        { "text": " Royan", "t0": 396, "t1": 583, "offsets": { "from": 3960, "to": 5830 } },
+        { "text": " Gosling", "t0": 601, "t1": 602, "offsets": { "from": 6010, "to": 6020 } },
+        { "text": " og", "t0": 602, "t1": 602, "offsets": { "from": 6020, "to": 6020 } },
+        { "text": " Emma", "t0": 602, "t1": 602, "offsets": { "from": 6020, "to": 6020 } },
+        { "text": " Stone", "t0": 602, "t1": 602, "offsets": { "from": 6020, "to": 6020 } },
+        { "text": " blev", "t0": 602, "t1": 602, "offsets": { "from": 6020, "to": 6020 } },
+        { "text": " nomineret", "t0": 602, "t1": 602, "offsets": { "from": 6020, "to": 6020 } },
+        { "text": " i", "t0": 602, "t1": 602, "offsets": { "from": 6020, "to": 6020 } },
+        { "text": " alle", "t0": 602, "t1": 602, "offsets": { "from": 6020, "to": 6020 } },
+        { "text": " hovedkategorier.", "t0": 602, "t1": 602, "offsets": { "from": 6020, "to": 6020 } }
+      ],
+      "tokens": [
+        { "text": " Fil", "p": 0.983148, "t0": 42, "t1": 132, "offsets": { "from": 420, "to": 1320 } },
+        { "text": "men", "p": 0.999443, "t0": 132, "t1": 264, "offsets": { "from": 1320, "to": 2640 } },
+        { "text": " med", "p": 0.988629, "t0": 264, "t1": 396, "offsets": { "from": 2640, "to": 3960 } },
+        { "text": " Roy", "p": 0.485804, "t0": 396, "t1": 528, "offsets": { "from": 3960, "to": 5280 } },
+        { "text": "an", "p": 0.482626, "t0": 528, "t1": 583, "offsets": { "from": 5280, "to": 5830 } },
+        { "text": " Gos", "p": 0.970097, "t0": 601, "t1": 602, "offsets": { "from": 6010, "to": 6020 } },
+        { "text": "ling", "p": 0.998264, "t0": 602, "t1": 602, "offsets": { "from": 6020, "to": 6020 } },
+        { "text": " og", "p": 0.978472, "t0": 602, "t1": 602, "offsets": { "from": 6020, "to": 6020 } },
+        { "text": " Emma", "p": 0.99273, "t0": 602, "t1": 602, "offsets": { "from": 6020, "to": 6020 } },
+        { "text": " Stone", "p": 0.992076, "t0": 602, "t1": 602, "offsets": { "from": 6020, "to": 6020 } },
+        { "text": " blev", "p": 0.972628, "t0": 602, "t1": 602, "offsets": { "from": 6020, "to": 6020 } },
+        { "text": " nom", "p": 0.998384, "t0": 602, "t1": 602, "offsets": { "from": 6020, "to": 6020 } },
+        { "text": "iner", "p": 0.992301, "t0": 602, "t1": 602, "offsets": { "from": 6020, "to": 6020 } },
+        { "text": "et", "p": 0.999165, "t0": 602, "t1": 602, "offsets": { "from": 6020, "to": 6020 } },
+        { "text": " i", "p": 0.982841, "t0": 602, "t1": 602, "offsets": { "from": 6020, "to": 6020 } },
+        { "text": " alle", "p": 0.948516, "t0": 602, "t1": 602, "offsets": { "from": 6020, "to": 6020 } },
+        { "text": " ho", "p": 0.973927, "t0": 602, "t1": 602, "offsets": { "from": 6020, "to": 6020 } },
+        { "text": "ved", "p": 0.999805, "t0": 602, "t1": 602, "offsets": { "from": 6020, "to": 6020 } },
+        { "text": "k", "p": 0.994459, "t0": 602, "t1": 602, "offsets": { "from": 6020, "to": 6020 } },
+        { "text": "ateg", "p": 0.999981, "t0": 602, "t1": 602, "offsets": { "from": 6020, "to": 6020 } },
+        { "text": "or", "p": 0.999291, "t0": 602, "t1": 602, "offsets": { "from": 6020, "to": 6020 } },
+        { "text": "ier", "p": 0.999887, "t0": 602, "t1": 602, "offsets": { "from": 6020, "to": 6020 } },
+        { "text": ".", "p": 0.910628, "t0": 602, "t1": 602, "offsets": { "from": 6020, "to": 6020 } }
+      ]
+    }
+  ]
+}

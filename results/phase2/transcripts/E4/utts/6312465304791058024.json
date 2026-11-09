@@ -1,0 +1,51 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E4-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,110", "to": "00:00:30,110" },
+      "offsets":    { "from": 110, "to": 30110 },
+      "text":       " Stålnålen flyder oven på vandet på grund af overfladespænding.",
+      "words": [
+        { "text": " Stålnålen", "t0": 14, "t1": 550, "offsets": { "from": 140, "to": 5500 } },
+        { "text": " flyder", "t0": 550, "t1": 791, "offsets": { "from": 5500, "to": 7910 } },
+        { "text": " oven", "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": " på", "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": " vandet", "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": " på", "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": " grund", "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": " af", "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": " overfladespænding.", "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } }
+      ],
+      "tokens": [
+        { "text": " St", "p": 0.979618, "t0": 14, "t1": 109, "offsets": { "from": 140, "to": 1090 } },
+        { "text": "å", "p": 0.929674, "t0": 150, "t1": 207, "offsets": { "from": 1500, "to": 2070 } },
+        { "text": "l", "p": 0.94489, "t0": 207, "t1": 249, "offsets": { "from": 2070, "to": 2490 } },
+        { "text": "n", "p": 0.806821, "t0": 260, "t1": 304, "offsets": { "from": 2600, "to": 3040 } },
+        { "text": "å", "p": 0.430423, "t0": 305, "t1": 403, "offsets": { "from": 3050, "to": 4030 } },
+        { "text": "len", "p": 0.984205, "t0": 403, "t1": 550, "offsets": { "from": 4030, "to": 5500 } },
+        { "text": " fly", "p": 0.994806, "t0": 550, "t1": 639, "offsets": { "from": 5500, "to": 6390 } },
+        { "text": "der", "p": 0.967222, "t0": 696, "t1": 791, "offsets": { "from": 6960, "to": 7910 } },
+        { "text": " oven", "p": 0.990178, "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": " på", "p": 0.732467, "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": " v", "p": 0.999159, "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": "and", "p": 0.907668, "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": "et", "p": 0.903881, "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": " på", "p": 0.476581, "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": " grund", "p": 0.993617, "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": " af", "p": 0.996099, "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": " over", "p": 0.994332, "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": "fl", "p": 0.992612, "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": "ades", "p": 0.485985, "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": "p", "p": 0.995539, "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": "æ", "p": 0.999563, "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": "nd", "p": 0.988923, "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": "ing", "p": 0.986598, "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": ".", "p": 0.946804, "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } }
+      ]
+    }
+  ]
+}

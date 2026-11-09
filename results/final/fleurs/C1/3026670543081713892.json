@@ -1,0 +1,54 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,740", "to": "00:00:30,740" },
+      "offsets":    { "from": 740, "to": 30740 },
+      "text":       " Brænd- og redningspersonale slukket omsider brænden kl. 11.35 pm.",
+      "words": [
+        { "text": " Brænd-", "t0": 94, "t1": 354, "offsets": { "from": 940, "to": 3540 } },
+        { "text": " og", "t0": 368, "t1": 432, "offsets": { "from": 3680, "to": 4320 } },
+        { "text": " redningspersonale", "t0": 443, "t1": 571, "offsets": { "from": 4430, "to": 5710 } },
+        { "text": " slukket", "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " omsider", "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " brænden", "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " kl.", "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " 11.35", "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " pm.", "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } }
+      ],
+      "tokens": [
+        { "text": " Br", "p": 0.482433, "t0": 94, "t1": 156, "offsets": { "from": 940, "to": 1560 } },
+        { "text": "æ", "p": 0.993595, "t0": 156, "t1": 236, "offsets": { "from": 1560, "to": 2360 } },
+        { "text": "nd", "p": 0.919761, "t0": 239, "t1": 320, "offsets": { "from": 2390, "to": 3200 } },
+        { "text": "-", "p": 0.252957, "t0": 320, "t1": 354, "offsets": { "from": 3200, "to": 3540 } },
+        { "text": " og", "p": 0.966925, "t0": 368, "t1": 432, "offsets": { "from": 3680, "to": 4320 } },
+        { "text": " red", "p": 0.947258, "t0": 443, "t1": 553, "offsets": { "from": 4430, "to": 5530 } },
+        { "text": "ning", "p": 0.9993, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": "sp", "p": 0.996905, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": "erson", "p": 0.742706, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": "ale", "p": 0.604725, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " sl", "p": 0.834288, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": "uk", "p": 0.998108, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": "ket", "p": 0.80363, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " o", "p": 0.433809, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": "ms", "p": 0.997234, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": "ider", "p": 0.384459, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " br", "p": 0.800876, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": "æ", "p": 0.999228, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": "nd", "p": 0.994829, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": "en", "p": 0.980432, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " kl", "p": 0.980204, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": ".", "p": 0.856786, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " 11", "p": 0.956629, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": ".", "p": 0.969673, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": "35", "p": 0.9829, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " pm", "p": 0.705742, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": ".", "p": 0.796102, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } }
+      ]
+    }
+  ]
+}

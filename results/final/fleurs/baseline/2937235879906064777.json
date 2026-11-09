@@ -1,0 +1,42 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,530", "to": "00:00:30,530" },
+      "offsets":    { "from": 530, "to": 30530 },
+      "text":       " Der er mange ting ved fugle, der minder om dinosaurer.",
+      "words": [
+        { "text": " Der", "t0": 73, "t1": 240, "offsets": { "from": 730, "to": 2400 } },
+        { "text": " er", "t0": 240, "t1": 296, "offsets": { "from": 2400, "to": 2960 } },
+        { "text": " mange", "t0": 317, "t1": 317, "offsets": { "from": 3170, "to": 3170 } },
+        { "text": " ting", "t0": 317, "t1": 317, "offsets": { "from": 3170, "to": 3170 } },
+        { "text": " ved", "t0": 317, "t1": 317, "offsets": { "from": 3170, "to": 3170 } },
+        { "text": " fugle,", "t0": 317, "t1": 317, "offsets": { "from": 3170, "to": 3170 } },
+        { "text": " der", "t0": 317, "t1": 317, "offsets": { "from": 3170, "to": 3170 } },
+        { "text": " minder", "t0": 317, "t1": 317, "offsets": { "from": 3170, "to": 3170 } },
+        { "text": " om", "t0": 317, "t1": 317, "offsets": { "from": 3170, "to": 3170 } },
+        { "text": " dinosaurer.", "t0": 317, "t1": 317, "offsets": { "from": 3170, "to": 3170 } }
+      ],
+      "tokens": [
+        { "text": " Der", "p": 0.976931, "t0": 73, "t1": 240, "offsets": { "from": 730, "to": 2400 } },
+        { "text": " er", "p": 0.99025, "t0": 240, "t1": 296, "offsets": { "from": 2400, "to": 2960 } },
+        { "text": " mange", "p": 0.990601, "t0": 317, "t1": 317, "offsets": { "from": 3170, "to": 3170 } },
+        { "text": " ting", "p": 0.993652, "t0": 317, "t1": 317, "offsets": { "from": 3170, "to": 3170 } },
+        { "text": " ved", "p": 0.905782, "t0": 317, "t1": 317, "offsets": { "from": 3170, "to": 3170 } },
+        { "text": " fug", "p": 0.996738, "t0": 317, "t1": 317, "offsets": { "from": 3170, "to": 3170 } },
+        { "text": "le", "p": 0.956205, "t0": 317, "t1": 317, "offsets": { "from": 3170, "to": 3170 } },
+        { "text": ",", "p": 0.625448, "t0": 317, "t1": 317, "offsets": { "from": 3170, "to": 3170 } },
+        { "text": " der", "p": 0.928943, "t0": 317, "t1": 317, "offsets": { "from": 3170, "to": 3170 } },
+        { "text": " minder", "p": 0.934896, "t0": 317, "t1": 317, "offsets": { "from": 3170, "to": 3170 } },
+        { "text": " om", "p": 0.9775, "t0": 317, "t1": 317, "offsets": { "from": 3170, "to": 3170 } },
+        { "text": " dinosaur", "p": 0.951831, "t0": 317, "t1": 317, "offsets": { "from": 3170, "to": 3170 } },
+        { "text": "er", "p": 0.69201, "t0": 317, "t1": 317, "offsets": { "from": 3170, "to": 3170 } },
+        { "text": ".", "p": 0.82735, "t0": 317, "t1": 317, "offsets": { "from": 3170, "to": 3170 } }
+      ]
+    }
+  ]
+}

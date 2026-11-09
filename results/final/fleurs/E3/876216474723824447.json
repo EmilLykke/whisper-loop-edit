@@ -1,0 +1,57 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,620", "to": "00:00:30,620" },
+      "offsets":    { "from": 620, "to": 30620 },
+      "text":       " Standarden 802.11n opererer på både 2,4 GHz og 5,0 GHz frekvenserne.",
+      "words": [
+        { "text": " Standarden", "t0": 93, "t1": 417, "offsets": { "from": 930, "to": 4170 } },
+        { "text": " 802.11n", "t0": 418, "t1": 767, "offsets": { "from": 4180, "to": 7670 } },
+        { "text": " opererer", "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " på", "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " både", "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " 2,4", "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " GHz", "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " og", "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " 5,0", "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " GHz", "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " frekvenserne.", "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } }
+      ],
+      "tokens": [
+        { "text": " Standard", "p": 0.870166, "t0": 93, "t1": 344, "offsets": { "from": 930, "to": 3440 } },
+        { "text": "en", "p": 0.975906, "t0": 350, "t1": 417, "offsets": { "from": 3500, "to": 4170 } },
+        { "text": " 80", "p": 0.968993, "t0": 418, "t1": 632, "offsets": { "from": 4180, "to": 6320 } },
+        { "text": "2", "p": 0.999678, "t0": 632, "t1": 734, "offsets": { "from": 6320, "to": 7340 } },
+        { "text": ".", "p": 0.823127, "t0": 739, "t1": 752, "offsets": { "from": 7390, "to": 7520 } },
+        { "text": "11", "p": 0.99186, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": "n", "p": 0.860539, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " oper", "p": 0.909018, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": "erer", "p": 0.907355, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " på", "p": 0.907416, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " både", "p": 0.973435, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " 2", "p": 0.987784, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": ",", "p": 0.552284, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": "4", "p": 0.995518, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " G", "p": 0.479686, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": "Hz", "p": 0.984433, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " og", "p": 0.979574, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " 5", "p": 0.994738, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": ",", "p": 0.842046, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": "0", "p": 0.991563, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " G", "p": 0.931833, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": "Hz", "p": 0.999571, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " fre", "p": 0.942959, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": "k", "p": 0.99759, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": "ven", "p": 0.995511, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": "ser", "p": 0.996865, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": "ne", "p": 0.768662, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": ".", "p": 0.916487, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } }
+      ]
+    }
+  ]
+}

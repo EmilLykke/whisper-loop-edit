@@ -1,0 +1,47 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,340", "to": "00:00:30,340" },
+      "offsets":    { "from": 340, "to": 30340 },
+      "text":       " For Springboks var det comeback efter fem tabte kampe i træk.",
+      "words": [
+        { "text": " For", "t0": 65, "t1": 199, "offsets": { "from": 650, "to": 1990 } },
+        { "text": " Springboks", "t0": 199, "t1": 549, "offsets": { "from": 1990, "to": 5490 } },
+        { "text": " var", "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } },
+        { "text": " det", "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } },
+        { "text": " comeback", "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } },
+        { "text": " efter", "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } },
+        { "text": " fem", "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } },
+        { "text": " tabte", "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } },
+        { "text": " kampe", "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } },
+        { "text": " i", "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } },
+        { "text": " træk.", "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } }
+      ],
+      "tokens": [
+        { "text": " For", "p": 0.949935, "t0": 65, "t1": 199, "offsets": { "from": 650, "to": 1990 } },
+        { "text": " Spring", "p": 0.795066, "t0": 199, "t1": 414, "offsets": { "from": 1990, "to": 4140 } },
+        { "text": "bok", "p": 0.680791, "t0": 518, "t1": 549, "offsets": { "from": 5180, "to": 5490 } },
+        { "text": "s", "p": 0.99086, "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } },
+        { "text": " var", "p": 0.870847, "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } },
+        { "text": " det", "p": 0.995748, "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } },
+        { "text": " comeback", "p": 0.706551, "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } },
+        { "text": " efter", "p": 0.851876, "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } },
+        { "text": " fem", "p": 0.424623, "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } },
+        { "text": " tab", "p": 0.994327, "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } },
+        { "text": "te", "p": 0.985832, "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } },
+        { "text": " kam", "p": 0.361049, "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } },
+        { "text": "pe", "p": 0.9892, "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } },
+        { "text": " i", "p": 0.962649, "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } },
+        { "text": " tr", "p": 0.730449, "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } },
+        { "text": "æ", "p": 0.999295, "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } },
+        { "text": "k", "p": 0.999173, "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } },
+        { "text": ".", "p": 0.930527, "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } }
+      ]
+    }
+  ]
+}

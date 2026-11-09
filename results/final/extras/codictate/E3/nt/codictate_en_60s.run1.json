@@ -1,0 +1,632 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | ACCELERATE = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "large",
+		"multilingual": true,
+		"vocab": 51866,
+		"audio": {
+			"ctx": 1500,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"mels": 128,
+		"ftype": 1
+	},
+	"params": {
+		"model": "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+		"language": "en",
+		"translate": false
+	},
+	"result": {
+		"language": "en"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:-16:-47,-300",
+				"to": "00:00:30,000"
+			},
+			"offsets": {
+				"from": -1007300,
+				"to": 30000
+			},
+			"text": " He hoped there would be stew for dinner, turnips and carrots and bruised potatoes and fat mutton pieces to be ladled out in thick, peppered, flour-fattened sauce. Stuff it into you, his belly counseled him. After early nightfall, the yellow lamps would light up here and there, the squalid quarter of the brothels. Hello, Bertie. Any good in your mind?",
+			"tokens": [
+				{
+					"text": " He",
+					"id": 634,
+					"p": 0.979273,
+					"t_dtw": -1
+				},
+				{
+					"text": " hoped",
+					"id": 19737,
+					"p": 0.999954,
+					"t_dtw": -1
+				},
+				{
+					"text": " there",
+					"id": 456,
+					"p": 0.999985,
+					"t_dtw": -1
+				},
+				{
+					"text": " would",
+					"id": 576,
+					"p": 0.999989,
+					"t_dtw": -1
+				},
+				{
+					"text": " be",
+					"id": 312,
+					"p": 0.999996,
+					"t_dtw": -1
+				},
+				{
+					"text": " stew",
+					"id": 22654,
+					"p": 0.999846,
+					"t_dtw": -1
+				},
+				{
+					"text": " for",
+					"id": 337,
+					"p": 0.999989,
+					"t_dtw": -1
+				},
+				{
+					"text": " dinner",
+					"id": 6148,
+					"p": 0.999981,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.984878,
+					"t_dtw": -1
+				},
+				{
+					"text": " turn",
+					"id": 1261,
+					"p": 0.998692,
+					"t_dtw": -1
+				},
+				{
+					"text": "ips",
+					"id": 2600,
+					"p": 0.999703,
+					"t_dtw": -1
+				},
+				{
+					"text": " and",
+					"id": 293,
+					"p": 0.999703,
+					"t_dtw": -1
+				},
+				{
+					"text": " carrots",
+					"id": 21005,
+					"p": 0.999981,
+					"t_dtw": -1
+				},
+				{
+					"text": " and",
+					"id": 293,
+					"p": 0.997666,
+					"t_dtw": -1
+				},
+				{
+					"text": " bru",
+					"id": 25267,
+					"p": 0.999603,
+					"t_dtw": -1
+				},
+				{
+					"text": "ised",
+					"id": 2640,
+					"p": 0.999855,
+					"t_dtw": -1
+				},
+				{
+					"text": " potatoes",
+					"id": 11811,
+					"p": 0.999956,
+					"t_dtw": -1
+				},
+				{
+					"text": " and",
+					"id": 293,
+					"p": 0.970702,
+					"t_dtw": -1
+				},
+				{
+					"text": " fat",
+					"id": 4046,
+					"p": 0.999952,
+					"t_dtw": -1
+				},
+				{
+					"text": " mut",
+					"id": 5839,
+					"p": 0.999661,
+					"t_dtw": -1
+				},
+				{
+					"text": "ton",
+					"id": 1756,
+					"p": 0.999977,
+					"t_dtw": -1
+				},
+				{
+					"text": " pieces",
+					"id": 3755,
+					"p": 0.994046,
+					"t_dtw": -1
+				},
+				{
+					"text": " to",
+					"id": 281,
+					"p": 0.999937,
+					"t_dtw": -1
+				},
+				{
+					"text": " be",
+					"id": 312,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " lad",
+					"id": 6632,
+					"p": 0.999213,
+					"t_dtw": -1
+				},
+				{
+					"text": "led",
+					"id": 1493,
+					"p": 0.999617,
+					"t_dtw": -1
+				},
+				{
+					"text": " out",
+					"id": 484,
+					"p": 0.999992,
+					"t_dtw": -1
+				},
+				{
+					"text": " in",
+					"id": 294,
+					"p": 0.99995,
+					"t_dtw": -1
+				},
+				{
+					"text": " thick",
+					"id": 5060,
+					"p": 0.99992,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.893348,
+					"t_dtw": -1
+				},
+				{
+					"text": " pepper",
+					"id": 8532,
+					"p": 0.998776,
+					"t_dtw": -1
+				},
+				{
+					"text": "ed",
+					"id": 292,
+					"p": 0.999998,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.990975,
+					"t_dtw": -1
+				},
+				{
+					"text": " flour",
+					"id": 7693,
+					"p": 0.985197,
+					"t_dtw": -1
+				},
+				{
+					"text": "-",
+					"id": 12,
+					"p": 0.998727,
+					"t_dtw": -1
+				},
+				{
+					"text": "f",
+					"id": 69,
+					"p": 0.985394,
+					"t_dtw": -1
+				},
+				{
+					"text": "atten",
+					"id": 32733,
+					"p": 0.853522,
+					"t_dtw": -1
+				},
+				{
+					"text": "ed",
+					"id": 292,
+					"p": 0.999992,
+					"t_dtw": -1
+				},
+				{
+					"text": " sauce",
+					"id": 4880,
+					"p": 0.99996,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.999762,
+					"t_dtw": -1
+				},
+				{
+					"text": " Stuff",
+					"id": 31347,
+					"p": 0.943502,
+					"t_dtw": -1
+				},
+				{
+					"text": " it",
+					"id": 309,
+					"p": 0.996753,
+					"t_dtw": -1
+				},
+				{
+					"text": " into",
+					"id": 666,
+					"p": 0.99586,
+					"t_dtw": -1
+				},
+				{
+					"text": " you",
+					"id": 291,
+					"p": 0.999981,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.997328,
+					"t_dtw": -1
+				},
+				{
+					"text": " his",
+					"id": 702,
+					"p": 0.999552,
+					"t_dtw": -1
+				},
+				{
+					"text": " belly",
+					"id": 11696,
+					"p": 0.997303,
+					"t_dtw": -1
+				},
+				{
+					"text": " counsel",
+					"id": 10351,
+					"p": 0.971365,
+					"t_dtw": -1
+				},
+				{
+					"text": "ed",
+					"id": 292,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " him",
+					"id": 796,
+					"p": 0.999977,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.999994,
+					"t_dtw": -1
+				},
+				{
+					"text": " After",
+					"id": 2381,
+					"p": 0.999533,
+					"t_dtw": -1
+				},
+				{
+					"text": " early",
+					"id": 2440,
+					"p": 0.999969,
+					"t_dtw": -1
+				},
+				{
+					"text": " night",
+					"id": 1818,
+					"p": 0.999939,
+					"t_dtw": -1
+				},
+				{
+					"text": "fall",
+					"id": 6691,
+					"p": 0.998936,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.710453,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.999966,
+					"t_dtw": -1
+				},
+				{
+					"text": " yellow",
+					"id": 5566,
+					"p": 0.999916,
+					"t_dtw": -1
+				},
+				{
+					"text": " lamps",
+					"id": 34887,
+					"p": 0.999928,
+					"t_dtw": -1
+				},
+				{
+					"text": " would",
+					"id": 576,
+					"p": 0.999996,
+					"t_dtw": -1
+				},
+				{
+					"text": " light",
+					"id": 1442,
+					"p": 0.999994,
+					"t_dtw": -1
+				},
+				{
+					"text": " up",
+					"id": 493,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " here",
+					"id": 510,
+					"p": 0.968485,
+					"t_dtw": -1
+				},
+				{
+					"text": " and",
+					"id": 293,
+					"p": 0.999992,
+					"t_dtw": -1
+				},
+				{
+					"text": " there",
+					"id": 456,
+					"p": 0.999996,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.535912,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.999889,
+					"t_dtw": -1
+				},
+				{
+					"text": " squ",
+					"id": 2339,
+					"p": 0.99964,
+					"t_dtw": -1
+				},
+				{
+					"text": "alid",
+					"id": 31509,
+					"p": 0.997786,
+					"t_dtw": -1
+				},
+				{
+					"text": " quarter",
+					"id": 6555,
+					"p": 0.999683,
+					"t_dtw": -1
+				},
+				{
+					"text": " of",
+					"id": 295,
+					"p": 0.999966,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.999931,
+					"t_dtw": -1
+				},
+				{
+					"text": " broth",
+					"id": 18872,
+					"p": 0.998953,
+					"t_dtw": -1
+				},
+				{
+					"text": "els",
+					"id": 1625,
+					"p": 0.999754,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.999992,
+					"t_dtw": -1
+				},
+				{
+					"text": " Hello",
+					"id": 2425,
+					"p": 0.917527,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.712191,
+					"t_dtw": -1
+				},
+				{
+					"text": " Bert",
+					"id": 29594,
+					"p": 0.99987,
+					"t_dtw": -1
+				},
+				{
+					"text": "ie",
+					"id": 414,
+					"p": 0.999937,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.80177,
+					"t_dtw": -1
+				},
+				{
+					"text": " Any",
+					"id": 2639,
+					"p": 0.999889,
+					"t_dtw": -1
+				},
+				{
+					"text": " good",
+					"id": 665,
+					"p": 0.999939,
+					"t_dtw": -1
+				},
+				{
+					"text": " in",
+					"id": 294,
+					"p": 0.999699,
+					"t_dtw": -1
+				},
+				{
+					"text": " your",
+					"id": 428,
+					"p": 0.999989,
+					"t_dtw": -1
+				},
+				{
+					"text": " mind",
+					"id": 1575,
+					"p": 0.999968,
+					"t_dtw": -1
+				},
+				{
+					"text": "?",
+					"id": 30,
+					"p": 0.999216,
+					"t_dtw": -1
+				},
+				{
+					"text": "<|endoftext|>",
+					"timestamps": {
+						"from": "00:00:30,000",
+						"to": "00:00:30,000"
+					},
+					"offsets": {
+						"from": 30000,
+						"to": 30000
+					},
+					"id": 50257,
+					"p": 0.958024,
+					"t_dtw": -1
+				}
+			]
+		},
+		{
+			"timestamps": {
+				"from": "00:-16:-17,-300",
+				"to": "00:01:00,000"
+			},
+			"offsets": {
+				"from": -977300,
+				"to": 60000
+			},
+			"text": " Good night, husband.",
+			"tokens": [
+				{
+					"text": " Good",
+					"id": 2205,
+					"p": 0.714444,
+					"t_dtw": -1
+				},
+				{
+					"text": " night",
+					"id": 1818,
+					"p": 0.993733,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.984322,
+					"t_dtw": -1
+				},
+				{
+					"text": " husband",
+					"id": 5213,
+					"p": 0.948677,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.989357,
+					"t_dtw": -1
+				},
+				{
+					"text": "<|endoftext|>",
+					"timestamps": {
+						"from": "00:01:00,000",
+						"to": "00:01:00,000"
+					},
+					"offsets": {
+						"from": 60000,
+						"to": 60000
+					},
+					"id": 50257,
+					"p": 0.901428,
+					"t_dtw": -1
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,69 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:01,070", "to": "00:00:31,070" },
+      "offsets":    { "from": 1070, "to": 31070 },
+      "text":       " Der stilles de samme forventninger for ekspertise for virtuelle hold som konventionelle hold, men der er små forskelle.",
+      "words": [
+        { "text": " Der", "t0": 128, "t1": 192, "offsets": { "from": 1280, "to": 1920 } },
+        { "text": " stilles", "t0": 192, "t1": 389, "offsets": { "from": 1920, "to": 3890 } },
+        { "text": " de", "t0": 389, "t1": 434, "offsets": { "from": 3890, "to": 4340 } },
+        { "text": " samme", "t0": 446, "t1": 571, "offsets": { "from": 4460, "to": 5710 } },
+        { "text": " forventninger", "t0": 603, "t1": 746, "offsets": { "from": 6030, "to": 7460 } },
+        { "text": " for", "t0": 746, "t1": 746, "offsets": { "from": 7460, "to": 7460 } },
+        { "text": " ekspertise", "t0": 746, "t1": 746, "offsets": { "from": 7460, "to": 7460 } },
+        { "text": " for", "t0": 746, "t1": 746, "offsets": { "from": 7460, "to": 7460 } },
+        { "text": " virtuelle", "t0": 746, "t1": 746, "offsets": { "from": 7460, "to": 7460 } },
+        { "text": " hold", "t0": 746, "t1": 746, "offsets": { "from": 7460, "to": 7460 } },
+        { "text": " som", "t0": 746, "t1": 746, "offsets": { "from": 7460, "to": 7460 } },
+        { "text": " konventionelle", "t0": 746, "t1": 746, "offsets": { "from": 7460, "to": 7460 } },
+        { "text": " hold,", "t0": 746, "t1": 746, "offsets": { "from": 7460, "to": 7460 } },
+        { "text": " men", "t0": 746, "t1": 746, "offsets": { "from": 7460, "to": 7460 } },
+        { "text": " der", "t0": 746, "t1": 746, "offsets": { "from": 7460, "to": 7460 } },
+        { "text": " er", "t0": 746, "t1": 746, "offsets": { "from": 7460, "to": 7460 } },
+        { "text": " små", "t0": 746, "t1": 746, "offsets": { "from": 7460, "to": 7460 } },
+        { "text": " forskelle.", "t0": 746, "t1": 746, "offsets": { "from": 7460, "to": 7460 } }
+      ],
+      "tokens": [
+        { "text": " Der", "p": 0.924567, "t0": 128, "t1": 192, "offsets": { "from": 1280, "to": 1920 } },
+        { "text": " still", "p": 0.997865, "t0": 192, "t1": 333, "offsets": { "from": 1920, "to": 3330 } },
+        { "text": "es", "p": 0.998388, "t0": 333, "t1": 389, "offsets": { "from": 3330, "to": 3890 } },
+        { "text": " de", "p": 0.971727, "t0": 389, "t1": 434, "offsets": { "from": 3890, "to": 4340 } },
+        { "text": " sam", "p": 0.981294, "t0": 446, "t1": 530, "offsets": { "from": 4460, "to": 5300 } },
+        { "text": "me", "p": 0.995575, "t0": 530, "t1": 571, "offsets": { "from": 5300, "to": 5710 } },
+        { "text": " for", "p": 0.996618, "t0": 603, "t1": 671, "offsets": { "from": 6030, "to": 6710 } },
+        { "text": "vent", "p": 0.997419, "t0": 671, "t1": 732, "offsets": { "from": 6710, "to": 7320 } },
+        { "text": "ning", "p": 0.99232, "t0": 746, "t1": 746, "offsets": { "from": 7460, "to": 7460 } },
+        { "text": "er", "p": 0.989047, "t0": 746, "t1": 746, "offsets": { "from": 7460, "to": 7460 } },
+        { "text": " for", "p": 0.93323, "t0": 746, "t1": 746, "offsets": { "from": 7460, "to": 7460 } },
+        { "text": " eks", "p": 0.766613, "t0": 746, "t1": 746, "offsets": { "from": 7460, "to": 7460 } },
+        { "text": "pert", "p": 0.996683, "t0": 746, "t1": 746, "offsets": { "from": 7460, "to": 7460 } },
+        { "text": "ise", "p": 0.987031, "t0": 746, "t1": 746, "offsets": { "from": 7460, "to": 7460 } },
+        { "text": " for", "p": 0.494478, "t0": 746, "t1": 746, "offsets": { "from": 7460, "to": 7460 } },
+        { "text": " virtue", "p": 0.623306, "t0": 746, "t1": 746, "offsets": { "from": 7460, "to": 7460 } },
+        { "text": "lle", "p": 0.99915, "t0": 746, "t1": 746, "offsets": { "from": 7460, "to": 7460 } },
+        { "text": " hold", "p": 0.992879, "t0": 746, "t1": 746, "offsets": { "from": 7460, "to": 7460 } },
+        { "text": " som", "p": 0.73806, "t0": 746, "t1": 746, "offsets": { "from": 7460, "to": 7460 } },
+        { "text": " kon", "p": 0.976861, "t0": 746, "t1": 746, "offsets": { "from": 7460, "to": 7460 } },
+        { "text": "vention", "p": 0.999218, "t0": 746, "t1": 746, "offsets": { "from": 7460, "to": 7460 } },
+        { "text": "elle", "p": 0.996276, "t0": 746, "t1": 746, "offsets": { "from": 7460, "to": 7460 } },
+        { "text": " hold", "p": 0.988197, "t0": 746, "t1": 746, "offsets": { "from": 7460, "to": 7460 } },
+        { "text": ",", "p": 0.816564, "t0": 746, "t1": 746, "offsets": { "from": 7460, "to": 7460 } },
+        { "text": " men", "p": 0.988389, "t0": 746, "t1": 746, "offsets": { "from": 7460, "to": 7460 } },
+        { "text": " der", "p": 0.991726, "t0": 746, "t1": 746, "offsets": { "from": 7460, "to": 7460 } },
+        { "text": " er", "p": 0.992292, "t0": 746, "t1": 746, "offsets": { "from": 7460, "to": 7460 } },
+        { "text": " sm", "p": 0.993701, "t0": 746, "t1": 746, "offsets": { "from": 7460, "to": 7460 } },
+        { "text": "å", "p": 0.999378, "t0": 746, "t1": 746, "offsets": { "from": 7460, "to": 7460 } },
+        { "text": " fors", "p": 0.996902, "t0": 746, "t1": 746, "offsets": { "from": 7460, "to": 7460 } },
+        { "text": "ke", "p": 0.737172, "t0": 746, "t1": 746, "offsets": { "from": 7460, "to": 7460 } },
+        { "text": "lle", "p": 0.922074, "t0": 746, "t1": 746, "offsets": { "from": 7460, "to": 7460 } },
+        { "text": ".", "p": 0.945294, "t0": 746, "t1": 746, "offsets": { "from": 7460, "to": 7460 } }
+      ]
+    }
+  ]
+}

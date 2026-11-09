@@ -1,0 +1,59 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,000", "to": "00:00:30,000" },
+      "offsets":    { "from": 0, "to": 30000 },
+      "text":       " Kort tid efter udgav Atlanta General Constitution en rapport, som påpegede problemer med testresultater.",
+      "words": [
+        { "text": " Kort", "t0": 0, "t1": 125, "offsets": { "from": 0, "to": 1250 } },
+        { "text": " tid", "t0": 125, "t1": 219, "offsets": { "from": 1250, "to": 2190 } },
+        { "text": " efter", "t0": 219, "t1": 372, "offsets": { "from": 2190, "to": 3720 } },
+        { "text": " udgav", "t0": 377, "t1": 532, "offsets": { "from": 3770, "to": 5320 } },
+        { "text": " Atlanta", "t0": 533, "t1": 751, "offsets": { "from": 5330, "to": 7510 } },
+        { "text": " General", "t0": 753, "t1": 881, "offsets": { "from": 7530, "to": 8810 } },
+        { "text": " Constitution", "t0": 881, "t1": 882, "offsets": { "from": 8810, "to": 8820 } },
+        { "text": " en", "t0": 882, "t1": 882, "offsets": { "from": 8820, "to": 8820 } },
+        { "text": " rapport,", "t0": 882, "t1": 882, "offsets": { "from": 8820, "to": 8820 } },
+        { "text": " som", "t0": 882, "t1": 882, "offsets": { "from": 8820, "to": 8820 } },
+        { "text": " påpegede", "t0": 882, "t1": 882, "offsets": { "from": 8820, "to": 8820 } },
+        { "text": " problemer", "t0": 882, "t1": 882, "offsets": { "from": 8820, "to": 8820 } },
+        { "text": " med", "t0": 882, "t1": 882, "offsets": { "from": 8820, "to": 8820 } },
+        { "text": " testresultater.", "t0": 882, "t1": 882, "offsets": { "from": 8820, "to": 8820 } }
+      ],
+      "tokens": [
+        { "text": " K", "p": 0.912118, "t0": 0, "t1": 31, "offsets": { "from": 0, "to": 310 } },
+        { "text": "ort", "p": 0.996763, "t0": 31, "t1": 125, "offsets": { "from": 310, "to": 1250 } },
+        { "text": " tid", "p": 0.997033, "t0": 125, "t1": 219, "offsets": { "from": 1250, "to": 2190 } },
+        { "text": " efter", "p": 0.994457, "t0": 219, "t1": 372, "offsets": { "from": 2190, "to": 3720 } },
+        { "text": " ud", "p": 0.976669, "t0": 377, "t1": 439, "offsets": { "from": 3770, "to": 4390 } },
+        { "text": "g", "p": 0.999634, "t0": 439, "t1": 470, "offsets": { "from": 4390, "to": 4700 } },
+        { "text": "av", "p": 0.898904, "t0": 470, "t1": 532, "offsets": { "from": 4700, "to": 5320 } },
+        { "text": " Atlanta", "p": 0.161202, "t0": 533, "t1": 751, "offsets": { "from": 5330, "to": 7510 } },
+        { "text": " General", "p": 0.886694, "t0": 753, "t1": 881, "offsets": { "from": 7530, "to": 8810 } },
+        { "text": " Constitution", "p": 0.886257, "t0": 881, "t1": 882, "offsets": { "from": 8810, "to": 8820 } },
+        { "text": " en", "p": 0.94411, "t0": 882, "t1": 882, "offsets": { "from": 8820, "to": 8820 } },
+        { "text": " rapport", "p": 0.988436, "t0": 882, "t1": 882, "offsets": { "from": 8820, "to": 8820 } },
+        { "text": ",", "p": 0.78489, "t0": 882, "t1": 882, "offsets": { "from": 8820, "to": 8820 } },
+        { "text": " som", "p": 0.981731, "t0": 882, "t1": 882, "offsets": { "from": 8820, "to": 8820 } },
+        { "text": " på", "p": 0.995533, "t0": 882, "t1": 882, "offsets": { "from": 8820, "to": 8820 } },
+        { "text": "pe", "p": 0.997432, "t0": 882, "t1": 882, "offsets": { "from": 8820, "to": 8820 } },
+        { "text": "ged", "p": 0.97534, "t0": 882, "t1": 882, "offsets": { "from": 8820, "to": 8820 } },
+        { "text": "e", "p": 0.999926, "t0": 882, "t1": 882, "offsets": { "from": 8820, "to": 8820 } },
+        { "text": " pro", "p": 0.896977, "t0": 882, "t1": 882, "offsets": { "from": 8820, "to": 8820 } },
+        { "text": "ble", "p": 0.999153, "t0": 882, "t1": 882, "offsets": { "from": 8820, "to": 8820 } },
+        { "text": "mer", "p": 0.999455, "t0": 882, "t1": 882, "offsets": { "from": 8820, "to": 8820 } },
+        { "text": " med", "p": 0.982598, "t0": 882, "t1": 882, "offsets": { "from": 8820, "to": 8820 } },
+        { "text": " test", "p": 0.997491, "t0": 882, "t1": 882, "offsets": { "from": 8820, "to": 8820 } },
+        { "text": "res", "p": 0.912686, "t0": 882, "t1": 882, "offsets": { "from": 8820, "to": 8820 } },
+        { "text": "ult", "p": 0.999947, "t0": 882, "t1": 882, "offsets": { "from": 8820, "to": 8820 } },
+        { "text": "ater", "p": 0.955274, "t0": 882, "t1": 882, "offsets": { "from": 8820, "to": 8820 } },
+        { "text": ".", "p": 0.912649, "t0": 882, "t1": 882, "offsets": { "from": 8820, "to": 8820 } }
+      ]
+    }
+  ]
+}

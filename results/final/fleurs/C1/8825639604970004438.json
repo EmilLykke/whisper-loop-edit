@@ -1,0 +1,49 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,170", "to": "00:00:30,170" },
+      "offsets":    { "from": 170, "to": 30170 },
+      "text":       " I det varme klima i Mellemøsten var hus ikke så vigtigt.",
+      "words": [
+        { "text": " I", "t0": 36, "t1": 76, "offsets": { "from": 360, "to": 760 } },
+        { "text": " det", "t0": 161, "t1": 257, "offsets": { "from": 1610, "to": 2570 } },
+        { "text": " varme", "t0": 257, "t1": 550, "offsets": { "from": 2570, "to": 5500 } },
+        { "text": " klima", "t0": 555, "t1": 827, "offsets": { "from": 5550, "to": 8270 } },
+        { "text": " i", "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": " Mellemøsten", "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": " var", "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": " hus", "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": " ikke", "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": " så", "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": " vigtigt.", "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } }
+      ],
+      "tokens": [
+        { "text": " I", "p": 0.974024, "t0": 36, "t1": 76, "offsets": { "from": 360, "to": 760 } },
+        { "text": " det", "p": 0.975788, "t0": 161, "t1": 257, "offsets": { "from": 1610, "to": 2570 } },
+        { "text": " var", "p": 0.998534, "t0": 257, "t1": 433, "offsets": { "from": 2570, "to": 4330 } },
+        { "text": "me", "p": 0.997335, "t0": 436, "t1": 550, "offsets": { "from": 4360, "to": 5500 } },
+        { "text": " klim", "p": 0.996905, "t0": 555, "t1": 794, "offsets": { "from": 5550, "to": 7940 } },
+        { "text": "a", "p": 0.999723, "t0": 806, "t1": 827, "offsets": { "from": 8060, "to": 8270 } },
+        { "text": " i", "p": 0.961514, "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": " M", "p": 0.870476, "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": "ell", "p": 0.9709, "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": "em", "p": 0.99357, "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": "ø", "p": 0.849761, "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": "sten", "p": 0.98897, "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": " var", "p": 0.74883, "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": " hus", "p": 0.973145, "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": " ikke", "p": 0.963084, "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": " så", "p": 0.981905, "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": " v", "p": 0.996573, "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": "igt", "p": 0.999929, "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": "igt", "p": 0.977079, "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": ".", "p": 0.913652, "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } }
+      ]
+    }
+  ]
+}

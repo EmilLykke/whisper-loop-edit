@@ -1,0 +1,69 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,170", "to": "00:00:30,170" },
+      "offsets":    { "from": 170, "to": 30170 },
+      "text":       " Den 15. august 1940 invaderede de allierede tropper det sydlige Frankrig. Invasionen blev kaldt Operation Dragoon.",
+      "words": [
+        { "text": " Den", "t0": 36, "t1": 94, "offsets": { "from": 360, "to": 940 } },
+        { "text": " 15.", "t0": 195, "t1": 322, "offsets": { "from": 1950, "to": 3220 } },
+        { "text": " august", "t0": 323, "t1": 469, "offsets": { "from": 3230, "to": 4690 } },
+        { "text": " 1940", "t0": 476, "t1": 781, "offsets": { "from": 4760, "to": 7810 } },
+        { "text": " invaderede", "t0": 841, "t1": 1037, "offsets": { "from": 8410, "to": 10370 } },
+        { "text": " de", "t0": 1067, "t1": 1089, "offsets": { "from": 10670, "to": 10890 } },
+        { "text": " allierede", "t0": 1089, "t1": 1318, "offsets": { "from": 10890, "to": 13180 } },
+        { "text": " tropper", "t0": 1339, "t1": 1367, "offsets": { "from": 13390, "to": 13670 } },
+        { "text": " det", "t0": 1367, "t1": 1367, "offsets": { "from": 13670, "to": 13670 } },
+        { "text": " sydlige", "t0": 1367, "t1": 1367, "offsets": { "from": 13670, "to": 13670 } },
+        { "text": " Frankrig.", "t0": 1367, "t1": 1367, "offsets": { "from": 13670, "to": 13670 } },
+        { "text": " Invasionen", "t0": 1367, "t1": 1367, "offsets": { "from": 13670, "to": 13670 } },
+        { "text": " blev", "t0": 1367, "t1": 1367, "offsets": { "from": 13670, "to": 13670 } },
+        { "text": " kaldt", "t0": 1367, "t1": 1367, "offsets": { "from": 13670, "to": 13670 } },
+        { "text": " Operation", "t0": 1367, "t1": 1367, "offsets": { "from": 13670, "to": 13670 } },
+        { "text": " Dragoon.", "t0": 1367, "t1": 1367, "offsets": { "from": 13670, "to": 13670 } }
+      ],
+      "tokens": [
+        { "text": " Den", "p": 0.775746, "t0": 36, "t1": 94, "offsets": { "from": 360, "to": 940 } },
+        { "text": " 15", "p": 0.982216, "t0": 195, "t1": 247, "offsets": { "from": 1950, "to": 2470 } },
+        { "text": ".", "p": 0.878356, "t0": 249, "t1": 322, "offsets": { "from": 2490, "to": 3220 } },
+        { "text": " aug", "p": 0.93066, "t0": 323, "t1": 398, "offsets": { "from": 3230, "to": 3980 } },
+        { "text": "ust", "p": 0.999047, "t0": 414, "t1": 469, "offsets": { "from": 4140, "to": 4690 } },
+        { "text": " 1940", "p": 0.976522, "t0": 476, "t1": 781, "offsets": { "from": 4760, "to": 7810 } },
+        { "text": " inv", "p": 0.887063, "t0": 841, "t1": 860, "offsets": { "from": 8410, "to": 8600 } },
+        { "text": "ad", "p": 0.782573, "t0": 860, "t1": 911, "offsets": { "from": 8600, "to": 9110 } },
+        { "text": "ered", "p": 0.920792, "t0": 911, "t1": 1012, "offsets": { "from": 9110, "to": 10120 } },
+        { "text": "e", "p": 0.999134, "t0": 1015, "t1": 1037, "offsets": { "from": 10150, "to": 10370 } },
+        { "text": " de", "p": 0.932311, "t0": 1067, "t1": 1089, "offsets": { "from": 10670, "to": 10890 } },
+        { "text": " all", "p": 0.554979, "t0": 1089, "t1": 1120, "offsets": { "from": 10890, "to": 11200 } },
+        { "text": "ier", "p": 0.412838, "t0": 1166, "t1": 1239, "offsets": { "from": 11660, "to": 12390 } },
+        { "text": "ede", "p": 0.982881, "t0": 1243, "t1": 1318, "offsets": { "from": 12430, "to": 13180 } },
+        { "text": " tro", "p": 0.884895, "t0": 1339, "t1": 1367, "offsets": { "from": 13390, "to": 13670 } },
+        { "text": "pper", "p": 0.980318, "t0": 1367, "t1": 1367, "offsets": { "from": 13670, "to": 13670 } },
+        { "text": " det", "p": 0.779185, "t0": 1367, "t1": 1367, "offsets": { "from": 13670, "to": 13670 } },
+        { "text": " sy", "p": 0.935043, "t0": 1367, "t1": 1367, "offsets": { "from": 13670, "to": 13670 } },
+        { "text": "d", "p": 0.976654, "t0": 1367, "t1": 1367, "offsets": { "from": 13670, "to": 13670 } },
+        { "text": "l", "p": 0.976205, "t0": 1367, "t1": 1367, "offsets": { "from": 13670, "to": 13670 } },
+        { "text": "ige", "p": 0.999899, "t0": 1367, "t1": 1367, "offsets": { "from": 13670, "to": 13670 } },
+        { "text": " Frank", "p": 0.980932, "t0": 1367, "t1": 1367, "offsets": { "from": 13670, "to": 13670 } },
+        { "text": "rig", "p": 0.986361, "t0": 1367, "t1": 1367, "offsets": { "from": 13670, "to": 13670 } },
+        { "text": ".", "p": 0.895141, "t0": 1367, "t1": 1367, "offsets": { "from": 13670, "to": 13670 } },
+        { "text": " Inv", "p": 0.912188, "t0": 1367, "t1": 1367, "offsets": { "from": 13670, "to": 13670 } },
+        { "text": "asion", "p": 0.992481, "t0": 1367, "t1": 1367, "offsets": { "from": 13670, "to": 13670 } },
+        { "text": "en", "p": 0.866467, "t0": 1367, "t1": 1367, "offsets": { "from": 13670, "to": 13670 } },
+        { "text": " blev", "p": 0.997423, "t0": 1367, "t1": 1367, "offsets": { "from": 13670, "to": 13670 } },
+        { "text": " kald", "p": 0.995205, "t0": 1367, "t1": 1367, "offsets": { "from": 13670, "to": 13670 } },
+        { "text": "t", "p": 0.990601, "t0": 1367, "t1": 1367, "offsets": { "from": 13670, "to": 13670 } },
+        { "text": " Operation", "p": 0.781249, "t0": 1367, "t1": 1367, "offsets": { "from": 13670, "to": 13670 } },
+        { "text": " Dra", "p": 0.849366, "t0": 1367, "t1": 1367, "offsets": { "from": 13670, "to": 13670 } },
+        { "text": "go", "p": 0.996654, "t0": 1367, "t1": 1367, "offsets": { "from": 13670, "to": 13670 } },
+        { "text": "on", "p": 0.985757, "t0": 1367, "t1": 1367, "offsets": { "from": 13670, "to": 13670 } },
+        { "text": ".", "p": 0.861689, "t0": 1367, "t1": 1367, "offsets": { "from": 13670, "to": 13670 } }
+      ]
+    }
+  ]
+}

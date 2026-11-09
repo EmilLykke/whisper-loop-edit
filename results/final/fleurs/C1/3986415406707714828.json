@@ -1,0 +1,85 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,170", "to": "00:00:30,170" },
+      "offsets":    { "from": 170, "to": 30170 },
+      "text":       " Hele 20% af det vand, som strømmer gennem planetens floder og ud i havene, kommer fra Amazonas.",
+      "chunk_id":   0,
+      "words": [
+        { "text": " Hele", "t0": 36, "t1": 142, "offsets": { "from": 360, "to": 1420 } },
+        { "text": " 20%", "t0": 156, "t1": 391, "offsets": { "from": 1560, "to": 3910 } },
+        { "text": " af", "t0": 391, "t1": 449, "offsets": { "from": 3910, "to": 4490 } },
+        { "text": " det", "t0": 463, "t1": 561, "offsets": { "from": 4630, "to": 5610 } },
+        { "text": " vand,", "t0": 561, "t1": 765, "offsets": { "from": 5610, "to": 7650 } },
+        { "text": " som", "t0": 765, "t1": 786, "offsets": { "from": 7650, "to": 7860 } },
+        { "text": " strømmer", "t0": 822, "t1": 825, "offsets": { "from": 8220, "to": 8250 } },
+        { "text": " gennem", "t0": 825, "t1": 825, "offsets": { "from": 8250, "to": 8250 } },
+        { "text": " planetens", "t0": 825, "t1": 825, "offsets": { "from": 8250, "to": 8250 } },
+        { "text": " floder", "t0": 825, "t1": 825, "offsets": { "from": 8250, "to": 8250 } },
+        { "text": " og", "t0": 825, "t1": 825, "offsets": { "from": 8250, "to": 8250 } },
+        { "text": " ud", "t0": 825, "t1": 825, "offsets": { "from": 8250, "to": 8250 } },
+        { "text": " i", "t0": 825, "t1": 825, "offsets": { "from": 8250, "to": 8250 } },
+        { "text": " havene,", "t0": 825, "t1": 825, "offsets": { "from": 8250, "to": 8250 } },
+        { "text": " kommer", "t0": 825, "t1": 825, "offsets": { "from": 8250, "to": 8250 } },
+        { "text": " fra", "t0": 825, "t1": 825, "offsets": { "from": 8250, "to": 8250 } },
+        { "text": " Amazonas.", "t0": 825, "t1": 825, "offsets": { "from": 8250, "to": 8250 } }
+      ],
+      "tokens": [
+        { "text": " He", "p": 0.899087, "t0": 36, "t1": 85, "offsets": { "from": 360, "to": 850 } },
+        { "text": "le", "p": 0.99987, "t0": 124, "t1": 142, "offsets": { "from": 1240, "to": 1420 } },
+        { "text": " 20", "p": 0.986205, "t0": 156, "t1": 354, "offsets": { "from": 1560, "to": 3540 } },
+        { "text": "%", "p": 0.442277, "t0": 379, "t1": 391, "offsets": { "from": 3790, "to": 3910 } },
+        { "text": " af", "p": 0.99729, "t0": 391, "t1": 449, "offsets": { "from": 3910, "to": 4490 } },
+        { "text": " det", "p": 0.961406, "t0": 463, "t1": 561, "offsets": { "from": 4630, "to": 5610 } },
+        { "text": " v", "p": 0.995621, "t0": 561, "t1": 595, "offsets": { "from": 5610, "to": 5950 } },
+        { "text": "and", "p": 0.999598, "t0": 595, "t1": 695, "offsets": { "from": 5950, "to": 6950 } },
+        { "text": ",", "p": 0.544509, "t0": 717, "t1": 765, "offsets": { "from": 7170, "to": 7650 } },
+        { "text": " som", "p": 0.860456, "t0": 765, "t1": 786, "offsets": { "from": 7650, "to": 7860 } },
+        { "text": " str", "p": 0.987532, "t0": 822, "t1": 825, "offsets": { "from": 8220, "to": 8250 } },
+        { "text": "ø", "p": 0.99927, "t0": 825, "t1": 825, "offsets": { "from": 8250, "to": 8250 } },
+        { "text": "m", "p": 0.997817, "t0": 825, "t1": 825, "offsets": { "from": 8250, "to": 8250 } },
+        { "text": "mer", "p": 0.998193, "t0": 825, "t1": 825, "offsets": { "from": 8250, "to": 8250 } },
+        { "text": " gen", "p": 0.953484, "t0": 825, "t1": 825, "offsets": { "from": 8250, "to": 8250 } },
+        { "text": "nem", "p": 0.975534, "t0": 825, "t1": 825, "offsets": { "from": 8250, "to": 8250 } },
+        { "text": " planet", "p": 0.975062, "t0": 825, "t1": 825, "offsets": { "from": 8250, "to": 8250 } },
+        { "text": "ens", "p": 0.99, "t0": 825, "t1": 825, "offsets": { "from": 8250, "to": 8250 } },
+        { "text": " fl", "p": 0.998993, "t0": 825, "t1": 825, "offsets": { "from": 8250, "to": 8250 } },
+        { "text": "oder", "p": 0.958391, "t0": 825, "t1": 825, "offsets": { "from": 8250, "to": 8250 } },
+        { "text": " og", "p": 0.90606, "t0": 825, "t1": 825, "offsets": { "from": 8250, "to": 8250 } },
+        { "text": " ud", "p": 0.824831, "t0": 825, "t1": 825, "offsets": { "from": 8250, "to": 8250 } },
+        { "text": " i", "p": 0.994727, "t0": 825, "t1": 825, "offsets": { "from": 8250, "to": 8250 } },
+        { "text": " haven", "p": 0.970815, "t0": 825, "t1": 825, "offsets": { "from": 8250, "to": 8250 } },
+        { "text": "e", "p": 0.992235, "t0": 825, "t1": 825, "offsets": { "from": 8250, "to": 8250 } },
+        { "text": ",", "p": 0.763963, "t0": 825, "t1": 825, "offsets": { "from": 8250, "to": 8250 } },
+        { "text": " kommer", "p": 0.993599, "t0": 825, "t1": 825, "offsets": { "from": 8250, "to": 8250 } },
+        { "text": " fra", "p": 0.996134, "t0": 825, "t1": 825, "offsets": { "from": 8250, "to": 8250 } },
+        { "text": " Amazon", "p": 0.909841, "t0": 825, "t1": 825, "offsets": { "from": 8250, "to": 8250 } },
+        { "text": "as", "p": 0.999886, "t0": 825, "t1": 825, "offsets": { "from": 8250, "to": 8250 } },
+        { "text": ".", "p": 0.922637, "t0": 825, "t1": 825, "offsets": { "from": 8250, "to": 8250 } }
+      ]
+    },
+    {
+      "timestamps": { "from": "00:00:10,330", "to": "00:00:40,330" },
+      "offsets":    { "from": 10330, "to": 40330 },
+      "text":       " Øh øh.",
+      "chunk_id":   1,
+      "words": [
+        { "text": " Øh", "t0": 1056, "t1": 1103, "offsets": { "from": 10560, "to": 11030 } },
+        { "text": " øh.", "t0": 1103, "t1": 1103, "offsets": { "from": 11030, "to": 11030 } }
+      ],
+      "tokens": [
+        { "text": " ", "p": 0.82072, "t0": 1056, "t1": 1098, "offsets": { "from": 10560, "to": 10980 } },
+        { "text": "Ø", "p": 1, "t0": 1103, "t1": 1103, "offsets": { "from": 11030, "to": 11030 } },
+        { "text": "h", "p": 0.477319, "t0": 1103, "t1": 1103, "offsets": { "from": 11030, "to": 11030 } },
+        { "text": " ø", "p": 0.847987, "t0": 1103, "t1": 1103, "offsets": { "from": 11030, "to": 11030 } },
+        { "text": "h", "p": 0.999992, "t0": 1103, "t1": 1103, "offsets": { "from": 11030, "to": 11030 } },
+        { "text": ".", "p": 0.899638, "t0": 1103, "t1": 1103, "offsets": { "from": 11030, "to": 11030 } }
+      ]
+    }
+  ]
+}

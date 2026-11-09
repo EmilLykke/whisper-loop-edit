@@ -1,0 +1,65 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,170", "to": "00:00:30,170" },
+      "offsets":    { "from": 170, "to": 30170 },
+      "text":       " Gennem natten blev der lavet mellem 150 og 200 kopier, som nu er kendt som Dunlop Broadside.",
+      "words": [
+        { "text": " Gennem", "t0": 36, "t1": 213, "offsets": { "from": 360, "to": 2130 } },
+        { "text": " natten", "t0": 218, "t1": 410, "offsets": { "from": 2180, "to": 4100 } },
+        { "text": " blev", "t0": 410, "t1": 532, "offsets": { "from": 4100, "to": 5320 } },
+        { "text": " der", "t0": 542, "t1": 640, "offsets": { "from": 5420, "to": 6400 } },
+        { "text": " lavet", "t0": 640, "t1": 782, "offsets": { "from": 6400, "to": 7820 } },
+        { "text": " mellem", "t0": 830, "t1": 996, "offsets": { "from": 8300, "to": 9960 } },
+        { "text": " 150", "t0": 1007, "t1": 1201, "offsets": { "from": 10070, "to": 12010 } },
+        { "text": " og", "t0": 1201, "t1": 1201, "offsets": { "from": 12010, "to": 12010 } },
+        { "text": " 200", "t0": 1201, "t1": 1201, "offsets": { "from": 12010, "to": 12010 } },
+        { "text": " kopier,", "t0": 1201, "t1": 1201, "offsets": { "from": 12010, "to": 12010 } },
+        { "text": " som", "t0": 1201, "t1": 1201, "offsets": { "from": 12010, "to": 12010 } },
+        { "text": " nu", "t0": 1201, "t1": 1201, "offsets": { "from": 12010, "to": 12010 } },
+        { "text": " er", "t0": 1201, "t1": 1201, "offsets": { "from": 12010, "to": 12010 } },
+        { "text": " kendt", "t0": 1201, "t1": 1201, "offsets": { "from": 12010, "to": 12010 } },
+        { "text": " som", "t0": 1201, "t1": 1201, "offsets": { "from": 12010, "to": 12010 } },
+        { "text": " Dunlop", "t0": 1201, "t1": 1201, "offsets": { "from": 12010, "to": 12010 } },
+        { "text": " Broadside.", "t0": 1201, "t1": 1201, "offsets": { "from": 12010, "to": 12010 } }
+      ],
+      "tokens": [
+        { "text": " G", "p": 0.802932, "t0": 36, "t1": 49, "offsets": { "from": 360, "to": 490 } },
+        { "text": "enn", "p": 0.998875, "t0": 50, "t1": 140, "offsets": { "from": 500, "to": 1400 } },
+        { "text": "em", "p": 0.998222, "t0": 213, "t1": 213, "offsets": { "from": 2130, "to": 2130 } },
+        { "text": " nat", "p": 0.999213, "t0": 218, "t1": 312, "offsets": { "from": 2180, "to": 3120 } },
+        { "text": "ten", "p": 0.994029, "t0": 312, "t1": 410, "offsets": { "from": 3120, "to": 4100 } },
+        { "text": " blev", "p": 0.919665, "t0": 410, "t1": 532, "offsets": { "from": 4100, "to": 5320 } },
+        { "text": " der", "p": 0.994979, "t0": 542, "t1": 640, "offsets": { "from": 5420, "to": 6400 } },
+        { "text": " la", "p": 0.98711, "t0": 640, "t1": 705, "offsets": { "from": 6400, "to": 7050 } },
+        { "text": "vet", "p": 0.999464, "t0": 705, "t1": 782, "offsets": { "from": 7050, "to": 7820 } },
+        { "text": " me", "p": 0.546998, "t0": 830, "t1": 870, "offsets": { "from": 8300, "to": 8700 } },
+        { "text": "ll", "p": 0.999674, "t0": 870, "t1": 907, "offsets": { "from": 8700, "to": 9070 } },
+        { "text": "em", "p": 0.999762, "t0": 907, "t1": 996, "offsets": { "from": 9070, "to": 9960 } },
+        { "text": " 150", "p": 0.99163, "t0": 1007, "t1": 1201, "offsets": { "from": 10070, "to": 12010 } },
+        { "text": " og", "p": 0.957706, "t0": 1201, "t1": 1201, "offsets": { "from": 12010, "to": 12010 } },
+        { "text": " 200", "p": 0.992138, "t0": 1201, "t1": 1201, "offsets": { "from": 12010, "to": 12010 } },
+        { "text": " kop", "p": 0.994949, "t0": 1201, "t1": 1201, "offsets": { "from": 12010, "to": 12010 } },
+        { "text": "ier", "p": 0.997982, "t0": 1201, "t1": 1201, "offsets": { "from": 12010, "to": 12010 } },
+        { "text": ",", "p": 0.739302, "t0": 1201, "t1": 1201, "offsets": { "from": 12010, "to": 12010 } },
+        { "text": " som", "p": 0.96947, "t0": 1201, "t1": 1201, "offsets": { "from": 12010, "to": 12010 } },
+        { "text": " nu", "p": 0.948395, "t0": 1201, "t1": 1201, "offsets": { "from": 12010, "to": 12010 } },
+        { "text": " er", "p": 0.995273, "t0": 1201, "t1": 1201, "offsets": { "from": 12010, "to": 12010 } },
+        { "text": " kend", "p": 0.996926, "t0": 1201, "t1": 1201, "offsets": { "from": 12010, "to": 12010 } },
+        { "text": "t", "p": 0.987892, "t0": 1201, "t1": 1201, "offsets": { "from": 12010, "to": 12010 } },
+        { "text": " som", "p": 0.994539, "t0": 1201, "t1": 1201, "offsets": { "from": 12010, "to": 12010 } },
+        { "text": " Dun", "p": 0.77843, "t0": 1201, "t1": 1201, "offsets": { "from": 12010, "to": 12010 } },
+        { "text": "l", "p": 0.983258, "t0": 1201, "t1": 1201, "offsets": { "from": 12010, "to": 12010 } },
+        { "text": "op", "p": 0.404497, "t0": 1201, "t1": 1201, "offsets": { "from": 12010, "to": 12010 } },
+        { "text": " Broad", "p": 0.199518, "t0": 1201, "t1": 1201, "offsets": { "from": 12010, "to": 12010 } },
+        { "text": "side", "p": 0.714758, "t0": 1201, "t1": 1201, "offsets": { "from": 12010, "to": 12010 } },
+        { "text": ".", "p": 0.835519, "t0": 1201, "t1": 1201, "offsets": { "from": 12010, "to": 12010 } }
+      ]
+    }
+  ]
+}

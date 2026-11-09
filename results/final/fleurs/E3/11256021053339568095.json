@@ -1,0 +1,66 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,170", "to": "00:00:30,170" },
+      "offsets":    { "from": 170, "to": 30170 },
+      "text":       " Det regerende parti, South West Africa People's Organisation, svarer på bevarede årsagflertal ved parlamentsvalget.",
+      "words": [
+        { "text": " Det", "t0": 36, "t1": 100, "offsets": { "from": 360, "to": 1000 } },
+        { "text": " regerende", "t0": 100, "t1": 348, "offsets": { "from": 1000, "to": 3480 } },
+        { "text": " parti,", "t0": 348, "t1": 541, "offsets": { "from": 3480, "to": 5410 } },
+        { "text": " South", "t0": 541, "t1": 579, "offsets": { "from": 5410, "to": 5790 } },
+        { "text": " West", "t0": 693, "t1": 790, "offsets": { "from": 6930, "to": 7900 } },
+        { "text": " Africa", "t0": 790, "t1": 956, "offsets": { "from": 7900, "to": 9560 } },
+        { "text": " People's", "t0": 956, "t1": 1175, "offsets": { "from": 9560, "to": 11750 } },
+        { "text": " Organisation,", "t0": 1184, "t1": 1391, "offsets": { "from": 11840, "to": 13910 } },
+        { "text": " svarer", "t0": 1391, "t1": 1391, "offsets": { "from": 13910, "to": 13910 } },
+        { "text": " på", "t0": 1391, "t1": 1391, "offsets": { "from": 13910, "to": 13910 } },
+        { "text": " bevarede", "t0": 1391, "t1": 1391, "offsets": { "from": 13910, "to": 13910 } },
+        { "text": " årsagflertal", "t0": 1391, "t1": 1391, "offsets": { "from": 13910, "to": 13910 } },
+        { "text": " ved", "t0": 1391, "t1": 1391, "offsets": { "from": 13910, "to": 13910 } },
+        { "text": " parlamentsvalget.", "t0": 1391, "t1": 1391, "offsets": { "from": 13910, "to": 13910 } }
+      ],
+      "tokens": [
+        { "text": " Det", "p": 0.832465, "t0": 36, "t1": 100, "offsets": { "from": 360, "to": 1000 } },
+        { "text": " reg", "p": 0.801449, "t0": 100, "t1": 183, "offsets": { "from": 1000, "to": 1830 } },
+        { "text": "er", "p": 0.972854, "t0": 205, "t1": 238, "offsets": { "from": 2050, "to": 2380 } },
+        { "text": "ende", "p": 0.998948, "t0": 238, "t1": 348, "offsets": { "from": 2380, "to": 3480 } },
+        { "text": " parti", "p": 0.948551, "t0": 348, "t1": 486, "offsets": { "from": 3480, "to": 4860 } },
+        { "text": ",", "p": 0.408711, "t0": 486, "t1": 541, "offsets": { "from": 4860, "to": 5410 } },
+        { "text": " South", "p": 0.551998, "t0": 541, "t1": 579, "offsets": { "from": 5410, "to": 5790 } },
+        { "text": " West", "p": 0.91471, "t0": 693, "t1": 790, "offsets": { "from": 6930, "to": 7900 } },
+        { "text": " Africa", "p": 0.869302, "t0": 790, "t1": 956, "offsets": { "from": 7900, "to": 9560 } },
+        { "text": " People", "p": 0.517197, "t0": 956, "t1": 1066, "offsets": { "from": 9560, "to": 10660 } },
+        { "text": "'s", "p": 0.936865, "t0": 1121, "t1": 1175, "offsets": { "from": 11210, "to": 11750 } },
+        { "text": " Organisation", "p": 0.887746, "t0": 1184, "t1": 1391, "offsets": { "from": 11840, "to": 13910 } },
+        { "text": ",", "p": 0.822038, "t0": 1391, "t1": 1391, "offsets": { "from": 13910, "to": 13910 } },
+        { "text": " s", "p": 0.906393, "t0": 1391, "t1": 1391, "offsets": { "from": 13910, "to": 13910 } },
+        { "text": "var", "p": 0.999653, "t0": 1391, "t1": 1391, "offsets": { "from": 13910, "to": 13910 } },
+        { "text": "er", "p": 0.952576, "t0": 1391, "t1": 1391, "offsets": { "from": 13910, "to": 13910 } },
+        { "text": " på", "p": 0.99795, "t0": 1391, "t1": 1391, "offsets": { "from": 13910, "to": 13910 } },
+        { "text": " be", "p": 0.624713, "t0": 1391, "t1": 1391, "offsets": { "from": 13910, "to": 13910 } },
+        { "text": "v", "p": 0.918254, "t0": 1391, "t1": 1391, "offsets": { "from": 13910, "to": 13910 } },
+        { "text": "are", "p": 0.504295, "t0": 1391, "t1": 1391, "offsets": { "from": 13910, "to": 13910 } },
+        { "text": "de", "p": 0.99024, "t0": 1391, "t1": 1391, "offsets": { "from": 13910, "to": 13910 } },
+        { "text": " år", "p": 0.889019, "t0": 1391, "t1": 1391, "offsets": { "from": 13910, "to": 13910 } },
+        { "text": "s", "p": 0.93296, "t0": 1391, "t1": 1391, "offsets": { "from": 13910, "to": 13910 } },
+        { "text": "ag", "p": 0.636449, "t0": 1391, "t1": 1391, "offsets": { "from": 13910, "to": 13910 } },
+        { "text": "fl", "p": 0.743805, "t0": 1391, "t1": 1391, "offsets": { "from": 13910, "to": 13910 } },
+        { "text": "ert", "p": 0.957742, "t0": 1391, "t1": 1391, "offsets": { "from": 13910, "to": 13910 } },
+        { "text": "al", "p": 0.94539, "t0": 1391, "t1": 1391, "offsets": { "from": 13910, "to": 13910 } },
+        { "text": " ved", "p": 0.993462, "t0": 1391, "t1": 1391, "offsets": { "from": 13910, "to": 13910 } },
+        { "text": " par", "p": 0.737869, "t0": 1391, "t1": 1391, "offsets": { "from": 13910, "to": 13910 } },
+        { "text": "lam", "p": 0.989415, "t0": 1391, "t1": 1391, "offsets": { "from": 13910, "to": 13910 } },
+        { "text": "ents", "p": 0.999763, "t0": 1391, "t1": 1391, "offsets": { "from": 13910, "to": 13910 } },
+        { "text": "val", "p": 0.997836, "t0": 1391, "t1": 1391, "offsets": { "from": 13910, "to": 13910 } },
+        { "text": "get", "p": 0.967477, "t0": 1391, "t1": 1391, "offsets": { "from": 13910, "to": 13910 } },
+        { "text": ".", "p": 0.883285, "t0": 1391, "t1": 1391, "offsets": { "from": 13910, "to": 13910 } }
+      ]
+    }
+  ]
+}

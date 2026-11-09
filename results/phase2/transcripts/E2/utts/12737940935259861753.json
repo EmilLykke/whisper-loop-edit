@@ -1,0 +1,60 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E2-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,840", "to": "00:00:30,840" },
+      "offsets":    { "from": 840, "to": 30840 },
+      "text":       " 13-årig motorcykel racer Peter Lenz er død i en ulykke på Indianapolis Motor Speedway.",
+      "words": [
+        { "text": " 13-årig", "t0": 105, "t1": 521, "offsets": { "from": 1050, "to": 5210 } },
+        { "text": " motorcykel", "t0": 521, "t1": 810, "offsets": { "from": 5210, "to": 8100 } },
+        { "text": " racer", "t0": 830, "t1": 830, "offsets": { "from": 8300, "to": 8300 } },
+        { "text": " Peter", "t0": 830, "t1": 830, "offsets": { "from": 8300, "to": 8300 } },
+        { "text": " Lenz", "t0": 830, "t1": 830, "offsets": { "from": 8300, "to": 8300 } },
+        { "text": " er", "t0": 830, "t1": 830, "offsets": { "from": 8300, "to": 8300 } },
+        { "text": " død", "t0": 830, "t1": 830, "offsets": { "from": 8300, "to": 8300 } },
+        { "text": " i", "t0": 830, "t1": 830, "offsets": { "from": 8300, "to": 8300 } },
+        { "text": " en", "t0": 830, "t1": 830, "offsets": { "from": 8300, "to": 8300 } },
+        { "text": " ulykke", "t0": 830, "t1": 830, "offsets": { "from": 8300, "to": 8300 } },
+        { "text": " på", "t0": 830, "t1": 830, "offsets": { "from": 8300, "to": 8300 } },
+        { "text": " Indianapolis", "t0": 830, "t1": 830, "offsets": { "from": 8300, "to": 8300 } },
+        { "text": " Motor", "t0": 830, "t1": 830, "offsets": { "from": 8300, "to": 8300 } },
+        { "text": " Speedway.", "t0": 830, "t1": 830, "offsets": { "from": 8300, "to": 8300 } }
+      ],
+      "tokens": [
+        { "text": " 13", "p": 0.864358, "t0": 105, "t1": 272, "offsets": { "from": 1050, "to": 2720 } },
+        { "text": "-", "p": 0.669649, "t0": 319, "t1": 339, "offsets": { "from": 3190, "to": 3390 } },
+        { "text": "år", "p": 0.985744, "t0": 339, "t1": 448, "offsets": { "from": 3390, "to": 4480 } },
+        { "text": "ig", "p": 0.739655, "t0": 448, "t1": 521, "offsets": { "from": 4480, "to": 5210 } },
+        { "text": " motor", "p": 0.680173, "t0": 521, "t1": 644, "offsets": { "from": 5210, "to": 6440 } },
+        { "text": "cy", "p": 0.979785, "t0": 707, "t1": 776, "offsets": { "from": 7070, "to": 7760 } },
+        { "text": "kel", "p": 0.797165, "t0": 776, "t1": 810, "offsets": { "from": 7760, "to": 8100 } },
+        { "text": " rac", "p": 0.633146, "t0": 830, "t1": 830, "offsets": { "from": 8300, "to": 8300 } },
+        { "text": "er", "p": 0.997765, "t0": 830, "t1": 830, "offsets": { "from": 8300, "to": 8300 } },
+        { "text": " Peter", "p": 0.43628, "t0": 830, "t1": 830, "offsets": { "from": 8300, "to": 8300 } },
+        { "text": " L", "p": 0.948672, "t0": 830, "t1": 830, "offsets": { "from": 8300, "to": 8300 } },
+        { "text": "enz", "p": 0.623345, "t0": 830, "t1": 830, "offsets": { "from": 8300, "to": 8300 } },
+        { "text": " er", "p": 0.91379, "t0": 830, "t1": 830, "offsets": { "from": 8300, "to": 8300 } },
+        { "text": " d", "p": 0.993894, "t0": 830, "t1": 830, "offsets": { "from": 8300, "to": 8300 } },
+        { "text": "ø", "p": 0.999773, "t0": 830, "t1": 830, "offsets": { "from": 8300, "to": 8300 } },
+        { "text": "d", "p": 0.998656, "t0": 830, "t1": 830, "offsets": { "from": 8300, "to": 8300 } },
+        { "text": " i", "p": 0.959801, "t0": 830, "t1": 830, "offsets": { "from": 8300, "to": 8300 } },
+        { "text": " en", "p": 0.921908, "t0": 830, "t1": 830, "offsets": { "from": 8300, "to": 8300 } },
+        { "text": " u", "p": 0.855035, "t0": 830, "t1": 830, "offsets": { "from": 8300, "to": 8300 } },
+        { "text": "ly", "p": 0.961867, "t0": 830, "t1": 830, "offsets": { "from": 8300, "to": 8300 } },
+        { "text": "kke", "p": 0.989157, "t0": 830, "t1": 830, "offsets": { "from": 8300, "to": 8300 } },
+        { "text": " på", "p": 0.983563, "t0": 830, "t1": 830, "offsets": { "from": 8300, "to": 8300 } },
+        { "text": " Indian", "p": 0.880053, "t0": 830, "t1": 830, "offsets": { "from": 8300, "to": 8300 } },
+        { "text": "apolis", "p": 0.973088, "t0": 830, "t1": 830, "offsets": { "from": 8300, "to": 8300 } },
+        { "text": " Motor", "p": 0.906068, "t0": 830, "t1": 830, "offsets": { "from": 8300, "to": 8300 } },
+        { "text": " Speed", "p": 0.995865, "t0": 830, "t1": 830, "offsets": { "from": 8300, "to": 8300 } },
+        { "text": "way", "p": 0.997088, "t0": 830, "t1": 830, "offsets": { "from": 8300, "to": 8300 } },
+        { "text": ".", "p": 0.80428, "t0": 830, "t1": 830, "offsets": { "from": 8300, "to": 8300 } }
+      ]
+    }
+  ]
+}

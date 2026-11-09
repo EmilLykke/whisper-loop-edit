@@ -1,0 +1,73 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,370", "to": "00:00:30,370" },
+      "offsets":    { "from": 370, "to": 30370 },
+      "text":       " Politikommissar Chandra Shekhar Solanki fortalte, at de anklagede møde i retten med deres ansigter tildækket.",
+      "words": [
+        { "text": " Politikommissar", "t0": 59, "t1": 476, "offsets": { "from": 590, "to": 4760 } },
+        { "text": " Chandra", "t0": 483, "t1": 684, "offsets": { "from": 4830, "to": 6840 } },
+        { "text": " Shekhar", "t0": 693, "t1": 767, "offsets": { "from": 6930, "to": 7670 } },
+        { "text": " Solanki", "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " fortalte,", "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " at", "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " de", "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " anklagede", "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " møde", "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " i", "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " retten", "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " med", "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " deres", "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " ansigter", "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " tildækket.", "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } }
+      ],
+      "tokens": [
+        { "text": " Polit", "p": 0.423989, "t0": 59, "t1": 178, "offsets": { "from": 590, "to": 1780 } },
+        { "text": "ik", "p": 0.574074, "t0": 189, "t1": 246, "offsets": { "from": 1890, "to": 2460 } },
+        { "text": "omm", "p": 0.999464, "t0": 246, "t1": 335, "offsets": { "from": 2460, "to": 3350 } },
+        { "text": "iss", "p": 0.995325, "t0": 335, "t1": 424, "offsets": { "from": 3350, "to": 4240 } },
+        { "text": "ar", "p": 0.515502, "t0": 424, "t1": 476, "offsets": { "from": 4240, "to": 4760 } },
+        { "text": " Ch", "p": 0.481781, "t0": 483, "t1": 541, "offsets": { "from": 4830, "to": 5410 } },
+        { "text": "andra", "p": 0.996058, "t0": 542, "t1": 684, "offsets": { "from": 5420, "to": 6840 } },
+        { "text": " She", "p": 0.570264, "t0": 693, "t1": 747, "offsets": { "from": 6930, "to": 7470 } },
+        { "text": "k", "p": 0.575614, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": "har", "p": 0.834407, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " Sol", "p": 0.763248, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": "anki", "p": 0.834789, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " fort", "p": 0.952655, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": "al", "p": 0.968335, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": "te", "p": 0.990856, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": ",", "p": 0.526908, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " at", "p": 0.982907, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " de", "p": 0.970406, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " an", "p": 0.91507, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": "kl", "p": 0.998605, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": "aged", "p": 0.889162, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": "e", "p": 0.999952, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " m", "p": 0.93492, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": "ø", "p": 0.999908, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": "de", "p": 0.65573, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " i", "p": 0.986316, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " ret", "p": 0.919191, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": "ten", "p": 0.994448, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " med", "p": 0.741674, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " der", "p": 0.988683, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": "es", "p": 0.999392, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " ans", "p": 0.99643, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": "ig", "p": 0.907861, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": "ter", "p": 0.939737, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " t", "p": 0.81646, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": "ild", "p": 0.978905, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": "æ", "p": 0.908366, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": "k", "p": 0.773502, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": "ket", "p": 0.99771, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": ".", "p": 0.947476, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } }
+      ]
+    }
+  ]
+}

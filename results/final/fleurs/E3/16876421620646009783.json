@@ -1,0 +1,46 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,800", "to": "00:00:30,800" },
+      "offsets":    { "from": 800, "to": 30800 },
+      "text":       " Det har givet os toget, bilen og mange andre transportnyder.",
+      "words": [
+        { "text": " Det", "t0": 100, "t1": 222, "offsets": { "from": 1000, "to": 2220 } },
+        { "text": " har", "t0": 269, "t1": 412, "offsets": { "from": 2690, "to": 4120 } },
+        { "text": " givet", "t0": 412, "t1": 573, "offsets": { "from": 4120, "to": 5730 } },
+        { "text": " os", "t0": 573, "t1": 573, "offsets": { "from": 5730, "to": 5730 } },
+        { "text": " toget,", "t0": 573, "t1": 573, "offsets": { "from": 5730, "to": 5730 } },
+        { "text": " bilen", "t0": 573, "t1": 573, "offsets": { "from": 5730, "to": 5730 } },
+        { "text": " og", "t0": 573, "t1": 573, "offsets": { "from": 5730, "to": 5730 } },
+        { "text": " mange", "t0": 573, "t1": 573, "offsets": { "from": 5730, "to": 5730 } },
+        { "text": " andre", "t0": 573, "t1": 573, "offsets": { "from": 5730, "to": 5730 } },
+        { "text": " transportnyder.", "t0": 573, "t1": 573, "offsets": { "from": 5730, "to": 5730 } }
+      ],
+      "tokens": [
+        { "text": " Det", "p": 0.447414, "t0": 100, "t1": 222, "offsets": { "from": 1000, "to": 2220 } },
+        { "text": " har", "p": 0.854592, "t0": 269, "t1": 412, "offsets": { "from": 2690, "to": 4120 } },
+        { "text": " g", "p": 0.994981, "t0": 412, "t1": 461, "offsets": { "from": 4120, "to": 4610 } },
+        { "text": "iv", "p": 0.999354, "t0": 468, "t1": 573, "offsets": { "from": 4680, "to": 5730 } },
+        { "text": "et", "p": 0.999775, "t0": 573, "t1": 573, "offsets": { "from": 5730, "to": 5730 } },
+        { "text": " os", "p": 0.838643, "t0": 573, "t1": 573, "offsets": { "from": 5730, "to": 5730 } },
+        { "text": " toget", "p": 0.941251, "t0": 573, "t1": 573, "offsets": { "from": 5730, "to": 5730 } },
+        { "text": ",", "p": 0.977499, "t0": 573, "t1": 573, "offsets": { "from": 5730, "to": 5730 } },
+        { "text": " bil", "p": 0.991307, "t0": 573, "t1": 573, "offsets": { "from": 5730, "to": 5730 } },
+        { "text": "en", "p": 0.967527, "t0": 573, "t1": 573, "offsets": { "from": 5730, "to": 5730 } },
+        { "text": " og", "p": 0.917165, "t0": 573, "t1": 573, "offsets": { "from": 5730, "to": 5730 } },
+        { "text": " mange", "p": 0.993004, "t0": 573, "t1": 573, "offsets": { "from": 5730, "to": 5730 } },
+        { "text": " and", "p": 0.991989, "t0": 573, "t1": 573, "offsets": { "from": 5730, "to": 5730 } },
+        { "text": "re", "p": 0.994937, "t0": 573, "t1": 573, "offsets": { "from": 5730, "to": 5730 } },
+        { "text": " transport", "p": 0.995695, "t0": 573, "t1": 573, "offsets": { "from": 5730, "to": 5730 } },
+        { "text": "ny", "p": 0.510884, "t0": 573, "t1": 573, "offsets": { "from": 5730, "to": 5730 } },
+        { "text": "der", "p": 0.945664, "t0": 573, "t1": 573, "offsets": { "from": 5730, "to": 5730 } },
+        { "text": ".", "p": 0.898555, "t0": 573, "t1": 573, "offsets": { "from": 5730, "to": 5730 } }
+      ]
+    }
+  ]
+}

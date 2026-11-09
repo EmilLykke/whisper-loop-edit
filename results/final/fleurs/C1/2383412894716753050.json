@@ -1,0 +1,50 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,460", "to": "00:00:30,460" },
+      "offsets":    { "from": 460, "to": 30460 },
+      "text":       " Mellem 10 til 11, MDT startede indsats, en brand i gården.",
+      "words": [
+        { "text": " Mellem", "t0": 69, "t1": 294, "offsets": { "from": 690, "to": 2940 } },
+        { "text": " 10", "t0": 387, "t1": 559, "offsets": { "from": 3870, "to": 5590 } },
+        { "text": " til", "t0": 662, "t1": 774, "offsets": { "from": 6620, "to": 7740 } },
+        { "text": " 11,", "t0": 786, "t1": 929, "offsets": { "from": 7860, "to": 9290 } },
+        { "text": " MDT", "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": " startede", "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": " indsats,", "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": " en", "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": " brand", "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": " i", "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": " gården.", "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } }
+      ],
+      "tokens": [
+        { "text": " M", "p": 0.542766, "t0": 69, "t1": 94, "offsets": { "from": 690, "to": 940 } },
+        { "text": "ell", "p": 0.977403, "t0": 94, "t1": 242, "offsets": { "from": 940, "to": 2420 } },
+        { "text": "em", "p": 0.998502, "t0": 242, "t1": 294, "offsets": { "from": 2420, "to": 2940 } },
+        { "text": " 10", "p": 0.929037, "t0": 387, "t1": 559, "offsets": { "from": 3870, "to": 5590 } },
+        { "text": " til", "p": 0.461573, "t0": 662, "t1": 774, "offsets": { "from": 6620, "to": 7740 } },
+        { "text": " 11", "p": 0.979425, "t0": 786, "t1": 929, "offsets": { "from": 7860, "to": 9290 } },
+        { "text": ",", "p": 0.340953, "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": " MD", "p": 0.696105, "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": "T", "p": 0.99915, "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": " started", "p": 0.929854, "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": "e", "p": 0.999544, "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": " ind", "p": 0.978698, "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": "s", "p": 0.999245, "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": "ats", "p": 0.902357, "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": ",", "p": 0.298043, "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": " en", "p": 0.923262, "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": " brand", "p": 0.822224, "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": " i", "p": 0.944195, "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": " går", "p": 0.984742, "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": "den", "p": 0.997541, "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": ".", "p": 0.838356, "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } }
+      ]
+    }
+  ]
+}

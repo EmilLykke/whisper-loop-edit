@@ -1,0 +1,26 @@
+{
+  "path": "nt",
+  "clip": "codictate_da_2min",
+  "run": 1,
+  "argv": [
+    "../codictate/vendors/crispasr/crispasr",
+    "-m",
+    "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "-t",
+    "14",
+    "--language",
+    "da",
+    "-f",
+    "data/clips/codictate/codictate_da_2min.wav",
+    "--no-prints",
+    "-nt",
+    "-ojf",
+    "-of",
+    "results/final/extras/codictate/E3/nt/codictate_da_2min.run1"
+  ],
+  "wallSeconds": 7.29,
+  "exitCode": 0,
+  "error": null,
+  "stdoutBytes": 990,
+  "stderrTail": "output_json: saving output to 'results/final/extras/codictate/E3/nt/codictate_da_2min.run1.json'\n"
+}

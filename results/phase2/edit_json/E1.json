@@ -1,0 +1,65 @@
+{
+ "id": "E1",
+ "description": "zero self-attn heads L12H13, L25H18",
+ "formula": [
+  "for (L, h) in heads: model.decoder.layers.L.self_attn.out_proj.weight[:, 64h:64h+64] <- 0"
+ ],
+ "heads": [
+  "L12H13",
+  "L25H18"
+ ],
+ "direction": null,
+ "seeds": null,
+ "compute": "fp32 from the fp16 originals, rounded once to fp16 (round-to-nearest-even)",
+ "base": {
+  "path": "models/hf/whisper-large-v3/model.safetensors",
+  "sha256": "a8e94b85976e5864ba3e9525c7e6c83b2a1eca42d4b797a0c7c24d778e40fd95"
+ },
+ "tensors_touched": [
+  {
+   "name": "model.decoder.layers.12.self_attn.out_proj.weight",
+   "ggml": "decoder.blocks.12.attn.out.weight",
+   "shape": [
+    1280,
+    1280
+   ],
+   "rel_frobenius_change": 0.23930540680885315,
+   "max_abs_change": 0.0865478515625,
+   "fp16_rounding_max_abs": 0.0,
+   "unchanged_after_rounding": false
+  },
+  {
+   "name": "model.decoder.layers.25.self_attn.out_proj.weight",
+   "ggml": "decoder.blocks.25.attn.out.weight",
+   "shape": [
+    1280,
+    1280
+   ],
+   "rel_frobenius_change": 0.2873765826225281,
+   "max_abs_change": 0.0968017578125,
+   "fp16_rounding_max_abs": 0.0,
+   "unchanged_after_rounding": false
+  }
+ ],
+ "n_tensors_touched": 2,
+ "safetensors_sha256": "ae346c0bbf6e0a8d94ea603cc8396476e7377403d491905ac8a97609f8df3a8e",
+ "script": {
+  "path": "scripts/phase2_edit.py",
+  "sha256": "998fd7f0b68ec5668c20d4b3188871b06c65325a2d5b46ab42547cc49dba0261"
+ },
+ "built": "2026-11-08T17:42:16",
+ "ggml": {
+  "path": "models/ggml/edits/ggml-large-v3-E1-f16.bin",
+  "sha256": "4eed39becc855e4eac13486d21ccaa83a2ba003ab4cc9ae66c69af7cedfa10cc",
+  "bytes": 3095053647,
+  "verified_against_hf_fp16": {
+   "checked": 1259,
+   "touched": 2,
+   "touched_equal": 2,
+   "mismatches": [],
+   "touched_missing": [],
+   "ggml_tensors": 1259,
+   "hf_unmatched": []
+  }
+ }
+}

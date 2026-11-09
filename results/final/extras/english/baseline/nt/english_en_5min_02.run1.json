@@ -1,0 +1,3686 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | ACCELERATE = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "large",
+		"multilingual": true,
+		"vocab": 51866,
+		"audio": {
+			"ctx": 1500,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"mels": 128,
+		"ftype": 1
+	},
+	"params": {
+		"model": "models/ggml/ggml-large-v3-ours-f16.bin",
+		"language": "en",
+		"translate": false
+	},
+	"result": {
+		"language": "en"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:-16:-47,-300",
+				"to": "00:00:30,000"
+			},
+			"offsets": {
+				"from": -1007300,
+				"to": 30000
+			},
+			"text": " The patient had been to Nigeria where some cases of the Ebola virus have occurred.",
+			"tokens": [
+				{
+					"text": " The",
+					"id": 440,
+					"p": 0.405116,
+					"t_dtw": -1
+				},
+				{
+					"text": " patient",
+					"id": 4537,
+					"p": 0.96729,
+					"t_dtw": -1
+				},
+				{
+					"text": " had",
+					"id": 632,
+					"p": 0.956282,
+					"t_dtw": -1
+				},
+				{
+					"text": " been",
+					"id": 668,
+					"p": 0.996519,
+					"t_dtw": -1
+				},
+				{
+					"text": " to",
+					"id": 281,
+					"p": 0.980486,
+					"t_dtw": -1
+				},
+				{
+					"text": " Nigeria",
+					"id": 28828,
+					"p": 0.977718,
+					"t_dtw": -1
+				},
+				{
+					"text": " where",
+					"id": 689,
+					"p": 0.789439,
+					"t_dtw": -1
+				},
+				{
+					"text": " some",
+					"id": 512,
+					"p": 0.995076,
+					"t_dtw": -1
+				},
+				{
+					"text": " cases",
+					"id": 3331,
+					"p": 0.988086,
+					"t_dtw": -1
+				},
+				{
+					"text": " of",
+					"id": 295,
+					"p": 0.993489,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.95444,
+					"t_dtw": -1
+				},
+				{
+					"text": " Ebola",
+					"id": 37846,
+					"p": 0.799267,
+					"t_dtw": -1
+				},
+				{
+					"text": " virus",
+					"id": 5752,
+					"p": 0.91145,
+					"t_dtw": -1
+				},
+				{
+					"text": " have",
+					"id": 362,
+					"p": 0.962593,
+					"t_dtw": -1
+				},
+				{
+					"text": " occurred",
+					"id": 11068,
+					"p": 0.949679,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.643531,
+					"t_dtw": -1
+				},
+				{
+					"text": "<|endoftext|>",
+					"timestamps": {
+						"from": "00:00:30,000",
+						"to": "00:00:30,000"
+					},
+					"offsets": {
+						"from": 30000,
+						"to": 30000
+					},
+					"id": 50257,
+					"p": 0.946931,
+					"t_dtw": -1
+				}
+			]
+		},
+		{
+			"timestamps": {
+				"from": "00:-16:-17,-300",
+				"to": "00:01:00,000"
+			},
+			"offsets": {
+				"from": -977300,
+				"to": 60000
+			},
+			"text": " When the fighting ceased after the wounded were transported to the hospital, about 40 of the other remaining inmates stayed in the yard and refused to return to their cells.",
+			"tokens": [
+				{
+					"text": " When",
+					"id": 1133,
+					"p": 0.266821,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.97847,
+					"t_dtw": -1
+				},
+				{
+					"text": " fighting",
+					"id": 5237,
+					"p": 0.967482,
+					"t_dtw": -1
+				},
+				{
+					"text": " ceased",
+					"id": 49917,
+					"p": 0.971193,
+					"t_dtw": -1
+				},
+				{
+					"text": " after",
+					"id": 934,
+					"p": 0.500811,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.991238,
+					"t_dtw": -1
+				},
+				{
+					"text": " wounded",
+					"id": 21906,
+					"p": 0.996632,
+					"t_dtw": -1
+				},
+				{
+					"text": " were",
+					"id": 645,
+					"p": 0.98995,
+					"t_dtw": -1
+				},
+				{
+					"text": " transported",
+					"id": 29373,
+					"p": 0.987345,
+					"t_dtw": -1
+				},
+				{
+					"text": " to",
+					"id": 281,
+					"p": 0.984406,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.945496,
+					"t_dtw": -1
+				},
+				{
+					"text": " hospital",
+					"id": 4530,
+					"p": 0.988898,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.679706,
+					"t_dtw": -1
+				},
+				{
+					"text": " about",
+					"id": 466,
+					"p": 0.967378,
+					"t_dtw": -1
+				},
+				{
+					"text": " 40",
+					"id": 3356,
+					"p": 0.84874,
+					"t_dtw": -1
+				},
+				{
+					"text": " of",
+					"id": 295,
+					"p": 0.964415,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.977256,
+					"t_dtw": -1
+				},
+				{
+					"text": " other",
+					"id": 661,
+					"p": 0.667678,
+					"t_dtw": -1
+				},
+				{
+					"text": " remaining",
+					"id": 8877,
+					"p": 0.97571,
+					"t_dtw": -1
+				},
+				{
+					"text": " inmates",
+					"id": 39479,
+					"p": 0.972183,
+					"t_dtw": -1
+				},
+				{
+					"text": " stayed",
+					"id": 9181,
+					"p": 0.971866,
+					"t_dtw": -1
+				},
+				{
+					"text": " in",
+					"id": 294,
+					"p": 0.988555,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.978416,
+					"t_dtw": -1
+				},
+				{
+					"text": " yard",
+					"id": 11682,
+					"p": 0.968852,
+					"t_dtw": -1
+				},
+				{
+					"text": " and",
+					"id": 293,
+					"p": 0.977051,
+					"t_dtw": -1
+				},
+				{
+					"text": " refused",
+					"id": 14654,
+					"p": 0.986769,
+					"t_dtw": -1
+				},
+				{
+					"text": " to",
+					"id": 281,
+					"p": 0.979804,
+					"t_dtw": -1
+				},
+				{
+					"text": " return",
+					"id": 2736,
+					"p": 0.985143,
+					"t_dtw": -1
+				},
+				{
+					"text": " to",
+					"id": 281,
+					"p": 0.959693,
+					"t_dtw": -1
+				},
+				{
+					"text": " their",
+					"id": 641,
+					"p": 0.835152,
+					"t_dtw": -1
+				},
+				{
+					"text": " cells",
+					"id": 5438,
+					"p": 0.510649,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.971618,
+					"t_dtw": -1
+				},
+				{
+					"text": "<|endoftext|>",
+					"timestamps": {
+						"from": "00:01:00,000",
+						"to": "00:01:00,000"
+					},
+					"offsets": {
+						"from": 60000,
+						"to": 60000
+					},
+					"id": 50257,
+					"p": 0.934712,
+					"t_dtw": -1
+				}
+			]
+		},
+		{
+			"timestamps": {
+				"from": "00:-15:-47,-300",
+				"to": "00:01:30,000"
+			},
+			"offsets": {
+				"from": -947300,
+				"to": 90000
+			},
+			"text": " The Amazon is also the wildest river on earth at times six miles wide. The forests aren't just man-grown songs though. They include some of the last remaining scenes of the mighty jungles which once covered the Gangetic Plain. Please treat this site with all the dignity, solemnity, and respected deserts. Do not make jokes about the Holocaust or Nazis.",
+			"tokens": [
+				{
+					"text": " The",
+					"id": 440,
+					"p": 0.850017,
+					"t_dtw": -1
+				},
+				{
+					"text": " Amazon",
+					"id": 6795,
+					"p": 0.983522,
+					"t_dtw": -1
+				},
+				{
+					"text": " is",
+					"id": 307,
+					"p": 0.972464,
+					"t_dtw": -1
+				},
+				{
+					"text": " also",
+					"id": 611,
+					"p": 0.981704,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.991138,
+					"t_dtw": -1
+				},
+				{
+					"text": " wild",
+					"id": 4868,
+					"p": 0.988133,
+					"t_dtw": -1
+				},
+				{
+					"text": "est",
+					"id": 377,
+					"p": 0.998618,
+					"t_dtw": -1
+				},
+				{
+					"text": " river",
+					"id": 6810,
+					"p": 0.984097,
+					"t_dtw": -1
+				},
+				{
+					"text": " on",
+					"id": 322,
+					"p": 0.989579,
+					"t_dtw": -1
+				},
+				{
+					"text": " earth",
+					"id": 4120,
+					"p": 0.603497,
+					"t_dtw": -1
+				},
+				{
+					"text": " at",
+					"id": 412,
+					"p": 0.896255,
+					"t_dtw": -1
+				},
+				{
+					"text": " times",
+					"id": 1413,
+					"p": 0.976843,
+					"t_dtw": -1
+				},
+				{
+					"text": " six",
+					"id": 2309,
+					"p": 0.539464,
+					"t_dtw": -1
+				},
+				{
+					"text": " miles",
+					"id": 6193,
+					"p": 0.986515,
+					"t_dtw": -1
+				},
+				{
+					"text": " wide",
+					"id": 4874,
+					"p": 0.996194,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.916141,
+					"t_dtw": -1
+				},
+				{
+					"text": " The",
+					"id": 440,
+					"p": 0.681921,
+					"t_dtw": -1
+				},
+				{
+					"text": " forests",
+					"id": 21700,
+					"p": 0.805611,
+					"t_dtw": -1
+				},
+				{
+					"text": " aren",
+					"id": 3212,
+					"p": 0.950278,
+					"t_dtw": -1
+				},
+				{
+					"text": "'t",
+					"id": 380,
+					"p": 0.996556,
+					"t_dtw": -1
+				},
+				{
+					"text": " just",
+					"id": 445,
+					"p": 0.995152,
+					"t_dtw": -1
+				},
+				{
+					"text": " man",
+					"id": 587,
+					"p": 0.982909,
+					"t_dtw": -1
+				},
+				{
+					"text": "-",
+					"id": 12,
+					"p": 0.817507,
+					"t_dtw": -1
+				},
+				{
+					"text": "grown",
+					"id": 38413,
+					"p": 0.538216,
+					"t_dtw": -1
+				},
+				{
+					"text": " songs",
+					"id": 5781,
+					"p": 0.253998,
+					"t_dtw": -1
+				},
+				{
+					"text": " though",
+					"id": 1673,
+					"p": 0.710625,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.566828,
+					"t_dtw": -1
+				},
+				{
+					"text": " They",
+					"id": 814,
+					"p": 0.975203,
+					"t_dtw": -1
+				},
+				{
+					"text": " include",
+					"id": 4090,
+					"p": 0.986205,
+					"t_dtw": -1
+				},
+				{
+					"text": " some",
+					"id": 512,
+					"p": 0.988039,
+					"t_dtw": -1
+				},
+				{
+					"text": " of",
+					"id": 295,
+					"p": 0.990208,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.991877,
+					"t_dtw": -1
+				},
+				{
+					"text": " last",
+					"id": 1036,
+					"p": 0.994843,
+					"t_dtw": -1
+				},
+				{
+					"text": " remaining",
+					"id": 8877,
+					"p": 0.977948,
+					"t_dtw": -1
+				},
+				{
+					"text": " scenes",
+					"id": 8026,
+					"p": 0.298591,
+					"t_dtw": -1
+				},
+				{
+					"text": " of",
+					"id": 295,
+					"p": 0.946949,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.935927,
+					"t_dtw": -1
+				},
+				{
+					"text": " mighty",
+					"id": 21556,
+					"p": 0.912865,
+					"t_dtw": -1
+				},
+				{
+					"text": " jung",
+					"id": 14202,
+					"p": 0.874911,
+					"t_dtw": -1
+				},
+				{
+					"text": "les",
+					"id": 904,
+					"p": 0.999394,
+					"t_dtw": -1
+				},
+				{
+					"text": " which",
+					"id": 597,
+					"p": 0.795983,
+					"t_dtw": -1
+				},
+				{
+					"text": " once",
+					"id": 1564,
+					"p": 0.996411,
+					"t_dtw": -1
+				},
+				{
+					"text": " covered",
+					"id": 5343,
+					"p": 0.989989,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.991176,
+					"t_dtw": -1
+				},
+				{
+					"text": " Gang",
+					"id": 17984,
+					"p": 0.589466,
+					"t_dtw": -1
+				},
+				{
+					"text": "etic",
+					"id": 3532,
+					"p": 0.989478,
+					"t_dtw": -1
+				},
+				{
+					"text": " Pl",
+					"id": 2149,
+					"p": 0.535983,
+					"t_dtw": -1
+				},
+				{
+					"text": "ain",
+					"id": 491,
+					"p": 0.68528,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.923955,
+					"t_dtw": -1
+				},
+				{
+					"text": " Please",
+					"id": 2555,
+					"p": 0.71591,
+					"t_dtw": -1
+				},
+				{
+					"text": " treat",
+					"id": 2387,
+					"p": 0.99835,
+					"t_dtw": -1
+				},
+				{
+					"text": " this",
+					"id": 341,
+					"p": 0.875118,
+					"t_dtw": -1
+				},
+				{
+					"text": " site",
+					"id": 3621,
+					"p": 0.942159,
+					"t_dtw": -1
+				},
+				{
+					"text": " with",
+					"id": 365,
+					"p": 0.995296,
+					"t_dtw": -1
+				},
+				{
+					"text": " all",
+					"id": 439,
+					"p": 0.980077,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.649669,
+					"t_dtw": -1
+				},
+				{
+					"text": " dignity",
+					"id": 19672,
+					"p": 0.950795,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.949899,
+					"t_dtw": -1
+				},
+				{
+					"text": " solem",
+					"id": 43519,
+					"p": 0.996424,
+					"t_dtw": -1
+				},
+				{
+					"text": "nity",
+					"id": 28120,
+					"p": 0.994894,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.638038,
+					"t_dtw": -1
+				},
+				{
+					"text": " and",
+					"id": 293,
+					"p": 0.993021,
+					"t_dtw": -1
+				},
+				{
+					"text": " respected",
+					"id": 20020,
+					"p": 0.528297,
+					"t_dtw": -1
+				},
+				{
+					"text": " desert",
+					"id": 11029,
+					"p": 0.333833,
+					"t_dtw": -1
+				},
+				{
+					"text": "s",
+					"id": 82,
+					"p": 0.451764,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.935447,
+					"t_dtw": -1
+				},
+				{
+					"text": " Do",
+					"id": 1144,
+					"p": 0.605416,
+					"t_dtw": -1
+				},
+				{
+					"text": " not",
+					"id": 406,
+					"p": 0.995644,
+					"t_dtw": -1
+				},
+				{
+					"text": " make",
+					"id": 652,
+					"p": 0.990125,
+					"t_dtw": -1
+				},
+				{
+					"text": " jokes",
+					"id": 14439,
+					"p": 0.982043,
+					"t_dtw": -1
+				},
+				{
+					"text": " about",
+					"id": 466,
+					"p": 0.995182,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.936783,
+					"t_dtw": -1
+				},
+				{
+					"text": " Holocaust",
+					"id": 28399,
+					"p": 0.853106,
+					"t_dtw": -1
+				},
+				{
+					"text": " or",
+					"id": 420,
+					"p": 0.929603,
+					"t_dtw": -1
+				},
+				{
+					"text": " Nazis",
+					"id": 29812,
+					"p": 0.846252,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.938826,
+					"t_dtw": -1
+				},
+				{
+					"text": "<|endoftext|>",
+					"timestamps": {
+						"from": "00:01:30,000",
+						"to": "00:01:30,000"
+					},
+					"offsets": {
+						"from": 90000,
+						"to": 90000
+					},
+					"id": 50257,
+					"p": 0.986363,
+					"t_dtw": -1
+				}
+			]
+		},
+		{
+			"timestamps": {
+				"from": "00:-15:-17,-300",
+				"to": "00:02:00,000"
+			},
+			"offsets": {
+				"from": -917300,
+				"to": 120000
+			},
+			"text": " Most of the life of the Hebrew family happened in the open air. Across the United States of America there are approximately 400,000 known cases of multiple sclerosis leaving it as the leading neurological disease in younger and middle-aged Americans.",
+			"tokens": [
+				{
+					"text": " Most",
+					"id": 4534,
+					"p": 0.53868,
+					"t_dtw": -1
+				},
+				{
+					"text": " of",
+					"id": 295,
+					"p": 0.994143,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.998114,
+					"t_dtw": -1
+				},
+				{
+					"text": " life",
+					"id": 993,
+					"p": 0.951161,
+					"t_dtw": -1
+				},
+				{
+					"text": " of",
+					"id": 295,
+					"p": 0.996402,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.996943,
+					"t_dtw": -1
+				},
+				{
+					"text": " Hebrew",
+					"id": 17895,
+					"p": 0.983023,
+					"t_dtw": -1
+				},
+				{
+					"text": " family",
+					"id": 1605,
+					"p": 0.924433,
+					"t_dtw": -1
+				},
+				{
+					"text": " happened",
+					"id": 2011,
+					"p": 0.756641,
+					"t_dtw": -1
+				},
+				{
+					"text": " in",
+					"id": 294,
+					"p": 0.994486,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.992509,
+					"t_dtw": -1
+				},
+				{
+					"text": " open",
+					"id": 1269,
+					"p": 0.998654,
+					"t_dtw": -1
+				},
+				{
+					"text": " air",
+					"id": 1988,
+					"p": 0.97848,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.901366,
+					"t_dtw": -1
+				},
+				{
+					"text": " Across",
+					"id": 34527,
+					"p": 0.835267,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.992112,
+					"t_dtw": -1
+				},
+				{
+					"text": " United",
+					"id": 2824,
+					"p": 0.976657,
+					"t_dtw": -1
+				},
+				{
+					"text": " States",
+					"id": 3040,
+					"p": 0.992371,
+					"t_dtw": -1
+				},
+				{
+					"text": " of",
+					"id": 295,
+					"p": 0.991333,
+					"t_dtw": -1
+				},
+				{
+					"text": " America",
+					"id": 3374,
+					"p": 0.997524,
+					"t_dtw": -1
+				},
+				{
+					"text": " there",
+					"id": 456,
+					"p": 0.519177,
+					"t_dtw": -1
+				},
+				{
+					"text": " are",
+					"id": 366,
+					"p": 0.992877,
+					"t_dtw": -1
+				},
+				{
+					"text": " approximately",
+					"id": 10447,
+					"p": 0.99322,
+					"t_dtw": -1
+				},
+				{
+					"text": " 400",
+					"id": 8423,
+					"p": 0.902202,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.94995,
+					"t_dtw": -1
+				},
+				{
+					"text": "000",
+					"id": 1360,
+					"p": 0.996193,
+					"t_dtw": -1
+				},
+				{
+					"text": " known",
+					"id": 2570,
+					"p": 0.973017,
+					"t_dtw": -1
+				},
+				{
+					"text": " cases",
+					"id": 3331,
+					"p": 0.986927,
+					"t_dtw": -1
+				},
+				{
+					"text": " of",
+					"id": 295,
+					"p": 0.979996,
+					"t_dtw": -1
+				},
+				{
+					"text": " multiple",
+					"id": 3866,
+					"p": 0.686608,
+					"t_dtw": -1
+				},
+				{
+					"text": " sc",
+					"id": 795,
+					"p": 0.996166,
+					"t_dtw": -1
+				},
+				{
+					"text": "ler",
+					"id": 1918,
+					"p": 0.9983,
+					"t_dtw": -1
+				},
+				{
+					"text": "osis",
+					"id": 8211,
+					"p": 0.9965,
+					"t_dtw": -1
+				},
+				{
+					"text": " leaving",
+					"id": 5012,
+					"p": 0.600015,
+					"t_dtw": -1
+				},
+				{
+					"text": " it",
+					"id": 309,
+					"p": 0.979923,
+					"t_dtw": -1
+				},
+				{
+					"text": " as",
+					"id": 382,
+					"p": 0.973708,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.980653,
+					"t_dtw": -1
+				},
+				{
+					"text": " leading",
+					"id": 5775,
+					"p": 0.982,
+					"t_dtw": -1
+				},
+				{
+					"text": " neurological",
+					"id": 48185,
+					"p": 0.950238,
+					"t_dtw": -1
+				},
+				{
+					"text": " disease",
+					"id": 4752,
+					"p": 0.979113,
+					"t_dtw": -1
+				},
+				{
+					"text": " in",
+					"id": 294,
+					"p": 0.839888,
+					"t_dtw": -1
+				},
+				{
+					"text": " younger",
+					"id": 7037,
+					"p": 0.770246,
+					"t_dtw": -1
+				},
+				{
+					"text": " and",
+					"id": 293,
+					"p": 0.9671,
+					"t_dtw": -1
+				},
+				{
+					"text": " middle",
+					"id": 2808,
+					"p": 0.957768,
+					"t_dtw": -1
+				},
+				{
+					"text": "-",
+					"id": 12,
+					"p": 0.317843,
+					"t_dtw": -1
+				},
+				{
+					"text": "aged",
+					"id": 2980,
+					"p": 0.954034,
+					"t_dtw": -1
+				},
+				{
+					"text": " Americans",
+					"id": 6280,
+					"p": 0.222409,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.839727,
+					"t_dtw": -1
+				},
+				{
+					"text": "<|endoftext|>",
+					"timestamps": {
+						"from": "00:02:00,000",
+						"to": "00:02:00,000"
+					},
+					"offsets": {
+						"from": 120000,
+						"to": 120000
+					},
+					"id": 50257,
+					"p": 0.969595,
+					"t_dtw": -1
+				}
+			]
+		},
+		{
+			"timestamps": {
+				"from": "00:-14:-47,-300",
+				"to": "00:02:30,000"
+			},
+			"offsets": {
+				"from": -887300,
+				"to": 150000
+			},
+			"text": " Some reports put the official death squad 8 and official reports confirm that up to 30 were injured but final numbers are not yet known. Soon, officers equipped with riot gear entered the yard and cornered the inmates with tear gas. The Tibetan Buddhism is based on the teachings of Buddha but were extended by the Myana Path of Love and Biological",
+			"tokens": [
+				{
+					"text": " Some",
+					"id": 2188,
+					"p": 0.336487,
+					"t_dtw": -1
+				},
+				{
+					"text": " reports",
+					"id": 7122,
+					"p": 0.965117,
+					"t_dtw": -1
+				},
+				{
+					"text": " put",
+					"id": 829,
+					"p": 0.859127,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.981963,
+					"t_dtw": -1
+				},
+				{
+					"text": " official",
+					"id": 4783,
+					"p": 0.881282,
+					"t_dtw": -1
+				},
+				{
+					"text": " death",
+					"id": 2966,
+					"p": 0.661117,
+					"t_dtw": -1
+				},
+				{
+					"text": " squad",
+					"id": 15310,
+					"p": 0.774043,
+					"t_dtw": -1
+				},
+				{
+					"text": " 8",
+					"id": 1649,
+					"p": 0.382098,
+					"t_dtw": -1
+				},
+				{
+					"text": " and",
+					"id": 293,
+					"p": 0.716477,
+					"t_dtw": -1
+				},
+				{
+					"text": " official",
+					"id": 4783,
+					"p": 0.941495,
+					"t_dtw": -1
+				},
+				{
+					"text": " reports",
+					"id": 7122,
+					"p": 0.98352,
+					"t_dtw": -1
+				},
+				{
+					"text": " confirm",
+					"id": 9064,
+					"p": 0.856116,
+					"t_dtw": -1
+				},
+				{
+					"text": " that",
+					"id": 300,
+					"p": 0.933634,
+					"t_dtw": -1
+				},
+				{
+					"text": " up",
+					"id": 493,
+					"p": 0.930947,
+					"t_dtw": -1
+				},
+				{
+					"text": " to",
+					"id": 281,
+					"p": 0.988812,
+					"t_dtw": -1
+				},
+				{
+					"text": " 30",
+					"id": 2217,
+					"p": 0.967051,
+					"t_dtw": -1
+				},
+				{
+					"text": " were",
+					"id": 645,
+					"p": 0.842382,
+					"t_dtw": -1
+				},
+				{
+					"text": " injured",
+					"id": 13408,
+					"p": 0.994239,
+					"t_dtw": -1
+				},
+				{
+					"text": " but",
+					"id": 457,
+					"p": 0.845412,
+					"t_dtw": -1
+				},
+				{
+					"text": " final",
+					"id": 2572,
+					"p": 0.909788,
+					"t_dtw": -1
+				},
+				{
+					"text": " numbers",
+					"id": 3547,
+					"p": 0.965723,
+					"t_dtw": -1
+				},
+				{
+					"text": " are",
+					"id": 366,
+					"p": 0.98272,
+					"t_dtw": -1
+				},
+				{
+					"text": " not",
+					"id": 406,
+					"p": 0.987828,
+					"t_dtw": -1
+				},
+				{
+					"text": " yet",
+					"id": 1939,
+					"p": 0.968021,
+					"t_dtw": -1
+				},
+				{
+					"text": " known",
+					"id": 2570,
+					"p": 0.99055,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.956051,
+					"t_dtw": -1
+				},
+				{
+					"text": " Soon",
+					"id": 17610,
+					"p": 0.643113,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.552437,
+					"t_dtw": -1
+				},
+				{
+					"text": " officers",
+					"id": 9199,
+					"p": 0.967679,
+					"t_dtw": -1
+				},
+				{
+					"text": " equipped",
+					"id": 15218,
+					"p": 0.97153,
+					"t_dtw": -1
+				},
+				{
+					"text": " with",
+					"id": 365,
+					"p": 0.99601,
+					"t_dtw": -1
+				},
+				{
+					"text": " riot",
+					"id": 32211,
+					"p": 0.967008,
+					"t_dtw": -1
+				},
+				{
+					"text": " gear",
+					"id": 7394,
+					"p": 0.992769,
+					"t_dtw": -1
+				},
+				{
+					"text": " entered",
+					"id": 9065,
+					"p": 0.978482,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.99544,
+					"t_dtw": -1
+				},
+				{
+					"text": " yard",
+					"id": 11682,
+					"p": 0.993413,
+					"t_dtw": -1
+				},
+				{
+					"text": " and",
+					"id": 293,
+					"p": 0.983489,
+					"t_dtw": -1
+				},
+				{
+					"text": " corner",
+					"id": 4538,
+					"p": 0.992837,
+					"t_dtw": -1
+				},
+				{
+					"text": "ed",
+					"id": 292,
+					"p": 0.998414,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.984444,
+					"t_dtw": -1
+				},
+				{
+					"text": " inmates",
+					"id": 39479,
+					"p": 0.991756,
+					"t_dtw": -1
+				},
+				{
+					"text": " with",
+					"id": 365,
+					"p": 0.992566,
+					"t_dtw": -1
+				},
+				{
+					"text": " tear",
+					"id": 12556,
+					"p": 0.998647,
+					"t_dtw": -1
+				},
+				{
+					"text": " gas",
+					"id": 4211,
+					"p": 0.975018,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.962492,
+					"t_dtw": -1
+				},
+				{
+					"text": " The",
+					"id": 440,
+					"p": 0.58778,
+					"t_dtw": -1
+				},
+				{
+					"text": " Tibetan",
+					"id": 44963,
+					"p": 0.962786,
+					"t_dtw": -1
+				},
+				{
+					"text": " Buddhism",
+					"id": 24744,
+					"p": 0.937103,
+					"t_dtw": -1
+				},
+				{
+					"text": " is",
+					"id": 307,
+					"p": 0.985851,
+					"t_dtw": -1
+				},
+				{
+					"text": " based",
+					"id": 2361,
+					"p": 0.996023,
+					"t_dtw": -1
+				},
+				{
+					"text": " on",
+					"id": 322,
+					"p": 0.994613,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.985827,
+					"t_dtw": -1
+				},
+				{
+					"text": " teachings",
+					"id": 21037,
+					"p": 0.995944,
+					"t_dtw": -1
+				},
+				{
+					"text": " of",
+					"id": 295,
+					"p": 0.993445,
+					"t_dtw": -1
+				},
+				{
+					"text": " Buddha",
+					"id": 16375,
+					"p": 0.738166,
+					"t_dtw": -1
+				},
+				{
+					"text": " but",
+					"id": 457,
+					"p": 0.799339,
+					"t_dtw": -1
+				},
+				{
+					"text": " were",
+					"id": 645,
+					"p": 0.865299,
+					"t_dtw": -1
+				},
+				{
+					"text": " extended",
+					"id": 10913,
+					"p": 0.970526,
+					"t_dtw": -1
+				},
+				{
+					"text": " by",
+					"id": 538,
+					"p": 0.968891,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.9661,
+					"t_dtw": -1
+				},
+				{
+					"text": " My",
+					"id": 1222,
+					"p": 0.367013,
+					"t_dtw": -1
+				},
+				{
+					"text": "ana",
+					"id": 2095,
+					"p": 0.470114,
+					"t_dtw": -1
+				},
+				{
+					"text": " Path",
+					"id": 21914,
+					"p": 0.714034,
+					"t_dtw": -1
+				},
+				{
+					"text": " of",
+					"id": 295,
+					"p": 0.982204,
+					"t_dtw": -1
+				},
+				{
+					"text": " Love",
+					"id": 5956,
+					"p": 0.962894,
+					"t_dtw": -1
+				},
+				{
+					"text": " and",
+					"id": 293,
+					"p": 0.919165,
+					"t_dtw": -1
+				},
+				{
+					"text": " Bi",
+					"id": 13007,
+					"p": 0.363539,
+					"t_dtw": -1
+				},
+				{
+					"text": "ological",
+					"id": 4383,
+					"p": 0.355003,
+					"t_dtw": -1
+				},
+				{
+					"text": "<|endoftext|>",
+					"timestamps": {
+						"from": "00:02:30,000",
+						"to": "00:02:30,000"
+					},
+					"offsets": {
+						"from": 150000,
+						"to": 150000
+					},
+					"id": 50257,
+					"p": 0.0721388,
+					"t_dtw": -1
+				}
+			]
+		},
+		{
+			"timestamps": {
+				"from": "00:-14:-17,-300",
+				"to": "00:03:00,000"
+			},
+			"offsets": {
+				"from": -857300,
+				"to": 180000
+			},
+			"text": " and the Indian Yoga. Christmas is one of the most important holidays of Christianity and is celebrated as the birthday of Jesus. The East African islands are in the Indian Ocean off the eastern coast of Africa.",
+			"tokens": [
+				{
+					"text": " and",
+					"id": 293,
+					"p": 0.642019,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.773146,
+					"t_dtw": -1
+				},
+				{
+					"text": " Indian",
+					"id": 6427,
+					"p": 0.482139,
+					"t_dtw": -1
+				},
+				{
+					"text": " Yoga",
+					"id": 32983,
+					"p": 0.998386,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.998818,
+					"t_dtw": -1
+				},
+				{
+					"text": " Christmas",
+					"id": 5272,
+					"p": 0.414519,
+					"t_dtw": -1
+				},
+				{
+					"text": " is",
+					"id": 307,
+					"p": 0.999981,
+					"t_dtw": -1
+				},
+				{
+					"text": " one",
+					"id": 472,
+					"p": 0.999924,
+					"t_dtw": -1
+				},
+				{
+					"text": " of",
+					"id": 295,
+					"p": 0.999996,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " most",
+					"id": 881,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " important",
+					"id": 1021,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " holidays",
+					"id": 15734,
+					"p": 0.999989,
+					"t_dtw": -1
+				},
+				{
+					"text": " of",
+					"id": 295,
+					"p": 0.999928,
+					"t_dtw": -1
+				},
+				{
+					"text": " Christianity",
+					"id": 17326,
+					"p": 0.999992,
+					"t_dtw": -1
+				},
+				{
+					"text": " and",
+					"id": 293,
+					"p": 0.999729,
+					"t_dtw": -1
+				},
+				{
+					"text": " is",
+					"id": 307,
+					"p": 0.999969,
+					"t_dtw": -1
+				},
+				{
+					"text": " celebrated",
+					"id": 19366,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " as",
+					"id": 382,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " birthday",
+					"id": 6154,
+					"p": 0.997021,
+					"t_dtw": -1
+				},
+				{
+					"text": " of",
+					"id": 295,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " Jesus",
+					"id": 2705,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.999981,
+					"t_dtw": -1
+				},
+				{
+					"text": " The",
+					"id": 440,
+					"p": 0.210085,
+					"t_dtw": -1
+				},
+				{
+					"text": " East",
+					"id": 6747,
+					"p": 0.99643,
+					"t_dtw": -1
+				},
+				{
+					"text": " African",
+					"id": 7312,
+					"p": 0.999985,
+					"t_dtw": -1
+				},
+				{
+					"text": " islands",
+					"id": 17402,
+					"p": 0.816016,
+					"t_dtw": -1
+				},
+				{
+					"text": " are",
+					"id": 366,
+					"p": 0.999996,
+					"t_dtw": -1
+				},
+				{
+					"text": " in",
+					"id": 294,
+					"p": 0.999977,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " Indian",
+					"id": 6427,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " Ocean",
+					"id": 18101,
+					"p": 0.998254,
+					"t_dtw": -1
+				},
+				{
+					"text": " off",
+					"id": 766,
+					"p": 0.995224,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.999966,
+					"t_dtw": -1
+				},
+				{
+					"text": " eastern",
+					"id": 19346,
+					"p": 0.996436,
+					"t_dtw": -1
+				},
+				{
+					"text": " coast",
+					"id": 8684,
+					"p": 0.999992,
+					"t_dtw": -1
+				},
+				{
+					"text": " of",
+					"id": 295,
+					"p": 0.999714,
+					"t_dtw": -1
+				},
+				{
+					"text": " Africa",
+					"id": 7349,
+					"p": 0.999851,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.993229,
+					"t_dtw": -1
+				},
+				{
+					"text": "<|endoftext|>",
+					"timestamps": {
+						"from": "00:03:00,000",
+						"to": "00:03:00,000"
+					},
+					"offsets": {
+						"from": 180000,
+						"to": 180000
+					},
+					"id": 50257,
+					"p": 0.994973,
+					"t_dtw": -1
+				}
+			]
+		},
+		{
+			"timestamps": {
+				"from": "00:-13:-47,-300",
+				"to": "00:03:30,000"
+			},
+			"offsets": {
+				"from": -827300,
+				"to": 210000
+			},
+			"text": " With only 18 medals available a day, a number of countries have failed to make the medal podium. Career companies are well paid for delivering things quickly. Frequently, time is very important with business documents, merchandise, or spare parts for an urgent repair. According to the police, the driver of the vehicle that hit the photographer is unlikely to face criminal charges.",
+			"tokens": [
+				{
+					"text": " With",
+					"id": 2022,
+					"p": 0.153026,
+					"t_dtw": -1
+				},
+				{
+					"text": " only",
+					"id": 787,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " 18",
+					"id": 2443,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " medals",
+					"id": 38647,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " available",
+					"id": 2435,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " a",
+					"id": 257,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " day",
+					"id": 786,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.996915,
+					"t_dtw": -1
+				},
+				{
+					"text": " a",
+					"id": 257,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " number",
+					"id": 1230,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " of",
+					"id": 295,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " countries",
+					"id": 3517,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " have",
+					"id": 362,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " failed",
+					"id": 7612,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " to",
+					"id": 281,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " make",
+					"id": 652,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " medal",
+					"id": 21364,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " podium",
+					"id": 26827,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " Career",
+					"id": 31690,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " companies",
+					"id": 3431,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " are",
+					"id": 366,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " well",
+					"id": 731,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " paid",
+					"id": 4835,
+					"p": 0.999436,
+					"t_dtw": -1
+				},
+				{
+					"text": " for",
+					"id": 337,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " delivering",
+					"id": 14666,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " things",
+					"id": 721,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " quickly",
+					"id": 2661,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " Fre",
+					"id": 6142,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": "quently",
+					"id": 47519,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.999542,
+					"t_dtw": -1
+				},
+				{
+					"text": " time",
+					"id": 565,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " is",
+					"id": 307,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " very",
+					"id": 588,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " important",
+					"id": 1021,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " with",
+					"id": 365,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " business",
+					"id": 1606,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " documents",
+					"id": 8512,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " merchandise",
+					"id": 34485,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.999703,
+					"t_dtw": -1
+				},
+				{
+					"text": " or",
+					"id": 420,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " spare",
+					"id": 13798,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " parts",
+					"id": 3166,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " for",
+					"id": 337,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " an",
+					"id": 364,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " urgent",
+					"id": 19022,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " repair",
+					"id": 10535,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " According",
+					"id": 7328,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " to",
+					"id": 281,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " police",
+					"id": 3804,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " driver",
+					"id": 6787,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " of",
+					"id": 295,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " vehicle",
+					"id": 5864,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " that",
+					"id": 300,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " hit",
+					"id": 2045,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " photographer",
+					"id": 19494,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " is",
+					"id": 307,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " unlikely",
+					"id": 17518,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " to",
+					"id": 281,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " face",
+					"id": 1851,
+					"p": 0.999954,
+					"t_dtw": -1
+				},
+				{
+					"text": " criminal",
+					"id": 8628,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " charges",
+					"id": 12235,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": "<|endoftext|>",
+					"timestamps": {
+						"from": "00:03:30,000",
+						"to": "00:03:30,000"
+					},
+					"offsets": {
+						"from": 210000,
+						"to": 210000
+					},
+					"id": 50257,
+					"p": 1,
+					"t_dtw": -1
+				}
+			]
+		},
+		{
+			"timestamps": {
+				"from": "00:-13:-17,-300",
+				"to": "00:04:00,000"
+			},
+			"offsets": {
+				"from": -797300,
+				"to": 240000
+			},
+			"text": " The original population hasn't changed at all. They still need the same adaptations as before. The UN also hopes to finalize a fund to help countries affected by global warming to cope with the impacts. The feathered structures suggest that they were not used in flight but rather for temperature regulation or display. The researchers suggest that even though this is the tale of a young dinosaur, the sample",
+			"tokens": [
+				{
+					"text": " The",
+					"id": 440,
+					"p": 0.462835,
+					"t_dtw": -1
+				},
+				{
+					"text": " original",
+					"id": 3380,
+					"p": 0.65049,
+					"t_dtw": -1
+				},
+				{
+					"text": " population",
+					"id": 4415,
+					"p": 0.984872,
+					"t_dtw": -1
+				},
+				{
+					"text": " hasn",
+					"id": 6132,
+					"p": 0.937124,
+					"t_dtw": -1
+				},
+				{
+					"text": "'t",
+					"id": 380,
+					"p": 0.979957,
+					"t_dtw": -1
+				},
+				{
+					"text": " changed",
+					"id": 3105,
+					"p": 0.992839,
+					"t_dtw": -1
+				},
+				{
+					"text": " at",
+					"id": 412,
+					"p": 0.974975,
+					"t_dtw": -1
+				},
+				{
+					"text": " all",
+					"id": 439,
+					"p": 0.998721,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.580574,
+					"t_dtw": -1
+				},
+				{
+					"text": " They",
+					"id": 814,
+					"p": 0.952229,
+					"t_dtw": -1
+				},
+				{
+					"text": " still",
+					"id": 920,
+					"p": 0.982879,
+					"t_dtw": -1
+				},
+				{
+					"text": " need",
+					"id": 643,
+					"p": 0.967822,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.98423,
+					"t_dtw": -1
+				},
+				{
+					"text": " same",
+					"id": 912,
+					"p": 0.995911,
+					"t_dtw": -1
+				},
+				{
+					"text": " adaptations",
+					"id": 44465,
+					"p": 0.878931,
+					"t_dtw": -1
+				},
+				{
+					"text": " as",
+					"id": 382,
+					"p": 0.984252,
+					"t_dtw": -1
+				},
+				{
+					"text": " before",
+					"id": 949,
+					"p": 0.984842,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.973358,
+					"t_dtw": -1
+				},
+				{
+					"text": " The",
+					"id": 440,
+					"p": 0.840243,
+					"t_dtw": -1
+				},
+				{
+					"text": " UN",
+					"id": 8229,
+					"p": 0.656346,
+					"t_dtw": -1
+				},
+				{
+					"text": " also",
+					"id": 611,
+					"p": 0.932177,
+					"t_dtw": -1
+				},
+				{
+					"text": " hopes",
+					"id": 13681,
+					"p": 0.99464,
+					"t_dtw": -1
+				},
+				{
+					"text": " to",
+					"id": 281,
+					"p": 0.996155,
+					"t_dtw": -1
+				},
+				{
+					"text": " final",
+					"id": 2572,
+					"p": 0.981839,
+					"t_dtw": -1
+				},
+				{
+					"text": "ize",
+					"id": 1125,
+					"p": 0.990739,
+					"t_dtw": -1
+				},
+				{
+					"text": " a",
+					"id": 257,
+					"p": 0.993059,
+					"t_dtw": -1
+				},
+				{
+					"text": " fund",
+					"id": 2374,
+					"p": 0.983965,
+					"t_dtw": -1
+				},
+				{
+					"text": " to",
+					"id": 281,
+					"p": 0.990063,
+					"t_dtw": -1
+				},
+				{
+					"text": " help",
+					"id": 854,
+					"p": 0.993098,
+					"t_dtw": -1
+				},
+				{
+					"text": " countries",
+					"id": 3517,
+					"p": 0.962941,
+					"t_dtw": -1
+				},
+				{
+					"text": " affected",
+					"id": 8028,
+					"p": 0.986999,
+					"t_dtw": -1
+				},
+				{
+					"text": " by",
+					"id": 538,
+					"p": 0.996879,
+					"t_dtw": -1
+				},
+				{
+					"text": " global",
+					"id": 4338,
+					"p": 0.987347,
+					"t_dtw": -1
+				},
+				{
+					"text": " warming",
+					"id": 17983,
+					"p": 0.999018,
+					"t_dtw": -1
+				},
+				{
+					"text": " to",
+					"id": 281,
+					"p": 0.660354,
+					"t_dtw": -1
+				},
+				{
+					"text": " cope",
+					"id": 22598,
+					"p": 0.999739,
+					"t_dtw": -1
+				},
+				{
+					"text": " with",
+					"id": 365,
+					"p": 0.99751,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.98122,
+					"t_dtw": -1
+				},
+				{
+					"text": " impacts",
+					"id": 11606,
+					"p": 0.554131,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.956524,
+					"t_dtw": -1
+				},
+				{
+					"text": " The",
+					"id": 440,
+					"p": 0.751495,
+					"t_dtw": -1
+				},
+				{
+					"text": " feather",
+					"id": 25852,
+					"p": 0.745786,
+					"t_dtw": -1
+				},
+				{
+					"text": "ed",
+					"id": 292,
+					"p": 0.637344,
+					"t_dtw": -1
+				},
+				{
+					"text": " structures",
+					"id": 9227,
+					"p": 0.865965,
+					"t_dtw": -1
+				},
+				{
+					"text": " suggest",
+					"id": 3402,
+					"p": 0.942398,
+					"t_dtw": -1
+				},
+				{
+					"text": " that",
+					"id": 300,
+					"p": 0.917862,
+					"t_dtw": -1
+				},
+				{
+					"text": " they",
+					"id": 436,
+					"p": 0.978306,
+					"t_dtw": -1
+				},
+				{
+					"text": " were",
+					"id": 645,
+					"p": 0.989666,
+					"t_dtw": -1
+				},
+				{
+					"text": " not",
+					"id": 406,
+					"p": 0.990076,
+					"t_dtw": -1
+				},
+				{
+					"text": " used",
+					"id": 1143,
+					"p": 0.994579,
+					"t_dtw": -1
+				},
+				{
+					"text": " in",
+					"id": 294,
+					"p": 0.992502,
+					"t_dtw": -1
+				},
+				{
+					"text": " flight",
+					"id": 7018,
+					"p": 0.979025,
+					"t_dtw": -1
+				},
+				{
+					"text": " but",
+					"id": 457,
+					"p": 0.706009,
+					"t_dtw": -1
+				},
+				{
+					"text": " rather",
+					"id": 2831,
+					"p": 0.978304,
+					"t_dtw": -1
+				},
+				{
+					"text": " for",
+					"id": 337,
+					"p": 0.991387,
+					"t_dtw": -1
+				},
+				{
+					"text": " temperature",
+					"id": 4292,
+					"p": 0.987639,
+					"t_dtw": -1
+				},
+				{
+					"text": " regulation",
+					"id": 15062,
+					"p": 0.98756,
+					"t_dtw": -1
+				},
+				{
+					"text": " or",
+					"id": 420,
+					"p": 0.983025,
+					"t_dtw": -1
+				},
+				{
+					"text": " display",
+					"id": 4674,
+					"p": 0.994719,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.992299,
+					"t_dtw": -1
+				},
+				{
+					"text": " The",
+					"id": 440,
+					"p": 0.829216,
+					"t_dtw": -1
+				},
+				{
+					"text": " researchers",
+					"id": 10309,
+					"p": 0.982643,
+					"t_dtw": -1
+				},
+				{
+					"text": " suggest",
+					"id": 3402,
+					"p": 0.963271,
+					"t_dtw": -1
+				},
+				{
+					"text": " that",
+					"id": 300,
+					"p": 0.986237,
+					"t_dtw": -1
+				},
+				{
+					"text": " even",
+					"id": 754,
+					"p": 0.924752,
+					"t_dtw": -1
+				},
+				{
+					"text": " though",
+					"id": 1673,
+					"p": 0.986543,
+					"t_dtw": -1
+				},
+				{
+					"text": " this",
+					"id": 341,
+					"p": 0.984219,
+					"t_dtw": -1
+				},
+				{
+					"text": " is",
+					"id": 307,
+					"p": 0.980673,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.976336,
+					"t_dtw": -1
+				},
+				{
+					"text": " tale",
+					"id": 17172,
+					"p": 0.64074,
+					"t_dtw": -1
+				},
+				{
+					"text": " of",
+					"id": 295,
+					"p": 0.977694,
+					"t_dtw": -1
+				},
+				{
+					"text": " a",
+					"id": 257,
+					"p": 0.913596,
+					"t_dtw": -1
+				},
+				{
+					"text": " young",
+					"id": 2037,
+					"p": 0.987006,
+					"t_dtw": -1
+				},
+				{
+					"text": " dinosaur",
+					"id": 23627,
+					"p": 0.956501,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.89834,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.874494,
+					"t_dtw": -1
+				},
+				{
+					"text": " sample",
+					"id": 6889,
+					"p": 0.864341,
+					"t_dtw": -1
+				},
+				{
+					"text": "<|endoftext|>",
+					"timestamps": {
+						"from": "00:04:00,000",
+						"to": "00:04:00,000"
+					},
+					"offsets": {
+						"from": 240000,
+						"to": 240000
+					},
+					"id": 50257,
+					"p": 0.473713,
+					"t_dtw": -1
+				}
+			]
+		},
+		{
+			"timestamps": {
+				"from": "00:-12:-47,-300",
+				"to": "00:04:30,000"
+			},
+			"offsets": {
+				"from": -767300,
+				"to": 270000
+			},
+			"text": " shows an adult plumage and not a chick's down. Scientists say the explosion caused by a collision was massive. Some animals, such as elephants and giraffes, tend to approach closely to cars and standard equipment will allow good viewing. At the beginning, dress was heavily influenced by the Byzantine culture in the Middle Ages.",
+			"tokens": [
+				{
+					"text": " shows",
+					"id": 3110,
+					"p": 0.734838,
+					"t_dtw": -1
+				},
+				{
+					"text": " an",
+					"id": 364,
+					"p": 0.937274,
+					"t_dtw": -1
+				},
+				{
+					"text": " adult",
+					"id": 5075,
+					"p": 0.997054,
+					"t_dtw": -1
+				},
+				{
+					"text": " plum",
+					"id": 25854,
+					"p": 0.99267,
+					"t_dtw": -1
+				},
+				{
+					"text": "age",
+					"id": 609,
+					"p": 0.993036,
+					"t_dtw": -1
+				},
+				{
+					"text": " and",
+					"id": 293,
+					"p": 0.933839,
+					"t_dtw": -1
+				},
+				{
+					"text": " not",
+					"id": 406,
+					"p": 0.994951,
+					"t_dtw": -1
+				},
+				{
+					"text": " a",
+					"id": 257,
+					"p": 0.900677,
+					"t_dtw": -1
+				},
+				{
+					"text": " chick",
+					"id": 14371,
+					"p": 0.934585,
+					"t_dtw": -1
+				},
+				{
+					"text": "'s",
+					"id": 311,
+					"p": 0.985404,
+					"t_dtw": -1
+				},
+				{
+					"text": " down",
+					"id": 760,
+					"p": 0.936452,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.96794,
+					"t_dtw": -1
+				},
+				{
+					"text": " Scientists",
+					"id": 32958,
+					"p": 0.559828,
+					"t_dtw": -1
+				},
+				{
+					"text": " say",
+					"id": 584,
+					"p": 0.975608,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.919297,
+					"t_dtw": -1
+				},
+				{
+					"text": " explosion",
+					"id": 15673,
+					"p": 0.992697,
+					"t_dtw": -1
+				},
+				{
+					"text": " caused",
+					"id": 7008,
+					"p": 0.989872,
+					"t_dtw": -1
+				},
+				{
+					"text": " by",
+					"id": 538,
+					"p": 0.996997,
+					"t_dtw": -1
+				},
+				{
+					"text": " a",
+					"id": 257,
+					"p": 0.934115,
+					"t_dtw": -1
+				},
+				{
+					"text": " collision",
+					"id": 24644,
+					"p": 0.993388,
+					"t_dtw": -1
+				},
+				{
+					"text": " was",
+					"id": 390,
+					"p": 0.990611,
+					"t_dtw": -1
+				},
+				{
+					"text": " massive",
+					"id": 5994,
+					"p": 0.995585,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.965234,
+					"t_dtw": -1
+				},
+				{
+					"text": " Some",
+					"id": 2188,
+					"p": 0.851881,
+					"t_dtw": -1
+				},
+				{
+					"text": " animals",
+					"id": 4882,
+					"p": 0.994324,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.529028,
+					"t_dtw": -1
+				},
+				{
+					"text": " such",
+					"id": 1270,
+					"p": 0.997259,
+					"t_dtw": -1
+				},
+				{
+					"text": " as",
+					"id": 382,
+					"p": 0.997573,
+					"t_dtw": -1
+				},
+				{
+					"text": " elephants",
+					"id": 33015,
+					"p": 0.979633,
+					"t_dtw": -1
+				},
+				{
+					"text": " and",
+					"id": 293,
+					"p": 0.984138,
+					"t_dtw": -1
+				},
+				{
+					"text": " gir",
+					"id": 14703,
+					"p": 0.992347,
+					"t_dtw": -1
+				},
+				{
+					"text": "aff",
+					"id": 2518,
+					"p": 0.999617,
+					"t_dtw": -1
+				},
+				{
+					"text": "es",
+					"id": 279,
+					"p": 0.998951,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.91132,
+					"t_dtw": -1
+				},
+				{
+					"text": " tend",
+					"id": 3928,
+					"p": 0.979533,
+					"t_dtw": -1
+				},
+				{
+					"text": " to",
+					"id": 281,
+					"p": 0.999184,
+					"t_dtw": -1
+				},
+				{
+					"text": " approach",
+					"id": 3109,
+					"p": 0.997478,
+					"t_dtw": -1
+				},
+				{
+					"text": " closely",
+					"id": 8185,
+					"p": 0.976911,
+					"t_dtw": -1
+				},
+				{
+					"text": " to",
+					"id": 281,
+					"p": 0.996046,
+					"t_dtw": -1
+				},
+				{
+					"text": " cars",
+					"id": 5163,
+					"p": 0.998532,
+					"t_dtw": -1
+				},
+				{
+					"text": " and",
+					"id": 293,
+					"p": 0.673419,
+					"t_dtw": -1
+				},
+				{
+					"text": " standard",
+					"id": 3832,
+					"p": 0.993362,
+					"t_dtw": -1
+				},
+				{
+					"text": " equipment",
+					"id": 5927,
+					"p": 0.997487,
+					"t_dtw": -1
+				},
+				{
+					"text": " will",
+					"id": 486,
+					"p": 0.982146,
+					"t_dtw": -1
+				},
+				{
+					"text": " allow",
+					"id": 2089,
+					"p": 0.994658,
+					"t_dtw": -1
+				},
+				{
+					"text": " good",
+					"id": 665,
+					"p": 0.965184,
+					"t_dtw": -1
+				},
+				{
+					"text": " viewing",
+					"id": 17480,
+					"p": 0.992165,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.984913,
+					"t_dtw": -1
+				},
+				{
+					"text": " At",
+					"id": 1711,
+					"p": 0.608267,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.99523,
+					"t_dtw": -1
+				},
+				{
+					"text": " beginning",
+					"id": 2863,
+					"p": 0.994311,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.947214,
+					"t_dtw": -1
+				},
+				{
+					"text": " dress",
+					"id": 5231,
+					"p": 0.889335,
+					"t_dtw": -1
+				},
+				{
+					"text": " was",
+					"id": 390,
+					"p": 0.87054,
+					"t_dtw": -1
+				},
+				{
+					"text": " heavily",
+					"id": 10950,
+					"p": 0.993231,
+					"t_dtw": -1
+				},
+				{
+					"text": " influenced",
+					"id": 15269,
+					"p": 0.989225,
+					"t_dtw": -1
+				},
+				{
+					"text": " by",
+					"id": 538,
+					"p": 0.965736,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.90938,
+					"t_dtw": -1
+				},
+				{
+					"text": " Byz",
+					"id": 41014,
+					"p": 0.972557,
+					"t_dtw": -1
+				},
+				{
+					"text": "antine",
+					"id": 13566,
+					"p": 0.992415,
+					"t_dtw": -1
+				},
+				{
+					"text": " culture",
+					"id": 3713,
+					"p": 0.97741,
+					"t_dtw": -1
+				},
+				{
+					"text": " in",
+					"id": 294,
+					"p": 0.916303,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.80931,
+					"t_dtw": -1
+				},
+				{
+					"text": " Middle",
+					"id": 10775,
+					"p": 0.146877,
+					"t_dtw": -1
+				},
+				{
+					"text": " Ages",
+					"id": 37362,
+					"p": 0.694707,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.816823,
+					"t_dtw": -1
+				},
+				{
+					"text": "<|endoftext|>",
+					"timestamps": {
+						"from": "00:04:30,000",
+						"to": "00:04:30,000"
+					},
+					"offsets": {
+						"from": 270000,
+						"to": 270000
+					},
+					"id": 50257,
+					"p": 0.582075,
+					"t_dtw": -1
+				}
+			]
+		},
+		{
+			"timestamps": {
+				"from": "00:-12:-17,-300",
+				"to": "00:05:00,000"
+			},
+			"offsets": {
+				"from": -737300,
+				"to": 300000
+			},
+			"text": " The first time a dinosaur was seen in Africa was in the Middle Ages. The first time a dinosaur was seen in Africa was in the Middle Ages. Safaris are perhaps the greatest tourism draw in Africa and the highlight for many visitors. Widespread looting reportedly continued overnight as law enforcement officers were not present on Bishkek's streets.",
+			"tokens": [
+				{
+					"text": " The",
+					"id": 440,
+					"p": 0.179185,
+					"t_dtw": -1
+				},
+				{
+					"text": " first",
+					"id": 700,
+					"p": 0.0269284,
+					"t_dtw": -1
+				},
+				{
+					"text": " time",
+					"id": 565,
+					"p": 0.0412731,
+					"t_dtw": -1
+				},
+				{
+					"text": " a",
+					"id": 257,
+					"p": 0.122724,
+					"t_dtw": -1
+				},
+				{
+					"text": " dinosaur",
+					"id": 23627,
+					"p": 0.0571523,
+					"t_dtw": -1
+				},
+				{
+					"text": " was",
+					"id": 390,
+					"p": 0.400224,
+					"t_dtw": -1
+				},
+				{
+					"text": " seen",
+					"id": 1612,
+					"p": 0.260225,
+					"t_dtw": -1
+				},
+				{
+					"text": " in",
+					"id": 294,
+					"p": 0.288944,
+					"t_dtw": -1
+				},
+				{
+					"text": " Africa",
+					"id": 7349,
+					"p": 0.315358,
+					"t_dtw": -1
+				},
+				{
+					"text": " was",
+					"id": 390,
+					"p": 0.614624,
+					"t_dtw": -1
+				},
+				{
+					"text": " in",
+					"id": 294,
+					"p": 0.390448,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.330872,
+					"t_dtw": -1
+				},
+				{
+					"text": " Middle",
+					"id": 10775,
+					"p": 0.275473,
+					"t_dtw": -1
+				},
+				{
+					"text": " Ages",
+					"id": 37362,
+					"p": 0.817917,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.360022,
+					"t_dtw": -1
+				},
+				{
+					"text": " The",
+					"id": 440,
+					"p": 0.165665,
+					"t_dtw": -1
+				},
+				{
+					"text": " first",
+					"id": 700,
+					"p": 0.121726,
+					"t_dtw": -1
+				},
+				{
+					"text": " time",
+					"id": 565,
+					"p": 0.23764,
+					"t_dtw": -1
+				},
+				{
+					"text": " a",
+					"id": 257,
+					"p": 0.383647,
+					"t_dtw": -1
+				},
+				{
+					"text": " dinosaur",
+					"id": 23627,
+					"p": 0.701879,
+					"t_dtw": -1
+				},
+				{
+					"text": " was",
+					"id": 390,
+					"p": 0.770806,
+					"t_dtw": -1
+				},
+				{
+					"text": " seen",
+					"id": 1612,
+					"p": 0.867226,
+					"t_dtw": -1
+				},
+				{
+					"text": " in",
+					"id": 294,
+					"p": 0.853805,
+					"t_dtw": -1
+				},
+				{
+					"text": " Africa",
+					"id": 7349,
+					"p": 0.805022,
+					"t_dtw": -1
+				},
+				{
+					"text": " was",
+					"id": 390,
+					"p": 0.934379,
+					"t_dtw": -1
+				},
+				{
+					"text": " in",
+					"id": 294,
+					"p": 0.841177,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.786413,
+					"t_dtw": -1
+				},
+				{
+					"text": " Middle",
+					"id": 10775,
+					"p": 0.908937,
+					"t_dtw": -1
+				},
+				{
+					"text": " Ages",
+					"id": 37362,
+					"p": 0.92933,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.830743,
+					"t_dtw": -1
+				},
+				{
+					"text": " Saf",
+					"id": 14152,
+					"p": 0.271975,
+					"t_dtw": -1
+				},
+				{
+					"text": "aris",
+					"id": 27489,
+					"p": 0.981302,
+					"t_dtw": -1
+				},
+				{
+					"text": " are",
+					"id": 366,
+					"p": 0.911591,
+					"t_dtw": -1
+				},
+				{
+					"text": " perhaps",
+					"id": 4317,
+					"p": 0.961936,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.996419,
+					"t_dtw": -1
+				},
+				{
+					"text": " greatest",
+					"id": 6636,
+					"p": 0.989381,
+					"t_dtw": -1
+				},
+				{
+					"text": " tourism",
+					"id": 21832,
+					"p": 0.898097,
+					"t_dtw": -1
+				},
+				{
+					"text": " draw",
+					"id": 2642,
+					"p": 0.961776,
+					"t_dtw": -1
+				},
+				{
+					"text": " in",
+					"id": 294,
+					"p": 0.989136,
+					"t_dtw": -1
+				},
+				{
+					"text": " Africa",
+					"id": 7349,
+					"p": 0.99456,
+					"t_dtw": -1
+				},
+				{
+					"text": " and",
+					"id": 293,
+					"p": 0.919846,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.953921,
+					"t_dtw": -1
+				},
+				{
+					"text": " highlight",
+					"id": 5078,
+					"p": 0.978797,
+					"t_dtw": -1
+				},
+				{
+					"text": " for",
+					"id": 337,
+					"p": 0.988919,
+					"t_dtw": -1
+				},
+				{
+					"text": " many",
+					"id": 867,
+					"p": 0.988455,
+					"t_dtw": -1
+				},
+				{
+					"text": " visitors",
+					"id": 14315,
+					"p": 0.995056,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.968221,
+					"t_dtw": -1
+				},
+				{
+					"text": " W",
+					"id": 343,
+					"p": 0.461996,
+					"t_dtw": -1
+				},
+				{
+					"text": "ides",
+					"id": 1875,
+					"p": 0.995951,
+					"t_dtw": -1
+				},
+				{
+					"text": "pread",
+					"id": 22141,
+					"p": 0.997101,
+					"t_dtw": -1
+				},
+				{
+					"text": " lo",
+					"id": 450,
+					"p": 0.995575,
+					"t_dtw": -1
+				},
+				{
+					"text": "oting",
+					"id": 17001,
+					"p": 0.999887,
+					"t_dtw": -1
+				},
+				{
+					"text": " reportedly",
+					"id": 23989,
+					"p": 0.956225,
+					"t_dtw": -1
+				},
+				{
+					"text": " continued",
+					"id": 7014,
+					"p": 0.99567,
+					"t_dtw": -1
+				},
+				{
+					"text": " overnight",
+					"id": 13935,
+					"p": 0.973357,
+					"t_dtw": -1
+				},
+				{
+					"text": " as",
+					"id": 382,
+					"p": 0.744523,
+					"t_dtw": -1
+				},
+				{
+					"text": " law",
+					"id": 2101,
+					"p": 0.985302,
+					"t_dtw": -1
+				},
+				{
+					"text": " enforcement",
+					"id": 11475,
+					"p": 0.981147,
+					"t_dtw": -1
+				},
+				{
+					"text": " officers",
+					"id": 9199,
+					"p": 0.975083,
+					"t_dtw": -1
+				},
+				{
+					"text": " were",
+					"id": 645,
+					"p": 0.990996,
+					"t_dtw": -1
+				},
+				{
+					"text": " not",
+					"id": 406,
+					"p": 0.990601,
+					"t_dtw": -1
+				},
+				{
+					"text": " present",
+					"id": 1974,
+					"p": 0.995433,
+					"t_dtw": -1
+				},
+				{
+					"text": " on",
+					"id": 322,
+					"p": 0.9867,
+					"t_dtw": -1
+				},
+				{
+					"text": " B",
+					"id": 363,
+					"p": 0.820621,
+					"t_dtw": -1
+				},
+				{
+					"text": "ish",
+					"id": 742,
+					"p": 0.961762,
+					"t_dtw": -1
+				},
+				{
+					"text": "kek",
+					"id": 41888,
+					"p": 0.970343,
+					"t_dtw": -1
+				},
+				{
+					"text": "'s",
+					"id": 311,
+					"p": 0.722778,
+					"t_dtw": -1
+				},
+				{
+					"text": " streets",
+					"id": 8481,
+					"p": 0.935627,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.958712,
+					"t_dtw": -1
+				},
+				{
+					"text": "<|endoftext|>",
+					"timestamps": {
+						"from": "00:05:00,000",
+						"to": "00:05:00,000"
+					},
+					"offsets": {
+						"from": 300000,
+						"to": 300000
+					},
+					"id": 50257,
+					"p": 0.687496,
+					"t_dtw": -1
+				}
+			]
+		}
+	]
+}

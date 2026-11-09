@@ -1,0 +1,1 @@
+Den vil gøre det muligt for spillere at styre handlinger og bevægelser i computerspil ved at bevæge enheden gennem luften.

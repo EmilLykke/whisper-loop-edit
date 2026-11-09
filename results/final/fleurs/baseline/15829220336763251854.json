@@ -1,0 +1,67 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,000", "to": "00:00:30,000" },
+      "offsets":    { "from": 0, "to": 30000 },
+      "text":       " Bare så ved det, hvis du kan et romansk sprog, vil det være lettere for dig at lære portugisisk.",
+      "words": [
+        { "text": " Bare", "t0": 79, "t1": 141, "offsets": { "from": 790, "to": 1410 } },
+        { "text": " så", "t0": 141, "t1": 187, "offsets": { "from": 1410, "to": 1870 } },
+        { "text": " ved", "t0": 251, "t1": 351, "offsets": { "from": 2510, "to": 3510 } },
+        { "text": " det,", "t0": 351, "t1": 526, "offsets": { "from": 3510, "to": 5260 } },
+        { "text": " hvis", "t0": 526, "t1": 646, "offsets": { "from": 5260, "to": 6460 } },
+        { "text": " du", "t0": 666, "t1": 725, "offsets": { "from": 6660, "to": 7250 } },
+        { "text": " kan", "t0": 725, "t1": 725, "offsets": { "from": 7250, "to": 7250 } },
+        { "text": " et", "t0": 725, "t1": 725, "offsets": { "from": 7250, "to": 7250 } },
+        { "text": " romansk", "t0": 725, "t1": 725, "offsets": { "from": 7250, "to": 7250 } },
+        { "text": " sprog,", "t0": 725, "t1": 725, "offsets": { "from": 7250, "to": 7250 } },
+        { "text": " vil", "t0": 725, "t1": 725, "offsets": { "from": 7250, "to": 7250 } },
+        { "text": " det", "t0": 725, "t1": 725, "offsets": { "from": 7250, "to": 7250 } },
+        { "text": " være", "t0": 725, "t1": 725, "offsets": { "from": 7250, "to": 7250 } },
+        { "text": " lettere", "t0": 725, "t1": 725, "offsets": { "from": 7250, "to": 7250 } },
+        { "text": " for", "t0": 725, "t1": 725, "offsets": { "from": 7250, "to": 7250 } },
+        { "text": " dig", "t0": 725, "t1": 725, "offsets": { "from": 7250, "to": 7250 } },
+        { "text": " at", "t0": 725, "t1": 725, "offsets": { "from": 7250, "to": 7250 } },
+        { "text": " lære", "t0": 725, "t1": 725, "offsets": { "from": 7250, "to": 7250 } },
+        { "text": " portugisisk.", "t0": 725, "t1": 725, "offsets": { "from": 7250, "to": 7250 } }
+      ],
+      "tokens": [
+        { "text": " Bare", "p": 0.43185, "t0": 79, "t1": 141, "offsets": { "from": 790, "to": 1410 } },
+        { "text": " så", "p": 0.887397, "t0": 141, "t1": 187, "offsets": { "from": 1410, "to": 1870 } },
+        { "text": " ved", "p": 0.389945, "t0": 251, "t1": 351, "offsets": { "from": 2510, "to": 3510 } },
+        { "text": " det", "p": 0.880585, "t0": 351, "t1": 456, "offsets": { "from": 3510, "to": 4560 } },
+        { "text": ",", "p": 0.511397, "t0": 456, "t1": 526, "offsets": { "from": 4560, "to": 5260 } },
+        { "text": " hvis", "p": 0.793341, "t0": 526, "t1": 646, "offsets": { "from": 5260, "to": 6460 } },
+        { "text": " du", "p": 0.984243, "t0": 666, "t1": 725, "offsets": { "from": 6660, "to": 7250 } },
+        { "text": " kan", "p": 0.829348, "t0": 725, "t1": 725, "offsets": { "from": 7250, "to": 7250 } },
+        { "text": " et", "p": 0.982354, "t0": 725, "t1": 725, "offsets": { "from": 7250, "to": 7250 } },
+        { "text": " rom", "p": 0.899208, "t0": 725, "t1": 725, "offsets": { "from": 7250, "to": 7250 } },
+        { "text": "ans", "p": 0.97537, "t0": 725, "t1": 725, "offsets": { "from": 7250, "to": 7250 } },
+        { "text": "k", "p": 0.619655, "t0": 725, "t1": 725, "offsets": { "from": 7250, "to": 7250 } },
+        { "text": " sp", "p": 0.985611, "t0": 725, "t1": 725, "offsets": { "from": 7250, "to": 7250 } },
+        { "text": "rog", "p": 0.999472, "t0": 725, "t1": 725, "offsets": { "from": 7250, "to": 7250 } },
+        { "text": ",", "p": 0.560504, "t0": 725, "t1": 725, "offsets": { "from": 7250, "to": 7250 } },
+        { "text": " vil", "p": 0.842136, "t0": 725, "t1": 725, "offsets": { "from": 7250, "to": 7250 } },
+        { "text": " det", "p": 0.977021, "t0": 725, "t1": 725, "offsets": { "from": 7250, "to": 7250 } },
+        { "text": " være", "p": 0.996145, "t0": 725, "t1": 725, "offsets": { "from": 7250, "to": 7250 } },
+        { "text": " lett", "p": 0.964951, "t0": 725, "t1": 725, "offsets": { "from": 7250, "to": 7250 } },
+        { "text": "ere", "p": 0.999338, "t0": 725, "t1": 725, "offsets": { "from": 7250, "to": 7250 } },
+        { "text": " for", "p": 0.931962, "t0": 725, "t1": 725, "offsets": { "from": 7250, "to": 7250 } },
+        { "text": " dig", "p": 0.997999, "t0": 725, "t1": 725, "offsets": { "from": 7250, "to": 7250 } },
+        { "text": " at", "p": 0.888171, "t0": 725, "t1": 725, "offsets": { "from": 7250, "to": 7250 } },
+        { "text": " læ", "p": 0.942845, "t0": 725, "t1": 725, "offsets": { "from": 7250, "to": 7250 } },
+        { "text": "re", "p": 0.993754, "t0": 725, "t1": 725, "offsets": { "from": 7250, "to": 7250 } },
+        { "text": " port", "p": 0.935165, "t0": 725, "t1": 725, "offsets": { "from": 7250, "to": 7250 } },
+        { "text": "ug", "p": 0.974267, "t0": 725, "t1": 725, "offsets": { "from": 7250, "to": 7250 } },
+        { "text": "is", "p": 0.959891, "t0": 725, "t1": 725, "offsets": { "from": 7250, "to": 7250 } },
+        { "text": "isk", "p": 0.997904, "t0": 725, "t1": 725, "offsets": { "from": 7250, "to": 7250 } },
+        { "text": ".", "p": 0.913429, "t0": 725, "t1": 725, "offsets": { "from": 7250, "to": 7250 } }
+      ]
+    }
+  ]
+}

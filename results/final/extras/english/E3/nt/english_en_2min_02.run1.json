@@ -1,0 +1,944 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | ACCELERATE = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "large",
+		"multilingual": true,
+		"vocab": 51866,
+		"audio": {
+			"ctx": 1500,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"mels": 128,
+		"ftype": 1
+	},
+	"params": {
+		"model": "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+		"language": "en",
+		"translate": false
+	},
+	"result": {
+		"language": "en"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:-16:-47,-300",
+				"to": "00:00:30,000"
+			},
+			"offsets": {
+				"from": -1007300,
+				"to": 30000
+			},
+			"text": " Here is the reigning CEO, Dmitry Zininov, who marked the company's start in his photo with an audible from a shop in his garage.",
+			"tokens": [
+				{
+					"text": " Here",
+					"id": 1692,
+					"p": 0.414245,
+					"t_dtw": -1
+				},
+				{
+					"text": " is",
+					"id": 307,
+					"p": 0.853676,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.799682,
+					"t_dtw": -1
+				},
+				{
+					"text": " re",
+					"id": 319,
+					"p": 0.335258,
+					"t_dtw": -1
+				},
+				{
+					"text": "igning",
+					"id": 9676,
+					"p": 0.847499,
+					"t_dtw": -1
+				},
+				{
+					"text": " CEO",
+					"id": 9282,
+					"p": 0.979808,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.457438,
+					"t_dtw": -1
+				},
+				{
+					"text": " D",
+					"id": 413,
+					"p": 0.118625,
+					"t_dtw": -1
+				},
+				{
+					"text": "mit",
+					"id": 3508,
+					"p": 0.51924,
+					"t_dtw": -1
+				},
+				{
+					"text": "ry",
+					"id": 627,
+					"p": 0.881119,
+					"t_dtw": -1
+				},
+				{
+					"text": " Z",
+					"id": 1176,
+					"p": 0.287185,
+					"t_dtw": -1
+				},
+				{
+					"text": "in",
+					"id": 259,
+					"p": 0.160042,
+					"t_dtw": -1
+				},
+				{
+					"text": "ino",
+					"id": 2982,
+					"p": 0.860571,
+					"t_dtw": -1
+				},
+				{
+					"text": "v",
+					"id": 85,
+					"p": 0.997105,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.589598,
+					"t_dtw": -1
+				},
+				{
+					"text": " who",
+					"id": 567,
+					"p": 0.256279,
+					"t_dtw": -1
+				},
+				{
+					"text": " marked",
+					"id": 12658,
+					"p": 0.788773,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.961531,
+					"t_dtw": -1
+				},
+				{
+					"text": " company",
+					"id": 2237,
+					"p": 0.953588,
+					"t_dtw": -1
+				},
+				{
+					"text": "'s",
+					"id": 311,
+					"p": 0.956482,
+					"t_dtw": -1
+				},
+				{
+					"text": " start",
+					"id": 722,
+					"p": 0.265271,
+					"t_dtw": -1
+				},
+				{
+					"text": " in",
+					"id": 294,
+					"p": 0.449706,
+					"t_dtw": -1
+				},
+				{
+					"text": " his",
+					"id": 702,
+					"p": 0.631802,
+					"t_dtw": -1
+				},
+				{
+					"text": " photo",
+					"id": 5052,
+					"p": 0.189587,
+					"t_dtw": -1
+				},
+				{
+					"text": " with",
+					"id": 365,
+					"p": 0.910951,
+					"t_dtw": -1
+				},
+				{
+					"text": " an",
+					"id": 364,
+					"p": 0.966682,
+					"t_dtw": -1
+				},
+				{
+					"text": " audible",
+					"id": 41317,
+					"p": 0.956446,
+					"t_dtw": -1
+				},
+				{
+					"text": " from",
+					"id": 490,
+					"p": 0.976145,
+					"t_dtw": -1
+				},
+				{
+					"text": " a",
+					"id": 257,
+					"p": 0.644733,
+					"t_dtw": -1
+				},
+				{
+					"text": " shop",
+					"id": 3945,
+					"p": 0.997225,
+					"t_dtw": -1
+				},
+				{
+					"text": " in",
+					"id": 294,
+					"p": 0.98487,
+					"t_dtw": -1
+				},
+				{
+					"text": " his",
+					"id": 702,
+					"p": 0.99563,
+					"t_dtw": -1
+				},
+				{
+					"text": " garage",
+					"id": 14400,
+					"p": 0.998976,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.908745,
+					"t_dtw": -1
+				},
+				{
+					"text": "<|endoftext|>",
+					"timestamps": {
+						"from": "00:00:30,000",
+						"to": "00:00:30,000"
+					},
+					"offsets": {
+						"from": 30000,
+						"to": 30000
+					},
+					"id": 50257,
+					"p": 0.885566,
+					"t_dtw": -1
+				}
+			]
+		},
+		{
+			"timestamps": {
+				"from": "00:-16:-17,-300",
+				"to": "00:01:00,000"
+			},
+			"offsets": {
+				"from": -977300,
+				"to": 60000
+			},
+			"text": " Super G.",
+			"tokens": [
+				{
+					"text": " Super",
+					"id": 4548,
+					"p": 0.397314,
+					"t_dtw": -1
+				},
+				{
+					"text": " G",
+					"id": 460,
+					"p": 0.832906,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.704747,
+					"t_dtw": -1
+				},
+				{
+					"text": "<|endoftext|>",
+					"timestamps": {
+						"from": "00:01:00,000",
+						"to": "00:01:00,000"
+					},
+					"offsets": {
+						"from": 60000,
+						"to": 60000
+					},
+					"id": 50257,
+					"p": 0.775958,
+					"t_dtw": -1
+				}
+			]
+		},
+		{
+			"timestamps": {
+				"from": "00:-15:-47,-300",
+				"to": "00:01:30,000"
+			},
+			"offsets": {
+				"from": -947300,
+				"to": 90000
+			},
+			"text": " Famous singers across the country presented Bahajans, or devotional songs, to Shir Shyam's feet. Scientists say this animal's plumage was chestnut brown on top with a pale or carotenoid colored underside.",
+			"tokens": [
+				{
+					"text": " Fam",
+					"id": 7342,
+					"p": 0.416029,
+					"t_dtw": -1
+				},
+				{
+					"text": "ous",
+					"id": 563,
+					"p": 0.999697,
+					"t_dtw": -1
+				},
+				{
+					"text": " singers",
+					"id": 24275,
+					"p": 0.962077,
+					"t_dtw": -1
+				},
+				{
+					"text": " across",
+					"id": 2108,
+					"p": 0.992311,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.996149,
+					"t_dtw": -1
+				},
+				{
+					"text": " country",
+					"id": 1941,
+					"p": 0.995252,
+					"t_dtw": -1
+				},
+				{
+					"text": " presented",
+					"id": 8212,
+					"p": 0.94359,
+					"t_dtw": -1
+				},
+				{
+					"text": " Bah",
+					"id": 14782,
+					"p": 0.232604,
+					"t_dtw": -1
+				},
+				{
+					"text": "aj",
+					"id": 1805,
+					"p": 0.856697,
+					"t_dtw": -1
+				},
+				{
+					"text": "ans",
+					"id": 599,
+					"p": 0.778752,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.496624,
+					"t_dtw": -1
+				},
+				{
+					"text": " or",
+					"id": 420,
+					"p": 0.967462,
+					"t_dtw": -1
+				},
+				{
+					"text": " devot",
+					"id": 13697,
+					"p": 0.977692,
+					"t_dtw": -1
+				},
+				{
+					"text": "ional",
+					"id": 1966,
+					"p": 0.999661,
+					"t_dtw": -1
+				},
+				{
+					"text": " songs",
+					"id": 5781,
+					"p": 0.995778,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.83515,
+					"t_dtw": -1
+				},
+				{
+					"text": " to",
+					"id": 281,
+					"p": 0.992453,
+					"t_dtw": -1
+				},
+				{
+					"text": " Shir",
+					"id": 27239,
+					"p": 0.418068,
+					"t_dtw": -1
+				},
+				{
+					"text": " Shy",
+					"id": 45250,
+					"p": 0.513634,
+					"t_dtw": -1
+				},
+				{
+					"text": "am",
+					"id": 335,
+					"p": 0.962206,
+					"t_dtw": -1
+				},
+				{
+					"text": "'s",
+					"id": 311,
+					"p": 0.84715,
+					"t_dtw": -1
+				},
+				{
+					"text": " feet",
+					"id": 3521,
+					"p": 0.994308,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.961958,
+					"t_dtw": -1
+				},
+				{
+					"text": " Scientists",
+					"id": 32958,
+					"p": 0.941564,
+					"t_dtw": -1
+				},
+				{
+					"text": " say",
+					"id": 584,
+					"p": 0.990146,
+					"t_dtw": -1
+				},
+				{
+					"text": " this",
+					"id": 341,
+					"p": 0.984917,
+					"t_dtw": -1
+				},
+				{
+					"text": " animal",
+					"id": 5496,
+					"p": 0.984463,
+					"t_dtw": -1
+				},
+				{
+					"text": "'s",
+					"id": 311,
+					"p": 0.988208,
+					"t_dtw": -1
+				},
+				{
+					"text": " plum",
+					"id": 25854,
+					"p": 0.989844,
+					"t_dtw": -1
+				},
+				{
+					"text": "age",
+					"id": 609,
+					"p": 0.999274,
+					"t_dtw": -1
+				},
+				{
+					"text": " was",
+					"id": 390,
+					"p": 0.993646,
+					"t_dtw": -1
+				},
+				{
+					"text": " chest",
+					"id": 7443,
+					"p": 0.93576,
+					"t_dtw": -1
+				},
+				{
+					"text": "nut",
+					"id": 18316,
+					"p": 0.999655,
+					"t_dtw": -1
+				},
+				{
+					"text": " brown",
+					"id": 6292,
+					"p": 0.93445,
+					"t_dtw": -1
+				},
+				{
+					"text": " on",
+					"id": 322,
+					"p": 0.905555,
+					"t_dtw": -1
+				},
+				{
+					"text": " top",
+					"id": 1192,
+					"p": 0.997697,
+					"t_dtw": -1
+				},
+				{
+					"text": " with",
+					"id": 365,
+					"p": 0.957174,
+					"t_dtw": -1
+				},
+				{
+					"text": " a",
+					"id": 257,
+					"p": 0.993034,
+					"t_dtw": -1
+				},
+				{
+					"text": " pale",
+					"id": 19546,
+					"p": 0.995499,
+					"t_dtw": -1
+				},
+				{
+					"text": " or",
+					"id": 420,
+					"p": 0.739046,
+					"t_dtw": -1
+				},
+				{
+					"text": " car",
+					"id": 1032,
+					"p": 0.990146,
+					"t_dtw": -1
+				},
+				{
+					"text": "ot",
+					"id": 310,
+					"p": 0.994435,
+					"t_dtw": -1
+				},
+				{
+					"text": "eno",
+					"id": 5808,
+					"p": 0.985332,
+					"t_dtw": -1
+				},
+				{
+					"text": "id",
+					"id": 327,
+					"p": 0.996837,
+					"t_dtw": -1
+				},
+				{
+					"text": " colored",
+					"id": 14332,
+					"p": 0.620508,
+					"t_dtw": -1
+				},
+				{
+					"text": " underside",
+					"id": 49511,
+					"p": 0.995733,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.988114,
+					"t_dtw": -1
+				},
+				{
+					"text": "<|endoftext|>",
+					"timestamps": {
+						"from": "00:01:30,000",
+						"to": "00:01:30,000"
+					},
+					"offsets": {
+						"from": 90000,
+						"to": 90000
+					},
+					"id": 50257,
+					"p": 0.986511,
+					"t_dtw": -1
+				}
+			]
+		},
+		{
+			"timestamps": {
+				"from": "00:-15:-17,-300",
+				"to": "00:02:00,000"
+			},
+			"offsets": {
+				"from": -917300,
+				"to": 120000
+			},
+			"text": " The articles required unanimous consent from all the states before they could be amended, and states took the central government so lightly that their representatives were often absent. As soon as you get out of the current, swimming back is no more difficult than normally.",
+			"tokens": [
+				{
+					"text": " The",
+					"id": 440,
+					"p": 0.252235,
+					"t_dtw": -1
+				},
+				{
+					"text": " articles",
+					"id": 11290,
+					"p": 0.791072,
+					"t_dtw": -1
+				},
+				{
+					"text": " required",
+					"id": 4739,
+					"p": 0.960233,
+					"t_dtw": -1
+				},
+				{
+					"text": " unanim",
+					"id": 29710,
+					"p": 0.997126,
+					"t_dtw": -1
+				},
+				{
+					"text": "ous",
+					"id": 563,
+					"p": 0.999011,
+					"t_dtw": -1
+				},
+				{
+					"text": " consent",
+					"id": 14546,
+					"p": 0.99736,
+					"t_dtw": -1
+				},
+				{
+					"text": " from",
+					"id": 490,
+					"p": 0.989944,
+					"t_dtw": -1
+				},
+				{
+					"text": " all",
+					"id": 439,
+					"p": 0.990601,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.895922,
+					"t_dtw": -1
+				},
+				{
+					"text": " states",
+					"id": 4368,
+					"p": 0.956935,
+					"t_dtw": -1
+				},
+				{
+					"text": " before",
+					"id": 949,
+					"p": 0.985173,
+					"t_dtw": -1
+				},
+				{
+					"text": " they",
+					"id": 436,
+					"p": 0.990964,
+					"t_dtw": -1
+				},
+				{
+					"text": " could",
+					"id": 727,
+					"p": 0.9935,
+					"t_dtw": -1
+				},
+				{
+					"text": " be",
+					"id": 312,
+					"p": 0.996065,
+					"t_dtw": -1
+				},
+				{
+					"text": " amended",
+					"id": 43641,
+					"p": 0.997902,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.601029,
+					"t_dtw": -1
+				},
+				{
+					"text": " and",
+					"id": 293,
+					"p": 0.989578,
+					"t_dtw": -1
+				},
+				{
+					"text": " states",
+					"id": 4368,
+					"p": 0.965582,
+					"t_dtw": -1
+				},
+				{
+					"text": " took",
+					"id": 1890,
+					"p": 0.996879,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.989906,
+					"t_dtw": -1
+				},
+				{
+					"text": " central",
+					"id": 5777,
+					"p": 0.964945,
+					"t_dtw": -1
+				},
+				{
+					"text": " government",
+					"id": 2463,
+					"p": 0.988182,
+					"t_dtw": -1
+				},
+				{
+					"text": " so",
+					"id": 370,
+					"p": 0.993695,
+					"t_dtw": -1
+				},
+				{
+					"text": " lightly",
+					"id": 16695,
+					"p": 0.998843,
+					"t_dtw": -1
+				},
+				{
+					"text": " that",
+					"id": 300,
+					"p": 0.982545,
+					"t_dtw": -1
+				},
+				{
+					"text": " their",
+					"id": 641,
+					"p": 0.988095,
+					"t_dtw": -1
+				},
+				{
+					"text": " representatives",
+					"id": 18628,
+					"p": 0.99314,
+					"t_dtw": -1
+				},
+				{
+					"text": " were",
+					"id": 645,
+					"p": 0.995264,
+					"t_dtw": -1
+				},
+				{
+					"text": " often",
+					"id": 2049,
+					"p": 0.97707,
+					"t_dtw": -1
+				},
+				{
+					"text": " absent",
+					"id": 25185,
+					"p": 0.998521,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.985969,
+					"t_dtw": -1
+				},
+				{
+					"text": " As",
+					"id": 1018,
+					"p": 0.788705,
+					"t_dtw": -1
+				},
+				{
+					"text": " soon",
+					"id": 2321,
+					"p": 0.995431,
+					"t_dtw": -1
+				},
+				{
+					"text": " as",
+					"id": 382,
+					"p": 0.996637,
+					"t_dtw": -1
+				},
+				{
+					"text": " you",
+					"id": 291,
+					"p": 0.997841,
+					"t_dtw": -1
+				},
+				{
+					"text": " get",
+					"id": 483,
+					"p": 0.994905,
+					"t_dtw": -1
+				},
+				{
+					"text": " out",
+					"id": 484,
+					"p": 0.997489,
+					"t_dtw": -1
+				},
+				{
+					"text": " of",
+					"id": 295,
+					"p": 0.994505,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.991469,
+					"t_dtw": -1
+				},
+				{
+					"text": " current",
+					"id": 2190,
+					"p": 0.979651,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.981143,
+					"t_dtw": -1
+				},
+				{
+					"text": " swimming",
+					"id": 11989,
+					"p": 0.981124,
+					"t_dtw": -1
+				},
+				{
+					"text": " back",
+					"id": 646,
+					"p": 0.993174,
+					"t_dtw": -1
+				},
+				{
+					"text": " is",
+					"id": 307,
+					"p": 0.983582,
+					"t_dtw": -1
+				},
+				{
+					"text": " no",
+					"id": 572,
+					"p": 0.996232,
+					"t_dtw": -1
+				},
+				{
+					"text": " more",
+					"id": 544,
+					"p": 0.997963,
+					"t_dtw": -1
+				},
+				{
+					"text": " difficult",
+					"id": 2252,
+					"p": 0.998479,
+					"t_dtw": -1
+				},
+				{
+					"text": " than",
+					"id": 813,
+					"p": 0.987926,
+					"t_dtw": -1
+				},
+				{
+					"text": " normally",
+					"id": 5646,
+					"p": 0.907923,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.958055,
+					"t_dtw": -1
+				},
+				{
+					"text": "<|endoftext|>",
+					"timestamps": {
+						"from": "00:02:00,000",
+						"to": "00:02:00,000"
+					},
+					"offsets": {
+						"from": 120000,
+						"to": 120000
+					},
+					"id": 50257,
+					"p": 0.967675,
+					"t_dtw": -1
+				}
+			]
+		}
+	]
+}

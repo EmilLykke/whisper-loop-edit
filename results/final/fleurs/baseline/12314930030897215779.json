@@ -1,0 +1,69 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,000", "to": "00:00:30,000" },
+      "offsets":    { "from": 0, "to": 30000 },
+      "text":       " Dette kaldes et kemikaliers pH-værdi. Du kan lave en indikator ved at bruge rødkålsaft.",
+      "words": [
+        { "text": " Dette", "t0": 0, "t1": 181, "offsets": { "from": 0, "to": 1810 } },
+        { "text": " kaldes", "t0": 188, "t1": 405, "offsets": { "from": 1880, "to": 4050 } },
+        { "text": " et", "t0": 405, "t1": 478, "offsets": { "from": 4050, "to": 4780 } },
+        { "text": " kemikaliers", "t0": 478, "t1": 677, "offsets": { "from": 4780, "to": 6770 } },
+        { "text": " pH-værdi.", "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " Du", "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " kan", "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " lave", "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " en", "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " indikator", "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " ved", "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " at", "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " bruge", "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " rødkålsaft.", "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } }
+      ],
+      "tokens": [
+        { "text": " D", "p": 0.748707, "t0": 0, "t1": 37, "offsets": { "from": 0, "to": 370 } },
+        { "text": "ette", "p": 0.997073, "t0": 85, "t1": 181, "offsets": { "from": 850, "to": 1810 } },
+        { "text": " kald", "p": 0.986241, "t0": 188, "t1": 332, "offsets": { "from": 1880, "to": 3320 } },
+        { "text": "es", "p": 0.998546, "t0": 332, "t1": 405, "offsets": { "from": 3320, "to": 4050 } },
+        { "text": " et", "p": 0.974457, "t0": 405, "t1": 478, "offsets": { "from": 4050, "to": 4780 } },
+        { "text": " ke", "p": 0.565732, "t0": 478, "t1": 553, "offsets": { "from": 4780, "to": 5530 } },
+        { "text": "m", "p": 0.9918, "t0": 553, "t1": 589, "offsets": { "from": 5530, "to": 5890 } },
+        { "text": "ik", "p": 0.911127, "t0": 589, "t1": 657, "offsets": { "from": 5890, "to": 6570 } },
+        { "text": "ali", "p": 0.196189, "t0": 661, "t1": 677, "offsets": { "from": 6610, "to": 6770 } },
+        { "text": "ers", "p": 0.713442, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " pH", "p": 0.632295, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": "-", "p": 0.841962, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": "v", "p": 0.761616, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": "ær", "p": 0.988797, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": "di", "p": 0.999293, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": ".", "p": 0.622754, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " Du", "p": 0.967859, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " kan", "p": 0.985381, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " la", "p": 0.990454, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": "ve", "p": 0.998157, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " en", "p": 0.951276, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " ind", "p": 0.986956, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": "ik", "p": 0.997756, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": "ator", "p": 0.999153, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " ved", "p": 0.968529, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " at", "p": 0.985206, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " br", "p": 0.996075, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": "uge", "p": 0.99659, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " r", "p": 0.899043, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": "ø", "p": 0.944289, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": "d", "p": 0.998658, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": "k", "p": 0.862717, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": "å", "p": 0.292776, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": "l", "p": 0.92355, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": "sa", "p": 0.992263, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": "ft", "p": 0.998211, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": ".", "p": 0.897876, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } }
+      ]
+    }
+  ]
+}

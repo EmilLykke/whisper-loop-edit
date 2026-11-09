@@ -1,0 +1,13 @@
+=== fleurs baseline 10:26:31
+930 recordings decoded in 1629 s -> results/final/fleurs/baseline
+=== fleurs E3 10:53:40
+930 recordings decoded in 1632 s -> results/final/fleurs/E3
+=== fleurs C1 11:20:52
+930 recordings decoded in 1623 s -> results/final/fleurs/C1
+=== extras baseline 11:47:55
+=== extras E3 11:55:12
+f91ecb788e1ef1ea5a1086fd1008171906be77e872c1d62c7060cda394d0c18e  models/ggml/ggml-large-v3-ours-q5_0.bin
+e5614e50a234a6793ea5bb10e057d7b6e053414715ee4a4c092cc9ded55696ed  models/ggml/edits/ggml-large-v3-E3-q5_0.bin
+=== q5_0 baseline 12:01:48
+=== q5_0 E3 12:14:09
+=== done rest 12:25:15

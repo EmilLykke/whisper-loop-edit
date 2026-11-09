@@ -1,0 +1,68 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,000", "to": "00:00:30,000" },
+      "offsets":    { "from": 0, "to": 30000 },
+      "text":       " Seks gisler inklusiv børn og ældre blev frigivet tidligt og lige så de filippinske fotografer.",
+      "words": [
+        { "text": " Seks", "t0": 0, "t1": 141, "offsets": { "from": 0, "to": 1410 } },
+        { "text": " gisler", "t0": 142, "t1": 342, "offsets": { "from": 1420, "to": 3420 } },
+        { "text": " inklusiv", "t0": 353, "t1": 628, "offsets": { "from": 3530, "to": 6280 } },
+        { "text": " børn", "t0": 631, "t1": 736, "offsets": { "from": 6310, "to": 7360 } },
+        { "text": " og", "t0": 736, "t1": 736, "offsets": { "from": 7360, "to": 7360 } },
+        { "text": " ældre", "t0": 736, "t1": 736, "offsets": { "from": 7360, "to": 7360 } },
+        { "text": " blev", "t0": 736, "t1": 736, "offsets": { "from": 7360, "to": 7360 } },
+        { "text": " frigivet", "t0": 736, "t1": 736, "offsets": { "from": 7360, "to": 7360 } },
+        { "text": " tidligt", "t0": 736, "t1": 736, "offsets": { "from": 7360, "to": 7360 } },
+        { "text": " og", "t0": 736, "t1": 736, "offsets": { "from": 7360, "to": 7360 } },
+        { "text": " lige", "t0": 736, "t1": 736, "offsets": { "from": 7360, "to": 7360 } },
+        { "text": " så", "t0": 736, "t1": 736, "offsets": { "from": 7360, "to": 7360 } },
+        { "text": " de", "t0": 736, "t1": 736, "offsets": { "from": 7360, "to": 7360 } },
+        { "text": " filippinske", "t0": 736, "t1": 736, "offsets": { "from": 7360, "to": 7360 } },
+        { "text": " fotografer.", "t0": 736, "t1": 736, "offsets": { "from": 7360, "to": 7360 } }
+      ],
+      "tokens": [
+        { "text": " Sek", "p": 0.633274, "t0": 0, "t1": 106, "offsets": { "from": 0, "to": 1060 } },
+        { "text": "s", "p": 0.99197, "t0": 135, "t1": 141, "offsets": { "from": 1350, "to": 1410 } },
+        { "text": " g", "p": 0.689084, "t0": 142, "t1": 175, "offsets": { "from": 1420, "to": 1750 } },
+        { "text": "is", "p": 0.610229, "t0": 176, "t1": 244, "offsets": { "from": 1760, "to": 2440 } },
+        { "text": "ler", "p": 0.998312, "t0": 246, "t1": 342, "offsets": { "from": 2460, "to": 3420 } },
+        { "text": " ink", "p": 0.386323, "t0": 353, "t1": 457, "offsets": { "from": 3530, "to": 4570 } },
+        { "text": "lus", "p": 0.527143, "t0": 457, "t1": 557, "offsets": { "from": 4570, "to": 5570 } },
+        { "text": "iv", "p": 0.998011, "t0": 567, "t1": 628, "offsets": { "from": 5670, "to": 6280 } },
+        { "text": " b", "p": 0.992055, "t0": 631, "t1": 664, "offsets": { "from": 6310, "to": 6640 } },
+        { "text": "ør", "p": 0.999758, "t0": 665, "t1": 736, "offsets": { "from": 6650, "to": 7360 } },
+        { "text": "n", "p": 0.999809, "t0": 736, "t1": 736, "offsets": { "from": 7360, "to": 7360 } },
+        { "text": " og", "p": 0.994118, "t0": 736, "t1": 736, "offsets": { "from": 7360, "to": 7360 } },
+        { "text": " ", "p": 0.997113, "t0": 736, "t1": 736, "offsets": { "from": 7360, "to": 7360 } },
+        { "text": "æ", "p": 0.999796, "t0": 736, "t1": 736, "offsets": { "from": 7360, "to": 7360 } },
+        { "text": "ld", "p": 0.999722, "t0": 736, "t1": 736, "offsets": { "from": 7360, "to": 7360 } },
+        { "text": "re", "p": 0.999952, "t0": 736, "t1": 736, "offsets": { "from": 7360, "to": 7360 } },
+        { "text": " blev", "p": 0.961432, "t0": 736, "t1": 736, "offsets": { "from": 7360, "to": 7360 } },
+        { "text": " frig", "p": 0.880372, "t0": 736, "t1": 736, "offsets": { "from": 7360, "to": 7360 } },
+        { "text": "iv", "p": 0.991435, "t0": 736, "t1": 736, "offsets": { "from": 7360, "to": 7360 } },
+        { "text": "et", "p": 0.999741, "t0": 736, "t1": 736, "offsets": { "from": 7360, "to": 7360 } },
+        { "text": " tid", "p": 0.72986, "t0": 736, "t1": 736, "offsets": { "from": 7360, "to": 7360 } },
+        { "text": "ligt", "p": 0.81256, "t0": 736, "t1": 736, "offsets": { "from": 7360, "to": 7360 } },
+        { "text": " og", "p": 0.723219, "t0": 736, "t1": 736, "offsets": { "from": 7360, "to": 7360 } },
+        { "text": " lige", "p": 0.634002, "t0": 736, "t1": 736, "offsets": { "from": 7360, "to": 7360 } },
+        { "text": " så", "p": 0.955057, "t0": 736, "t1": 736, "offsets": { "from": 7360, "to": 7360 } },
+        { "text": " de", "p": 0.967334, "t0": 736, "t1": 736, "offsets": { "from": 7360, "to": 7360 } },
+        { "text": " fil", "p": 0.940126, "t0": 736, "t1": 736, "offsets": { "from": 7360, "to": 7360 } },
+        { "text": "ipp", "p": 0.581625, "t0": 736, "t1": 736, "offsets": { "from": 7360, "to": 7360 } },
+        { "text": "ins", "p": 0.861359, "t0": 736, "t1": 736, "offsets": { "from": 7360, "to": 7360 } },
+        { "text": "ke", "p": 0.99605, "t0": 736, "t1": 736, "offsets": { "from": 7360, "to": 7360 } },
+        { "text": " fot", "p": 0.974395, "t0": 736, "t1": 736, "offsets": { "from": 7360, "to": 7360 } },
+        { "text": "og", "p": 0.999567, "t0": 736, "t1": 736, "offsets": { "from": 7360, "to": 7360 } },
+        { "text": "ra", "p": 0.999918, "t0": 736, "t1": 736, "offsets": { "from": 7360, "to": 7360 } },
+        { "text": "fer", "p": 0.998605, "t0": 736, "t1": 736, "offsets": { "from": 7360, "to": 7360 } },
+        { "text": ".", "p": 0.898789, "t0": 736, "t1": 736, "offsets": { "from": 7360, "to": 7360 } }
+      ]
+    }
+  ]
+}

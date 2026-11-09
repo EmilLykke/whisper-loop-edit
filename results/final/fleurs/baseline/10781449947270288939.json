@@ -1,0 +1,69 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,380", "to": "00:00:30,380" },
+      "offsets":    { "from": 380, "to": 30380 },
+      "text":       " I 1976 var 30% af Mako og Pichu blevet genetableret, og udgravningerne fortsætter den dag i dag.",
+      "words": [
+        { "text": " I", "t0": 58, "t1": 69, "offsets": { "from": 580, "to": 690 } },
+        { "text": " 1976", "t0": 69, "t1": 443, "offsets": { "from": 690, "to": 4430 } },
+        { "text": " var", "t0": 443, "t1": 536, "offsets": { "from": 4430, "to": 5360 } },
+        { "text": " 30%", "t0": 538, "t1": 752, "offsets": { "from": 5380, "to": 7520 } },
+        { "text": " af", "t0": 760, "t1": 815, "offsets": { "from": 7600, "to": 8150 } },
+        { "text": " Mako", "t0": 815, "t1": 836, "offsets": { "from": 8150, "to": 8360 } },
+        { "text": " og", "t0": 836, "t1": 836, "offsets": { "from": 8360, "to": 8360 } },
+        { "text": " Pichu", "t0": 836, "t1": 836, "offsets": { "from": 8360, "to": 8360 } },
+        { "text": " blevet", "t0": 836, "t1": 836, "offsets": { "from": 8360, "to": 8360 } },
+        { "text": " genetableret,", "t0": 836, "t1": 836, "offsets": { "from": 8360, "to": 8360 } },
+        { "text": " og", "t0": 836, "t1": 836, "offsets": { "from": 8360, "to": 8360 } },
+        { "text": " udgravningerne", "t0": 836, "t1": 836, "offsets": { "from": 8360, "to": 8360 } },
+        { "text": " fortsætter", "t0": 836, "t1": 836, "offsets": { "from": 8360, "to": 8360 } },
+        { "text": " den", "t0": 836, "t1": 836, "offsets": { "from": 8360, "to": 8360 } },
+        { "text": " dag", "t0": 836, "t1": 836, "offsets": { "from": 8360, "to": 8360 } },
+        { "text": " i", "t0": 836, "t1": 836, "offsets": { "from": 8360, "to": 8360 } },
+        { "text": " dag.", "t0": 836, "t1": 836, "offsets": { "from": 8360, "to": 8360 } }
+      ],
+      "tokens": [
+        { "text": " I", "p": 0.939327, "t0": 58, "t1": 69, "offsets": { "from": 580, "to": 690 } },
+        { "text": " 1976", "p": 0.956136, "t0": 69, "t1": 443, "offsets": { "from": 690, "to": 4430 } },
+        { "text": " var", "p": 0.916905, "t0": 443, "t1": 536, "offsets": { "from": 4430, "to": 5360 } },
+        { "text": " 30", "p": 0.962239, "t0": 538, "t1": 722, "offsets": { "from": 5380, "to": 7220 } },
+        { "text": "%", "p": 0.716987, "t0": 722, "t1": 752, "offsets": { "from": 7220, "to": 7520 } },
+        { "text": " af", "p": 0.993532, "t0": 760, "t1": 815, "offsets": { "from": 7600, "to": 8150 } },
+        { "text": " Mak", "p": 0.56547, "t0": 815, "t1": 820, "offsets": { "from": 8150, "to": 8200 } },
+        { "text": "o", "p": 0.455274, "t0": 836, "t1": 836, "offsets": { "from": 8360, "to": 8360 } },
+        { "text": " og", "p": 0.368613, "t0": 836, "t1": 836, "offsets": { "from": 8360, "to": 8360 } },
+        { "text": " P", "p": 0.775368, "t0": 836, "t1": 836, "offsets": { "from": 8360, "to": 8360 } },
+        { "text": "ich", "p": 0.839283, "t0": 836, "t1": 836, "offsets": { "from": 8360, "to": 8360 } },
+        { "text": "u", "p": 0.99906, "t0": 836, "t1": 836, "offsets": { "from": 8360, "to": 8360 } },
+        { "text": " ble", "p": 0.50404, "t0": 836, "t1": 836, "offsets": { "from": 8360, "to": 8360 } },
+        { "text": "vet", "p": 0.999838, "t0": 836, "t1": 836, "offsets": { "from": 8360, "to": 8360 } },
+        { "text": " gen", "p": 0.987268, "t0": 836, "t1": 836, "offsets": { "from": 8360, "to": 8360 } },
+        { "text": "et", "p": 0.998776, "t0": 836, "t1": 836, "offsets": { "from": 8360, "to": 8360 } },
+        { "text": "ab", "p": 0.952432, "t0": 836, "t1": 836, "offsets": { "from": 8360, "to": 8360 } },
+        { "text": "ler", "p": 0.992856, "t0": 836, "t1": 836, "offsets": { "from": 8360, "to": 8360 } },
+        { "text": "et", "p": 0.988374, "t0": 836, "t1": 836, "offsets": { "from": 8360, "to": 8360 } },
+        { "text": ",", "p": 0.442006, "t0": 836, "t1": 836, "offsets": { "from": 8360, "to": 8360 } },
+        { "text": " og", "p": 0.96813, "t0": 836, "t1": 836, "offsets": { "from": 8360, "to": 8360 } },
+        { "text": " ud", "p": 0.973049, "t0": 836, "t1": 836, "offsets": { "from": 8360, "to": 8360 } },
+        { "text": "grav", "p": 0.982943, "t0": 836, "t1": 836, "offsets": { "from": 8360, "to": 8360 } },
+        { "text": "ning", "p": 0.975816, "t0": 836, "t1": 836, "offsets": { "from": 8360, "to": 8360 } },
+        { "text": "erne", "p": 0.986086, "t0": 836, "t1": 836, "offsets": { "from": 8360, "to": 8360 } },
+        { "text": " forts", "p": 0.995839, "t0": 836, "t1": 836, "offsets": { "from": 8360, "to": 8360 } },
+        { "text": "æ", "p": 0.995177, "t0": 836, "t1": 836, "offsets": { "from": 8360, "to": 8360 } },
+        { "text": "t", "p": 0.993767, "t0": 836, "t1": 836, "offsets": { "from": 8360, "to": 8360 } },
+        { "text": "ter", "p": 0.999811, "t0": 836, "t1": 836, "offsets": { "from": 8360, "to": 8360 } },
+        { "text": " den", "p": 0.802194, "t0": 836, "t1": 836, "offsets": { "from": 8360, "to": 8360 } },
+        { "text": " dag", "p": 0.978037, "t0": 836, "t1": 836, "offsets": { "from": 8360, "to": 8360 } },
+        { "text": " i", "p": 0.940195, "t0": 836, "t1": 836, "offsets": { "from": 8360, "to": 8360 } },
+        { "text": " dag", "p": 0.998732, "t0": 836, "t1": 836, "offsets": { "from": 8360, "to": 8360 } },
+        { "text": ".", "p": 0.950706, "t0": 836, "t1": 836, "offsets": { "from": 8360, "to": 8360 } }
+      ]
+    }
+  ]
+}

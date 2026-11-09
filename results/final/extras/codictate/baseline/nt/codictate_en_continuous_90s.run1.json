@@ -1,0 +1,2246 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | ACCELERATE = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "large",
+		"multilingual": true,
+		"vocab": 51866,
+		"audio": {
+			"ctx": 1500,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"mels": 128,
+		"ftype": 1
+	},
+	"params": {
+		"model": "models/ggml/ggml-large-v3-ours-f16.bin",
+		"language": "en",
+		"translate": false
+	},
+	"result": {
+		"language": "en"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:-16:-47,-300",
+				"to": "00:00:30,000"
+			},
+			"offsets": {
+				"from": -1007300,
+				"to": 30000
+			},
+			"text": " Since the period of our tale, the active spirit of the country has surrounded it with a belt of rich and thriving settlements, though none but the hunter or the savage is ever known even now to penetrate its wild recesses. The dews were suffered to exhale, and the sun had dispersed the mists, and was shedding a strong and clear light in the forest when the travelers resumed their journey. After proceeding a few miles, the progress of Hawkeye, who led the advance, became more deliberate and watchful.",
+			"tokens": [
+				{
+					"text": " Since",
+					"id": 4162,
+					"p": 0.975327,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.999836,
+					"t_dtw": -1
+				},
+				{
+					"text": " period",
+					"id": 2896,
+					"p": 0.999821,
+					"t_dtw": -1
+				},
+				{
+					"text": " of",
+					"id": 295,
+					"p": 0.999985,
+					"t_dtw": -1
+				},
+				{
+					"text": " our",
+					"id": 527,
+					"p": 0.984399,
+					"t_dtw": -1
+				},
+				{
+					"text": " tale",
+					"id": 17172,
+					"p": 0.999207,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.917517,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.998609,
+					"t_dtw": -1
+				},
+				{
+					"text": " active",
+					"id": 4967,
+					"p": 0.99995,
+					"t_dtw": -1
+				},
+				{
+					"text": " spirit",
+					"id": 3797,
+					"p": 0.999865,
+					"t_dtw": -1
+				},
+				{
+					"text": " of",
+					"id": 295,
+					"p": 0.999954,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.999966,
+					"t_dtw": -1
+				},
+				{
+					"text": " country",
+					"id": 1941,
+					"p": 0.999335,
+					"t_dtw": -1
+				},
+				{
+					"text": " has",
+					"id": 575,
+					"p": 0.99508,
+					"t_dtw": -1
+				},
+				{
+					"text": " surrounded",
+					"id": 13221,
+					"p": 0.99995,
+					"t_dtw": -1
+				},
+				{
+					"text": " it",
+					"id": 309,
+					"p": 0.999992,
+					"t_dtw": -1
+				},
+				{
+					"text": " with",
+					"id": 365,
+					"p": 0.99992,
+					"t_dtw": -1
+				},
+				{
+					"text": " a",
+					"id": 257,
+					"p": 0.999992,
+					"t_dtw": -1
+				},
+				{
+					"text": " belt",
+					"id": 10750,
+					"p": 0.999977,
+					"t_dtw": -1
+				},
+				{
+					"text": " of",
+					"id": 295,
+					"p": 0.999954,
+					"t_dtw": -1
+				},
+				{
+					"text": " rich",
+					"id": 4593,
+					"p": 0.999708,
+					"t_dtw": -1
+				},
+				{
+					"text": " and",
+					"id": 293,
+					"p": 0.999979,
+					"t_dtw": -1
+				},
+				{
+					"text": " thriving",
+					"id": 30643,
+					"p": 0.999962,
+					"t_dtw": -1
+				},
+				{
+					"text": " settlements",
+					"id": 35558,
+					"p": 0.999987,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.996487,
+					"t_dtw": -1
+				},
+				{
+					"text": " though",
+					"id": 1673,
+					"p": 0.998866,
+					"t_dtw": -1
+				},
+				{
+					"text": " none",
+					"id": 6022,
+					"p": 0.999962,
+					"t_dtw": -1
+				},
+				{
+					"text": " but",
+					"id": 457,
+					"p": 0.999969,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.998875,
+					"t_dtw": -1
+				},
+				{
+					"text": " hunter",
+					"id": 22970,
+					"p": 0.988116,
+					"t_dtw": -1
+				},
+				{
+					"text": " or",
+					"id": 420,
+					"p": 0.99995,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.999756,
+					"t_dtw": -1
+				},
+				{
+					"text": " savage",
+					"id": 42512,
+					"p": 0.999918,
+					"t_dtw": -1
+				},
+				{
+					"text": " is",
+					"id": 307,
+					"p": 0.999327,
+					"t_dtw": -1
+				},
+				{
+					"text": " ever",
+					"id": 1562,
+					"p": 0.999962,
+					"t_dtw": -1
+				},
+				{
+					"text": " known",
+					"id": 2570,
+					"p": 0.999985,
+					"t_dtw": -1
+				},
+				{
+					"text": " even",
+					"id": 754,
+					"p": 0.995672,
+					"t_dtw": -1
+				},
+				{
+					"text": " now",
+					"id": 586,
+					"p": 0.999985,
+					"t_dtw": -1
+				},
+				{
+					"text": " to",
+					"id": 281,
+					"p": 0.999977,
+					"t_dtw": -1
+				},
+				{
+					"text": " penetrate",
+					"id": 36307,
+					"p": 0.999973,
+					"t_dtw": -1
+				},
+				{
+					"text": " its",
+					"id": 1080,
+					"p": 0.999973,
+					"t_dtw": -1
+				},
+				{
+					"text": " wild",
+					"id": 4868,
+					"p": 0.999966,
+					"t_dtw": -1
+				},
+				{
+					"text": " recess",
+					"id": 16417,
+					"p": 0.999661,
+					"t_dtw": -1
+				},
+				{
+					"text": "es",
+					"id": 279,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.999846,
+					"t_dtw": -1
+				},
+				{
+					"text": " The",
+					"id": 440,
+					"p": 0.998639,
+					"t_dtw": -1
+				},
+				{
+					"text": " de",
+					"id": 368,
+					"p": 0.991234,
+					"t_dtw": -1
+				},
+				{
+					"text": "ws",
+					"id": 14358,
+					"p": 0.999964,
+					"t_dtw": -1
+				},
+				{
+					"text": " were",
+					"id": 645,
+					"p": 0.999985,
+					"t_dtw": -1
+				},
+				{
+					"text": " suffered",
+					"id": 12770,
+					"p": 0.999914,
+					"t_dtw": -1
+				},
+				{
+					"text": " to",
+					"id": 281,
+					"p": 0.999996,
+					"t_dtw": -1
+				},
+				{
+					"text": " exhale",
+					"id": 19652,
+					"p": 0.999937,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.937192,
+					"t_dtw": -1
+				},
+				{
+					"text": " and",
+					"id": 293,
+					"p": 0.999928,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.999996,
+					"t_dtw": -1
+				},
+				{
+					"text": " sun",
+					"id": 3295,
+					"p": 0.999508,
+					"t_dtw": -1
+				},
+				{
+					"text": " had",
+					"id": 632,
+					"p": 0.999992,
+					"t_dtw": -1
+				},
+				{
+					"text": " dispersed",
+					"id": 48059,
+					"p": 0.999914,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.999996,
+					"t_dtw": -1
+				},
+				{
+					"text": " m",
+					"id": 275,
+					"p": 0.999464,
+					"t_dtw": -1
+				},
+				{
+					"text": "ists",
+					"id": 1751,
+					"p": 0.999786,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.817438,
+					"t_dtw": -1
+				},
+				{
+					"text": " and",
+					"id": 293,
+					"p": 0.999958,
+					"t_dtw": -1
+				},
+				{
+					"text": " was",
+					"id": 390,
+					"p": 0.999992,
+					"t_dtw": -1
+				},
+				{
+					"text": " shedding",
+					"id": 49934,
+					"p": 0.999901,
+					"t_dtw": -1
+				},
+				{
+					"text": " a",
+					"id": 257,
+					"p": 0.999996,
+					"t_dtw": -1
+				},
+				{
+					"text": " strong",
+					"id": 2068,
+					"p": 0.999966,
+					"t_dtw": -1
+				},
+				{
+					"text": " and",
+					"id": 293,
+					"p": 0.999992,
+					"t_dtw": -1
+				},
+				{
+					"text": " clear",
+					"id": 1850,
+					"p": 0.999969,
+					"t_dtw": -1
+				},
+				{
+					"text": " light",
+					"id": 1442,
+					"p": 0.999994,
+					"t_dtw": -1
+				},
+				{
+					"text": " in",
+					"id": 294,
+					"p": 0.999996,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " forest",
+					"id": 6719,
+					"p": 0.999237,
+					"t_dtw": -1
+				},
+				{
+					"text": " when",
+					"id": 562,
+					"p": 0.999306,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.999996,
+					"t_dtw": -1
+				},
+				{
+					"text": " travelers",
+					"id": 35283,
+					"p": 0.936693,
+					"t_dtw": -1
+				},
+				{
+					"text": " res",
+					"id": 725,
+					"p": 0.999916,
+					"t_dtw": -1
+				},
+				{
+					"text": "umed",
+					"id": 28189,
+					"p": 0.99999,
+					"t_dtw": -1
+				},
+				{
+					"text": " their",
+					"id": 641,
+					"p": 0.999992,
+					"t_dtw": -1
+				},
+				{
+					"text": " journey",
+					"id": 4671,
+					"p": 0.999987,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.999975,
+					"t_dtw": -1
+				},
+				{
+					"text": " After",
+					"id": 2381,
+					"p": 0.961085,
+					"t_dtw": -1
+				},
+				{
+					"text": " proceeding",
+					"id": 41163,
+					"p": 0.993851,
+					"t_dtw": -1
+				},
+				{
+					"text": " a",
+					"id": 257,
+					"p": 0.999535,
+					"t_dtw": -1
+				},
+				{
+					"text": " few",
+					"id": 1326,
+					"p": 0.99919,
+					"t_dtw": -1
+				},
+				{
+					"text": " miles",
+					"id": 6193,
+					"p": 0.995173,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.999935,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.988874,
+					"t_dtw": -1
+				},
+				{
+					"text": " progress",
+					"id": 4205,
+					"p": 0.995216,
+					"t_dtw": -1
+				},
+				{
+					"text": " of",
+					"id": 295,
+					"p": 0.996628,
+					"t_dtw": -1
+				},
+				{
+					"text": " Haw",
+					"id": 9325,
+					"p": 0.949945,
+					"t_dtw": -1
+				},
+				{
+					"text": "ke",
+					"id": 330,
+					"p": 0.999884,
+					"t_dtw": -1
+				},
+				{
+					"text": "ye",
+					"id": 1200,
+					"p": 0.999964,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.999834,
+					"t_dtw": -1
+				},
+				{
+					"text": " who",
+					"id": 567,
+					"p": 0.98616,
+					"t_dtw": -1
+				},
+				{
+					"text": " led",
+					"id": 4684,
+					"p": 0.998612,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.99533,
+					"t_dtw": -1
+				},
+				{
+					"text": " advance",
+					"id": 7295,
+					"p": 0.976733,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.999968,
+					"t_dtw": -1
+				},
+				{
+					"text": " became",
+					"id": 3062,
+					"p": 0.885841,
+					"t_dtw": -1
+				},
+				{
+					"text": " more",
+					"id": 544,
+					"p": 0.998494,
+					"t_dtw": -1
+				},
+				{
+					"text": " deliberate",
+					"id": 30515,
+					"p": 0.910938,
+					"t_dtw": -1
+				},
+				{
+					"text": " and",
+					"id": 293,
+					"p": 0.966942,
+					"t_dtw": -1
+				},
+				{
+					"text": " watch",
+					"id": 1159,
+					"p": 0.986263,
+					"t_dtw": -1
+				},
+				{
+					"text": "ful",
+					"id": 906,
+					"p": 0.999994,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.998374,
+					"t_dtw": -1
+				},
+				{
+					"text": "<|endoftext|>",
+					"timestamps": {
+						"from": "00:00:30,000",
+						"to": "00:00:30,000"
+					},
+					"offsets": {
+						"from": 30000,
+						"to": 30000
+					},
+					"id": 50257,
+					"p": 0.983076,
+					"t_dtw": -1
+				}
+			]
+		},
+		{
+			"timestamps": {
+				"from": "00:-16:-17,-300",
+				"to": "00:01:00,000"
+			},
+			"offsets": {
+				"from": -977300,
+				"to": 60000
+			},
+			"text": " He stopped to examine the trees, nor did he cross a rivulet without attentively considering the quantity, the velocity, and the color of its waters. Distrusting his own judgment, his appeals to the opinion of Chingachgook were frequent and earnest. Yet here are we, within a short range of the Skaroons, and not a sign of a trail have we crossed. Let us retrace our steps, and examine as we go, with keener eyes. Chingachgook had caught the look, and, motioning with his hand, he bade him speak.",
+			"tokens": [
+				{
+					"text": " He",
+					"id": 634,
+					"p": 0.184582,
+					"t_dtw": -1
+				},
+				{
+					"text": " stopped",
+					"id": 5936,
+					"p": 0.619418,
+					"t_dtw": -1
+				},
+				{
+					"text": " to",
+					"id": 281,
+					"p": 0.999725,
+					"t_dtw": -1
+				},
+				{
+					"text": " examine",
+					"id": 17496,
+					"p": 0.999975,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.999989,
+					"t_dtw": -1
+				},
+				{
+					"text": " trees",
+					"id": 5852,
+					"p": 0.999908,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.69117,
+					"t_dtw": -1
+				},
+				{
+					"text": " nor",
+					"id": 6051,
+					"p": 0.999968,
+					"t_dtw": -1
+				},
+				{
+					"text": " did",
+					"id": 630,
+					"p": 0.999994,
+					"t_dtw": -1
+				},
+				{
+					"text": " he",
+					"id": 415,
+					"p": 0.999996,
+					"t_dtw": -1
+				},
+				{
+					"text": " cross",
+					"id": 3278,
+					"p": 0.999985,
+					"t_dtw": -1
+				},
+				{
+					"text": " a",
+					"id": 257,
+					"p": 0.993436,
+					"t_dtw": -1
+				},
+				{
+					"text": " riv",
+					"id": 28745,
+					"p": 0.999756,
+					"t_dtw": -1
+				},
+				{
+					"text": "ul",
+					"id": 425,
+					"p": 0.998155,
+					"t_dtw": -1
+				},
+				{
+					"text": "et",
+					"id": 302,
+					"p": 0.999876,
+					"t_dtw": -1
+				},
+				{
+					"text": " without",
+					"id": 1553,
+					"p": 0.999565,
+					"t_dtw": -1
+				},
+				{
+					"text": " attent",
+					"id": 30980,
+					"p": 0.999056,
+					"t_dtw": -1
+				},
+				{
+					"text": "ively",
+					"id": 3413,
+					"p": 0.999969,
+					"t_dtw": -1
+				},
+				{
+					"text": " considering",
+					"id": 8079,
+					"p": 0.999977,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.999996,
+					"t_dtw": -1
+				},
+				{
+					"text": " quantity",
+					"id": 11275,
+					"p": 0.999964,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.999947,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.999985,
+					"t_dtw": -1
+				},
+				{
+					"text": " velocity",
+					"id": 9269,
+					"p": 0.999975,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.998818,
+					"t_dtw": -1
+				},
+				{
+					"text": " and",
+					"id": 293,
+					"p": 0.999996,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.999996,
+					"t_dtw": -1
+				},
+				{
+					"text": " color",
+					"id": 2017,
+					"p": 0.998854,
+					"t_dtw": -1
+				},
+				{
+					"text": " of",
+					"id": 295,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " its",
+					"id": 1080,
+					"p": 0.999992,
+					"t_dtw": -1
+				},
+				{
+					"text": " waters",
+					"id": 12975,
+					"p": 0.999971,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.996983,
+					"t_dtw": -1
+				},
+				{
+					"text": " Dist",
+					"id": 9840,
+					"p": 0.983207,
+					"t_dtw": -1
+				},
+				{
+					"text": "r",
+					"id": 81,
+					"p": 0.99752,
+					"t_dtw": -1
+				},
+				{
+					"text": "usting",
+					"id": 11712,
+					"p": 0.999899,
+					"t_dtw": -1
+				},
+				{
+					"text": " his",
+					"id": 702,
+					"p": 0.999992,
+					"t_dtw": -1
+				},
+				{
+					"text": " own",
+					"id": 1065,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " judgment",
+					"id": 12216,
+					"p": 0.99991,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.999996,
+					"t_dtw": -1
+				},
+				{
+					"text": " his",
+					"id": 702,
+					"p": 0.999992,
+					"t_dtw": -1
+				},
+				{
+					"text": " appeals",
+					"id": 32603,
+					"p": 0.999985,
+					"t_dtw": -1
+				},
+				{
+					"text": " to",
+					"id": 281,
+					"p": 0.999996,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.999996,
+					"t_dtw": -1
+				},
+				{
+					"text": " opinion",
+					"id": 4800,
+					"p": 0.999971,
+					"t_dtw": -1
+				},
+				{
+					"text": " of",
+					"id": 295,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " Ching",
+					"id": 47818,
+					"p": 0.998858,
+					"t_dtw": -1
+				},
+				{
+					"text": "ach",
+					"id": 608,
+					"p": 0.973461,
+					"t_dtw": -1
+				},
+				{
+					"text": "g",
+					"id": 70,
+					"p": 0.93882,
+					"t_dtw": -1
+				},
+				{
+					"text": "ook",
+					"id": 1212,
+					"p": 0.991265,
+					"t_dtw": -1
+				},
+				{
+					"text": " were",
+					"id": 645,
+					"p": 0.99992,
+					"t_dtw": -1
+				},
+				{
+					"text": " frequent",
+					"id": 18004,
+					"p": 0.999992,
+					"t_dtw": -1
+				},
+				{
+					"text": " and",
+					"id": 293,
+					"p": 0.999996,
+					"t_dtw": -1
+				},
+				{
+					"text": " earnest",
+					"id": 48171,
+					"p": 0.999968,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.994391,
+					"t_dtw": -1
+				},
+				{
+					"text": " Yet",
+					"id": 10890,
+					"p": 0.998847,
+					"t_dtw": -1
+				},
+				{
+					"text": " here",
+					"id": 510,
+					"p": 0.999891,
+					"t_dtw": -1
+				},
+				{
+					"text": " are",
+					"id": 366,
+					"p": 0.999739,
+					"t_dtw": -1
+				},
+				{
+					"text": " we",
+					"id": 321,
+					"p": 0.999989,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.661676,
+					"t_dtw": -1
+				},
+				{
+					"text": " within",
+					"id": 1951,
+					"p": 0.999994,
+					"t_dtw": -1
+				},
+				{
+					"text": " a",
+					"id": 257,
+					"p": 0.999996,
+					"t_dtw": -1
+				},
+				{
+					"text": " short",
+					"id": 2099,
+					"p": 0.999996,
+					"t_dtw": -1
+				},
+				{
+					"text": " range",
+					"id": 3613,
+					"p": 0.999956,
+					"t_dtw": -1
+				},
+				{
+					"text": " of",
+					"id": 295,
+					"p": 0.999996,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.999989,
+					"t_dtw": -1
+				},
+				{
+					"text": " Sk",
+					"id": 7324,
+					"p": 0.502872,
+					"t_dtw": -1
+				},
+				{
+					"text": "aro",
+					"id": 9708,
+					"p": 0.964014,
+					"t_dtw": -1
+				},
+				{
+					"text": "ons",
+					"id": 892,
+					"p": 0.997988,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.999996,
+					"t_dtw": -1
+				},
+				{
+					"text": " and",
+					"id": 293,
+					"p": 0.999996,
+					"t_dtw": -1
+				},
+				{
+					"text": " not",
+					"id": 406,
+					"p": 0.999996,
+					"t_dtw": -1
+				},
+				{
+					"text": " a",
+					"id": 257,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " sign",
+					"id": 1465,
+					"p": 0.999989,
+					"t_dtw": -1
+				},
+				{
+					"text": " of",
+					"id": 295,
+					"p": 0.999996,
+					"t_dtw": -1
+				},
+				{
+					"text": " a",
+					"id": 257,
+					"p": 0.999439,
+					"t_dtw": -1
+				},
+				{
+					"text": " trail",
+					"id": 9924,
+					"p": 0.999931,
+					"t_dtw": -1
+				},
+				{
+					"text": " have",
+					"id": 362,
+					"p": 0.999996,
+					"t_dtw": -1
+				},
+				{
+					"text": " we",
+					"id": 321,
+					"p": 0.999996,
+					"t_dtw": -1
+				},
+				{
+					"text": " crossed",
+					"id": 14622,
+					"p": 0.999981,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.999912,
+					"t_dtw": -1
+				},
+				{
+					"text": " Let",
+					"id": 961,
+					"p": 0.99798,
+					"t_dtw": -1
+				},
+				{
+					"text": " us",
+					"id": 505,
+					"p": 0.999992,
+					"t_dtw": -1
+				},
+				{
+					"text": " retr",
+					"id": 23106,
+					"p": 0.999861,
+					"t_dtw": -1
+				},
+				{
+					"text": "ace",
+					"id": 617,
+					"p": 0.999969,
+					"t_dtw": -1
+				},
+				{
+					"text": " our",
+					"id": 527,
+					"p": 0.999996,
+					"t_dtw": -1
+				},
+				{
+					"text": " steps",
+					"id": 4439,
+					"p": 0.999935,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.605101,
+					"t_dtw": -1
+				},
+				{
+					"text": " and",
+					"id": 293,
+					"p": 0.999996,
+					"t_dtw": -1
+				},
+				{
+					"text": " examine",
+					"id": 17496,
+					"p": 0.99999,
+					"t_dtw": -1
+				},
+				{
+					"text": " as",
+					"id": 382,
+					"p": 0.999866,
+					"t_dtw": -1
+				},
+				{
+					"text": " we",
+					"id": 321,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " go",
+					"id": 352,
+					"p": 0.999994,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.948046,
+					"t_dtw": -1
+				},
+				{
+					"text": " with",
+					"id": 365,
+					"p": 0.999878,
+					"t_dtw": -1
+				},
+				{
+					"text": " ke",
+					"id": 803,
+					"p": 0.996744,
+					"t_dtw": -1
+				},
+				{
+					"text": "ener",
+					"id": 7971,
+					"p": 0.999968,
+					"t_dtw": -1
+				},
+				{
+					"text": " eyes",
+					"id": 2575,
+					"p": 0.999943,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.995761,
+					"t_dtw": -1
+				},
+				{
+					"text": " Ching",
+					"id": 47818,
+					"p": 0.995963,
+					"t_dtw": -1
+				},
+				{
+					"text": "ach",
+					"id": 608,
+					"p": 0.99984,
+					"t_dtw": -1
+				},
+				{
+					"text": "g",
+					"id": 70,
+					"p": 0.999924,
+					"t_dtw": -1
+				},
+				{
+					"text": "ook",
+					"id": 1212,
+					"p": 0.999956,
+					"t_dtw": -1
+				},
+				{
+					"text": " had",
+					"id": 632,
+					"p": 0.999868,
+					"t_dtw": -1
+				},
+				{
+					"text": " caught",
+					"id": 5415,
+					"p": 0.999992,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.999954,
+					"t_dtw": -1
+				},
+				{
+					"text": " look",
+					"id": 574,
+					"p": 0.999192,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.999958,
+					"t_dtw": -1
+				},
+				{
+					"text": " and",
+					"id": 293,
+					"p": 0.999784,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.630223,
+					"t_dtw": -1
+				},
+				{
+					"text": " motion",
+					"id": 5394,
+					"p": 0.999718,
+					"t_dtw": -1
+				},
+				{
+					"text": "ing",
+					"id": 278,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " with",
+					"id": 365,
+					"p": 0.999802,
+					"t_dtw": -1
+				},
+				{
+					"text": " his",
+					"id": 702,
+					"p": 0.999989,
+					"t_dtw": -1
+				},
+				{
+					"text": " hand",
+					"id": 1011,
+					"p": 0.999849,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.999996,
+					"t_dtw": -1
+				},
+				{
+					"text": " he",
+					"id": 415,
+					"p": 0.999586,
+					"t_dtw": -1
+				},
+				{
+					"text": " b",
+					"id": 272,
+					"p": 0.999028,
+					"t_dtw": -1
+				},
+				{
+					"text": "ade",
+					"id": 762,
+					"p": 0.999899,
+					"t_dtw": -1
+				},
+				{
+					"text": " him",
+					"id": 796,
+					"p": 0.999966,
+					"t_dtw": -1
+				},
+				{
+					"text": " speak",
+					"id": 1710,
+					"p": 0.999735,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.994816,
+					"t_dtw": -1
+				},
+				{
+					"text": "<|endoftext|>",
+					"timestamps": {
+						"from": "00:01:00,000",
+						"to": "00:01:00,000"
+					},
+					"offsets": {
+						"from": 60000,
+						"to": 60000
+					},
+					"id": 50257,
+					"p": 0.999983,
+					"t_dtw": -1
+				}
+			]
+		},
+		{
+			"timestamps": {
+				"from": "00:-15:-47,-300",
+				"to": "00:01:30,000"
+			},
+			"offsets": {
+				"from": -947300,
+				"to": 90000
+			},
+			"text": " The eyes of the whole party followed the unexpected movement, and read their success in the air of triumph that the youth assumed. It would have been more wonderful had he spoken without a bidding. See, said Uncas, pointing north and south, at the evident marks of the broad trail on either side of him. The dark hair has gone toward the forest. If a rock, or a rivulet, or a bit of earth harder than common, severed the links of the clue they followed, the true eye of the scout recovered them at a distance.",
+			"tokens": [
+				{
+					"text": " The",
+					"id": 440,
+					"p": 0.963067,
+					"t_dtw": -1
+				},
+				{
+					"text": " eyes",
+					"id": 2575,
+					"p": 0.99818,
+					"t_dtw": -1
+				},
+				{
+					"text": " of",
+					"id": 295,
+					"p": 0.999777,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.999451,
+					"t_dtw": -1
+				},
+				{
+					"text": " whole",
+					"id": 1379,
+					"p": 0.999523,
+					"t_dtw": -1
+				},
+				{
+					"text": " party",
+					"id": 3595,
+					"p": 0.998824,
+					"t_dtw": -1
+				},
+				{
+					"text": " followed",
+					"id": 6263,
+					"p": 0.999222,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.998858,
+					"t_dtw": -1
+				},
+				{
+					"text": " unexpected",
+					"id": 13106,
+					"p": 0.999579,
+					"t_dtw": -1
+				},
+				{
+					"text": " movement",
+					"id": 3963,
+					"p": 0.998692,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.989242,
+					"t_dtw": -1
+				},
+				{
+					"text": " and",
+					"id": 293,
+					"p": 0.999426,
+					"t_dtw": -1
+				},
+				{
+					"text": " read",
+					"id": 1401,
+					"p": 0.998906,
+					"t_dtw": -1
+				},
+				{
+					"text": " their",
+					"id": 641,
+					"p": 0.999466,
+					"t_dtw": -1
+				},
+				{
+					"text": " success",
+					"id": 2245,
+					"p": 0.999498,
+					"t_dtw": -1
+				},
+				{
+					"text": " in",
+					"id": 294,
+					"p": 0.99253,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.999739,
+					"t_dtw": -1
+				},
+				{
+					"text": " air",
+					"id": 1988,
+					"p": 0.999641,
+					"t_dtw": -1
+				},
+				{
+					"text": " of",
+					"id": 295,
+					"p": 0.999901,
+					"t_dtw": -1
+				},
+				{
+					"text": " triumph",
+					"id": 29156,
+					"p": 0.99895,
+					"t_dtw": -1
+				},
+				{
+					"text": " that",
+					"id": 300,
+					"p": 0.998763,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.999735,
+					"t_dtw": -1
+				},
+				{
+					"text": " youth",
+					"id": 7503,
+					"p": 0.999636,
+					"t_dtw": -1
+				},
+				{
+					"text": " assumed",
+					"id": 15895,
+					"p": 0.999571,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.998365,
+					"t_dtw": -1
+				},
+				{
+					"text": " It",
+					"id": 467,
+					"p": 0.992309,
+					"t_dtw": -1
+				},
+				{
+					"text": " would",
+					"id": 576,
+					"p": 0.99963,
+					"t_dtw": -1
+				},
+				{
+					"text": " have",
+					"id": 362,
+					"p": 0.999876,
+					"t_dtw": -1
+				},
+				{
+					"text": " been",
+					"id": 668,
+					"p": 0.999954,
+					"t_dtw": -1
+				},
+				{
+					"text": " more",
+					"id": 544,
+					"p": 0.998835,
+					"t_dtw": -1
+				},
+				{
+					"text": " wonderful",
+					"id": 3715,
+					"p": 0.999561,
+					"t_dtw": -1
+				},
+				{
+					"text": " had",
+					"id": 632,
+					"p": 0.997463,
+					"t_dtw": -1
+				},
+				{
+					"text": " he",
+					"id": 415,
+					"p": 0.999966,
+					"t_dtw": -1
+				},
+				{
+					"text": " spoken",
+					"id": 10759,
+					"p": 0.999617,
+					"t_dtw": -1
+				},
+				{
+					"text": " without",
+					"id": 1553,
+					"p": 0.999573,
+					"t_dtw": -1
+				},
+				{
+					"text": " a",
+					"id": 257,
+					"p": 0.988738,
+					"t_dtw": -1
+				},
+				{
+					"text": " bidding",
+					"id": 39702,
+					"p": 0.998253,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.997893,
+					"t_dtw": -1
+				},
+				{
+					"text": " See",
+					"id": 3008,
+					"p": 0.828348,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.985725,
+					"t_dtw": -1
+				},
+				{
+					"text": " said",
+					"id": 848,
+					"p": 0.998096,
+					"t_dtw": -1
+				},
+				{
+					"text": " Un",
+					"id": 1156,
+					"p": 0.996689,
+					"t_dtw": -1
+				},
+				{
+					"text": "cas",
+					"id": 16369,
+					"p": 0.880481,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.999767,
+					"t_dtw": -1
+				},
+				{
+					"text": " pointing",
+					"id": 12166,
+					"p": 0.999935,
+					"t_dtw": -1
+				},
+				{
+					"text": " north",
+					"id": 6830,
+					"p": 0.9996,
+					"t_dtw": -1
+				},
+				{
+					"text": " and",
+					"id": 293,
+					"p": 0.999947,
+					"t_dtw": -1
+				},
+				{
+					"text": " south",
+					"id": 7377,
+					"p": 0.99996,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.996042,
+					"t_dtw": -1
+				},
+				{
+					"text": " at",
+					"id": 412,
+					"p": 0.999714,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.999992,
+					"t_dtw": -1
+				},
+				{
+					"text": " evident",
+					"id": 16371,
+					"p": 0.999884,
+					"t_dtw": -1
+				},
+				{
+					"text": " marks",
+					"id": 10640,
+					"p": 0.999933,
+					"t_dtw": -1
+				},
+				{
+					"text": " of",
+					"id": 295,
+					"p": 0.999908,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.999912,
+					"t_dtw": -1
+				},
+				{
+					"text": " broad",
+					"id": 4152,
+					"p": 0.999497,
+					"t_dtw": -1
+				},
+				{
+					"text": " trail",
+					"id": 9924,
+					"p": 0.999912,
+					"t_dtw": -1
+				},
+				{
+					"text": " on",
+					"id": 322,
+					"p": 0.999758,
+					"t_dtw": -1
+				},
+				{
+					"text": " either",
+					"id": 2139,
+					"p": 0.999834,
+					"t_dtw": -1
+				},
+				{
+					"text": " side",
+					"id": 1252,
+					"p": 0.999897,
+					"t_dtw": -1
+				},
+				{
+					"text": " of",
+					"id": 295,
+					"p": 0.999811,
+					"t_dtw": -1
+				},
+				{
+					"text": " him",
+					"id": 796,
+					"p": 0.999826,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.871348,
+					"t_dtw": -1
+				},
+				{
+					"text": " The",
+					"id": 440,
+					"p": 0.999645,
+					"t_dtw": -1
+				},
+				{
+					"text": " dark",
+					"id": 2877,
+					"p": 0.986709,
+					"t_dtw": -1
+				},
+				{
+					"text": " hair",
+					"id": 2578,
+					"p": 0.711188,
+					"t_dtw": -1
+				},
+				{
+					"text": " has",
+					"id": 575,
+					"p": 0.999605,
+					"t_dtw": -1
+				},
+				{
+					"text": " gone",
+					"id": 2780,
+					"p": 0.999956,
+					"t_dtw": -1
+				},
+				{
+					"text": " toward",
+					"id": 7361,
+					"p": 0.999861,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.999981,
+					"t_dtw": -1
+				},
+				{
+					"text": " forest",
+					"id": 6719,
+					"p": 0.99992,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.998273,
+					"t_dtw": -1
+				},
+				{
+					"text": " If",
+					"id": 759,
+					"p": 0.986075,
+					"t_dtw": -1
+				},
+				{
+					"text": " a",
+					"id": 257,
+					"p": 0.999969,
+					"t_dtw": -1
+				},
+				{
+					"text": " rock",
+					"id": 3727,
+					"p": 0.999886,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.976982,
+					"t_dtw": -1
+				},
+				{
+					"text": " or",
+					"id": 420,
+					"p": 0.999924,
+					"t_dtw": -1
+				},
+				{
+					"text": " a",
+					"id": 257,
+					"p": 0.994387,
+					"t_dtw": -1
+				},
+				{
+					"text": " riv",
+					"id": 28745,
+					"p": 0.999908,
+					"t_dtw": -1
+				},
+				{
+					"text": "ul",
+					"id": 425,
+					"p": 0.999811,
+					"t_dtw": -1
+				},
+				{
+					"text": "et",
+					"id": 302,
+					"p": 0.999994,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " or",
+					"id": 420,
+					"p": 0.999935,
+					"t_dtw": -1
+				},
+				{
+					"text": " a",
+					"id": 257,
+					"p": 0.99995,
+					"t_dtw": -1
+				},
+				{
+					"text": " bit",
+					"id": 857,
+					"p": 0.999929,
+					"t_dtw": -1
+				},
+				{
+					"text": " of",
+					"id": 295,
+					"p": 0.999943,
+					"t_dtw": -1
+				},
+				{
+					"text": " earth",
+					"id": 4120,
+					"p": 0.999333,
+					"t_dtw": -1
+				},
+				{
+					"text": " harder",
+					"id": 6081,
+					"p": 0.998999,
+					"t_dtw": -1
+				},
+				{
+					"text": " than",
+					"id": 813,
+					"p": 0.999943,
+					"t_dtw": -1
+				},
+				{
+					"text": " common",
+					"id": 2689,
+					"p": 0.999594,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.917988,
+					"t_dtw": -1
+				},
+				{
+					"text": " sever",
+					"id": 2802,
+					"p": 0.999746,
+					"t_dtw": -1
+				},
+				{
+					"text": "ed",
+					"id": 292,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.999863,
+					"t_dtw": -1
+				},
+				{
+					"text": " links",
+					"id": 6123,
+					"p": 0.982158,
+					"t_dtw": -1
+				},
+				{
+					"text": " of",
+					"id": 295,
+					"p": 0.999638,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.999485,
+					"t_dtw": -1
+				},
+				{
+					"text": " clue",
+					"id": 13602,
+					"p": 0.929388,
+					"t_dtw": -1
+				},
+				{
+					"text": " they",
+					"id": 436,
+					"p": 0.952628,
+					"t_dtw": -1
+				},
+				{
+					"text": " followed",
+					"id": 6263,
+					"p": 0.999232,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.869027,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.988423,
+					"t_dtw": -1
+				},
+				{
+					"text": " true",
+					"id": 2074,
+					"p": 0.999716,
+					"t_dtw": -1
+				},
+				{
+					"text": " eye",
+					"id": 3313,
+					"p": 0.989338,
+					"t_dtw": -1
+				},
+				{
+					"text": " of",
+					"id": 295,
+					"p": 0.99976,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.99983,
+					"t_dtw": -1
+				},
+				{
+					"text": " scout",
+					"id": 34392,
+					"p": 0.972826,
+					"t_dtw": -1
+				},
+				{
+					"text": " recovered",
+					"id": 19542,
+					"p": 0.998746,
+					"t_dtw": -1
+				},
+				{
+					"text": " them",
+					"id": 552,
+					"p": 0.999439,
+					"t_dtw": -1
+				},
+				{
+					"text": " at",
+					"id": 412,
+					"p": 0.999445,
+					"t_dtw": -1
+				},
+				{
+					"text": " a",
+					"id": 257,
+					"p": 0.999836,
+					"t_dtw": -1
+				},
+				{
+					"text": " distance",
+					"id": 4560,
+					"p": 0.999216,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.600759,
+					"t_dtw": -1
+				},
+				{
+					"text": "<|endoftext|>",
+					"timestamps": {
+						"from": "00:01:30,000",
+						"to": "00:01:30,000"
+					},
+					"offsets": {
+						"from": 90000,
+						"to": 90000
+					},
+					"id": 50257,
+					"p": 0.999007,
+					"t_dtw": -1
+				}
+			]
+		},
+		{
+			"timestamps": {
+				"from": "00:-15:-17,-300",
+				"to": "00:02:00,000"
+			},
+			"offsets": {
+				"from": -917300,
+				"to": 120000
+			},
+			"text": " and seldom rendered the delay of a single moment necessary.",
+			"tokens": [
+				{
+					"text": " and",
+					"id": 293,
+					"p": 0.923829,
+					"t_dtw": -1
+				},
+				{
+					"text": " seldom",
+					"id": 47717,
+					"p": 0.999342,
+					"t_dtw": -1
+				},
+				{
+					"text": " rendered",
+					"id": 28748,
+					"p": 0.997858,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"id": 264,
+					"p": 0.99898,
+					"t_dtw": -1
+				},
+				{
+					"text": " delay",
+					"id": 8577,
+					"p": 0.999729,
+					"t_dtw": -1
+				},
+				{
+					"text": " of",
+					"id": 295,
+					"p": 0.99709,
+					"t_dtw": -1
+				},
+				{
+					"text": " a",
+					"id": 257,
+					"p": 0.996713,
+					"t_dtw": -1
+				},
+				{
+					"text": " single",
+					"id": 2167,
+					"p": 0.999407,
+					"t_dtw": -1
+				},
+				{
+					"text": " moment",
+					"id": 1623,
+					"p": 0.998828,
+					"t_dtw": -1
+				},
+				{
+					"text": " necessary",
+					"id": 4818,
+					"p": 0.995551,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.952741,
+					"t_dtw": -1
+				},
+				{
+					"text": "<|endoftext|>",
+					"timestamps": {
+						"from": "00:02:00,000",
+						"to": "00:02:00,000"
+					},
+					"offsets": {
+						"from": 120000,
+						"to": 120000
+					},
+					"id": 50257,
+					"p": 0.99307,
+					"t_dtw": -1
+				}
+			]
+		}
+	]
+}

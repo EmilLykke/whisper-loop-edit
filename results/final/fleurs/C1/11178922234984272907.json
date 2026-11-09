@@ -1,0 +1,69 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,170", "to": "00:00:30,170" },
+      "offsets":    { "from": 170, "to": 30170 },
+      "text":       " Lhaka Singh præsenterede aftalen. Champan, Buruk, Bahran, Sanghan Raju, Khandelwal gjorde ham selskab.",
+      "words": [
+        { "text": " Lhaka", "t0": 36, "t1": 167, "offsets": { "from": 360, "to": 1670 } },
+        { "text": " Singh", "t0": 167, "t1": 316, "offsets": { "from": 1670, "to": 3160 } },
+        { "text": " præsenterede", "t0": 330, "t1": 710, "offsets": { "from": 3300, "to": 7100 } },
+        { "text": " aftalen.", "t0": 710, "t1": 982, "offsets": { "from": 7100, "to": 9820 } },
+        { "text": " Champan,", "t0": 1038, "t1": 1241, "offsets": { "from": 10380, "to": 12410 } },
+        { "text": " Buruk,", "t0": 1241, "t1": 1493, "offsets": { "from": 12410, "to": 14930 } },
+        { "text": " Bahran,", "t0": 1493, "t1": 1541, "offsets": { "from": 14930, "to": 15410 } },
+        { "text": " Sanghan", "t0": 1541, "t1": 1541, "offsets": { "from": 15410, "to": 15410 } },
+        { "text": " Raju,", "t0": 1541, "t1": 1541, "offsets": { "from": 15410, "to": 15410 } },
+        { "text": " Khandelwal", "t0": 1541, "t1": 1541, "offsets": { "from": 15410, "to": 15410 } },
+        { "text": " gjorde", "t0": 1541, "t1": 1541, "offsets": { "from": 15410, "to": 15410 } },
+        { "text": " ham", "t0": 1541, "t1": 1541, "offsets": { "from": 15410, "to": 15410 } },
+        { "text": " selskab.", "t0": 1541, "t1": 1541, "offsets": { "from": 15410, "to": 15410 } }
+      ],
+      "tokens": [
+        { "text": " L", "p": 0.16655, "t0": 36, "t1": 47, "offsets": { "from": 360, "to": 470 } },
+        { "text": "h", "p": 0.0343291, "t0": 47, "t1": 77, "offsets": { "from": 470, "to": 770 } },
+        { "text": "aka", "p": 0.59388, "t0": 159, "t1": 167, "offsets": { "from": 1590, "to": 1670 } },
+        { "text": " Singh", "p": 0.491129, "t0": 167, "t1": 316, "offsets": { "from": 1670, "to": 3160 } },
+        { "text": " pr", "p": 0.627983, "t0": 330, "t1": 378, "offsets": { "from": 3300, "to": 3780 } },
+        { "text": "æ", "p": 0.999792, "t0": 378, "t1": 429, "offsets": { "from": 3780, "to": 4290 } },
+        { "text": "sent", "p": 0.876543, "t0": 467, "t1": 559, "offsets": { "from": 4670, "to": 5590 } },
+        { "text": "ered", "p": 0.965083, "t0": 559, "t1": 647, "offsets": { "from": 5590, "to": 6470 } },
+        { "text": "e", "p": 0.9993, "t0": 678, "t1": 710, "offsets": { "from": 6780, "to": 7100 } },
+        { "text": " a", "p": 0.95732, "t0": 710, "t1": 740, "offsets": { "from": 7100, "to": 7400 } },
+        { "text": "ft", "p": 0.994474, "t0": 759, "t1": 800, "offsets": { "from": 7590, "to": 8000 } },
+        { "text": "alen", "p": 0.69892, "t0": 809, "t1": 920, "offsets": { "from": 8090, "to": 9200 } },
+        { "text": ".", "p": 0.284343, "t0": 920, "t1": 982, "offsets": { "from": 9200, "to": 9820 } },
+        { "text": " Champ", "p": 0.30727, "t0": 1038, "t1": 1162, "offsets": { "from": 10380, "to": 11620 } },
+        { "text": "an", "p": 0.351409, "t0": 1162, "t1": 1212, "offsets": { "from": 11620, "to": 12120 } },
+        { "text": ",", "p": 0.315766, "t0": 1224, "t1": 1241, "offsets": { "from": 12240, "to": 12410 } },
+        { "text": " Bur", "p": 0.338892, "t0": 1241, "t1": 1372, "offsets": { "from": 12410, "to": 13720 } },
+        { "text": "uk", "p": 0.419986, "t0": 1373, "t1": 1433, "offsets": { "from": 13730, "to": 14330 } },
+        { "text": ",", "p": 0.809985, "t0": 1433, "t1": 1493, "offsets": { "from": 14330, "to": 14930 } },
+        { "text": " Bah", "p": 0.382675, "t0": 1493, "t1": 1541, "offsets": { "from": 14930, "to": 15410 } },
+        { "text": "ran", "p": 0.661973, "t0": 1541, "t1": 1541, "offsets": { "from": 15410, "to": 15410 } },
+        { "text": ",", "p": 0.951736, "t0": 1541, "t1": 1541, "offsets": { "from": 15410, "to": 15410 } },
+        { "text": " Sang", "p": 0.664002, "t0": 1541, "t1": 1541, "offsets": { "from": 15410, "to": 15410 } },
+        { "text": "han", "p": 0.484491, "t0": 1541, "t1": 1541, "offsets": { "from": 15410, "to": 15410 } },
+        { "text": " Raj", "p": 0.594484, "t0": 1541, "t1": 1541, "offsets": { "from": 15410, "to": 15410 } },
+        { "text": "u", "p": 0.837127, "t0": 1541, "t1": 1541, "offsets": { "from": 15410, "to": 15410 } },
+        { "text": ",", "p": 0.940706, "t0": 1541, "t1": 1541, "offsets": { "from": 15410, "to": 15410 } },
+        { "text": " K", "p": 0.431146, "t0": 1541, "t1": 1541, "offsets": { "from": 15410, "to": 15410 } },
+        { "text": "hand", "p": 0.368157, "t0": 1541, "t1": 1541, "offsets": { "from": 15410, "to": 15410 } },
+        { "text": "el", "p": 0.975121, "t0": 1541, "t1": 1541, "offsets": { "from": 15410, "to": 15410 } },
+        { "text": "wal", "p": 0.39093, "t0": 1541, "t1": 1541, "offsets": { "from": 15410, "to": 15410 } },
+        { "text": " gjorde", "p": 0.477268, "t0": 1541, "t1": 1541, "offsets": { "from": 15410, "to": 15410 } },
+        { "text": " ham", "p": 0.667006, "t0": 1541, "t1": 1541, "offsets": { "from": 15410, "to": 15410 } },
+        { "text": " s", "p": 0.966274, "t0": 1541, "t1": 1541, "offsets": { "from": 15410, "to": 15410 } },
+        { "text": "els", "p": 0.995691, "t0": 1541, "t1": 1541, "offsets": { "from": 15410, "to": 15410 } },
+        { "text": "k", "p": 0.995811, "t0": 1541, "t1": 1541, "offsets": { "from": 15410, "to": 15410 } },
+        { "text": "ab", "p": 0.916578, "t0": 1541, "t1": 1541, "offsets": { "from": 15410, "to": 15410 } },
+        { "text": ".", "p": 0.911136, "t0": 1541, "t1": 1541, "offsets": { "from": 15410, "to": 15410 } }
+      ]
+    }
+  ]
+}

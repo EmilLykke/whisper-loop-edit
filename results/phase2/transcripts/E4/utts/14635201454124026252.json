@@ -1,0 +1,59 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E4-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,000", "to": "00:00:30,000" },
+      "offsets":    { "from": 0, "to": 30000 },
+      "text":       " Det har den samme molekylære struktur, uanset om det er gas, flydende eller fast.",
+      "words": [
+        { "text": " Det", "t0": 8, "t1": 123, "offsets": { "from": 80, "to": 1230 } },
+        { "text": " har", "t0": 123, "t1": 246, "offsets": { "from": 1230, "to": 2460 } },
+        { "text": " den", "t0": 246, "t1": 369, "offsets": { "from": 2460, "to": 3690 } },
+        { "text": " samme", "t0": 369, "t1": 570, "offsets": { "from": 3690, "to": 5700 } },
+        { "text": " molekylære", "t0": 572, "t1": 651, "offsets": { "from": 5720, "to": 6510 } },
+        { "text": " struktur,", "t0": 651, "t1": 651, "offsets": { "from": 6510, "to": 6510 } },
+        { "text": " uanset", "t0": 651, "t1": 651, "offsets": { "from": 6510, "to": 6510 } },
+        { "text": " om", "t0": 651, "t1": 651, "offsets": { "from": 6510, "to": 6510 } },
+        { "text": " det", "t0": 651, "t1": 651, "offsets": { "from": 6510, "to": 6510 } },
+        { "text": " er", "t0": 651, "t1": 651, "offsets": { "from": 6510, "to": 6510 } },
+        { "text": " gas,", "t0": 651, "t1": 651, "offsets": { "from": 6510, "to": 6510 } },
+        { "text": " flydende", "t0": 651, "t1": 651, "offsets": { "from": 6510, "to": 6510 } },
+        { "text": " eller", "t0": 651, "t1": 651, "offsets": { "from": 6510, "to": 6510 } },
+        { "text": " fast.", "t0": 651, "t1": 651, "offsets": { "from": 6510, "to": 6510 } }
+      ],
+      "tokens": [
+        { "text": " Det", "p": 0.905866, "t0": 8, "t1": 123, "offsets": { "from": 80, "to": 1230 } },
+        { "text": " har", "p": 0.9919, "t0": 123, "t1": 246, "offsets": { "from": 1230, "to": 2460 } },
+        { "text": " den", "p": 0.982992, "t0": 246, "t1": 369, "offsets": { "from": 2460, "to": 3690 } },
+        { "text": " sam", "p": 0.994057, "t0": 369, "t1": 486, "offsets": { "from": 3690, "to": 4860 } },
+        { "text": "me", "p": 0.996109, "t0": 505, "t1": 570, "offsets": { "from": 5050, "to": 5700 } },
+        { "text": " mole", "p": 0.984949, "t0": 572, "t1": 632, "offsets": { "from": 5720, "to": 6320 } },
+        { "text": "ky", "p": 0.976099, "t0": 647, "t1": 651, "offsets": { "from": 6470, "to": 6510 } },
+        { "text": "l", "p": 0.972837, "t0": 651, "t1": 651, "offsets": { "from": 6510, "to": 6510 } },
+        { "text": "æ", "p": 0.973677, "t0": 651, "t1": 651, "offsets": { "from": 6510, "to": 6510 } },
+        { "text": "re", "p": 0.990832, "t0": 651, "t1": 651, "offsets": { "from": 6510, "to": 6510 } },
+        { "text": " st", "p": 0.993633, "t0": 651, "t1": 651, "offsets": { "from": 6510, "to": 6510 } },
+        { "text": "ruktur", "p": 0.992208, "t0": 651, "t1": 651, "offsets": { "from": 6510, "to": 6510 } },
+        { "text": ",", "p": 0.475904, "t0": 651, "t1": 651, "offsets": { "from": 6510, "to": 6510 } },
+        { "text": " u", "p": 0.995514, "t0": 651, "t1": 651, "offsets": { "from": 6510, "to": 6510 } },
+        { "text": "ans", "p": 0.999931, "t0": 651, "t1": 651, "offsets": { "from": 6510, "to": 6510 } },
+        { "text": "et", "p": 0.999542, "t0": 651, "t1": 651, "offsets": { "from": 6510, "to": 6510 } },
+        { "text": " om", "p": 0.986596, "t0": 651, "t1": 651, "offsets": { "from": 6510, "to": 6510 } },
+        { "text": " det", "p": 0.989781, "t0": 651, "t1": 651, "offsets": { "from": 6510, "to": 6510 } },
+        { "text": " er", "p": 0.987108, "t0": 651, "t1": 651, "offsets": { "from": 6510, "to": 6510 } },
+        { "text": " gas", "p": 0.954851, "t0": 651, "t1": 651, "offsets": { "from": 6510, "to": 6510 } },
+        { "text": ",", "p": 0.961982, "t0": 651, "t1": 651, "offsets": { "from": 6510, "to": 6510 } },
+        { "text": " fly", "p": 0.981014, "t0": 651, "t1": 651, "offsets": { "from": 6510, "to": 6510 } },
+        { "text": "d", "p": 0.998119, "t0": 651, "t1": 651, "offsets": { "from": 6510, "to": 6510 } },
+        { "text": "ende", "p": 0.995953, "t0": 651, "t1": 651, "offsets": { "from": 6510, "to": 6510 } },
+        { "text": " eller", "p": 0.957474, "t0": 651, "t1": 651, "offsets": { "from": 6510, "to": 6510 } },
+        { "text": " fast", "p": 0.995851, "t0": 651, "t1": 651, "offsets": { "from": 6510, "to": 6510 } },
+        { "text": ".", "p": 0.951368, "t0": 651, "t1": 651, "offsets": { "from": 6510, "to": 6510 } }
+      ]
+    }
+  ]
+}

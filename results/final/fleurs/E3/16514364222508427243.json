@@ -1,0 +1,103 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,170", "to": "00:00:30,170" },
+      "offsets":    { "from": 170, "to": 30170 },
+      "text":       " Siden grundlæggelsen af Asunción i 1537, har Paraguay formået at bevare en masse af dens oprindelige karakter og identitet.",
+      "chunk_id":   0,
+      "words": [
+        { "text": " Siden", "t0": 36, "t1": 142, "offsets": { "from": 360, "to": 1420 } },
+        { "text": " grundlæggelsen", "t0": 175, "t1": 515, "offsets": { "from": 1750, "to": 5150 } },
+        { "text": " af", "t0": 518, "t1": 556, "offsets": { "from": 5180, "to": 5560 } },
+        { "text": " Asunción", "t0": 571, "t1": 793, "offsets": { "from": 5710, "to": 7930 } },
+        { "text": " i", "t0": 793, "t1": 818, "offsets": { "from": 7930, "to": 8180 } },
+        { "text": " 1537,", "t0": 818, "t1": 1157, "offsets": { "from": 8180, "to": 11570 } },
+        { "text": " har", "t0": 1157, "t1": 1164, "offsets": { "from": 11570, "to": 11640 } },
+        { "text": " Paraguay", "t0": 1164, "t1": 1164, "offsets": { "from": 11640, "to": 11640 } },
+        { "text": " formået", "t0": 1164, "t1": 1164, "offsets": { "from": 11640, "to": 11640 } },
+        { "text": " at", "t0": 1164, "t1": 1164, "offsets": { "from": 11640, "to": 11640 } },
+        { "text": " bevare", "t0": 1164, "t1": 1164, "offsets": { "from": 11640, "to": 11640 } },
+        { "text": " en", "t0": 1164, "t1": 1164, "offsets": { "from": 11640, "to": 11640 } },
+        { "text": " masse", "t0": 1164, "t1": 1164, "offsets": { "from": 11640, "to": 11640 } },
+        { "text": " af", "t0": 1164, "t1": 1164, "offsets": { "from": 11640, "to": 11640 } },
+        { "text": " dens", "t0": 1164, "t1": 1164, "offsets": { "from": 11640, "to": 11640 } },
+        { "text": " oprindelige", "t0": 1164, "t1": 1164, "offsets": { "from": 11640, "to": 11640 } },
+        { "text": " karakter", "t0": 1164, "t1": 1164, "offsets": { "from": 11640, "to": 11640 } },
+        { "text": " og", "t0": 1164, "t1": 1164, "offsets": { "from": 11640, "to": 11640 } },
+        { "text": " identitet.", "t0": 1164, "t1": 1164, "offsets": { "from": 11640, "to": 11640 } }
+      ],
+      "tokens": [
+        { "text": " S", "p": 0.954747, "t0": 36, "t1": 42, "offsets": { "from": 360, "to": 420 } },
+        { "text": "iden", "p": 0.99772, "t0": 42, "t1": 142, "offsets": { "from": 420, "to": 1420 } },
+        { "text": " grund", "p": 0.986402, "t0": 175, "t1": 268, "offsets": { "from": 1750, "to": 2680 } },
+        { "text": "l", "p": 0.995721, "t0": 268, "t1": 291, "offsets": { "from": 2680, "to": 2910 } },
+        { "text": "æ", "p": 0.999971, "t0": 291, "t1": 343, "offsets": { "from": 2910, "to": 3430 } },
+        { "text": "gg", "p": 0.996966, "t0": 343, "t1": 393, "offsets": { "from": 3430, "to": 3930 } },
+        { "text": "els", "p": 0.995262, "t0": 393, "t1": 468, "offsets": { "from": 3930, "to": 4680 } },
+        { "text": "en", "p": 0.999733, "t0": 468, "t1": 515, "offsets": { "from": 4680, "to": 5150 } },
+        { "text": " af", "p": 0.984372, "t0": 518, "t1": 556, "offsets": { "from": 5180, "to": 5560 } },
+        { "text": " As", "p": 0.20039, "t0": 571, "t1": 594, "offsets": { "from": 5710, "to": 5940 } },
+        { "text": "un", "p": 0.611673, "t0": 627, "t1": 668, "offsets": { "from": 6270, "to": 6680 } },
+        { "text": "ción", "p": 0.722061, "t0": 668, "t1": 793, "offsets": { "from": 6680, "to": 7930 } },
+        { "text": " i", "p": 0.860699, "t0": 793, "t1": 818, "offsets": { "from": 7930, "to": 8180 } },
+        { "text": " 15", "p": 0.974527, "t0": 818, "t1": 969, "offsets": { "from": 8180, "to": 9690 } },
+        { "text": "37", "p": 0.998237, "t0": 969, "t1": 1107, "offsets": { "from": 9690, "to": 11070 } },
+        { "text": ",", "p": 0.463329, "t0": 1107, "t1": 1157, "offsets": { "from": 11070, "to": 11570 } },
+        { "text": " har", "p": 0.982034, "t0": 1157, "t1": 1164, "offsets": { "from": 11570, "to": 11640 } },
+        { "text": " Par", "p": 0.967816, "t0": 1164, "t1": 1164, "offsets": { "from": 11640, "to": 11640 } },
+        { "text": "agu", "p": 0.999449, "t0": 1164, "t1": 1164, "offsets": { "from": 11640, "to": 11640 } },
+        { "text": "ay", "p": 0.998527, "t0": 1164, "t1": 1164, "offsets": { "from": 11640, "to": 11640 } },
+        { "text": " form", "p": 0.888256, "t0": 1164, "t1": 1164, "offsets": { "from": 11640, "to": 11640 } },
+        { "text": "å", "p": 0.98337, "t0": 1164, "t1": 1164, "offsets": { "from": 11640, "to": 11640 } },
+        { "text": "et", "p": 0.967767, "t0": 1164, "t1": 1164, "offsets": { "from": 11640, "to": 11640 } },
+        { "text": " at", "p": 0.933823, "t0": 1164, "t1": 1164, "offsets": { "from": 11640, "to": 11640 } },
+        { "text": " be", "p": 0.993957, "t0": 1164, "t1": 1164, "offsets": { "from": 11640, "to": 11640 } },
+        { "text": "v", "p": 0.999577, "t0": 1164, "t1": 1164, "offsets": { "from": 11640, "to": 11640 } },
+        { "text": "are", "p": 0.998392, "t0": 1164, "t1": 1164, "offsets": { "from": 11640, "to": 11640 } },
+        { "text": " en", "p": 0.977954, "t0": 1164, "t1": 1164, "offsets": { "from": 11640, "to": 11640 } },
+        { "text": " masse", "p": 0.99947, "t0": 1164, "t1": 1164, "offsets": { "from": 11640, "to": 11640 } },
+        { "text": " af", "p": 0.991384, "t0": 1164, "t1": 1164, "offsets": { "from": 11640, "to": 11640 } },
+        { "text": " dens", "p": 0.954343, "t0": 1164, "t1": 1164, "offsets": { "from": 11640, "to": 11640 } },
+        { "text": " op", "p": 0.982815, "t0": 1164, "t1": 1164, "offsets": { "from": 11640, "to": 11640 } },
+        { "text": "r", "p": 0.981068, "t0": 1164, "t1": 1164, "offsets": { "from": 11640, "to": 11640 } },
+        { "text": "ind", "p": 0.998896, "t0": 1164, "t1": 1164, "offsets": { "from": 11640, "to": 11640 } },
+        { "text": "el", "p": 0.998197, "t0": 1164, "t1": 1164, "offsets": { "from": 11640, "to": 11640 } },
+        { "text": "ige", "p": 0.978519, "t0": 1164, "t1": 1164, "offsets": { "from": 11640, "to": 11640 } },
+        { "text": " kar", "p": 0.995761, "t0": 1164, "t1": 1164, "offsets": { "from": 11640, "to": 11640 } },
+        { "text": "akter", "p": 0.9956, "t0": 1164, "t1": 1164, "offsets": { "from": 11640, "to": 11640 } },
+        { "text": " og", "p": 0.956733, "t0": 1164, "t1": 1164, "offsets": { "from": 11640, "to": 11640 } },
+        { "text": " ident", "p": 0.994681, "t0": 1164, "t1": 1164, "offsets": { "from": 11640, "to": 11640 } },
+        { "text": "itet", "p": 0.993089, "t0": 1164, "t1": 1164, "offsets": { "from": 11640, "to": 11640 } },
+        { "text": ".", "p": 0.724963, "t0": 1164, "t1": 1164, "offsets": { "from": 11640, "to": 11640 } }
+      ]
+    },
+    {
+      "timestamps": { "from": "00:00:12,840", "to": "00:00:42,840" },
+      "offsets":    { "from": 12840, "to": 42840 },
+      "text":       " Tak fordi du lyttede med.",
+      "chunk_id":   1,
+      "words": [
+        { "text": " Tak", "t0": 1318, "t1": 1361, "offsets": { "from": 13180, "to": 13610 } },
+        { "text": " fordi", "t0": 1361, "t1": 1361, "offsets": { "from": 13610, "to": 13610 } },
+        { "text": " du", "t0": 1361, "t1": 1361, "offsets": { "from": 13610, "to": 13610 } },
+        { "text": " lyttede", "t0": 1361, "t1": 1361, "offsets": { "from": 13610, "to": 13610 } },
+        { "text": " med.", "t0": 1361, "t1": 1361, "offsets": { "from": 13610, "to": 13610 } }
+      ],
+      "tokens": [
+        { "text": " Tak", "p": 0.103373, "t0": 1318, "t1": 1361, "offsets": { "from": 13180, "to": 13610 } },
+        { "text": " fordi", "p": 0.3319, "t0": 1361, "t1": 1361, "offsets": { "from": 13610, "to": 13610 } },
+        { "text": " du", "p": 0.829822, "t0": 1361, "t1": 1361, "offsets": { "from": 13610, "to": 13610 } },
+        { "text": " l", "p": 0.240081, "t0": 1361, "t1": 1361, "offsets": { "from": 13610, "to": 13610 } },
+        { "text": "ytt", "p": 0.971315, "t0": 1361, "t1": 1361, "offsets": { "from": 13610, "to": 13610 } },
+        { "text": "ede", "p": 0.997666, "t0": 1361, "t1": 1361, "offsets": { "from": 13610, "to": 13610 } },
+        { "text": " med", "p": 0.972229, "t0": 1361, "t1": 1361, "offsets": { "from": 13610, "to": 13610 } },
+        { "text": ".", "p": 0.802288, "t0": 1361, "t1": 1361, "offsets": { "from": 13610, "to": 13610 } }
+      ]
+    }
+  ]
+}

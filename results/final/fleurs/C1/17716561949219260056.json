@@ -1,0 +1,53 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,600", "to": "00:00:30,600" },
+      "offsets":    { "from": 600, "to": 30600 },
+      "text":       " De fleste ser dem ikke som dinosaurer, fordi de har fjerder og kan flyve.",
+      "words": [
+        { "text": " De", "t0": 83, "t1": 154, "offsets": { "from": 830, "to": 1540 } },
+        { "text": " fleste", "t0": 155, "t1": 435, "offsets": { "from": 1550, "to": 4350 } },
+        { "text": " ser", "t0": 439, "t1": 441, "offsets": { "from": 4390, "to": 4410 } },
+        { "text": " dem", "t0": 454, "t1": 454, "offsets": { "from": 4540, "to": 4540 } },
+        { "text": " ikke", "t0": 454, "t1": 454, "offsets": { "from": 4540, "to": 4540 } },
+        { "text": " som", "t0": 454, "t1": 454, "offsets": { "from": 4540, "to": 4540 } },
+        { "text": " dinosaurer,", "t0": 454, "t1": 454, "offsets": { "from": 4540, "to": 4540 } },
+        { "text": " fordi", "t0": 454, "t1": 454, "offsets": { "from": 4540, "to": 4540 } },
+        { "text": " de", "t0": 454, "t1": 454, "offsets": { "from": 4540, "to": 4540 } },
+        { "text": " har", "t0": 454, "t1": 454, "offsets": { "from": 4540, "to": 4540 } },
+        { "text": " fjerder", "t0": 454, "t1": 454, "offsets": { "from": 4540, "to": 4540 } },
+        { "text": " og", "t0": 454, "t1": 454, "offsets": { "from": 4540, "to": 4540 } },
+        { "text": " kan", "t0": 454, "t1": 454, "offsets": { "from": 4540, "to": 4540 } },
+        { "text": " flyve.", "t0": 454, "t1": 454, "offsets": { "from": 4540, "to": 4540 } }
+      ],
+      "tokens": [
+        { "text": " De", "p": 0.964023, "t0": 83, "t1": 154, "offsets": { "from": 830, "to": 1540 } },
+        { "text": " fl", "p": 0.998426, "t0": 155, "t1": 250, "offsets": { "from": 1550, "to": 2500 } },
+        { "text": "este", "p": 0.996379, "t0": 250, "t1": 435, "offsets": { "from": 2500, "to": 4350 } },
+        { "text": " ser", "p": 0.988199, "t0": 439, "t1": 441, "offsets": { "from": 4390, "to": 4410 } },
+        { "text": " dem", "p": 0.984241, "t0": 454, "t1": 454, "offsets": { "from": 4540, "to": 4540 } },
+        { "text": " ikke", "p": 0.985768, "t0": 454, "t1": 454, "offsets": { "from": 4540, "to": 4540 } },
+        { "text": " som", "p": 0.991093, "t0": 454, "t1": 454, "offsets": { "from": 4540, "to": 4540 } },
+        { "text": " dinosaur", "p": 0.934704, "t0": 454, "t1": 454, "offsets": { "from": 4540, "to": 4540 } },
+        { "text": "er", "p": 0.977219, "t0": 454, "t1": 454, "offsets": { "from": 4540, "to": 4540 } },
+        { "text": ",", "p": 0.642958, "t0": 454, "t1": 454, "offsets": { "from": 4540, "to": 4540 } },
+        { "text": " fordi", "p": 0.929537, "t0": 454, "t1": 454, "offsets": { "from": 4540, "to": 4540 } },
+        { "text": " de", "p": 0.989295, "t0": 454, "t1": 454, "offsets": { "from": 4540, "to": 4540 } },
+        { "text": " har", "p": 0.985868, "t0": 454, "t1": 454, "offsets": { "from": 4540, "to": 4540 } },
+        { "text": " f", "p": 0.991392, "t0": 454, "t1": 454, "offsets": { "from": 4540, "to": 4540 } },
+        { "text": "jer", "p": 0.675767, "t0": 454, "t1": 454, "offsets": { "from": 4540, "to": 4540 } },
+        { "text": "der", "p": 0.528067, "t0": 454, "t1": 454, "offsets": { "from": 4540, "to": 4540 } },
+        { "text": " og", "p": 0.90607, "t0": 454, "t1": 454, "offsets": { "from": 4540, "to": 4540 } },
+        { "text": " kan", "p": 0.972227, "t0": 454, "t1": 454, "offsets": { "from": 4540, "to": 4540 } },
+        { "text": " fly", "p": 0.99558, "t0": 454, "t1": 454, "offsets": { "from": 4540, "to": 4540 } },
+        { "text": "ve", "p": 0.998889, "t0": 454, "t1": 454, "offsets": { "from": 4540, "to": 4540 } },
+        { "text": ".", "p": 0.911689, "t0": 454, "t1": 454, "offsets": { "from": 4540, "to": 4540 } }
+      ]
+    }
+  ]
+}

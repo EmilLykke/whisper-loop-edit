@@ -1,0 +1,64 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,000", "to": "00:00:30,000" },
+      "offsets":    { "from": 0, "to": 30000 },
+      "text":       " Imens han arbejder på hospitalet begynder Logins at forske i tidlige fødsler i hans fritid.",
+      "words": [
+        { "text": " Imens", "t0": 73, "t1": 183, "offsets": { "from": 730, "to": 1830 } },
+        { "text": " han", "t0": 185, "t1": 281, "offsets": { "from": 1850, "to": 2810 } },
+        { "text": " arbejder", "t0": 283, "t1": 585, "offsets": { "from": 2830, "to": 5850 } },
+        { "text": " på", "t0": 585, "t1": 693, "offsets": { "from": 5850, "to": 6930 } },
+        { "text": " hospitalet", "t0": 700, "t1": 749, "offsets": { "from": 7000, "to": 7490 } },
+        { "text": " begynder", "t0": 749, "t1": 749, "offsets": { "from": 7490, "to": 7490 } },
+        { "text": " Logins", "t0": 749, "t1": 749, "offsets": { "from": 7490, "to": 7490 } },
+        { "text": " at", "t0": 749, "t1": 749, "offsets": { "from": 7490, "to": 7490 } },
+        { "text": " forske", "t0": 749, "t1": 749, "offsets": { "from": 7490, "to": 7490 } },
+        { "text": " i", "t0": 749, "t1": 749, "offsets": { "from": 7490, "to": 7490 } },
+        { "text": " tidlige", "t0": 749, "t1": 749, "offsets": { "from": 7490, "to": 7490 } },
+        { "text": " fødsler", "t0": 749, "t1": 749, "offsets": { "from": 7490, "to": 7490 } },
+        { "text": " i", "t0": 749, "t1": 749, "offsets": { "from": 7490, "to": 7490 } },
+        { "text": " hans", "t0": 749, "t1": 749, "offsets": { "from": 7490, "to": 7490 } },
+        { "text": " fritid.", "t0": 749, "t1": 749, "offsets": { "from": 7490, "to": 7490 } }
+      ],
+      "tokens": [
+        { "text": " Im", "p": 0.904946, "t0": 73, "t1": 74, "offsets": { "from": 730, "to": 740 } },
+        { "text": "ens", "p": 0.991599, "t0": 74, "t1": 183, "offsets": { "from": 740, "to": 1830 } },
+        { "text": " han", "p": 0.955968, "t0": 185, "t1": 281, "offsets": { "from": 1850, "to": 2810 } },
+        { "text": " arbe", "p": 0.992305, "t0": 283, "t1": 443, "offsets": { "from": 2830, "to": 4430 } },
+        { "text": "j", "p": 0.986019, "t0": 443, "t1": 476, "offsets": { "from": 4430, "to": 4760 } },
+        { "text": "der", "p": 0.993684, "t0": 481, "t1": 585, "offsets": { "from": 4810, "to": 5850 } },
+        { "text": " på", "p": 0.986084, "t0": 585, "t1": 693, "offsets": { "from": 5850, "to": 6930 } },
+        { "text": " hospital", "p": 0.972393, "t0": 700, "t1": 749, "offsets": { "from": 7000, "to": 7490 } },
+        { "text": "et", "p": 0.994763, "t0": 749, "t1": 749, "offsets": { "from": 7490, "to": 7490 } },
+        { "text": " be", "p": 0.595928, "t0": 749, "t1": 749, "offsets": { "from": 7490, "to": 7490 } },
+        { "text": "gy", "p": 0.999956, "t0": 749, "t1": 749, "offsets": { "from": 7490, "to": 7490 } },
+        { "text": "nder", "p": 0.978276, "t0": 749, "t1": 749, "offsets": { "from": 7490, "to": 7490 } },
+        { "text": " Log", "p": 0.516192, "t0": 749, "t1": 749, "offsets": { "from": 7490, "to": 7490 } },
+        { "text": "ins", "p": 0.574418, "t0": 749, "t1": 749, "offsets": { "from": 7490, "to": 7490 } },
+        { "text": " at", "p": 0.759886, "t0": 749, "t1": 749, "offsets": { "from": 7490, "to": 7490 } },
+        { "text": " fors", "p": 0.721718, "t0": 749, "t1": 749, "offsets": { "from": 7490, "to": 7490 } },
+        { "text": "ke", "p": 0.997019, "t0": 749, "t1": 749, "offsets": { "from": 7490, "to": 7490 } },
+        { "text": " i", "p": 0.78839, "t0": 749, "t1": 749, "offsets": { "from": 7490, "to": 7490 } },
+        { "text": " tid", "p": 0.935742, "t0": 749, "t1": 749, "offsets": { "from": 7490, "to": 7490 } },
+        { "text": "l", "p": 0.877961, "t0": 749, "t1": 749, "offsets": { "from": 7490, "to": 7490 } },
+        { "text": "ige", "p": 0.999601, "t0": 749, "t1": 749, "offsets": { "from": 7490, "to": 7490 } },
+        { "text": " fø", "p": 0.992899, "t0": 749, "t1": 749, "offsets": { "from": 7490, "to": 7490 } },
+        { "text": "ds", "p": 0.769083, "t0": 749, "t1": 749, "offsets": { "from": 7490, "to": 7490 } },
+        { "text": "ler", "p": 0.997054, "t0": 749, "t1": 749, "offsets": { "from": 7490, "to": 7490 } },
+        { "text": " i", "p": 0.928991, "t0": 749, "t1": 749, "offsets": { "from": 7490, "to": 7490 } },
+        { "text": " h", "p": 0.955046, "t0": 749, "t1": 749, "offsets": { "from": 7490, "to": 7490 } },
+        { "text": "ans", "p": 0.999661, "t0": 749, "t1": 749, "offsets": { "from": 7490, "to": 7490 } },
+        { "text": " fr", "p": 0.998072, "t0": 749, "t1": 749, "offsets": { "from": 7490, "to": 7490 } },
+        { "text": "it", "p": 0.98711, "t0": 749, "t1": 749, "offsets": { "from": 7490, "to": 7490 } },
+        { "text": "id", "p": 0.998458, "t0": 749, "t1": 749, "offsets": { "from": 7490, "to": 7490 } },
+        { "text": ".", "p": 0.878197, "t0": 749, "t1": 749, "offsets": { "from": 7490, "to": 7490 } }
+      ]
+    }
+  ]
+}

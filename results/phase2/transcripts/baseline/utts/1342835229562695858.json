@@ -1,0 +1,58 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,000", "to": "00:00:30,000" },
+      "offsets":    { "from": 0, "to": 30000 },
+      "text":       " Forhandler forsøgte at rette op situationen, men fangernes krav er ikke entydelige.",
+      "words": [
+        { "text": " Forhandler", "t0": 32, "t1": 385, "offsets": { "from": 320, "to": 3850 } },
+        { "text": " forsøgte", "t0": 394, "t1": 569, "offsets": { "from": 3940, "to": 5690 } },
+        { "text": " at", "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": " rette", "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": " op", "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": " situationen,", "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": " men", "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": " fangernes", "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": " krav", "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": " er", "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": " ikke", "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": " entydelige.", "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } }
+      ],
+      "tokens": [
+        { "text": " For", "p": 0.269379, "t0": 32, "t1": 117, "offsets": { "from": 320, "to": 1170 } },
+        { "text": "hand", "p": 0.995273, "t0": 118, "t1": 269, "offsets": { "from": 1180, "to": 2690 } },
+        { "text": "ler", "p": 0.863616, "t0": 275, "t1": 385, "offsets": { "from": 2750, "to": 3850 } },
+        { "text": " fors", "p": 0.485003, "t0": 394, "t1": 542, "offsets": { "from": 3940, "to": 5420 } },
+        { "text": "ø", "p": 0.998403, "t0": 547, "t1": 569, "offsets": { "from": 5470, "to": 5690 } },
+        { "text": "g", "p": 0.534409, "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": "te", "p": 0.784224, "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": " at", "p": 0.974808, "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": " ret", "p": 0.948422, "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": "te", "p": 0.999014, "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": " op", "p": 0.836297, "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": " situation", "p": 0.655269, "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": "en", "p": 0.940455, "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": ",", "p": 0.78902, "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": " men", "p": 0.990233, "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": " f", "p": 0.867193, "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": "ang", "p": 0.908288, "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": "ern", "p": 0.992826, "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": "es", "p": 0.998275, "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": " k", "p": 0.997301, "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": "rav", "p": 0.998704, "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": " er", "p": 0.863252, "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": " ikke", "p": 0.977769, "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": " ent", "p": 0.245627, "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": "yd", "p": 0.999413, "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": "el", "p": 0.90219, "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": "ige", "p": 0.881407, "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } },
+        { "text": ".", "p": 0.924078, "t0": 569, "t1": 569, "offsets": { "from": 5690, "to": 5690 } }
+      ]
+    }
+  ]
+}

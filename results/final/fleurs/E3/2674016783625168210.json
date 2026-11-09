@@ -1,0 +1,62 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,330", "to": "00:00:30,330" },
+      "offsets":    { "from": 330, "to": 30330 },
+      "text":       " Flere store tv-skærme blev installeret på forskellige steder i Rom, for at folk kunne se ceremonien.",
+      "words": [
+        { "text": " Flere", "t0": 60, "t1": 193, "offsets": { "from": 600, "to": 1930 } },
+        { "text": " store", "t0": 201, "t1": 362, "offsets": { "from": 2010, "to": 3620 } },
+        { "text": " tv-skærme", "t0": 368, "t1": 594, "offsets": { "from": 3680, "to": 5940 } },
+        { "text": " blev", "t0": 594, "t1": 594, "offsets": { "from": 5940, "to": 5940 } },
+        { "text": " installeret", "t0": 594, "t1": 594, "offsets": { "from": 5940, "to": 5940 } },
+        { "text": " på", "t0": 594, "t1": 594, "offsets": { "from": 5940, "to": 5940 } },
+        { "text": " forskellige", "t0": 594, "t1": 594, "offsets": { "from": 5940, "to": 5940 } },
+        { "text": " steder", "t0": 594, "t1": 594, "offsets": { "from": 5940, "to": 5940 } },
+        { "text": " i", "t0": 594, "t1": 594, "offsets": { "from": 5940, "to": 5940 } },
+        { "text": " Rom,", "t0": 594, "t1": 594, "offsets": { "from": 5940, "to": 5940 } },
+        { "text": " for", "t0": 594, "t1": 594, "offsets": { "from": 5940, "to": 5940 } },
+        { "text": " at", "t0": 594, "t1": 594, "offsets": { "from": 5940, "to": 5940 } },
+        { "text": " folk", "t0": 594, "t1": 594, "offsets": { "from": 5940, "to": 5940 } },
+        { "text": " kunne", "t0": 594, "t1": 594, "offsets": { "from": 5940, "to": 5940 } },
+        { "text": " se", "t0": 594, "t1": 594, "offsets": { "from": 5940, "to": 5940 } },
+        { "text": " ceremonien.", "t0": 594, "t1": 594, "offsets": { "from": 5940, "to": 5940 } }
+      ],
+      "tokens": [
+        { "text": " Fl", "p": 0.912514, "t0": 60, "t1": 99, "offsets": { "from": 600, "to": 990 } },
+        { "text": "ere", "p": 0.999889, "t0": 99, "t1": 193, "offsets": { "from": 990, "to": 1930 } },
+        { "text": " store", "p": 0.809358, "t0": 201, "t1": 362, "offsets": { "from": 2010, "to": 3620 } },
+        { "text": " tv", "p": 0.704613, "t0": 368, "t1": 430, "offsets": { "from": 3680, "to": 4300 } },
+        { "text": "-", "p": 0.945978, "t0": 430, "t1": 463, "offsets": { "from": 4300, "to": 4630 } },
+        { "text": "sk", "p": 0.999117, "t0": 463, "t1": 528, "offsets": { "from": 4630, "to": 5280 } },
+        { "text": "ær", "p": 0.981828, "t0": 528, "t1": 574, "offsets": { "from": 5280, "to": 5740 } },
+        { "text": "me", "p": 0.980406, "t0": 594, "t1": 594, "offsets": { "from": 5940, "to": 5940 } },
+        { "text": " blev", "p": 0.986459, "t0": 594, "t1": 594, "offsets": { "from": 5940, "to": 5940 } },
+        { "text": " installer", "p": 0.853381, "t0": 594, "t1": 594, "offsets": { "from": 5940, "to": 5940 } },
+        { "text": "et", "p": 0.998226, "t0": 594, "t1": 594, "offsets": { "from": 5940, "to": 5940 } },
+        { "text": " på", "p": 0.953615, "t0": 594, "t1": 594, "offsets": { "from": 5940, "to": 5940 } },
+        { "text": " fors", "p": 0.988604, "t0": 594, "t1": 594, "offsets": { "from": 5940, "to": 5940 } },
+        { "text": "kell", "p": 0.997071, "t0": 594, "t1": 594, "offsets": { "from": 5940, "to": 5940 } },
+        { "text": "ige", "p": 0.997896, "t0": 594, "t1": 594, "offsets": { "from": 5940, "to": 5940 } },
+        { "text": " st", "p": 0.996134, "t0": 594, "t1": 594, "offsets": { "from": 5940, "to": 5940 } },
+        { "text": "eder", "p": 0.994435, "t0": 594, "t1": 594, "offsets": { "from": 5940, "to": 5940 } },
+        { "text": " i", "p": 0.980548, "t0": 594, "t1": 594, "offsets": { "from": 5940, "to": 5940 } },
+        { "text": " Rom", "p": 0.596361, "t0": 594, "t1": 594, "offsets": { "from": 5940, "to": 5940 } },
+        { "text": ",", "p": 0.760776, "t0": 594, "t1": 594, "offsets": { "from": 5940, "to": 5940 } },
+        { "text": " for", "p": 0.780438, "t0": 594, "t1": 594, "offsets": { "from": 5940, "to": 5940 } },
+        { "text": " at", "p": 0.952165, "t0": 594, "t1": 594, "offsets": { "from": 5940, "to": 5940 } },
+        { "text": " folk", "p": 0.981897, "t0": 594, "t1": 594, "offsets": { "from": 5940, "to": 5940 } },
+        { "text": " kunne", "p": 0.991558, "t0": 594, "t1": 594, "offsets": { "from": 5940, "to": 5940 } },
+        { "text": " se", "p": 0.995418, "t0": 594, "t1": 594, "offsets": { "from": 5940, "to": 5940 } },
+        { "text": " ceremon", "p": 0.827501, "t0": 594, "t1": 594, "offsets": { "from": 5940, "to": 5940 } },
+        { "text": "ien", "p": 0.991038, "t0": 594, "t1": 594, "offsets": { "from": 5940, "to": 5940 } },
+        { "text": ".", "p": 0.937294, "t0": 594, "t1": 594, "offsets": { "from": 5940, "to": 5940 } }
+      ]
+    }
+  ]
+}

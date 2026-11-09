@@ -1,0 +1,63 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,860", "to": "00:00:30,860" },
+      "offsets":    { "from": 860, "to": 30860 },
+      "text":       " Før troppernes ankomst havde Hayiti ikke oplevet problemer med sygdommen siden 1800-tallet.",
+      "words": [
+        { "text": " Før", "t0": 110, "t1": 205, "offsets": { "from": 1100, "to": 2050 } },
+        { "text": " troppernes", "t0": 219, "t1": 544, "offsets": { "from": 2190, "to": 5440 } },
+        { "text": " ankomst", "t0": 544, "t1": 604, "offsets": { "from": 5440, "to": 6040 } },
+        { "text": " havde", "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": " Hayiti", "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": " ikke", "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": " oplevet", "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": " problemer", "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": " med", "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": " sygdommen", "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": " siden", "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": " 1800-tallet.", "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } }
+      ],
+      "tokens": [
+        { "text": " F", "p": 0.948888, "t0": 110, "t1": 119, "offsets": { "from": 1100, "to": 1190 } },
+        { "text": "ør", "p": 0.994008, "t0": 119, "t1": 205, "offsets": { "from": 1190, "to": 2050 } },
+        { "text": " tro", "p": 0.853182, "t0": 219, "t1": 315, "offsets": { "from": 2190, "to": 3150 } },
+        { "text": "pp", "p": 0.747635, "t0": 315, "t1": 374, "offsets": { "from": 3150, "to": 3740 } },
+        { "text": "ern", "p": 0.973394, "t0": 383, "t1": 479, "offsets": { "from": 3830, "to": 4790 } },
+        { "text": "es", "p": 0.999163, "t0": 479, "t1": 544, "offsets": { "from": 4790, "to": 5440 } },
+        { "text": " an", "p": 0.980877, "t0": 544, "t1": 589, "offsets": { "from": 5440, "to": 5890 } },
+        { "text": "kom", "p": 0.999493, "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": "st", "p": 0.999234, "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": " hav", "p": 0.853593, "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": "de", "p": 0.998338, "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": " Hay", "p": 0.499692, "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": "iti", "p": 0.27691, "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": " ikke", "p": 0.992945, "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": " o", "p": 0.990621, "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": "ple", "p": 0.999106, "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": "vet", "p": 0.997029, "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": " pro", "p": 0.441874, "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": "ble", "p": 0.998152, "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": "mer", "p": 0.974332, "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": " med", "p": 0.986781, "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": " sy", "p": 0.977108, "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": "g", "p": 0.992008, "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": "d", "p": 0.997016, "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": "ommen", "p": 0.961067, "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": " s", "p": 0.840215, "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": "iden", "p": 0.998755, "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": " 1800", "p": 0.99375, "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": "-", "p": 0.767618, "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": "t", "p": 0.987016, "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": "all", "p": 0.999743, "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": "et", "p": 0.998814, "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } },
+        { "text": ".", "p": 0.850186, "t0": 604, "t1": 604, "offsets": { "from": 6040, "to": 6040 } }
+      ]
+    }
+  ]
+}

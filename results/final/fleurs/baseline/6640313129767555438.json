@@ -1,0 +1,63 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,640", "to": "00:00:30,640" },
+      "offsets":    { "from": 640, "to": 30640 },
+      "text":       " Aristoteles' synspunkter om alle videnskabelige anlægner, inklusiv psykologi, blev accepteret.",
+      "words": [
+        { "text": " Aristoteles'", "t0": 85, "t1": 461, "offsets": { "from": 850, "to": 4610 } },
+        { "text": " synspunkter", "t0": 462, "t1": 655, "offsets": { "from": 4620, "to": 6550 } },
+        { "text": " om", "t0": 655, "t1": 655, "offsets": { "from": 6550, "to": 6550 } },
+        { "text": " alle", "t0": 655, "t1": 655, "offsets": { "from": 6550, "to": 6550 } },
+        { "text": " videnskabelige", "t0": 655, "t1": 655, "offsets": { "from": 6550, "to": 6550 } },
+        { "text": " anlægner,", "t0": 655, "t1": 655, "offsets": { "from": 6550, "to": 6550 } },
+        { "text": " inklusiv", "t0": 655, "t1": 655, "offsets": { "from": 6550, "to": 6550 } },
+        { "text": " psykologi,", "t0": 655, "t1": 655, "offsets": { "from": 6550, "to": 6550 } },
+        { "text": " blev", "t0": 655, "t1": 655, "offsets": { "from": 6550, "to": 6550 } },
+        { "text": " accepteret.", "t0": 655, "t1": 655, "offsets": { "from": 6550, "to": 6550 } }
+      ],
+      "tokens": [
+        { "text": " Arist", "p": 0.425322, "t0": 85, "t1": 230, "offsets": { "from": 850, "to": 2300 } },
+        { "text": "ot", "p": 0.993458, "t0": 230, "t1": 296, "offsets": { "from": 2300, "to": 2960 } },
+        { "text": "eles", "p": 0.996394, "t0": 296, "t1": 428, "offsets": { "from": 2960, "to": 4280 } },
+        { "text": "'", "p": 0.705834, "t0": 434, "t1": 461, "offsets": { "from": 4340, "to": 4610 } },
+        { "text": " sy", "p": 0.877209, "t0": 462, "t1": 528, "offsets": { "from": 4620, "to": 5280 } },
+        { "text": "ns", "p": 0.989948, "t0": 528, "t1": 594, "offsets": { "from": 5280, "to": 5940 } },
+        { "text": "punk", "p": 0.963016, "t0": 594, "t1": 636, "offsets": { "from": 5940, "to": 6360 } },
+        { "text": "ter", "p": 0.997811, "t0": 655, "t1": 655, "offsets": { "from": 6550, "to": 6550 } },
+        { "text": " om", "p": 0.962904, "t0": 655, "t1": 655, "offsets": { "from": 6550, "to": 6550 } },
+        { "text": " alle", "p": 0.453377, "t0": 655, "t1": 655, "offsets": { "from": 6550, "to": 6550 } },
+        { "text": " vid", "p": 0.747636, "t0": 655, "t1": 655, "offsets": { "from": 6550, "to": 6550 } },
+        { "text": "ens", "p": 0.999872, "t0": 655, "t1": 655, "offsets": { "from": 6550, "to": 6550 } },
+        { "text": "k", "p": 0.998321, "t0": 655, "t1": 655, "offsets": { "from": 6550, "to": 6550 } },
+        { "text": "abel", "p": 0.996812, "t0": 655, "t1": 655, "offsets": { "from": 6550, "to": 6550 } },
+        { "text": "ige", "p": 0.995349, "t0": 655, "t1": 655, "offsets": { "from": 6550, "to": 6550 } },
+        { "text": " an", "p": 0.991777, "t0": 655, "t1": 655, "offsets": { "from": 6550, "to": 6550 } },
+        { "text": "l", "p": 0.996381, "t0": 655, "t1": 655, "offsets": { "from": 6550, "to": 6550 } },
+        { "text": "æ", "p": 0.997223, "t0": 655, "t1": 655, "offsets": { "from": 6550, "to": 6550 } },
+        { "text": "g", "p": 0.904254, "t0": 655, "t1": 655, "offsets": { "from": 6550, "to": 6550 } },
+        { "text": "ner", "p": 0.777253, "t0": 655, "t1": 655, "offsets": { "from": 6550, "to": 6550 } },
+        { "text": ",", "p": 0.612431, "t0": 655, "t1": 655, "offsets": { "from": 6550, "to": 6550 } },
+        { "text": " ink", "p": 0.965904, "t0": 655, "t1": 655, "offsets": { "from": 6550, "to": 6550 } },
+        { "text": "lus", "p": 0.745824, "t0": 655, "t1": 655, "offsets": { "from": 6550, "to": 6550 } },
+        { "text": "iv", "p": 0.999062, "t0": 655, "t1": 655, "offsets": { "from": 6550, "to": 6550 } },
+        { "text": " psy", "p": 0.970024, "t0": 655, "t1": 655, "offsets": { "from": 6550, "to": 6550 } },
+        { "text": "k", "p": 0.999842, "t0": 655, "t1": 655, "offsets": { "from": 6550, "to": 6550 } },
+        { "text": "olog", "p": 0.99934, "t0": 655, "t1": 655, "offsets": { "from": 6550, "to": 6550 } },
+        { "text": "i", "p": 0.998763, "t0": 655, "t1": 655, "offsets": { "from": 6550, "to": 6550 } },
+        { "text": ",", "p": 0.601501, "t0": 655, "t1": 655, "offsets": { "from": 6550, "to": 6550 } },
+        { "text": " blev", "p": 0.967011, "t0": 655, "t1": 655, "offsets": { "from": 6550, "to": 6550 } },
+        { "text": " ac", "p": 0.989381, "t0": 655, "t1": 655, "offsets": { "from": 6550, "to": 6550 } },
+        { "text": "cep", "p": 0.998395, "t0": 655, "t1": 655, "offsets": { "from": 6550, "to": 6550 } },
+        { "text": "ter", "p": 0.999458, "t0": 655, "t1": 655, "offsets": { "from": 6550, "to": 6550 } },
+        { "text": "et", "p": 0.993024, "t0": 655, "t1": 655, "offsets": { "from": 6550, "to": 6550 } },
+        { "text": ".", "p": 0.935049, "t0": 655, "t1": 655, "offsets": { "from": 6550, "to": 6550 } }
+      ]
+    }
+  ]
+}

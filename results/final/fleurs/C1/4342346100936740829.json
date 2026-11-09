@@ -1,0 +1,73 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,410", "to": "00:00:30,410" },
+      "offsets":    { "from": 410, "to": 30410 },
+      "text":       " Kvinder. Det anbefales, at alle kvinder i rejsen siger, at de er gift, uanset deres faktiske civilstand.",
+      "words": [
+        { "text": " Kvinder.", "t0": 61, "t1": 354, "offsets": { "from": 610, "to": 3540 } },
+        { "text": " Det", "t0": 354, "t1": 448, "offsets": { "from": 3540, "to": 4480 } },
+        { "text": " anbefales,", "t0": 448, "t1": 719, "offsets": { "from": 4480, "to": 7190 } },
+        { "text": " at", "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": " alle", "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": " kvinder", "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": " i", "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": " rejsen", "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": " siger,", "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": " at", "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": " de", "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": " er", "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": " gift,", "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": " uanset", "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": " deres", "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": " faktiske", "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": " civilstand.", "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } }
+      ],
+      "tokens": [
+        { "text": " K", "p": 0.65724, "t0": 61, "t1": 72, "offsets": { "from": 610, "to": 720 } },
+        { "text": "v", "p": 0.946745, "t0": 72, "t1": 91, "offsets": { "from": 720, "to": 910 } },
+        { "text": "inder", "p": 0.998228, "t0": 145, "t1": 260, "offsets": { "from": 1450, "to": 2600 } },
+        { "text": ".", "p": 0.529494, "t0": 260, "t1": 354, "offsets": { "from": 2600, "to": 3540 } },
+        { "text": " Det", "p": 0.621508, "t0": 354, "t1": 448, "offsets": { "from": 3540, "to": 4480 } },
+        { "text": " an", "p": 0.99698, "t0": 448, "t1": 508, "offsets": { "from": 4480, "to": 5080 } },
+        { "text": "be", "p": 0.999739, "t0": 513, "t1": 574, "offsets": { "from": 5130, "to": 5740 } },
+        { "text": "f", "p": 0.998471, "t0": 574, "t1": 600, "offsets": { "from": 5740, "to": 6000 } },
+        { "text": "ales", "p": 0.946539, "t0": 600, "t1": 700, "offsets": { "from": 6000, "to": 7000 } },
+        { "text": ",", "p": 0.413798, "t0": 700, "t1": 719, "offsets": { "from": 7000, "to": 7190 } },
+        { "text": " at", "p": 0.918369, "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": " alle", "p": 0.989415, "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": " k", "p": 0.993964, "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": "v", "p": 0.998969, "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": "inder", "p": 0.418077, "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": " i", "p": 0.886691, "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": " re", "p": 0.918333, "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": "j", "p": 0.94744, "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": "sen", "p": 0.852251, "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": " sig", "p": 0.954514, "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": "er", "p": 0.998993, "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": ",", "p": 0.708138, "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": " at", "p": 0.944516, "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": " de", "p": 0.97558, "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": " er", "p": 0.997421, "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": " gift", "p": 0.992795, "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": ",", "p": 0.645636, "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": " u", "p": 0.99865, "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": "ans", "p": 0.999969, "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": "et", "p": 0.999817, "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": " der", "p": 0.993491, "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": "es", "p": 0.99782, "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": " fakt", "p": 0.984279, "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": "is", "p": 0.986647, "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": "ke", "p": 0.999779, "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": " civil", "p": 0.965269, "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": "stand", "p": 0.962795, "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": ".", "p": 0.955908, "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,420", "to": "00:00:30,420" },
+      "offsets":    { "from": 420, "to": 30420 },
+      "text":       " I Berlin estimerede politiet 6.500 demonstranter.",
+      "words": [
+        { "text": " I", "t0": 42, "t1": 96, "offsets": { "from": 420, "to": 960 } },
+        { "text": " Berlin", "t0": 105, "t1": 417, "offsets": { "from": 1050, "to": 4170 } },
+        { "text": " estimerede", "t0": 417, "t1": 525, "offsets": { "from": 4170, "to": 5250 } },
+        { "text": " politiet", "t0": 525, "t1": 525, "offsets": { "from": 5250, "to": 5250 } },
+        { "text": " 6.500", "t0": 525, "t1": 525, "offsets": { "from": 5250, "to": 5250 } },
+        { "text": " demonstranter.", "t0": 525, "t1": 525, "offsets": { "from": 5250, "to": 5250 } }
+      ],
+      "tokens": [
+        { "text": " I", "p": 0.979983, "t0": 42, "t1": 96, "offsets": { "from": 420, "to": 960 } },
+        { "text": " Berlin", "p": 0.971041, "t0": 105, "t1": 417, "offsets": { "from": 1050, "to": 4170 } },
+        { "text": " estim", "p": 0.786962, "t0": 417, "t1": 525, "offsets": { "from": 4170, "to": 5250 } },
+        { "text": "ered", "p": 0.995727, "t0": 525, "t1": 525, "offsets": { "from": 5250, "to": 5250 } },
+        { "text": "e", "p": 0.999685, "t0": 525, "t1": 525, "offsets": { "from": 5250, "to": 5250 } },
+        { "text": " polit", "p": 0.980898, "t0": 525, "t1": 525, "offsets": { "from": 5250, "to": 5250 } },
+        { "text": "iet", "p": 0.99972, "t0": 525, "t1": 525, "offsets": { "from": 5250, "to": 5250 } },
+        { "text": " 6", "p": 0.976841, "t0": 525, "t1": 525, "offsets": { "from": 5250, "to": 5250 } },
+        { "text": ".", "p": 0.747317, "t0": 525, "t1": 525, "offsets": { "from": 5250, "to": 5250 } },
+        { "text": "500", "p": 0.991777, "t0": 525, "t1": 525, "offsets": { "from": 5250, "to": 5250 } },
+        { "text": " demonst", "p": 0.997695, "t0": 525, "t1": 525, "offsets": { "from": 5250, "to": 5250 } },
+        { "text": "ran", "p": 0.998601, "t0": 525, "t1": 525, "offsets": { "from": 5250, "to": 5250 } },
+        { "text": "ter", "p": 0.999821, "t0": 525, "t1": 525, "offsets": { "from": 5250, "to": 5250 } },
+        { "text": ".", "p": 0.867093, "t0": 525, "t1": 525, "offsets": { "from": 5250, "to": 5250 } }
+      ]
+    }
+  ]
+}

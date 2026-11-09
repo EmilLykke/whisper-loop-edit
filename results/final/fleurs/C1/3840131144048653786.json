@@ -1,0 +1,63 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,000", "to": "00:00:30,000" },
+      "offsets":    { "from": 0, "to": 30000 },
+      "text":       " Madagaskar er klart den største og et kontinent for sig selv, når det kommer til vilde dyr.",
+      "words": [
+        { "text": " Madagaskar", "t0": 41, "t1": 372, "offsets": { "from": 410, "to": 3720 } },
+        { "text": " er", "t0": 372, "t1": 447, "offsets": { "from": 3720, "to": 4470 } },
+        { "text": " klart", "t0": 447, "t1": 580, "offsets": { "from": 4470, "to": 5800 } },
+        { "text": " den", "t0": 603, "t1": 603, "offsets": { "from": 6030, "to": 6030 } },
+        { "text": " største", "t0": 603, "t1": 603, "offsets": { "from": 6030, "to": 6030 } },
+        { "text": " og", "t0": 603, "t1": 603, "offsets": { "from": 6030, "to": 6030 } },
+        { "text": " et", "t0": 603, "t1": 603, "offsets": { "from": 6030, "to": 6030 } },
+        { "text": " kontinent", "t0": 603, "t1": 603, "offsets": { "from": 6030, "to": 6030 } },
+        { "text": " for", "t0": 603, "t1": 603, "offsets": { "from": 6030, "to": 6030 } },
+        { "text": " sig", "t0": 603, "t1": 603, "offsets": { "from": 6030, "to": 6030 } },
+        { "text": " selv,", "t0": 603, "t1": 603, "offsets": { "from": 6030, "to": 6030 } },
+        { "text": " når", "t0": 603, "t1": 603, "offsets": { "from": 6030, "to": 6030 } },
+        { "text": " det", "t0": 603, "t1": 603, "offsets": { "from": 6030, "to": 6030 } },
+        { "text": " kommer", "t0": 603, "t1": 603, "offsets": { "from": 6030, "to": 6030 } },
+        { "text": " til", "t0": 603, "t1": 603, "offsets": { "from": 6030, "to": 6030 } },
+        { "text": " vilde", "t0": 603, "t1": 603, "offsets": { "from": 6030, "to": 6030 } },
+        { "text": " dyr.", "t0": 603, "t1": 603, "offsets": { "from": 6030, "to": 6030 } }
+      ],
+      "tokens": [
+        { "text": " Mad", "p": 0.993537, "t0": 41, "t1": 100, "offsets": { "from": 410, "to": 1000 } },
+        { "text": "ag", "p": 0.999857, "t0": 126, "t1": 186, "offsets": { "from": 1260, "to": 1860 } },
+        { "text": "ask", "p": 0.910606, "t0": 186, "t1": 295, "offsets": { "from": 1860, "to": 2950 } },
+        { "text": "ar", "p": 0.992547, "t0": 300, "t1": 372, "offsets": { "from": 3000, "to": 3720 } },
+        { "text": " er", "p": 0.981835, "t0": 372, "t1": 447, "offsets": { "from": 3720, "to": 4470 } },
+        { "text": " kl", "p": 0.877527, "t0": 447, "t1": 521, "offsets": { "from": 4470, "to": 5210 } },
+        { "text": "art", "p": 0.996852, "t0": 521, "t1": 580, "offsets": { "from": 5210, "to": 5800 } },
+        { "text": " den", "p": 0.907894, "t0": 603, "t1": 603, "offsets": { "from": 6030, "to": 6030 } },
+        { "text": " st", "p": 0.997316, "t0": 603, "t1": 603, "offsets": { "from": 6030, "to": 6030 } },
+        { "text": "ør", "p": 0.999605, "t0": 603, "t1": 603, "offsets": { "from": 6030, "to": 6030 } },
+        { "text": "ste", "p": 0.99254, "t0": 603, "t1": 603, "offsets": { "from": 6030, "to": 6030 } },
+        { "text": " og", "p": 0.690783, "t0": 603, "t1": 603, "offsets": { "from": 6030, "to": 6030 } },
+        { "text": " et", "p": 0.872342, "t0": 603, "t1": 603, "offsets": { "from": 6030, "to": 6030 } },
+        { "text": " kont", "p": 0.974087, "t0": 603, "t1": 603, "offsets": { "from": 6030, "to": 6030 } },
+        { "text": "inent", "p": 0.99697, "t0": 603, "t1": 603, "offsets": { "from": 6030, "to": 6030 } },
+        { "text": " for", "p": 0.924237, "t0": 603, "t1": 603, "offsets": { "from": 6030, "to": 6030 } },
+        { "text": " sig", "p": 0.980987, "t0": 603, "t1": 603, "offsets": { "from": 6030, "to": 6030 } },
+        { "text": " selv", "p": 0.995606, "t0": 603, "t1": 603, "offsets": { "from": 6030, "to": 6030 } },
+        { "text": ",", "p": 0.504938, "t0": 603, "t1": 603, "offsets": { "from": 6030, "to": 6030 } },
+        { "text": " når", "p": 0.9925, "t0": 603, "t1": 603, "offsets": { "from": 6030, "to": 6030 } },
+        { "text": " det", "p": 0.992803, "t0": 603, "t1": 603, "offsets": { "from": 6030, "to": 6030 } },
+        { "text": " kommer", "p": 0.99038, "t0": 603, "t1": 603, "offsets": { "from": 6030, "to": 6030 } },
+        { "text": " til", "p": 0.996698, "t0": 603, "t1": 603, "offsets": { "from": 6030, "to": 6030 } },
+        { "text": " v", "p": 0.995458, "t0": 603, "t1": 603, "offsets": { "from": 6030, "to": 6030 } },
+        { "text": "ilde", "p": 0.935715, "t0": 603, "t1": 603, "offsets": { "from": 6030, "to": 6030 } },
+        { "text": " d", "p": 0.977707, "t0": 603, "t1": 603, "offsets": { "from": 6030, "to": 6030 } },
+        { "text": "yr", "p": 0.999632, "t0": 603, "t1": 603, "offsets": { "from": 6030, "to": 6030 } },
+        { "text": ".", "p": 0.914097, "t0": 603, "t1": 603, "offsets": { "from": 6030, "to": 6030 } }
+      ]
+    }
+  ]
+}

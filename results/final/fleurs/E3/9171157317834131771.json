@@ -1,0 +1,54 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,170", "to": "00:00:30,170" },
+      "offsets":    { "from": 170, "to": 30170 },
+      "text":       " Brænd- og redningspersonale slukket om side af branden kl. 11.35 pm.",
+      "words": [
+        { "text": " Brænd-", "t0": 36, "t1": 302, "offsets": { "from": 360, "to": 3020 } },
+        { "text": " og", "t0": 309, "t1": 386, "offsets": { "from": 3090, "to": 3860 } },
+        { "text": " redningspersonale", "t0": 386, "t1": 1043, "offsets": { "from": 3860, "to": 10430 } },
+        { "text": " slukket", "t0": 1043, "t1": 1043, "offsets": { "from": 10430, "to": 10430 } },
+        { "text": " om", "t0": 1043, "t1": 1043, "offsets": { "from": 10430, "to": 10430 } },
+        { "text": " side", "t0": 1043, "t1": 1043, "offsets": { "from": 10430, "to": 10430 } },
+        { "text": " af", "t0": 1043, "t1": 1043, "offsets": { "from": 10430, "to": 10430 } },
+        { "text": " branden", "t0": 1043, "t1": 1043, "offsets": { "from": 10430, "to": 10430 } },
+        { "text": " kl.", "t0": 1043, "t1": 1043, "offsets": { "from": 10430, "to": 10430 } },
+        { "text": " 11.35", "t0": 1043, "t1": 1043, "offsets": { "from": 10430, "to": 10430 } },
+        { "text": " pm.", "t0": 1043, "t1": 1043, "offsets": { "from": 10430, "to": 10430 } }
+      ],
+      "tokens": [
+        { "text": " Br", "p": 0.522617, "t0": 36, "t1": 99, "offsets": { "from": 360, "to": 990 } },
+        { "text": "æ", "p": 0.982964, "t0": 127, "t1": 181, "offsets": { "from": 1270, "to": 1810 } },
+        { "text": "nd", "p": 0.975818, "t0": 181, "t1": 251, "offsets": { "from": 1810, "to": 2510 } },
+        { "text": "-", "p": 0.439578, "t0": 264, "t1": 302, "offsets": { "from": 2640, "to": 3020 } },
+        { "text": " og", "p": 0.957733, "t0": 309, "t1": 386, "offsets": { "from": 3090, "to": 3860 } },
+        { "text": " red", "p": 0.758061, "t0": 386, "t1": 509, "offsets": { "from": 3860, "to": 5090 } },
+        { "text": "ning", "p": 0.998639, "t0": 509, "t1": 636, "offsets": { "from": 5090, "to": 6360 } },
+        { "text": "sp", "p": 0.995368, "t0": 636, "t1": 755, "offsets": { "from": 6360, "to": 7550 } },
+        { "text": "erson", "p": 0.991745, "t0": 755, "t1": 960, "offsets": { "from": 7550, "to": 9600 } },
+        { "text": "ale", "p": 0.946794, "t0": 1025, "t1": 1043, "offsets": { "from": 10250, "to": 10430 } },
+        { "text": " sl", "p": 0.933572, "t0": 1043, "t1": 1043, "offsets": { "from": 10430, "to": 10430 } },
+        { "text": "uk", "p": 0.998015, "t0": 1043, "t1": 1043, "offsets": { "from": 10430, "to": 10430 } },
+        { "text": "ket", "p": 0.899293, "t0": 1043, "t1": 1043, "offsets": { "from": 10430, "to": 10430 } },
+        { "text": " om", "p": 0.353949, "t0": 1043, "t1": 1043, "offsets": { "from": 10430, "to": 10430 } },
+        { "text": " side", "p": 0.656292, "t0": 1043, "t1": 1043, "offsets": { "from": 10430, "to": 10430 } },
+        { "text": " af", "p": 0.914513, "t0": 1043, "t1": 1043, "offsets": { "from": 10430, "to": 10430 } },
+        { "text": " brand", "p": 0.683709, "t0": 1043, "t1": 1043, "offsets": { "from": 10430, "to": 10430 } },
+        { "text": "en", "p": 0.989242, "t0": 1043, "t1": 1043, "offsets": { "from": 10430, "to": 10430 } },
+        { "text": " kl", "p": 0.967405, "t0": 1043, "t1": 1043, "offsets": { "from": 10430, "to": 10430 } },
+        { "text": ".", "p": 0.853972, "t0": 1043, "t1": 1043, "offsets": { "from": 10430, "to": 10430 } },
+        { "text": " 11", "p": 0.958573, "t0": 1043, "t1": 1043, "offsets": { "from": 10430, "to": 10430 } },
+        { "text": ".", "p": 0.962254, "t0": 1043, "t1": 1043, "offsets": { "from": 10430, "to": 10430 } },
+        { "text": "35", "p": 0.983549, "t0": 1043, "t1": 1043, "offsets": { "from": 10430, "to": 10430 } },
+        { "text": " pm", "p": 0.664408, "t0": 1043, "t1": 1043, "offsets": { "from": 10430, "to": 10430 } },
+        { "text": ".", "p": 0.728016, "t0": 1043, "t1": 1043, "offsets": { "from": 10430, "to": 10430 } }
+      ]
+    }
+  ]
+}

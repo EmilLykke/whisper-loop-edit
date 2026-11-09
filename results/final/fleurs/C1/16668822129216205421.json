@@ -1,0 +1,54 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,750", "to": "00:00:30,750" },
+      "offsets":    { "from": 750, "to": 30750 },
+      "text":       " Pariser besidder et ry om at skulle være selvoptaget, uhøflige og arrogante.",
+      "words": [
+        { "text": " Pariser", "t0": 96, "t1": 374, "offsets": { "from": 960, "to": 3740 } },
+        { "text": " besidder", "t0": 374, "t1": 628, "offsets": { "from": 3740, "to": 6280 } },
+        { "text": " et", "t0": 648, "t1": 648, "offsets": { "from": 6480, "to": 6480 } },
+        { "text": " ry", "t0": 648, "t1": 648, "offsets": { "from": 6480, "to": 6480 } },
+        { "text": " om", "t0": 648, "t1": 648, "offsets": { "from": 6480, "to": 6480 } },
+        { "text": " at", "t0": 648, "t1": 648, "offsets": { "from": 6480, "to": 6480 } },
+        { "text": " skulle", "t0": 648, "t1": 648, "offsets": { "from": 6480, "to": 6480 } },
+        { "text": " være", "t0": 648, "t1": 648, "offsets": { "from": 6480, "to": 6480 } },
+        { "text": " selvoptaget,", "t0": 648, "t1": 648, "offsets": { "from": 6480, "to": 6480 } },
+        { "text": " uhøflige", "t0": 648, "t1": 648, "offsets": { "from": 6480, "to": 6480 } },
+        { "text": " og", "t0": 648, "t1": 648, "offsets": { "from": 6480, "to": 6480 } },
+        { "text": " arrogante.", "t0": 648, "t1": 648, "offsets": { "from": 6480, "to": 6480 } }
+      ],
+      "tokens": [
+        { "text": " Par", "p": 0.788015, "t0": 96, "t1": 183, "offsets": { "from": 960, "to": 1830 } },
+        { "text": "iser", "p": 0.99942, "t0": 225, "t1": 374, "offsets": { "from": 2250, "to": 3740 } },
+        { "text": " bes", "p": 0.968012, "t0": 374, "t1": 502, "offsets": { "from": 3740, "to": 5020 } },
+        { "text": "id", "p": 0.9925, "t0": 502, "t1": 586, "offsets": { "from": 5020, "to": 5860 } },
+        { "text": "der", "p": 0.991524, "t0": 586, "t1": 628, "offsets": { "from": 5860, "to": 6280 } },
+        { "text": " et", "p": 0.966685, "t0": 648, "t1": 648, "offsets": { "from": 6480, "to": 6480 } },
+        { "text": " ry", "p": 0.647069, "t0": 648, "t1": 648, "offsets": { "from": 6480, "to": 6480 } },
+        { "text": " om", "p": 0.54775, "t0": 648, "t1": 648, "offsets": { "from": 6480, "to": 6480 } },
+        { "text": " at", "p": 0.873379, "t0": 648, "t1": 648, "offsets": { "from": 6480, "to": 6480 } },
+        { "text": " skulle", "p": 0.690845, "t0": 648, "t1": 648, "offsets": { "from": 6480, "to": 6480 } },
+        { "text": " være", "p": 0.989851, "t0": 648, "t1": 648, "offsets": { "from": 6480, "to": 6480 } },
+        { "text": " selv", "p": 0.940931, "t0": 648, "t1": 648, "offsets": { "from": 6480, "to": 6480 } },
+        { "text": "opt", "p": 0.968723, "t0": 648, "t1": 648, "offsets": { "from": 6480, "to": 6480 } },
+        { "text": "ag", "p": 0.545346, "t0": 648, "t1": 648, "offsets": { "from": 6480, "to": 6480 } },
+        { "text": "et", "p": 0.969799, "t0": 648, "t1": 648, "offsets": { "from": 6480, "to": 6480 } },
+        { "text": ",", "p": 0.966791, "t0": 648, "t1": 648, "offsets": { "from": 6480, "to": 6480 } },
+        { "text": " uh", "p": 0.989279, "t0": 648, "t1": 648, "offsets": { "from": 6480, "to": 6480 } },
+        { "text": "ø", "p": 0.736294, "t0": 648, "t1": 648, "offsets": { "from": 6480, "to": 6480 } },
+        { "text": "fl", "p": 0.998422, "t0": 648, "t1": 648, "offsets": { "from": 6480, "to": 6480 } },
+        { "text": "ige", "p": 0.9755, "t0": 648, "t1": 648, "offsets": { "from": 6480, "to": 6480 } },
+        { "text": " og", "p": 0.97792, "t0": 648, "t1": 648, "offsets": { "from": 6480, "to": 6480 } },
+        { "text": " arrog", "p": 0.73206, "t0": 648, "t1": 648, "offsets": { "from": 6480, "to": 6480 } },
+        { "text": "ante", "p": 0.996909, "t0": 648, "t1": 648, "offsets": { "from": 6480, "to": 6480 } },
+        { "text": ".", "p": 0.915841, "t0": 648, "t1": 648, "offsets": { "from": 6480, "to": 6480 } }
+      ]
+    }
+  ]
+}

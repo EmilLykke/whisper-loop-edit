@@ -1,0 +1,53 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,670", "to": "00:00:30,670" },
+      "offsets":    { "from": 670, "to": 30670 },
+      "text":       " Dette er en vigtig måde at skille mellem nogle verber og objektiver.",
+      "words": [
+        { "text": " Dette", "t0": 88, "t1": 316, "offsets": { "from": 880, "to": 3160 } },
+        { "text": " er", "t0": 316, "t1": 413, "offsets": { "from": 3160, "to": 4130 } },
+        { "text": " en", "t0": 413, "t1": 425, "offsets": { "from": 4130, "to": 4250 } },
+        { "text": " vigtig", "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": " måde", "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": " at", "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": " skille", "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": " mellem", "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": " nogle", "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": " verber", "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": " og", "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": " objektiver.", "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } }
+      ],
+      "tokens": [
+        { "text": " D", "p": 0.597541, "t0": 88, "t1": 116, "offsets": { "from": 880, "to": 1160 } },
+        { "text": "ette", "p": 0.992472, "t0": 125, "t1": 316, "offsets": { "from": 1250, "to": 3160 } },
+        { "text": " er", "p": 0.990106, "t0": 316, "t1": 413, "offsets": { "from": 3160, "to": 4130 } },
+        { "text": " en", "p": 0.974031, "t0": 413, "t1": 425, "offsets": { "from": 4130, "to": 4250 } },
+        { "text": " v", "p": 0.972322, "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": "igt", "p": 0.998253, "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": "ig", "p": 0.992549, "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": " må", "p": 0.997855, "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": "de", "p": 0.986803, "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": " at", "p": 0.909828, "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": " sk", "p": 0.962408, "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": "ille", "p": 0.950867, "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": " me", "p": 0.920973, "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": "ll", "p": 0.999664, "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": "em", "p": 0.998824, "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": " nogle", "p": 0.780487, "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": " ver", "p": 0.655849, "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": "ber", "p": 0.992757, "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": " og", "p": 0.992477, "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": " ob", "p": 0.992837, "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": "jekt", "p": 0.994634, "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": "iver", "p": 0.985577, "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": ".", "p": 0.917771, "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } }
+      ]
+    }
+  ]
+}

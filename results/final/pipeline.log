@@ -1,0 +1,25 @@
+=== build C1 08:13:43, free 112 GiB
+C1: 9 tensors, sha256 d6218a59a3ebec66, 8 s
+W1109 08:13:54.168000 49562 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/1259 [00:00<?, ?it/s]Loading weights: 100%|██████████| 1259/1259 [00:00<00:00, 24286.68it/s]
+e23c87a2841e5681775bb2219affacaa83d3478785dc583697ed3c409478bc21  models/ggml/edits/ggml-large-v3-C1-f16.bin
+C1: checked 1259 ggml tensors against HF fp16 by name; touched 9, equal 9; mismatches 0 []; touched not found []
+C1: ggml sha256 e23c87a2841e5681775bb2219affacaa83d3478785dc583697ed3c409478bc21
+=== build C4 08:14:04, free 109 GiB
+C4: 9 tensors, sha256 2614631f55f4317f, 2 s
+W1109 08:14:09.478000 49760 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/1259 [00:00<?, ?it/s]Loading weights: 100%|██████████| 1259/1259 [00:00<00:00, 22967.34it/s]
+0e4d68bd1b11ffb0f83cf52996b5bcb5f8cad94bb236b778bbffa947c4194b39  models/ggml/edits/ggml-large-v3-C4-f16.bin
+C4: checked 1259 ggml tensors against HF fp16 by name; touched 9, equal 9; mismatches 0 []; touched not found []
+C4: ggml sha256 0e4d68bd1b11ffb0f83cf52996b5bcb5f8cad94bb236b778bbffa947c4194b39
+=== done build 08:14:20
+=== decode baseline timestamps,nt 08:14:20
+=== decode E3 timestamps,nt 08:25:49
+=== decode C1 timestamps,nt 08:36:41
+=== decode C4 timestamps,nt 08:48:42
+=== done decode 09:00:37
+=== decode baseline nt-silero,nt-vad,timestamps-bare 09:00:37
+=== decode E3 nt-silero,nt-vad,timestamps-bare 09:22:40
+=== decode C1 nt-silero,nt-vad,timestamps-bare 09:42:38
+=== decode C4 nt-silero,nt-vad,timestamps-bare 10:04:11
+=== done decode 10:26:11

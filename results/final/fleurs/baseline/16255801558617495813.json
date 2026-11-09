@@ -1,0 +1,59 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:01,240", "to": "00:00:31,240" },
+      "offsets":    { "from": 1240, "to": 31240 },
+      "text":       " Det her bliver ikke forvedet. Dette er slutningen på et kapitel, og starten på et nyt.",
+      "words": [
+        { "text": " Det", "t0": 145, "t1": 231, "offsets": { "from": 1450, "to": 2310 } },
+        { "text": " her", "t0": 241, "t1": 354, "offsets": { "from": 2410, "to": 3540 } },
+        { "text": " bliver", "t0": 354, "t1": 573, "offsets": { "from": 3540, "to": 5730 } },
+        { "text": " ikke", "t0": 587, "t1": 587, "offsets": { "from": 5870, "to": 5870 } },
+        { "text": " forvedet.", "t0": 599, "t1": 599, "offsets": { "from": 5990, "to": 5990 } },
+        { "text": " Dette", "t0": 599, "t1": 599, "offsets": { "from": 5990, "to": 5990 } },
+        { "text": " er", "t0": 599, "t1": 599, "offsets": { "from": 5990, "to": 5990 } },
+        { "text": " slutningen", "t0": 599, "t1": 599, "offsets": { "from": 5990, "to": 5990 } },
+        { "text": " på", "t0": 599, "t1": 599, "offsets": { "from": 5990, "to": 5990 } },
+        { "text": " et", "t0": 599, "t1": 599, "offsets": { "from": 5990, "to": 5990 } },
+        { "text": " kapitel,", "t0": 599, "t1": 599, "offsets": { "from": 5990, "to": 5990 } },
+        { "text": " og", "t0": 599, "t1": 599, "offsets": { "from": 5990, "to": 5990 } },
+        { "text": " starten", "t0": 599, "t1": 599, "offsets": { "from": 5990, "to": 5990 } },
+        { "text": " på", "t0": 599, "t1": 599, "offsets": { "from": 5990, "to": 5990 } },
+        { "text": " et", "t0": 599, "t1": 599, "offsets": { "from": 5990, "to": 5990 } },
+        { "text": " nyt.", "t0": 599, "t1": 599, "offsets": { "from": 5990, "to": 5990 } }
+      ],
+      "tokens": [
+        { "text": " Det", "p": 0.715238, "t0": 145, "t1": 231, "offsets": { "from": 1450, "to": 2310 } },
+        { "text": " her", "p": 0.923342, "t0": 241, "t1": 354, "offsets": { "from": 2410, "to": 3540 } },
+        { "text": " bliver", "p": 0.944964, "t0": 354, "t1": 573, "offsets": { "from": 3540, "to": 5730 } },
+        { "text": " ikke", "p": 0.899961, "t0": 587, "t1": 587, "offsets": { "from": 5870, "to": 5870 } },
+        { "text": " for", "p": 0.807299, "t0": 599, "t1": 599, "offsets": { "from": 5990, "to": 5990 } },
+        { "text": "ved", "p": 0.392623, "t0": 599, "t1": 599, "offsets": { "from": 5990, "to": 5990 } },
+        { "text": "et", "p": 0.624271, "t0": 599, "t1": 599, "offsets": { "from": 5990, "to": 5990 } },
+        { "text": ".", "p": 0.767317, "t0": 599, "t1": 599, "offsets": { "from": 5990, "to": 5990 } },
+        { "text": " D", "p": 0.901151, "t0": 599, "t1": 599, "offsets": { "from": 5990, "to": 5990 } },
+        { "text": "ette", "p": 0.998184, "t0": 599, "t1": 599, "offsets": { "from": 5990, "to": 5990 } },
+        { "text": " er", "p": 0.993625, "t0": 599, "t1": 599, "offsets": { "from": 5990, "to": 5990 } },
+        { "text": " slut", "p": 0.993908, "t0": 599, "t1": 599, "offsets": { "from": 5990, "to": 5990 } },
+        { "text": "ningen", "p": 0.995273, "t0": 599, "t1": 599, "offsets": { "from": 5990, "to": 5990 } },
+        { "text": " på", "p": 0.992235, "t0": 599, "t1": 599, "offsets": { "from": 5990, "to": 5990 } },
+        { "text": " et", "p": 0.993625, "t0": 599, "t1": 599, "offsets": { "from": 5990, "to": 5990 } },
+        { "text": " kap", "p": 0.997105, "t0": 599, "t1": 599, "offsets": { "from": 5990, "to": 5990 } },
+        { "text": "itel", "p": 0.998759, "t0": 599, "t1": 599, "offsets": { "from": 5990, "to": 5990 } },
+        { "text": ",", "p": 0.456857, "t0": 599, "t1": 599, "offsets": { "from": 5990, "to": 5990 } },
+        { "text": " og", "p": 0.940797, "t0": 599, "t1": 599, "offsets": { "from": 5990, "to": 5990 } },
+        { "text": " start", "p": 0.99846, "t0": 599, "t1": 599, "offsets": { "from": 5990, "to": 5990 } },
+        { "text": "en", "p": 0.995065, "t0": 599, "t1": 599, "offsets": { "from": 5990, "to": 5990 } },
+        { "text": " på", "p": 0.997891, "t0": 599, "t1": 599, "offsets": { "from": 5990, "to": 5990 } },
+        { "text": " et", "p": 0.994256, "t0": 599, "t1": 599, "offsets": { "from": 5990, "to": 5990 } },
+        { "text": " nyt", "p": 0.993815, "t0": 599, "t1": 599, "offsets": { "from": 5990, "to": 5990 } },
+        { "text": ".", "p": 0.958696, "t0": 599, "t1": 599, "offsets": { "from": 5990, "to": 5990 } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E4-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,120", "to": "00:00:30,120" },
+      "offsets":    { "from": 120, "to": 30120 },
+      "text":       " Pengene kan bruges til oversvømmelsesikring af huse, bedre håndtering af vand og diversificering af afgrøderne.",
+      "words": [
+        { "text": " Pengene", "t0": 13, "t1": 215, "offsets": { "from": 130, "to": 2150 } },
+        { "text": " kan", "t0": 215, "t1": 302, "offsets": { "from": 2150, "to": 3020 } },
+        { "text": " bruges", "t0": 302, "t1": 452, "offsets": { "from": 3020, "to": 4520 } },
+        { "text": " til", "t0": 489, "t1": 563, "offsets": { "from": 4890, "to": 5630 } },
+        { "text": " oversvømmelsesikring", "t0": 563, "t1": 1031, "offsets": { "from": 5630, "to": 10310 } },
+        { "text": " af", "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } },
+        { "text": " huse,", "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } },
+        { "text": " bedre", "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } },
+        { "text": " håndtering", "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } },
+        { "text": " af", "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } },
+        { "text": " vand", "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } },
+        { "text": " og", "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } },
+        { "text": " diversificering", "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } },
+        { "text": " af", "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } },
+        { "text": " afgrøderne.", "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } }
+      ],
+      "tokens": [
+        { "text": " Peng", "p": 0.918069, "t0": 13, "t1": 128, "offsets": { "from": 130, "to": 1280 } },
+        { "text": "ene", "p": 0.998624, "t0": 132, "t1": 215, "offsets": { "from": 1320, "to": 2150 } },
+        { "text": " kan", "p": 0.982019, "t0": 215, "t1": 302, "offsets": { "from": 2150, "to": 3020 } },
+        { "text": " br", "p": 0.998186, "t0": 302, "t1": 360, "offsets": { "from": 3020, "to": 3600 } },
+        { "text": "uges", "p": 0.998464, "t0": 360, "t1": 452, "offsets": { "from": 3600, "to": 4520 } },
+        { "text": " til", "p": 0.992076, "t0": 489, "t1": 563, "offsets": { "from": 4890, "to": 5630 } },
+        { "text": " overs", "p": 0.974759, "t0": 563, "t1": 708, "offsets": { "from": 5630, "to": 7080 } },
+        { "text": "v", "p": 0.99947, "t0": 708, "t1": 737, "offsets": { "from": 7080, "to": 7370 } },
+        { "text": "ø", "p": 0.997482, "t0": 737, "t1": 795, "offsets": { "from": 7370, "to": 7950 } },
+        { "text": "mm", "p": 0.998047, "t0": 795, "t1": 853, "offsets": { "from": 7950, "to": 8530 } },
+        { "text": "els", "p": 0.936924, "t0": 853, "t1": 939, "offsets": { "from": 8530, "to": 9390 } },
+        { "text": "es", "p": 0.605068, "t0": 940, "t1": 997, "offsets": { "from": 9400, "to": 9970 } },
+        { "text": "ik", "p": 0.918447, "t0": 998, "t1": 1031, "offsets": { "from": 9980, "to": 10310 } },
+        { "text": "ring", "p": 0.999243, "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } },
+        { "text": " af", "p": 0.993248, "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } },
+        { "text": " h", "p": 0.962602, "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } },
+        { "text": "use", "p": 0.997472, "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } },
+        { "text": ",", "p": 0.920613, "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } },
+        { "text": " bed", "p": 0.99141, "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } },
+        { "text": "re", "p": 0.999136, "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } },
+        { "text": " hå", "p": 0.987381, "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } },
+        { "text": "nd", "p": 0.999989, "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } },
+        { "text": "tering", "p": 0.998083, "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } },
+        { "text": " af", "p": 0.997788, "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } },
+        { "text": " v", "p": 0.997729, "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } },
+        { "text": "and", "p": 0.999489, "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } },
+        { "text": " og", "p": 0.854193, "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } },
+        { "text": " divers", "p": 0.99847, "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } },
+        { "text": "ific", "p": 0.983442, "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } },
+        { "text": "ering", "p": 0.999125, "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } },
+        { "text": " af", "p": 0.998035, "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } },
+        { "text": " af", "p": 0.99575, "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } },
+        { "text": "gr", "p": 0.928679, "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } },
+        { "text": "ø", "p": 0.998277, "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } },
+        { "text": "der", "p": 0.942389, "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } },
+        { "text": "ne", "p": 0.993771, "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } },
+        { "text": ".", "p": 0.94172, "t0": 1031, "t1": 1031, "offsets": { "from": 10310, "to": 10310 } }
+      ]
+    }
+  ]
+}

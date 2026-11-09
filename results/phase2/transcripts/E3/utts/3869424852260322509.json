@@ -1,0 +1,69 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,000", "to": "00:00:30,000" },
+      "offsets":    { "from": 0, "to": 30000 },
+      "text":       " Ved en adoption opgiver de biologiske forældre deres forældrerettigheder, så et andet par kan overtage dem.",
+      "words": [
+        { "text": " Ved", "t0": 50, "t1": 91, "offsets": { "from": 500, "to": 910 } },
+        { "text": " en", "t0": 91, "t1": 138, "offsets": { "from": 910, "to": 1380 } },
+        { "text": " adoption", "t0": 167, "t1": 396, "offsets": { "from": 1670, "to": 3960 } },
+        { "text": " opgiver", "t0": 396, "t1": 599, "offsets": { "from": 3960, "to": 5990 } },
+        { "text": " de", "t0": 609, "t1": 670, "offsets": { "from": 6090, "to": 6700 } },
+        { "text": " biologiske", "t0": 670, "t1": 683, "offsets": { "from": 6700, "to": 6830 } },
+        { "text": " forældre", "t0": 683, "t1": 683, "offsets": { "from": 6830, "to": 6830 } },
+        { "text": " deres", "t0": 683, "t1": 683, "offsets": { "from": 6830, "to": 6830 } },
+        { "text": " forældrerettigheder,", "t0": 683, "t1": 683, "offsets": { "from": 6830, "to": 6830 } },
+        { "text": " så", "t0": 683, "t1": 683, "offsets": { "from": 6830, "to": 6830 } },
+        { "text": " et", "t0": 683, "t1": 683, "offsets": { "from": 6830, "to": 6830 } },
+        { "text": " andet", "t0": 683, "t1": 683, "offsets": { "from": 6830, "to": 6830 } },
+        { "text": " par", "t0": 683, "t1": 683, "offsets": { "from": 6830, "to": 6830 } },
+        { "text": " kan", "t0": 683, "t1": 683, "offsets": { "from": 6830, "to": 6830 } },
+        { "text": " overtage", "t0": 683, "t1": 683, "offsets": { "from": 6830, "to": 6830 } },
+        { "text": " dem.", "t0": 683, "t1": 683, "offsets": { "from": 6830, "to": 6830 } }
+      ],
+      "tokens": [
+        { "text": " Ved", "p": 0.897255, "t0": 50, "t1": 91, "offsets": { "from": 500, "to": 910 } },
+        { "text": " en", "p": 0.973656, "t0": 91, "t1": 138, "offsets": { "from": 910, "to": 1380 } },
+        { "text": " adoption", "p": 0.903073, "t0": 167, "t1": 396, "offsets": { "from": 1670, "to": 3960 } },
+        { "text": " op", "p": 0.962939, "t0": 396, "t1": 457, "offsets": { "from": 3960, "to": 4570 } },
+        { "text": "g", "p": 0.981757, "t0": 457, "t1": 482, "offsets": { "from": 4570, "to": 4820 } },
+        { "text": "iver", "p": 0.986873, "t0": 489, "t1": 599, "offsets": { "from": 4890, "to": 5990 } },
+        { "text": " de", "p": 0.9489, "t0": 609, "t1": 670, "offsets": { "from": 6090, "to": 6700 } },
+        { "text": " bi", "p": 0.966874, "t0": 670, "t1": 683, "offsets": { "from": 6700, "to": 6830 } },
+        { "text": "olog", "p": 0.999214, "t0": 683, "t1": 683, "offsets": { "from": 6830, "to": 6830 } },
+        { "text": "is", "p": 0.994404, "t0": 683, "t1": 683, "offsets": { "from": 6830, "to": 6830 } },
+        { "text": "ke", "p": 0.998967, "t0": 683, "t1": 683, "offsets": { "from": 6830, "to": 6830 } },
+        { "text": " for", "p": 0.984763, "t0": 683, "t1": 683, "offsets": { "from": 6830, "to": 6830 } },
+        { "text": "æ", "p": 0.999899, "t0": 683, "t1": 683, "offsets": { "from": 6830, "to": 6830 } },
+        { "text": "ld", "p": 0.999853, "t0": 683, "t1": 683, "offsets": { "from": 6830, "to": 6830 } },
+        { "text": "re", "p": 0.991059, "t0": 683, "t1": 683, "offsets": { "from": 6830, "to": 6830 } },
+        { "text": " der", "p": 0.943918, "t0": 683, "t1": 683, "offsets": { "from": 6830, "to": 6830 } },
+        { "text": "es", "p": 0.999563, "t0": 683, "t1": 683, "offsets": { "from": 6830, "to": 6830 } },
+        { "text": " for", "p": 0.982577, "t0": 683, "t1": 683, "offsets": { "from": 6830, "to": 6830 } },
+        { "text": "æ", "p": 0.999903, "t0": 683, "t1": 683, "offsets": { "from": 6830, "to": 6830 } },
+        { "text": "ld", "p": 0.999405, "t0": 683, "t1": 683, "offsets": { "from": 6830, "to": 6830 } },
+        { "text": "rer", "p": 0.977433, "t0": 683, "t1": 683, "offsets": { "from": 6830, "to": 6830 } },
+        { "text": "ett", "p": 0.98386, "t0": 683, "t1": 683, "offsets": { "from": 6830, "to": 6830 } },
+        { "text": "igh", "p": 0.99956, "t0": 683, "t1": 683, "offsets": { "from": 6830, "to": 6830 } },
+        { "text": "eder", "p": 0.978558, "t0": 683, "t1": 683, "offsets": { "from": 6830, "to": 6830 } },
+        { "text": ",", "p": 0.69768, "t0": 683, "t1": 683, "offsets": { "from": 6830, "to": 6830 } },
+        { "text": " så", "p": 0.99183, "t0": 683, "t1": 683, "offsets": { "from": 6830, "to": 6830 } },
+        { "text": " et", "p": 0.945691, "t0": 683, "t1": 683, "offsets": { "from": 6830, "to": 6830 } },
+        { "text": " and", "p": 0.984761, "t0": 683, "t1": 683, "offsets": { "from": 6830, "to": 6830 } },
+        { "text": "et", "p": 0.999171, "t0": 683, "t1": 683, "offsets": { "from": 6830, "to": 6830 } },
+        { "text": " par", "p": 0.809136, "t0": 683, "t1": 683, "offsets": { "from": 6830, "to": 6830 } },
+        { "text": " kan", "p": 0.971767, "t0": 683, "t1": 683, "offsets": { "from": 6830, "to": 6830 } },
+        { "text": " overt", "p": 0.770319, "t0": 683, "t1": 683, "offsets": { "from": 6830, "to": 6830 } },
+        { "text": "age", "p": 0.994412, "t0": 683, "t1": 683, "offsets": { "from": 6830, "to": 6830 } },
+        { "text": " dem", "p": 0.973521, "t0": 683, "t1": 683, "offsets": { "from": 6830, "to": 6830 } },
+        { "text": ".", "p": 0.944258, "t0": 683, "t1": 683, "offsets": { "from": 6830, "to": 6830 } }
+      ]
+    }
+  ]
+}

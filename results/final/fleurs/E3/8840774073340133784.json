@@ -1,0 +1,73 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,000", "to": "00:00:30,000" },
+      "offsets":    { "from": 0, "to": 30000 },
+      "text":       " Desværre er det svært at studere trafikstrømme, fordi bilisters adfærd ikke kan forudsiges med 100% sikkerhed.",
+      "words": [
+        { "text": " Desværre", "t0": 0, "t1": 247, "offsets": { "from": 0, "to": 2470 } },
+        { "text": " er", "t0": 247, "t1": 297, "offsets": { "from": 2470, "to": 2970 } },
+        { "text": " det", "t0": 309, "t1": 386, "offsets": { "from": 3090, "to": 3860 } },
+        { "text": " svært", "t0": 386, "t1": 551, "offsets": { "from": 3860, "to": 5510 } },
+        { "text": " at", "t0": 551, "t1": 606, "offsets": { "from": 5510, "to": 6060 } },
+        { "text": " studere", "t0": 606, "t1": 744, "offsets": { "from": 6060, "to": 7440 } },
+        { "text": " trafikstrømme,", "t0": 795, "t1": 804, "offsets": { "from": 7950, "to": 8040 } },
+        { "text": " fordi", "t0": 804, "t1": 804, "offsets": { "from": 8040, "to": 8040 } },
+        { "text": " bilisters", "t0": 804, "t1": 804, "offsets": { "from": 8040, "to": 8040 } },
+        { "text": " adfærd", "t0": 804, "t1": 804, "offsets": { "from": 8040, "to": 8040 } },
+        { "text": " ikke", "t0": 804, "t1": 804, "offsets": { "from": 8040, "to": 8040 } },
+        { "text": " kan", "t0": 804, "t1": 804, "offsets": { "from": 8040, "to": 8040 } },
+        { "text": " forudsiges", "t0": 804, "t1": 804, "offsets": { "from": 8040, "to": 8040 } },
+        { "text": " med", "t0": 804, "t1": 804, "offsets": { "from": 8040, "to": 8040 } },
+        { "text": " 100%", "t0": 804, "t1": 804, "offsets": { "from": 8040, "to": 8040 } },
+        { "text": " sikkerhed.", "t0": 804, "t1": 804, "offsets": { "from": 8040, "to": 8040 } }
+      ],
+      "tokens": [
+        { "text": " Des", "p": 0.90888, "t0": 0, "t1": 83, "offsets": { "from": 0, "to": 830 } },
+        { "text": "v", "p": 0.99557, "t0": 83, "t1": 110, "offsets": { "from": 830, "to": 1100 } },
+        { "text": "ær", "p": 0.997514, "t0": 110, "t1": 193, "offsets": { "from": 1100, "to": 1930 } },
+        { "text": "re", "p": 0.998327, "t0": 193, "t1": 247, "offsets": { "from": 1930, "to": 2470 } },
+        { "text": " er", "p": 0.976209, "t0": 247, "t1": 297, "offsets": { "from": 2470, "to": 2970 } },
+        { "text": " det", "p": 0.994067, "t0": 309, "t1": 386, "offsets": { "from": 3090, "to": 3860 } },
+        { "text": " sv", "p": 0.99542, "t0": 386, "t1": 441, "offsets": { "from": 3860, "to": 4410 } },
+        { "text": "æ", "p": 0.99752, "t0": 441, "t1": 493, "offsets": { "from": 4410, "to": 4930 } },
+        { "text": "rt", "p": 0.998523, "t0": 496, "t1": 551, "offsets": { "from": 4960, "to": 5510 } },
+        { "text": " at", "p": 0.975254, "t0": 551, "t1": 606, "offsets": { "from": 5510, "to": 6060 } },
+        { "text": " stud", "p": 0.991526, "t0": 606, "t1": 717, "offsets": { "from": 6060, "to": 7170 } },
+        { "text": "ere", "p": 0.995697, "t0": 717, "t1": 744, "offsets": { "from": 7170, "to": 7440 } },
+        { "text": " tra", "p": 0.965414, "t0": 795, "t1": 804, "offsets": { "from": 7950, "to": 8040 } },
+        { "text": "fik", "p": 0.99891, "t0": 804, "t1": 804, "offsets": { "from": 8040, "to": 8040 } },
+        { "text": "str", "p": 0.985834, "t0": 804, "t1": 804, "offsets": { "from": 8040, "to": 8040 } },
+        { "text": "ø", "p": 0.999939, "t0": 804, "t1": 804, "offsets": { "from": 8040, "to": 8040 } },
+        { "text": "m", "p": 0.99008, "t0": 804, "t1": 804, "offsets": { "from": 8040, "to": 8040 } },
+        { "text": "me", "p": 0.996717, "t0": 804, "t1": 804, "offsets": { "from": 8040, "to": 8040 } },
+        { "text": ",", "p": 0.763231, "t0": 804, "t1": 804, "offsets": { "from": 8040, "to": 8040 } },
+        { "text": " fordi", "p": 0.961425, "t0": 804, "t1": 804, "offsets": { "from": 8040, "to": 8040 } },
+        { "text": " bil", "p": 0.18734, "t0": 804, "t1": 804, "offsets": { "from": 8040, "to": 8040 } },
+        { "text": "isters", "p": 0.755615, "t0": 804, "t1": 804, "offsets": { "from": 8040, "to": 8040 } },
+        { "text": " ad", "p": 0.784406, "t0": 804, "t1": 804, "offsets": { "from": 8040, "to": 8040 } },
+        { "text": "f", "p": 0.98995, "t0": 804, "t1": 804, "offsets": { "from": 8040, "to": 8040 } },
+        { "text": "æ", "p": 0.996181, "t0": 804, "t1": 804, "offsets": { "from": 8040, "to": 8040 } },
+        { "text": "rd", "p": 0.998119, "t0": 804, "t1": 804, "offsets": { "from": 8040, "to": 8040 } },
+        { "text": " ikke", "p": 0.59021, "t0": 804, "t1": 804, "offsets": { "from": 8040, "to": 8040 } },
+        { "text": " kan", "p": 0.983312, "t0": 804, "t1": 804, "offsets": { "from": 8040, "to": 8040 } },
+        { "text": " for", "p": 0.62672, "t0": 804, "t1": 804, "offsets": { "from": 8040, "to": 8040 } },
+        { "text": "uds", "p": 0.650958, "t0": 804, "t1": 804, "offsets": { "from": 8040, "to": 8040 } },
+        { "text": "iges", "p": 0.881822, "t0": 804, "t1": 804, "offsets": { "from": 8040, "to": 8040 } },
+        { "text": " med", "p": 0.986068, "t0": 804, "t1": 804, "offsets": { "from": 8040, "to": 8040 } },
+        { "text": " 100", "p": 0.924281, "t0": 804, "t1": 804, "offsets": { "from": 8040, "to": 8040 } },
+        { "text": "%", "p": 0.832676, "t0": 804, "t1": 804, "offsets": { "from": 8040, "to": 8040 } },
+        { "text": " s", "p": 0.968021, "t0": 804, "t1": 804, "offsets": { "from": 8040, "to": 8040 } },
+        { "text": "ik", "p": 0.998782, "t0": 804, "t1": 804, "offsets": { "from": 8040, "to": 8040 } },
+        { "text": "ker", "p": 0.999699, "t0": 804, "t1": 804, "offsets": { "from": 8040, "to": 8040 } },
+        { "text": "hed", "p": 0.997339, "t0": 804, "t1": 804, "offsets": { "from": 8040, "to": 8040 } },
+        { "text": ".", "p": 0.933585, "t0": 804, "t1": 804, "offsets": { "from": 8040, "to": 8040 } }
+      ]
+    }
+  ]
+}

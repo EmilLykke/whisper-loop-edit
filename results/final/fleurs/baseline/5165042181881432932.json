@@ -1,0 +1,53 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,170", "to": "00:00:30,170" },
+      "offsets":    { "from": 170, "to": 30170 },
+      "text":       " Han blev i første omgang indlagt på James Paget Hospital i Great Yarmouth.",
+      "words": [
+        { "text": " Han", "t0": 36, "t1": 153, "offsets": { "from": 360, "to": 1530 } },
+        { "text": " blev", "t0": 183, "t1": 321, "offsets": { "from": 1830, "to": 3210 } },
+        { "text": " i", "t0": 335, "t1": 379, "offsets": { "from": 3350, "to": 3790 } },
+        { "text": " første", "t0": 379, "t1": 689, "offsets": { "from": 3790, "to": 6890 } },
+        { "text": " omgang", "t0": 689, "t1": 899, "offsets": { "from": 6890, "to": 8990 } },
+        { "text": " indlagt", "t0": 899, "t1": 899, "offsets": { "from": 8990, "to": 8990 } },
+        { "text": " på", "t0": 899, "t1": 899, "offsets": { "from": 8990, "to": 8990 } },
+        { "text": " James", "t0": 899, "t1": 899, "offsets": { "from": 8990, "to": 8990 } },
+        { "text": " Paget", "t0": 899, "t1": 899, "offsets": { "from": 8990, "to": 8990 } },
+        { "text": " Hospital", "t0": 899, "t1": 899, "offsets": { "from": 8990, "to": 8990 } },
+        { "text": " i", "t0": 899, "t1": 899, "offsets": { "from": 8990, "to": 8990 } },
+        { "text": " Great", "t0": 899, "t1": 899, "offsets": { "from": 8990, "to": 8990 } },
+        { "text": " Yarmouth.", "t0": 899, "t1": 899, "offsets": { "from": 8990, "to": 8990 } }
+      ],
+      "tokens": [
+        { "text": " Han", "p": 0.869566, "t0": 36, "t1": 153, "offsets": { "from": 360, "to": 1530 } },
+        { "text": " blev", "p": 0.966477, "t0": 183, "t1": 321, "offsets": { "from": 1830, "to": 3210 } },
+        { "text": " i", "p": 0.929312, "t0": 335, "t1": 379, "offsets": { "from": 3350, "to": 3790 } },
+        { "text": " før", "p": 0.960261, "t0": 379, "t1": 549, "offsets": { "from": 3790, "to": 5490 } },
+        { "text": "ste", "p": 0.985152, "t0": 585, "t1": 689, "offsets": { "from": 5850, "to": 6890 } },
+        { "text": " om", "p": 0.997078, "t0": 689, "t1": 787, "offsets": { "from": 6890, "to": 7870 } },
+        { "text": "gang", "p": 0.997853, "t0": 787, "t1": 899, "offsets": { "from": 7870, "to": 8990 } },
+        { "text": " ind", "p": 0.980172, "t0": 899, "t1": 899, "offsets": { "from": 8990, "to": 8990 } },
+        { "text": "l", "p": 0.950363, "t0": 899, "t1": 899, "offsets": { "from": 8990, "to": 8990 } },
+        { "text": "agt", "p": 0.999495, "t0": 899, "t1": 899, "offsets": { "from": 8990, "to": 8990 } },
+        { "text": " på", "p": 0.982673, "t0": 899, "t1": 899, "offsets": { "from": 8990, "to": 8990 } },
+        { "text": " James", "p": 0.9171, "t0": 899, "t1": 899, "offsets": { "from": 8990, "to": 8990 } },
+        { "text": " P", "p": 0.338994, "t0": 899, "t1": 899, "offsets": { "from": 8990, "to": 8990 } },
+        { "text": "ag", "p": 0.993352, "t0": 899, "t1": 899, "offsets": { "from": 8990, "to": 8990 } },
+        { "text": "et", "p": 0.95273, "t0": 899, "t1": 899, "offsets": { "from": 8990, "to": 8990 } },
+        { "text": " Hospital", "p": 0.897907, "t0": 899, "t1": 899, "offsets": { "from": 8990, "to": 8990 } },
+        { "text": " i", "p": 0.923254, "t0": 899, "t1": 899, "offsets": { "from": 8990, "to": 8990 } },
+        { "text": " Great", "p": 0.950076, "t0": 899, "t1": 899, "offsets": { "from": 8990, "to": 8990 } },
+        { "text": " Y", "p": 0.749458, "t0": 899, "t1": 899, "offsets": { "from": 8990, "to": 8990 } },
+        { "text": "arm", "p": 0.993981, "t0": 899, "t1": 899, "offsets": { "from": 8990, "to": 8990 } },
+        { "text": "outh", "p": 0.999725, "t0": 899, "t1": 899, "offsets": { "from": 8990, "to": 8990 } },
+        { "text": ".", "p": 0.632563, "t0": 899, "t1": 899, "offsets": { "from": 8990, "to": 8990 } }
+      ]
+    }
+  ]
+}

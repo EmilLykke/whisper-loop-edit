@@ -1,0 +1,60 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,480", "to": "00:00:30,480" },
+      "offsets":    { "from": 480, "to": 30480 },
+      "text":       " Kålsaften skifter farve alt afhængig af hvor surt eller basisk alkalisk kemikaliet er.",
+      "words": [
+        { "text": " Kålsaften", "t0": 74, "t1": 429, "offsets": { "from": 740, "to": 4290 } },
+        { "text": " skifter", "t0": 429, "t1": 687, "offsets": { "from": 4290, "to": 6870 } },
+        { "text": " farve", "t0": 711, "t1": 711, "offsets": { "from": 7110, "to": 7110 } },
+        { "text": " alt", "t0": 711, "t1": 711, "offsets": { "from": 7110, "to": 7110 } },
+        { "text": " afhængig", "t0": 711, "t1": 711, "offsets": { "from": 7110, "to": 7110 } },
+        { "text": " af", "t0": 711, "t1": 711, "offsets": { "from": 7110, "to": 7110 } },
+        { "text": " hvor", "t0": 711, "t1": 711, "offsets": { "from": 7110, "to": 7110 } },
+        { "text": " surt", "t0": 711, "t1": 711, "offsets": { "from": 7110, "to": 7110 } },
+        { "text": " eller", "t0": 711, "t1": 711, "offsets": { "from": 7110, "to": 7110 } },
+        { "text": " basisk", "t0": 711, "t1": 711, "offsets": { "from": 7110, "to": 7110 } },
+        { "text": " alkalisk", "t0": 711, "t1": 711, "offsets": { "from": 7110, "to": 7110 } },
+        { "text": " kemikaliet", "t0": 711, "t1": 711, "offsets": { "from": 7110, "to": 7110 } },
+        { "text": " er.", "t0": 711, "t1": 711, "offsets": { "from": 7110, "to": 7110 } }
+      ],
+      "tokens": [
+        { "text": " K", "p": 0.730851, "t0": 74, "t1": 86, "offsets": { "from": 740, "to": 860 } },
+        { "text": "å", "p": 0.795725, "t0": 86, "t1": 160, "offsets": { "from": 860, "to": 1600 } },
+        { "text": "l", "p": 0.587666, "t0": 164, "t1": 190, "offsets": { "from": 1640, "to": 1900 } },
+        { "text": "sa", "p": 0.917884, "t0": 208, "t1": 276, "offsets": { "from": 2080, "to": 2760 } },
+        { "text": "ften", "p": 0.986448, "t0": 276, "t1": 429, "offsets": { "from": 2760, "to": 4290 } },
+        { "text": " sk", "p": 0.981708, "t0": 429, "t1": 454, "offsets": { "from": 4290, "to": 4540 } },
+        { "text": "ifter", "p": 0.995974, "t0": 509, "t1": 687, "offsets": { "from": 5090, "to": 6870 } },
+        { "text": " far", "p": 0.994966, "t0": 711, "t1": 711, "offsets": { "from": 7110, "to": 7110 } },
+        { "text": "ve", "p": 0.981957, "t0": 711, "t1": 711, "offsets": { "from": 7110, "to": 7110 } },
+        { "text": " alt", "p": 0.553242, "t0": 711, "t1": 711, "offsets": { "from": 7110, "to": 7110 } },
+        { "text": " af", "p": 0.983277, "t0": 711, "t1": 711, "offsets": { "from": 7110, "to": 7110 } },
+        { "text": "h", "p": 0.996919, "t0": 711, "t1": 711, "offsets": { "from": 7110, "to": 7110 } },
+        { "text": "æ", "p": 0.999336, "t0": 711, "t1": 711, "offsets": { "from": 7110, "to": 7110 } },
+        { "text": "ng", "p": 0.991834, "t0": 711, "t1": 711, "offsets": { "from": 7110, "to": 7110 } },
+        { "text": "ig", "p": 0.62079, "t0": 711, "t1": 711, "offsets": { "from": 7110, "to": 7110 } },
+        { "text": " af", "p": 0.984474, "t0": 711, "t1": 711, "offsets": { "from": 7110, "to": 7110 } },
+        { "text": " hvor", "p": 0.586772, "t0": 711, "t1": 711, "offsets": { "from": 7110, "to": 7110 } },
+        { "text": " surt", "p": 0.928469, "t0": 711, "t1": 711, "offsets": { "from": 7110, "to": 7110 } },
+        { "text": " eller", "p": 0.915903, "t0": 711, "t1": 711, "offsets": { "from": 7110, "to": 7110 } },
+        { "text": " basis", "p": 0.828561, "t0": 711, "t1": 711, "offsets": { "from": 7110, "to": 7110 } },
+        { "text": "k", "p": 0.994786, "t0": 711, "t1": 711, "offsets": { "from": 7110, "to": 7110 } },
+        { "text": " alkal", "p": 0.308237, "t0": 711, "t1": 711, "offsets": { "from": 7110, "to": 7110 } },
+        { "text": "isk", "p": 0.984951, "t0": 711, "t1": 711, "offsets": { "from": 7110, "to": 7110 } },
+        { "text": " ke", "p": 0.948846, "t0": 711, "t1": 711, "offsets": { "from": 7110, "to": 7110 } },
+        { "text": "m", "p": 0.991174, "t0": 711, "t1": 711, "offsets": { "from": 7110, "to": 7110 } },
+        { "text": "ikal", "p": 0.967938, "t0": 711, "t1": 711, "offsets": { "from": 7110, "to": 7110 } },
+        { "text": "iet", "p": 0.993517, "t0": 711, "t1": 711, "offsets": { "from": 7110, "to": 7110 } },
+        { "text": " er", "p": 0.997465, "t0": 711, "t1": 711, "offsets": { "from": 7110, "to": 7110 } },
+        { "text": ".", "p": 0.914501, "t0": 711, "t1": 711, "offsets": { "from": 7110, "to": 7110 } }
+      ]
+    }
+  ]
+}

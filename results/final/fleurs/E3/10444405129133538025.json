@@ -1,0 +1,35 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,370", "to": "00:00:30,370" },
+      "offsets":    { "from": 370, "to": 30370 },
+      "text":       " Andre brydere hyldede også Lule.",
+      "words": [
+        { "text": " Andre", "t0": 59, "t1": 260, "offsets": { "from": 590, "to": 2600 } },
+        { "text": " brydere", "t0": 282, "t1": 282, "offsets": { "from": 2820, "to": 2820 } },
+        { "text": " hyldede", "t0": 282, "t1": 282, "offsets": { "from": 2820, "to": 2820 } },
+        { "text": " også", "t0": 282, "t1": 282, "offsets": { "from": 2820, "to": 2820 } },
+        { "text": " Lule.", "t0": 282, "t1": 282, "offsets": { "from": 2820, "to": 2820 } }
+      ],
+      "tokens": [
+        { "text": " Andre", "p": 0.958031, "t0": 59, "t1": 260, "offsets": { "from": 590, "to": 2600 } },
+        { "text": " b", "p": 0.705435, "t0": 282, "t1": 282, "offsets": { "from": 2820, "to": 2820 } },
+        { "text": "ry", "p": 0.999331, "t0": 282, "t1": 282, "offsets": { "from": 2820, "to": 2820 } },
+        { "text": "d", "p": 0.660006, "t0": 282, "t1": 282, "offsets": { "from": 2820, "to": 2820 } },
+        { "text": "ere", "p": 0.963845, "t0": 282, "t1": 282, "offsets": { "from": 2820, "to": 2820 } },
+        { "text": " hy", "p": 0.501456, "t0": 282, "t1": 282, "offsets": { "from": 2820, "to": 2820 } },
+        { "text": "ld", "p": 0.971829, "t0": 282, "t1": 282, "offsets": { "from": 2820, "to": 2820 } },
+        { "text": "ede", "p": 0.802547, "t0": 282, "t1": 282, "offsets": { "from": 2820, "to": 2820 } },
+        { "text": " også", "p": 0.981762, "t0": 282, "t1": 282, "offsets": { "from": 2820, "to": 2820 } },
+        { "text": " L", "p": 0.257862, "t0": 282, "t1": 282, "offsets": { "from": 2820, "to": 2820 } },
+        { "text": "ule", "p": 0.948286, "t0": 282, "t1": 282, "offsets": { "from": 2820, "to": 2820 } },
+        { "text": ".", "p": 0.856174, "t0": 282, "t1": 282, "offsets": { "from": 2820, "to": 2820 } }
+      ]
+    }
+  ]
+}

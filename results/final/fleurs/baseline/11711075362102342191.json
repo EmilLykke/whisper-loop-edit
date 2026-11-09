@@ -1,0 +1,73 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,000", "to": "00:00:30,000" },
+      "offsets":    { "from": 0, "to": 30000 },
+      "text":       " Normalt hører du altid lyden af turister og sælgere. Historien om lyden og lyset er ligesom en historiebog.",
+      "words": [
+        { "text": " Normalt", "t0": 52, "t1": 218, "offsets": { "from": 520, "to": 2180 } },
+        { "text": " hører", "t0": 218, "t1": 404, "offsets": { "from": 2180, "to": 4040 } },
+        { "text": " du", "t0": 404, "t1": 466, "offsets": { "from": 4040, "to": 4660 } },
+        { "text": " altid", "t0": 466, "t1": 621, "offsets": { "from": 4660, "to": 6210 } },
+        { "text": " lyden", "t0": 621, "t1": 687, "offsets": { "from": 6210, "to": 6870 } },
+        { "text": " af", "t0": 687, "t1": 687, "offsets": { "from": 6870, "to": 6870 } },
+        { "text": " turister", "t0": 687, "t1": 687, "offsets": { "from": 6870, "to": 6870 } },
+        { "text": " og", "t0": 687, "t1": 687, "offsets": { "from": 6870, "to": 6870 } },
+        { "text": " sælgere.", "t0": 687, "t1": 687, "offsets": { "from": 6870, "to": 6870 } },
+        { "text": " Historien", "t0": 687, "t1": 687, "offsets": { "from": 6870, "to": 6870 } },
+        { "text": " om", "t0": 687, "t1": 687, "offsets": { "from": 6870, "to": 6870 } },
+        { "text": " lyden", "t0": 687, "t1": 687, "offsets": { "from": 6870, "to": 6870 } },
+        { "text": " og", "t0": 687, "t1": 687, "offsets": { "from": 6870, "to": 6870 } },
+        { "text": " lyset", "t0": 687, "t1": 687, "offsets": { "from": 6870, "to": 6870 } },
+        { "text": " er", "t0": 687, "t1": 687, "offsets": { "from": 6870, "to": 6870 } },
+        { "text": " ligesom", "t0": 687, "t1": 687, "offsets": { "from": 6870, "to": 6870 } },
+        { "text": " en", "t0": 687, "t1": 687, "offsets": { "from": 6870, "to": 6870 } },
+        { "text": " historiebog.", "t0": 687, "t1": 687, "offsets": { "from": 6870, "to": 6870 } }
+      ],
+      "tokens": [
+        { "text": " Norm", "p": 0.900895, "t0": 52, "t1": 125, "offsets": { "from": 520, "to": 1250 } },
+        { "text": "alt", "p": 0.993564, "t0": 125, "t1": 218, "offsets": { "from": 1250, "to": 2180 } },
+        { "text": " h", "p": 0.981068, "t0": 218, "t1": 248, "offsets": { "from": 2180, "to": 2480 } },
+        { "text": "ø", "p": 0.998959, "t0": 260, "t1": 309, "offsets": { "from": 2600, "to": 3090 } },
+        { "text": "rer", "p": 0.979766, "t0": 312, "t1": 404, "offsets": { "from": 3120, "to": 4040 } },
+        { "text": " du", "p": 0.992265, "t0": 404, "t1": 466, "offsets": { "from": 4040, "to": 4660 } },
+        { "text": " alt", "p": 0.932359, "t0": 466, "t1": 558, "offsets": { "from": 4660, "to": 5580 } },
+        { "text": "id", "p": 0.999701, "t0": 559, "t1": 621, "offsets": { "from": 5590, "to": 6210 } },
+        { "text": " ly", "p": 0.921625, "t0": 621, "t1": 647, "offsets": { "from": 6210, "to": 6470 } },
+        { "text": "den", "p": 0.996212, "t0": 682, "t1": 687, "offsets": { "from": 6820, "to": 6870 } },
+        { "text": " af", "p": 0.996253, "t0": 687, "t1": 687, "offsets": { "from": 6870, "to": 6870 } },
+        { "text": " tur", "p": 0.991779, "t0": 687, "t1": 687, "offsets": { "from": 6870, "to": 6870 } },
+        { "text": "ister", "p": 0.995057, "t0": 687, "t1": 687, "offsets": { "from": 6870, "to": 6870 } },
+        { "text": " og", "p": 0.986178, "t0": 687, "t1": 687, "offsets": { "from": 6870, "to": 6870 } },
+        { "text": " s", "p": 0.981545, "t0": 687, "t1": 687, "offsets": { "from": 6870, "to": 6870 } },
+        { "text": "æ", "p": 0.996588, "t0": 687, "t1": 687, "offsets": { "from": 6870, "to": 6870 } },
+        { "text": "l", "p": 0.999779, "t0": 687, "t1": 687, "offsets": { "from": 6870, "to": 6870 } },
+        { "text": "gere", "p": 0.947045, "t0": 687, "t1": 687, "offsets": { "from": 6870, "to": 6870 } },
+        { "text": ".", "p": 0.767623, "t0": 687, "t1": 687, "offsets": { "from": 6870, "to": 6870 } },
+        { "text": " Histor", "p": 0.826754, "t0": 687, "t1": 687, "offsets": { "from": 6870, "to": 6870 } },
+        { "text": "ien", "p": 0.992583, "t0": 687, "t1": 687, "offsets": { "from": 6870, "to": 6870 } },
+        { "text": " om", "p": 0.99445, "t0": 687, "t1": 687, "offsets": { "from": 6870, "to": 6870 } },
+        { "text": " ly", "p": 0.893503, "t0": 687, "t1": 687, "offsets": { "from": 6870, "to": 6870 } },
+        { "text": "den", "p": 0.999485, "t0": 687, "t1": 687, "offsets": { "from": 6870, "to": 6870 } },
+        { "text": " og", "p": 0.984962, "t0": 687, "t1": 687, "offsets": { "from": 6870, "to": 6870 } },
+        { "text": " lys", "p": 0.995298, "t0": 687, "t1": 687, "offsets": { "from": 6870, "to": 6870 } },
+        { "text": "et", "p": 0.872623, "t0": 687, "t1": 687, "offsets": { "from": 6870, "to": 6870 } },
+        { "text": " er", "p": 0.970669, "t0": 687, "t1": 687, "offsets": { "from": 6870, "to": 6870 } },
+        { "text": " lig", "p": 0.910391, "t0": 687, "t1": 687, "offsets": { "from": 6870, "to": 6870 } },
+        { "text": "es", "p": 0.99987, "t0": 687, "t1": 687, "offsets": { "from": 6870, "to": 6870 } },
+        { "text": "om", "p": 0.99794, "t0": 687, "t1": 687, "offsets": { "from": 6870, "to": 6870 } },
+        { "text": " en", "p": 0.96353, "t0": 687, "t1": 687, "offsets": { "from": 6870, "to": 6870 } },
+        { "text": " histor", "p": 0.99293, "t0": 687, "t1": 687, "offsets": { "from": 6870, "to": 6870 } },
+        { "text": "ie", "p": 0.970325, "t0": 687, "t1": 687, "offsets": { "from": 6870, "to": 6870 } },
+        { "text": "b", "p": 0.982088, "t0": 687, "t1": 687, "offsets": { "from": 6870, "to": 6870 } },
+        { "text": "og", "p": 0.994731, "t0": 687, "t1": 687, "offsets": { "from": 6870, "to": 6870 } },
+        { "text": ".", "p": 0.901714, "t0": 687, "t1": 687, "offsets": { "from": 6870, "to": 6870 } }
+      ]
+    }
+  ]
+}

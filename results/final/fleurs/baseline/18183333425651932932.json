@@ -1,0 +1,66 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,000", "to": "00:00:30,000" },
+      "offsets":    { "from": 0, "to": 30000 },
+      "text":       " Apir er Samurais hovedstad. Byen ligger på øen Upule og har et indbyggertalepoli under 40.000.",
+      "words": [
+        { "text": " Apir", "t0": 1, "t1": 119, "offsets": { "from": 10, "to": 1190 } },
+        { "text": " er", "t0": 162, "t1": 183, "offsets": { "from": 1620, "to": 1830 } },
+        { "text": " Samurais", "t0": 183, "t1": 427, "offsets": { "from": 1830, "to": 4270 } },
+        { "text": " hovedstad.", "t0": 427, "t1": 784, "offsets": { "from": 4270, "to": 7840 } },
+        { "text": " Byen", "t0": 795, "t1": 828, "offsets": { "from": 7950, "to": 8280 } },
+        { "text": " ligger", "t0": 828, "t1": 828, "offsets": { "from": 8280, "to": 8280 } },
+        { "text": " på", "t0": 828, "t1": 828, "offsets": { "from": 8280, "to": 8280 } },
+        { "text": " øen", "t0": 828, "t1": 828, "offsets": { "from": 8280, "to": 8280 } },
+        { "text": " Upule", "t0": 828, "t1": 828, "offsets": { "from": 8280, "to": 8280 } },
+        { "text": " og", "t0": 828, "t1": 828, "offsets": { "from": 8280, "to": 8280 } },
+        { "text": " har", "t0": 828, "t1": 828, "offsets": { "from": 8280, "to": 8280 } },
+        { "text": " et", "t0": 828, "t1": 828, "offsets": { "from": 8280, "to": 8280 } },
+        { "text": " indbyggertalepoli", "t0": 828, "t1": 828, "offsets": { "from": 8280, "to": 8280 } },
+        { "text": " under", "t0": 828, "t1": 828, "offsets": { "from": 8280, "to": 8280 } },
+        { "text": " 40.000.", "t0": 828, "t1": 828, "offsets": { "from": 8280, "to": 8280 } }
+      ],
+      "tokens": [
+        { "text": " Ap", "p": 0.503426, "t0": 1, "t1": 61, "offsets": { "from": 10, "to": 610 } },
+        { "text": "ir", "p": 0.535463, "t0": 72, "t1": 119, "offsets": { "from": 720, "to": 1190 } },
+        { "text": " er", "p": 0.861489, "t0": 162, "t1": 183, "offsets": { "from": 1620, "to": 1830 } },
+        { "text": " Sam", "p": 0.580356, "t0": 183, "t1": 275, "offsets": { "from": 1830, "to": 2750 } },
+        { "text": "ur", "p": 0.183589, "t0": 275, "t1": 317, "offsets": { "from": 2750, "to": 3170 } },
+        { "text": "ais", "p": 0.941885, "t0": 342, "t1": 427, "offsets": { "from": 3420, "to": 4270 } },
+        { "text": " ho", "p": 0.995475, "t0": 427, "t1": 488, "offsets": { "from": 4270, "to": 4880 } },
+        { "text": "ved", "p": 0.999966, "t0": 488, "t1": 577, "offsets": { "from": 4880, "to": 5770 } },
+        { "text": "stad", "p": 0.437337, "t0": 579, "t1": 701, "offsets": { "from": 5790, "to": 7010 } },
+        { "text": ".", "p": 0.651957, "t0": 701, "t1": 784, "offsets": { "from": 7010, "to": 7840 } },
+        { "text": " By", "p": 0.947945, "t0": 795, "t1": 808, "offsets": { "from": 7950, "to": 8080 } },
+        { "text": "en", "p": 0.996961, "t0": 828, "t1": 828, "offsets": { "from": 8280, "to": 8280 } },
+        { "text": " ligger", "p": 0.991096, "t0": 828, "t1": 828, "offsets": { "from": 8280, "to": 8280 } },
+        { "text": " på", "p": 0.979688, "t0": 828, "t1": 828, "offsets": { "from": 8280, "to": 8280 } },
+        { "text": " ø", "p": 0.959891, "t0": 828, "t1": 828, "offsets": { "from": 8280, "to": 8280 } },
+        { "text": "en", "p": 0.996656, "t0": 828, "t1": 828, "offsets": { "from": 8280, "to": 8280 } },
+        { "text": " Up", "p": 0.395804, "t0": 828, "t1": 828, "offsets": { "from": 8280, "to": 8280 } },
+        { "text": "ule", "p": 0.852285, "t0": 828, "t1": 828, "offsets": { "from": 8280, "to": 8280 } },
+        { "text": " og", "p": 0.558253, "t0": 828, "t1": 828, "offsets": { "from": 8280, "to": 8280 } },
+        { "text": " har", "p": 0.988272, "t0": 828, "t1": 828, "offsets": { "from": 8280, "to": 8280 } },
+        { "text": " et", "p": 0.907523, "t0": 828, "t1": 828, "offsets": { "from": 8280, "to": 8280 } },
+        { "text": " ind", "p": 0.986884, "t0": 828, "t1": 828, "offsets": { "from": 8280, "to": 8280 } },
+        { "text": "by", "p": 0.998822, "t0": 828, "t1": 828, "offsets": { "from": 8280, "to": 8280 } },
+        { "text": "gg", "p": 0.673392, "t0": 828, "t1": 828, "offsets": { "from": 8280, "to": 8280 } },
+        { "text": "ert", "p": 0.926908, "t0": 828, "t1": 828, "offsets": { "from": 8280, "to": 8280 } },
+        { "text": "al", "p": 0.958029, "t0": 828, "t1": 828, "offsets": { "from": 8280, "to": 8280 } },
+        { "text": "ep", "p": 0.134548, "t0": 828, "t1": 828, "offsets": { "from": 8280, "to": 8280 } },
+        { "text": "oli", "p": 0.330135, "t0": 828, "t1": 828, "offsets": { "from": 8280, "to": 8280 } },
+        { "text": " under", "p": 0.918955, "t0": 828, "t1": 828, "offsets": { "from": 8280, "to": 8280 } },
+        { "text": " 40", "p": 0.991539, "t0": 828, "t1": 828, "offsets": { "from": 8280, "to": 8280 } },
+        { "text": ".", "p": 0.969411, "t0": 828, "t1": 828, "offsets": { "from": 8280, "to": 8280 } },
+        { "text": "000", "p": 0.997902, "t0": 828, "t1": 828, "offsets": { "from": 8280, "to": 8280 } },
+        { "text": ".", "p": 0.749955, "t0": 828, "t1": 828, "offsets": { "from": 8280, "to": 8280 } }
+      ]
+    }
+  ]
+}

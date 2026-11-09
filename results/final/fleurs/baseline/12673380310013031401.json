@@ -1,0 +1,70 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,680", "to": "00:00:30,680" },
+      "offsets":    { "from": 680, "to": 30680 },
+      "text":       " Som resultat her ryger kunstnerne Cannabis Joints på scenen, og selve teateret opfordrer publikum til at deltage.",
+      "words": [
+        { "text": " Som", "t0": 89, "t1": 157, "offsets": { "from": 890, "to": 1570 } },
+        { "text": " resultat", "t0": 157, "t1": 394, "offsets": { "from": 1570, "to": 3940 } },
+        { "text": " her", "t0": 394, "t1": 471, "offsets": { "from": 3940, "to": 4710 } },
+        { "text": " ryger", "t0": 542, "t1": 630, "offsets": { "from": 5420, "to": 6300 } },
+        { "text": " kunstnerne", "t0": 630, "t1": 919, "offsets": { "from": 6300, "to": 9190 } },
+        { "text": " Cannabis", "t0": 926, "t1": 988, "offsets": { "from": 9260, "to": 9880 } },
+        { "text": " Joints", "t0": 988, "t1": 988, "offsets": { "from": 9880, "to": 9880 } },
+        { "text": " på", "t0": 988, "t1": 988, "offsets": { "from": 9880, "to": 9880 } },
+        { "text": " scenen,", "t0": 988, "t1": 988, "offsets": { "from": 9880, "to": 9880 } },
+        { "text": " og", "t0": 988, "t1": 988, "offsets": { "from": 9880, "to": 9880 } },
+        { "text": " selve", "t0": 988, "t1": 988, "offsets": { "from": 9880, "to": 9880 } },
+        { "text": " teateret", "t0": 988, "t1": 988, "offsets": { "from": 9880, "to": 9880 } },
+        { "text": " opfordrer", "t0": 988, "t1": 988, "offsets": { "from": 9880, "to": 9880 } },
+        { "text": " publikum", "t0": 988, "t1": 988, "offsets": { "from": 9880, "to": 9880 } },
+        { "text": " til", "t0": 988, "t1": 988, "offsets": { "from": 9880, "to": 9880 } },
+        { "text": " at", "t0": 988, "t1": 988, "offsets": { "from": 9880, "to": 9880 } },
+        { "text": " deltage.", "t0": 988, "t1": 988, "offsets": { "from": 9880, "to": 9880 } }
+      ],
+      "tokens": [
+        { "text": " Som", "p": 0.977432, "t0": 89, "t1": 157, "offsets": { "from": 890, "to": 1570 } },
+        { "text": " result", "p": 0.99556, "t0": 157, "t1": 335, "offsets": { "from": 1570, "to": 3350 } },
+        { "text": "at", "p": 0.833429, "t0": 336, "t1": 394, "offsets": { "from": 3360, "to": 3940 } },
+        { "text": " her", "p": 0.518031, "t0": 394, "t1": 471, "offsets": { "from": 3940, "to": 4710 } },
+        { "text": " ry", "p": 0.713418, "t0": 542, "t1": 542, "offsets": { "from": 5420, "to": 5420 } },
+        { "text": "ger", "p": 0.994366, "t0": 621, "t1": 630, "offsets": { "from": 6210, "to": 6300 } },
+        { "text": " kun", "p": 0.978467, "t0": 630, "t1": 719, "offsets": { "from": 6300, "to": 7190 } },
+        { "text": "st", "p": 0.94116, "t0": 719, "t1": 778, "offsets": { "from": 7190, "to": 7780 } },
+        { "text": "ner", "p": 0.989855, "t0": 778, "t1": 865, "offsets": { "from": 7780, "to": 8650 } },
+        { "text": "ne", "p": 0.993572, "t0": 866, "t1": 919, "offsets": { "from": 8660, "to": 9190 } },
+        { "text": " Cann", "p": 0.575779, "t0": 926, "t1": 968, "offsets": { "from": 9260, "to": 9680 } },
+        { "text": "abis", "p": 0.959666, "t0": 988, "t1": 988, "offsets": { "from": 9880, "to": 9880 } },
+        { "text": " Jo", "p": 0.414642, "t0": 988, "t1": 988, "offsets": { "from": 9880, "to": 9880 } },
+        { "text": "ints", "p": 0.615326, "t0": 988, "t1": 988, "offsets": { "from": 9880, "to": 9880 } },
+        { "text": " på", "p": 0.874067, "t0": 988, "t1": 988, "offsets": { "from": 9880, "to": 9880 } },
+        { "text": " scen", "p": 0.996942, "t0": 988, "t1": 988, "offsets": { "from": 9880, "to": 9880 } },
+        { "text": "en", "p": 0.997921, "t0": 988, "t1": 988, "offsets": { "from": 9880, "to": 9880 } },
+        { "text": ",", "p": 0.44126, "t0": 988, "t1": 988, "offsets": { "from": 9880, "to": 9880 } },
+        { "text": " og", "p": 0.978006, "t0": 988, "t1": 988, "offsets": { "from": 9880, "to": 9880 } },
+        { "text": " sel", "p": 0.597755, "t0": 988, "t1": 988, "offsets": { "from": 9880, "to": 9880 } },
+        { "text": "ve", "p": 0.99677, "t0": 988, "t1": 988, "offsets": { "from": 9880, "to": 9880 } },
+        { "text": " te", "p": 0.870431, "t0": 988, "t1": 988, "offsets": { "from": 9880, "to": 9880 } },
+        { "text": "ater", "p": 0.98127, "t0": 988, "t1": 988, "offsets": { "from": 9880, "to": 9880 } },
+        { "text": "et", "p": 0.576522, "t0": 988, "t1": 988, "offsets": { "from": 9880, "to": 9880 } },
+        { "text": " op", "p": 0.998127, "t0": 988, "t1": 988, "offsets": { "from": 9880, "to": 9880 } },
+        { "text": "ford", "p": 0.998984, "t0": 988, "t1": 988, "offsets": { "from": 9880, "to": 9880 } },
+        { "text": "rer", "p": 0.986786, "t0": 988, "t1": 988, "offsets": { "from": 9880, "to": 9880 } },
+        { "text": " publ", "p": 0.998551, "t0": 988, "t1": 988, "offsets": { "from": 9880, "to": 9880 } },
+        { "text": "ikum", "p": 0.998066, "t0": 988, "t1": 988, "offsets": { "from": 9880, "to": 9880 } },
+        { "text": " til", "p": 0.971167, "t0": 988, "t1": 988, "offsets": { "from": 9880, "to": 9880 } },
+        { "text": " at", "p": 0.991588, "t0": 988, "t1": 988, "offsets": { "from": 9880, "to": 9880 } },
+        { "text": " del", "p": 0.987521, "t0": 988, "t1": 988, "offsets": { "from": 9880, "to": 9880 } },
+        { "text": "t", "p": 0.998336, "t0": 988, "t1": 988, "offsets": { "from": 9880, "to": 9880 } },
+        { "text": "age", "p": 0.999363, "t0": 988, "t1": 988, "offsets": { "from": 9880, "to": 9880 } },
+        { "text": ".", "p": 0.911862, "t0": 988, "t1": 988, "offsets": { "from": 9880, "to": 9880 } }
+      ]
+    }
+  ]
+}

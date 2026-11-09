@@ -1,0 +1,31 @@
+{
+  "path": "nt-silero",
+  "clip": "heldout_da_5min_08",
+  "run": 1,
+  "argv": [
+    "../codictate/vendors/crispasr/crispasr",
+    "--backend",
+    "whisper",
+    "-m",
+    "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "-t",
+    "14",
+    "--language",
+    "da",
+    "-f",
+    "data/clips/heldout/heldout_da_5min_08.wav",
+    "--no-prints",
+    "-nt",
+    "--vad",
+    "-vm",
+    "../codictate/vendors/silero-vad/ggml-silero-v6.2.0.bin",
+    "-ojf",
+    "-of",
+    "results/final/transcripts/E3/nt-silero/heldout_da_5min_08.run1"
+  ],
+  "wallSeconds": 21.12,
+  "exitCode": 0,
+  "error": null,
+  "stdoutBytes": 3296,
+  "stderrTail": "tart = 224.87, end = 226.05 (duration: 1.18)\nwhisper_vad_segments_from_probs: VAD segment 45: start = 226.63, end = 228.35 (duration: 1.72)\nwhisper_vad_segments_from_probs: VAD segment 46: start = 232.35, end = 235.90 (duration: 3.55)\nwhisper_vad_segments_from_probs: VAD segment 47: start = 239.33, end = 240.51 (duration: 1.18)\nwhisper_vad_segments_from_probs: VAD segment 48: start = 240.93, end = 245.21 (duration: 4.28)\nwhisper_vad_segments_from_probs: VAD segment 49: start = 245.57, end = 247.61 (duration: 2.04)\nwhisper_vad_segments_from_probs: VAD segment 50: start = 247.94, end = 250.21 (duration: 2.27)\nwhisper_vad_segments_from_probs: VAD segment 51: start = 253.35, end = 255.17 (duration: 1.82)\nwhisper_vad_segments_from_probs: VAD segment 52: start = 255.81, end = 259.87 (duration: 4.06)\nwhisper_vad_segments_from_probs: VAD segment 53: start = 262.85, end = 265.47 (duration: 2.62)\nwhisper_vad_segments_from_probs: VAD segment 54: start = 268.48, end = 273.41 (duration: 4.93)\nwhisper_vad_segments_from_probs: VAD segment 55: start = 273.67, end = 274.46 (duration: 0.79)\nwhisper_vad_segments_from_probs: VAD segment 56: start = 274.66, end = 276.19 (duration: 1.53)\nwhisper_vad_segments_from_probs: VAD segment 57: start = 276.64, end = 279.71 (duration: 3.07)\nwhisper_vad_segments_from_probs: VAD segment 58: start = 282.15, end = 284.09 (duration: 1.94)\nwhisper_vad_segments_from_probs: VAD segment 59: start = 285.09, end = 291.07 (duration: 5.98)\nggml_metal_free: deallocating\n"
+}

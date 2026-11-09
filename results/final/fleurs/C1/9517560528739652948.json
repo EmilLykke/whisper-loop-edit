@@ -1,0 +1,54 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,090", "to": "00:00:30,090" },
+      "offsets":    { "from": 90, "to": 30090 },
+      "text":       " I y-havene og søerne behøver du ikke nødvendigvis en jagt.",
+      "words": [
+        { "text": " I", "t0": 9, "t1": 65, "offsets": { "from": 90, "to": 650 } },
+        { "text": " y-havene", "t0": 72, "t1": 474, "offsets": { "from": 720, "to": 4740 } },
+        { "text": " og", "t0": 474, "t1": 474, "offsets": { "from": 4740, "to": 4740 } },
+        { "text": " søerne", "t0": 474, "t1": 474, "offsets": { "from": 4740, "to": 4740 } },
+        { "text": " behøver", "t0": 474, "t1": 474, "offsets": { "from": 4740, "to": 4740 } },
+        { "text": " du", "t0": 474, "t1": 474, "offsets": { "from": 4740, "to": 4740 } },
+        { "text": " ikke", "t0": 474, "t1": 474, "offsets": { "from": 4740, "to": 4740 } },
+        { "text": " nødvendigvis", "t0": 474, "t1": 474, "offsets": { "from": 4740, "to": 4740 } },
+        { "text": " en", "t0": 474, "t1": 474, "offsets": { "from": 4740, "to": 4740 } },
+        { "text": " jagt.", "t0": 474, "t1": 474, "offsets": { "from": 4740, "to": 4740 } }
+      ],
+      "tokens": [
+        { "text": " I", "p": 0.92987, "t0": 9, "t1": 65, "offsets": { "from": 90, "to": 650 } },
+        { "text": " y", "p": 0.477923, "t0": 72, "t1": 82, "offsets": { "from": 720, "to": 820 } },
+        { "text": "-", "p": 0.907516, "t0": 125, "t1": 176, "offsets": { "from": 1250, "to": 1760 } },
+        { "text": "ha", "p": 0.355168, "t0": 176, "t1": 286, "offsets": { "from": 1760, "to": 2860 } },
+        { "text": "ven", "p": 0.889646, "t0": 286, "t1": 375, "offsets": { "from": 2860, "to": 3750 } },
+        { "text": "e", "p": 0.991904, "t0": 451, "t1": 474, "offsets": { "from": 4510, "to": 4740 } },
+        { "text": " og", "p": 0.975869, "t0": 474, "t1": 474, "offsets": { "from": 4740, "to": 4740 } },
+        { "text": " s", "p": 0.963628, "t0": 474, "t1": 474, "offsets": { "from": 4740, "to": 4740 } },
+        { "text": "ø", "p": 0.998805, "t0": 474, "t1": 474, "offsets": { "from": 4740, "to": 4740 } },
+        { "text": "erne", "p": 0.992595, "t0": 474, "t1": 474, "offsets": { "from": 4740, "to": 4740 } },
+        { "text": " beh", "p": 0.81913, "t0": 474, "t1": 474, "offsets": { "from": 4740, "to": 4740 } },
+        { "text": "ø", "p": 0.999083, "t0": 474, "t1": 474, "offsets": { "from": 4740, "to": 4740 } },
+        { "text": "ver", "p": 0.997782, "t0": 474, "t1": 474, "offsets": { "from": 4740, "to": 4740 } },
+        { "text": " du", "p": 0.986822, "t0": 474, "t1": 474, "offsets": { "from": 4740, "to": 4740 } },
+        { "text": " ikke", "p": 0.991246, "t0": 474, "t1": 474, "offsets": { "from": 4740, "to": 4740 } },
+        { "text": " n", "p": 0.98453, "t0": 474, "t1": 474, "offsets": { "from": 4740, "to": 4740 } },
+        { "text": "ø", "p": 0.999178, "t0": 474, "t1": 474, "offsets": { "from": 4740, "to": 4740 } },
+        { "text": "d", "p": 0.994186, "t0": 474, "t1": 474, "offsets": { "from": 4740, "to": 4740 } },
+        { "text": "v", "p": 0.996795, "t0": 474, "t1": 474, "offsets": { "from": 4740, "to": 4740 } },
+        { "text": "end", "p": 0.999868, "t0": 474, "t1": 474, "offsets": { "from": 4740, "to": 4740 } },
+        { "text": "ig", "p": 0.997956, "t0": 474, "t1": 474, "offsets": { "from": 4740, "to": 4740 } },
+        { "text": "vis", "p": 0.994266, "t0": 474, "t1": 474, "offsets": { "from": 4740, "to": 4740 } },
+        { "text": " en", "p": 0.983417, "t0": 474, "t1": 474, "offsets": { "from": 4740, "to": 4740 } },
+        { "text": " jag", "p": 0.928765, "t0": 474, "t1": 474, "offsets": { "from": 4740, "to": 4740 } },
+        { "text": "t", "p": 0.998776, "t0": 474, "t1": 474, "offsets": { "from": 4740, "to": 4740 } },
+        { "text": ".", "p": 0.914737, "t0": 474, "t1": 474, "offsets": { "from": 4740, "to": 4740 } }
+      ]
+    }
+  ]
+}

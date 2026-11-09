@@ -1,0 +1,19 @@
+{
+ "engine": "transformers",
+ "model": "baseline",
+ "config": "nofallback",
+ "clip": "heldout_da_2min_02",
+ "generate_kwargs": {
+  "language": "da",
+  "task": "transcribe",
+  "return_timestamps": true,
+  "return_segments": true,
+  "num_beams": 1,
+  "condition_on_prev_tokens": true,
+  "temperature": 0.0
+ },
+ "device": "mps",
+ "dtype": "torch.float16",
+ "error": null,
+ "wallSeconds": 10.4
+}

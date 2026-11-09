@@ -1,0 +1,26 @@
+{
+  "path": "nt",
+  "clip": "find_da_5min_03",
+  "run": 1,
+  "argv": [
+    "../codictate/vendors/crispasr/crispasr",
+    "-m",
+    "models/ggml/edits/ggml-large-v3-C2-f16.bin",
+    "-t",
+    "14",
+    "--language",
+    "da",
+    "-f",
+    "data/clips/find/find_da_5min_03.wav",
+    "--no-prints",
+    "-nt",
+    "-ojf",
+    "-of",
+    "results/phase2/transcripts/C2/nt/find_da_5min_03.run1"
+  ],
+  "wallSeconds": 14.15,
+  "exitCode": 0,
+  "error": null,
+  "stdoutBytes": 2445,
+  "stderrTail": "output_json: saving output to 'results/phase2/transcripts/C2/nt/find_da_5min_03.run1.json'\n"
+}

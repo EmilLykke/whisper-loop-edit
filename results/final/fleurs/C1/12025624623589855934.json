@@ -1,0 +1,73 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,000", "to": "00:00:30,000" },
+      "offsets":    { "from": 0, "to": 30000 },
+      "text":       " Disse er nogle overfyldte familiestrande med godt udvalgte butikker langs havet. Det er sikkert at svømme her.",
+      "words": [
+        { "text": " Disse", "t0": 0, "t1": 151, "offsets": { "from": 0, "to": 1510 } },
+        { "text": " er", "t0": 151, "t1": 211, "offsets": { "from": 1510, "to": 2110 } },
+        { "text": " nogle", "t0": 211, "t1": 323, "offsets": { "from": 2110, "to": 3230 } },
+        { "text": " overfyldte", "t0": 366, "t1": 663, "offsets": { "from": 3660, "to": 6630 } },
+        { "text": " familiestrande", "t0": 663, "t1": 803, "offsets": { "from": 6630, "to": 8030 } },
+        { "text": " med", "t0": 803, "t1": 803, "offsets": { "from": 8030, "to": 8030 } },
+        { "text": " godt", "t0": 803, "t1": 803, "offsets": { "from": 8030, "to": 8030 } },
+        { "text": " udvalgte", "t0": 803, "t1": 803, "offsets": { "from": 8030, "to": 8030 } },
+        { "text": " butikker", "t0": 803, "t1": 803, "offsets": { "from": 8030, "to": 8030 } },
+        { "text": " langs", "t0": 803, "t1": 803, "offsets": { "from": 8030, "to": 8030 } },
+        { "text": " havet.", "t0": 803, "t1": 803, "offsets": { "from": 8030, "to": 8030 } },
+        { "text": " Det", "t0": 803, "t1": 803, "offsets": { "from": 8030, "to": 8030 } },
+        { "text": " er", "t0": 803, "t1": 803, "offsets": { "from": 8030, "to": 8030 } },
+        { "text": " sikkert", "t0": 803, "t1": 803, "offsets": { "from": 8030, "to": 8030 } },
+        { "text": " at", "t0": 803, "t1": 803, "offsets": { "from": 8030, "to": 8030 } },
+        { "text": " svømme", "t0": 803, "t1": 803, "offsets": { "from": 8030, "to": 8030 } },
+        { "text": " her.", "t0": 803, "t1": 803, "offsets": { "from": 8030, "to": 8030 } }
+      ],
+      "tokens": [
+        { "text": " Dis", "p": 0.855961, "t0": 0, "t1": 91, "offsets": { "from": 0, "to": 910 } },
+        { "text": "se", "p": 0.998531, "t0": 109, "t1": 151, "offsets": { "from": 1090, "to": 1510 } },
+        { "text": " er", "p": 0.991, "t0": 151, "t1": 211, "offsets": { "from": 1510, "to": 2110 } },
+        { "text": " nogle", "p": 0.950447, "t0": 211, "t1": 323, "offsets": { "from": 2110, "to": 3230 } },
+        { "text": " over", "p": 0.94783, "t0": 366, "t1": 483, "offsets": { "from": 3660, "to": 4830 } },
+        { "text": "fy", "p": 0.786544, "t0": 483, "t1": 538, "offsets": { "from": 4830, "to": 5380 } },
+        { "text": "ld", "p": 0.998452, "t0": 586, "t1": 603, "offsets": { "from": 5860, "to": 6030 } },
+        { "text": "te", "p": 0.958762, "t0": 605, "t1": 663, "offsets": { "from": 6050, "to": 6630 } },
+        { "text": " famili", "p": 0.855362, "t0": 663, "t1": 803, "offsets": { "from": 6630, "to": 8030 } },
+        { "text": "est", "p": 0.964865, "t0": 803, "t1": 803, "offsets": { "from": 8030, "to": 8030 } },
+        { "text": "rand", "p": 0.966081, "t0": 803, "t1": 803, "offsets": { "from": 8030, "to": 8030 } },
+        { "text": "e", "p": 0.995828, "t0": 803, "t1": 803, "offsets": { "from": 8030, "to": 8030 } },
+        { "text": " med", "p": 0.453142, "t0": 803, "t1": 803, "offsets": { "from": 8030, "to": 8030 } },
+        { "text": " godt", "p": 0.669978, "t0": 803, "t1": 803, "offsets": { "from": 8030, "to": 8030 } },
+        { "text": " ud", "p": 0.914142, "t0": 803, "t1": 803, "offsets": { "from": 8030, "to": 8030 } },
+        { "text": "val", "p": 0.996464, "t0": 803, "t1": 803, "offsets": { "from": 8030, "to": 8030 } },
+        { "text": "g", "p": 0.838968, "t0": 803, "t1": 803, "offsets": { "from": 8030, "to": 8030 } },
+        { "text": "te", "p": 0.989863, "t0": 803, "t1": 803, "offsets": { "from": 8030, "to": 8030 } },
+        { "text": " but", "p": 0.99712, "t0": 803, "t1": 803, "offsets": { "from": 8030, "to": 8030 } },
+        { "text": "ik", "p": 0.998475, "t0": 803, "t1": 803, "offsets": { "from": 8030, "to": 8030 } },
+        { "text": "ker", "p": 0.993102, "t0": 803, "t1": 803, "offsets": { "from": 8030, "to": 8030 } },
+        { "text": " lang", "p": 0.984279, "t0": 803, "t1": 803, "offsets": { "from": 8030, "to": 8030 } },
+        { "text": "s", "p": 0.997822, "t0": 803, "t1": 803, "offsets": { "from": 8030, "to": 8030 } },
+        { "text": " ha", "p": 0.987646, "t0": 803, "t1": 803, "offsets": { "from": 8030, "to": 8030 } },
+        { "text": "vet", "p": 0.986799, "t0": 803, "t1": 803, "offsets": { "from": 8030, "to": 8030 } },
+        { "text": ".", "p": 0.746188, "t0": 803, "t1": 803, "offsets": { "from": 8030, "to": 8030 } },
+        { "text": " Det", "p": 0.950436, "t0": 803, "t1": 803, "offsets": { "from": 8030, "to": 8030 } },
+        { "text": " er", "p": 0.983689, "t0": 803, "t1": 803, "offsets": { "from": 8030, "to": 8030 } },
+        { "text": " s", "p": 0.996436, "t0": 803, "t1": 803, "offsets": { "from": 8030, "to": 8030 } },
+        { "text": "ikk", "p": 0.995382, "t0": 803, "t1": 803, "offsets": { "from": 8030, "to": 8030 } },
+        { "text": "ert", "p": 0.999828, "t0": 803, "t1": 803, "offsets": { "from": 8030, "to": 8030 } },
+        { "text": " at", "p": 0.957784, "t0": 803, "t1": 803, "offsets": { "from": 8030, "to": 8030 } },
+        { "text": " sv", "p": 0.942017, "t0": 803, "t1": 803, "offsets": { "from": 8030, "to": 8030 } },
+        { "text": "ø", "p": 0.991618, "t0": 803, "t1": 803, "offsets": { "from": 8030, "to": 8030 } },
+        { "text": "m", "p": 0.999636, "t0": 803, "t1": 803, "offsets": { "from": 8030, "to": 8030 } },
+        { "text": "me", "p": 0.99996, "t0": 803, "t1": 803, "offsets": { "from": 8030, "to": 8030 } },
+        { "text": " her", "p": 0.990422, "t0": 803, "t1": 803, "offsets": { "from": 8030, "to": 8030 } },
+        { "text": ".", "p": 0.908515, "t0": 803, "t1": 803, "offsets": { "from": 8030, "to": 8030 } }
+      ]
+    }
+  ]
+}

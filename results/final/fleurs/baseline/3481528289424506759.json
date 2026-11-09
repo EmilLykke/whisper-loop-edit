@@ -1,0 +1,53 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,590", "to": "00:00:30,590" },
+      "offsets":    { "from": 590, "to": 30590 },
+      "text":       " Efter ulykken blev Gibson bragt til et hospital, men døde kort tid efter.",
+      "words": [
+        { "text": " Efter", "t0": 79, "t1": 288, "offsets": { "from": 790, "to": 2880 } },
+        { "text": " ulykken", "t0": 295, "t1": 479, "offsets": { "from": 2950, "to": 4790 } },
+        { "text": " blev", "t0": 479, "t1": 479, "offsets": { "from": 4790, "to": 4790 } },
+        { "text": " Gibson", "t0": 479, "t1": 479, "offsets": { "from": 4790, "to": 4790 } },
+        { "text": " bragt", "t0": 479, "t1": 479, "offsets": { "from": 4790, "to": 4790 } },
+        { "text": " til", "t0": 479, "t1": 479, "offsets": { "from": 4790, "to": 4790 } },
+        { "text": " et", "t0": 479, "t1": 479, "offsets": { "from": 4790, "to": 4790 } },
+        { "text": " hospital,", "t0": 479, "t1": 479, "offsets": { "from": 4790, "to": 4790 } },
+        { "text": " men", "t0": 479, "t1": 479, "offsets": { "from": 4790, "to": 4790 } },
+        { "text": " døde", "t0": 479, "t1": 479, "offsets": { "from": 4790, "to": 4790 } },
+        { "text": " kort", "t0": 479, "t1": 479, "offsets": { "from": 4790, "to": 4790 } },
+        { "text": " tid", "t0": 479, "t1": 479, "offsets": { "from": 4790, "to": 4790 } },
+        { "text": " efter.", "t0": 479, "t1": 479, "offsets": { "from": 4790, "to": 4790 } }
+      ],
+      "tokens": [
+        { "text": " E", "p": 0.95221, "t0": 79, "t1": 105, "offsets": { "from": 790, "to": 1050 } },
+        { "text": "fter", "p": 0.999125, "t0": 105, "t1": 288, "offsets": { "from": 1050, "to": 2880 } },
+        { "text": " u", "p": 0.981238, "t0": 295, "t1": 332, "offsets": { "from": 2950, "to": 3320 } },
+        { "text": "ly", "p": 0.998955, "t0": 341, "t1": 426, "offsets": { "from": 3410, "to": 4260 } },
+        { "text": "k", "p": 0.968668, "t0": 426, "t1": 457, "offsets": { "from": 4260, "to": 4570 } },
+        { "text": "ken", "p": 0.999178, "t0": 479, "t1": 479, "offsets": { "from": 4790, "to": 4790 } },
+        { "text": " blev", "p": 0.955939, "t0": 479, "t1": 479, "offsets": { "from": 4790, "to": 4790 } },
+        { "text": " Gibson", "p": 0.906552, "t0": 479, "t1": 479, "offsets": { "from": 4790, "to": 4790 } },
+        { "text": " bra", "p": 0.534334, "t0": 479, "t1": 479, "offsets": { "from": 4790, "to": 4790 } },
+        { "text": "gt", "p": 0.982381, "t0": 479, "t1": 479, "offsets": { "from": 4790, "to": 4790 } },
+        { "text": " til", "p": 0.959979, "t0": 479, "t1": 479, "offsets": { "from": 4790, "to": 4790 } },
+        { "text": " et", "p": 0.968767, "t0": 479, "t1": 479, "offsets": { "from": 4790, "to": 4790 } },
+        { "text": " hospital", "p": 0.974596, "t0": 479, "t1": 479, "offsets": { "from": 4790, "to": 4790 } },
+        { "text": ",", "p": 0.802218, "t0": 479, "t1": 479, "offsets": { "from": 4790, "to": 4790 } },
+        { "text": " men", "p": 0.991342, "t0": 479, "t1": 479, "offsets": { "from": 4790, "to": 4790 } },
+        { "text": " d", "p": 0.990747, "t0": 479, "t1": 479, "offsets": { "from": 4790, "to": 4790 } },
+        { "text": "ø", "p": 0.999485, "t0": 479, "t1": 479, "offsets": { "from": 4790, "to": 4790 } },
+        { "text": "de", "p": 0.998946, "t0": 479, "t1": 479, "offsets": { "from": 4790, "to": 4790 } },
+        { "text": " kort", "p": 0.992004, "t0": 479, "t1": 479, "offsets": { "from": 4790, "to": 4790 } },
+        { "text": " tid", "p": 0.996191, "t0": 479, "t1": 479, "offsets": { "from": 4790, "to": 4790 } },
+        { "text": " efter", "p": 0.981388, "t0": 479, "t1": 479, "offsets": { "from": 4790, "to": 4790 } },
+        { "text": ".", "p": 0.947737, "t0": 479, "t1": 479, "offsets": { "from": 4790, "to": 4790 } }
+      ]
+    }
+  ]
+}

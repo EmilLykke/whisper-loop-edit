@@ -1,0 +1,57 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,170", "to": "00:00:30,170" },
+      "offsets":    { "from": 170, "to": 30170 },
+      "text":       " Så det er sandsynligt at anmærkningen blot blev vidlagt som en tilføjelse.",
+      "words": [
+        { "text": " Så", "t0": 36, "t1": 148, "offsets": { "from": 360, "to": 1480 } },
+        { "text": " det", "t0": 180, "t1": 281, "offsets": { "from": 1800, "to": 2810 } },
+        { "text": " er", "t0": 281, "t1": 369, "offsets": { "from": 2810, "to": 3690 } },
+        { "text": " sandsynligt", "t0": 369, "t1": 729, "offsets": { "from": 3690, "to": 7290 } },
+        { "text": " at", "t0": 852, "t1": 941, "offsets": { "from": 8520, "to": 9410 } },
+        { "text": " anmærkningen", "t0": 941, "t1": 1437, "offsets": { "from": 9410, "to": 14370 } },
+        { "text": " blot", "t0": 1439, "t1": 1439, "offsets": { "from": 14390, "to": 14390 } },
+        { "text": " blev", "t0": 1439, "t1": 1439, "offsets": { "from": 14390, "to": 14390 } },
+        { "text": " vidlagt", "t0": 1439, "t1": 1439, "offsets": { "from": 14390, "to": 14390 } },
+        { "text": " som", "t0": 1439, "t1": 1439, "offsets": { "from": 14390, "to": 14390 } },
+        { "text": " en", "t0": 1439, "t1": 1439, "offsets": { "from": 14390, "to": 14390 } },
+        { "text": " tilføjelse.", "t0": 1439, "t1": 1439, "offsets": { "from": 14390, "to": 14390 } }
+      ],
+      "tokens": [
+        { "text": " Så", "p": 0.840727, "t0": 36, "t1": 148, "offsets": { "from": 360, "to": 1480 } },
+        { "text": " det", "p": 0.937435, "t0": 180, "t1": 281, "offsets": { "from": 1800, "to": 2810 } },
+        { "text": " er", "p": 0.994169, "t0": 281, "t1": 369, "offsets": { "from": 2810, "to": 3690 } },
+        { "text": " s", "p": 0.976938, "t0": 369, "t1": 412, "offsets": { "from": 3690, "to": 4120 } },
+        { "text": "ands", "p": 0.999903, "t0": 412, "t1": 589, "offsets": { "from": 4120, "to": 5890 } },
+        { "text": "yn", "p": 0.99988, "t0": 589, "t1": 675, "offsets": { "from": 5890, "to": 6750 } },
+        { "text": "ligt", "p": 0.969196, "t0": 675, "t1": 729, "offsets": { "from": 6750, "to": 7290 } },
+        { "text": " at", "p": 0.591074, "t0": 852, "t1": 941, "offsets": { "from": 8520, "to": 9410 } },
+        { "text": " an", "p": 0.911022, "t0": 941, "t1": 1028, "offsets": { "from": 9410, "to": 10280 } },
+        { "text": "m", "p": 0.998494, "t0": 1038, "t1": 1072, "offsets": { "from": 10380, "to": 10720 } },
+        { "text": "ær", "p": 0.998178, "t0": 1074, "t1": 1205, "offsets": { "from": 10740, "to": 12050 } },
+        { "text": "k", "p": 0.985872, "t0": 1205, "t1": 1247, "offsets": { "from": 12050, "to": 12470 } },
+        { "text": "ningen", "p": 0.94714, "t0": 1252, "t1": 1437, "offsets": { "from": 12520, "to": 14370 } },
+        { "text": " bl", "p": 0.922631, "t0": 1439, "t1": 1439, "offsets": { "from": 14390, "to": 14390 } },
+        { "text": "ot", "p": 0.996711, "t0": 1439, "t1": 1439, "offsets": { "from": 14390, "to": 14390 } },
+        { "text": " blev", "p": 0.794488, "t0": 1439, "t1": 1439, "offsets": { "from": 14390, "to": 14390 } },
+        { "text": " vid", "p": 0.644025, "t0": 1439, "t1": 1439, "offsets": { "from": 14390, "to": 14390 } },
+        { "text": "l", "p": 0.982287, "t0": 1439, "t1": 1439, "offsets": { "from": 14390, "to": 14390 } },
+        { "text": "agt", "p": 0.999964, "t0": 1439, "t1": 1439, "offsets": { "from": 14390, "to": 14390 } },
+        { "text": " som", "p": 0.967418, "t0": 1439, "t1": 1439, "offsets": { "from": 14390, "to": 14390 } },
+        { "text": " en", "p": 0.988029, "t0": 1439, "t1": 1439, "offsets": { "from": 14390, "to": 14390 } },
+        { "text": " til", "p": 0.993727, "t0": 1439, "t1": 1439, "offsets": { "from": 14390, "to": 14390 } },
+        { "text": "f", "p": 0.925108, "t0": 1439, "t1": 1439, "offsets": { "from": 14390, "to": 14390 } },
+        { "text": "ø", "p": 0.999846, "t0": 1439, "t1": 1439, "offsets": { "from": 14390, "to": 14390 } },
+        { "text": "j", "p": 0.998612, "t0": 1439, "t1": 1439, "offsets": { "from": 14390, "to": 14390 } },
+        { "text": "else", "p": 0.998319, "t0": 1439, "t1": 1439, "offsets": { "from": 14390, "to": 14390 } },
+        { "text": ".", "p": 0.932315, "t0": 1439, "t1": 1439, "offsets": { "from": 14390, "to": 14390 } }
+      ]
+    }
+  ]
+}

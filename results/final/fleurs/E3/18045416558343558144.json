@@ -1,0 +1,69 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:01,580", "to": "00:00:31,580" },
+      "offsets":    { "from": 1580, "to": 31580 },
+      "text":       " Mosa Saraurus var toppen af fødekæden i sin tid, så den frygtede intet ud over andre Mosa-Saur.",
+      "words": [
+        { "text": " Mosa", "t0": 177, "t1": 296, "offsets": { "from": 1770, "to": 2960 } },
+        { "text": " Saraurus", "t0": 334, "t1": 573, "offsets": { "from": 3340, "to": 5730 } },
+        { "text": " var", "t0": 582, "t1": 682, "offsets": { "from": 5820, "to": 6820 } },
+        { "text": " toppen", "t0": 687, "t1": 896, "offsets": { "from": 6870, "to": 8960 } },
+        { "text": " af", "t0": 896, "t1": 919, "offsets": { "from": 8960, "to": 9190 } },
+        { "text": " fødekæden", "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": " i", "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": " sin", "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": " tid,", "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": " så", "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": " den", "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": " frygtede", "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": " intet", "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": " ud", "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": " over", "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": " andre", "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": " Mosa-Saur.", "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } }
+      ],
+      "tokens": [
+        { "text": " M", "p": 0.274579, "t0": 177, "t1": 193, "offsets": { "from": 1770, "to": 1930 } },
+        { "text": "osa", "p": 0.612768, "t0": 193, "t1": 296, "offsets": { "from": 1930, "to": 2960 } },
+        { "text": " Sar", "p": 0.246124, "t0": 334, "t1": 404, "offsets": { "from": 3340, "to": 4040 } },
+        { "text": "aurus", "p": 0.310585, "t0": 404, "t1": 573, "offsets": { "from": 4040, "to": 5730 } },
+        { "text": " var", "p": 0.903091, "t0": 582, "t1": 682, "offsets": { "from": 5820, "to": 6820 } },
+        { "text": " to", "p": 0.993322, "t0": 687, "t1": 725, "offsets": { "from": 6870, "to": 7250 } },
+        { "text": "ppen", "p": 0.999009, "t0": 761, "t1": 896, "offsets": { "from": 7610, "to": 8960 } },
+        { "text": " af", "p": 0.995296, "t0": 896, "t1": 919, "offsets": { "from": 8960, "to": 9190 } },
+        { "text": " fø", "p": 0.783495, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": "d", "p": 0.966949, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": "ek", "p": 0.984895, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": "æ", "p": 0.969658, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": "den", "p": 0.923904, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": " i", "p": 0.956364, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": " sin", "p": 0.993777, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": " tid", "p": 0.999121, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": ",", "p": 0.861137, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": " så", "p": 0.960191, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": " den", "p": 0.994093, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": " fry", "p": 0.954803, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": "gt", "p": 0.905253, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": "ede", "p": 0.997421, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": " int", "p": 0.480045, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": "et", "p": 0.991849, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": " ud", "p": 0.616878, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": " over", "p": 0.968232, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": " and", "p": 0.950924, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": "re", "p": 0.997586, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": " M", "p": 0.320712, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": "osa", "p": 0.99118, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": "-", "p": 0.526413, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": "S", "p": 0.136653, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": "aur", "p": 0.776423, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } },
+        { "text": ".", "p": 0.69644, "t0": 938, "t1": 938, "offsets": { "from": 9380, "to": 9380 } }
+      ]
+    }
+  ]
+}

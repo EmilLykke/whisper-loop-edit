@@ -1,0 +1,50 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,830", "to": "00:00:30,830" },
+      "offsets":    { "from": 830, "to": 30830 },
+      "text":       " Scenerne bliver vist på pyramiderne, og de forskellige pyramider lyser op.",
+      "words": [
+        { "text": " Scenerne", "t0": 104, "t1": 432, "offsets": { "from": 1040, "to": 4320 } },
+        { "text": " bliver", "t0": 434, "t1": 529, "offsets": { "from": 4340, "to": 5290 } },
+        { "text": " vist", "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": " på", "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": " pyramiderne,", "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": " og", "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": " de", "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": " forskellige", "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": " pyramider", "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": " lyser", "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": " op.", "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } }
+      ],
+      "tokens": [
+        { "text": " Sc", "p": 0.930169, "t0": 104, "t1": 171, "offsets": { "from": 1040, "to": 1710 } },
+        { "text": "ener", "p": 0.987417, "t0": 171, "t1": 344, "offsets": { "from": 1710, "to": 3440 } },
+        { "text": "ne", "p": 0.969766, "t0": 374, "t1": 432, "offsets": { "from": 3740, "to": 4320 } },
+        { "text": " bliver", "p": 0.97848, "t0": 434, "t1": 529, "offsets": { "from": 4340, "to": 5290 } },
+        { "text": " vist", "p": 0.998094, "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": " på", "p": 0.979484, "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": " pyram", "p": 0.86422, "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": "ider", "p": 0.997778, "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": "ne", "p": 0.980191, "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": ",", "p": 0.461903, "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": " og", "p": 0.926228, "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": " de", "p": 0.970443, "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": " fors", "p": 0.59344, "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": "kell", "p": 0.9969, "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": "ige", "p": 0.997314, "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": " pyram", "p": 0.97296, "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": "ider", "p": 0.993256, "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": " lys", "p": 0.979426, "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": "er", "p": 0.999091, "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": " op", "p": 0.991474, "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } },
+        { "text": ".", "p": 0.951727, "t0": 559, "t1": 559, "offsets": { "from": 5590, "to": 5590 } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,170", "to": "00:00:30,170" },
+      "offsets":    { "from": 170, "to": 30170 },
+      "text":       " Adskillelse og rekombination blander variationen frem og tilbage mellem de to puljer med hver generation.",
+      "words": [
+        { "text": " Adskillelse", "t0": 36, "t1": 369, "offsets": { "from": 360, "to": 3690 } },
+        { "text": " og", "t0": 369, "t1": 433, "offsets": { "from": 3690, "to": 4330 } },
+        { "text": " rekombination", "t0": 433, "t1": 846, "offsets": { "from": 4330, "to": 8460 } },
+        { "text": " blander", "t0": 855, "t1": 1059, "offsets": { "from": 8550, "to": 10590 } },
+        { "text": " variationen", "t0": 1075, "t1": 1271, "offsets": { "from": 10750, "to": 12710 } },
+        { "text": " frem", "t0": 1271, "t1": 1271, "offsets": { "from": 12710, "to": 12710 } },
+        { "text": " og", "t0": 1271, "t1": 1271, "offsets": { "from": 12710, "to": 12710 } },
+        { "text": " tilbage", "t0": 1271, "t1": 1271, "offsets": { "from": 12710, "to": 12710 } },
+        { "text": " mellem", "t0": 1271, "t1": 1271, "offsets": { "from": 12710, "to": 12710 } },
+        { "text": " de", "t0": 1271, "t1": 1271, "offsets": { "from": 12710, "to": 12710 } },
+        { "text": " to", "t0": 1271, "t1": 1271, "offsets": { "from": 12710, "to": 12710 } },
+        { "text": " puljer", "t0": 1271, "t1": 1271, "offsets": { "from": 12710, "to": 12710 } },
+        { "text": " med", "t0": 1271, "t1": 1271, "offsets": { "from": 12710, "to": 12710 } },
+        { "text": " hver", "t0": 1271, "t1": 1271, "offsets": { "from": 12710, "to": 12710 } },
+        { "text": " generation.", "t0": 1271, "t1": 1271, "offsets": { "from": 12710, "to": 12710 } }
+      ],
+      "tokens": [
+        { "text": " Ad", "p": 0.954913, "t0": 36, "t1": 81, "offsets": { "from": 360, "to": 810 } },
+        { "text": "sk", "p": 0.995549, "t0": 81, "t1": 145, "offsets": { "from": 810, "to": 1450 } },
+        { "text": "ill", "p": 0.743479, "t0": 194, "t1": 241, "offsets": { "from": 1940, "to": 2410 } },
+        { "text": "else", "p": 0.985191, "t0": 241, "t1": 369, "offsets": { "from": 2410, "to": 3690 } },
+        { "text": " og", "p": 0.963086, "t0": 369, "t1": 433, "offsets": { "from": 3690, "to": 4330 } },
+        { "text": " rek", "p": 0.651666, "t0": 433, "t1": 529, "offsets": { "from": 4330, "to": 5290 } },
+        { "text": "omb", "p": 0.998677, "t0": 529, "t1": 611, "offsets": { "from": 5290, "to": 6110 } },
+        { "text": "ination", "p": 0.997904, "t0": 625, "t1": 846, "offsets": { "from": 6250, "to": 8460 } },
+        { "text": " bl", "p": 0.799481, "t0": 855, "t1": 914, "offsets": { "from": 8550, "to": 9140 } },
+        { "text": "ander", "p": 0.99438, "t0": 914, "t1": 1059, "offsets": { "from": 9140, "to": 10590 } },
+        { "text": " variation", "p": 0.984557, "t0": 1075, "t1": 1266, "offsets": { "from": 10750, "to": 12660 } },
+        { "text": "en", "p": 0.529614, "t0": 1271, "t1": 1271, "offsets": { "from": 12710, "to": 12710 } },
+        { "text": " fre", "p": 0.904255, "t0": 1271, "t1": 1271, "offsets": { "from": 12710, "to": 12710 } },
+        { "text": "m", "p": 0.997948, "t0": 1271, "t1": 1271, "offsets": { "from": 12710, "to": 12710 } },
+        { "text": " og", "p": 0.991512, "t0": 1271, "t1": 1271, "offsets": { "from": 12710, "to": 12710 } },
+        { "text": " til", "p": 0.997725, "t0": 1271, "t1": 1271, "offsets": { "from": 12710, "to": 12710 } },
+        { "text": "bage", "p": 0.99799, "t0": 1271, "t1": 1271, "offsets": { "from": 12710, "to": 12710 } },
+        { "text": " me", "p": 0.652221, "t0": 1271, "t1": 1271, "offsets": { "from": 12710, "to": 12710 } },
+        { "text": "ll", "p": 0.999487, "t0": 1271, "t1": 1271, "offsets": { "from": 12710, "to": 12710 } },
+        { "text": "em", "p": 0.999659, "t0": 1271, "t1": 1271, "offsets": { "from": 12710, "to": 12710 } },
+        { "text": " de", "p": 0.975852, "t0": 1271, "t1": 1271, "offsets": { "from": 12710, "to": 12710 } },
+        { "text": " to", "p": 0.910167, "t0": 1271, "t1": 1271, "offsets": { "from": 12710, "to": 12710 } },
+        { "text": " pul", "p": 0.990308, "t0": 1271, "t1": 1271, "offsets": { "from": 12710, "to": 12710 } },
+        { "text": "jer", "p": 0.946622, "t0": 1271, "t1": 1271, "offsets": { "from": 12710, "to": 12710 } },
+        { "text": " med", "p": 0.838784, "t0": 1271, "t1": 1271, "offsets": { "from": 12710, "to": 12710 } },
+        { "text": " h", "p": 0.986212, "t0": 1271, "t1": 1271, "offsets": { "from": 12710, "to": 12710 } },
+        { "text": "ver", "p": 0.981858, "t0": 1271, "t1": 1271, "offsets": { "from": 12710, "to": 12710 } },
+        { "text": " generation", "p": 0.992721, "t0": 1271, "t1": 1271, "offsets": { "from": 12710, "to": 12710 } },
+        { "text": ".", "p": 0.94605, "t0": 1271, "t1": 1271, "offsets": { "from": 12710, "to": 12710 } }
+      ]
+    }
+  ]
+}

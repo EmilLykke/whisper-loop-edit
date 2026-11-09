@@ -1,0 +1,2120 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | ACCELERATE = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "large",
+		"multilingual": true,
+		"vocab": 51866,
+		"audio": {
+			"ctx": 1500,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"mels": 128,
+		"ftype": 1
+	},
+	"params": {
+		"model": "models/ggml/edits/ggml-large-v3-C2-f16.bin",
+		"language": "da",
+		"translate": false
+	},
+	"result": {
+		"language": "da"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:-16:-47,-300",
+				"to": "00:00:30,000"
+			},
+			"offsets": {
+				"from": -1007300,
+				"to": 30000
+			},
+			"text": " Dyreliv er blandt de mest udfordrende motiver for en fotograf og kræver en kombination af en god del held, tålmodighed, erfaring og godt udstyr. Godhed og egoisme vil altid findes, og det er en del af den måde samarbejdet fungerer på, at når flertal har overtaget, vil det altid være muligt at vinde mere på kort sigt ved at handle egoistisk.",
+			"tokens": [
+				{
+					"text": " Dy",
+					"id": 31193,
+					"p": 0.884358,
+					"t_dtw": -1
+				},
+				{
+					"text": "rel",
+					"id": 4419,
+					"p": 0.983663,
+					"t_dtw": -1
+				},
+				{
+					"text": "iv",
+					"id": 592,
+					"p": 0.99935,
+					"t_dtw": -1
+				},
+				{
+					"text": " er",
+					"id": 1189,
+					"p": 0.994209,
+					"t_dtw": -1
+				},
+				{
+					"text": " bland",
+					"id": 29849,
+					"p": 0.998797,
+					"t_dtw": -1
+				},
+				{
+					"text": "t",
+					"id": 83,
+					"p": 0.987556,
+					"t_dtw": -1
+				},
+				{
+					"text": " de",
+					"id": 368,
+					"p": 0.999805,
+					"t_dtw": -1
+				},
+				{
+					"text": " mest",
+					"id": 35621,
+					"p": 0.999489,
+					"t_dtw": -1
+				},
+				{
+					"text": " ud",
+					"id": 11727,
+					"p": 0.999699,
+					"t_dtw": -1
+				},
+				{
+					"text": "ford",
+					"id": 7404,
+					"p": 0.999861,
+					"t_dtw": -1
+				},
+				{
+					"text": "rend",
+					"id": 4542,
+					"p": 0.999643,
+					"t_dtw": -1
+				},
+				{
+					"text": "e",
+					"id": 68,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " mot",
+					"id": 2184,
+					"p": 0.991669,
+					"t_dtw": -1
+				},
+				{
+					"text": "iver",
+					"id": 1837,
+					"p": 0.999966,
+					"t_dtw": -1
+				},
+				{
+					"text": " for",
+					"id": 337,
+					"p": 0.999809,
+					"t_dtw": -1
+				},
+				{
+					"text": " en",
+					"id": 465,
+					"p": 0.999929,
+					"t_dtw": -1
+				},
+				{
+					"text": " fotograf",
+					"id": 34341,
+					"p": 0.994603,
+					"t_dtw": -1
+				},
+				{
+					"text": " og",
+					"id": 5360,
+					"p": 0.873739,
+					"t_dtw": -1
+				},
+				{
+					"text": " kr",
+					"id": 15913,
+					"p": 0.996614,
+					"t_dtw": -1
+				},
+				{
+					"text": "æ",
+					"id": 7303,
+					"p": 0.999933,
+					"t_dtw": -1
+				},
+				{
+					"text": "ver",
+					"id": 331,
+					"p": 0.999758,
+					"t_dtw": -1
+				},
+				{
+					"text": " en",
+					"id": 465,
+					"p": 0.999683,
+					"t_dtw": -1
+				},
+				{
+					"text": " komb",
+					"id": 42925,
+					"p": 0.975971,
+					"t_dtw": -1
+				},
+				{
+					"text": "ination",
+					"id": 2486,
+					"p": 0.999697,
+					"t_dtw": -1
+				},
+				{
+					"text": " af",
+					"id": 3238,
+					"p": 0.999373,
+					"t_dtw": -1
+				},
+				{
+					"text": " en",
+					"id": 465,
+					"p": 0.997318,
+					"t_dtw": -1
+				},
+				{
+					"text": " god",
+					"id": 3044,
+					"p": 0.999573,
+					"t_dtw": -1
+				},
+				{
+					"text": " del",
+					"id": 1103,
+					"p": 0.998382,
+					"t_dtw": -1
+				},
+				{
+					"text": " held",
+					"id": 5167,
+					"p": 0.956114,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.992504,
+					"t_dtw": -1
+				},
+				{
+					"text": " t",
+					"id": 256,
+					"p": 0.83742,
+					"t_dtw": -1
+				},
+				{
+					"text": "å",
+					"id": 1330,
+					"p": 0.981238,
+					"t_dtw": -1
+				},
+				{
+					"text": "l",
+					"id": 75,
+					"p": 0.997704,
+					"t_dtw": -1
+				},
+				{
+					"text": "mod",
+					"id": 8014,
+					"p": 0.999498,
+					"t_dtw": -1
+				},
+				{
+					"text": "igh",
+					"id": 910,
+					"p": 0.999929,
+					"t_dtw": -1
+				},
+				{
+					"text": "ed",
+					"id": 292,
+					"p": 0.999945,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.999348,
+					"t_dtw": -1
+				},
+				{
+					"text": " erf",
+					"id": 20228,
+					"p": 0.999569,
+					"t_dtw": -1
+				},
+				{
+					"text": "aring",
+					"id": 1921,
+					"p": 0.999958,
+					"t_dtw": -1
+				},
+				{
+					"text": " og",
+					"id": 5360,
+					"p": 0.999908,
+					"t_dtw": -1
+				},
+				{
+					"text": " godt",
+					"id": 35427,
+					"p": 0.998809,
+					"t_dtw": -1
+				},
+				{
+					"text": " ud",
+					"id": 11727,
+					"p": 0.999802,
+					"t_dtw": -1
+				},
+				{
+					"text": "st",
+					"id": 372,
+					"p": 0.997463,
+					"t_dtw": -1
+				},
+				{
+					"text": "yr",
+					"id": 6016,
+					"p": 0.999916,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.971567,
+					"t_dtw": -1
+				},
+				{
+					"text": " God",
+					"id": 1265,
+					"p": 0.526042,
+					"t_dtw": -1
+				},
+				{
+					"text": "hed",
+					"id": 27096,
+					"p": 0.961373,
+					"t_dtw": -1
+				},
+				{
+					"text": " og",
+					"id": 5360,
+					"p": 0.999609,
+					"t_dtw": -1
+				},
+				{
+					"text": " ego",
+					"id": 14495,
+					"p": 0.999436,
+					"t_dtw": -1
+				},
+				{
+					"text": "isme",
+					"id": 16415,
+					"p": 0.999664,
+					"t_dtw": -1
+				},
+				{
+					"text": " vil",
+					"id": 15349,
+					"p": 0.997973,
+					"t_dtw": -1
+				},
+				{
+					"text": " alt",
+					"id": 4955,
+					"p": 0.998702,
+					"t_dtw": -1
+				},
+				{
+					"text": "id",
+					"id": 327,
+					"p": 0.999989,
+					"t_dtw": -1
+				},
+				{
+					"text": " find",
+					"id": 915,
+					"p": 0.994898,
+					"t_dtw": -1
+				},
+				{
+					"text": "es",
+					"id": 279,
+					"p": 0.999985,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.786769,
+					"t_dtw": -1
+				},
+				{
+					"text": " og",
+					"id": 5360,
+					"p": 0.999939,
+					"t_dtw": -1
+				},
+				{
+					"text": " det",
+					"id": 1141,
+					"p": 0.999308,
+					"t_dtw": -1
+				},
+				{
+					"text": " er",
+					"id": 1189,
+					"p": 0.999966,
+					"t_dtw": -1
+				},
+				{
+					"text": " en",
+					"id": 465,
+					"p": 0.999964,
+					"t_dtw": -1
+				},
+				{
+					"text": " del",
+					"id": 1103,
+					"p": 0.999941,
+					"t_dtw": -1
+				},
+				{
+					"text": " af",
+					"id": 3238,
+					"p": 0.999882,
+					"t_dtw": -1
+				},
+				{
+					"text": " den",
+					"id": 1441,
+					"p": 0.99983,
+					"t_dtw": -1
+				},
+				{
+					"text": " må",
+					"id": 10254,
+					"p": 0.999554,
+					"t_dtw": -1
+				},
+				{
+					"text": "de",
+					"id": 1479,
+					"p": 0.999905,
+					"t_dtw": -1
+				},
+				{
+					"text": " sam",
+					"id": 3247,
+					"p": 0.545643,
+					"t_dtw": -1
+				},
+				{
+					"text": "ar",
+					"id": 289,
+					"p": 0.999943,
+					"t_dtw": -1
+				},
+				{
+					"text": "be",
+					"id": 650,
+					"p": 0.999992,
+					"t_dtw": -1
+				},
+				{
+					"text": "j",
+					"id": 73,
+					"p": 0.999695,
+					"t_dtw": -1
+				},
+				{
+					"text": "det",
+					"id": 17863,
+					"p": 0.750093,
+					"t_dtw": -1
+				},
+				{
+					"text": " fun",
+					"id": 1019,
+					"p": 0.999878,
+					"t_dtw": -1
+				},
+				{
+					"text": "ger",
+					"id": 1321,
+					"p": 0.999521,
+					"t_dtw": -1
+				},
+				{
+					"text": "er",
+					"id": 260,
+					"p": 0.99999,
+					"t_dtw": -1
+				},
+				{
+					"text": " på",
+					"id": 4170,
+					"p": 0.999924,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.931461,
+					"t_dtw": -1
+				},
+				{
+					"text": " at",
+					"id": 412,
+					"p": 0.994131,
+					"t_dtw": -1
+				},
+				{
+					"text": " når",
+					"id": 36522,
+					"p": 0.999857,
+					"t_dtw": -1
+				},
+				{
+					"text": " fl",
+					"id": 932,
+					"p": 0.999805,
+					"t_dtw": -1
+				},
+				{
+					"text": "ert",
+					"id": 911,
+					"p": 0.999314,
+					"t_dtw": -1
+				},
+				{
+					"text": "al",
+					"id": 304,
+					"p": 0.904996,
+					"t_dtw": -1
+				},
+				{
+					"text": " har",
+					"id": 2233,
+					"p": 0.999144,
+					"t_dtw": -1
+				},
+				{
+					"text": " overt",
+					"id": 17038,
+					"p": 0.998822,
+					"t_dtw": -1
+				},
+				{
+					"text": "ag",
+					"id": 559,
+					"p": 0.996326,
+					"t_dtw": -1
+				},
+				{
+					"text": "et",
+					"id": 302,
+					"p": 0.99962,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.945552,
+					"t_dtw": -1
+				},
+				{
+					"text": " vil",
+					"id": 15349,
+					"p": 0.998371,
+					"t_dtw": -1
+				},
+				{
+					"text": " det",
+					"id": 1141,
+					"p": 0.99996,
+					"t_dtw": -1
+				},
+				{
+					"text": " alt",
+					"id": 4955,
+					"p": 0.999531,
+					"t_dtw": -1
+				},
+				{
+					"text": "id",
+					"id": 327,
+					"p": 0.999996,
+					"t_dtw": -1
+				},
+				{
+					"text": " være",
+					"id": 27458,
+					"p": 0.999861,
+					"t_dtw": -1
+				},
+				{
+					"text": " mul",
+					"id": 14077,
+					"p": 0.999779,
+					"t_dtw": -1
+				},
+				{
+					"text": "igt",
+					"id": 5828,
+					"p": 0.999975,
+					"t_dtw": -1
+				},
+				{
+					"text": " at",
+					"id": 412,
+					"p": 0.999882,
+					"t_dtw": -1
+				},
+				{
+					"text": " v",
+					"id": 371,
+					"p": 0.989634,
+					"t_dtw": -1
+				},
+				{
+					"text": "inde",
+					"id": 8274,
+					"p": 0.504188,
+					"t_dtw": -1
+				},
+				{
+					"text": " mere",
+					"id": 8401,
+					"p": 0.998559,
+					"t_dtw": -1
+				},
+				{
+					"text": " på",
+					"id": 4170,
+					"p": 0.999659,
+					"t_dtw": -1
+				},
+				{
+					"text": " kort",
+					"id": 46980,
+					"p": 0.989259,
+					"t_dtw": -1
+				},
+				{
+					"text": " sig",
+					"id": 4556,
+					"p": 0.953883,
+					"t_dtw": -1
+				},
+				{
+					"text": "t",
+					"id": 83,
+					"p": 0.999971,
+					"t_dtw": -1
+				},
+				{
+					"text": " ved",
+					"id": 14267,
+					"p": 0.998875,
+					"t_dtw": -1
+				},
+				{
+					"text": " at",
+					"id": 412,
+					"p": 0.999992,
+					"t_dtw": -1
+				},
+				{
+					"text": " handle",
+					"id": 4813,
+					"p": 0.99918,
+					"t_dtw": -1
+				},
+				{
+					"text": " ego",
+					"id": 14495,
+					"p": 0.999886,
+					"t_dtw": -1
+				},
+				{
+					"text": "ist",
+					"id": 468,
+					"p": 0.999914,
+					"t_dtw": -1
+				},
+				{
+					"text": "isk",
+					"id": 7797,
+					"p": 0.999899,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.999874,
+					"t_dtw": -1
+				},
+				{
+					"text": "<|endoftext|>",
+					"timestamps": {
+						"from": "00:00:30,000",
+						"to": "00:00:30,000"
+					},
+					"offsets": {
+						"from": 30000,
+						"to": 30000
+					},
+					"id": 50257,
+					"p": 0.996145,
+					"t_dtw": -1
+				}
+			]
+		},
+		{
+			"timestamps": {
+				"from": "00:-16:-17,-300",
+				"to": "00:01:00,000"
+			},
+			"offsets": {
+				"from": -977300,
+				"to": 60000
+			},
+			"text": " Da Premierminister John Howard har udtalt, at handlingen kun havde til formål at beskytte hospitalets faciliteter imod at blive nedgraderet, er den tasmanske regering ved at give yderligere 45 mio. australiske dollars.",
+			"tokens": [
+				{
+					"text": " Da",
+					"id": 3933,
+					"p": 0.496833,
+					"t_dtw": -1
+				},
+				{
+					"text": " Premier",
+					"id": 25194,
+					"p": 0.660656,
+					"t_dtw": -1
+				},
+				{
+					"text": "minister",
+					"id": 13688,
+					"p": 0.999697,
+					"t_dtw": -1
+				},
+				{
+					"text": " John",
+					"id": 2619,
+					"p": 0.997518,
+					"t_dtw": -1
+				},
+				{
+					"text": " Howard",
+					"id": 17626,
+					"p": 0.996966,
+					"t_dtw": -1
+				},
+				{
+					"text": " har",
+					"id": 2233,
+					"p": 0.993813,
+					"t_dtw": -1
+				},
+				{
+					"text": " ud",
+					"id": 11727,
+					"p": 0.999577,
+					"t_dtw": -1
+				},
+				{
+					"text": "t",
+					"id": 83,
+					"p": 0.999863,
+					"t_dtw": -1
+				},
+				{
+					"text": "alt",
+					"id": 3198,
+					"p": 0.999626,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.99501,
+					"t_dtw": -1
+				},
+				{
+					"text": " at",
+					"id": 412,
+					"p": 0.999903,
+					"t_dtw": -1
+				},
+				{
+					"text": " handling",
+					"id": 13175,
+					"p": 0.990331,
+					"t_dtw": -1
+				},
+				{
+					"text": "en",
+					"id": 268,
+					"p": 0.999378,
+					"t_dtw": -1
+				},
+				{
+					"text": " kun",
+					"id": 8215,
+					"p": 0.998077,
+					"t_dtw": -1
+				},
+				{
+					"text": " hav",
+					"id": 26139,
+					"p": 0.999155,
+					"t_dtw": -1
+				},
+				{
+					"text": "de",
+					"id": 1479,
+					"p": 0.999992,
+					"t_dtw": -1
+				},
+				{
+					"text": " til",
+					"id": 8440,
+					"p": 0.999422,
+					"t_dtw": -1
+				},
+				{
+					"text": " form",
+					"id": 1254,
+					"p": 0.999811,
+					"t_dtw": -1
+				},
+				{
+					"text": "å",
+					"id": 1330,
+					"p": 0.998942,
+					"t_dtw": -1
+				},
+				{
+					"text": "l",
+					"id": 75,
+					"p": 0.994841,
+					"t_dtw": -1
+				},
+				{
+					"text": " at",
+					"id": 412,
+					"p": 0.997543,
+					"t_dtw": -1
+				},
+				{
+					"text": " bes",
+					"id": 4097,
+					"p": 0.99956,
+					"t_dtw": -1
+				},
+				{
+					"text": "ky",
+					"id": 4133,
+					"p": 0.999752,
+					"t_dtw": -1
+				},
+				{
+					"text": "tte",
+					"id": 46739,
+					"p": 0.999539,
+					"t_dtw": -1
+				},
+				{
+					"text": " hospital",
+					"id": 4530,
+					"p": 0.964888,
+					"t_dtw": -1
+				},
+				{
+					"text": "ets",
+					"id": 1385,
+					"p": 0.976012,
+					"t_dtw": -1
+				},
+				{
+					"text": " facilit",
+					"id": 38770,
+					"p": 0.983442,
+					"t_dtw": -1
+				},
+				{
+					"text": "eter",
+					"id": 2398,
+					"p": 0.995797,
+					"t_dtw": -1
+				},
+				{
+					"text": " im",
+					"id": 566,
+					"p": 0.955917,
+					"t_dtw": -1
+				},
+				{
+					"text": "od",
+					"id": 378,
+					"p": 0.999918,
+					"t_dtw": -1
+				},
+				{
+					"text": " at",
+					"id": 412,
+					"p": 0.999809,
+					"t_dtw": -1
+				},
+				{
+					"text": " bl",
+					"id": 888,
+					"p": 0.999708,
+					"t_dtw": -1
+				},
+				{
+					"text": "ive",
+					"id": 488,
+					"p": 0.999916,
+					"t_dtw": -1
+				},
+				{
+					"text": " ned",
+					"id": 25614,
+					"p": 0.999193,
+					"t_dtw": -1
+				},
+				{
+					"text": "grad",
+					"id": 7165,
+					"p": 0.999079,
+					"t_dtw": -1
+				},
+				{
+					"text": "er",
+					"id": 260,
+					"p": 0.997329,
+					"t_dtw": -1
+				},
+				{
+					"text": "et",
+					"id": 302,
+					"p": 0.999994,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.969675,
+					"t_dtw": -1
+				},
+				{
+					"text": " er",
+					"id": 1189,
+					"p": 0.923023,
+					"t_dtw": -1
+				},
+				{
+					"text": " den",
+					"id": 1441,
+					"p": 0.998178,
+					"t_dtw": -1
+				},
+				{
+					"text": " tas",
+					"id": 8023,
+					"p": 0.894115,
+					"t_dtw": -1
+				},
+				{
+					"text": "mans",
+					"id": 44734,
+					"p": 0.729269,
+					"t_dtw": -1
+				},
+				{
+					"text": "ke",
+					"id": 330,
+					"p": 0.999811,
+					"t_dtw": -1
+				},
+				{
+					"text": " reg",
+					"id": 1121,
+					"p": 0.999401,
+					"t_dtw": -1
+				},
+				{
+					"text": "ering",
+					"id": 1794,
+					"p": 0.999924,
+					"t_dtw": -1
+				},
+				{
+					"text": " ved",
+					"id": 14267,
+					"p": 0.991821,
+					"t_dtw": -1
+				},
+				{
+					"text": " at",
+					"id": 412,
+					"p": 0.998456,
+					"t_dtw": -1
+				},
+				{
+					"text": " give",
+					"id": 976,
+					"p": 0.998211,
+					"t_dtw": -1
+				},
+				{
+					"text": " y",
+					"id": 288,
+					"p": 0.996527,
+					"t_dtw": -1
+				},
+				{
+					"text": "der",
+					"id": 1068,
+					"p": 0.997784,
+					"t_dtw": -1
+				},
+				{
+					"text": "lig",
+					"id": 5073,
+					"p": 0.999876,
+					"t_dtw": -1
+				},
+				{
+					"text": "ere",
+					"id": 323,
+					"p": 0.999977,
+					"t_dtw": -1
+				},
+				{
+					"text": " 45",
+					"id": 6905,
+					"p": 0.999396,
+					"t_dtw": -1
+				},
+				{
+					"text": " mio",
+					"id": 29908,
+					"p": 0.576889,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.995915,
+					"t_dtw": -1
+				},
+				{
+					"text": " aust",
+					"id": 34916,
+					"p": 0.573525,
+					"t_dtw": -1
+				},
+				{
+					"text": "ral",
+					"id": 2155,
+					"p": 0.525978,
+					"t_dtw": -1
+				},
+				{
+					"text": "is",
+					"id": 271,
+					"p": 0.996877,
+					"t_dtw": -1
+				},
+				{
+					"text": "ke",
+					"id": 330,
+					"p": 0.999949,
+					"t_dtw": -1
+				},
+				{
+					"text": " dollars",
+					"id": 3808,
+					"p": 0.995835,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.998281,
+					"t_dtw": -1
+				},
+				{
+					"text": "<|endoftext|>",
+					"timestamps": {
+						"from": "00:01:00,000",
+						"to": "00:01:00,000"
+					},
+					"offsets": {
+						"from": 60000,
+						"to": 60000
+					},
+					"id": 50257,
+					"p": 0.735053,
+					"t_dtw": -1
+				}
+			]
+		},
+		{
+			"timestamps": {
+				"from": "00:-15:-47,-300",
+				"to": "00:01:30,000"
+			},
+			"offsets": {
+				"from": -947300,
+				"to": 90000
+			},
+			"text": " Den gav datingtips i noter og var som en ven for eleverne. Bussen var på vej mod Six Flags i St. Louis, Missouri, for at bandet kunne spille for et helt udsolgt publikum.",
+			"tokens": [
+				{
+					"text": " Den",
+					"id": 6458,
+					"p": 0.10484,
+					"t_dtw": -1
+				},
+				{
+					"text": " g",
+					"id": 290,
+					"p": 0.306872,
+					"t_dtw": -1
+				},
+				{
+					"text": "av",
+					"id": 706,
+					"p": 0.994264,
+					"t_dtw": -1
+				},
+				{
+					"text": " dating",
+					"id": 10689,
+					"p": 0.982926,
+					"t_dtw": -1
+				},
+				{
+					"text": "t",
+					"id": 83,
+					"p": 0.640585,
+					"t_dtw": -1
+				},
+				{
+					"text": "ips",
+					"id": 2600,
+					"p": 0.997468,
+					"t_dtw": -1
+				},
+				{
+					"text": " i",
+					"id": 741,
+					"p": 0.983434,
+					"t_dtw": -1
+				},
+				{
+					"text": " not",
+					"id": 406,
+					"p": 0.984287,
+					"t_dtw": -1
+				},
+				{
+					"text": "er",
+					"id": 260,
+					"p": 0.998791,
+					"t_dtw": -1
+				},
+				{
+					"text": " og",
+					"id": 5360,
+					"p": 0.876379,
+					"t_dtw": -1
+				},
+				{
+					"text": " var",
+					"id": 1374,
+					"p": 0.99631,
+					"t_dtw": -1
+				},
+				{
+					"text": " som",
+					"id": 3307,
+					"p": 0.98115,
+					"t_dtw": -1
+				},
+				{
+					"text": " en",
+					"id": 465,
+					"p": 0.995406,
+					"t_dtw": -1
+				},
+				{
+					"text": " ven",
+					"id": 6138,
+					"p": 0.985537,
+					"t_dtw": -1
+				},
+				{
+					"text": " for",
+					"id": 337,
+					"p": 0.991162,
+					"t_dtw": -1
+				},
+				{
+					"text": " ele",
+					"id": 1118,
+					"p": 0.995154,
+					"t_dtw": -1
+				},
+				{
+					"text": "ver",
+					"id": 331,
+					"p": 0.998948,
+					"t_dtw": -1
+				},
+				{
+					"text": "ne",
+					"id": 716,
+					"p": 0.996959,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.968101,
+					"t_dtw": -1
+				},
+				{
+					"text": " B",
+					"id": 363,
+					"p": 0.394078,
+					"t_dtw": -1
+				},
+				{
+					"text": "ussen",
+					"id": 29202,
+					"p": 0.950766,
+					"t_dtw": -1
+				},
+				{
+					"text": " var",
+					"id": 1374,
+					"p": 0.993432,
+					"t_dtw": -1
+				},
+				{
+					"text": " på",
+					"id": 4170,
+					"p": 0.994998,
+					"t_dtw": -1
+				},
+				{
+					"text": " ve",
+					"id": 1241,
+					"p": 0.985913,
+					"t_dtw": -1
+				},
+				{
+					"text": "j",
+					"id": 73,
+					"p": 0.95891,
+					"t_dtw": -1
+				},
+				{
+					"text": " mod",
+					"id": 1072,
+					"p": 0.993904,
+					"t_dtw": -1
+				},
+				{
+					"text": " Six",
+					"id": 11678,
+					"p": 0.916778,
+					"t_dtw": -1
+				},
+				{
+					"text": " Fl",
+					"id": 3235,
+					"p": 0.959257,
+					"t_dtw": -1
+				},
+				{
+					"text": "ags",
+					"id": 12109,
+					"p": 0.984893,
+					"t_dtw": -1
+				},
+				{
+					"text": " i",
+					"id": 741,
+					"p": 0.925153,
+					"t_dtw": -1
+				},
+				{
+					"text": " St",
+					"id": 745,
+					"p": 0.919298,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.959616,
+					"t_dtw": -1
+				},
+				{
+					"text": " Louis",
+					"id": 9763,
+					"p": 0.93416,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.898471,
+					"t_dtw": -1
+				},
+				{
+					"text": " Missouri",
+					"id": 21334,
+					"p": 0.972654,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 0.515853,
+					"t_dtw": -1
+				},
+				{
+					"text": " for",
+					"id": 337,
+					"p": 0.981862,
+					"t_dtw": -1
+				},
+				{
+					"text": " at",
+					"id": 412,
+					"p": 0.994672,
+					"t_dtw": -1
+				},
+				{
+					"text": " band",
+					"id": 4116,
+					"p": 0.341134,
+					"t_dtw": -1
+				},
+				{
+					"text": "et",
+					"id": 302,
+					"p": 0.907222,
+					"t_dtw": -1
+				},
+				{
+					"text": " kunne",
+					"id": 45335,
+					"p": 0.996109,
+					"t_dtw": -1
+				},
+				{
+					"text": " sp",
+					"id": 637,
+					"p": 0.998904,
+					"t_dtw": -1
+				},
+				{
+					"text": "ille",
+					"id": 3409,
+					"p": 0.998075,
+					"t_dtw": -1
+				},
+				{
+					"text": " for",
+					"id": 337,
+					"p": 0.992426,
+					"t_dtw": -1
+				},
+				{
+					"text": " et",
+					"id": 1030,
+					"p": 0.988189,
+					"t_dtw": -1
+				},
+				{
+					"text": " helt",
+					"id": 24821,
+					"p": 0.98815,
+					"t_dtw": -1
+				},
+				{
+					"text": " ud",
+					"id": 11727,
+					"p": 0.990854,
+					"t_dtw": -1
+				},
+				{
+					"text": "sol",
+					"id": 30926,
+					"p": 0.990972,
+					"t_dtw": -1
+				},
+				{
+					"text": "gt",
+					"id": 10463,
+					"p": 0.999743,
+					"t_dtw": -1
+				},
+				{
+					"text": " publ",
+					"id": 11227,
+					"p": 0.998245,
+					"t_dtw": -1
+				},
+				{
+					"text": "ikum",
+					"id": 35518,
+					"p": 0.997271,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 0.989708,
+					"t_dtw": -1
+				},
+				{
+					"text": "<|endoftext|>",
+					"timestamps": {
+						"from": "00:01:30,000",
+						"to": "00:01:30,000"
+					},
+					"offsets": {
+						"from": 90000,
+						"to": 90000
+					},
+					"id": 50257,
+					"p": 0.813496,
+					"t_dtw": -1
+				}
+			]
+		},
+		{
+			"timestamps": {
+				"from": "00:-15:-17,-300",
+				"to": "00:02:00,000"
+			},
+			"offsets": {
+				"from": -917300,
+				"to": 120000
+			},
+			"text": " De har også været med i en af de nationale paviljoner for at vise landets syn på verdensproblemerne eller for at fremvise landets kultur og historie. Kort tid efter udgav The Atlanta General Constitution en rapport, som påpegede problemer med testresultater. Om sommeren bør du også holde øje med de nordiske myg. De giver dig ingen sygdomme, men de kan være irriterende.",
+			"tokens": [
+				{
+					"text": " De",
+					"id": 1346,
+					"p": 0.234152,
+					"t_dtw": -1
+				},
+				{
+					"text": " har",
+					"id": 2233,
+					"p": 0.138434,
+					"t_dtw": -1
+				},
+				{
+					"text": " også",
+					"id": 23864,
+					"p": 0.999954,
+					"t_dtw": -1
+				},
+				{
+					"text": " væ",
+					"id": 18836,
+					"p": 0.970976,
+					"t_dtw": -1
+				},
+				{
+					"text": "ret",
+					"id": 1505,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " med",
+					"id": 1205,
+					"p": 0.977208,
+					"t_dtw": -1
+				},
+				{
+					"text": " i",
+					"id": 741,
+					"p": 0.985511,
+					"t_dtw": -1
+				},
+				{
+					"text": " en",
+					"id": 465,
+					"p": 0.942489,
+					"t_dtw": -1
+				},
+				{
+					"text": " af",
+					"id": 3238,
+					"p": 0.860769,
+					"t_dtw": -1
+				},
+				{
+					"text": " de",
+					"id": 368,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " nationale",
+					"id": 49974,
+					"p": 0.993225,
+					"t_dtw": -1
+				},
+				{
+					"text": " p",
+					"id": 280,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": "avil",
+					"id": 22891,
+					"p": 0.998772,
+					"t_dtw": -1
+				},
+				{
+					"text": "jon",
+					"id": 15735,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": "er",
+					"id": 260,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " for",
+					"id": 337,
+					"p": 0.987129,
+					"t_dtw": -1
+				},
+				{
+					"text": " at",
+					"id": 412,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " v",
+					"id": 371,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": "ise",
+					"id": 908,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " land",
+					"id": 2117,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": "ets",
+					"id": 1385,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " syn",
+					"id": 5451,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " på",
+					"id": 4170,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " verd",
+					"id": 6387,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": "ens",
+					"id": 694,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": "pro",
+					"id": 4318,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": "ble",
+					"id": 638,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": "mer",
+					"id": 936,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": "ne",
+					"id": 716,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " eller",
+					"id": 12519,
+					"p": 0.981998,
+					"t_dtw": -1
+				},
+				{
+					"text": " for",
+					"id": 337,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " at",
+					"id": 412,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " fre",
+					"id": 2130,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": "m",
+					"id": 76,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": "v",
+					"id": 85,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": "ise",
+					"id": 908,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " land",
+					"id": 2117,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": "ets",
+					"id": 1385,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " k",
+					"id": 350,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": "ultur",
+					"id": 26099,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " og",
+					"id": 5360,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " histor",
+					"id": 4058,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": "ie",
+					"id": 414,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " K",
+					"id": 591,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": "ort",
+					"id": 477,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " tid",
+					"id": 9422,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " efter",
+					"id": 24827,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " ud",
+					"id": 11727,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": "g",
+					"id": 70,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": "av",
+					"id": 706,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " The",
+					"id": 440,
+					"p": 0.999859,
+					"t_dtw": -1
+				},
+				{
+					"text": " Atlanta",
+					"id": 20225,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " General",
+					"id": 6996,
+					"p": 0.538202,
+					"t_dtw": -1
+				},
+				{
+					"text": " Constitution",
+					"id": 14505,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " en",
+					"id": 465,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " rapport",
+					"id": 18018,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " som",
+					"id": 3307,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " på",
+					"id": 4170,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": "pe",
+					"id": 494,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": "ged",
+					"id": 3004,
+					"p": 0.999992,
+					"t_dtw": -1
+				},
+				{
+					"text": "e",
+					"id": 68,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " pro",
+					"id": 447,
+					"p": 0.989821,
+					"t_dtw": -1
+				},
+				{
+					"text": "ble",
+					"id": 638,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": "mer",
+					"id": 936,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " med",
+					"id": 1205,
+					"p": 0.964247,
+					"t_dtw": -1
+				},
+				{
+					"text": " test",
+					"id": 1500,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": "res",
+					"id": 495,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": "ult",
+					"id": 723,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": "ater",
+					"id": 771,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " Om",
+					"id": 9757,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " som",
+					"id": 3307,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": "mer",
+					"id": 936,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": "en",
+					"id": 268,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " b",
+					"id": 272,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": "ør",
+					"id": 15499,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " du",
+					"id": 1581,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " også",
+					"id": 23864,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " hold",
+					"id": 1797,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": "e",
+					"id": 68,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " ø",
+					"id": 43008,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": "je",
+					"id": 2884,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " med",
+					"id": 1205,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " de",
+					"id": 368,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " nord",
+					"id": 39284,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": "is",
+					"id": 271,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": "ke",
+					"id": 330,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " my",
+					"id": 452,
+					"p": 0.999878,
+					"t_dtw": -1
+				},
+				{
+					"text": "g",
+					"id": 70,
+					"p": 0.998011,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " De",
+					"id": 1346,
+					"p": 0.999901,
+					"t_dtw": -1
+				},
+				{
+					"text": " gi",
+					"id": 1735,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": "ver",
+					"id": 331,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " dig",
+					"id": 2528,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " ingen",
+					"id": 21600,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " sy",
+					"id": 943,
+					"p": 0.997546,
+					"t_dtw": -1
+				},
+				{
+					"text": "g",
+					"id": 70,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": "d",
+					"id": 67,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": "omme",
+					"id": 15117,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"id": 11,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " men",
+					"id": 1706,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " de",
+					"id": 368,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " kan",
+					"id": 4608,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " være",
+					"id": 27458,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " irr",
+					"id": 29413,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": "iter",
+					"id": 1681,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": "ende",
+					"id": 5445,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"id": 13,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": "<|endoftext|>",
+					"timestamps": {
+						"from": "00:02:00,000",
+						"to": "00:02:00,000"
+					},
+					"offsets": {
+						"from": 120000,
+						"to": 120000
+					},
+					"id": 50257,
+					"p": 1,
+					"t_dtw": -1
+				}
+			]
+		}
+	]
+}

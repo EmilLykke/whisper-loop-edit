@@ -1,0 +1,67 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E7-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,340", "to": "00:00:30,340" },
+      "offsets":    { "from": 340, "to": 30340 },
+      "text":       " Showet havde oprindeligt amatyrstemme i skuespillere, der havde oprindelse i det østlige Texas.",
+      "words": [
+        { "text": " Showet", "t0": 34, "t1": 240, "offsets": { "from": 340, "to": 2400 } },
+        { "text": " havde", "t0": 240, "t1": 411, "offsets": { "from": 2400, "to": 4110 } },
+        { "text": " oprindeligt", "t0": 411, "t1": 788, "offsets": { "from": 4110, "to": 7880 } },
+        { "text": " amatyrstemme", "t0": 788, "t1": 809, "offsets": { "from": 7880, "to": 8090 } },
+        { "text": " i", "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " skuespillere,", "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " der", "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " havde", "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " oprindelse", "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " i", "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " det", "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " østlige", "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " Texas.", "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } }
+      ],
+      "tokens": [
+        { "text": " Show", "p": 0.627476, "t0": 34, "t1": 172, "offsets": { "from": 340, "to": 1720 } },
+        { "text": "et", "p": 0.807089, "t0": 178, "t1": 240, "offsets": { "from": 1780, "to": 2400 } },
+        { "text": " hav", "p": 0.995095, "t0": 240, "t1": 343, "offsets": { "from": 2400, "to": 3430 } },
+        { "text": "de", "p": 0.999828, "t0": 343, "t1": 411, "offsets": { "from": 3430, "to": 4110 } },
+        { "text": " op", "p": 0.978112, "t0": 411, "t1": 474, "offsets": { "from": 4110, "to": 4740 } },
+        { "text": "r", "p": 0.998772, "t0": 480, "t1": 514, "offsets": { "from": 4800, "to": 5140 } },
+        { "text": "ind", "p": 0.999735, "t0": 514, "t1": 616, "offsets": { "from": 5140, "to": 6160 } },
+        { "text": "el", "p": 0.993743, "t0": 616, "t1": 685, "offsets": { "from": 6160, "to": 6850 } },
+        { "text": "igt", "p": 0.985665, "t0": 685, "t1": 788, "offsets": { "from": 6850, "to": 7880 } },
+        { "text": " am", "p": 0.839046, "t0": 788, "t1": 809, "offsets": { "from": 7880, "to": 8090 } },
+        { "text": "at", "p": 0.983838, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": "yr", "p": 0.775109, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": "stem", "p": 0.911814, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": "me", "p": 0.817625, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " i", "p": 0.597567, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " sk", "p": 0.950386, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": "ues", "p": 0.999872, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": "p", "p": 0.998306, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": "ill", "p": 0.977648, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": "ere", "p": 0.992487, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": ",", "p": 0.886612, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " der", "p": 0.972648, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " hav", "p": 0.998121, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": "de", "p": 0.999548, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " op", "p": 0.990728, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": "r", "p": 0.999472, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": "ind", "p": 0.999563, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": "else", "p": 0.983153, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " i", "p": 0.99631, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " det", "p": 0.988242, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " ø", "p": 0.794728, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": "st", "p": 0.999868, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": "l", "p": 0.998582, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": "ige", "p": 0.999983, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " Texas", "p": 0.978248, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": ".", "p": 0.931479, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } }
+      ]
+    }
+  ]
+}

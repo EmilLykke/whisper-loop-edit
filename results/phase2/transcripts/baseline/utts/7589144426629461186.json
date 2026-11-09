@@ -1,0 +1,46 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,770", "to": "00:00:30,770" },
+      "offsets":    { "from": 770, "to": 30770 },
+      "text":       " Blake blev også dømt for at forsøge at hindre retningsgang.",
+      "words": [
+        { "text": " Blake", "t0": 83, "t1": 342, "offsets": { "from": 830, "to": 3420 } },
+        { "text": " blev", "t0": 350, "t1": 400, "offsets": { "from": 3500, "to": 4000 } },
+        { "text": " også", "t0": 404, "t1": 404, "offsets": { "from": 4040, "to": 4040 } },
+        { "text": " dømt", "t0": 404, "t1": 404, "offsets": { "from": 4040, "to": 4040 } },
+        { "text": " for", "t0": 404, "t1": 404, "offsets": { "from": 4040, "to": 4040 } },
+        { "text": " at", "t0": 404, "t1": 404, "offsets": { "from": 4040, "to": 4040 } },
+        { "text": " forsøge", "t0": 404, "t1": 404, "offsets": { "from": 4040, "to": 4040 } },
+        { "text": " at", "t0": 404, "t1": 404, "offsets": { "from": 4040, "to": 4040 } },
+        { "text": " hindre", "t0": 404, "t1": 404, "offsets": { "from": 4040, "to": 4040 } },
+        { "text": " retningsgang.", "t0": 404, "t1": 404, "offsets": { "from": 4040, "to": 4040 } }
+      ],
+      "tokens": [
+        { "text": " Blake", "p": 0.55075, "t0": 83, "t1": 342, "offsets": { "from": 830, "to": 3420 } },
+        { "text": " blev", "p": 0.863322, "t0": 350, "t1": 400, "offsets": { "from": 3500, "to": 4000 } },
+        { "text": " også", "p": 0.98201, "t0": 404, "t1": 404, "offsets": { "from": 4040, "to": 4040 } },
+        { "text": " d", "p": 0.981231, "t0": 404, "t1": 404, "offsets": { "from": 4040, "to": 4040 } },
+        { "text": "ø", "p": 0.997818, "t0": 404, "t1": 404, "offsets": { "from": 4040, "to": 4040 } },
+        { "text": "mt", "p": 0.985314, "t0": 404, "t1": 404, "offsets": { "from": 4040, "to": 4040 } },
+        { "text": " for", "p": 0.974566, "t0": 404, "t1": 404, "offsets": { "from": 4040, "to": 4040 } },
+        { "text": " at", "p": 0.96362, "t0": 404, "t1": 404, "offsets": { "from": 4040, "to": 4040 } },
+        { "text": " fors", "p": 0.740288, "t0": 404, "t1": 404, "offsets": { "from": 4040, "to": 4040 } },
+        { "text": "ø", "p": 0.999775, "t0": 404, "t1": 404, "offsets": { "from": 4040, "to": 4040 } },
+        { "text": "ge", "p": 0.995423, "t0": 404, "t1": 404, "offsets": { "from": 4040, "to": 4040 } },
+        { "text": " at", "p": 0.97669, "t0": 404, "t1": 404, "offsets": { "from": 4040, "to": 4040 } },
+        { "text": " hind", "p": 0.993335, "t0": 404, "t1": 404, "offsets": { "from": 4040, "to": 4040 } },
+        { "text": "re", "p": 0.997191, "t0": 404, "t1": 404, "offsets": { "from": 4040, "to": 4040 } },
+        { "text": " ret", "p": 0.587121, "t0": 404, "t1": 404, "offsets": { "from": 4040, "to": 4040 } },
+        { "text": "nings", "p": 0.515829, "t0": 404, "t1": 404, "offsets": { "from": 4040, "to": 4040 } },
+        { "text": "gang", "p": 0.615358, "t0": 404, "t1": 404, "offsets": { "from": 4040, "to": 4040 } },
+        { "text": ".", "p": 0.834004, "t0": 404, "t1": 404, "offsets": { "from": 4040, "to": 4040 } }
+      ]
+    }
+  ]
+}

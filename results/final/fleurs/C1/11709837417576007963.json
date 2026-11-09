@@ -1,0 +1,65 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:01,010", "to": "00:00:31,010" },
+      "offsets":    { "from": 1010, "to": 31010 },
+      "text":       " Hvis du kun går i lands med skibets ekskursioner, behøver du ikke et separat visa siden 2009.",
+      "words": [
+        { "text": " Hvis", "t0": 121, "t1": 231, "offsets": { "from": 1210, "to": 2310 } },
+        { "text": " du", "t0": 239, "t1": 292, "offsets": { "from": 2390, "to": 2920 } },
+        { "text": " kun", "t0": 326, "t1": 399, "offsets": { "from": 3260, "to": 3990 } },
+        { "text": " går", "t0": 399, "t1": 520, "offsets": { "from": 3990, "to": 5200 } },
+        { "text": " i", "t0": 534, "t1": 565, "offsets": { "from": 5340, "to": 5650 } },
+        { "text": " lands", "t0": 565, "t1": 729, "offsets": { "from": 5650, "to": 7290 } },
+        { "text": " med", "t0": 735, "t1": 773, "offsets": { "from": 7350, "to": 7730 } },
+        { "text": " skibets", "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": " ekskursioner,", "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": " behøver", "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": " du", "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": " ikke", "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": " et", "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": " separat", "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": " visa", "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": " siden", "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": " 2009.", "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } }
+      ],
+      "tokens": [
+        { "text": " H", "p": 0.944774, "t0": 121, "t1": 134, "offsets": { "from": 1210, "to": 1340 } },
+        { "text": "vis", "p": 0.997373, "t0": 136, "t1": 231, "offsets": { "from": 1360, "to": 2310 } },
+        { "text": " du", "p": 0.992642, "t0": 239, "t1": 292, "offsets": { "from": 2390, "to": 2920 } },
+        { "text": " kun", "p": 0.956793, "t0": 326, "t1": 399, "offsets": { "from": 3260, "to": 3990 } },
+        { "text": " går", "p": 0.974384, "t0": 399, "t1": 520, "offsets": { "from": 3990, "to": 5200 } },
+        { "text": " i", "p": 0.889602, "t0": 534, "t1": 565, "offsets": { "from": 5340, "to": 5650 } },
+        { "text": " lands", "p": 0.867486, "t0": 565, "t1": 729, "offsets": { "from": 5650, "to": 7290 } },
+        { "text": " med", "p": 0.84923, "t0": 735, "t1": 773, "offsets": { "from": 7350, "to": 7730 } },
+        { "text": " sk", "p": 0.831335, "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": "ib", "p": 0.86537, "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": "ets", "p": 0.874514, "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": " eks", "p": 0.638363, "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": "k", "p": 0.978422, "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": "urs", "p": 0.998955, "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": "ion", "p": 0.99034, "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": "er", "p": 0.989074, "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": ",", "p": 0.694562, "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": " beh", "p": 0.952564, "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": "ø", "p": 0.999123, "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": "ver", "p": 0.997786, "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": " du", "p": 0.991989, "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": " ikke", "p": 0.981107, "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": " et", "p": 0.925148, "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": " separ", "p": 0.141714, "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": "at", "p": 0.956785, "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": " visa", "p": 0.625223, "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": " s", "p": 0.527746, "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": "iden", "p": 0.999295, "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": " 2009", "p": 0.988732, "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } },
+        { "text": ".", "p": 0.858587, "t0": 774, "t1": 774, "offsets": { "from": 7740, "to": 7740 } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,920", "to": "00:00:30,920" },
+      "offsets":    { "from": 920, "to": 30920 },
+      "text":       " Folk skriver nogle beskeder igennem computerskærmen og behøver aldrig komme i nærheden af en blyantspidser.",
+      "words": [
+        { "text": " Folk", "t0": 116, "t1": 213, "offsets": { "from": 1160, "to": 2130 } },
+        { "text": " skriver", "t0": 213, "t1": 427, "offsets": { "from": 2130, "to": 4270 } },
+        { "text": " nogle", "t0": 427, "t1": 498, "offsets": { "from": 4270, "to": 4980 } },
+        { "text": " beskeder", "t0": 498, "t1": 620, "offsets": { "from": 4980, "to": 6200 } },
+        { "text": " igennem", "t0": 620, "t1": 620, "offsets": { "from": 6200, "to": 6200 } },
+        { "text": " computerskærmen", "t0": 620, "t1": 620, "offsets": { "from": 6200, "to": 6200 } },
+        { "text": " og", "t0": 620, "t1": 620, "offsets": { "from": 6200, "to": 6200 } },
+        { "text": " behøver", "t0": 620, "t1": 620, "offsets": { "from": 6200, "to": 6200 } },
+        { "text": " aldrig", "t0": 620, "t1": 620, "offsets": { "from": 6200, "to": 6200 } },
+        { "text": " komme", "t0": 620, "t1": 620, "offsets": { "from": 6200, "to": 6200 } },
+        { "text": " i", "t0": 620, "t1": 620, "offsets": { "from": 6200, "to": 6200 } },
+        { "text": " nærheden", "t0": 620, "t1": 620, "offsets": { "from": 6200, "to": 6200 } },
+        { "text": " af", "t0": 620, "t1": 620, "offsets": { "from": 6200, "to": 6200 } },
+        { "text": " en", "t0": 620, "t1": 620, "offsets": { "from": 6200, "to": 6200 } },
+        { "text": " blyantspidser.", "t0": 620, "t1": 620, "offsets": { "from": 6200, "to": 6200 } }
+      ],
+      "tokens": [
+        { "text": " Fol", "p": 0.974469, "t0": 116, "t1": 184, "offsets": { "from": 1160, "to": 1840 } },
+        { "text": "k", "p": 0.991647, "t0": 193, "t1": 213, "offsets": { "from": 1930, "to": 2130 } },
+        { "text": " sk", "p": 0.971174, "t0": 213, "t1": 271, "offsets": { "from": 2130, "to": 2710 } },
+        { "text": "river", "p": 0.958952, "t0": 280, "t1": 427, "offsets": { "from": 2800, "to": 4270 } },
+        { "text": " nogle", "p": 0.682802, "t0": 427, "t1": 498, "offsets": { "from": 4270, "to": 4980 } },
+        { "text": " bes", "p": 0.997794, "t0": 498, "t1": 620, "offsets": { "from": 4980, "to": 6200 } },
+        { "text": "k", "p": 0.983875, "t0": 620, "t1": 620, "offsets": { "from": 6200, "to": 6200 } },
+        { "text": "eder", "p": 0.924792, "t0": 620, "t1": 620, "offsets": { "from": 6200, "to": 6200 } },
+        { "text": " ig", "p": 0.525602, "t0": 620, "t1": 620, "offsets": { "from": 6200, "to": 6200 } },
+        { "text": "enn", "p": 0.996037, "t0": 620, "t1": 620, "offsets": { "from": 6200, "to": 6200 } },
+        { "text": "em", "p": 0.998831, "t0": 620, "t1": 620, "offsets": { "from": 6200, "to": 6200 } },
+        { "text": " computers", "p": 0.859244, "t0": 620, "t1": 620, "offsets": { "from": 6200, "to": 6200 } },
+        { "text": "k", "p": 0.9774, "t0": 620, "t1": 620, "offsets": { "from": 6200, "to": 6200 } },
+        { "text": "ær", "p": 0.980799, "t0": 620, "t1": 620, "offsets": { "from": 6200, "to": 6200 } },
+        { "text": "men", "p": 0.435856, "t0": 620, "t1": 620, "offsets": { "from": 6200, "to": 6200 } },
+        { "text": " og", "p": 0.601034, "t0": 620, "t1": 620, "offsets": { "from": 6200, "to": 6200 } },
+        { "text": " beh", "p": 0.947857, "t0": 620, "t1": 620, "offsets": { "from": 6200, "to": 6200 } },
+        { "text": "ø", "p": 0.999563, "t0": 620, "t1": 620, "offsets": { "from": 6200, "to": 6200 } },
+        { "text": "ver", "p": 0.998727, "t0": 620, "t1": 620, "offsets": { "from": 6200, "to": 6200 } },
+        { "text": " ald", "p": 0.954403, "t0": 620, "t1": 620, "offsets": { "from": 6200, "to": 6200 } },
+        { "text": "rig", "p": 0.999701, "t0": 620, "t1": 620, "offsets": { "from": 6200, "to": 6200 } },
+        { "text": " komme", "p": 0.525422, "t0": 620, "t1": 620, "offsets": { "from": 6200, "to": 6200 } },
+        { "text": " i", "p": 0.984412, "t0": 620, "t1": 620, "offsets": { "from": 6200, "to": 6200 } },
+        { "text": " n", "p": 0.984515, "t0": 620, "t1": 620, "offsets": { "from": 6200, "to": 6200 } },
+        { "text": "ær", "p": 0.99992, "t0": 620, "t1": 620, "offsets": { "from": 6200, "to": 6200 } },
+        { "text": "h", "p": 0.989215, "t0": 620, "t1": 620, "offsets": { "from": 6200, "to": 6200 } },
+        { "text": "eden", "p": 0.999184, "t0": 620, "t1": 620, "offsets": { "from": 6200, "to": 6200 } },
+        { "text": " af", "p": 0.991998, "t0": 620, "t1": 620, "offsets": { "from": 6200, "to": 6200 } },
+        { "text": " en", "p": 0.860759, "t0": 620, "t1": 620, "offsets": { "from": 6200, "to": 6200 } },
+        { "text": " b", "p": 0.481961, "t0": 620, "t1": 620, "offsets": { "from": 6200, "to": 6200 } },
+        { "text": "ly", "p": 0.970554, "t0": 620, "t1": 620, "offsets": { "from": 6200, "to": 6200 } },
+        { "text": "ants", "p": 0.85747, "t0": 620, "t1": 620, "offsets": { "from": 6200, "to": 6200 } },
+        { "text": "p", "p": 0.931399, "t0": 620, "t1": 620, "offsets": { "from": 6200, "to": 6200 } },
+        { "text": "ids", "p": 0.939927, "t0": 620, "t1": 620, "offsets": { "from": 6200, "to": 6200 } },
+        { "text": "er", "p": 0.982272, "t0": 620, "t1": 620, "offsets": { "from": 6200, "to": 6200 } },
+        { "text": ".", "p": 0.876029, "t0": 620, "t1": 620, "offsets": { "from": 6200, "to": 6200 } }
+      ]
+    }
+  ]
+}

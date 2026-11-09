@@ -1,0 +1,54 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,670", "to": "00:00:30,670" },
+      "offsets":    { "from": 670, "to": 30670 },
+      "text":       " Det der er en vigtig måde at skille mellem nogle verber og objektiver.",
+      "words": [
+        { "text": " Det", "t0": 88, "t1": 214, "offsets": { "from": 880, "to": 2140 } },
+        { "text": " der", "t0": 214, "t1": 356, "offsets": { "from": 2140, "to": 3560 } },
+        { "text": " er", "t0": 367, "t1": 420, "offsets": { "from": 3670, "to": 4200 } },
+        { "text": " en", "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": " vigtig", "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": " måde", "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": " at", "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": " skille", "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": " mellem", "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": " nogle", "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": " verber", "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": " og", "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": " objektiver.", "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } }
+      ],
+      "tokens": [
+        { "text": " Det", "p": 0.62848, "t0": 88, "t1": 214, "offsets": { "from": 880, "to": 2140 } },
+        { "text": " der", "p": 0.404705, "t0": 214, "t1": 356, "offsets": { "from": 2140, "to": 3560 } },
+        { "text": " er", "p": 0.961872, "t0": 367, "t1": 420, "offsets": { "from": 3670, "to": 4200 } },
+        { "text": " en", "p": 0.963677, "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": " v", "p": 0.980275, "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": "igt", "p": 0.997622, "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": "ig", "p": 0.993356, "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": " må", "p": 0.99795, "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": "de", "p": 0.983562, "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": " at", "p": 0.91559, "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": " sk", "p": 0.941662, "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": "ille", "p": 0.947283, "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": " me", "p": 0.901878, "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": "ll", "p": 0.99963, "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": "em", "p": 0.998645, "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": " nogle", "p": 0.758188, "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": " ver", "p": 0.646794, "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": "ber", "p": 0.992178, "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": " og", "p": 0.990444, "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": " ob", "p": 0.994152, "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": "jekt", "p": 0.995076, "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": "iver", "p": 0.98206, "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } },
+        { "text": ".", "p": 0.901299, "t0": 439, "t1": 439, "offsets": { "from": 4390, "to": 4390 } }
+      ]
+    }
+  ]
+}

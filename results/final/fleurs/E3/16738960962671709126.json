@@ -1,0 +1,65 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,870", "to": "00:00:30,870" },
+      "offsets":    { "from": 870, "to": 30870 },
+      "text":       " En curry er en ret baseret på urter og krydderier sammen med enten kød eller grøntsager.",
+      "words": [
+        { "text": " En", "t0": 108, "t1": 164, "offsets": { "from": 1080, "to": 1640 } },
+        { "text": " curry", "t0": 164, "t1": 356, "offsets": { "from": 1640, "to": 3560 } },
+        { "text": " er", "t0": 356, "t1": 423, "offsets": { "from": 3560, "to": 4230 } },
+        { "text": " en", "t0": 435, "t1": 500, "offsets": { "from": 4350, "to": 5000 } },
+        { "text": " ret", "t0": 510, "t1": 625, "offsets": { "from": 5100, "to": 6250 } },
+        { "text": " baseret", "t0": 625, "t1": 686, "offsets": { "from": 6250, "to": 6860 } },
+        { "text": " på", "t0": 686, "t1": 686, "offsets": { "from": 6860, "to": 6860 } },
+        { "text": " urter", "t0": 686, "t1": 686, "offsets": { "from": 6860, "to": 6860 } },
+        { "text": " og", "t0": 686, "t1": 686, "offsets": { "from": 6860, "to": 6860 } },
+        { "text": " krydderier", "t0": 686, "t1": 686, "offsets": { "from": 6860, "to": 6860 } },
+        { "text": " sammen", "t0": 686, "t1": 686, "offsets": { "from": 6860, "to": 6860 } },
+        { "text": " med", "t0": 686, "t1": 686, "offsets": { "from": 6860, "to": 6860 } },
+        { "text": " enten", "t0": 686, "t1": 686, "offsets": { "from": 6860, "to": 6860 } },
+        { "text": " kød", "t0": 686, "t1": 686, "offsets": { "from": 6860, "to": 6860 } },
+        { "text": " eller", "t0": 686, "t1": 686, "offsets": { "from": 6860, "to": 6860 } },
+        { "text": " grøntsager.", "t0": 686, "t1": 686, "offsets": { "from": 6860, "to": 6860 } }
+      ],
+      "tokens": [
+        { "text": " En", "p": 0.93742, "t0": 108, "t1": 164, "offsets": { "from": 1080, "to": 1640 } },
+        { "text": " curry", "p": 0.766136, "t0": 164, "t1": 356, "offsets": { "from": 1640, "to": 3560 } },
+        { "text": " er", "p": 0.9464, "t0": 356, "t1": 423, "offsets": { "from": 3560, "to": 4230 } },
+        { "text": " en", "p": 0.949564, "t0": 435, "t1": 500, "offsets": { "from": 4350, "to": 5000 } },
+        { "text": " ret", "p": 0.98072, "t0": 510, "t1": 625, "offsets": { "from": 5100, "to": 6250 } },
+        { "text": " bas", "p": 0.937941, "t0": 625, "t1": 664, "offsets": { "from": 6250, "to": 6640 } },
+        { "text": "er", "p": 0.996039, "t0": 686, "t1": 686, "offsets": { "from": 6860, "to": 6860 } },
+        { "text": "et", "p": 0.999752, "t0": 686, "t1": 686, "offsets": { "from": 6860, "to": 6860 } },
+        { "text": " på", "p": 0.99159, "t0": 686, "t1": 686, "offsets": { "from": 6860, "to": 6860 } },
+        { "text": " ur", "p": 0.974029, "t0": 686, "t1": 686, "offsets": { "from": 6860, "to": 6860 } },
+        { "text": "ter", "p": 0.964428, "t0": 686, "t1": 686, "offsets": { "from": 6860, "to": 6860 } },
+        { "text": " og", "p": 0.97542, "t0": 686, "t1": 686, "offsets": { "from": 6860, "to": 6860 } },
+        { "text": " kry", "p": 0.496807, "t0": 686, "t1": 686, "offsets": { "from": 6860, "to": 6860 } },
+        { "text": "d", "p": 0.98991, "t0": 686, "t1": 686, "offsets": { "from": 6860, "to": 6860 } },
+        { "text": "der", "p": 0.995317, "t0": 686, "t1": 686, "offsets": { "from": 6860, "to": 6860 } },
+        { "text": "ier", "p": 0.976444, "t0": 686, "t1": 686, "offsets": { "from": 6860, "to": 6860 } },
+        { "text": " sam", "p": 0.800998, "t0": 686, "t1": 686, "offsets": { "from": 6860, "to": 6860 } },
+        { "text": "men", "p": 0.997708, "t0": 686, "t1": 686, "offsets": { "from": 6860, "to": 6860 } },
+        { "text": " med", "p": 0.991098, "t0": 686, "t1": 686, "offsets": { "from": 6860, "to": 6860 } },
+        { "text": " ent", "p": 0.910953, "t0": 686, "t1": 686, "offsets": { "from": 6860, "to": 6860 } },
+        { "text": "en", "p": 0.999415, "t0": 686, "t1": 686, "offsets": { "from": 6860, "to": 6860 } },
+        { "text": " k", "p": 0.995017, "t0": 686, "t1": 686, "offsets": { "from": 6860, "to": 6860 } },
+        { "text": "ø", "p": 0.999718, "t0": 686, "t1": 686, "offsets": { "from": 6860, "to": 6860 } },
+        { "text": "d", "p": 0.999874, "t0": 686, "t1": 686, "offsets": { "from": 6860, "to": 6860 } },
+        { "text": " eller", "p": 0.980142, "t0": 686, "t1": 686, "offsets": { "from": 6860, "to": 6860 } },
+        { "text": " gr", "p": 0.766727, "t0": 686, "t1": 686, "offsets": { "from": 6860, "to": 6860 } },
+        { "text": "ø", "p": 0.95535, "t0": 686, "t1": 686, "offsets": { "from": 6860, "to": 6860 } },
+        { "text": "nt", "p": 0.963087, "t0": 686, "t1": 686, "offsets": { "from": 6860, "to": 6860 } },
+        { "text": "s", "p": 0.993983, "t0": 686, "t1": 686, "offsets": { "from": 6860, "to": 6860 } },
+        { "text": "ager", "p": 0.999319, "t0": 686, "t1": 686, "offsets": { "from": 6860, "to": 6860 } },
+        { "text": ".", "p": 0.919107, "t0": 686, "t1": 686, "offsets": { "from": 6860, "to": 6860 } }
+      ]
+    }
+  ]
+}

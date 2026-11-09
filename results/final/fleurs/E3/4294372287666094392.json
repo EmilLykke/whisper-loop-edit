@@ -1,0 +1,55 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,660", "to": "00:00:30,660" },
+      "offsets":    { "from": 660, "to": 30660 },
+      "text":       " Planeter laver deres mad fra solen ved fotosyntese. Det giver års og sky.",
+      "words": [
+        { "text": " Planeter", "t0": 87, "t1": 428, "offsets": { "from": 870, "to": 4280 } },
+        { "text": " laver", "t0": 428, "t1": 523, "offsets": { "from": 4280, "to": 5230 } },
+        { "text": " deres", "t0": 523, "t1": 523, "offsets": { "from": 5230, "to": 5230 } },
+        { "text": " mad", "t0": 523, "t1": 523, "offsets": { "from": 5230, "to": 5230 } },
+        { "text": " fra", "t0": 523, "t1": 523, "offsets": { "from": 5230, "to": 5230 } },
+        { "text": " solen", "t0": 523, "t1": 523, "offsets": { "from": 5230, "to": 5230 } },
+        { "text": " ved", "t0": 523, "t1": 523, "offsets": { "from": 5230, "to": 5230 } },
+        { "text": " fotosyntese.", "t0": 523, "t1": 523, "offsets": { "from": 5230, "to": 5230 } },
+        { "text": " Det", "t0": 523, "t1": 523, "offsets": { "from": 5230, "to": 5230 } },
+        { "text": " giver", "t0": 523, "t1": 523, "offsets": { "from": 5230, "to": 5230 } },
+        { "text": " års", "t0": 523, "t1": 523, "offsets": { "from": 5230, "to": 5230 } },
+        { "text": " og", "t0": 523, "t1": 523, "offsets": { "from": 5230, "to": 5230 } },
+        { "text": " sky.", "t0": 523, "t1": 523, "offsets": { "from": 5230, "to": 5230 } }
+      ],
+      "tokens": [
+        { "text": " Plan", "p": 0.98259, "t0": 87, "t1": 244, "offsets": { "from": 870, "to": 2440 } },
+        { "text": "eter", "p": 0.998378, "t0": 246, "t1": 428, "offsets": { "from": 2460, "to": 4280 } },
+        { "text": " la", "p": 0.995435, "t0": 428, "t1": 501, "offsets": { "from": 4280, "to": 5010 } },
+        { "text": "ver", "p": 0.989685, "t0": 523, "t1": 523, "offsets": { "from": 5230, "to": 5230 } },
+        { "text": " der", "p": 0.986572, "t0": 523, "t1": 523, "offsets": { "from": 5230, "to": 5230 } },
+        { "text": "es", "p": 0.998148, "t0": 523, "t1": 523, "offsets": { "from": 5230, "to": 5230 } },
+        { "text": " mad", "p": 0.958683, "t0": 523, "t1": 523, "offsets": { "from": 5230, "to": 5230 } },
+        { "text": " fra", "p": 0.992795, "t0": 523, "t1": 523, "offsets": { "from": 5230, "to": 5230 } },
+        { "text": " sol", "p": 0.874493, "t0": 523, "t1": 523, "offsets": { "from": 5230, "to": 5230 } },
+        { "text": "en", "p": 0.998171, "t0": 523, "t1": 523, "offsets": { "from": 5230, "to": 5230 } },
+        { "text": " ved", "p": 0.937535, "t0": 523, "t1": 523, "offsets": { "from": 5230, "to": 5230 } },
+        { "text": " fotos", "p": 0.967082, "t0": 523, "t1": 523, "offsets": { "from": 5230, "to": 5230 } },
+        { "text": "y", "p": 0.906516, "t0": 523, "t1": 523, "offsets": { "from": 5230, "to": 5230 } },
+        { "text": "nt", "p": 0.999807, "t0": 523, "t1": 523, "offsets": { "from": 5230, "to": 5230 } },
+        { "text": "ese", "p": 0.996312, "t0": 523, "t1": 523, "offsets": { "from": 5230, "to": 5230 } },
+        { "text": ".", "p": 0.778767, "t0": 523, "t1": 523, "offsets": { "from": 5230, "to": 5230 } },
+        { "text": " Det", "p": 0.911408, "t0": 523, "t1": 523, "offsets": { "from": 5230, "to": 5230 } },
+        { "text": " gi", "p": 0.995414, "t0": 523, "t1": 523, "offsets": { "from": 5230, "to": 5230 } },
+        { "text": "ver", "p": 0.99677, "t0": 523, "t1": 523, "offsets": { "from": 5230, "to": 5230 } },
+        { "text": " år", "p": 0.160258, "t0": 523, "t1": 523, "offsets": { "from": 5230, "to": 5230 } },
+        { "text": "s", "p": 0.913366, "t0": 523, "t1": 523, "offsets": { "from": 5230, "to": 5230 } },
+        { "text": " og", "p": 0.290273, "t0": 523, "t1": 523, "offsets": { "from": 5230, "to": 5230 } },
+        { "text": " sky", "p": 0.985242, "t0": 523, "t1": 523, "offsets": { "from": 5230, "to": 5230 } },
+        { "text": ".", "p": 0.801096, "t0": 523, "t1": 523, "offsets": { "from": 5230, "to": 5230 } }
+      ]
+    }
+  ]
+}

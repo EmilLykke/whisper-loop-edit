@@ -1,0 +1,61 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,190", "to": "00:00:30,190" },
+      "offsets":    { "from": 190, "to": 30190 },
+      "text":       " Et nyt provisorisk valgråd CEP på 9 medlemmer blev i går svaret ind af Mathilø.",
+      "words": [
+        { "text": " Et", "t0": 38, "t1": 101, "offsets": { "from": 380, "to": 1010 } },
+        { "text": " nyt", "t0": 101, "t1": 224, "offsets": { "from": 1010, "to": 2240 } },
+        { "text": " provisorisk", "t0": 224, "t1": 675, "offsets": { "from": 2240, "to": 6750 } },
+        { "text": " valgråd", "t0": 675, "t1": 1003, "offsets": { "from": 6750, "to": 10030 } },
+        { "text": " CEP", "t0": 1003, "t1": 1019, "offsets": { "from": 10030, "to": 10190 } },
+        { "text": " på", "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } },
+        { "text": " 9", "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } },
+        { "text": " medlemmer", "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } },
+        { "text": " blev", "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } },
+        { "text": " i", "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } },
+        { "text": " går", "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } },
+        { "text": " svaret", "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } },
+        { "text": " ind", "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } },
+        { "text": " af", "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } },
+        { "text": " Mathilø.", "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } }
+      ],
+      "tokens": [
+        { "text": " Et", "p": 0.91948, "t0": 38, "t1": 101, "offsets": { "from": 380, "to": 1010 } },
+        { "text": " nyt", "p": 0.991658, "t0": 101, "t1": 224, "offsets": { "from": 1010, "to": 2240 } },
+        { "text": " prov", "p": 0.859789, "t0": 224, "t1": 388, "offsets": { "from": 2240, "to": 3880 } },
+        { "text": "is", "p": 0.980133, "t0": 388, "t1": 438, "offsets": { "from": 3880, "to": 4380 } },
+        { "text": "or", "p": 0.876849, "t0": 471, "t1": 544, "offsets": { "from": 4710, "to": 5440 } },
+        { "text": "isk", "p": 0.99643, "t0": 558, "t1": 675, "offsets": { "from": 5580, "to": 6750 } },
+        { "text": " val", "p": 0.971262, "t0": 675, "t1": 772, "offsets": { "from": 6750, "to": 7720 } },
+        { "text": "g", "p": 0.204915, "t0": 808, "t1": 839, "offsets": { "from": 8080, "to": 8390 } },
+        { "text": "rå", "p": 0.965053, "t0": 839, "t1": 878, "offsets": { "from": 8390, "to": 8780 } },
+        { "text": "d", "p": 0.975991, "t0": 961, "t1": 1003, "offsets": { "from": 9610, "to": 10030 } },
+        { "text": " C", "p": 0.365289, "t0": 1003, "t1": 1019, "offsets": { "from": 10030, "to": 10190 } },
+        { "text": "EP", "p": 0.864034, "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } },
+        { "text": " på", "p": 0.954047, "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } },
+        { "text": " 9", "p": 0.577515, "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } },
+        { "text": " med", "p": 0.994613, "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } },
+        { "text": "lem", "p": 0.997459, "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } },
+        { "text": "mer", "p": 0.998441, "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } },
+        { "text": " blev", "p": 0.985428, "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } },
+        { "text": " i", "p": 0.976284, "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } },
+        { "text": " går", "p": 0.999121, "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } },
+        { "text": " sv", "p": 0.589486, "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } },
+        { "text": "aret", "p": 0.325888, "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } },
+        { "text": " ind", "p": 0.987504, "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } },
+        { "text": " af", "p": 0.980303, "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } },
+        { "text": " Math", "p": 0.606508, "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } },
+        { "text": "il", "p": 0.16299, "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } },
+        { "text": "ø", "p": 0.515043, "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } },
+        { "text": ".", "p": 0.960578, "t0": 1019, "t1": 1019, "offsets": { "from": 10190, "to": 10190 } }
+      ]
+    }
+  ]
+}

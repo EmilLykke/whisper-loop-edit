@@ -1,0 +1,529 @@
+{
+ "id": "E9",
+ "description": "E3 + zero Calm-Whisper heads #1, #6, #11 in all 32 decoder layers",
+ "formula": [
+  "for (L, h) in heads: model.decoder.layers.L.self_attn.out_proj.weight[:, 64h:64h+64] <- 0"
+ ],
+ "heads": [
+  "L12H13",
+  "L13H7",
+  "L13H18",
+  "L15H17",
+  "L2H19",
+  "L18H19",
+  "L25H18",
+  "L25H19",
+  "L24H0",
+  "L26H6",
+  "L21H14",
+  "L0H1",
+  "L0H6",
+  "L0H11",
+  "L1H1",
+  "L1H6",
+  "L1H11",
+  "L2H1",
+  "L2H6",
+  "L2H11",
+  "L3H1",
+  "L3H6",
+  "L3H11",
+  "L4H1",
+  "L4H6",
+  "L4H11",
+  "L5H1",
+  "L5H6",
+  "L5H11",
+  "L6H1",
+  "L6H6",
+  "L6H11",
+  "L7H1",
+  "L7H6",
+  "L7H11",
+  "L8H1",
+  "L8H6",
+  "L8H11",
+  "L9H1",
+  "L9H6",
+  "L9H11",
+  "L10H1",
+  "L10H6",
+  "L10H11",
+  "L11H1",
+  "L11H6",
+  "L11H11",
+  "L12H1",
+  "L12H6",
+  "L12H11",
+  "L13H1",
+  "L13H6",
+  "L13H11",
+  "L14H1",
+  "L14H6",
+  "L14H11",
+  "L15H1",
+  "L15H6",
+  "L15H11",
+  "L16H1",
+  "L16H6",
+  "L16H11",
+  "L17H1",
+  "L17H6",
+  "L17H11",
+  "L18H1",
+  "L18H6",
+  "L18H11",
+  "L19H1",
+  "L19H6",
+  "L19H11",
+  "L20H1",
+  "L20H6",
+  "L20H11",
+  "L21H1",
+  "L21H6",
+  "L21H11",
+  "L22H1",
+  "L22H6",
+  "L22H11",
+  "L23H1",
+  "L23H6",
+  "L23H11",
+  "L24H1",
+  "L24H6",
+  "L24H11",
+  "L25H1",
+  "L25H6",
+  "L25H11",
+  "L26H1",
+  "L26H11",
+  "L27H1",
+  "L27H6",
+  "L27H11",
+  "L28H1",
+  "L28H6",
+  "L28H11",
+  "L29H1",
+  "L29H6",
+  "L29H11",
+  "L30H1",
+  "L30H6",
+  "L30H11",
+  "L31H1",
+  "L31H6",
+  "L31H11"
+ ],
+ "direction": null,
+ "seeds": null,
+ "compute": "fp32 from the fp16 originals, rounded once to fp16 (round-to-nearest-even)",
+ "base": {
+  "path": "models/hf/whisper-large-v3/model.safetensors",
+  "sha256": "a8e94b85976e5864ba3e9525c7e6c83b2a1eca42d4b797a0c7c24d778e40fd95"
+ },
+ "tensors_touched": [
+  {
+   "name": "model.decoder.layers.0.self_attn.out_proj.weight",
+   "ggml": "decoder.blocks.0.attn.out.weight",
+   "shape": [
+    1280,
+    1280
+   ],
+   "rel_frobenius_change": 0.36831775307655334,
+   "max_abs_change": 0.10528564453125,
+   "fp16_rounding_max_abs": 0.0,
+   "unchanged_after_rounding": false
+  },
+  {
+   "name": "model.decoder.layers.1.self_attn.out_proj.weight",
+   "ggml": "decoder.blocks.1.attn.out.weight",
+   "shape": [
+    1280,
+    1280
+   ],
+   "rel_frobenius_change": 0.29981377720832825,
+   "max_abs_change": 0.11480712890625,
+   "fp16_rounding_max_abs": 0.0,
+   "unchanged_after_rounding": false
+  },
+  {
+   "name": "model.decoder.layers.2.self_attn.out_proj.weight",
+   "ggml": "decoder.blocks.2.attn.out.weight",
+   "shape": [
+    1280,
+    1280
+   ],
+   "rel_frobenius_change": 0.47338244318962097,
+   "max_abs_change": 0.173095703125,
+   "fp16_rounding_max_abs": 0.0,
+   "unchanged_after_rounding": false
+  },
+  {
+   "name": "model.decoder.layers.3.self_attn.out_proj.weight",
+   "ggml": "decoder.blocks.3.attn.out.weight",
+   "shape": [
+    1280,
+    1280
+   ],
+   "rel_frobenius_change": 0.49899688363075256,
+   "max_abs_change": 0.132568359375,
+   "fp16_rounding_max_abs": 0.0,
+   "unchanged_after_rounding": false
+  },
+  {
+   "name": "model.decoder.layers.4.self_attn.out_proj.weight",
+   "ggml": "decoder.blocks.4.attn.out.weight",
+   "shape": [
+    1280,
+    1280
+   ],
+   "rel_frobenius_change": 0.4237441122531891,
+   "max_abs_change": 0.1798095703125,
+   "fp16_rounding_max_abs": 0.0,
+   "unchanged_after_rounding": false
+  },
+  {
+   "name": "model.decoder.layers.5.self_attn.out_proj.weight",
+   "ggml": "decoder.blocks.5.attn.out.weight",
+   "shape": [
+    1280,
+    1280
+   ],
+   "rel_frobenius_change": 0.29300329089164734,
+   "max_abs_change": 0.227294921875,
+   "fp16_rounding_max_abs": 0.0,
+   "unchanged_after_rounding": false
+  },
+  {
+   "name": "model.decoder.layers.6.self_attn.out_proj.weight",
+   "ggml": "decoder.blocks.6.attn.out.weight",
+   "shape": [
+    1280,
+    1280
+   ],
+   "rel_frobenius_change": 0.3475242853164673,
+   "max_abs_change": 0.1353759765625,
+   "fp16_rounding_max_abs": 0.0,
+   "unchanged_after_rounding": false
+  },
+  {
+   "name": "model.decoder.layers.7.self_attn.out_proj.weight",
+   "ggml": "decoder.blocks.7.attn.out.weight",
+   "shape": [
+    1280,
+    1280
+   ],
+   "rel_frobenius_change": 0.40627217292785645,
+   "max_abs_change": 0.09442138671875,
+   "fp16_rounding_max_abs": 0.0,
+   "unchanged_after_rounding": false
+  },
+  {
+   "name": "model.decoder.layers.8.self_attn.out_proj.weight",
+   "ggml": "decoder.blocks.8.attn.out.weight",
+   "shape": [
+    1280,
+    1280
+   ],
+   "rel_frobenius_change": 0.4008564054965973,
+   "max_abs_change": 0.07794189453125,
+   "fp16_rounding_max_abs": 0.0,
+   "unchanged_after_rounding": false
+  },
+  {
+   "name": "model.decoder.layers.9.self_attn.out_proj.weight",
+   "ggml": "decoder.blocks.9.attn.out.weight",
+   "shape": [
+    1280,
+    1280
+   ],
+   "rel_frobenius_change": 0.3752628564834595,
+   "max_abs_change": 0.073486328125,
+   "fp16_rounding_max_abs": 0.0,
+   "unchanged_after_rounding": false
+  },
+  {
+   "name": "model.decoder.layers.10.self_attn.out_proj.weight",
+   "ggml": "decoder.blocks.10.attn.out.weight",
+   "shape": [
+    1280,
+    1280
+   ],
+   "rel_frobenius_change": 0.3727323114871979,
+   "max_abs_change": 0.08587646484375,
+   "fp16_rounding_max_abs": 0.0,
+   "unchanged_after_rounding": false
+  },
+  {
+   "name": "model.decoder.layers.11.self_attn.out_proj.weight",
+   "ggml": "decoder.blocks.11.attn.out.weight",
+   "shape": [
+    1280,
+    1280
+   ],
+   "rel_frobenius_change": 0.38109290599823,
+   "max_abs_change": 0.10809326171875,
+   "fp16_rounding_max_abs": 0.0,
+   "unchanged_after_rounding": false
+  },
+  {
+   "name": "model.decoder.layers.12.self_attn.out_proj.weight",
+   "ggml": "decoder.blocks.12.attn.out.weight",
+   "shape": [
+    1280,
+    1280
+   ],
+   "rel_frobenius_change": 0.452299565076828,
+   "max_abs_change": 0.0865478515625,
+   "fp16_rounding_max_abs": 0.0,
+   "unchanged_after_rounding": false
+  },
+  {
+   "name": "model.decoder.layers.13.self_attn.out_proj.weight",
+   "ggml": "decoder.blocks.13.attn.out.weight",
+   "shape": [
+    1280,
+    1280
+   ],
+   "rel_frobenius_change": 0.5126035809516907,
+   "max_abs_change": 0.09173583984375,
+   "fp16_rounding_max_abs": 0.0,
+   "unchanged_after_rounding": false
+  },
+  {
+   "name": "model.decoder.layers.14.self_attn.out_proj.weight",
+   "ggml": "decoder.blocks.14.attn.out.weight",
+   "shape": [
+    1280,
+    1280
+   ],
+   "rel_frobenius_change": 0.3667735159397125,
+   "max_abs_change": 0.0714111328125,
+   "fp16_rounding_max_abs": 0.0,
+   "unchanged_after_rounding": false
+  },
+  {
+   "name": "model.decoder.layers.15.self_attn.out_proj.weight",
+   "ggml": "decoder.blocks.15.attn.out.weight",
+   "shape": [
+    1280,
+    1280
+   ],
+   "rel_frobenius_change": 0.44990888237953186,
+   "max_abs_change": 0.0836181640625,
+   "fp16_rounding_max_abs": 0.0,
+   "unchanged_after_rounding": false
+  },
+  {
+   "name": "model.decoder.layers.16.self_attn.out_proj.weight",
+   "ggml": "decoder.blocks.16.attn.out.weight",
+   "shape": [
+    1280,
+    1280
+   ],
+   "rel_frobenius_change": 0.3702714443206787,
+   "max_abs_change": 0.073974609375,
+   "fp16_rounding_max_abs": 0.0,
+   "unchanged_after_rounding": false
+  },
+  {
+   "name": "model.decoder.layers.17.self_attn.out_proj.weight",
+   "ggml": "decoder.blocks.17.attn.out.weight",
+   "shape": [
+    1280,
+    1280
+   ],
+   "rel_frobenius_change": 0.38322752714157104,
+   "max_abs_change": 0.09283447265625,
+   "fp16_rounding_max_abs": 0.0,
+   "unchanged_after_rounding": false
+  },
+  {
+   "name": "model.decoder.layers.18.self_attn.out_proj.weight",
+   "ggml": "decoder.blocks.18.attn.out.weight",
+   "shape": [
+    1280,
+    1280
+   ],
+   "rel_frobenius_change": 0.4476187229156494,
+   "max_abs_change": 0.083984375,
+   "fp16_rounding_max_abs": 0.0,
+   "unchanged_after_rounding": false
+  },
+  {
+   "name": "model.decoder.layers.19.self_attn.out_proj.weight",
+   "ggml": "decoder.blocks.19.attn.out.weight",
+   "shape": [
+    1280,
+    1280
+   ],
+   "rel_frobenius_change": 0.3630836606025696,
+   "max_abs_change": 0.16064453125,
+   "fp16_rounding_max_abs": 0.0,
+   "unchanged_after_rounding": false
+  },
+  {
+   "name": "model.decoder.layers.20.self_attn.out_proj.weight",
+   "ggml": "decoder.blocks.20.attn.out.weight",
+   "shape": [
+    1280,
+    1280
+   ],
+   "rel_frobenius_change": 0.3763672113418579,
+   "max_abs_change": 0.1658935546875,
+   "fp16_rounding_max_abs": 0.0,
+   "unchanged_after_rounding": false
+  },
+  {
+   "name": "model.decoder.layers.21.self_attn.out_proj.weight",
+   "ggml": "decoder.blocks.21.attn.out.weight",
+   "shape": [
+    1280,
+    1280
+   ],
+   "rel_frobenius_change": 0.4535580277442932,
+   "max_abs_change": 0.08087158203125,
+   "fp16_rounding_max_abs": 0.0,
+   "unchanged_after_rounding": false
+  },
+  {
+   "name": "model.decoder.layers.22.self_attn.out_proj.weight",
+   "ggml": "decoder.blocks.22.attn.out.weight",
+   "shape": [
+    1280,
+    1280
+   ],
+   "rel_frobenius_change": 0.3652688264846802,
+   "max_abs_change": 0.1370849609375,
+   "fp16_rounding_max_abs": 0.0,
+   "unchanged_after_rounding": false
+  },
+  {
+   "name": "model.decoder.layers.23.self_attn.out_proj.weight",
+   "ggml": "decoder.blocks.23.attn.out.weight",
+   "shape": [
+    1280,
+    1280
+   ],
+   "rel_frobenius_change": 0.4063994288444519,
+   "max_abs_change": 0.1414794921875,
+   "fp16_rounding_max_abs": 0.0,
+   "unchanged_after_rounding": false
+  },
+  {
+   "name": "model.decoder.layers.24.self_attn.out_proj.weight",
+   "ggml": "decoder.blocks.24.attn.out.weight",
+   "shape": [
+    1280,
+    1280
+   ],
+   "rel_frobenius_change": 0.47143393754959106,
+   "max_abs_change": 0.09271240234375,
+   "fp16_rounding_max_abs": 0.0,
+   "unchanged_after_rounding": false
+  },
+  {
+   "name": "model.decoder.layers.25.self_attn.out_proj.weight",
+   "ggml": "decoder.blocks.25.attn.out.weight",
+   "shape": [
+    1280,
+    1280
+   ],
+   "rel_frobenius_change": 0.5490555763244629,
+   "max_abs_change": 0.27099609375,
+   "fp16_rounding_max_abs": 0.0,
+   "unchanged_after_rounding": false
+  },
+  {
+   "name": "model.decoder.layers.26.self_attn.out_proj.weight",
+   "ggml": "decoder.blocks.26.attn.out.weight",
+   "shape": [
+    1280,
+    1280
+   ],
+   "rel_frobenius_change": 0.4059302508831024,
+   "max_abs_change": 0.1778564453125,
+   "fp16_rounding_max_abs": 0.0,
+   "unchanged_after_rounding": false
+  },
+  {
+   "name": "model.decoder.layers.27.self_attn.out_proj.weight",
+   "ggml": "decoder.blocks.27.attn.out.weight",
+   "shape": [
+    1280,
+    1280
+   ],
+   "rel_frobenius_change": 0.39091870188713074,
+   "max_abs_change": 0.08038330078125,
+   "fp16_rounding_max_abs": 0.0,
+   "unchanged_after_rounding": false
+  },
+  {
+   "name": "model.decoder.layers.28.self_attn.out_proj.weight",
+   "ggml": "decoder.blocks.28.attn.out.weight",
+   "shape": [
+    1280,
+    1280
+   ],
+   "rel_frobenius_change": 0.38840433955192566,
+   "max_abs_change": 0.07916259765625,
+   "fp16_rounding_max_abs": 0.0,
+   "unchanged_after_rounding": false
+  },
+  {
+   "name": "model.decoder.layers.29.self_attn.out_proj.weight",
+   "ggml": "decoder.blocks.29.attn.out.weight",
+   "shape": [
+    1280,
+    1280
+   ],
+   "rel_frobenius_change": 0.39163440465927124,
+   "max_abs_change": 0.142578125,
+   "fp16_rounding_max_abs": 0.0,
+   "unchanged_after_rounding": false
+  },
+  {
+   "name": "model.decoder.layers.30.self_attn.out_proj.weight",
+   "ggml": "decoder.blocks.30.attn.out.weight",
+   "shape": [
+    1280,
+    1280
+   ],
+   "rel_frobenius_change": 0.42221978306770325,
+   "max_abs_change": 0.0830078125,
+   "fp16_rounding_max_abs": 0.0,
+   "unchanged_after_rounding": false
+  },
+  {
+   "name": "model.decoder.layers.31.self_attn.out_proj.weight",
+   "ggml": "decoder.blocks.31.attn.out.weight",
+   "shape": [
+    1280,
+    1280
+   ],
+   "rel_frobenius_change": 0.35868239402770996,
+   "max_abs_change": 0.51171875,
+   "fp16_rounding_max_abs": 0.0,
+   "unchanged_after_rounding": false
+  }
+ ],
+ "n_tensors_touched": 32,
+ "safetensors_sha256": "050ce79ae52b8651735045ac2dd0ea6651be5254be70dc6d103cf1b59ce7735d",
+ "script": {
+  "path": "scripts/phase2_edit.py",
+  "sha256": "a503be8274c7e2f35f5d6c45ede660c00fa7c5ab854e37d045ef5aeca07048b0"
+ },
+ "built": "2026-11-08T22:09:22",
+ "ggml": {
+  "path": "models/ggml/edits/ggml-large-v3-E9-f16.bin",
+  "sha256": "0b1028903e453ff31bff39ee4880620e72269e2311dd5b82a3130d5258e050b4",
+  "bytes": 3095053647,
+  "verified_against_hf_fp16": {
+   "checked": 1259,
+   "touched": 32,
+   "touched_equal": 32,
+   "mismatches": [],
+   "touched_missing": [],
+   "ggml_tensors": 1259,
+   "hf_unmatched": []
+  }
+ }
+}

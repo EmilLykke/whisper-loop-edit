@@ -1,0 +1,72 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,170", "to": "00:00:30,170" },
+      "offsets":    { "from": 170, "to": 30170 },
+      "text":       " Planter laver oxygen, som mennesker inhalerer, og de optager koldioxid, som mennesker exhalerer, det vil sige udånder.",
+      "words": [
+        { "text": " Planter", "t0": 36, "t1": 209, "offsets": { "from": 360, "to": 2090 } },
+        { "text": " laver", "t0": 209, "t1": 346, "offsets": { "from": 2090, "to": 3460 } },
+        { "text": " oxygen,", "t0": 346, "t1": 565, "offsets": { "from": 3460, "to": 5650 } },
+        { "text": " som", "t0": 565, "t1": 618, "offsets": { "from": 5650, "to": 6180 } },
+        { "text": " mennesker", "t0": 659, "t1": 892, "offsets": { "from": 6590, "to": 8920 } },
+        { "text": " inhalerer,", "t0": 892, "t1": 1193, "offsets": { "from": 8920, "to": 11930 } },
+        { "text": " og", "t0": 1193, "t1": 1248, "offsets": { "from": 11930, "to": 12480 } },
+        { "text": " de", "t0": 1248, "t1": 1303, "offsets": { "from": 12480, "to": 13030 } },
+        { "text": " optager", "t0": 1303, "t1": 1469, "offsets": { "from": 13030, "to": 14690 } },
+        { "text": " koldioxid,", "t0": 1469, "t1": 1469, "offsets": { "from": 14690, "to": 14690 } },
+        { "text": " som", "t0": 1469, "t1": 1469, "offsets": { "from": 14690, "to": 14690 } },
+        { "text": " mennesker", "t0": 1469, "t1": 1469, "offsets": { "from": 14690, "to": 14690 } },
+        { "text": " exhalerer,", "t0": 1469, "t1": 1469, "offsets": { "from": 14690, "to": 14690 } },
+        { "text": " det", "t0": 1469, "t1": 1469, "offsets": { "from": 14690, "to": 14690 } },
+        { "text": " vil", "t0": 1469, "t1": 1469, "offsets": { "from": 14690, "to": 14690 } },
+        { "text": " sige", "t0": 1469, "t1": 1469, "offsets": { "from": 14690, "to": 14690 } },
+        { "text": " udånder.", "t0": 1469, "t1": 1469, "offsets": { "from": 14690, "to": 14690 } }
+      ],
+      "tokens": [
+        { "text": " Plan", "p": 0.677743, "t0": 36, "t1": 127, "offsets": { "from": 360, "to": 1270 } },
+        { "text": "ter", "p": 0.998751, "t0": 198, "t1": 209, "offsets": { "from": 1980, "to": 2090 } },
+        { "text": " la", "p": 0.98891, "t0": 209, "t1": 264, "offsets": { "from": 2090, "to": 2640 } },
+        { "text": "ver", "p": 0.982834, "t0": 264, "t1": 346, "offsets": { "from": 2640, "to": 3460 } },
+        { "text": " oxygen", "p": 0.42233, "t0": 346, "t1": 496, "offsets": { "from": 3460, "to": 4960 } },
+        { "text": ",", "p": 0.580785, "t0": 524, "t1": 565, "offsets": { "from": 5240, "to": 5650 } },
+        { "text": " som", "p": 0.831902, "t0": 565, "t1": 618, "offsets": { "from": 5650, "to": 6180 } },
+        { "text": " men", "p": 0.97013, "t0": 659, "t1": 729, "offsets": { "from": 6590, "to": 7290 } },
+        { "text": "nes", "p": 0.996079, "t0": 729, "t1": 811, "offsets": { "from": 7290, "to": 8110 } },
+        { "text": "ker", "p": 0.989721, "t0": 811, "t1": 892, "offsets": { "from": 8110, "to": 8920 } },
+        { "text": " inhal", "p": 0.997876, "t0": 892, "t1": 1030, "offsets": { "from": 8920, "to": 10300 } },
+        { "text": "erer", "p": 0.87843, "t0": 1030, "t1": 1046, "offsets": { "from": 10300, "to": 10460 } },
+        { "text": ",", "p": 0.583456, "t0": 1148, "t1": 1193, "offsets": { "from": 11480, "to": 11930 } },
+        { "text": " og", "p": 0.983982, "t0": 1193, "t1": 1248, "offsets": { "from": 11930, "to": 12480 } },
+        { "text": " de", "p": 0.948382, "t0": 1248, "t1": 1303, "offsets": { "from": 12480, "to": 13030 } },
+        { "text": " opt", "p": 0.974059, "t0": 1303, "t1": 1385, "offsets": { "from": 13030, "to": 13850 } },
+        { "text": "ager", "p": 0.991533, "t0": 1422, "t1": 1469, "offsets": { "from": 14220, "to": 14690 } },
+        { "text": " k", "p": 0.96147, "t0": 1469, "t1": 1469, "offsets": { "from": 14690, "to": 14690 } },
+        { "text": "old", "p": 0.906881, "t0": 1469, "t1": 1469, "offsets": { "from": 14690, "to": 14690 } },
+        { "text": "ioxid", "p": 0.956069, "t0": 1469, "t1": 1469, "offsets": { "from": 14690, "to": 14690 } },
+        { "text": ",", "p": 0.846314, "t0": 1469, "t1": 1469, "offsets": { "from": 14690, "to": 14690 } },
+        { "text": " som", "p": 0.988912, "t0": 1469, "t1": 1469, "offsets": { "from": 14690, "to": 14690 } },
+        { "text": " men", "p": 0.97141, "t0": 1469, "t1": 1469, "offsets": { "from": 14690, "to": 14690 } },
+        { "text": "nes", "p": 0.999296, "t0": 1469, "t1": 1469, "offsets": { "from": 14690, "to": 14690 } },
+        { "text": "ker", "p": 0.996816, "t0": 1469, "t1": 1469, "offsets": { "from": 14690, "to": 14690 } },
+        { "text": " ex", "p": 0.303751, "t0": 1469, "t1": 1469, "offsets": { "from": 14690, "to": 14690 } },
+        { "text": "hal", "p": 0.999479, "t0": 1469, "t1": 1469, "offsets": { "from": 14690, "to": 14690 } },
+        { "text": "erer", "p": 0.977733, "t0": 1469, "t1": 1469, "offsets": { "from": 14690, "to": 14690 } },
+        { "text": ",", "p": 0.737517, "t0": 1469, "t1": 1469, "offsets": { "from": 14690, "to": 14690 } },
+        { "text": " det", "p": 0.47703, "t0": 1469, "t1": 1469, "offsets": { "from": 14690, "to": 14690 } },
+        { "text": " vil", "p": 0.995091, "t0": 1469, "t1": 1469, "offsets": { "from": 14690, "to": 14690 } },
+        { "text": " s", "p": 0.997569, "t0": 1469, "t1": 1469, "offsets": { "from": 14690, "to": 14690 } },
+        { "text": "ige", "p": 0.999844, "t0": 1469, "t1": 1469, "offsets": { "from": 14690, "to": 14690 } },
+        { "text": " ud", "p": 0.955194, "t0": 1469, "t1": 1469, "offsets": { "from": 14690, "to": 14690 } },
+        { "text": "å", "p": 0.921309, "t0": 1469, "t1": 1469, "offsets": { "from": 14690, "to": 14690 } },
+        { "text": "nder", "p": 0.898803, "t0": 1469, "t1": 1469, "offsets": { "from": 14690, "to": 14690 } },
+        { "text": ".", "p": 0.920204, "t0": 1469, "t1": 1469, "offsets": { "from": 14690, "to": 14690 } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,450", "to": "00:00:30,450" },
+      "offsets":    { "from": 450, "to": 30450 },
+      "text":       " Jo mindre Rosby-tallet er, desto mindre aktiv er stjernen med hensyn til magnetiske vendinger.",
+      "words": [
+        { "text": " Jo", "t0": 65, "t1": 116, "offsets": { "from": 650, "to": 1160 } },
+        { "text": " mindre", "t0": 116, "t1": 329, "offsets": { "from": 1160, "to": 3290 } },
+        { "text": " Rosby-tallet", "t0": 329, "t1": 677, "offsets": { "from": 3290, "to": 6770 } },
+        { "text": " er,", "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " desto", "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " mindre", "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " aktiv", "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " er", "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " stjernen", "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " med", "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " hensyn", "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " til", "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " magnetiske", "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " vendinger.", "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } }
+      ],
+      "tokens": [
+        { "text": " Jo", "p": 0.841274, "t0": 65, "t1": 116, "offsets": { "from": 650, "to": 1160 } },
+        { "text": " mind", "p": 0.998098, "t0": 116, "t1": 222, "offsets": { "from": 1160, "to": 2220 } },
+        { "text": "re", "p": 0.995516, "t0": 259, "t1": 329, "offsets": { "from": 2590, "to": 3290 } },
+        { "text": " Ros", "p": 0.12951, "t0": 329, "t1": 436, "offsets": { "from": 3290, "to": 4360 } },
+        { "text": "by", "p": 0.976749, "t0": 436, "t1": 507, "offsets": { "from": 4360, "to": 5070 } },
+        { "text": "-", "p": 0.587903, "t0": 507, "t1": 540, "offsets": { "from": 5070, "to": 5400 } },
+        { "text": "t", "p": 0.895065, "t0": 544, "t1": 577, "offsets": { "from": 5440, "to": 5770 } },
+        { "text": "all", "p": 0.99617, "t0": 577, "t1": 663, "offsets": { "from": 5770, "to": 6630 } },
+        { "text": "et", "p": 0.999161, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " er", "p": 0.989842, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": ",", "p": 0.970123, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " dest", "p": 0.976397, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": "o", "p": 0.999634, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " mind", "p": 0.997565, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": "re", "p": 0.999165, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " aktiv", "p": 0.63724, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " er", "p": 0.975124, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " st", "p": 0.979316, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": "j", "p": 0.943811, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": "ernen", "p": 0.990476, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " med", "p": 0.862519, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " h", "p": 0.996928, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": "ens", "p": 0.998769, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": "yn", "p": 0.999815, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " til", "p": 0.996096, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " magnet", "p": 0.972856, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": "is", "p": 0.990647, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": "ke", "p": 0.999805, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " v", "p": 0.654912, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": "ending", "p": 0.806646, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": "er", "p": 0.998597, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": ".", "p": 0.933492, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } }
+      ]
+    }
+  ]
+}

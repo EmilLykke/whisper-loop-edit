@@ -1,0 +1,1 @@
+Apps til tekstoversættelse i realtid applikationer, som automatisk kan oversætte hele tekstdele fra et sprog til et andet.

@@ -1,0 +1,63 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,650", "to": "00:00:30,650" },
+      "offsets":    { "from": 650, "to": 30650 },
+      "text":       " Der er forskellige måder at rense vand på, hvor nogle er mere effektive mod specifikke trusler.",
+      "words": [
+        { "text": " Der", "t0": 65, "t1": 171, "offsets": { "from": 650, "to": 1710 } },
+        { "text": " er", "t0": 172, "t1": 241, "offsets": { "from": 1720, "to": 2410 } },
+        { "text": " forskellige", "t0": 241, "t1": 626, "offsets": { "from": 2410, "to": 6260 } },
+        { "text": " måder", "t0": 626, "t1": 809, "offsets": { "from": 6260, "to": 8090 } },
+        { "text": " at", "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " rense", "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " vand", "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " på,", "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " hvor", "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " nogle", "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " er", "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " mere", "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " effektive", "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " mod", "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " specifikke", "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " trusler.", "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } }
+      ],
+      "tokens": [
+        { "text": " Der", "p": 0.786718, "t0": 65, "t1": 171, "offsets": { "from": 650, "to": 1710 } },
+        { "text": " er", "p": 0.994107, "t0": 172, "t1": 241, "offsets": { "from": 1720, "to": 2410 } },
+        { "text": " fors", "p": 0.997725, "t0": 241, "t1": 359, "offsets": { "from": 2410, "to": 3590 } },
+        { "text": "kell", "p": 0.997423, "t0": 420, "t1": 515, "offsets": { "from": 4200, "to": 5150 } },
+        { "text": "ige", "p": 0.996107, "t0": 524, "t1": 626, "offsets": { "from": 5240, "to": 6260 } },
+        { "text": " må", "p": 0.996525, "t0": 626, "t1": 732, "offsets": { "from": 6260, "to": 7320 } },
+        { "text": "der", "p": 0.997322, "t0": 733, "t1": 809, "offsets": { "from": 7330, "to": 8090 } },
+        { "text": " at", "p": 0.973361, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " ren", "p": 0.968725, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": "se", "p": 0.999945, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " v", "p": 0.992629, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": "and", "p": 0.999285, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " på", "p": 0.992012, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": ",", "p": 0.817693, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " hvor", "p": 0.967772, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " nogle", "p": 0.691807, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " er", "p": 0.985923, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " mere", "p": 0.989478, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " eff", "p": 0.996875, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": "ekt", "p": 0.999033, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": "ive", "p": 0.995628, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " mod", "p": 0.953857, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " spec", "p": 0.995456, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": "if", "p": 0.993828, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": "ikke", "p": 0.999178, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " tr", "p": 0.994602, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": "us", "p": 0.996552, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": "ler", "p": 0.999601, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": ".", "p": 0.951501, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } }
+      ]
+    }
+  ]
+}

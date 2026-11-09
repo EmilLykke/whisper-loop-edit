@@ -1,0 +1,69 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,660", "to": "00:00:30,660" },
+      "offsets":    { "from": 660, "to": 30660 },
+      "text":       " En smitsom sygdom er forårsaget af et patogen, såsom en virus, bakterie, svamp eller andre parasitter.",
+      "words": [
+        { "text": " En", "t0": 87, "t1": 130, "offsets": { "from": 870, "to": 1300 } },
+        { "text": " smitsom", "t0": 130, "t1": 352, "offsets": { "from": 1300, "to": 3520 } },
+        { "text": " sygdom", "t0": 352, "t1": 526, "offsets": { "from": 3520, "to": 5260 } },
+        { "text": " er", "t0": 550, "t1": 605, "offsets": { "from": 5500, "to": 6050 } },
+        { "text": " forårsaget", "t0": 605, "t1": 838, "offsets": { "from": 6050, "to": 8380 } },
+        { "text": " af", "t0": 838, "t1": 838, "offsets": { "from": 8380, "to": 8380 } },
+        { "text": " et", "t0": 838, "t1": 838, "offsets": { "from": 8380, "to": 8380 } },
+        { "text": " patogen,", "t0": 838, "t1": 838, "offsets": { "from": 8380, "to": 8380 } },
+        { "text": " såsom", "t0": 838, "t1": 838, "offsets": { "from": 8380, "to": 8380 } },
+        { "text": " en", "t0": 838, "t1": 838, "offsets": { "from": 8380, "to": 8380 } },
+        { "text": " virus,", "t0": 838, "t1": 838, "offsets": { "from": 8380, "to": 8380 } },
+        { "text": " bakterie,", "t0": 838, "t1": 838, "offsets": { "from": 8380, "to": 8380 } },
+        { "text": " svamp", "t0": 838, "t1": 838, "offsets": { "from": 8380, "to": 8380 } },
+        { "text": " eller", "t0": 838, "t1": 838, "offsets": { "from": 8380, "to": 8380 } },
+        { "text": " andre", "t0": 838, "t1": 838, "offsets": { "from": 8380, "to": 8380 } },
+        { "text": " parasitter.", "t0": 838, "t1": 838, "offsets": { "from": 8380, "to": 8380 } }
+      ],
+      "tokens": [
+        { "text": " En", "p": 0.975487, "t0": 87, "t1": 130, "offsets": { "from": 870, "to": 1300 } },
+        { "text": " sm", "p": 0.994516, "t0": 130, "t1": 192, "offsets": { "from": 1300, "to": 1920 } },
+        { "text": "its", "p": 0.929168, "t0": 194, "t1": 278, "offsets": { "from": 1940, "to": 2780 } },
+        { "text": "om", "p": 0.997615, "t0": 289, "t1": 352, "offsets": { "from": 2890, "to": 3520 } },
+        { "text": " sy", "p": 0.993561, "t0": 352, "t1": 401, "offsets": { "from": 3520, "to": 4010 } },
+        { "text": "g", "p": 0.99951, "t0": 416, "t1": 447, "offsets": { "from": 4160, "to": 4470 } },
+        { "text": "dom", "p": 0.997223, "t0": 447, "t1": 526, "offsets": { "from": 4470, "to": 5260 } },
+        { "text": " er", "p": 0.983226, "t0": 550, "t1": 605, "offsets": { "from": 5500, "to": 6050 } },
+        { "text": " for", "p": 0.947593, "t0": 605, "t1": 701, "offsets": { "from": 6050, "to": 7010 } },
+        { "text": "år", "p": 0.933688, "t0": 701, "t1": 794, "offsets": { "from": 7010, "to": 7940 } },
+        { "text": "s", "p": 0.996848, "t0": 794, "t1": 827, "offsets": { "from": 7940, "to": 8270 } },
+        { "text": "ag", "p": 0.971449, "t0": 827, "t1": 838, "offsets": { "from": 8270, "to": 8380 } },
+        { "text": "et", "p": 0.999174, "t0": 838, "t1": 838, "offsets": { "from": 8380, "to": 8380 } },
+        { "text": " af", "p": 0.996409, "t0": 838, "t1": 838, "offsets": { "from": 8380, "to": 8380 } },
+        { "text": " et", "p": 0.987455, "t0": 838, "t1": 838, "offsets": { "from": 8380, "to": 8380 } },
+        { "text": " pat", "p": 0.647027, "t0": 838, "t1": 838, "offsets": { "from": 8380, "to": 8380 } },
+        { "text": "ogen", "p": 0.996976, "t0": 838, "t1": 838, "offsets": { "from": 8380, "to": 8380 } },
+        { "text": ",", "p": 0.679329, "t0": 838, "t1": 838, "offsets": { "from": 8380, "to": 8380 } },
+        { "text": " så", "p": 0.855691, "t0": 838, "t1": 838, "offsets": { "from": 8380, "to": 8380 } },
+        { "text": "som", "p": 0.962069, "t0": 838, "t1": 838, "offsets": { "from": 8380, "to": 8380 } },
+        { "text": " en", "p": 0.844621, "t0": 838, "t1": 838, "offsets": { "from": 8380, "to": 8380 } },
+        { "text": " virus", "p": 0.997916, "t0": 838, "t1": 838, "offsets": { "from": 8380, "to": 8380 } },
+        { "text": ",", "p": 0.986416, "t0": 838, "t1": 838, "offsets": { "from": 8380, "to": 8380 } },
+        { "text": " bak", "p": 0.962542, "t0": 838, "t1": 838, "offsets": { "from": 8380, "to": 8380 } },
+        { "text": "ter", "p": 0.997765, "t0": 838, "t1": 838, "offsets": { "from": 8380, "to": 8380 } },
+        { "text": "ie", "p": 0.969566, "t0": 838, "t1": 838, "offsets": { "from": 8380, "to": 8380 } },
+        { "text": ",", "p": 0.98759, "t0": 838, "t1": 838, "offsets": { "from": 8380, "to": 8380 } },
+        { "text": " sv", "p": 0.981728, "t0": 838, "t1": 838, "offsets": { "from": 8380, "to": 8380 } },
+        { "text": "amp", "p": 0.994721, "t0": 838, "t1": 838, "offsets": { "from": 8380, "to": 8380 } },
+        { "text": " eller", "p": 0.957463, "t0": 838, "t1": 838, "offsets": { "from": 8380, "to": 8380 } },
+        { "text": " and", "p": 0.982431, "t0": 838, "t1": 838, "offsets": { "from": 8380, "to": 8380 } },
+        { "text": "re", "p": 0.998485, "t0": 838, "t1": 838, "offsets": { "from": 8380, "to": 8380 } },
+        { "text": " paras", "p": 0.991811, "t0": 838, "t1": 838, "offsets": { "from": 8380, "to": 8380 } },
+        { "text": "itter", "p": 0.9926, "t0": 838, "t1": 838, "offsets": { "from": 8380, "to": 8380 } },
+        { "text": ".", "p": 0.936349, "t0": 838, "t1": 838, "offsets": { "from": 8380, "to": 8380 } }
+      ]
+    }
+  ]
+}

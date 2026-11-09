@@ -1,0 +1,46 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,000", "to": "00:00:30,000" },
+      "offsets":    { "from": 0, "to": 30000 },
+      "text":       " Du skal se skidruten, som var en lignende vandrute.",
+      "words": [
+        { "text": " Du", "t0": 64, "t1": 130, "offsets": { "from": 640, "to": 1300 } },
+        { "text": " skal", "t0": 130, "t1": 391, "offsets": { "from": 1300, "to": 3910 } },
+        { "text": " se", "t0": 391, "t1": 418, "offsets": { "from": 3910, "to": 4180 } },
+        { "text": " skidruten,", "t0": 519, "t1": 588, "offsets": { "from": 5190, "to": 5880 } },
+        { "text": " som", "t0": 588, "t1": 588, "offsets": { "from": 5880, "to": 5880 } },
+        { "text": " var", "t0": 588, "t1": 588, "offsets": { "from": 5880, "to": 5880 } },
+        { "text": " en", "t0": 588, "t1": 588, "offsets": { "from": 5880, "to": 5880 } },
+        { "text": " lignende", "t0": 588, "t1": 588, "offsets": { "from": 5880, "to": 5880 } },
+        { "text": " vandrute.", "t0": 588, "t1": 588, "offsets": { "from": 5880, "to": 5880 } }
+      ],
+      "tokens": [
+        { "text": " Du", "p": 0.860475, "t0": 64, "t1": 130, "offsets": { "from": 640, "to": 1300 } },
+        { "text": " skal", "p": 0.947083, "t0": 130, "t1": 391, "offsets": { "from": 1300, "to": 3910 } },
+        { "text": " se", "p": 0.975751, "t0": 391, "t1": 418, "offsets": { "from": 3910, "to": 4180 } },
+        { "text": " sk", "p": 0.89157, "t0": 519, "t1": 588, "offsets": { "from": 5190, "to": 5880 } },
+        { "text": "id", "p": 0.664513, "t0": 588, "t1": 588, "offsets": { "from": 5880, "to": 5880 } },
+        { "text": "r", "p": 0.389015, "t0": 588, "t1": 588, "offsets": { "from": 5880, "to": 5880 } },
+        { "text": "uten", "p": 0.980153, "t0": 588, "t1": 588, "offsets": { "from": 5880, "to": 5880 } },
+        { "text": ",", "p": 0.419297, "t0": 588, "t1": 588, "offsets": { "from": 5880, "to": 5880 } },
+        { "text": " som", "p": 0.97429, "t0": 588, "t1": 588, "offsets": { "from": 5880, "to": 5880 } },
+        { "text": " var", "p": 0.683953, "t0": 588, "t1": 588, "offsets": { "from": 5880, "to": 5880 } },
+        { "text": " en", "p": 0.647658, "t0": 588, "t1": 588, "offsets": { "from": 5880, "to": 5880 } },
+        { "text": " l", "p": 0.887639, "t0": 588, "t1": 588, "offsets": { "from": 5880, "to": 5880 } },
+        { "text": "ign", "p": 0.992564, "t0": 588, "t1": 588, "offsets": { "from": 5880, "to": 5880 } },
+        { "text": "ende", "p": 0.997067, "t0": 588, "t1": 588, "offsets": { "from": 5880, "to": 5880 } },
+        { "text": " v", "p": 0.979197, "t0": 588, "t1": 588, "offsets": { "from": 5880, "to": 5880 } },
+        { "text": "and", "p": 0.992953, "t0": 588, "t1": 588, "offsets": { "from": 5880, "to": 5880 } },
+        { "text": "r", "p": 0.94467, "t0": 588, "t1": 588, "offsets": { "from": 5880, "to": 5880 } },
+        { "text": "ute", "p": 0.995008, "t0": 588, "t1": 588, "offsets": { "from": 5880, "to": 5880 } },
+        { "text": ".", "p": 0.899969, "t0": 588, "t1": 588, "offsets": { "from": 5880, "to": 5880 } }
+      ]
+    }
+  ]
+}

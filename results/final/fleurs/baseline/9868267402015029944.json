@@ -1,0 +1,49 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,210", "to": "00:00:30,210" },
+      "offsets":    { "from": 210, "to": 30210 },
+      "text":       " Brand og redningspersonale slukkede omsiderbranden kl. 11.35 pm.",
+      "words": [
+        { "text": " Brand", "t0": 43, "t1": 230, "offsets": { "from": 430, "to": 2300 } },
+        { "text": " og", "t0": 231, "t1": 316, "offsets": { "from": 2310, "to": 3160 } },
+        { "text": " redningspersonale", "t0": 316, "t1": 489, "offsets": { "from": 3160, "to": 4890 } },
+        { "text": " slukkede", "t0": 489, "t1": 489, "offsets": { "from": 4890, "to": 4890 } },
+        { "text": " omsiderbranden", "t0": 489, "t1": 489, "offsets": { "from": 4890, "to": 4890 } },
+        { "text": " kl.", "t0": 489, "t1": 489, "offsets": { "from": 4890, "to": 4890 } },
+        { "text": " 11.35", "t0": 489, "t1": 489, "offsets": { "from": 4890, "to": 4890 } },
+        { "text": " pm.", "t0": 489, "t1": 489, "offsets": { "from": 4890, "to": 4890 } }
+      ],
+      "tokens": [
+        { "text": " Brand", "p": 0.609906, "t0": 43, "t1": 230, "offsets": { "from": 430, "to": 2300 } },
+        { "text": " og", "p": 0.603804, "t0": 231, "t1": 316, "offsets": { "from": 2310, "to": 3160 } },
+        { "text": " red", "p": 0.936652, "t0": 316, "t1": 443, "offsets": { "from": 3160, "to": 4430 } },
+        { "text": "ning", "p": 0.996624, "t0": 443, "t1": 465, "offsets": { "from": 4430, "to": 4650 } },
+        { "text": "sp", "p": 0.993049, "t0": 489, "t1": 489, "offsets": { "from": 4890, "to": 4890 } },
+        { "text": "erson", "p": 0.994319, "t0": 489, "t1": 489, "offsets": { "from": 4890, "to": 4890 } },
+        { "text": "ale", "p": 0.557872, "t0": 489, "t1": 489, "offsets": { "from": 4890, "to": 4890 } },
+        { "text": " sl", "p": 0.934194, "t0": 489, "t1": 489, "offsets": { "from": 4890, "to": 4890 } },
+        { "text": "uk", "p": 0.997122, "t0": 489, "t1": 489, "offsets": { "from": 4890, "to": 4890 } },
+        { "text": "k", "p": 0.46469, "t0": 489, "t1": 489, "offsets": { "from": 4890, "to": 4890 } },
+        { "text": "ede", "p": 0.999009, "t0": 489, "t1": 489, "offsets": { "from": 4890, "to": 4890 } },
+        { "text": " o", "p": 0.658535, "t0": 489, "t1": 489, "offsets": { "from": 4890, "to": 4890 } },
+        { "text": "ms", "p": 0.974864, "t0": 489, "t1": 489, "offsets": { "from": 4890, "to": 4890 } },
+        { "text": "ider", "p": 0.464378, "t0": 489, "t1": 489, "offsets": { "from": 4890, "to": 4890 } },
+        { "text": "brand", "p": 0.756427, "t0": 489, "t1": 489, "offsets": { "from": 4890, "to": 4890 } },
+        { "text": "en", "p": 0.975059, "t0": 489, "t1": 489, "offsets": { "from": 4890, "to": 4890 } },
+        { "text": " kl", "p": 0.99111, "t0": 489, "t1": 489, "offsets": { "from": 4890, "to": 4890 } },
+        { "text": ".", "p": 0.778851, "t0": 489, "t1": 489, "offsets": { "from": 4890, "to": 4890 } },
+        { "text": " 11", "p": 0.969623, "t0": 489, "t1": 489, "offsets": { "from": 4890, "to": 4890 } },
+        { "text": ".", "p": 0.95866, "t0": 489, "t1": 489, "offsets": { "from": 4890, "to": 4890 } },
+        { "text": "35", "p": 0.990127, "t0": 489, "t1": 489, "offsets": { "from": 4890, "to": 4890 } },
+        { "text": " pm", "p": 0.581251, "t0": 489, "t1": 489, "offsets": { "from": 4890, "to": 4890 } },
+        { "text": ".", "p": 0.851598, "t0": 489, "t1": 489, "offsets": { "from": 4890, "to": 4890 } }
+      ]
+    }
+  ]
+}

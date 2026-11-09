@@ -1,0 +1,49 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,170", "to": "00:00:30,170" },
+      "offsets":    { "from": 170, "to": 30170 },
+      "text":       " Derfor var blyanten en god ven for de fleste, da den ankom.",
+      "words": [
+        { "text": " Derfor", "t0": 170, "t1": 361, "offsets": { "from": 1700, "to": 3610 } },
+        { "text": " var", "t0": 376, "t1": 481, "offsets": { "from": 3760, "to": 4810 } },
+        { "text": " blyanten", "t0": 562, "t1": 743, "offsets": { "from": 5620, "to": 7430 } },
+        { "text": " en", "t0": 743, "t1": 743, "offsets": { "from": 7430, "to": 7430 } },
+        { "text": " god", "t0": 743, "t1": 743, "offsets": { "from": 7430, "to": 7430 } },
+        { "text": " ven", "t0": 743, "t1": 743, "offsets": { "from": 7430, "to": 7430 } },
+        { "text": " for", "t0": 743, "t1": 743, "offsets": { "from": 7430, "to": 7430 } },
+        { "text": " de", "t0": 743, "t1": 743, "offsets": { "from": 7430, "to": 7430 } },
+        { "text": " fleste,", "t0": 743, "t1": 743, "offsets": { "from": 7430, "to": 7430 } },
+        { "text": " da", "t0": 743, "t1": 743, "offsets": { "from": 7430, "to": 7430 } },
+        { "text": " den", "t0": 743, "t1": 743, "offsets": { "from": 7430, "to": 7430 } },
+        { "text": " ankom.", "t0": 743, "t1": 743, "offsets": { "from": 7430, "to": 7430 } }
+      ],
+      "tokens": [
+        { "text": " Der", "p": 0.521179, "t0": 170, "t1": 193, "offsets": { "from": 1700, "to": 1930 } },
+        { "text": "for", "p": 0.986568, "t0": 196, "t1": 361, "offsets": { "from": 1960, "to": 3610 } },
+        { "text": " var", "p": 0.986974, "t0": 376, "t1": 481, "offsets": { "from": 3760, "to": 4810 } },
+        { "text": " b", "p": 0.702472, "t0": 562, "t1": 592, "offsets": { "from": 5620, "to": 5920 } },
+        { "text": "ly", "p": 0.992252, "t0": 608, "t1": 720, "offsets": { "from": 6080, "to": 7200 } },
+        { "text": "anten", "p": 0.983316, "t0": 729, "t1": 743, "offsets": { "from": 7290, "to": 7430 } },
+        { "text": " en", "p": 0.950994, "t0": 743, "t1": 743, "offsets": { "from": 7430, "to": 7430 } },
+        { "text": " god", "p": 0.943816, "t0": 743, "t1": 743, "offsets": { "from": 7430, "to": 7430 } },
+        { "text": " ven", "p": 0.986481, "t0": 743, "t1": 743, "offsets": { "from": 7430, "to": 7430 } },
+        { "text": " for", "p": 0.912245, "t0": 743, "t1": 743, "offsets": { "from": 7430, "to": 7430 } },
+        { "text": " de", "p": 0.968952, "t0": 743, "t1": 743, "offsets": { "from": 7430, "to": 7430 } },
+        { "text": " fl", "p": 0.992619, "t0": 743, "t1": 743, "offsets": { "from": 7430, "to": 7430 } },
+        { "text": "este", "p": 0.984318, "t0": 743, "t1": 743, "offsets": { "from": 7430, "to": 7430 } },
+        { "text": ",", "p": 0.583709, "t0": 743, "t1": 743, "offsets": { "from": 7430, "to": 7430 } },
+        { "text": " da", "p": 0.980574, "t0": 743, "t1": 743, "offsets": { "from": 7430, "to": 7430 } },
+        { "text": " den", "p": 0.994446, "t0": 743, "t1": 743, "offsets": { "from": 7430, "to": 7430 } },
+        { "text": " an", "p": 0.853701, "t0": 743, "t1": 743, "offsets": { "from": 7430, "to": 7430 } },
+        { "text": "kom", "p": 0.989599, "t0": 743, "t1": 743, "offsets": { "from": 7430, "to": 7430 } },
+        { "text": ".", "p": 0.895884, "t0": 743, "t1": 743, "offsets": { "from": 7430, "to": 7430 } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E6-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,340", "to": "00:00:30,340" },
+      "offsets":    { "from": 340, "to": 30340 },
+      "text":       " Hovedparten af fjernsyn er lavet på en måde, der fungerer for de fleste.",
+      "words": [
+        { "text": " Hovedparten", "t0": 34, "t1": 538, "offsets": { "from": 340, "to": 5380 } },
+        { "text": " af", "t0": 540, "t1": 623, "offsets": { "from": 5400, "to": 6230 } },
+        { "text": " fjernsyn", "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " er", "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " lavet", "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " på", "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " en", "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " måde,", "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " der", "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " fungerer", "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " for", "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " de", "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " fleste.", "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } }
+      ],
+      "tokens": [
+        { "text": " Ho", "p": 0.956312, "t0": 34, "t1": 126, "offsets": { "from": 340, "to": 1260 } },
+        { "text": "ved", "p": 0.999714, "t0": 155, "t1": 263, "offsets": { "from": 1550, "to": 2630 } },
+        { "text": "part", "p": 0.996945, "t0": 267, "t1": 441, "offsets": { "from": 2670, "to": 4410 } },
+        { "text": "en", "p": 0.989062, "t0": 448, "t1": 538, "offsets": { "from": 4480, "to": 5380 } },
+        { "text": " af", "p": 0.981837, "t0": 540, "t1": 623, "offsets": { "from": 5400, "to": 6230 } },
+        { "text": " f", "p": 0.969292, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": "j", "p": 0.998521, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": "ern", "p": 0.999659, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": "s", "p": 0.999438, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": "yn", "p": 0.999535, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " er", "p": 0.880233, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " la", "p": 0.991134, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": "vet", "p": 0.999466, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " på", "p": 0.990221, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " en", "p": 0.989606, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " må", "p": 0.996548, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": "de", "p": 0.9979, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": ",", "p": 0.545588, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " der", "p": 0.954203, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " fun", "p": 0.996818, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": "ger", "p": 0.990883, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": "er", "p": 0.999582, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " for", "p": 0.992841, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " de", "p": 0.995849, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " fl", "p": 0.999571, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": "este", "p": 0.995169, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": ".", "p": 0.944874, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } }
+      ]
+    }
+  ]
+}

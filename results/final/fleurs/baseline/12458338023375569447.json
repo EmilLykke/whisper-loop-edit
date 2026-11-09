@@ -1,0 +1,54 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,970", "to": "00:00:30,970" },
+      "offsets":    { "from": 970, "to": 30970 },
+      "text":       " Lever er de mest sociale kattedyr og lever i store grupper, kaldet slokke.",
+      "words": [
+        { "text": " Lever", "t0": 120, "t1": 327, "offsets": { "from": 1200, "to": 3270 } },
+        { "text": " er", "t0": 327, "t1": 419, "offsets": { "from": 3270, "to": 4190 } },
+        { "text": " de", "t0": 419, "t1": 511, "offsets": { "from": 4190, "to": 5110 } },
+        { "text": " mest", "t0": 511, "t1": 533, "offsets": { "from": 5110, "to": 5330 } },
+        { "text": " sociale", "t0": 552, "t1": 552, "offsets": { "from": 5520, "to": 5520 } },
+        { "text": " kattedyr", "t0": 552, "t1": 552, "offsets": { "from": 5520, "to": 5520 } },
+        { "text": " og", "t0": 552, "t1": 552, "offsets": { "from": 5520, "to": 5520 } },
+        { "text": " lever", "t0": 552, "t1": 552, "offsets": { "from": 5520, "to": 5520 } },
+        { "text": " i", "t0": 552, "t1": 552, "offsets": { "from": 5520, "to": 5520 } },
+        { "text": " store", "t0": 552, "t1": 552, "offsets": { "from": 5520, "to": 5520 } },
+        { "text": " grupper,", "t0": 552, "t1": 552, "offsets": { "from": 5520, "to": 5520 } },
+        { "text": " kaldet", "t0": 552, "t1": 552, "offsets": { "from": 5520, "to": 5520 } },
+        { "text": " slokke.", "t0": 552, "t1": 552, "offsets": { "from": 5520, "to": 5520 } }
+      ],
+      "tokens": [
+        { "text": " L", "p": 0.744412, "t0": 120, "t1": 143, "offsets": { "from": 1200, "to": 1430 } },
+        { "text": "ever", "p": 0.374022, "t0": 143, "t1": 327, "offsets": { "from": 1430, "to": 3270 } },
+        { "text": " er", "p": 0.891684, "t0": 327, "t1": 419, "offsets": { "from": 3270, "to": 4190 } },
+        { "text": " de", "p": 0.83949, "t0": 419, "t1": 511, "offsets": { "from": 4190, "to": 5110 } },
+        { "text": " mest", "p": 0.964976, "t0": 511, "t1": 533, "offsets": { "from": 5110, "to": 5330 } },
+        { "text": " sociale", "p": 0.987505, "t0": 552, "t1": 552, "offsets": { "from": 5520, "to": 5520 } },
+        { "text": " k", "p": 0.973342, "t0": 552, "t1": 552, "offsets": { "from": 5520, "to": 5520 } },
+        { "text": "atted", "p": 0.840902, "t0": 552, "t1": 552, "offsets": { "from": 5520, "to": 5520 } },
+        { "text": "yr", "p": 0.997716, "t0": 552, "t1": 552, "offsets": { "from": 5520, "to": 5520 } },
+        { "text": " og", "p": 0.677878, "t0": 552, "t1": 552, "offsets": { "from": 5520, "to": 5520 } },
+        { "text": " lever", "p": 0.993068, "t0": 552, "t1": 552, "offsets": { "from": 5520, "to": 5520 } },
+        { "text": " i", "p": 0.994406, "t0": 552, "t1": 552, "offsets": { "from": 5520, "to": 5520 } },
+        { "text": " store", "p": 0.90506, "t0": 552, "t1": 552, "offsets": { "from": 5520, "to": 5520 } },
+        { "text": " gr", "p": 0.943174, "t0": 552, "t1": 552, "offsets": { "from": 5520, "to": 5520 } },
+        { "text": "u", "p": 0.99947, "t0": 552, "t1": 552, "offsets": { "from": 5520, "to": 5520 } },
+        { "text": "pper", "p": 0.999928, "t0": 552, "t1": 552, "offsets": { "from": 5520, "to": 5520 } },
+        { "text": ",", "p": 0.487507, "t0": 552, "t1": 552, "offsets": { "from": 5520, "to": 5520 } },
+        { "text": " kald", "p": 0.833781, "t0": 552, "t1": 552, "offsets": { "from": 5520, "to": 5520 } },
+        { "text": "et", "p": 0.867171, "t0": 552, "t1": 552, "offsets": { "from": 5520, "to": 5520 } },
+        { "text": " sl", "p": 0.616054, "t0": 552, "t1": 552, "offsets": { "from": 5520, "to": 5520 } },
+        { "text": "ok", "p": 0.382387, "t0": 552, "t1": 552, "offsets": { "from": 5520, "to": 5520 } },
+        { "text": "ke", "p": 0.987637, "t0": 552, "t1": 552, "offsets": { "from": 5520, "to": 5520 } },
+        { "text": ".", "p": 0.948503, "t0": 552, "t1": 552, "offsets": { "from": 5520, "to": 5520 } }
+      ]
+    }
+  ]
+}

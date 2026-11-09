@@ -1,0 +1,71 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,170", "to": "00:00:30,170" },
+      "offsets":    { "from": 170, "to": 30170 },
+      "text":       " Og jeg står til at lade synspunkter om alle videnskabelige anlægner, inklusive psykologi, blive accepteret.",
+      "words": [
+        { "text": " Og", "t0": 36, "t1": 77, "offsets": { "from": 360, "to": 770 } },
+        { "text": " jeg", "t0": 168, "t1": 168, "offsets": { "from": 1680, "to": 1680 } },
+        { "text": " står", "t0": 172, "t1": 319, "offsets": { "from": 1720, "to": 3190 } },
+        { "text": " til", "t0": 319, "t1": 410, "offsets": { "from": 3190, "to": 4100 } },
+        { "text": " at", "t0": 410, "t1": 463, "offsets": { "from": 4100, "to": 4630 } },
+        { "text": " lade", "t0": 474, "t1": 590, "offsets": { "from": 4740, "to": 5900 } },
+        { "text": " synspunkter", "t0": 590, "t1": 921, "offsets": { "from": 5900, "to": 9210 } },
+        { "text": " om", "t0": 921, "t1": 981, "offsets": { "from": 9210, "to": 9810 } },
+        { "text": " alle", "t0": 981, "t1": 983, "offsets": { "from": 9810, "to": 9830 } },
+        { "text": " videnskabelige", "t0": 983, "t1": 983, "offsets": { "from": 9830, "to": 9830 } },
+        { "text": " anlægner,", "t0": 983, "t1": 983, "offsets": { "from": 9830, "to": 9830 } },
+        { "text": " inklusive", "t0": 983, "t1": 983, "offsets": { "from": 9830, "to": 9830 } },
+        { "text": " psykologi,", "t0": 983, "t1": 983, "offsets": { "from": 9830, "to": 9830 } },
+        { "text": " blive", "t0": 983, "t1": 983, "offsets": { "from": 9830, "to": 9830 } },
+        { "text": " accepteret.", "t0": 983, "t1": 983, "offsets": { "from": 9830, "to": 9830 } }
+      ],
+      "tokens": [
+        { "text": " Og", "p": 0.353088, "t0": 36, "t1": 77, "offsets": { "from": 360, "to": 770 } },
+        { "text": " jeg", "p": 0.726757, "t0": 168, "t1": 168, "offsets": { "from": 1680, "to": 1680 } },
+        { "text": " står", "p": 0.722073, "t0": 172, "t1": 319, "offsets": { "from": 1720, "to": 3190 } },
+        { "text": " til", "p": 0.974883, "t0": 319, "t1": 410, "offsets": { "from": 3190, "to": 4100 } },
+        { "text": " at", "p": 0.559436, "t0": 410, "t1": 463, "offsets": { "from": 4100, "to": 4630 } },
+        { "text": " l", "p": 0.243824, "t0": 474, "t1": 500, "offsets": { "from": 4740, "to": 5000 } },
+        { "text": "ade", "p": 0.998868, "t0": 500, "t1": 590, "offsets": { "from": 5000, "to": 5900 } },
+        { "text": " sy", "p": 0.895034, "t0": 590, "t1": 650, "offsets": { "from": 5900, "to": 6500 } },
+        { "text": "ns", "p": 0.990873, "t0": 650, "t1": 703, "offsets": { "from": 6500, "to": 7030 } },
+        { "text": "punk", "p": 0.987607, "t0": 703, "t1": 811, "offsets": { "from": 7030, "to": 8110 } },
+        { "text": "ter", "p": 0.996978, "t0": 811, "t1": 921, "offsets": { "from": 8110, "to": 9210 } },
+        { "text": " om", "p": 0.96661, "t0": 921, "t1": 981, "offsets": { "from": 9210, "to": 9810 } },
+        { "text": " alle", "p": 0.971486, "t0": 981, "t1": 983, "offsets": { "from": 9810, "to": 9830 } },
+        { "text": " vid", "p": 0.978851, "t0": 983, "t1": 983, "offsets": { "from": 9830, "to": 9830 } },
+        { "text": "ens", "p": 0.99934, "t0": 983, "t1": 983, "offsets": { "from": 9830, "to": 9830 } },
+        { "text": "k", "p": 0.998639, "t0": 983, "t1": 983, "offsets": { "from": 9830, "to": 9830 } },
+        { "text": "abel", "p": 0.995927, "t0": 983, "t1": 983, "offsets": { "from": 9830, "to": 9830 } },
+        { "text": "ige", "p": 0.992754, "t0": 983, "t1": 983, "offsets": { "from": 9830, "to": 9830 } },
+        { "text": " an", "p": 0.991785, "t0": 983, "t1": 983, "offsets": { "from": 9830, "to": 9830 } },
+        { "text": "l", "p": 0.995984, "t0": 983, "t1": 983, "offsets": { "from": 9830, "to": 9830 } },
+        { "text": "æ", "p": 0.995431, "t0": 983, "t1": 983, "offsets": { "from": 9830, "to": 9830 } },
+        { "text": "g", "p": 0.89734, "t0": 983, "t1": 983, "offsets": { "from": 9830, "to": 9830 } },
+        { "text": "ner", "p": 0.365815, "t0": 983, "t1": 983, "offsets": { "from": 9830, "to": 9830 } },
+        { "text": ",", "p": 0.490089, "t0": 983, "t1": 983, "offsets": { "from": 9830, "to": 9830 } },
+        { "text": " ink", "p": 0.970484, "t0": 983, "t1": 983, "offsets": { "from": 9830, "to": 9830 } },
+        { "text": "lusive", "p": 0.759054, "t0": 983, "t1": 983, "offsets": { "from": 9830, "to": 9830 } },
+        { "text": " psy", "p": 0.983772, "t0": 983, "t1": 983, "offsets": { "from": 9830, "to": 9830 } },
+        { "text": "k", "p": 0.999861, "t0": 983, "t1": 983, "offsets": { "from": 9830, "to": 9830 } },
+        { "text": "olog", "p": 0.99938, "t0": 983, "t1": 983, "offsets": { "from": 9830, "to": 9830 } },
+        { "text": "i", "p": 0.999773, "t0": 983, "t1": 983, "offsets": { "from": 9830, "to": 9830 } },
+        { "text": ",", "p": 0.901225, "t0": 983, "t1": 983, "offsets": { "from": 9830, "to": 9830 } },
+        { "text": " bl", "p": 0.825438, "t0": 983, "t1": 983, "offsets": { "from": 9830, "to": 9830 } },
+        { "text": "ive", "p": 0.991928, "t0": 983, "t1": 983, "offsets": { "from": 9830, "to": 9830 } },
+        { "text": " ac", "p": 0.885455, "t0": 983, "t1": 983, "offsets": { "from": 9830, "to": 9830 } },
+        { "text": "cep", "p": 0.999195, "t0": 983, "t1": 983, "offsets": { "from": 9830, "to": 9830 } },
+        { "text": "ter", "p": 0.999516, "t0": 983, "t1": 983, "offsets": { "from": 9830, "to": 9830 } },
+        { "text": "et", "p": 0.985725, "t0": 983, "t1": 983, "offsets": { "from": 9830, "to": 9830 } },
+        { "text": ".", "p": 0.897022, "t0": 983, "t1": 983, "offsets": { "from": 9830, "to": 9830 } }
+      ]
+    }
+  ]
+}

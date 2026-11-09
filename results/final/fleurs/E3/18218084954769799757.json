@@ -1,0 +1,63 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,610", "to": "00:00:30,610" },
+      "offsets":    { "from": 610, "to": 30610 },
+      "text":       " Alt i universet er lavet af materiale. Alt materiel består af bittesmå partikler kaldet atomer.",
+      "words": [
+        { "text": " Alt", "t0": 81, "t1": 164, "offsets": { "from": 810, "to": 1640 } },
+        { "text": " i", "t0": 164, "t1": 196, "offsets": { "from": 1640, "to": 1960 } },
+        { "text": " universet", "t0": 198, "t1": 507, "offsets": { "from": 1980, "to": 5070 } },
+        { "text": " er", "t0": 507, "t1": 576, "offsets": { "from": 5070, "to": 5760 } },
+        { "text": " lavet", "t0": 576, "t1": 660, "offsets": { "from": 5760, "to": 6600 } },
+        { "text": " af", "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " materiale.", "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " Alt", "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " materiel", "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " består", "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " af", "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " bittesmå", "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " partikler", "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " kaldet", "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " atomer.", "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } }
+      ],
+      "tokens": [
+        { "text": " Alt", "p": 0.98982, "t0": 81, "t1": 164, "offsets": { "from": 810, "to": 1640 } },
+        { "text": " i", "p": 0.628185, "t0": 164, "t1": 196, "offsets": { "from": 1640, "to": 1960 } },
+        { "text": " univers", "p": 0.944914, "t0": 198, "t1": 439, "offsets": { "from": 1980, "to": 4390 } },
+        { "text": "et", "p": 0.996548, "t0": 439, "t1": 507, "offsets": { "from": 4390, "to": 5070 } },
+        { "text": " er", "p": 0.994767, "t0": 507, "t1": 576, "offsets": { "from": 5070, "to": 5760 } },
+        { "text": " la", "p": 0.991522, "t0": 576, "t1": 636, "offsets": { "from": 5760, "to": 6360 } },
+        { "text": "vet", "p": 0.999441, "t0": 648, "t1": 660, "offsets": { "from": 6480, "to": 6600 } },
+        { "text": " af", "p": 0.998437, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " material", "p": 0.841765, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": "e", "p": 0.997727, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": ".", "p": 0.703506, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " Alt", "p": 0.993178, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " mater", "p": 0.615499, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": "iel", "p": 0.493127, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " best", "p": 0.925915, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": "år", "p": 0.999804, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " af", "p": 0.962091, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " b", "p": 0.730972, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": "itt", "p": 0.977385, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": "es", "p": 0.995585, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": "m", "p": 0.999357, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": "å", "p": 0.999809, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " part", "p": 0.986724, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": "ik", "p": 0.998988, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": "ler", "p": 0.998982, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " kald", "p": 0.714215, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": "et", "p": 0.97285, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": " atom", "p": 0.970481, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": "er", "p": 0.999081, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } },
+        { "text": ".", "p": 0.941266, "t0": 677, "t1": 677, "offsets": { "from": 6770, "to": 6770 } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E5-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,000", "to": "00:00:30,000" },
+      "offsets":    { "from": 0, "to": 30000 },
+      "text":       " Gassen bliver tyndere, jo længere væk du kommer fra solcentrum.",
+      "words": [
+        { "text": " Gassen", "t0": 0, "t1": 303, "offsets": { "from": 0, "to": 3030 } },
+        { "text": " bliver", "t0": 303, "t1": 482, "offsets": { "from": 3030, "to": 4820 } },
+        { "text": " tyndere,", "t0": 491, "t1": 491, "offsets": { "from": 4910, "to": 4910 } },
+        { "text": " jo", "t0": 491, "t1": 491, "offsets": { "from": 4910, "to": 4910 } },
+        { "text": " længere", "t0": 491, "t1": 491, "offsets": { "from": 4910, "to": 4910 } },
+        { "text": " væk", "t0": 491, "t1": 491, "offsets": { "from": 4910, "to": 4910 } },
+        { "text": " du", "t0": 491, "t1": 491, "offsets": { "from": 4910, "to": 4910 } },
+        { "text": " kommer", "t0": 491, "t1": 491, "offsets": { "from": 4910, "to": 4910 } },
+        { "text": " fra", "t0": 491, "t1": 491, "offsets": { "from": 4910, "to": 4910 } },
+        { "text": " solcentrum.", "t0": 491, "t1": 491, "offsets": { "from": 4910, "to": 4910 } }
+      ],
+      "tokens": [
+        { "text": " G", "p": 0.798603, "t0": 0, "t1": 51, "offsets": { "from": 0, "to": 510 } },
+        { "text": "assen", "p": 0.880597, "t0": 100, "t1": 303, "offsets": { "from": 1000, "to": 3030 } },
+        { "text": " bliver", "p": 0.989715, "t0": 303, "t1": 482, "offsets": { "from": 3030, "to": 4820 } },
+        { "text": " ty", "p": 0.827854, "t0": 491, "t1": 491, "offsets": { "from": 4910, "to": 4910 } },
+        { "text": "nd", "p": 0.931932, "t0": 491, "t1": 491, "offsets": { "from": 4910, "to": 4910 } },
+        { "text": "ere", "p": 0.978226, "t0": 491, "t1": 491, "offsets": { "from": 4910, "to": 4910 } },
+        { "text": ",", "p": 0.660357, "t0": 491, "t1": 491, "offsets": { "from": 4910, "to": 4910 } },
+        { "text": " jo", "p": 0.846366, "t0": 491, "t1": 491, "offsets": { "from": 4910, "to": 4910 } },
+        { "text": " læ", "p": 0.997598, "t0": 491, "t1": 491, "offsets": { "from": 4910, "to": 4910 } },
+        { "text": "ng", "p": 0.982609, "t0": 491, "t1": 491, "offsets": { "from": 4910, "to": 4910 } },
+        { "text": "ere", "p": 0.987389, "t0": 491, "t1": 491, "offsets": { "from": 4910, "to": 4910 } },
+        { "text": " væ", "p": 0.961166, "t0": 491, "t1": 491, "offsets": { "from": 4910, "to": 4910 } },
+        { "text": "k", "p": 0.697945, "t0": 491, "t1": 491, "offsets": { "from": 4910, "to": 4910 } },
+        { "text": " du", "p": 0.705674, "t0": 491, "t1": 491, "offsets": { "from": 4910, "to": 4910 } },
+        { "text": " kommer", "p": 0.99142, "t0": 491, "t1": 491, "offsets": { "from": 4910, "to": 4910 } },
+        { "text": " fra", "p": 0.977526, "t0": 491, "t1": 491, "offsets": { "from": 4910, "to": 4910 } },
+        { "text": " sol", "p": 0.800154, "t0": 491, "t1": 491, "offsets": { "from": 4910, "to": 4910 } },
+        { "text": "cent", "p": 0.550974, "t0": 491, "t1": 491, "offsets": { "from": 4910, "to": 4910 } },
+        { "text": "rum", "p": 0.995906, "t0": 491, "t1": 491, "offsets": { "from": 4910, "to": 4910 } },
+        { "text": ".", "p": 0.864743, "t0": 491, "t1": 491, "offsets": { "from": 4910, "to": 4910 } }
+      ]
+    }
+  ]
+}

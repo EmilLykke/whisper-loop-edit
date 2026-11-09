@@ -1,0 +1,1 @@
+Det udførte arbejde var for det meste teoretisk, men programmet blev designet til at simulere observationer af SACDEC-galaxen.

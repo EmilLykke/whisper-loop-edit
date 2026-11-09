@@ -1,0 +1,12 @@
+Whisper Loop Edit
+Copyright 2026 Emil Lykke Grann
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+scripts/codictate_long_audio.ts is copied from Codictate
+(https://github.com/EmilLykke/codictate, src/bun/utils/whisper/engines/long-audio.manual.ts
+at commit 0c25733), Copyright 2026 Emil Lykke Grann, Apache-2.0. Other scripts import
+Codictate's code at run time from a separate checkout (CODICTATE_DIR); it is not redistributed.
+
+Data: clip manifests and transcripts reference FLEURS (Google, CC BY 4.0) and LibriSpeech
+(Panayotov et al., CC BY 4.0). Model weights are derived from openai/whisper-large-v3 (MIT).

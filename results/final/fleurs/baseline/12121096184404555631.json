@@ -1,0 +1,62 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,460", "to": "00:00:30,460" },
+      "offsets":    { "from": 460, "to": 30460 },
+      "text":       " pH-værdien angives ved mængden af brændioner, HIFH, i det testede kemikalie.",
+      "words": [
+        { "text": " pH-værdien", "t0": 82, "t1": 471, "offsets": { "from": 820, "to": 4710 } },
+        { "text": " angives", "t0": 513, "t1": 717, "offsets": { "from": 5130, "to": 7170 } },
+        { "text": " ved", "t0": 781, "t1": 824, "offsets": { "from": 7810, "to": 8240 } },
+        { "text": " mængden", "t0": 824, "t1": 824, "offsets": { "from": 8240, "to": 8240 } },
+        { "text": " af", "t0": 824, "t1": 824, "offsets": { "from": 8240, "to": 8240 } },
+        { "text": " brændioner,", "t0": 824, "t1": 824, "offsets": { "from": 8240, "to": 8240 } },
+        { "text": " HIFH,", "t0": 824, "t1": 824, "offsets": { "from": 8240, "to": 8240 } },
+        { "text": " i", "t0": 824, "t1": 824, "offsets": { "from": 8240, "to": 8240 } },
+        { "text": " det", "t0": 824, "t1": 824, "offsets": { "from": 8240, "to": 8240 } },
+        { "text": " testede", "t0": 824, "t1": 824, "offsets": { "from": 8240, "to": 8240 } },
+        { "text": " kemikalie.", "t0": 824, "t1": 824, "offsets": { "from": 8240, "to": 8240 } }
+      ],
+      "tokens": [
+        { "text": " pH", "p": 0.581044, "t0": 82, "t1": 126, "offsets": { "from": 820, "to": 1260 } },
+        { "text": "-", "p": 0.638889, "t0": 129, "t1": 169, "offsets": { "from": 1290, "to": 1690 } },
+        { "text": "v", "p": 0.967386, "t0": 169, "t1": 210, "offsets": { "from": 1690, "to": 2100 } },
+        { "text": "æ", "p": 0.96488, "t0": 210, "t1": 292, "offsets": { "from": 2100, "to": 2920 } },
+        { "text": "rd", "p": 0.999695, "t0": 292, "t1": 364, "offsets": { "from": 2920, "to": 3640 } },
+        { "text": "ien", "p": 0.993178, "t0": 408, "t1": 471, "offsets": { "from": 4080, "to": 4710 } },
+        { "text": " ang", "p": 0.962932, "t0": 513, "t1": 620, "offsets": { "from": 5130, "to": 6200 } },
+        { "text": "ives", "p": 0.887608, "t0": 620, "t1": 717, "offsets": { "from": 6200, "to": 7170 } },
+        { "text": " ved", "p": 0.969753, "t0": 781, "t1": 824, "offsets": { "from": 7810, "to": 8240 } },
+        { "text": " m", "p": 0.992693, "t0": 824, "t1": 824, "offsets": { "from": 8240, "to": 8240 } },
+        { "text": "æ", "p": 0.999478, "t0": 824, "t1": 824, "offsets": { "from": 8240, "to": 8240 } },
+        { "text": "ng", "p": 0.99939, "t0": 824, "t1": 824, "offsets": { "from": 8240, "to": 8240 } },
+        { "text": "den", "p": 0.998312, "t0": 824, "t1": 824, "offsets": { "from": 8240, "to": 8240 } },
+        { "text": " af", "p": 0.995423, "t0": 824, "t1": 824, "offsets": { "from": 8240, "to": 8240 } },
+        { "text": " br", "p": 0.899936, "t0": 824, "t1": 824, "offsets": { "from": 8240, "to": 8240 } },
+        { "text": "æ", "p": 0.522788, "t0": 824, "t1": 824, "offsets": { "from": 8240, "to": 8240 } },
+        { "text": "nd", "p": 0.978355, "t0": 824, "t1": 824, "offsets": { "from": 8240, "to": 8240 } },
+        { "text": "ion", "p": 0.781579, "t0": 824, "t1": 824, "offsets": { "from": 8240, "to": 8240 } },
+        { "text": "er", "p": 0.994459, "t0": 824, "t1": 824, "offsets": { "from": 8240, "to": 8240 } },
+        { "text": ",", "p": 0.336466, "t0": 824, "t1": 824, "offsets": { "from": 8240, "to": 8240 } },
+        { "text": " H", "p": 0.551984, "t0": 824, "t1": 824, "offsets": { "from": 8240, "to": 8240 } },
+        { "text": "IF", "p": 0.432644, "t0": 824, "t1": 824, "offsets": { "from": 8240, "to": 8240 } },
+        { "text": "H", "p": 0.972286, "t0": 824, "t1": 824, "offsets": { "from": 8240, "to": 8240 } },
+        { "text": ",", "p": 0.788226, "t0": 824, "t1": 824, "offsets": { "from": 8240, "to": 8240 } },
+        { "text": " i", "p": 0.993807, "t0": 824, "t1": 824, "offsets": { "from": 8240, "to": 8240 } },
+        { "text": " det", "p": 0.983027, "t0": 824, "t1": 824, "offsets": { "from": 8240, "to": 8240 } },
+        { "text": " test", "p": 0.905099, "t0": 824, "t1": 824, "offsets": { "from": 8240, "to": 8240 } },
+        { "text": "ede", "p": 0.987715, "t0": 824, "t1": 824, "offsets": { "from": 8240, "to": 8240 } },
+        { "text": " ke", "p": 0.984932, "t0": 824, "t1": 824, "offsets": { "from": 8240, "to": 8240 } },
+        { "text": "m", "p": 0.998515, "t0": 824, "t1": 824, "offsets": { "from": 8240, "to": 8240 } },
+        { "text": "ik", "p": 0.92914, "t0": 824, "t1": 824, "offsets": { "from": 8240, "to": 8240 } },
+        { "text": "alie", "p": 0.984609, "t0": 824, "t1": 824, "offsets": { "from": 8240, "to": 8240 } },
+        { "text": ".", "p": 0.960305, "t0": 824, "t1": 824, "offsets": { "from": 8240, "to": 8240 } }
+      ]
+    }
+  ]
+}

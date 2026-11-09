@@ -1,0 +1,53 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,170", "to": "00:00:30,170" },
+      "offsets":    { "from": 170, "to": 30170 },
+      "text":       " Fjernsyns reportager viser, at der kommer hvidrøg fra kraftværket.",
+      "words": [
+        { "text": " Fjernsyns", "t0": 36, "t1": 443, "offsets": { "from": 360, "to": 4430 } },
+        { "text": " reportager", "t0": 443, "t1": 844, "offsets": { "from": 4430, "to": 8440 } },
+        { "text": " viser,", "t0": 851, "t1": 851, "offsets": { "from": 8510, "to": 8510 } },
+        { "text": " at", "t0": 851, "t1": 851, "offsets": { "from": 8510, "to": 8510 } },
+        { "text": " der", "t0": 851, "t1": 851, "offsets": { "from": 8510, "to": 8510 } },
+        { "text": " kommer", "t0": 851, "t1": 851, "offsets": { "from": 8510, "to": 8510 } },
+        { "text": " hvidrøg", "t0": 851, "t1": 851, "offsets": { "from": 8510, "to": 8510 } },
+        { "text": " fra", "t0": 851, "t1": 851, "offsets": { "from": 8510, "to": 8510 } },
+        { "text": " kraftværket.", "t0": 851, "t1": 851, "offsets": { "from": 8510, "to": 8510 } }
+      ],
+      "tokens": [
+        { "text": " F", "p": 0.904143, "t0": 36, "t1": 65, "offsets": { "from": 360, "to": 650 } },
+        { "text": "j", "p": 0.998927, "t0": 65, "t1": 112, "offsets": { "from": 650, "to": 1120 } },
+        { "text": "ern", "p": 0.99759, "t0": 156, "t1": 254, "offsets": { "from": 1560, "to": 2540 } },
+        { "text": "s", "p": 0.989174, "t0": 254, "t1": 289, "offsets": { "from": 2540, "to": 2890 } },
+        { "text": "yn", "p": 0.999594, "t0": 303, "t1": 396, "offsets": { "from": 3030, "to": 3960 } },
+        { "text": "s", "p": 0.971621, "t0": 396, "t1": 443, "offsets": { "from": 3960, "to": 4430 } },
+        { "text": " report", "p": 0.685606, "t0": 443, "t1": 585, "offsets": { "from": 4430, "to": 5850 } },
+        { "text": "ager", "p": 0.942193, "t0": 802, "t1": 844, "offsets": { "from": 8020, "to": 8440 } },
+        { "text": " vis", "p": 0.978006, "t0": 851, "t1": 851, "offsets": { "from": 8510, "to": 8510 } },
+        { "text": "er", "p": 0.999744, "t0": 851, "t1": 851, "offsets": { "from": 8510, "to": 8510 } },
+        { "text": ",", "p": 0.457086, "t0": 851, "t1": 851, "offsets": { "from": 8510, "to": 8510 } },
+        { "text": " at", "p": 0.951299, "t0": 851, "t1": 851, "offsets": { "from": 8510, "to": 8510 } },
+        { "text": " der", "p": 0.98616, "t0": 851, "t1": 851, "offsets": { "from": 8510, "to": 8510 } },
+        { "text": " kommer", "p": 0.974968, "t0": 851, "t1": 851, "offsets": { "from": 8510, "to": 8510 } },
+        { "text": " h", "p": 0.894915, "t0": 851, "t1": 851, "offsets": { "from": 8510, "to": 8510 } },
+        { "text": "vid", "p": 0.975018, "t0": 851, "t1": 851, "offsets": { "from": 8510, "to": 8510 } },
+        { "text": "r", "p": 0.795196, "t0": 851, "t1": 851, "offsets": { "from": 8510, "to": 8510 } },
+        { "text": "ø", "p": 0.999537, "t0": 851, "t1": 851, "offsets": { "from": 8510, "to": 8510 } },
+        { "text": "g", "p": 0.992939, "t0": 851, "t1": 851, "offsets": { "from": 8510, "to": 8510 } },
+        { "text": " fra", "p": 0.992898, "t0": 851, "t1": 851, "offsets": { "from": 8510, "to": 8510 } },
+        { "text": " k", "p": 0.734723, "t0": 851, "t1": 851, "offsets": { "from": 8510, "to": 8510 } },
+        { "text": "raft", "p": 0.999167, "t0": 851, "t1": 851, "offsets": { "from": 8510, "to": 8510 } },
+        { "text": "v", "p": 0.920663, "t0": 851, "t1": 851, "offsets": { "from": 8510, "to": 8510 } },
+        { "text": "ær", "p": 0.966059, "t0": 851, "t1": 851, "offsets": { "from": 8510, "to": 8510 } },
+        { "text": "ket", "p": 0.989655, "t0": 851, "t1": 851, "offsets": { "from": 8510, "to": 8510 } },
+        { "text": ".", "p": 0.895687, "t0": 851, "t1": 851, "offsets": { "from": 8510, "to": 8510 } }
+      ]
+    }
+  ]
+}

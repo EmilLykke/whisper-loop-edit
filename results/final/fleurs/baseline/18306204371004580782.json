@@ -1,0 +1,47 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,350", "to": "00:00:30,350" },
+      "offsets":    { "from": 350, "to": 30350 },
+      "text":       " Internetet kombinerer massekommunikation og mellemmenneskelig kommunikation.",
+      "words": [
+        { "text": " Internetet", "t0": 55, "t1": 429, "offsets": { "from": 550, "to": 4290 } },
+        { "text": " kombinerer", "t0": 446, "t1": 446, "offsets": { "from": 4460, "to": 4460 } },
+        { "text": " massekommunikation", "t0": 446, "t1": 446, "offsets": { "from": 4460, "to": 4460 } },
+        { "text": " og", "t0": 446, "t1": 446, "offsets": { "from": 4460, "to": 4460 } },
+        { "text": " mellemmenneskelig", "t0": 446, "t1": 446, "offsets": { "from": 4460, "to": 4460 } },
+        { "text": " kommunikation.", "t0": 446, "t1": 446, "offsets": { "from": 4460, "to": 4460 } }
+      ],
+      "tokens": [
+        { "text": " Internet", "p": 0.38716, "t0": 55, "t1": 362, "offsets": { "from": 550, "to": 3620 } },
+        { "text": "et", "p": 0.627888, "t0": 362, "t1": 429, "offsets": { "from": 3620, "to": 4290 } },
+        { "text": " komb", "p": 0.995961, "t0": 446, "t1": 446, "offsets": { "from": 4460, "to": 4460 } },
+        { "text": "iner", "p": 0.991785, "t0": 446, "t1": 446, "offsets": { "from": 4460, "to": 4460 } },
+        { "text": "er", "p": 0.996827, "t0": 446, "t1": 446, "offsets": { "from": 4460, "to": 4460 } },
+        { "text": " mas", "p": 0.47685, "t0": 446, "t1": 446, "offsets": { "from": 4460, "to": 4460 } },
+        { "text": "sek", "p": 0.979182, "t0": 446, "t1": 446, "offsets": { "from": 4460, "to": 4460 } },
+        { "text": "omm", "p": 0.972576, "t0": 446, "t1": 446, "offsets": { "from": 4460, "to": 4460 } },
+        { "text": "un", "p": 0.98395, "t0": 446, "t1": 446, "offsets": { "from": 4460, "to": 4460 } },
+        { "text": "ik", "p": 0.997695, "t0": 446, "t1": 446, "offsets": { "from": 4460, "to": 4460 } },
+        { "text": "ation", "p": 0.996004, "t0": 446, "t1": 446, "offsets": { "from": 4460, "to": 4460 } },
+        { "text": " og", "p": 0.94446, "t0": 446, "t1": 446, "offsets": { "from": 4460, "to": 4460 } },
+        { "text": " me", "p": 0.99946, "t0": 446, "t1": 446, "offsets": { "from": 4460, "to": 4460 } },
+        { "text": "ll", "p": 0.999394, "t0": 446, "t1": 446, "offsets": { "from": 4460, "to": 4460 } },
+        { "text": "em", "p": 0.999117, "t0": 446, "t1": 446, "offsets": { "from": 4460, "to": 4460 } },
+        { "text": "m", "p": 0.989948, "t0": 446, "t1": 446, "offsets": { "from": 4460, "to": 4460 } },
+        { "text": "ennes", "p": 0.924255, "t0": 446, "t1": 446, "offsets": { "from": 4460, "to": 4460 } },
+        { "text": "ke", "p": 0.995972, "t0": 446, "t1": 446, "offsets": { "from": 4460, "to": 4460 } },
+        { "text": "lig", "p": 0.997006, "t0": 446, "t1": 446, "offsets": { "from": 4460, "to": 4460 } },
+        { "text": " kommun", "p": 0.970791, "t0": 446, "t1": 446, "offsets": { "from": 4460, "to": 4460 } },
+        { "text": "ik", "p": 0.999441, "t0": 446, "t1": 446, "offsets": { "from": 4460, "to": 4460 } },
+        { "text": "ation", "p": 0.99867, "t0": 446, "t1": 446, "offsets": { "from": 4460, "to": 4460 } },
+        { "text": ".", "p": 0.886593, "t0": 446, "t1": 446, "offsets": { "from": 4460, "to": 4460 } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,590", "to": "00:00:30,590" },
+      "offsets":    { "from": 590, "to": 30590 },
+      "text":       " MS er en sygdom der påvirker centralt nervesystemet bestående af hjernen, rygmagen og synsnerven.",
+      "words": [
+        { "text": " MS", "t0": 79, "t1": 126, "offsets": { "from": 790, "to": 1260 } },
+        { "text": " er", "t0": 126, "t1": 193, "offsets": { "from": 1260, "to": 1930 } },
+        { "text": " en", "t0": 193, "t1": 260, "offsets": { "from": 1930, "to": 2600 } },
+        { "text": " sygdom", "t0": 260, "t1": 455, "offsets": { "from": 2600, "to": 4550 } },
+        { "text": " der", "t0": 468, "t1": 560, "offsets": { "from": 4680, "to": 5600 } },
+        { "text": " påvirker", "t0": 560, "t1": 767, "offsets": { "from": 5600, "to": 7670 } },
+        { "text": " centralt", "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " nervesystemet", "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " bestående", "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " af", "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " hjernen,", "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " rygmagen", "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " og", "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " synsnerven.", "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } }
+      ],
+      "tokens": [
+        { "text": " MS", "p": 0.960589, "t0": 79, "t1": 126, "offsets": { "from": 790, "to": 1260 } },
+        { "text": " er", "p": 0.972448, "t0": 126, "t1": 193, "offsets": { "from": 1260, "to": 1930 } },
+        { "text": " en", "p": 0.99455, "t0": 193, "t1": 260, "offsets": { "from": 1930, "to": 2600 } },
+        { "text": " sy", "p": 0.994772, "t0": 260, "t1": 324, "offsets": { "from": 2600, "to": 3240 } },
+        { "text": "g", "p": 0.999255, "t0": 329, "t1": 356, "offsets": { "from": 3290, "to": 3560 } },
+        { "text": "dom", "p": 0.993669, "t0": 367, "t1": 455, "offsets": { "from": 3670, "to": 4550 } },
+        { "text": " der", "p": 0.532479, "t0": 468, "t1": 560, "offsets": { "from": 4680, "to": 5600 } },
+        { "text": " på", "p": 0.995799, "t0": 560, "t1": 634, "offsets": { "from": 5600, "to": 6340 } },
+        { "text": "vir", "p": 0.999255, "t0": 661, "t1": 762, "offsets": { "from": 6610, "to": 7620 } },
+        { "text": "ker", "p": 0.991323, "t0": 762, "t1": 767, "offsets": { "from": 7620, "to": 7670 } },
+        { "text": " central", "p": 0.920446, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": "t", "p": 0.342125, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " nerves", "p": 0.986884, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": "ystem", "p": 0.992349, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": "et", "p": 0.915185, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " best", "p": 0.833607, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": "å", "p": 0.979227, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": "ende", "p": 0.979963, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " af", "p": 0.397224, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " hj", "p": 0.976721, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": "ernen", "p": 0.991295, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": ",", "p": 0.969966, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " r", "p": 0.892299, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": "yg", "p": 0.99835, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": "m", "p": 0.608715, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": "agen", "p": 0.958751, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " og", "p": 0.972526, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": " sy", "p": 0.923008, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": "ns", "p": 0.969823, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": "ner", "p": 0.887658, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": "ven", "p": 0.996652, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } },
+        { "text": ".", "p": 0.891946, "t0": 767, "t1": 767, "offsets": { "from": 7670, "to": 7670 } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,170", "to": "00:00:30,170" },
+      "offsets":    { "from": 170, "to": 30170 },
+      "text":       " Kun mutationer i kimceller kan videregives til børn, mens mutationer andre steder kan forårsage celledød eller kræft.",
+      "words": [
+        { "text": " Kun", "t0": 100, "t1": 100, "offsets": { "from": 1000, "to": 1000 } },
+        { "text": " mutationer", "t0": 103, "t1": 377, "offsets": { "from": 1030, "to": 3770 } },
+        { "text": " i", "t0": 377, "t1": 405, "offsets": { "from": 3770, "to": 4050 } },
+        { "text": " kimceller", "t0": 405, "t1": 644, "offsets": { "from": 4050, "to": 6440 } },
+        { "text": " kan", "t0": 658, "t1": 736, "offsets": { "from": 6580, "to": 7360 } },
+        { "text": " videregives", "t0": 736, "t1": 1039, "offsets": { "from": 7360, "to": 10390 } },
+        { "text": " til", "t0": 1039, "t1": 1121, "offsets": { "from": 10390, "to": 11210 } },
+        { "text": " børn,", "t0": 1121, "t1": 1223, "offsets": { "from": 11210, "to": 12230 } },
+        { "text": " mens", "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": " mutationer", "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": " andre", "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": " steder", "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": " kan", "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": " forårsage", "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": " celledød", "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": " eller", "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": " kræft.", "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } }
+      ],
+      "tokens": [
+        { "text": " Kun", "p": 0.857157, "t0": 100, "t1": 100, "offsets": { "from": 1000, "to": 1000 } },
+        { "text": " mutation", "p": 0.972518, "t0": 103, "t1": 312, "offsets": { "from": 1030, "to": 3120 } },
+        { "text": "er", "p": 0.995518, "t0": 331, "t1": 377, "offsets": { "from": 3310, "to": 3770 } },
+        { "text": " i", "p": 0.98831, "t0": 377, "t1": 405, "offsets": { "from": 3770, "to": 4050 } },
+        { "text": " kim", "p": 0.33259, "t0": 405, "t1": 488, "offsets": { "from": 4050, "to": 4880 } },
+        { "text": "cell", "p": 0.982366, "t0": 488, "t1": 598, "offsets": { "from": 4880, "to": 5980 } },
+        { "text": "er", "p": 0.996352, "t0": 598, "t1": 644, "offsets": { "from": 5980, "to": 6440 } },
+        { "text": " kan", "p": 0.950909, "t0": 658, "t1": 736, "offsets": { "from": 6580, "to": 7360 } },
+        { "text": " vid", "p": 0.959865, "t0": 736, "t1": 811, "offsets": { "from": 7360, "to": 8110 } },
+        { "text": "ere", "p": 0.964814, "t0": 818, "t1": 867, "offsets": { "from": 8180, "to": 8670 } },
+        { "text": "g", "p": 0.918879, "t0": 901, "t1": 929, "offsets": { "from": 9010, "to": 9290 } },
+        { "text": "ives", "p": 0.991947, "t0": 929, "t1": 1039, "offsets": { "from": 9290, "to": 10390 } },
+        { "text": " til", "p": 0.977814, "t0": 1039, "t1": 1121, "offsets": { "from": 10390, "to": 11210 } },
+        { "text": " b", "p": 0.996432, "t0": 1121, "t1": 1150, "offsets": { "from": 11210, "to": 11500 } },
+        { "text": "ør", "p": 0.999573, "t0": 1171, "t1": 1223, "offsets": { "from": 11710, "to": 12230 } },
+        { "text": "n", "p": 0.999619, "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": ",", "p": 0.747739, "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": " mens", "p": 0.985656, "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": " mutation", "p": 0.919936, "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": "er", "p": 0.99267, "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": " and", "p": 0.952235, "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": "re", "p": 0.996586, "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": " st", "p": 0.997626, "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": "eder", "p": 0.999706, "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": " kan", "p": 0.965652, "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": " for", "p": 0.851112, "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": "år", "p": 0.978357, "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": "s", "p": 0.98695, "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": "age", "p": 0.994146, "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": " cell", "p": 0.851116, "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": "ed", "p": 0.972223, "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": "ø", "p": 0.994585, "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": "d", "p": 0.998527, "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": " eller", "p": 0.987381, "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": " kr", "p": 0.94163, "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": "æ", "p": 0.999836, "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": "ft", "p": 0.999508, "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } },
+        { "text": ".", "p": 0.942665, "t0": 1223, "t1": 1223, "offsets": { "from": 12230, "to": 12230 } }
+      ]
+    }
+  ]
+}

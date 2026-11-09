@@ -1,0 +1,43 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,170", "to": "00:00:30,170" },
+      "offsets":    { "from": 170, "to": 30170 },
+      "text":       " Rolando Mendoza affyrede sin M16 mod turisterne.",
+      "words": [
+        { "text": " Rolando", "t0": 36, "t1": 453, "offsets": { "from": 360, "to": 4530 } },
+        { "text": " Mendoza", "t0": 453, "t1": 821, "offsets": { "from": 4530, "to": 8210 } },
+        { "text": " affyrede", "t0": 821, "t1": 821, "offsets": { "from": 8210, "to": 8210 } },
+        { "text": " sin", "t0": 821, "t1": 821, "offsets": { "from": 8210, "to": 8210 } },
+        { "text": " M16", "t0": 821, "t1": 821, "offsets": { "from": 8210, "to": 8210 } },
+        { "text": " mod", "t0": 821, "t1": 821, "offsets": { "from": 8210, "to": 8210 } },
+        { "text": " turisterne.", "t0": 821, "t1": 821, "offsets": { "from": 8210, "to": 8210 } }
+      ],
+      "tokens": [
+        { "text": " R", "p": 0.929407, "t0": 36, "t1": 80, "offsets": { "from": 360, "to": 800 } },
+        { "text": "ol", "p": 0.989974, "t0": 156, "t1": 204, "offsets": { "from": 1560, "to": 2040 } },
+        { "text": "ando", "p": 0.999479, "t0": 204, "t1": 453, "offsets": { "from": 2040, "to": 4530 } },
+        { "text": " M", "p": 0.878439, "t0": 453, "t1": 491, "offsets": { "from": 4530, "to": 4910 } },
+        { "text": "endo", "p": 0.929966, "t0": 491, "t1": 764, "offsets": { "from": 4910, "to": 7640 } },
+        { "text": "za", "p": 0.996611, "t0": 765, "t1": 821, "offsets": { "from": 7650, "to": 8210 } },
+        { "text": " aff", "p": 0.17879, "t0": 821, "t1": 821, "offsets": { "from": 8210, "to": 8210 } },
+        { "text": "y", "p": 0.910052, "t0": 821, "t1": 821, "offsets": { "from": 8210, "to": 8210 } },
+        { "text": "red", "p": 0.646544, "t0": 821, "t1": 821, "offsets": { "from": 8210, "to": 8210 } },
+        { "text": "e", "p": 0.997212, "t0": 821, "t1": 821, "offsets": { "from": 8210, "to": 8210 } },
+        { "text": " sin", "p": 0.953974, "t0": 821, "t1": 821, "offsets": { "from": 8210, "to": 8210 } },
+        { "text": " M", "p": 0.805238, "t0": 821, "t1": 821, "offsets": { "from": 8210, "to": 8210 } },
+        { "text": "16", "p": 0.947598, "t0": 821, "t1": 821, "offsets": { "from": 8210, "to": 8210 } },
+        { "text": " mod", "p": 0.977304, "t0": 821, "t1": 821, "offsets": { "from": 8210, "to": 8210 } },
+        { "text": " tur", "p": 0.99474, "t0": 821, "t1": 821, "offsets": { "from": 8210, "to": 8210 } },
+        { "text": "ister", "p": 0.994253, "t0": 821, "t1": 821, "offsets": { "from": 8210, "to": 8210 } },
+        { "text": "ne", "p": 0.989615, "t0": 821, "t1": 821, "offsets": { "from": 8210, "to": 8210 } },
+        { "text": ".", "p": 0.787859, "t0": 821, "t1": 821, "offsets": { "from": 8210, "to": 8210 } }
+      ]
+    }
+  ]
+}

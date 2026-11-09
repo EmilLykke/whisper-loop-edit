@@ -1,0 +1,53 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,360", "to": "00:00:30,360" },
+      "offsets":    { "from": 360, "to": 30360 },
+      "text":       " Det regerende parti, SWAPO, bevarede også flertallet ved parlamentsvalget.",
+      "words": [
+        { "text": " Det", "t0": 56, "t1": 152, "offsets": { "from": 560, "to": 1520 } },
+        { "text": " regerende", "t0": 173, "t1": 542, "offsets": { "from": 1730, "to": 5420 } },
+        { "text": " parti,", "t0": 542, "t1": 837, "offsets": { "from": 5420, "to": 8370 } },
+        { "text": " SWAPO,", "t0": 837, "t1": 1047, "offsets": { "from": 8370, "to": 10470 } },
+        { "text": " bevarede", "t0": 1047, "t1": 1050, "offsets": { "from": 10470, "to": 10500 } },
+        { "text": " også", "t0": 1050, "t1": 1050, "offsets": { "from": 10500, "to": 10500 } },
+        { "text": " flertallet", "t0": 1050, "t1": 1050, "offsets": { "from": 10500, "to": 10500 } },
+        { "text": " ved", "t0": 1050, "t1": 1050, "offsets": { "from": 10500, "to": 10500 } },
+        { "text": " parlamentsvalget.", "t0": 1050, "t1": 1050, "offsets": { "from": 10500, "to": 10500 } }
+      ],
+      "tokens": [
+        { "text": " Det", "p": 0.849031, "t0": 56, "t1": 152, "offsets": { "from": 560, "to": 1520 } },
+        { "text": " reg", "p": 0.806932, "t0": 173, "t1": 276, "offsets": { "from": 1730, "to": 2760 } },
+        { "text": "er", "p": 0.982111, "t0": 292, "t1": 374, "offsets": { "from": 2920, "to": 3740 } },
+        { "text": "ende", "p": 0.998843, "t0": 374, "t1": 542, "offsets": { "from": 3740, "to": 5420 } },
+        { "text": " parti", "p": 0.989268, "t0": 542, "t1": 733, "offsets": { "from": 5420, "to": 7330 } },
+        { "text": ",", "p": 0.68531, "t0": 801, "t1": 837, "offsets": { "from": 8010, "to": 8370 } },
+        { "text": " SW", "p": 0.345362, "t0": 837, "t1": 921, "offsets": { "from": 8370, "to": 9210 } },
+        { "text": "AP", "p": 0.963422, "t0": 921, "t1": 997, "offsets": { "from": 9210, "to": 9970 } },
+        { "text": "O", "p": 0.88136, "t0": 1005, "t1": 1030, "offsets": { "from": 10050, "to": 10300 } },
+        { "text": ",", "p": 0.787053, "t0": 1047, "t1": 1047, "offsets": { "from": 10470, "to": 10470 } },
+        { "text": " be", "p": 0.968755, "t0": 1047, "t1": 1050, "offsets": { "from": 10470, "to": 10500 } },
+        { "text": "v", "p": 0.844602, "t0": 1050, "t1": 1050, "offsets": { "from": 10500, "to": 10500 } },
+        { "text": "are", "p": 0.991815, "t0": 1050, "t1": 1050, "offsets": { "from": 10500, "to": 10500 } },
+        { "text": "de", "p": 0.985464, "t0": 1050, "t1": 1050, "offsets": { "from": 10500, "to": 10500 } },
+        { "text": " også", "p": 0.922362, "t0": 1050, "t1": 1050, "offsets": { "from": 10500, "to": 10500 } },
+        { "text": " fl", "p": 0.97343, "t0": 1050, "t1": 1050, "offsets": { "from": 10500, "to": 10500 } },
+        { "text": "ert", "p": 0.994198, "t0": 1050, "t1": 1050, "offsets": { "from": 10500, "to": 10500 } },
+        { "text": "all", "p": 0.847201, "t0": 1050, "t1": 1050, "offsets": { "from": 10500, "to": 10500 } },
+        { "text": "et", "p": 0.999234, "t0": 1050, "t1": 1050, "offsets": { "from": 10500, "to": 10500 } },
+        { "text": " ved", "p": 0.969616, "t0": 1050, "t1": 1050, "offsets": { "from": 10500, "to": 10500 } },
+        { "text": " par", "p": 0.890973, "t0": 1050, "t1": 1050, "offsets": { "from": 10500, "to": 10500 } },
+        { "text": "lam", "p": 0.998849, "t0": 1050, "t1": 1050, "offsets": { "from": 10500, "to": 10500 } },
+        { "text": "ents", "p": 0.999598, "t0": 1050, "t1": 1050, "offsets": { "from": 10500, "to": 10500 } },
+        { "text": "val", "p": 0.990469, "t0": 1050, "t1": 1050, "offsets": { "from": 10500, "to": 10500 } },
+        { "text": "get", "p": 0.948956, "t0": 1050, "t1": 1050, "offsets": { "from": 10500, "to": 10500 } },
+        { "text": ".", "p": 0.873697, "t0": 1050, "t1": 1050, "offsets": { "from": 10500, "to": 10500 } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C2-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:01,730", "to": "00:00:31,730" },
+      "offsets":    { "from": 1730, "to": 31730 },
+      "text":       " I sommertider byggede man pyramideformede tårne, såkaldte sikorater, som en del af templerne.",
+      "words": [
+        { "text": " I", "t0": 173, "t1": 207, "offsets": { "from": 1730, "to": 2070 } },
+        { "text": " sommertider", "t0": 233, "t1": 569, "offsets": { "from": 2330, "to": 5690 } },
+        { "text": " byggede", "t0": 601, "t1": 825, "offsets": { "from": 6010, "to": 8250 } },
+        { "text": " man", "t0": 825, "t1": 895, "offsets": { "from": 8250, "to": 8950 } },
+        { "text": " pyramideformede", "t0": 928, "t1": 975, "offsets": { "from": 9280, "to": 9750 } },
+        { "text": " tårne,", "t0": 975, "t1": 975, "offsets": { "from": 9750, "to": 9750 } },
+        { "text": " såkaldte", "t0": 975, "t1": 975, "offsets": { "from": 9750, "to": 9750 } },
+        { "text": " sikorater,", "t0": 975, "t1": 975, "offsets": { "from": 9750, "to": 9750 } },
+        { "text": " som", "t0": 975, "t1": 975, "offsets": { "from": 9750, "to": 9750 } },
+        { "text": " en", "t0": 975, "t1": 975, "offsets": { "from": 9750, "to": 9750 } },
+        { "text": " del", "t0": 975, "t1": 975, "offsets": { "from": 9750, "to": 9750 } },
+        { "text": " af", "t0": 975, "t1": 975, "offsets": { "from": 9750, "to": 9750 } },
+        { "text": " templerne.", "t0": 975, "t1": 975, "offsets": { "from": 9750, "to": 9750 } }
+      ],
+      "tokens": [
+        { "text": " I", "p": 0.156038, "t0": 173, "t1": 207, "offsets": { "from": 1730, "to": 2070 } },
+        { "text": " somm", "p": 0.833674, "t0": 233, "t1": 345, "offsets": { "from": 2330, "to": 3450 } },
+        { "text": "ert", "p": 0.975653, "t0": 345, "t1": 448, "offsets": { "from": 3450, "to": 4480 } },
+        { "text": "ider", "p": 0.820434, "t0": 448, "t1": 569, "offsets": { "from": 4480, "to": 5690 } },
+        { "text": " by", "p": 0.925499, "t0": 601, "t1": 654, "offsets": { "from": 6010, "to": 6540 } },
+        { "text": "gg", "p": 0.992248, "t0": 654, "t1": 682, "offsets": { "from": 6540, "to": 6820 } },
+        { "text": "ede", "p": 0.993701, "t0": 767, "t1": 825, "offsets": { "from": 7670, "to": 8250 } },
+        { "text": " man", "p": 0.986717, "t0": 825, "t1": 895, "offsets": { "from": 8250, "to": 8950 } },
+        { "text": " pyram", "p": 0.926072, "t0": 928, "t1": 975, "offsets": { "from": 9280, "to": 9750 } },
+        { "text": "ide", "p": 0.998235, "t0": 975, "t1": 975, "offsets": { "from": 9750, "to": 9750 } },
+        { "text": "form", "p": 0.822496, "t0": 975, "t1": 975, "offsets": { "from": 9750, "to": 9750 } },
+        { "text": "ede", "p": 0.997432, "t0": 975, "t1": 975, "offsets": { "from": 9750, "to": 9750 } },
+        { "text": " t", "p": 0.651743, "t0": 975, "t1": 975, "offsets": { "from": 9750, "to": 9750 } },
+        { "text": "år", "p": 0.992667, "t0": 975, "t1": 975, "offsets": { "from": 9750, "to": 9750 } },
+        { "text": "ne", "p": 0.996413, "t0": 975, "t1": 975, "offsets": { "from": 9750, "to": 9750 } },
+        { "text": ",", "p": 0.830081, "t0": 975, "t1": 975, "offsets": { "from": 9750, "to": 9750 } },
+        { "text": " så", "p": 0.948285, "t0": 975, "t1": 975, "offsets": { "from": 9750, "to": 9750 } },
+        { "text": "k", "p": 0.936602, "t0": 975, "t1": 975, "offsets": { "from": 9750, "to": 9750 } },
+        { "text": "ald", "p": 0.998576, "t0": 975, "t1": 975, "offsets": { "from": 9750, "to": 9750 } },
+        { "text": "te", "p": 0.9889, "t0": 975, "t1": 975, "offsets": { "from": 9750, "to": 9750 } },
+        { "text": " s", "p": 0.474454, "t0": 975, "t1": 975, "offsets": { "from": 9750, "to": 9750 } },
+        { "text": "ik", "p": 0.962856, "t0": 975, "t1": 975, "offsets": { "from": 9750, "to": 9750 } },
+        { "text": "or", "p": 0.327096, "t0": 975, "t1": 975, "offsets": { "from": 9750, "to": 9750 } },
+        { "text": "ater", "p": 0.789166, "t0": 975, "t1": 975, "offsets": { "from": 9750, "to": 9750 } },
+        { "text": ",", "p": 0.873199, "t0": 975, "t1": 975, "offsets": { "from": 9750, "to": 9750 } },
+        { "text": " som", "p": 0.990781, "t0": 975, "t1": 975, "offsets": { "from": 9750, "to": 9750 } },
+        { "text": " en", "p": 0.929989, "t0": 975, "t1": 975, "offsets": { "from": 9750, "to": 9750 } },
+        { "text": " del", "p": 0.995577, "t0": 975, "t1": 975, "offsets": { "from": 9750, "to": 9750 } },
+        { "text": " af", "p": 0.998591, "t0": 975, "t1": 975, "offsets": { "from": 9750, "to": 9750 } },
+        { "text": " templ", "p": 0.97974, "t0": 975, "t1": 975, "offsets": { "from": 9750, "to": 9750 } },
+        { "text": "erne", "p": 0.991563, "t0": 975, "t1": 975, "offsets": { "from": 9750, "to": 9750 } },
+        { "text": ".", "p": 0.930589, "t0": 975, "t1": 975, "offsets": { "from": 9750, "to": 9750 } }
+      ]
+    }
+  ]
+}

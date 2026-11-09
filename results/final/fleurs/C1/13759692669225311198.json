@@ -1,0 +1,53 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,590", "to": "00:00:30,590" },
+      "offsets":    { "from": 590, "to": 30590 },
+      "text":       " I øhavene og søerne behøver du ikke nødvendigvis en jagt.",
+      "words": [
+        { "text": " I", "t0": 83, "t1": 115, "offsets": { "from": 830, "to": 1150 } },
+        { "text": " øhavene", "t0": 115, "t1": 372, "offsets": { "from": 1150, "to": 3720 } },
+        { "text": " og", "t0": 372, "t1": 372, "offsets": { "from": 3720, "to": 3720 } },
+        { "text": " søerne", "t0": 372, "t1": 372, "offsets": { "from": 3720, "to": 3720 } },
+        { "text": " behøver", "t0": 372, "t1": 372, "offsets": { "from": 3720, "to": 3720 } },
+        { "text": " du", "t0": 372, "t1": 372, "offsets": { "from": 3720, "to": 3720 } },
+        { "text": " ikke", "t0": 372, "t1": 372, "offsets": { "from": 3720, "to": 3720 } },
+        { "text": " nødvendigvis", "t0": 372, "t1": 372, "offsets": { "from": 3720, "to": 3720 } },
+        { "text": " en", "t0": 372, "t1": 372, "offsets": { "from": 3720, "to": 3720 } },
+        { "text": " jagt.", "t0": 372, "t1": 372, "offsets": { "from": 3720, "to": 3720 } }
+      ],
+      "tokens": [
+        { "text": " I", "p": 0.973652, "t0": 83, "t1": 115, "offsets": { "from": 830, "to": 1150 } },
+        { "text": " ø", "p": 0.944878, "t0": 115, "t1": 226, "offsets": { "from": 1150, "to": 2260 } },
+        { "text": "ha", "p": 0.453222, "t0": 226, "t1": 333, "offsets": { "from": 2260, "to": 3330 } },
+        { "text": "ven", "p": 0.834937, "t0": 336, "t1": 348, "offsets": { "from": 3360, "to": 3480 } },
+        { "text": "e", "p": 0.984327, "t0": 348, "t1": 372, "offsets": { "from": 3480, "to": 3720 } },
+        { "text": " og", "p": 0.974355, "t0": 372, "t1": 372, "offsets": { "from": 3720, "to": 3720 } },
+        { "text": " s", "p": 0.925585, "t0": 372, "t1": 372, "offsets": { "from": 3720, "to": 3720 } },
+        { "text": "ø", "p": 0.997771, "t0": 372, "t1": 372, "offsets": { "from": 3720, "to": 3720 } },
+        { "text": "erne", "p": 0.997718, "t0": 372, "t1": 372, "offsets": { "from": 3720, "to": 3720 } },
+        { "text": " beh", "p": 0.853411, "t0": 372, "t1": 372, "offsets": { "from": 3720, "to": 3720 } },
+        { "text": "ø", "p": 0.99882, "t0": 372, "t1": 372, "offsets": { "from": 3720, "to": 3720 } },
+        { "text": "ver", "p": 0.997642, "t0": 372, "t1": 372, "offsets": { "from": 3720, "to": 3720 } },
+        { "text": " du", "p": 0.994127, "t0": 372, "t1": 372, "offsets": { "from": 3720, "to": 3720 } },
+        { "text": " ikke", "p": 0.993286, "t0": 372, "t1": 372, "offsets": { "from": 3720, "to": 3720 } },
+        { "text": " n", "p": 0.905649, "t0": 372, "t1": 372, "offsets": { "from": 3720, "to": 3720 } },
+        { "text": "ø", "p": 0.999258, "t0": 372, "t1": 372, "offsets": { "from": 3720, "to": 3720 } },
+        { "text": "d", "p": 0.990911, "t0": 372, "t1": 372, "offsets": { "from": 3720, "to": 3720 } },
+        { "text": "v", "p": 0.99755, "t0": 372, "t1": 372, "offsets": { "from": 3720, "to": 3720 } },
+        { "text": "end", "p": 0.999878, "t0": 372, "t1": 372, "offsets": { "from": 3720, "to": 3720 } },
+        { "text": "ig", "p": 0.994313, "t0": 372, "t1": 372, "offsets": { "from": 3720, "to": 3720 } },
+        { "text": "vis", "p": 0.996063, "t0": 372, "t1": 372, "offsets": { "from": 3720, "to": 3720 } },
+        { "text": " en", "p": 0.978123, "t0": 372, "t1": 372, "offsets": { "from": 3720, "to": 3720 } },
+        { "text": " jag", "p": 0.908034, "t0": 372, "t1": 372, "offsets": { "from": 3720, "to": 3720 } },
+        { "text": "t", "p": 0.993123, "t0": 372, "t1": 372, "offsets": { "from": 3720, "to": 3720 } },
+        { "text": ".", "p": 0.837818, "t0": 372, "t1": 372, "offsets": { "from": 3720, "to": 3720 } }
+      ]
+    }
+  ]
+}

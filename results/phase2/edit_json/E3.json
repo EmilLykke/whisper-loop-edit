@@ -1,0 +1,158 @@
+{
+ "id": "E3",
+ "description": "zero all 11 Phase 1 induction/copy heads",
+ "formula": [
+  "for (L, h) in heads: model.decoder.layers.L.self_attn.out_proj.weight[:, 64h:64h+64] <- 0"
+ ],
+ "heads": [
+  "L12H13",
+  "L13H7",
+  "L13H18",
+  "L15H17",
+  "L2H19",
+  "L18H19",
+  "L25H18",
+  "L25H19",
+  "L24H0",
+  "L26H6",
+  "L21H14"
+ ],
+ "direction": null,
+ "seeds": null,
+ "compute": "fp32 from the fp16 originals, rounded once to fp16 (round-to-nearest-even)",
+ "base": {
+  "path": "models/hf/whisper-large-v3/model.safetensors",
+  "sha256": "a8e94b85976e5864ba3e9525c7e6c83b2a1eca42d4b797a0c7c24d778e40fd95"
+ },
+ "tensors_touched": [
+  {
+   "name": "model.decoder.layers.2.self_attn.out_proj.weight",
+   "ggml": "decoder.blocks.2.attn.out.weight",
+   "shape": [
+    1280,
+    1280
+   ],
+   "rel_frobenius_change": 0.18425720930099487,
+   "max_abs_change": 0.15380859375,
+   "fp16_rounding_max_abs": 0.0,
+   "unchanged_after_rounding": false
+  },
+  {
+   "name": "model.decoder.layers.12.self_attn.out_proj.weight",
+   "ggml": "decoder.blocks.12.attn.out.weight",
+   "shape": [
+    1280,
+    1280
+   ],
+   "rel_frobenius_change": 0.23930540680885315,
+   "max_abs_change": 0.0865478515625,
+   "fp16_rounding_max_abs": 0.0,
+   "unchanged_after_rounding": false
+  },
+  {
+   "name": "model.decoder.layers.13.self_attn.out_proj.weight",
+   "ggml": "decoder.blocks.13.attn.out.weight",
+   "shape": [
+    1280,
+    1280
+   ],
+   "rel_frobenius_change": 0.34793731570243835,
+   "max_abs_change": 0.09173583984375,
+   "fp16_rounding_max_abs": 0.0,
+   "unchanged_after_rounding": false
+  },
+  {
+   "name": "model.decoder.layers.15.self_attn.out_proj.weight",
+   "ggml": "decoder.blocks.15.attn.out.weight",
+   "shape": [
+    1280,
+    1280
+   ],
+   "rel_frobenius_change": 0.2320125848054886,
+   "max_abs_change": 0.07830810546875,
+   "fp16_rounding_max_abs": 0.0,
+   "unchanged_after_rounding": false
+  },
+  {
+   "name": "model.decoder.layers.18.self_attn.out_proj.weight",
+   "ggml": "decoder.blocks.18.attn.out.weight",
+   "shape": [
+    1280,
+    1280
+   ],
+   "rel_frobenius_change": 0.2192271649837494,
+   "max_abs_change": 0.07574462890625,
+   "fp16_rounding_max_abs": 0.0,
+   "unchanged_after_rounding": false
+  },
+  {
+   "name": "model.decoder.layers.21.self_attn.out_proj.weight",
+   "ggml": "decoder.blocks.21.attn.out.weight",
+   "shape": [
+    1280,
+    1280
+   ],
+   "rel_frobenius_change": 0.2357911616563797,
+   "max_abs_change": 0.078369140625,
+   "fp16_rounding_max_abs": 0.0,
+   "unchanged_after_rounding": false
+  },
+  {
+   "name": "model.decoder.layers.24.self_attn.out_proj.weight",
+   "ggml": "decoder.blocks.24.attn.out.weight",
+   "shape": [
+    1280,
+    1280
+   ],
+   "rel_frobenius_change": 0.27554333209991455,
+   "max_abs_change": 0.09271240234375,
+   "fp16_rounding_max_abs": 0.0,
+   "unchanged_after_rounding": false
+  },
+  {
+   "name": "model.decoder.layers.25.self_attn.out_proj.weight",
+   "ggml": "decoder.blocks.25.attn.out.weight",
+   "shape": [
+    1280,
+    1280
+   ],
+   "rel_frobenius_change": 0.4168611168861389,
+   "max_abs_change": 0.0982666015625,
+   "fp16_rounding_max_abs": 0.0,
+   "unchanged_after_rounding": false
+  },
+  {
+   "name": "model.decoder.layers.26.self_attn.out_proj.weight",
+   "ggml": "decoder.blocks.26.attn.out.weight",
+   "shape": [
+    1280,
+    1280
+   ],
+   "rel_frobenius_change": 0.24244394898414612,
+   "max_abs_change": 0.0823974609375,
+   "fp16_rounding_max_abs": 0.0,
+   "unchanged_after_rounding": false
+  }
+ ],
+ "n_tensors_touched": 9,
+ "safetensors_sha256": "2c08dd6c378dcc24870813a8b09e26b6734113b433d7e8c0e1d97658803854f1",
+ "script": {
+  "path": "scripts/phase2_edit.py",
+  "sha256": "998fd7f0b68ec5668c20d4b3188871b06c65325a2d5b46ab42547cc49dba0261"
+ },
+ "built": "2026-11-08T17:23:28",
+ "ggml": {
+  "path": "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+  "sha256": "ce1c3710c08dda0f5ec13b5005b9c3efbafabf83b02eff778cd7ada811fccace",
+  "bytes": 3095053647,
+  "verified_against_hf_fp16": {
+   "checked": 1259,
+   "touched": 9,
+   "touched_equal": 9,
+   "mismatches": [],
+   "touched_missing": [],
+   "ggml_tensors": 1259,
+   "hf_unmatched": []
+  }
+ }
+}

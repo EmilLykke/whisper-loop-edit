@@ -1,0 +1,64 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,040", "to": "00:00:30,040" },
+      "offsets":    { "from": 40, "to": 30040 },
+      "text":       " De er bedre end WebFoxy af flere årsager. De omdirigerer al internettrafik, ikke kun HTTP.",
+      "words": [
+        { "text": " De", "t0": 4, "t1": 76, "offsets": { "from": 40, "to": 760 } },
+        { "text": " er", "t0": 114, "t1": 150, "offsets": { "from": 1140, "to": 1500 } },
+        { "text": " bedre", "t0": 150, "t1": 332, "offsets": { "from": 1500, "to": 3320 } },
+        { "text": " end", "t0": 332, "t1": 440, "offsets": { "from": 3320, "to": 4400 } },
+        { "text": " WebFoxy", "t0": 440, "t1": 695, "offsets": { "from": 4400, "to": 6950 } },
+        { "text": " af", "t0": 695, "t1": 719, "offsets": { "from": 6950, "to": 7190 } },
+        { "text": " flere", "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": " årsager.", "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": " De", "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": " omdirigerer", "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": " al", "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": " internettrafik,", "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": " ikke", "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": " kun", "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": " HTTP.", "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } }
+      ],
+      "tokens": [
+        { "text": " De", "p": 0.785692, "t0": 4, "t1": 76, "offsets": { "from": 40, "to": 760 } },
+        { "text": " er", "p": 0.970434, "t0": 114, "t1": 150, "offsets": { "from": 1140, "to": 1500 } },
+        { "text": " bed", "p": 0.993856, "t0": 150, "t1": 257, "offsets": { "from": 1500, "to": 2570 } },
+        { "text": "re", "p": 0.999453, "t0": 257, "t1": 332, "offsets": { "from": 2570, "to": 3320 } },
+        { "text": " end", "p": 0.980881, "t0": 332, "t1": 440, "offsets": { "from": 3320, "to": 4400 } },
+        { "text": " Web", "p": 0.446062, "t0": 440, "t1": 549, "offsets": { "from": 4400, "to": 5490 } },
+        { "text": "F", "p": 0.394416, "t0": 553, "t1": 584, "offsets": { "from": 5530, "to": 5840 } },
+        { "text": "ox", "p": 0.989395, "t0": 588, "t1": 659, "offsets": { "from": 5880, "to": 6590 } },
+        { "text": "y", "p": 0.805953, "t0": 659, "t1": 695, "offsets": { "from": 6590, "to": 6950 } },
+        { "text": " af", "p": 0.925221, "t0": 695, "t1": 719, "offsets": { "from": 6950, "to": 7190 } },
+        { "text": " fl", "p": 0.967887, "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": "ere", "p": 0.999451, "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": " år", "p": 0.997288, "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": "s", "p": 0.905853, "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": "ager", "p": 0.998769, "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": ".", "p": 0.565185, "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": " De", "p": 0.968025, "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": " om", "p": 0.995442, "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": "dir", "p": 0.917982, "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": "iger", "p": 0.91263, "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": "er", "p": 0.953845, "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": " al", "p": 0.591363, "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": " intern", "p": 0.645529, "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": "ett", "p": 0.977064, "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": "raf", "p": 0.902548, "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": "ik", "p": 0.998971, "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": ",", "p": 0.61613, "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": " ikke", "p": 0.966051, "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": " kun", "p": 0.998706, "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": " HTTP", "p": 0.784236, "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } },
+        { "text": ".", "p": 0.897071, "t0": 719, "t1": 719, "offsets": { "from": 7190, "to": 7190 } }
+      ]
+    }
+  ]
+}

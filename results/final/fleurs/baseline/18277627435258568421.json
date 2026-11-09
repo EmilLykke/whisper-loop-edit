@@ -1,0 +1,73 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,100", "to": "00:00:30,100" },
+      "offsets":    { "from": 100, "to": 30100 },
+      "text":       " Den er en af hovedaktionerne i Sydafrika og betragtes som flagskibet for de sydafrikanske nationalparker, Sandparks.",
+      "words": [
+        { "text": " Den", "t0": 10, "t1": 96, "offsets": { "from": 100, "to": 960 } },
+        { "text": " er", "t0": 122, "t1": 153, "offsets": { "from": 1220, "to": 1530 } },
+        { "text": " en", "t0": 153, "t1": 210, "offsets": { "from": 1530, "to": 2100 } },
+        { "text": " af", "t0": 210, "t1": 267, "offsets": { "from": 2100, "to": 2670 } },
+        { "text": " hovedaktionerne", "t0": 267, "t1": 697, "offsets": { "from": 2670, "to": 6970 } },
+        { "text": " i", "t0": 697, "t1": 720, "offsets": { "from": 6970, "to": 7200 } },
+        { "text": " Sydafrika", "t0": 761, "t1": 929, "offsets": { "from": 7610, "to": 9290 } },
+        { "text": " og", "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": " betragtes", "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": " som", "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": " flagskibet", "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": " for", "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": " de", "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": " sydafrikanske", "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": " nationalparker,", "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": " Sandparks.", "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } }
+      ],
+      "tokens": [
+        { "text": " Den", "p": 0.911789, "t0": 10, "t1": 96, "offsets": { "from": 100, "to": 960 } },
+        { "text": " er", "p": 0.962074, "t0": 122, "t1": 153, "offsets": { "from": 1220, "to": 1530 } },
+        { "text": " en", "p": 0.960005, "t0": 153, "t1": 210, "offsets": { "from": 1530, "to": 2100 } },
+        { "text": " af", "p": 0.976665, "t0": 210, "t1": 267, "offsets": { "from": 2100, "to": 2670 } },
+        { "text": " ho", "p": 0.993862, "t0": 267, "t1": 324, "offsets": { "from": 2670, "to": 3240 } },
+        { "text": "ved", "p": 0.998692, "t0": 324, "t1": 406, "offsets": { "from": 3240, "to": 4060 } },
+        { "text": "akt", "p": 0.888066, "t0": 411, "t1": 496, "offsets": { "from": 4110, "to": 4960 } },
+        { "text": "ion", "p": 0.237131, "t0": 496, "t1": 582, "offsets": { "from": 4960, "to": 5820 } },
+        { "text": "erne", "p": 0.987854, "t0": 582, "t1": 697, "offsets": { "from": 5820, "to": 6970 } },
+        { "text": " i", "p": 0.977664, "t0": 697, "t1": 720, "offsets": { "from": 6970, "to": 7200 } },
+        { "text": " Sy", "p": 0.910636, "t0": 761, "t1": 783, "offsets": { "from": 7610, "to": 7830 } },
+        { "text": "da", "p": 0.999508, "t0": 783, "t1": 823, "offsets": { "from": 7830, "to": 8230 } },
+        { "text": "f", "p": 0.999624, "t0": 838, "t1": 868, "offsets": { "from": 8380, "to": 8680 } },
+        { "text": "rika", "p": 0.998965, "t0": 868, "t1": 929, "offsets": { "from": 8680, "to": 9290 } },
+        { "text": " og", "p": 0.60454, "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": " bet", "p": 0.828521, "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": "rag", "p": 0.984012, "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": "tes", "p": 0.97564, "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": " som", "p": 0.986367, "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": " flag", "p": 0.948515, "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": "sk", "p": 0.838734, "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": "ib", "p": 0.989591, "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": "et", "p": 0.988517, "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": " for", "p": 0.899427, "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": " de", "p": 0.920166, "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": " sy", "p": 0.914611, "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": "da", "p": 0.99886, "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": "f", "p": 0.996652, "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": "rik", "p": 0.958391, "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": "ans", "p": 0.99815, "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": "ke", "p": 0.995854, "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": " national", "p": 0.975727, "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": "park", "p": 0.817929, "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": "er", "p": 0.884261, "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": ",", "p": 0.474314, "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": " Sand", "p": 0.778586, "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": "p", "p": 0.894772, "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": "arks", "p": 0.848966, "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } },
+        { "text": ".", "p": 0.937348, "t0": 929, "t1": 929, "offsets": { "from": 9290, "to": 9290 } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,020", "to": "00:00:30,020" },
+      "offsets":    { "from": 20, "to": 30020 },
+      "text":       " Aspektforholdet for dette format er dog 3 til 2, divideret med 12 for at opnå det mest enkle heltalsforhold.",
+      "words": [
+        { "text": " Aspektforholdet", "t0": 2, "t1": 434, "offsets": { "from": 20, "to": 4340 } },
+        { "text": " for", "t0": 471, "t1": 528, "offsets": { "from": 4710, "to": 5280 } },
+        { "text": " dette", "t0": 528, "t1": 676, "offsets": { "from": 5280, "to": 6760 } },
+        { "text": " format", "t0": 676, "t1": 850, "offsets": { "from": 6760, "to": 8500 } },
+        { "text": " er", "t0": 852, "t1": 909, "offsets": { "from": 8520, "to": 9090 } },
+        { "text": " dog", "t0": 909, "t1": 999, "offsets": { "from": 9090, "to": 9990 } },
+        { "text": " 3", "t0": 999, "t1": 1022, "offsets": { "from": 9990, "to": 10220 } },
+        { "text": " til", "t0": 1022, "t1": 1022, "offsets": { "from": 10220, "to": 10220 } },
+        { "text": " 2,", "t0": 1022, "t1": 1022, "offsets": { "from": 10220, "to": 10220 } },
+        { "text": " divideret", "t0": 1022, "t1": 1022, "offsets": { "from": 10220, "to": 10220 } },
+        { "text": " med", "t0": 1022, "t1": 1022, "offsets": { "from": 10220, "to": 10220 } },
+        { "text": " 12", "t0": 1022, "t1": 1022, "offsets": { "from": 10220, "to": 10220 } },
+        { "text": " for", "t0": 1022, "t1": 1022, "offsets": { "from": 10220, "to": 10220 } },
+        { "text": " at", "t0": 1022, "t1": 1022, "offsets": { "from": 10220, "to": 10220 } },
+        { "text": " opnå", "t0": 1022, "t1": 1022, "offsets": { "from": 10220, "to": 10220 } },
+        { "text": " det", "t0": 1022, "t1": 1022, "offsets": { "from": 10220, "to": 10220 } },
+        { "text": " mest", "t0": 1022, "t1": 1022, "offsets": { "from": 10220, "to": 10220 } },
+        { "text": " enkle", "t0": 1022, "t1": 1022, "offsets": { "from": 10220, "to": 10220 } },
+        { "text": " heltalsforhold.", "t0": 1022, "t1": 1022, "offsets": { "from": 10220, "to": 10220 } }
+      ],
+      "tokens": [
+        { "text": " As", "p": 0.979851, "t0": 2, "t1": 61, "offsets": { "from": 20, "to": 610 } },
+        { "text": "pekt", "p": 0.992913, "t0": 79, "t1": 175, "offsets": { "from": 790, "to": 1750 } },
+        { "text": "for", "p": 0.957947, "t0": 185, "t1": 266, "offsets": { "from": 1850, "to": 2660 } },
+        { "text": "hold", "p": 0.999077, "t0": 266, "t1": 351, "offsets": { "from": 2660, "to": 3510 } },
+        { "text": "et", "p": 0.974894, "t0": 399, "t1": 434, "offsets": { "from": 3990, "to": 4340 } },
+        { "text": " for", "p": 0.909056, "t0": 471, "t1": 528, "offsets": { "from": 4710, "to": 5280 } },
+        { "text": " dette", "p": 0.985323, "t0": 528, "t1": 676, "offsets": { "from": 5280, "to": 6760 } },
+        { "text": " format", "p": 0.993453, "t0": 676, "t1": 850, "offsets": { "from": 6760, "to": 8500 } },
+        { "text": " er", "p": 0.972146, "t0": 852, "t1": 909, "offsets": { "from": 8520, "to": 9090 } },
+        { "text": " dog", "p": 0.648305, "t0": 909, "t1": 999, "offsets": { "from": 9090, "to": 9990 } },
+        { "text": " 3", "p": 0.887895, "t0": 999, "t1": 1022, "offsets": { "from": 9990, "to": 10220 } },
+        { "text": " til", "p": 0.734356, "t0": 1022, "t1": 1022, "offsets": { "from": 10220, "to": 10220 } },
+        { "text": " 2", "p": 0.997495, "t0": 1022, "t1": 1022, "offsets": { "from": 10220, "to": 10220 } },
+        { "text": ",", "p": 0.560679, "t0": 1022, "t1": 1022, "offsets": { "from": 10220, "to": 10220 } },
+        { "text": " div", "p": 0.978734, "t0": 1022, "t1": 1022, "offsets": { "from": 10220, "to": 10220 } },
+        { "text": "ider", "p": 0.999359, "t0": 1022, "t1": 1022, "offsets": { "from": 10220, "to": 10220 } },
+        { "text": "et", "p": 0.994687, "t0": 1022, "t1": 1022, "offsets": { "from": 10220, "to": 10220 } },
+        { "text": " med", "p": 0.925642, "t0": 1022, "t1": 1022, "offsets": { "from": 10220, "to": 10220 } },
+        { "text": " 12", "p": 0.988278, "t0": 1022, "t1": 1022, "offsets": { "from": 10220, "to": 10220 } },
+        { "text": " for", "p": 0.841561, "t0": 1022, "t1": 1022, "offsets": { "from": 10220, "to": 10220 } },
+        { "text": " at", "p": 0.986115, "t0": 1022, "t1": 1022, "offsets": { "from": 10220, "to": 10220 } },
+        { "text": " op", "p": 0.99079, "t0": 1022, "t1": 1022, "offsets": { "from": 10220, "to": 10220 } },
+        { "text": "n", "p": 0.998066, "t0": 1022, "t1": 1022, "offsets": { "from": 10220, "to": 10220 } },
+        { "text": "å", "p": 0.998736, "t0": 1022, "t1": 1022, "offsets": { "from": 10220, "to": 10220 } },
+        { "text": " det", "p": 0.912522, "t0": 1022, "t1": 1022, "offsets": { "from": 10220, "to": 10220 } },
+        { "text": " mest", "p": 0.934028, "t0": 1022, "t1": 1022, "offsets": { "from": 10220, "to": 10220 } },
+        { "text": " en", "p": 0.998508, "t0": 1022, "t1": 1022, "offsets": { "from": 10220, "to": 10220 } },
+        { "text": "kle", "p": 0.770748, "t0": 1022, "t1": 1022, "offsets": { "from": 10220, "to": 10220 } },
+        { "text": " helt", "p": 0.574835, "t0": 1022, "t1": 1022, "offsets": { "from": 10220, "to": 10220 } },
+        { "text": "als", "p": 0.461198, "t0": 1022, "t1": 1022, "offsets": { "from": 10220, "to": 10220 } },
+        { "text": "for", "p": 0.950755, "t0": 1022, "t1": 1022, "offsets": { "from": 10220, "to": 10220 } },
+        { "text": "hold", "p": 0.999706, "t0": 1022, "t1": 1022, "offsets": { "from": 10220, "to": 10220 } },
+        { "text": ".", "p": 0.954844, "t0": 1022, "t1": 1022, "offsets": { "from": 10220, "to": 10220 } }
+      ]
+    }
+  ]
+}

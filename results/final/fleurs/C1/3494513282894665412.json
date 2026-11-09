@@ -1,0 +1,69 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,540", "to": "00:00:30,540" },
+      "offsets":    { "from": 540, "to": 30540 },
+      "text":       " Ø-gruppen ligger 120 km fra halvøen. Den største er King George Island med bosættelsen Villa Las Estrellas.",
+      "words": [
+        { "text": " Ø-gruppen", "t0": 74, "t1": 337, "offsets": { "from": 740, "to": 3370 } },
+        { "text": " ligger", "t0": 337, "t1": 508, "offsets": { "from": 3370, "to": 5080 } },
+        { "text": " 120", "t0": 508, "t1": 765, "offsets": { "from": 5080, "to": 7650 } },
+        { "text": " km", "t0": 765, "t1": 822, "offsets": { "from": 7650, "to": 8220 } },
+        { "text": " fra", "t0": 822, "t1": 828, "offsets": { "from": 8220, "to": 8280 } },
+        { "text": " halvøen.", "t0": 846, "t1": 846, "offsets": { "from": 8460, "to": 8460 } },
+        { "text": " Den", "t0": 846, "t1": 846, "offsets": { "from": 8460, "to": 8460 } },
+        { "text": " største", "t0": 846, "t1": 846, "offsets": { "from": 8460, "to": 8460 } },
+        { "text": " er", "t0": 846, "t1": 846, "offsets": { "from": 8460, "to": 8460 } },
+        { "text": " King", "t0": 846, "t1": 846, "offsets": { "from": 8460, "to": 8460 } },
+        { "text": " George", "t0": 846, "t1": 846, "offsets": { "from": 8460, "to": 8460 } },
+        { "text": " Island", "t0": 846, "t1": 846, "offsets": { "from": 8460, "to": 8460 } },
+        { "text": " med", "t0": 846, "t1": 846, "offsets": { "from": 8460, "to": 8460 } },
+        { "text": " bosættelsen", "t0": 846, "t1": 846, "offsets": { "from": 8460, "to": 8460 } },
+        { "text": " Villa", "t0": 846, "t1": 846, "offsets": { "from": 8460, "to": 8460 } },
+        { "text": " Las", "t0": 846, "t1": 846, "offsets": { "from": 8460, "to": 8460 } },
+        { "text": " Estrellas.", "t0": 846, "t1": 846, "offsets": { "from": 8460, "to": 8460 } }
+      ],
+      "tokens": [
+        { "text": " ", "p": 0.80989, "t0": 74, "t1": 82, "offsets": { "from": 740, "to": 820 } },
+        { "text": "Ø", "p": 0.999689, "t0": 82, "t1": 109, "offsets": { "from": 820, "to": 1090 } },
+        { "text": "-", "p": 0.622274, "t0": 110, "t1": 138, "offsets": { "from": 1100, "to": 1380 } },
+        { "text": "grupp", "p": 0.977437, "t0": 138, "t1": 264, "offsets": { "from": 1380, "to": 2640 } },
+        { "text": "en", "p": 0.997836, "t0": 300, "t1": 337, "offsets": { "from": 3000, "to": 3370 } },
+        { "text": " ligger", "p": 0.984688, "t0": 337, "t1": 508, "offsets": { "from": 3370, "to": 5080 } },
+        { "text": " 120", "p": 0.959566, "t0": 508, "t1": 765, "offsets": { "from": 5080, "to": 7650 } },
+        { "text": " km", "p": 0.651412, "t0": 765, "t1": 822, "offsets": { "from": 7650, "to": 8220 } },
+        { "text": " fra", "p": 0.791138, "t0": 822, "t1": 828, "offsets": { "from": 8220, "to": 8280 } },
+        { "text": " hal", "p": 0.629376, "t0": 846, "t1": 846, "offsets": { "from": 8460, "to": 8460 } },
+        { "text": "v", "p": 0.988704, "t0": 846, "t1": 846, "offsets": { "from": 8460, "to": 8460 } },
+        { "text": "ø", "p": 0.983939, "t0": 846, "t1": 846, "offsets": { "from": 8460, "to": 8460 } },
+        { "text": "en", "p": 0.966953, "t0": 846, "t1": 846, "offsets": { "from": 8460, "to": 8460 } },
+        { "text": ".", "p": 0.811697, "t0": 846, "t1": 846, "offsets": { "from": 8460, "to": 8460 } },
+        { "text": " Den", "p": 0.986516, "t0": 846, "t1": 846, "offsets": { "from": 8460, "to": 8460 } },
+        { "text": " st", "p": 0.991202, "t0": 846, "t1": 846, "offsets": { "from": 8460, "to": 8460 } },
+        { "text": "ør", "p": 0.999756, "t0": 846, "t1": 846, "offsets": { "from": 8460, "to": 8460 } },
+        { "text": "ste", "p": 0.994664, "t0": 846, "t1": 846, "offsets": { "from": 8460, "to": 8460 } },
+        { "text": " er", "p": 0.958397, "t0": 846, "t1": 846, "offsets": { "from": 8460, "to": 8460 } },
+        { "text": " King", "p": 0.872967, "t0": 846, "t1": 846, "offsets": { "from": 8460, "to": 8460 } },
+        { "text": " George", "p": 0.969082, "t0": 846, "t1": 846, "offsets": { "from": 8460, "to": 8460 } },
+        { "text": " Island", "p": 0.914957, "t0": 846, "t1": 846, "offsets": { "from": 8460, "to": 8460 } },
+        { "text": " med", "p": 0.527578, "t0": 846, "t1": 846, "offsets": { "from": 8460, "to": 8460 } },
+        { "text": " bos", "p": 0.704678, "t0": 846, "t1": 846, "offsets": { "from": 8460, "to": 8460 } },
+        { "text": "æ", "p": 0.997286, "t0": 846, "t1": 846, "offsets": { "from": 8460, "to": 8460 } },
+        { "text": "tt", "p": 0.997952, "t0": 846, "t1": 846, "offsets": { "from": 8460, "to": 8460 } },
+        { "text": "els", "p": 0.955966, "t0": 846, "t1": 846, "offsets": { "from": 8460, "to": 8460 } },
+        { "text": "en", "p": 0.995571, "t0": 846, "t1": 846, "offsets": { "from": 8460, "to": 8460 } },
+        { "text": " Villa", "p": 0.961, "t0": 846, "t1": 846, "offsets": { "from": 8460, "to": 8460 } },
+        { "text": " Las", "p": 0.928402, "t0": 846, "t1": 846, "offsets": { "from": 8460, "to": 8460 } },
+        { "text": " Est", "p": 0.975363, "t0": 846, "t1": 846, "offsets": { "from": 8460, "to": 8460 } },
+        { "text": "rell", "p": 0.884119, "t0": 846, "t1": 846, "offsets": { "from": 8460, "to": 8460 } },
+        { "text": "as", "p": 0.999884, "t0": 846, "t1": 846, "offsets": { "from": 8460, "to": 8460 } },
+        { "text": ".", "p": 0.890084, "t0": 846, "t1": 846, "offsets": { "from": 8460, "to": 8460 } }
+      ]
+    }
+  ]
+}

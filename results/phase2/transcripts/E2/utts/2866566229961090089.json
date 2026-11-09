@@ -1,0 +1,53 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E2-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,070", "to": "00:00:30,070" },
+      "offsets":    { "from": 70, "to": 30070 },
+      "text":       " Før The Simpsons havde Simon arbejdet på flere programmer i forskellige stillinger.",
+      "words": [
+        { "text": " Før", "t0": 8, "t1": 163, "offsets": { "from": 80, "to": 1630 } },
+        { "text": " The", "t0": 198, "t1": 282, "offsets": { "from": 1980, "to": 2820 } },
+        { "text": " Simpsons", "t0": 282, "t1": 596, "offsets": { "from": 2820, "to": 5960 } },
+        { "text": " havde", "t0": 596, "t1": 791, "offsets": { "from": 5960, "to": 7910 } },
+        { "text": " Simon", "t0": 792, "t1": 881, "offsets": { "from": 7920, "to": 8810 } },
+        { "text": " arbejdet", "t0": 881, "t1": 881, "offsets": { "from": 8810, "to": 8810 } },
+        { "text": " på", "t0": 881, "t1": 881, "offsets": { "from": 8810, "to": 8810 } },
+        { "text": " flere", "t0": 881, "t1": 881, "offsets": { "from": 8810, "to": 8810 } },
+        { "text": " programmer", "t0": 881, "t1": 881, "offsets": { "from": 8810, "to": 8810 } },
+        { "text": " i", "t0": 881, "t1": 881, "offsets": { "from": 8810, "to": 8810 } },
+        { "text": " forskellige", "t0": 881, "t1": 881, "offsets": { "from": 8810, "to": 8810 } },
+        { "text": " stillinger.", "t0": 881, "t1": 881, "offsets": { "from": 8810, "to": 8810 } }
+      ],
+      "tokens": [
+        { "text": " F", "p": 0.897711, "t0": 8, "t1": 46, "offsets": { "from": 80, "to": 460 } },
+        { "text": "ør", "p": 0.99137, "t0": 124, "t1": 163, "offsets": { "from": 1240, "to": 1630 } },
+        { "text": " The", "p": 0.785298, "t0": 198, "t1": 282, "offsets": { "from": 1980, "to": 2820 } },
+        { "text": " Sim", "p": 0.87627, "t0": 282, "t1": 399, "offsets": { "from": 2820, "to": 3990 } },
+        { "text": "ps", "p": 0.998759, "t0": 400, "t1": 478, "offsets": { "from": 4000, "to": 4780 } },
+        { "text": "ons", "p": 0.999592, "t0": 478, "t1": 596, "offsets": { "from": 4780, "to": 5960 } },
+        { "text": " hav", "p": 0.905133, "t0": 596, "t1": 709, "offsets": { "from": 5960, "to": 7090 } },
+        { "text": "de", "p": 0.997944, "t0": 711, "t1": 791, "offsets": { "from": 7110, "to": 7910 } },
+        { "text": " Simon", "p": 0.971025, "t0": 792, "t1": 881, "offsets": { "from": 7920, "to": 8810 } },
+        { "text": " arbe", "p": 0.986369, "t0": 881, "t1": 881, "offsets": { "from": 8810, "to": 8810 } },
+        { "text": "j", "p": 0.981806, "t0": 881, "t1": 881, "offsets": { "from": 8810, "to": 8810 } },
+        { "text": "det", "p": 0.853432, "t0": 881, "t1": 881, "offsets": { "from": 8810, "to": 8810 } },
+        { "text": " på", "p": 0.983871, "t0": 881, "t1": 881, "offsets": { "from": 8810, "to": 8810 } },
+        { "text": " fl", "p": 0.984802, "t0": 881, "t1": 881, "offsets": { "from": 8810, "to": 8810 } },
+        { "text": "ere", "p": 0.999907, "t0": 881, "t1": 881, "offsets": { "from": 8810, "to": 8810 } },
+        { "text": " programmer", "p": 0.983354, "t0": 881, "t1": 881, "offsets": { "from": 8810, "to": 8810 } },
+        { "text": " i", "p": 0.948352, "t0": 881, "t1": 881, "offsets": { "from": 8810, "to": 8810 } },
+        { "text": " fors", "p": 0.995279, "t0": 881, "t1": 881, "offsets": { "from": 8810, "to": 8810 } },
+        { "text": "kell", "p": 0.996845, "t0": 881, "t1": 881, "offsets": { "from": 8810, "to": 8810 } },
+        { "text": "ige", "p": 0.998115, "t0": 881, "t1": 881, "offsets": { "from": 8810, "to": 8810 } },
+        { "text": " still", "p": 0.992323, "t0": 881, "t1": 881, "offsets": { "from": 8810, "to": 8810 } },
+        { "text": "inger", "p": 0.99887, "t0": 881, "t1": 881, "offsets": { "from": 8810, "to": 8810 } },
+        { "text": ".", "p": 0.906549, "t0": 881, "t1": 881, "offsets": { "from": 8810, "to": 8810 } }
+      ]
+    }
+  ]
+}

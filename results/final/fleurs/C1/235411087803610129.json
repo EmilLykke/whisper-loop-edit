@@ -1,0 +1,49 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,820", "to": "00:00:30,820" },
+      "offsets":    { "from": 820, "to": 30820 },
+      "text":       " Fundet giver også indsigt i udviklingen af fjerde hos fugle.",
+      "words": [
+        { "text": " Fundet", "t0": 105, "t1": 403, "offsets": { "from": 1050, "to": 4030 } },
+        { "text": " giver", "t0": 421, "t1": 423, "offsets": { "from": 4210, "to": 4230 } },
+        { "text": " også", "t0": 423, "t1": 423, "offsets": { "from": 4230, "to": 4230 } },
+        { "text": " indsigt", "t0": 423, "t1": 423, "offsets": { "from": 4230, "to": 4230 } },
+        { "text": " i", "t0": 423, "t1": 423, "offsets": { "from": 4230, "to": 4230 } },
+        { "text": " udviklingen", "t0": 423, "t1": 423, "offsets": { "from": 4230, "to": 4230 } },
+        { "text": " af", "t0": 423, "t1": 423, "offsets": { "from": 4230, "to": 4230 } },
+        { "text": " fjerde", "t0": 423, "t1": 423, "offsets": { "from": 4230, "to": 4230 } },
+        { "text": " hos", "t0": 423, "t1": 423, "offsets": { "from": 4230, "to": 4230 } },
+        { "text": " fugle.", "t0": 423, "t1": 423, "offsets": { "from": 4230, "to": 4230 } }
+      ],
+      "tokens": [
+        { "text": " Fund", "p": 0.852671, "t0": 105, "t1": 295, "offsets": { "from": 1050, "to": 2950 } },
+        { "text": "et", "p": 0.996278, "t0": 304, "t1": 403, "offsets": { "from": 3040, "to": 4030 } },
+        { "text": " gi", "p": 0.99052, "t0": 421, "t1": 423, "offsets": { "from": 4210, "to": 4230 } },
+        { "text": "ver", "p": 0.9976, "t0": 423, "t1": 423, "offsets": { "from": 4230, "to": 4230 } },
+        { "text": " også", "p": 0.71061, "t0": 423, "t1": 423, "offsets": { "from": 4230, "to": 4230 } },
+        { "text": " ind", "p": 0.980849, "t0": 423, "t1": 423, "offsets": { "from": 4230, "to": 4230 } },
+        { "text": "s", "p": 0.991024, "t0": 423, "t1": 423, "offsets": { "from": 4230, "to": 4230 } },
+        { "text": "igt", "p": 0.999173, "t0": 423, "t1": 423, "offsets": { "from": 4230, "to": 4230 } },
+        { "text": " i", "p": 0.955687, "t0": 423, "t1": 423, "offsets": { "from": 4230, "to": 4230 } },
+        { "text": " ud", "p": 0.992568, "t0": 423, "t1": 423, "offsets": { "from": 4230, "to": 4230 } },
+        { "text": "vik", "p": 0.999407, "t0": 423, "t1": 423, "offsets": { "from": 4230, "to": 4230 } },
+        { "text": "lingen", "p": 0.965769, "t0": 423, "t1": 423, "offsets": { "from": 4230, "to": 4230 } },
+        { "text": " af", "p": 0.99628, "t0": 423, "t1": 423, "offsets": { "from": 4230, "to": 4230 } },
+        { "text": " f", "p": 0.978651, "t0": 423, "t1": 423, "offsets": { "from": 4230, "to": 4230 } },
+        { "text": "jer", "p": 0.759713, "t0": 423, "t1": 423, "offsets": { "from": 4230, "to": 4230 } },
+        { "text": "de", "p": 0.29165, "t0": 423, "t1": 423, "offsets": { "from": 4230, "to": 4230 } },
+        { "text": " h", "p": 0.358046, "t0": 423, "t1": 423, "offsets": { "from": 4230, "to": 4230 } },
+        { "text": "os", "p": 0.997872, "t0": 423, "t1": 423, "offsets": { "from": 4230, "to": 4230 } },
+        { "text": " fug", "p": 0.997293, "t0": 423, "t1": 423, "offsets": { "from": 4230, "to": 4230 } },
+        { "text": "le", "p": 0.983117, "t0": 423, "t1": 423, "offsets": { "from": 4230, "to": 4230 } },
+        { "text": ".", "p": 0.837746, "t0": 423, "t1": 423, "offsets": { "from": 4230, "to": 4230 } }
+      ]
+    }
+  ]
+}

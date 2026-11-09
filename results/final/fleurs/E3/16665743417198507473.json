@@ -1,0 +1,58 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,170", "to": "00:00:30,170" },
+      "offsets":    { "from": 170, "to": 30170 },
+      "text":       " Man kan kun gidsne om, hvad der skal blive af tastaturet, når noget nyt kommer til.",
+      "words": [
+        { "text": " Man", "t0": 36, "t1": 140, "offsets": { "from": 360, "to": 1400 } },
+        { "text": " kan", "t0": 159, "t1": 263, "offsets": { "from": 1590, "to": 2630 } },
+        { "text": " kun", "t0": 263, "t1": 386, "offsets": { "from": 2630, "to": 3860 } },
+        { "text": " gidsne", "t0": 386, "t1": 607, "offsets": { "from": 3860, "to": 6070 } },
+        { "text": " om,", "t0": 637, "t1": 796, "offsets": { "from": 6370, "to": 7960 } },
+        { "text": " hvad", "t0": 796, "t1": 960, "offsets": { "from": 7960, "to": 9600 } },
+        { "text": " der", "t0": 987, "t1": 995, "offsets": { "from": 9870, "to": 9950 } },
+        { "text": " skal", "t0": 995, "t1": 995, "offsets": { "from": 9950, "to": 9950 } },
+        { "text": " blive", "t0": 995, "t1": 995, "offsets": { "from": 9950, "to": 9950 } },
+        { "text": " af", "t0": 995, "t1": 995, "offsets": { "from": 9950, "to": 9950 } },
+        { "text": " tastaturet,", "t0": 995, "t1": 995, "offsets": { "from": 9950, "to": 9950 } },
+        { "text": " når", "t0": 995, "t1": 995, "offsets": { "from": 9950, "to": 9950 } },
+        { "text": " noget", "t0": 995, "t1": 995, "offsets": { "from": 9950, "to": 9950 } },
+        { "text": " nyt", "t0": 995, "t1": 995, "offsets": { "from": 9950, "to": 9950 } },
+        { "text": " kommer", "t0": 995, "t1": 995, "offsets": { "from": 9950, "to": 9950 } },
+        { "text": " til.", "t0": 995, "t1": 995, "offsets": { "from": 9950, "to": 9950 } }
+      ],
+      "tokens": [
+        { "text": " Man", "p": 0.92587, "t0": 36, "t1": 140, "offsets": { "from": 360, "to": 1400 } },
+        { "text": " kan", "p": 0.99186, "t0": 159, "t1": 263, "offsets": { "from": 1590, "to": 2630 } },
+        { "text": " kun", "p": 0.972797, "t0": 263, "t1": 386, "offsets": { "from": 2630, "to": 3860 } },
+        { "text": " g", "p": 0.938738, "t0": 386, "t1": 401, "offsets": { "from": 3860, "to": 4010 } },
+        { "text": "ids", "p": 0.444673, "t0": 432, "t1": 550, "offsets": { "from": 4320, "to": 5500 } },
+        { "text": "ne", "p": 0.97599, "t0": 550, "t1": 607, "offsets": { "from": 5500, "to": 6070 } },
+        { "text": " om", "p": 0.969418, "t0": 637, "t1": 693, "offsets": { "from": 6370, "to": 6930 } },
+        { "text": ",", "p": 0.52209, "t0": 705, "t1": 796, "offsets": { "from": 7050, "to": 7960 } },
+        { "text": " hvad", "p": 0.984703, "t0": 796, "t1": 960, "offsets": { "from": 7960, "to": 9600 } },
+        { "text": " der", "p": 0.98353, "t0": 987, "t1": 995, "offsets": { "from": 9870, "to": 9950 } },
+        { "text": " skal", "p": 0.979619, "t0": 995, "t1": 995, "offsets": { "from": 9950, "to": 9950 } },
+        { "text": " bl", "p": 0.881071, "t0": 995, "t1": 995, "offsets": { "from": 9950, "to": 9950 } },
+        { "text": "ive", "p": 0.999624, "t0": 995, "t1": 995, "offsets": { "from": 9950, "to": 9950 } },
+        { "text": " af", "p": 0.161265, "t0": 995, "t1": 995, "offsets": { "from": 9950, "to": 9950 } },
+        { "text": " tast", "p": 0.404293, "t0": 995, "t1": 995, "offsets": { "from": 9950, "to": 9950 } },
+        { "text": "ature", "p": 0.848398, "t0": 995, "t1": 995, "offsets": { "from": 9950, "to": 9950 } },
+        { "text": "t", "p": 0.976367, "t0": 995, "t1": 995, "offsets": { "from": 9950, "to": 9950 } },
+        { "text": ",", "p": 0.835455, "t0": 995, "t1": 995, "offsets": { "from": 9950, "to": 9950 } },
+        { "text": " når", "p": 0.99496, "t0": 995, "t1": 995, "offsets": { "from": 9950, "to": 9950 } },
+        { "text": " noget", "p": 0.987191, "t0": 995, "t1": 995, "offsets": { "from": 9950, "to": 9950 } },
+        { "text": " nyt", "p": 0.995444, "t0": 995, "t1": 995, "offsets": { "from": 9950, "to": 9950 } },
+        { "text": " kommer", "p": 0.992256, "t0": 995, "t1": 995, "offsets": { "from": 9950, "to": 9950 } },
+        { "text": " til", "p": 0.98818, "t0": 995, "t1": 995, "offsets": { "from": 9950, "to": 9950 } },
+        { "text": ".", "p": 0.949274, "t0": 995, "t1": 995, "offsets": { "from": 9950, "to": 9950 } }
+      ]
+    }
+  ]
+}

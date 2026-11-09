@@ -1,0 +1,69 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,000", "to": "00:00:30,000" },
+      "offsets":    { "from": 0, "to": 30000 },
+      "text":       " Meddelingen blev offentliggjort efter Trumps telefonsamtale med den tyrkiske præsident, Recep Tayyip Erdogan.",
+      "words": [
+        { "text": " Meddelingen", "t0": 39, "t1": 324, "offsets": { "from": 390, "to": 3240 } },
+        { "text": " blev", "t0": 325, "t1": 424, "offsets": { "from": 3250, "to": 4240 } },
+        { "text": " offentliggjort", "t0": 449, "t1": 853, "offsets": { "from": 4490, "to": 8530 } },
+        { "text": " efter", "t0": 854, "t1": 875, "offsets": { "from": 8540, "to": 8750 } },
+        { "text": " Trumps", "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } },
+        { "text": " telefonsamtale", "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } },
+        { "text": " med", "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } },
+        { "text": " den", "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } },
+        { "text": " tyrkiske", "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } },
+        { "text": " præsident,", "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } },
+        { "text": " Recep", "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } },
+        { "text": " Tayyip", "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } },
+        { "text": " Erdogan.", "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } }
+      ],
+      "tokens": [
+        { "text": " Med", "p": 0.977926, "t0": 39, "t1": 89, "offsets": { "from": 390, "to": 890 } },
+        { "text": "d", "p": 0.796496, "t0": 89, "t1": 116, "offsets": { "from": 890, "to": 1160 } },
+        { "text": "eling", "p": 0.664377, "t0": 131, "t1": 266, "offsets": { "from": 1310, "to": 2660 } },
+        { "text": "en", "p": 0.969629, "t0": 266, "t1": 324, "offsets": { "from": 2660, "to": 3240 } },
+        { "text": " blev", "p": 0.536398, "t0": 325, "t1": 424, "offsets": { "from": 3250, "to": 4240 } },
+        { "text": " off", "p": 0.245216, "t0": 449, "t1": 485, "offsets": { "from": 4490, "to": 4850 } },
+        { "text": "ent", "p": 0.976753, "t0": 576, "t1": 611, "offsets": { "from": 5760, "to": 6110 } },
+        { "text": "lig", "p": 0.971604, "t0": 620, "t1": 681, "offsets": { "from": 6200, "to": 6810 } },
+        { "text": "g", "p": 0.996774, "t0": 703, "t1": 737, "offsets": { "from": 7030, "to": 7370 } },
+        { "text": "j", "p": 0.999491, "t0": 737, "t1": 766, "offsets": { "from": 7370, "to": 7660 } },
+        { "text": "ort", "p": 0.99556, "t0": 766, "t1": 853, "offsets": { "from": 7660, "to": 8530 } },
+        { "text": " efter", "p": 0.972244, "t0": 854, "t1": 875, "offsets": { "from": 8540, "to": 8750 } },
+        { "text": " Trump", "p": 0.9536, "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } },
+        { "text": "s", "p": 0.971415, "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } },
+        { "text": " telef", "p": 0.89516, "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } },
+        { "text": "ons", "p": 0.999072, "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } },
+        { "text": "amt", "p": 0.995892, "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } },
+        { "text": "ale", "p": 0.995482, "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } },
+        { "text": " med", "p": 0.987091, "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } },
+        { "text": " den", "p": 0.961859, "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } },
+        { "text": " tyr", "p": 0.9408, "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } },
+        { "text": "k", "p": 0.987611, "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } },
+        { "text": "is", "p": 0.948731, "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } },
+        { "text": "ke", "p": 0.999842, "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } },
+        { "text": " pr", "p": 0.988683, "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } },
+        { "text": "æ", "p": 0.999853, "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } },
+        { "text": "s", "p": 0.995066, "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } },
+        { "text": "ident", "p": 0.999834, "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } },
+        { "text": ",", "p": 0.542021, "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } },
+        { "text": " Re", "p": 0.415951, "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } },
+        { "text": "cep", "p": 0.998883, "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } },
+        { "text": " Tay", "p": 0.956899, "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } },
+        { "text": "y", "p": 0.999836, "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } },
+        { "text": "ip", "p": 0.990429, "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } },
+        { "text": " Er", "p": 0.997822, "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } },
+        { "text": "dog", "p": 0.983284, "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } },
+        { "text": "an", "p": 0.999609, "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } },
+        { "text": ".", "p": 0.753165, "t0": 875, "t1": 875, "offsets": { "from": 8750, "to": 8750 } }
+      ]
+    }
+  ]
+}

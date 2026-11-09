@@ -1,0 +1,62 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,000", "to": "00:00:30,000" },
+      "offsets":    { "from": 0, "to": 30000 },
+      "text":       " Giancarlo Fischiella mistede herdømmet over sin bil og sluttede løbet meget hurtigt efter start.",
+      "words": [
+        { "text": " Giancarlo", "t0": 2, "t1": 279, "offsets": { "from": 20, "to": 2790 } },
+        { "text": " Fischiella", "t0": 318, "t1": 650, "offsets": { "from": 3180, "to": 6500 } },
+        { "text": " mistede", "t0": 650, "t1": 845, "offsets": { "from": 6500, "to": 8450 } },
+        { "text": " herdømmet", "t0": 845, "t1": 845, "offsets": { "from": 8450, "to": 8450 } },
+        { "text": " over", "t0": 845, "t1": 845, "offsets": { "from": 8450, "to": 8450 } },
+        { "text": " sin", "t0": 845, "t1": 845, "offsets": { "from": 8450, "to": 8450 } },
+        { "text": " bil", "t0": 845, "t1": 845, "offsets": { "from": 8450, "to": 8450 } },
+        { "text": " og", "t0": 845, "t1": 845, "offsets": { "from": 8450, "to": 8450 } },
+        { "text": " sluttede", "t0": 845, "t1": 845, "offsets": { "from": 8450, "to": 8450 } },
+        { "text": " løbet", "t0": 845, "t1": 845, "offsets": { "from": 8450, "to": 8450 } },
+        { "text": " meget", "t0": 845, "t1": 845, "offsets": { "from": 8450, "to": 8450 } },
+        { "text": " hurtigt", "t0": 845, "t1": 845, "offsets": { "from": 8450, "to": 8450 } },
+        { "text": " efter", "t0": 845, "t1": 845, "offsets": { "from": 8450, "to": 8450 } },
+        { "text": " start.", "t0": 845, "t1": 845, "offsets": { "from": 8450, "to": 8450 } }
+      ],
+      "tokens": [
+        { "text": " Gian", "p": 0.966416, "t0": 2, "t1": 138, "offsets": { "from": 20, "to": 1380 } },
+        { "text": "car", "p": 0.989544, "t0": 138, "t1": 240, "offsets": { "from": 1380, "to": 2400 } },
+        { "text": "lo", "p": 0.998889, "t0": 240, "t1": 279, "offsets": { "from": 2400, "to": 2790 } },
+        { "text": " F", "p": 0.909052, "t0": 318, "t1": 343, "offsets": { "from": 3180, "to": 3430 } },
+        { "text": "isch", "p": 0.645047, "t0": 343, "t1": 480, "offsets": { "from": 3430, "to": 4800 } },
+        { "text": "ie", "p": 0.604534, "t0": 480, "t1": 538, "offsets": { "from": 4800, "to": 5380 } },
+        { "text": "lla", "p": 0.986784, "t0": 586, "t1": 650, "offsets": { "from": 5860, "to": 6500 } },
+        { "text": " mist", "p": 0.800045, "t0": 650, "t1": 698, "offsets": { "from": 6500, "to": 6980 } },
+        { "text": "ede", "p": 0.946312, "t0": 789, "t1": 845, "offsets": { "from": 7890, "to": 8450 } },
+        { "text": " her", "p": 0.698982, "t0": 845, "t1": 845, "offsets": { "from": 8450, "to": 8450 } },
+        { "text": "d", "p": 0.127685, "t0": 845, "t1": 845, "offsets": { "from": 8450, "to": 8450 } },
+        { "text": "ø", "p": 0.994423, "t0": 845, "t1": 845, "offsets": { "from": 8450, "to": 8450 } },
+        { "text": "mm", "p": 0.630701, "t0": 845, "t1": 845, "offsets": { "from": 8450, "to": 8450 } },
+        { "text": "et", "p": 0.874843, "t0": 845, "t1": 845, "offsets": { "from": 8450, "to": 8450 } },
+        { "text": " over", "p": 0.982793, "t0": 845, "t1": 845, "offsets": { "from": 8450, "to": 8450 } },
+        { "text": " sin", "p": 0.964867, "t0": 845, "t1": 845, "offsets": { "from": 8450, "to": 8450 } },
+        { "text": " bil", "p": 0.827057, "t0": 845, "t1": 845, "offsets": { "from": 8450, "to": 8450 } },
+        { "text": " og", "p": 0.822658, "t0": 845, "t1": 845, "offsets": { "from": 8450, "to": 8450 } },
+        { "text": " sl", "p": 0.874351, "t0": 845, "t1": 845, "offsets": { "from": 8450, "to": 8450 } },
+        { "text": "utt", "p": 0.998315, "t0": 845, "t1": 845, "offsets": { "from": 8450, "to": 8450 } },
+        { "text": "ede", "p": 0.991964, "t0": 845, "t1": 845, "offsets": { "from": 8450, "to": 8450 } },
+        { "text": " l", "p": 0.994114, "t0": 845, "t1": 845, "offsets": { "from": 8450, "to": 8450 } },
+        { "text": "ø", "p": 0.999975, "t0": 845, "t1": 845, "offsets": { "from": 8450, "to": 8450 } },
+        { "text": "bet", "p": 0.999144, "t0": 845, "t1": 845, "offsets": { "from": 8450, "to": 8450 } },
+        { "text": " meget", "p": 0.897911, "t0": 845, "t1": 845, "offsets": { "from": 8450, "to": 8450 } },
+        { "text": " hurt", "p": 0.998881, "t0": 845, "t1": 845, "offsets": { "from": 8450, "to": 8450 } },
+        { "text": "igt", "p": 0.988959, "t0": 845, "t1": 845, "offsets": { "from": 8450, "to": 8450 } },
+        { "text": " efter", "p": 0.987202, "t0": 845, "t1": 845, "offsets": { "from": 8450, "to": 8450 } },
+        { "text": " start", "p": 0.995262, "t0": 845, "t1": 845, "offsets": { "from": 8450, "to": 8450 } },
+        { "text": ".", "p": 0.908824, "t0": 845, "t1": 845, "offsets": { "from": 8450, "to": 8450 } }
+      ]
+    }
+  ]
+}

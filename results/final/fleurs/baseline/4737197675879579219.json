@@ -1,0 +1,47 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,170", "to": "00:00:30,170" },
+      "offsets":    { "from": 170, "to": 30170 },
+      "text":       " Han omtalte rygterne som politisk snigsnak og tåbelighed.",
+      "words": [
+        { "text": " Han", "t0": 148, "t1": 187, "offsets": { "from": 1480, "to": 1870 } },
+        { "text": " omtalte", "t0": 187, "t1": 579, "offsets": { "from": 1870, "to": 5790 } },
+        { "text": " rygterne", "t0": 579, "t1": 899, "offsets": { "from": 5790, "to": 8990 } },
+        { "text": " som", "t0": 899, "t1": 899, "offsets": { "from": 8990, "to": 8990 } },
+        { "text": " politisk", "t0": 899, "t1": 899, "offsets": { "from": 8990, "to": 8990 } },
+        { "text": " snigsnak", "t0": 899, "t1": 899, "offsets": { "from": 8990, "to": 8990 } },
+        { "text": " og", "t0": 899, "t1": 899, "offsets": { "from": 8990, "to": 8990 } },
+        { "text": " tåbelighed.", "t0": 899, "t1": 899, "offsets": { "from": 8990, "to": 8990 } }
+      ],
+      "tokens": [
+        { "text": " Han", "p": 0.898478, "t0": 148, "t1": 187, "offsets": { "from": 1480, "to": 1870 } },
+        { "text": " om", "p": 0.974434, "t0": 187, "t1": 300, "offsets": { "from": 1870, "to": 3000 } },
+        { "text": "tal", "p": 0.957143, "t0": 300, "t1": 465, "offsets": { "from": 3000, "to": 4650 } },
+        { "text": "te", "p": 0.942689, "t0": 471, "t1": 579, "offsets": { "from": 4710, "to": 5790 } },
+        { "text": " r", "p": 0.967951, "t0": 579, "t1": 627, "offsets": { "from": 5790, "to": 6270 } },
+        { "text": "yg", "p": 0.997632, "t0": 638, "t1": 752, "offsets": { "from": 6380, "to": 7520 } },
+        { "text": "ter", "p": 0.9838, "t0": 752, "t1": 899, "offsets": { "from": 7520, "to": 8990 } },
+        { "text": "ne", "p": 0.994342, "t0": 899, "t1": 899, "offsets": { "from": 8990, "to": 8990 } },
+        { "text": " som", "p": 0.973849, "t0": 899, "t1": 899, "offsets": { "from": 8990, "to": 8990 } },
+        { "text": " polit", "p": 0.972137, "t0": 899, "t1": 899, "offsets": { "from": 8990, "to": 8990 } },
+        { "text": "isk", "p": 0.994939, "t0": 899, "t1": 899, "offsets": { "from": 8990, "to": 8990 } },
+        { "text": " sn", "p": 0.973461, "t0": 899, "t1": 899, "offsets": { "from": 8990, "to": 8990 } },
+        { "text": "igs", "p": 0.439611, "t0": 899, "t1": 899, "offsets": { "from": 8990, "to": 8990 } },
+        { "text": "nak", "p": 0.996706, "t0": 899, "t1": 899, "offsets": { "from": 8990, "to": 8990 } },
+        { "text": " og", "p": 0.957521, "t0": 899, "t1": 899, "offsets": { "from": 8990, "to": 8990 } },
+        { "text": " t", "p": 0.86508, "t0": 899, "t1": 899, "offsets": { "from": 8990, "to": 8990 } },
+        { "text": "å", "p": 0.99972, "t0": 899, "t1": 899, "offsets": { "from": 8990, "to": 8990 } },
+        { "text": "bel", "p": 0.950487, "t0": 899, "t1": 899, "offsets": { "from": 8990, "to": 8990 } },
+        { "text": "igh", "p": 0.995275, "t0": 899, "t1": 899, "offsets": { "from": 8990, "to": 8990 } },
+        { "text": "ed", "p": 0.999558, "t0": 899, "t1": 899, "offsets": { "from": 8990, "to": 8990 } },
+        { "text": ".", "p": 0.895909, "t0": 899, "t1": 899, "offsets": { "from": 8990, "to": 8990 } }
+      ]
+    }
+  ]
+}

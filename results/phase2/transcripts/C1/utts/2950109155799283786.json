@@ -1,0 +1,73 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,370", "to": "00:00:30,370" },
+      "offsets":    { "from": 370, "to": 30370 },
+      "text":       " En del pilgrimme, som kom for at besøge den hellige by på aftenen for haj, pilgrimsfærden boede i bygningen.",
+      "words": [
+        { "text": " En", "t0": 37, "t1": 99, "offsets": { "from": 370, "to": 990 } },
+        { "text": " del", "t0": 124, "t1": 191, "offsets": { "from": 1240, "to": 1910 } },
+        { "text": " pilgrimme,", "t0": 191, "t1": 529, "offsets": { "from": 1910, "to": 5290 } },
+        { "text": " som", "t0": 529, "t1": 599, "offsets": { "from": 5290, "to": 5990 } },
+        { "text": " kom", "t0": 626, "t1": 713, "offsets": { "from": 6260, "to": 7130 } },
+        { "text": " for", "t0": 713, "t1": 805, "offsets": { "from": 7130, "to": 8050 } },
+        { "text": " at", "t0": 805, "t1": 867, "offsets": { "from": 8050, "to": 8670 } },
+        { "text": " besøge", "t0": 867, "t1": 1049, "offsets": { "from": 8670, "to": 10490 } },
+        { "text": " den", "t0": 1049, "t1": 1049, "offsets": { "from": 10490, "to": 10490 } },
+        { "text": " hellige", "t0": 1049, "t1": 1049, "offsets": { "from": 10490, "to": 10490 } },
+        { "text": " by", "t0": 1049, "t1": 1049, "offsets": { "from": 10490, "to": 10490 } },
+        { "text": " på", "t0": 1049, "t1": 1049, "offsets": { "from": 10490, "to": 10490 } },
+        { "text": " aftenen", "t0": 1049, "t1": 1049, "offsets": { "from": 10490, "to": 10490 } },
+        { "text": " for", "t0": 1049, "t1": 1049, "offsets": { "from": 10490, "to": 10490 } },
+        { "text": " haj,", "t0": 1049, "t1": 1049, "offsets": { "from": 10490, "to": 10490 } },
+        { "text": " pilgrimsfærden", "t0": 1049, "t1": 1049, "offsets": { "from": 10490, "to": 10490 } },
+        { "text": " boede", "t0": 1049, "t1": 1049, "offsets": { "from": 10490, "to": 10490 } },
+        { "text": " i", "t0": 1049, "t1": 1049, "offsets": { "from": 10490, "to": 10490 } },
+        { "text": " bygningen.", "t0": 1049, "t1": 1049, "offsets": { "from": 10490, "to": 10490 } }
+      ],
+      "tokens": [
+        { "text": " En", "p": 0.88399, "t0": 37, "t1": 99, "offsets": { "from": 370, "to": 990 } },
+        { "text": " del", "p": 0.996297, "t0": 124, "t1": 191, "offsets": { "from": 1240, "to": 1910 } },
+        { "text": " pilgr", "p": 0.798758, "t0": 191, "t1": 343, "offsets": { "from": 1910, "to": 3430 } },
+        { "text": "imme", "p": 0.794526, "t0": 346, "t1": 468, "offsets": { "from": 3460, "to": 4680 } },
+        { "text": ",", "p": 0.570934, "t0": 468, "t1": 529, "offsets": { "from": 4680, "to": 5290 } },
+        { "text": " som", "p": 0.961414, "t0": 529, "t1": 599, "offsets": { "from": 5290, "to": 5990 } },
+        { "text": " kom", "p": 0.983022, "t0": 626, "t1": 713, "offsets": { "from": 6260, "to": 7130 } },
+        { "text": " for", "p": 0.965558, "t0": 713, "t1": 805, "offsets": { "from": 7130, "to": 8050 } },
+        { "text": " at", "p": 0.969658, "t0": 805, "t1": 867, "offsets": { "from": 8050, "to": 8670 } },
+        { "text": " bes", "p": 0.997857, "t0": 867, "t1": 957, "offsets": { "from": 8670, "to": 9570 } },
+        { "text": "ø", "p": 0.999905, "t0": 959, "t1": 1020, "offsets": { "from": 9590, "to": 10200 } },
+        { "text": "ge", "p": 0.996274, "t0": 1020, "t1": 1049, "offsets": { "from": 10200, "to": 10490 } },
+        { "text": " den", "p": 0.677871, "t0": 1049, "t1": 1049, "offsets": { "from": 10490, "to": 10490 } },
+        { "text": " hell", "p": 0.821698, "t0": 1049, "t1": 1049, "offsets": { "from": 10490, "to": 10490 } },
+        { "text": "ige", "p": 0.998881, "t0": 1049, "t1": 1049, "offsets": { "from": 10490, "to": 10490 } },
+        { "text": " by", "p": 0.993798, "t0": 1049, "t1": 1049, "offsets": { "from": 10490, "to": 10490 } },
+        { "text": " på", "p": 0.767187, "t0": 1049, "t1": 1049, "offsets": { "from": 10490, "to": 10490 } },
+        { "text": " a", "p": 0.996039, "t0": 1049, "t1": 1049, "offsets": { "from": 10490, "to": 10490 } },
+        { "text": "ften", "p": 0.99412, "t0": 1049, "t1": 1049, "offsets": { "from": 10490, "to": 10490 } },
+        { "text": "en", "p": 0.991855, "t0": 1049, "t1": 1049, "offsets": { "from": 10490, "to": 10490 } },
+        { "text": " for", "p": 0.781028, "t0": 1049, "t1": 1049, "offsets": { "from": 10490, "to": 10490 } },
+        { "text": " ha", "p": 0.384309, "t0": 1049, "t1": 1049, "offsets": { "from": 10490, "to": 10490 } },
+        { "text": "j", "p": 0.988512, "t0": 1049, "t1": 1049, "offsets": { "from": 10490, "to": 10490 } },
+        { "text": ",", "p": 0.354588, "t0": 1049, "t1": 1049, "offsets": { "from": 10490, "to": 10490 } },
+        { "text": " pilgr", "p": 0.964314, "t0": 1049, "t1": 1049, "offsets": { "from": 10490, "to": 10490 } },
+        { "text": "ims", "p": 0.716735, "t0": 1049, "t1": 1049, "offsets": { "from": 10490, "to": 10490 } },
+        { "text": "f", "p": 0.833481, "t0": 1049, "t1": 1049, "offsets": { "from": 10490, "to": 10490 } },
+        { "text": "ær", "p": 0.670741, "t0": 1049, "t1": 1049, "offsets": { "from": 10490, "to": 10490 } },
+        { "text": "den", "p": 0.741772, "t0": 1049, "t1": 1049, "offsets": { "from": 10490, "to": 10490 } },
+        { "text": " bo", "p": 0.615747, "t0": 1049, "t1": 1049, "offsets": { "from": 10490, "to": 10490 } },
+        { "text": "ede", "p": 0.992701, "t0": 1049, "t1": 1049, "offsets": { "from": 10490, "to": 10490 } },
+        { "text": " i", "p": 0.99708, "t0": 1049, "t1": 1049, "offsets": { "from": 10490, "to": 10490 } },
+        { "text": " by", "p": 0.992159, "t0": 1049, "t1": 1049, "offsets": { "from": 10490, "to": 10490 } },
+        { "text": "g", "p": 0.996134, "t0": 1049, "t1": 1049, "offsets": { "from": 10490, "to": 10490 } },
+        { "text": "ningen", "p": 0.975468, "t0": 1049, "t1": 1049, "offsets": { "from": 10490, "to": 10490 } },
+        { "text": ".", "p": 0.944997, "t0": 1049, "t1": 1049, "offsets": { "from": 10490, "to": 10490 } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,800", "to": "00:00:30,800" },
+      "offsets":    { "from": 800, "to": 30800 },
+      "text":       " Der gider jeg også toget, bilen og mange andre transportnyder.",
+      "words": [
+        { "text": " Der", "t0": 100, "t1": 222, "offsets": { "from": 1000, "to": 2220 } },
+        { "text": " gider", "t0": 269, "t1": 461, "offsets": { "from": 2690, "to": 4610 } },
+        { "text": " jeg", "t0": 498, "t1": 573, "offsets": { "from": 4980, "to": 5730 } },
+        { "text": " også", "t0": 573, "t1": 573, "offsets": { "from": 5730, "to": 5730 } },
+        { "text": " toget,", "t0": 573, "t1": 573, "offsets": { "from": 5730, "to": 5730 } },
+        { "text": " bilen", "t0": 573, "t1": 573, "offsets": { "from": 5730, "to": 5730 } },
+        { "text": " og", "t0": 573, "t1": 573, "offsets": { "from": 5730, "to": 5730 } },
+        { "text": " mange", "t0": 573, "t1": 573, "offsets": { "from": 5730, "to": 5730 } },
+        { "text": " andre", "t0": 573, "t1": 573, "offsets": { "from": 5730, "to": 5730 } },
+        { "text": " transportnyder.", "t0": 573, "t1": 573, "offsets": { "from": 5730, "to": 5730 } }
+      ],
+      "tokens": [
+        { "text": " Der", "p": 0.54109, "t0": 100, "t1": 222, "offsets": { "from": 1000, "to": 2220 } },
+        { "text": " gider", "p": 0.680857, "t0": 269, "t1": 461, "offsets": { "from": 2690, "to": 4610 } },
+        { "text": " jeg", "p": 0.87704, "t0": 498, "t1": 573, "offsets": { "from": 4980, "to": 5730 } },
+        { "text": " også", "p": 0.979423, "t0": 573, "t1": 573, "offsets": { "from": 5730, "to": 5730 } },
+        { "text": " toget", "p": 0.950569, "t0": 573, "t1": 573, "offsets": { "from": 5730, "to": 5730 } },
+        { "text": ",", "p": 0.967597, "t0": 573, "t1": 573, "offsets": { "from": 5730, "to": 5730 } },
+        { "text": " bil", "p": 0.993392, "t0": 573, "t1": 573, "offsets": { "from": 5730, "to": 5730 } },
+        { "text": "en", "p": 0.976705, "t0": 573, "t1": 573, "offsets": { "from": 5730, "to": 5730 } },
+        { "text": " og", "p": 0.905818, "t0": 573, "t1": 573, "offsets": { "from": 5730, "to": 5730 } },
+        { "text": " mange", "p": 0.986463, "t0": 573, "t1": 573, "offsets": { "from": 5730, "to": 5730 } },
+        { "text": " and", "p": 0.989753, "t0": 573, "t1": 573, "offsets": { "from": 5730, "to": 5730 } },
+        { "text": "re", "p": 0.991361, "t0": 573, "t1": 573, "offsets": { "from": 5730, "to": 5730 } },
+        { "text": " transport", "p": 0.993358, "t0": 573, "t1": 573, "offsets": { "from": 5730, "to": 5730 } },
+        { "text": "ny", "p": 0.462771, "t0": 573, "t1": 573, "offsets": { "from": 5730, "to": 5730 } },
+        { "text": "der", "p": 0.954711, "t0": 573, "t1": 573, "offsets": { "from": 5730, "to": 5730 } },
+        { "text": ".", "p": 0.933971, "t0": 573, "t1": 573, "offsets": { "from": 5730, "to": 5730 } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,000", "to": "00:00:30,000" },
+      "offsets":    { "from": 0, "to": 30000 },
+      "text":       " Den varme chokolade lever op til de belgiske standarder, frugtjuicer er dyrere, men til gengæld fremragende.",
+      "words": [
+        { "text": " Den", "t0": 1, "t1": 91, "offsets": { "from": 10, "to": 910 } },
+        { "text": " varme", "t0": 91, "t1": 242, "offsets": { "from": 910, "to": 2420 } },
+        { "text": " chokolade", "t0": 242, "t1": 494, "offsets": { "from": 2420, "to": 4940 } },
+        { "text": " lever", "t0": 542, "t1": 670, "offsets": { "from": 5420, "to": 6700 } },
+        { "text": " op", "t0": 670, "t1": 729, "offsets": { "from": 6700, "to": 7290 } },
+        { "text": " til", "t0": 730, "t1": 791, "offsets": { "from": 7300, "to": 7910 } },
+        { "text": " de", "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": " belgiske", "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": " standarder,", "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": " frugtjuicer", "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": " er", "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": " dyrere,", "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": " men", "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": " til", "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": " gengæld", "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": " fremragende.", "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } }
+      ],
+      "tokens": [
+        { "text": " Den", "p": 0.930584, "t0": 1, "t1": 91, "offsets": { "from": 10, "to": 910 } },
+        { "text": " var", "p": 0.99272, "t0": 91, "t1": 182, "offsets": { "from": 910, "to": 1820 } },
+        { "text": "me", "p": 0.997444, "t0": 182, "t1": 242, "offsets": { "from": 1820, "to": 2420 } },
+        { "text": " ch", "p": 0.96497, "t0": 242, "t1": 292, "offsets": { "from": 2420, "to": 2920 } },
+        { "text": "okol", "p": 0.922576, "t0": 308, "t1": 426, "offsets": { "from": 3080, "to": 4260 } },
+        { "text": "ade", "p": 0.991249, "t0": 426, "t1": 494, "offsets": { "from": 4260, "to": 4940 } },
+        { "text": " lever", "p": 0.987339, "t0": 542, "t1": 670, "offsets": { "from": 5420, "to": 6700 } },
+        { "text": " op", "p": 0.980984, "t0": 670, "t1": 729, "offsets": { "from": 6700, "to": 7290 } },
+        { "text": " til", "p": 0.980608, "t0": 730, "t1": 791, "offsets": { "from": 7300, "to": 7910 } },
+        { "text": " de", "p": 0.925885, "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": " bel", "p": 0.890994, "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": "g", "p": 0.997162, "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": "is", "p": 0.983766, "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": "ke", "p": 0.998978, "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": " standard", "p": 0.995834, "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": "er", "p": 0.991904, "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": ",", "p": 0.273191, "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": " fr", "p": 0.971179, "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": "ug", "p": 0.985537, "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": "t", "p": 0.948674, "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": "ju", "p": 0.973762, "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": "icer", "p": 0.805673, "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": " er", "p": 0.978043, "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": " d", "p": 0.939221, "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": "yr", "p": 0.999354, "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": "ere", "p": 0.999316, "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": ",", "p": 0.706712, "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": " men", "p": 0.950264, "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": " til", "p": 0.972991, "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": " gen", "p": 0.994687, "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": "g", "p": 0.999783, "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": "æ", "p": 0.999798, "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": "ld", "p": 0.999491, "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": " fre", "p": 0.921418, "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": "m", "p": 0.998631, "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": "rag", "p": 0.99631, "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": "ende", "p": 0.992898, "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } },
+        { "text": ".", "p": 0.939871, "t0": 791, "t1": 791, "offsets": { "from": 7910, "to": 7910 } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E4-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,150", "to": "00:00:30,150" },
+      "offsets":    { "from": 150, "to": 30150 },
+      "text":       " Russisk jordkontrol aktiverede jetpropellerne og stationen genvandt sin normale højde.",
+      "words": [
+        { "text": " Russisk", "t0": 15, "t1": 275, "offsets": { "from": 150, "to": 2750 } },
+        { "text": " jordkontrol", "t0": 281, "t1": 683, "offsets": { "from": 2810, "to": 6830 } },
+        { "text": " aktiverede", "t0": 685, "t1": 841, "offsets": { "from": 6850, "to": 8410 } },
+        { "text": " jetpropellerne", "t0": 841, "t1": 841, "offsets": { "from": 8410, "to": 8410 } },
+        { "text": " og", "t0": 841, "t1": 841, "offsets": { "from": 8410, "to": 8410 } },
+        { "text": " stationen", "t0": 841, "t1": 841, "offsets": { "from": 8410, "to": 8410 } },
+        { "text": " genvandt", "t0": 841, "t1": 841, "offsets": { "from": 8410, "to": 8410 } },
+        { "text": " sin", "t0": 841, "t1": 841, "offsets": { "from": 8410, "to": 8410 } },
+        { "text": " normale", "t0": 841, "t1": 841, "offsets": { "from": 8410, "to": 8410 } },
+        { "text": " højde.", "t0": 841, "t1": 841, "offsets": { "from": 8410, "to": 8410 } }
+      ],
+      "tokens": [
+        { "text": " Russ", "p": 0.789756, "t0": 15, "t1": 164, "offsets": { "from": 150, "to": 1640 } },
+        { "text": "isk", "p": 0.985346, "t0": 186, "t1": 275, "offsets": { "from": 1860, "to": 2750 } },
+        { "text": " j", "p": 0.944027, "t0": 281, "t1": 314, "offsets": { "from": 2810, "to": 3140 } },
+        { "text": "ord", "p": 0.999605, "t0": 314, "t1": 415, "offsets": { "from": 3140, "to": 4150 } },
+        { "text": "k", "p": 0.988335, "t0": 426, "t1": 463, "offsets": { "from": 4260, "to": 4630 } },
+        { "text": "ont", "p": 0.999889, "t0": 463, "t1": 575, "offsets": { "from": 4630, "to": 5750 } },
+        { "text": "rol", "p": 0.997676, "t0": 575, "t1": 683, "offsets": { "from": 5750, "to": 6830 } },
+        { "text": " akt", "p": 0.946351, "t0": 685, "t1": 799, "offsets": { "from": 6850, "to": 7990 } },
+        { "text": "iver", "p": 0.99964, "t0": 799, "t1": 840, "offsets": { "from": 7990, "to": 8400 } },
+        { "text": "ede", "p": 0.94649, "t0": 841, "t1": 841, "offsets": { "from": 8410, "to": 8410 } },
+        { "text": " jet", "p": 0.987686, "t0": 841, "t1": 841, "offsets": { "from": 8410, "to": 8410 } },
+        { "text": "pro", "p": 0.727241, "t0": 841, "t1": 841, "offsets": { "from": 8410, "to": 8410 } },
+        { "text": "pe", "p": 0.981998, "t0": 841, "t1": 841, "offsets": { "from": 8410, "to": 8410 } },
+        { "text": "ller", "p": 0.999889, "t0": 841, "t1": 841, "offsets": { "from": 8410, "to": 8410 } },
+        { "text": "ne", "p": 0.987984, "t0": 841, "t1": 841, "offsets": { "from": 8410, "to": 8410 } },
+        { "text": " og", "p": 0.602114, "t0": 841, "t1": 841, "offsets": { "from": 8410, "to": 8410 } },
+        { "text": " station", "p": 0.993748, "t0": 841, "t1": 841, "offsets": { "from": 8410, "to": 8410 } },
+        { "text": "en", "p": 0.996155, "t0": 841, "t1": 841, "offsets": { "from": 8410, "to": 8410 } },
+        { "text": " gen", "p": 0.941725, "t0": 841, "t1": 841, "offsets": { "from": 8410, "to": 8410 } },
+        { "text": "v", "p": 0.991499, "t0": 841, "t1": 841, "offsets": { "from": 8410, "to": 8410 } },
+        { "text": "and", "p": 0.997444, "t0": 841, "t1": 841, "offsets": { "from": 8410, "to": 8410 } },
+        { "text": "t", "p": 0.990582, "t0": 841, "t1": 841, "offsets": { "from": 8410, "to": 8410 } },
+        { "text": " sin", "p": 0.991232, "t0": 841, "t1": 841, "offsets": { "from": 8410, "to": 8410 } },
+        { "text": " normale", "p": 0.995877, "t0": 841, "t1": 841, "offsets": { "from": 8410, "to": 8410 } },
+        { "text": " h", "p": 0.999335, "t0": 841, "t1": 841, "offsets": { "from": 8410, "to": 8410 } },
+        { "text": "ø", "p": 0.999796, "t0": 841, "t1": 841, "offsets": { "from": 8410, "to": 8410 } },
+        { "text": "j", "p": 0.999952, "t0": 841, "t1": 841, "offsets": { "from": 8410, "to": 8410 } },
+        { "text": "de", "p": 0.999519, "t0": 841, "t1": 841, "offsets": { "from": 8410, "to": 8410 } },
+        { "text": ".", "p": 0.949256, "t0": 841, "t1": 841, "offsets": { "from": 8410, "to": 8410 } }
+      ]
+    }
+  ]
+}

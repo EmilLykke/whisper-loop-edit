@@ -1,0 +1,55 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,000", "to": "00:00:30,000" },
+      "offsets":    { "from": 0, "to": 30000 },
+      "text":       " Man kan kun gisne om hvad der kan blive af tasturen når noget nyt kommer til.",
+      "words": [
+        { "text": " Man", "t0": 78, "t1": 137, "offsets": { "from": 780, "to": 1370 } },
+        { "text": " kan", "t0": 143, "t1": 275, "offsets": { "from": 1430, "to": 2750 } },
+        { "text": " kun", "t0": 284, "t1": 414, "offsets": { "from": 2840, "to": 4140 } },
+        { "text": " gisne", "t0": 414, "t1": 623, "offsets": { "from": 4140, "to": 6230 } },
+        { "text": " om", "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " hvad", "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " der", "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " kan", "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " blive", "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " af", "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " tasturen", "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " når", "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " noget", "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " nyt", "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " kommer", "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " til.", "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } }
+      ],
+      "tokens": [
+        { "text": " Man", "p": 0.907057, "t0": 78, "t1": 137, "offsets": { "from": 780, "to": 1370 } },
+        { "text": " kan", "p": 0.988919, "t0": 143, "t1": 275, "offsets": { "from": 1430, "to": 2750 } },
+        { "text": " kun", "p": 0.873964, "t0": 284, "t1": 414, "offsets": { "from": 2840, "to": 4140 } },
+        { "text": " g", "p": 0.873278, "t0": 414, "t1": 458, "offsets": { "from": 4140, "to": 4580 } },
+        { "text": "is", "p": 0.629179, "t0": 458, "t1": 545, "offsets": { "from": 4580, "to": 5450 } },
+        { "text": "ne", "p": 0.997109, "t0": 551, "t1": 623, "offsets": { "from": 5510, "to": 6230 } },
+        { "text": " om", "p": 0.508826, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " hvad", "p": 0.821894, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " der", "p": 0.981366, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " kan", "p": 0.968446, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " bl", "p": 0.841191, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": "ive", "p": 0.998967, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " af", "p": 0.966931, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " tast", "p": 0.707517, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": "uren", "p": 0.518465, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " når", "p": 0.670453, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " noget", "p": 0.917396, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " nyt", "p": 0.988389, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " kommer", "p": 0.990102, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": " til", "p": 0.959688, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } },
+        { "text": ".", "p": 0.928893, "t0": 623, "t1": 623, "offsets": { "from": 6230, "to": 6230 } }
+      ]
+    }
+  ]
+}

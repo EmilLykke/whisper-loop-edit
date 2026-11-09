@@ -1,0 +1,44 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,440", "to": "00:00:30,440" },
+      "offsets":    { "from": 440, "to": 30440 },
+      "text":       " En af bomberne sprang uden for generalguvernørens kontor.",
+      "words": [
+        { "text": " En", "t0": 64, "t1": 157, "offsets": { "from": 640, "to": 1570 } },
+        { "text": " af", "t0": 157, "t1": 270, "offsets": { "from": 1570, "to": 2700 } },
+        { "text": " bomberne", "t0": 270, "t1": 375, "offsets": { "from": 2700, "to": 3750 } },
+        { "text": " sprang", "t0": 375, "t1": 375, "offsets": { "from": 3750, "to": 3750 } },
+        { "text": " uden", "t0": 375, "t1": 375, "offsets": { "from": 3750, "to": 3750 } },
+        { "text": " for", "t0": 375, "t1": 375, "offsets": { "from": 3750, "to": 3750 } },
+        { "text": " generalguvernørens", "t0": 375, "t1": 375, "offsets": { "from": 3750, "to": 3750 } },
+        { "text": " kontor.", "t0": 375, "t1": 375, "offsets": { "from": 3750, "to": 3750 } }
+      ],
+      "tokens": [
+        { "text": " En", "p": 0.942302, "t0": 64, "t1": 157, "offsets": { "from": 640, "to": 1570 } },
+        { "text": " af", "p": 0.990274, "t0": 157, "t1": 270, "offsets": { "from": 1570, "to": 2700 } },
+        { "text": " bomber", "p": 0.724989, "t0": 270, "t1": 355, "offsets": { "from": 2700, "to": 3550 } },
+        { "text": "ne", "p": 0.983642, "t0": 375, "t1": 375, "offsets": { "from": 3750, "to": 3750 } },
+        { "text": " spr", "p": 0.989247, "t0": 375, "t1": 375, "offsets": { "from": 3750, "to": 3750 } },
+        { "text": "ang", "p": 0.999781, "t0": 375, "t1": 375, "offsets": { "from": 3750, "to": 3750 } },
+        { "text": " u", "p": 0.990847, "t0": 375, "t1": 375, "offsets": { "from": 3750, "to": 3750 } },
+        { "text": "den", "p": 0.998546, "t0": 375, "t1": 375, "offsets": { "from": 3750, "to": 3750 } },
+        { "text": " for", "p": 0.740135, "t0": 375, "t1": 375, "offsets": { "from": 3750, "to": 3750 } },
+        { "text": " general", "p": 0.521045, "t0": 375, "t1": 375, "offsets": { "from": 3750, "to": 3750 } },
+        { "text": "gu", "p": 0.573493, "t0": 375, "t1": 375, "offsets": { "from": 3750, "to": 3750 } },
+        { "text": "vern", "p": 0.989568, "t0": 375, "t1": 375, "offsets": { "from": 3750, "to": 3750 } },
+        { "text": "ø", "p": 0.953373, "t0": 375, "t1": 375, "offsets": { "from": 3750, "to": 3750 } },
+        { "text": "ren", "p": 0.984759, "t0": 375, "t1": 375, "offsets": { "from": 3750, "to": 3750 } },
+        { "text": "s", "p": 0.996101, "t0": 375, "t1": 375, "offsets": { "from": 3750, "to": 3750 } },
+        { "text": " kont", "p": 0.995283, "t0": 375, "t1": 375, "offsets": { "from": 3750, "to": 3750 } },
+        { "text": "or", "p": 0.997044, "t0": 375, "t1": 375, "offsets": { "from": 3750, "to": 3750 } },
+        { "text": ".", "p": 0.891657, "t0": 375, "t1": 375, "offsets": { "from": 3750, "to": 3750 } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,030", "to": "00:00:30,030" },
+      "offsets":    { "from": 30, "to": 30030 },
+      "text":       " Casablanca er en af de mindst interessante steder at shoppe i hele Marokko.",
+      "words": [
+        { "text": " Casablanca", "t0": 99, "t1": 430, "offsets": { "from": 990, "to": 4300 } },
+        { "text": " er", "t0": 459, "t1": 555, "offsets": { "from": 4590, "to": 5550 } },
+        { "text": " en", "t0": 555, "t1": 571, "offsets": { "from": 5550, "to": 5710 } },
+        { "text": " af", "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " de", "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " mindst", "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " interessante", "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " steder", "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " at", "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " shoppe", "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " i", "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " hele", "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " Marokko.", "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } }
+      ],
+      "tokens": [
+        { "text": " Cas", "p": 0.843042, "t0": 99, "t1": 141, "offsets": { "from": 990, "to": 1410 } },
+        { "text": "ab", "p": 0.977444, "t0": 141, "t1": 233, "offsets": { "from": 1410, "to": 2330 } },
+        { "text": "lan", "p": 0.999662, "t0": 233, "t1": 371, "offsets": { "from": 2330, "to": 3710 } },
+        { "text": "ca", "p": 0.999153, "t0": 371, "t1": 430, "offsets": { "from": 3710, "to": 4300 } },
+        { "text": " er", "p": 0.968871, "t0": 459, "t1": 555, "offsets": { "from": 4590, "to": 5550 } },
+        { "text": " en", "p": 0.479795, "t0": 555, "t1": 571, "offsets": { "from": 5550, "to": 5710 } },
+        { "text": " af", "p": 0.98519, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " de", "p": 0.958036, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " mind", "p": 0.974351, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": "st", "p": 0.870882, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " interessante", "p": 0.976489, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " st", "p": 0.996386, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": "eder", "p": 0.995871, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " at", "p": 0.871324, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " shop", "p": 0.97347, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": "pe", "p": 0.996297, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " i", "p": 0.960811, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " hele", "p": 0.949971, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": " Mar", "p": 0.819146, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": "ok", "p": 0.93516, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": "ko", "p": 0.999249, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } },
+        { "text": ".", "p": 0.908641, "t0": 571, "t1": 571, "offsets": { "from": 5710, "to": 5710 } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,000", "to": "00:00:30,000" },
+      "offsets":    { "from": 0, "to": 30000 },
+      "text":       " Celle kommer fra det latinske ord Cella, hvilket betyder lille rum.",
+      "words": [
+        { "text": " Celle", "t0": 9, "t1": 249, "offsets": { "from": 90, "to": 2490 } },
+        { "text": " kommer", "t0": 249, "t1": 548, "offsets": { "from": 2490, "to": 5480 } },
+        { "text": " fra", "t0": 548, "t1": 605, "offsets": { "from": 5480, "to": 6050 } },
+        { "text": " det", "t0": 634, "t1": 635, "offsets": { "from": 6340, "to": 6350 } },
+        { "text": " latinske", "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " ord", "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " Cella,", "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " hvilket", "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " betyder", "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " lille", "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " rum.", "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } }
+      ],
+      "tokens": [
+        { "text": " C", "p": 0.83683, "t0": 9, "t1": 49, "offsets": { "from": 90, "to": 490 } },
+        { "text": "elle", "p": 0.997446, "t0": 70, "t1": 249, "offsets": { "from": 700, "to": 2490 } },
+        { "text": " kommer", "p": 0.967663, "t0": 249, "t1": 548, "offsets": { "from": 2490, "to": 5480 } },
+        { "text": " fra", "p": 0.994243, "t0": 548, "t1": 605, "offsets": { "from": 5480, "to": 6050 } },
+        { "text": " det", "p": 0.985233, "t0": 634, "t1": 635, "offsets": { "from": 6340, "to": 6350 } },
+        { "text": " lat", "p": 0.954993, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": "ins", "p": 0.993957, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": "ke", "p": 0.996373, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " ord", "p": 0.996702, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " C", "p": 0.165509, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": "ella", "p": 0.939082, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": ",", "p": 0.791984, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " h", "p": 0.943511, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": "vil", "p": 0.999053, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": "ket", "p": 0.999664, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " bet", "p": 0.997843, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": "y", "p": 0.999558, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": "der", "p": 0.999807, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " l", "p": 0.874751, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": "ille", "p": 0.999298, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": " rum", "p": 0.964794, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } },
+        { "text": ".", "p": 0.832591, "t0": 635, "t1": 635, "offsets": { "from": 6350, "to": 6350 } }
+      ]
+    }
+  ]
+}

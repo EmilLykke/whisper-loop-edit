@@ -1,0 +1,58 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,600", "to": "00:00:30,600" },
+      "offsets":    { "from": 600, "to": 30600 },
+      "text":       " Så det er sandsynligvis at anmærkningen blot blev vedlagt som en tilføjelse.",
+      "words": [
+        { "text": " Så", "t0": 81, "t1": 188, "offsets": { "from": 810, "to": 1880 } },
+        { "text": " det", "t0": 188, "t1": 316, "offsets": { "from": 1880, "to": 3160 } },
+        { "text": " er", "t0": 316, "t1": 393, "offsets": { "from": 3160, "to": 3930 } },
+        { "text": " sandsynligvis", "t0": 414, "t1": 597, "offsets": { "from": 4140, "to": 5970 } },
+        { "text": " at", "t0": 597, "t1": 597, "offsets": { "from": 5970, "to": 5970 } },
+        { "text": " anmærkningen", "t0": 597, "t1": 597, "offsets": { "from": 5970, "to": 5970 } },
+        { "text": " blot", "t0": 597, "t1": 597, "offsets": { "from": 5970, "to": 5970 } },
+        { "text": " blev", "t0": 597, "t1": 597, "offsets": { "from": 5970, "to": 5970 } },
+        { "text": " vedlagt", "t0": 597, "t1": 597, "offsets": { "from": 5970, "to": 5970 } },
+        { "text": " som", "t0": 597, "t1": 597, "offsets": { "from": 5970, "to": 5970 } },
+        { "text": " en", "t0": 597, "t1": 597, "offsets": { "from": 5970, "to": 5970 } },
+        { "text": " tilføjelse.", "t0": 597, "t1": 597, "offsets": { "from": 5970, "to": 5970 } }
+      ],
+      "tokens": [
+        { "text": " Så", "p": 0.82621, "t0": 81, "t1": 188, "offsets": { "from": 810, "to": 1880 } },
+        { "text": " det", "p": 0.96185, "t0": 188, "t1": 316, "offsets": { "from": 1880, "to": 3160 } },
+        { "text": " er", "p": 0.993614, "t0": 316, "t1": 393, "offsets": { "from": 3160, "to": 3930 } },
+        { "text": " s", "p": 0.5624, "t0": 414, "t1": 444, "offsets": { "from": 4140, "to": 4440 } },
+        { "text": "ands", "p": 0.792845, "t0": 444, "t1": 574, "offsets": { "from": 4440, "to": 5740 } },
+        { "text": "yn", "p": 0.994918, "t0": 597, "t1": 597, "offsets": { "from": 5970, "to": 5970 } },
+        { "text": "lig", "p": 0.905757, "t0": 597, "t1": 597, "offsets": { "from": 5970, "to": 5970 } },
+        { "text": "vis", "p": 0.923784, "t0": 597, "t1": 597, "offsets": { "from": 5970, "to": 5970 } },
+        { "text": " at", "p": 0.601843, "t0": 597, "t1": 597, "offsets": { "from": 5970, "to": 5970 } },
+        { "text": " an", "p": 0.936301, "t0": 597, "t1": 597, "offsets": { "from": 5970, "to": 5970 } },
+        { "text": "m", "p": 0.960961, "t0": 597, "t1": 597, "offsets": { "from": 5970, "to": 5970 } },
+        { "text": "ær", "p": 0.997887, "t0": 597, "t1": 597, "offsets": { "from": 5970, "to": 5970 } },
+        { "text": "k", "p": 0.980643, "t0": 597, "t1": 597, "offsets": { "from": 5970, "to": 5970 } },
+        { "text": "ningen", "p": 0.944885, "t0": 597, "t1": 597, "offsets": { "from": 5970, "to": 5970 } },
+        { "text": " bl", "p": 0.857081, "t0": 597, "t1": 597, "offsets": { "from": 5970, "to": 5970 } },
+        { "text": "ot", "p": 0.995799, "t0": 597, "t1": 597, "offsets": { "from": 5970, "to": 5970 } },
+        { "text": " blev", "p": 0.799799, "t0": 597, "t1": 597, "offsets": { "from": 5970, "to": 5970 } },
+        { "text": " ved", "p": 0.983473, "t0": 597, "t1": 597, "offsets": { "from": 5970, "to": 5970 } },
+        { "text": "l", "p": 0.99522, "t0": 597, "t1": 597, "offsets": { "from": 5970, "to": 5970 } },
+        { "text": "agt", "p": 0.999916, "t0": 597, "t1": 597, "offsets": { "from": 5970, "to": 5970 } },
+        { "text": " som", "p": 0.957547, "t0": 597, "t1": 597, "offsets": { "from": 5970, "to": 5970 } },
+        { "text": " en", "p": 0.981087, "t0": 597, "t1": 597, "offsets": { "from": 5970, "to": 5970 } },
+        { "text": " til", "p": 0.997162, "t0": 597, "t1": 597, "offsets": { "from": 5970, "to": 5970 } },
+        { "text": "f", "p": 0.991295, "t0": 597, "t1": 597, "offsets": { "from": 5970, "to": 5970 } },
+        { "text": "ø", "p": 0.999819, "t0": 597, "t1": 597, "offsets": { "from": 5970, "to": 5970 } },
+        { "text": "j", "p": 0.999146, "t0": 597, "t1": 597, "offsets": { "from": 5970, "to": 5970 } },
+        { "text": "else", "p": 0.997994, "t0": 597, "t1": 597, "offsets": { "from": 5970, "to": 5970 } },
+        { "text": ".", "p": 0.911557, "t0": 597, "t1": 597, "offsets": { "from": 5970, "to": 5970 } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,000", "to": "00:00:30,000" },
+      "offsets":    { "from": 0, "to": 30000 },
+      "text":       " Det kan trækkes ud til et tyndt kabel, som kan snores og flettes. Det kan hammers eller rulles til plader.",
+      "words": [
+        { "text": " Det", "t0": 7, "t1": 96, "offsets": { "from": 70, "to": 960 } },
+        { "text": " kan", "t0": 96, "t1": 192, "offsets": { "from": 960, "to": 1920 } },
+        { "text": " trækkes", "t0": 192, "t1": 448, "offsets": { "from": 1920, "to": 4480 } },
+        { "text": " ud", "t0": 448, "t1": 512, "offsets": { "from": 4480, "to": 5120 } },
+        { "text": " til", "t0": 512, "t1": 601, "offsets": { "from": 5120, "to": 6010 } },
+        { "text": " et", "t0": 604, "t1": 653, "offsets": { "from": 6040, "to": 6530 } },
+        { "text": " tyndt", "t0": 653, "t1": 653, "offsets": { "from": 6530, "to": 6530 } },
+        { "text": " kabel,", "t0": 653, "t1": 653, "offsets": { "from": 6530, "to": 6530 } },
+        { "text": " som", "t0": 653, "t1": 653, "offsets": { "from": 6530, "to": 6530 } },
+        { "text": " kan", "t0": 653, "t1": 653, "offsets": { "from": 6530, "to": 6530 } },
+        { "text": " snores", "t0": 653, "t1": 653, "offsets": { "from": 6530, "to": 6530 } },
+        { "text": " og", "t0": 653, "t1": 653, "offsets": { "from": 6530, "to": 6530 } },
+        { "text": " flettes.", "t0": 653, "t1": 653, "offsets": { "from": 6530, "to": 6530 } },
+        { "text": " Det", "t0": 653, "t1": 653, "offsets": { "from": 6530, "to": 6530 } },
+        { "text": " kan", "t0": 653, "t1": 653, "offsets": { "from": 6530, "to": 6530 } },
+        { "text": " hammers", "t0": 653, "t1": 653, "offsets": { "from": 6530, "to": 6530 } },
+        { "text": " eller", "t0": 653, "t1": 653, "offsets": { "from": 6530, "to": 6530 } },
+        { "text": " rulles", "t0": 653, "t1": 653, "offsets": { "from": 6530, "to": 6530 } },
+        { "text": " til", "t0": 653, "t1": 653, "offsets": { "from": 6530, "to": 6530 } },
+        { "text": " plader.", "t0": 653, "t1": 653, "offsets": { "from": 6530, "to": 6530 } }
+      ],
+      "tokens": [
+        { "text": " Det", "p": 0.891154, "t0": 7, "t1": 96, "offsets": { "from": 70, "to": 960 } },
+        { "text": " kan", "p": 0.983218, "t0": 96, "t1": 192, "offsets": { "from": 960, "to": 1920 } },
+        { "text": " tr", "p": 0.923345, "t0": 192, "t1": 256, "offsets": { "from": 1920, "to": 2560 } },
+        { "text": "æ", "p": 0.9981, "t0": 256, "t1": 320, "offsets": { "from": 2560, "to": 3200 } },
+        { "text": "k", "p": 0.980647, "t0": 320, "t1": 350, "offsets": { "from": 3200, "to": 3500 } },
+        { "text": "kes", "p": 0.999468, "t0": 374, "t1": 448, "offsets": { "from": 3740, "to": 4480 } },
+        { "text": " ud", "p": 0.984878, "t0": 448, "t1": 512, "offsets": { "from": 4480, "to": 5120 } },
+        { "text": " til", "p": 0.983132, "t0": 512, "t1": 601, "offsets": { "from": 5120, "to": 6010 } },
+        { "text": " et", "p": 0.967979, "t0": 604, "t1": 653, "offsets": { "from": 6040, "to": 6530 } },
+        { "text": " ty", "p": 0.978399, "t0": 653, "t1": 653, "offsets": { "from": 6530, "to": 6530 } },
+        { "text": "nd", "p": 0.985329, "t0": 653, "t1": 653, "offsets": { "from": 6530, "to": 6530 } },
+        { "text": "t", "p": 0.977935, "t0": 653, "t1": 653, "offsets": { "from": 6530, "to": 6530 } },
+        { "text": " k", "p": 0.965399, "t0": 653, "t1": 653, "offsets": { "from": 6530, "to": 6530 } },
+        { "text": "abel", "p": 0.999411, "t0": 653, "t1": 653, "offsets": { "from": 6530, "to": 6530 } },
+        { "text": ",", "p": 0.661237, "t0": 653, "t1": 653, "offsets": { "from": 6530, "to": 6530 } },
+        { "text": " som", "p": 0.963049, "t0": 653, "t1": 653, "offsets": { "from": 6530, "to": 6530 } },
+        { "text": " kan", "p": 0.969779, "t0": 653, "t1": 653, "offsets": { "from": 6530, "to": 6530 } },
+        { "text": " sn", "p": 0.955613, "t0": 653, "t1": 653, "offsets": { "from": 6530, "to": 6530 } },
+        { "text": "ores", "p": 0.825067, "t0": 653, "t1": 653, "offsets": { "from": 6530, "to": 6530 } },
+        { "text": " og", "p": 0.963953, "t0": 653, "t1": 653, "offsets": { "from": 6530, "to": 6530 } },
+        { "text": " fl", "p": 0.470954, "t0": 653, "t1": 653, "offsets": { "from": 6530, "to": 6530 } },
+        { "text": "ettes", "p": 0.961836, "t0": 653, "t1": 653, "offsets": { "from": 6530, "to": 6530 } },
+        { "text": ".", "p": 0.825053, "t0": 653, "t1": 653, "offsets": { "from": 6530, "to": 6530 } },
+        { "text": " Det", "p": 0.962754, "t0": 653, "t1": 653, "offsets": { "from": 6530, "to": 6530 } },
+        { "text": " kan", "p": 0.990563, "t0": 653, "t1": 653, "offsets": { "from": 6530, "to": 6530 } },
+        { "text": " hamm", "p": 0.629485, "t0": 653, "t1": 653, "offsets": { "from": 6530, "to": 6530 } },
+        { "text": "ers", "p": 0.835085, "t0": 653, "t1": 653, "offsets": { "from": 6530, "to": 6530 } },
+        { "text": " eller", "p": 0.775495, "t0": 653, "t1": 653, "offsets": { "from": 6530, "to": 6530 } },
+        { "text": " r", "p": 0.987562, "t0": 653, "t1": 653, "offsets": { "from": 6530, "to": 6530 } },
+        { "text": "ull", "p": 0.99646, "t0": 653, "t1": 653, "offsets": { "from": 6530, "to": 6530 } },
+        { "text": "es", "p": 0.998885, "t0": 653, "t1": 653, "offsets": { "from": 6530, "to": 6530 } },
+        { "text": " til", "p": 0.994199, "t0": 653, "t1": 653, "offsets": { "from": 6530, "to": 6530 } },
+        { "text": " pl", "p": 0.995644, "t0": 653, "t1": 653, "offsets": { "from": 6530, "to": 6530 } },
+        { "text": "ader", "p": 0.950623, "t0": 653, "t1": 653, "offsets": { "from": 6530, "to": 6530 } },
+        { "text": ".", "p": 0.940562, "t0": 653, "t1": 653, "offsets": { "from": 6530, "to": 6530 } }
+      ]
+    }
+  ]
+}

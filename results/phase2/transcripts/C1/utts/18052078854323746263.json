@@ -1,0 +1,59 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,140", "to": "00:00:30,140" },
+      "offsets":    { "from": 140, "to": 30140 },
+      "text":       " I London producerede ca. 200 mennesker udenfor nogle store ophavsrets havers kontorbygninger.",
+      "words": [
+        { "text": " I", "t0": 29, "t1": 46, "offsets": { "from": 290, "to": 460 } },
+        { "text": " London", "t0": 78, "t1": 241, "offsets": { "from": 780, "to": 2410 } },
+        { "text": " producerede", "t0": 241, "t1": 598, "offsets": { "from": 2410, "to": 5980 } },
+        { "text": " ca.", "t0": 598, "t1": 742, "offsets": { "from": 5980, "to": 7420 } },
+        { "text": " 200", "t0": 757, "t1": 762, "offsets": { "from": 7570, "to": 7620 } },
+        { "text": " mennesker", "t0": 762, "t1": 762, "offsets": { "from": 7620, "to": 7620 } },
+        { "text": " udenfor", "t0": 762, "t1": 762, "offsets": { "from": 7620, "to": 7620 } },
+        { "text": " nogle", "t0": 762, "t1": 762, "offsets": { "from": 7620, "to": 7620 } },
+        { "text": " store", "t0": 762, "t1": 762, "offsets": { "from": 7620, "to": 7620 } },
+        { "text": " ophavsrets", "t0": 762, "t1": 762, "offsets": { "from": 7620, "to": 7620 } },
+        { "text": " havers", "t0": 762, "t1": 762, "offsets": { "from": 7620, "to": 7620 } },
+        { "text": " kontorbygninger.", "t0": 762, "t1": 762, "offsets": { "from": 7620, "to": 7620 } }
+      ],
+      "tokens": [
+        { "text": " I", "p": 0.959951, "t0": 29, "t1": 46, "offsets": { "from": 290, "to": 460 } },
+        { "text": " London", "p": 0.938781, "t0": 78, "t1": 241, "offsets": { "from": 780, "to": 2410 } },
+        { "text": " producer", "p": 0.645356, "t0": 241, "t1": 501, "offsets": { "from": 2410, "to": 5010 } },
+        { "text": "ede", "p": 0.915314, "t0": 501, "t1": 598, "offsets": { "from": 5010, "to": 5980 } },
+        { "text": " ca", "p": 0.857624, "t0": 598, "t1": 663, "offsets": { "from": 5980, "to": 6630 } },
+        { "text": ".", "p": 0.854836, "t0": 663, "t1": 742, "offsets": { "from": 6630, "to": 7420 } },
+        { "text": " 200", "p": 0.98341, "t0": 757, "t1": 762, "offsets": { "from": 7570, "to": 7620 } },
+        { "text": " men", "p": 0.960811, "t0": 762, "t1": 762, "offsets": { "from": 7620, "to": 7620 } },
+        { "text": "nes", "p": 0.996869, "t0": 762, "t1": 762, "offsets": { "from": 7620, "to": 7620 } },
+        { "text": "ker", "p": 0.986568, "t0": 762, "t1": 762, "offsets": { "from": 7620, "to": 7620 } },
+        { "text": " u", "p": 0.950536, "t0": 762, "t1": 762, "offsets": { "from": 7620, "to": 7620 } },
+        { "text": "den", "p": 0.98334, "t0": 762, "t1": 762, "offsets": { "from": 7620, "to": 7620 } },
+        { "text": "for", "p": 0.377944, "t0": 762, "t1": 762, "offsets": { "from": 7620, "to": 7620 } },
+        { "text": " nogle", "p": 0.942948, "t0": 762, "t1": 762, "offsets": { "from": 7620, "to": 7620 } },
+        { "text": " store", "p": 0.88052, "t0": 762, "t1": 762, "offsets": { "from": 7620, "to": 7620 } },
+        { "text": " o", "p": 0.886235, "t0": 762, "t1": 762, "offsets": { "from": 7620, "to": 7620 } },
+        { "text": "ph", "p": 0.996702, "t0": 762, "t1": 762, "offsets": { "from": 7620, "to": 7620 } },
+        { "text": "av", "p": 0.976613, "t0": 762, "t1": 762, "offsets": { "from": 7620, "to": 7620 } },
+        { "text": "s", "p": 0.972414, "t0": 762, "t1": 762, "offsets": { "from": 7620, "to": 7620 } },
+        { "text": "rets", "p": 0.22418, "t0": 762, "t1": 762, "offsets": { "from": 7620, "to": 7620 } },
+        { "text": " ha", "p": 0.433611, "t0": 762, "t1": 762, "offsets": { "from": 7620, "to": 7620 } },
+        { "text": "vers", "p": 0.921008, "t0": 762, "t1": 762, "offsets": { "from": 7620, "to": 7620 } },
+        { "text": " kont", "p": 0.962551, "t0": 762, "t1": 762, "offsets": { "from": 7620, "to": 7620 } },
+        { "text": "or", "p": 0.993974, "t0": 762, "t1": 762, "offsets": { "from": 7620, "to": 7620 } },
+        { "text": "by", "p": 0.986912, "t0": 762, "t1": 762, "offsets": { "from": 7620, "to": 7620 } },
+        { "text": "g", "p": 0.998239, "t0": 762, "t1": 762, "offsets": { "from": 7620, "to": 7620 } },
+        { "text": "ning", "p": 0.995824, "t0": 762, "t1": 762, "offsets": { "from": 7620, "to": 7620 } },
+        { "text": "er", "p": 0.995771, "t0": 762, "t1": 762, "offsets": { "from": 7620, "to": 7620 } },
+        { "text": ".", "p": 0.82958, "t0": 762, "t1": 762, "offsets": { "from": 7620, "to": 7620 } }
+      ]
+    }
+  ]
+}

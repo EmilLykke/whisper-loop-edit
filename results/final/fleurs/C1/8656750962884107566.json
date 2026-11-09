@@ -1,0 +1,58 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,000", "to": "00:00:30,000" },
+      "offsets":    { "from": 0, "to": 30000 },
+      "text":       " I nord grænser jeg regionen op til Sahal og inden syd og vest af landehed.",
+      "words": [
+        { "text": " I", "t0": 0, "t1": 47, "offsets": { "from": 0, "to": 470 } },
+        { "text": " nord", "t0": 69, "t1": 236, "offsets": { "from": 690, "to": 2360 } },
+        { "text": " grænser", "t0": 236, "t1": 528, "offsets": { "from": 2360, "to": 5280 } },
+        { "text": " jeg", "t0": 542, "t1": 548, "offsets": { "from": 5420, "to": 5480 } },
+        { "text": " regionen", "t0": 548, "t1": 548, "offsets": { "from": 5480, "to": 5480 } },
+        { "text": " op", "t0": 548, "t1": 548, "offsets": { "from": 5480, "to": 5480 } },
+        { "text": " til", "t0": 548, "t1": 548, "offsets": { "from": 5480, "to": 5480 } },
+        { "text": " Sahal", "t0": 548, "t1": 548, "offsets": { "from": 5480, "to": 5480 } },
+        { "text": " og", "t0": 548, "t1": 548, "offsets": { "from": 5480, "to": 5480 } },
+        { "text": " inden", "t0": 548, "t1": 548, "offsets": { "from": 5480, "to": 5480 } },
+        { "text": " syd", "t0": 548, "t1": 548, "offsets": { "from": 5480, "to": 5480 } },
+        { "text": " og", "t0": 548, "t1": 548, "offsets": { "from": 5480, "to": 5480 } },
+        { "text": " vest", "t0": 548, "t1": 548, "offsets": { "from": 5480, "to": 5480 } },
+        { "text": " af", "t0": 548, "t1": 548, "offsets": { "from": 5480, "to": 5480 } },
+        { "text": " landehed.", "t0": 548, "t1": 548, "offsets": { "from": 5480, "to": 5480 } }
+      ],
+      "tokens": [
+        { "text": " I", "p": 0.966732, "t0": 0, "t1": 47, "offsets": { "from": 0, "to": 470 } },
+        { "text": " nord", "p": 0.779605, "t0": 69, "t1": 236, "offsets": { "from": 690, "to": 2360 } },
+        { "text": " gr", "p": 0.709202, "t0": 236, "t1": 303, "offsets": { "from": 2360, "to": 3030 } },
+        { "text": "æ", "p": 0.99708, "t0": 343, "t1": 426, "offsets": { "from": 3430, "to": 4260 } },
+        { "text": "ns", "p": 0.996768, "t0": 426, "t1": 522, "offsets": { "from": 4260, "to": 5220 } },
+        { "text": "er", "p": 0.987054, "t0": 522, "t1": 528, "offsets": { "from": 5220, "to": 5280 } },
+        { "text": " jeg", "p": 0.343647, "t0": 542, "t1": 548, "offsets": { "from": 5420, "to": 5480 } },
+        { "text": " region", "p": 0.873152, "t0": 548, "t1": 548, "offsets": { "from": 5480, "to": 5480 } },
+        { "text": "en", "p": 0.800882, "t0": 548, "t1": 548, "offsets": { "from": 5480, "to": 5480 } },
+        { "text": " op", "p": 0.905412, "t0": 548, "t1": 548, "offsets": { "from": 5480, "to": 5480 } },
+        { "text": " til", "p": 0.985208, "t0": 548, "t1": 548, "offsets": { "from": 5480, "to": 5480 } },
+        { "text": " Sah", "p": 0.807469, "t0": 548, "t1": 548, "offsets": { "from": 5480, "to": 5480 } },
+        { "text": "al", "p": 0.86686, "t0": 548, "t1": 548, "offsets": { "from": 5480, "to": 5480 } },
+        { "text": " og", "p": 0.567099, "t0": 548, "t1": 548, "offsets": { "from": 5480, "to": 5480 } },
+        { "text": " ind", "p": 0.863238, "t0": 548, "t1": 548, "offsets": { "from": 5480, "to": 5480 } },
+        { "text": "en", "p": 0.953885, "t0": 548, "t1": 548, "offsets": { "from": 5480, "to": 5480 } },
+        { "text": " sy", "p": 0.962016, "t0": 548, "t1": 548, "offsets": { "from": 5480, "to": 5480 } },
+        { "text": "d", "p": 0.99887, "t0": 548, "t1": 548, "offsets": { "from": 5480, "to": 5480 } },
+        { "text": " og", "p": 0.920026, "t0": 548, "t1": 548, "offsets": { "from": 5480, "to": 5480 } },
+        { "text": " vest", "p": 0.989211, "t0": 548, "t1": 548, "offsets": { "from": 5480, "to": 5480 } },
+        { "text": " af", "p": 0.774889, "t0": 548, "t1": 548, "offsets": { "from": 5480, "to": 5480 } },
+        { "text": " land", "p": 0.933215, "t0": 548, "t1": 548, "offsets": { "from": 5480, "to": 5480 } },
+        { "text": "eh", "p": 0.321837, "t0": 548, "t1": 548, "offsets": { "from": 5480, "to": 5480 } },
+        { "text": "ed", "p": 0.472476, "t0": 548, "t1": 548, "offsets": { "from": 5480, "to": 5480 } },
+        { "text": ".", "p": 0.897505, "t0": 548, "t1": 548, "offsets": { "from": 5480, "to": 5480 } }
+      ]
+    }
+  ]
+}

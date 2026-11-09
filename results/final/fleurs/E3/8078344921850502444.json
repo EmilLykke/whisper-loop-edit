@@ -1,0 +1,50 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,870", "to": "00:00:30,870" },
+      "offsets":    { "from": 870, "to": 30870 },
+      "text":       " Det er muligt for disse par at lave en adoptionsplan til deres baby.",
+      "words": [
+        { "text": " Det", "t0": 108, "t1": 234, "offsets": { "from": 1080, "to": 2340 } },
+        { "text": " er", "t0": 265, "t1": 345, "offsets": { "from": 2650, "to": 3450 } },
+        { "text": " muligt", "t0": 345, "t1": 496, "offsets": { "from": 3450, "to": 4960 } },
+        { "text": " for", "t0": 496, "t1": 496, "offsets": { "from": 4960, "to": 4960 } },
+        { "text": " disse", "t0": 496, "t1": 496, "offsets": { "from": 4960, "to": 4960 } },
+        { "text": " par", "t0": 496, "t1": 496, "offsets": { "from": 4960, "to": 4960 } },
+        { "text": " at", "t0": 496, "t1": 496, "offsets": { "from": 4960, "to": 4960 } },
+        { "text": " lave", "t0": 496, "t1": 496, "offsets": { "from": 4960, "to": 4960 } },
+        { "text": " en", "t0": 496, "t1": 496, "offsets": { "from": 4960, "to": 4960 } },
+        { "text": " adoptionsplan", "t0": 496, "t1": 496, "offsets": { "from": 4960, "to": 4960 } },
+        { "text": " til", "t0": 496, "t1": 496, "offsets": { "from": 4960, "to": 4960 } },
+        { "text": " deres", "t0": 496, "t1": 496, "offsets": { "from": 4960, "to": 4960 } },
+        { "text": " baby.", "t0": 496, "t1": 496, "offsets": { "from": 4960, "to": 4960 } }
+      ],
+      "tokens": [
+        { "text": " Det", "p": 0.951508, "t0": 108, "t1": 234, "offsets": { "from": 1080, "to": 2340 } },
+        { "text": " er", "p": 0.994987, "t0": 265, "t1": 345, "offsets": { "from": 2650, "to": 3450 } },
+        { "text": " mul", "p": 0.995657, "t0": 345, "t1": 474, "offsets": { "from": 3450, "to": 4740 } },
+        { "text": "igt", "p": 0.965714, "t0": 494, "t1": 496, "offsets": { "from": 4940, "to": 4960 } },
+        { "text": " for", "p": 0.987835, "t0": 496, "t1": 496, "offsets": { "from": 4960, "to": 4960 } },
+        { "text": " disse", "p": 0.885244, "t0": 496, "t1": 496, "offsets": { "from": 4960, "to": 4960 } },
+        { "text": " par", "p": 0.974028, "t0": 496, "t1": 496, "offsets": { "from": 4960, "to": 4960 } },
+        { "text": " at", "p": 0.892736, "t0": 496, "t1": 496, "offsets": { "from": 4960, "to": 4960 } },
+        { "text": " la", "p": 0.993053, "t0": 496, "t1": 496, "offsets": { "from": 4960, "to": 4960 } },
+        { "text": "ve", "p": 0.995315, "t0": 496, "t1": 496, "offsets": { "from": 4960, "to": 4960 } },
+        { "text": " en", "p": 0.986762, "t0": 496, "t1": 496, "offsets": { "from": 4960, "to": 4960 } },
+        { "text": " adopt", "p": 0.974739, "t0": 496, "t1": 496, "offsets": { "from": 4960, "to": 4960 } },
+        { "text": "ions", "p": 0.999668, "t0": 496, "t1": 496, "offsets": { "from": 4960, "to": 4960 } },
+        { "text": "plan", "p": 0.98779, "t0": 496, "t1": 496, "offsets": { "from": 4960, "to": 4960 } },
+        { "text": " til", "p": 0.985052, "t0": 496, "t1": 496, "offsets": { "from": 4960, "to": 4960 } },
+        { "text": " der", "p": 0.99334, "t0": 496, "t1": 496, "offsets": { "from": 4960, "to": 4960 } },
+        { "text": "es", "p": 0.99988, "t0": 496, "t1": 496, "offsets": { "from": 4960, "to": 4960 } },
+        { "text": " baby", "p": 0.993498, "t0": 496, "t1": 496, "offsets": { "from": 4960, "to": 4960 } },
+        { "text": ".", "p": 0.904972, "t0": 496, "t1": 496, "offsets": { "from": 4960, "to": 4960 } }
+      ]
+    }
+  ]
+}

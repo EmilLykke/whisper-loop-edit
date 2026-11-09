@@ -1,0 +1,54 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,170", "to": "00:00:30,170" },
+      "offsets":    { "from": 170, "to": 30170 },
+      "text":       " Dette er en vigtig måde at skille mellem nogle værper og objektiver.",
+      "words": [
+        { "text": " Dette", "t0": 36, "t1": 262, "offsets": { "from": 360, "to": 2620 } },
+        { "text": " er", "t0": 262, "t1": 359, "offsets": { "from": 2620, "to": 3590 } },
+        { "text": " en", "t0": 360, "t1": 455, "offsets": { "from": 3600, "to": 4550 } },
+        { "text": " vigtig", "t0": 462, "t1": 752, "offsets": { "from": 4620, "to": 7520 } },
+        { "text": " måde", "t0": 752, "t1": 997, "offsets": { "from": 7520, "to": 9970 } },
+        { "text": " at", "t0": 997, "t1": 1094, "offsets": { "from": 9970, "to": 10940 } },
+        { "text": " skille", "t0": 1095, "t1": 1151, "offsets": { "from": 10950, "to": 11510 } },
+        { "text": " mellem", "t0": 1151, "t1": 1151, "offsets": { "from": 11510, "to": 11510 } },
+        { "text": " nogle", "t0": 1151, "t1": 1151, "offsets": { "from": 11510, "to": 11510 } },
+        { "text": " værper", "t0": 1151, "t1": 1151, "offsets": { "from": 11510, "to": 11510 } },
+        { "text": " og", "t0": 1151, "t1": 1151, "offsets": { "from": 11510, "to": 11510 } },
+        { "text": " objektiver.", "t0": 1151, "t1": 1151, "offsets": { "from": 11510, "to": 11510 } }
+      ],
+      "tokens": [
+        { "text": " D", "p": 0.858129, "t0": 36, "t1": 66, "offsets": { "from": 360, "to": 660 } },
+        { "text": "ette", "p": 0.994116, "t0": 165, "t1": 262, "offsets": { "from": 1650, "to": 2620 } },
+        { "text": " er", "p": 0.99383, "t0": 262, "t1": 359, "offsets": { "from": 2620, "to": 3590 } },
+        { "text": " en", "p": 0.994304, "t0": 360, "t1": 455, "offsets": { "from": 3600, "to": 4550 } },
+        { "text": " v", "p": 0.969217, "t0": 462, "t1": 507, "offsets": { "from": 4620, "to": 5070 } },
+        { "text": "igt", "p": 0.99658, "t0": 507, "t1": 568, "offsets": { "from": 5070, "to": 5680 } },
+        { "text": "ig", "p": 0.993854, "t0": 652, "t1": 752, "offsets": { "from": 6520, "to": 7520 } },
+        { "text": " må", "p": 0.997581, "t0": 752, "t1": 899, "offsets": { "from": 7520, "to": 8990 } },
+        { "text": "de", "p": 0.998134, "t0": 899, "t1": 997, "offsets": { "from": 8990, "to": 9970 } },
+        { "text": " at", "p": 0.899342, "t0": 997, "t1": 1094, "offsets": { "from": 9970, "to": 10940 } },
+        { "text": " sk", "p": 0.963626, "t0": 1095, "t1": 1151, "offsets": { "from": 10950, "to": 11510 } },
+        { "text": "ille", "p": 0.465493, "t0": 1151, "t1": 1151, "offsets": { "from": 11510, "to": 11510 } },
+        { "text": " me", "p": 0.946456, "t0": 1151, "t1": 1151, "offsets": { "from": 11510, "to": 11510 } },
+        { "text": "ll", "p": 0.999363, "t0": 1151, "t1": 1151, "offsets": { "from": 11510, "to": 11510 } },
+        { "text": "em", "p": 0.999355, "t0": 1151, "t1": 1151, "offsets": { "from": 11510, "to": 11510 } },
+        { "text": " nogle", "p": 0.905854, "t0": 1151, "t1": 1151, "offsets": { "from": 11510, "to": 11510 } },
+        { "text": " væ", "p": 0.384809, "t0": 1151, "t1": 1151, "offsets": { "from": 11510, "to": 11510 } },
+        { "text": "r", "p": 0.997794, "t0": 1151, "t1": 1151, "offsets": { "from": 11510, "to": 11510 } },
+        { "text": "per", "p": 0.801024, "t0": 1151, "t1": 1151, "offsets": { "from": 11510, "to": 11510 } },
+        { "text": " og", "p": 0.991422, "t0": 1151, "t1": 1151, "offsets": { "from": 11510, "to": 11510 } },
+        { "text": " ob", "p": 0.994751, "t0": 1151, "t1": 1151, "offsets": { "from": 11510, "to": 11510 } },
+        { "text": "jekt", "p": 0.99907, "t0": 1151, "t1": 1151, "offsets": { "from": 11510, "to": 11510 } },
+        { "text": "iver", "p": 0.991563, "t0": 1151, "t1": 1151, "offsets": { "from": 11510, "to": 11510 } },
+        { "text": ".", "p": 0.936039, "t0": 1151, "t1": 1151, "offsets": { "from": 11510, "to": 11510 } }
+      ]
+    }
+  ]
+}

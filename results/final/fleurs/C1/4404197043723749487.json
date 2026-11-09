@@ -1,0 +1,56 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,560", "to": "00:00:30,560" },
+      "offsets":    { "from": 560, "to": 30560 },
+      "text":       " Det virker fornuftigt, for vi kan ikke mærke at jorden drejer rundt, vel?",
+      "words": [
+        { "text": " Det", "t0": 78, "t1": 186, "offsets": { "from": 780, "to": 1860 } },
+        { "text": " virker", "t0": 199, "t1": 438, "offsets": { "from": 1990, "to": 4380 } },
+        { "text": " fornuftigt,", "t0": 458, "t1": 458, "offsets": { "from": 4580, "to": 4580 } },
+        { "text": " for", "t0": 458, "t1": 458, "offsets": { "from": 4580, "to": 4580 } },
+        { "text": " vi", "t0": 458, "t1": 458, "offsets": { "from": 4580, "to": 4580 } },
+        { "text": " kan", "t0": 458, "t1": 458, "offsets": { "from": 4580, "to": 4580 } },
+        { "text": " ikke", "t0": 458, "t1": 458, "offsets": { "from": 4580, "to": 4580 } },
+        { "text": " mærke", "t0": 458, "t1": 458, "offsets": { "from": 4580, "to": 4580 } },
+        { "text": " at", "t0": 458, "t1": 458, "offsets": { "from": 4580, "to": 4580 } },
+        { "text": " jorden", "t0": 458, "t1": 458, "offsets": { "from": 4580, "to": 4580 } },
+        { "text": " drejer", "t0": 458, "t1": 458, "offsets": { "from": 4580, "to": 4580 } },
+        { "text": " rundt,", "t0": 458, "t1": 458, "offsets": { "from": 4580, "to": 4580 } },
+        { "text": " vel?", "t0": 458, "t1": 458, "offsets": { "from": 4580, "to": 4580 } }
+      ],
+      "tokens": [
+        { "text": " Det", "p": 0.965522, "t0": 78, "t1": 186, "offsets": { "from": 780, "to": 1860 } },
+        { "text": " vir", "p": 0.987918, "t0": 199, "t1": 328, "offsets": { "from": 1990, "to": 3280 } },
+        { "text": "ker", "p": 0.996177, "t0": 328, "t1": 438, "offsets": { "from": 3280, "to": 4380 } },
+        { "text": " for", "p": 0.951827, "t0": 458, "t1": 458, "offsets": { "from": 4580, "to": 4580 } },
+        { "text": "nu", "p": 0.997122, "t0": 458, "t1": 458, "offsets": { "from": 4580, "to": 4580 } },
+        { "text": "ft", "p": 0.995796, "t0": 458, "t1": 458, "offsets": { "from": 4580, "to": 4580 } },
+        { "text": "igt", "p": 0.997109, "t0": 458, "t1": 458, "offsets": { "from": 4580, "to": 4580 } },
+        { "text": ",", "p": 0.74739, "t0": 458, "t1": 458, "offsets": { "from": 4580, "to": 4580 } },
+        { "text": " for", "p": 0.863064, "t0": 458, "t1": 458, "offsets": { "from": 4580, "to": 4580 } },
+        { "text": " vi", "p": 0.964185, "t0": 458, "t1": 458, "offsets": { "from": 4580, "to": 4580 } },
+        { "text": " kan", "p": 0.990958, "t0": 458, "t1": 458, "offsets": { "from": 4580, "to": 4580 } },
+        { "text": " ikke", "p": 0.975243, "t0": 458, "t1": 458, "offsets": { "from": 4580, "to": 4580 } },
+        { "text": " m", "p": 0.994784, "t0": 458, "t1": 458, "offsets": { "from": 4580, "to": 4580 } },
+        { "text": "ær", "p": 0.999582, "t0": 458, "t1": 458, "offsets": { "from": 4580, "to": 4580 } },
+        { "text": "ke", "p": 0.999445, "t0": 458, "t1": 458, "offsets": { "from": 4580, "to": 4580 } },
+        { "text": " at", "p": 0.678582, "t0": 458, "t1": 458, "offsets": { "from": 4580, "to": 4580 } },
+        { "text": " j", "p": 0.967241, "t0": 458, "t1": 458, "offsets": { "from": 4580, "to": 4580 } },
+        { "text": "orden", "p": 0.990059, "t0": 458, "t1": 458, "offsets": { "from": 4580, "to": 4580 } },
+        { "text": " dre", "p": 0.940071, "t0": 458, "t1": 458, "offsets": { "from": 4580, "to": 4580 } },
+        { "text": "jer", "p": 0.98867, "t0": 458, "t1": 458, "offsets": { "from": 4580, "to": 4580 } },
+        { "text": " rund", "p": 0.965782, "t0": 458, "t1": 458, "offsets": { "from": 4580, "to": 4580 } },
+        { "text": "t", "p": 0.995685, "t0": 458, "t1": 458, "offsets": { "from": 4580, "to": 4580 } },
+        { "text": ",", "p": 0.439383, "t0": 458, "t1": 458, "offsets": { "from": 4580, "to": 4580 } },
+        { "text": " vel", "p": 0.974351, "t0": 458, "t1": 458, "offsets": { "from": 4580, "to": 4580 } },
+        { "text": "?", "p": 0.870596, "t0": 458, "t1": 458, "offsets": { "from": 4580, "to": 4580 } }
+      ]
+    }
+  ]
+}

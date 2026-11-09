@@ -1,0 +1,66 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,650", "to": "00:00:30,650" },
+      "offsets":    { "from": 650, "to": 30650 },
+      "text":       " Vilde børn kan opleve alvorlig børnemishandling eller trauma før de bliver forladt eller løbet bort.",
+      "words": [
+        { "text": " Vilde", "t0": 85, "t1": 227, "offsets": { "from": 850, "to": 2270 } },
+        { "text": " børn", "t0": 227, "t1": 388, "offsets": { "from": 2270, "to": 3880 } },
+        { "text": " kan", "t0": 388, "t1": 485, "offsets": { "from": 3880, "to": 4850 } },
+        { "text": " opleve", "t0": 485, "t1": 608, "offsets": { "from": 4850, "to": 6080 } },
+        { "text": " alvorlig", "t0": 608, "t1": 608, "offsets": { "from": 6080, "to": 6080 } },
+        { "text": " børnemishandling", "t0": 608, "t1": 608, "offsets": { "from": 6080, "to": 6080 } },
+        { "text": " eller", "t0": 608, "t1": 608, "offsets": { "from": 6080, "to": 6080 } },
+        { "text": " trauma", "t0": 608, "t1": 608, "offsets": { "from": 6080, "to": 6080 } },
+        { "text": " før", "t0": 608, "t1": 608, "offsets": { "from": 6080, "to": 6080 } },
+        { "text": " de", "t0": 608, "t1": 608, "offsets": { "from": 6080, "to": 6080 } },
+        { "text": " bliver", "t0": 608, "t1": 608, "offsets": { "from": 6080, "to": 6080 } },
+        { "text": " forladt", "t0": 608, "t1": 608, "offsets": { "from": 6080, "to": 6080 } },
+        { "text": " eller", "t0": 608, "t1": 608, "offsets": { "from": 6080, "to": 6080 } },
+        { "text": " løbet", "t0": 608, "t1": 608, "offsets": { "from": 6080, "to": 6080 } },
+        { "text": " bort.", "t0": 608, "t1": 608, "offsets": { "from": 6080, "to": 6080 } }
+      ],
+      "tokens": [
+        { "text": " V", "p": 0.963005, "t0": 85, "t1": 97, "offsets": { "from": 850, "to": 970 } },
+        { "text": "ilde", "p": 0.923104, "t0": 97, "t1": 227, "offsets": { "from": 970, "to": 2270 } },
+        { "text": " b", "p": 0.884401, "t0": 227, "t1": 259, "offsets": { "from": 2270, "to": 2590 } },
+        { "text": "ør", "p": 0.999729, "t0": 259, "t1": 353, "offsets": { "from": 2590, "to": 3530 } },
+        { "text": "n", "p": 0.999939, "t0": 356, "t1": 388, "offsets": { "from": 3560, "to": 3880 } },
+        { "text": " kan", "p": 0.989546, "t0": 388, "t1": 485, "offsets": { "from": 3880, "to": 4850 } },
+        { "text": " o", "p": 0.869099, "t0": 485, "t1": 517, "offsets": { "from": 4850, "to": 5170 } },
+        { "text": "ple", "p": 0.999285, "t0": 517, "t1": 588, "offsets": { "from": 5170, "to": 5880 } },
+        { "text": "ve", "p": 0.98835, "t0": 608, "t1": 608, "offsets": { "from": 6080, "to": 6080 } },
+        { "text": " al", "p": 0.97822, "t0": 608, "t1": 608, "offsets": { "from": 6080, "to": 6080 } },
+        { "text": "vor", "p": 0.998931, "t0": 608, "t1": 608, "offsets": { "from": 6080, "to": 6080 } },
+        { "text": "lig", "p": 0.913236, "t0": 608, "t1": 608, "offsets": { "from": 6080, "to": 6080 } },
+        { "text": " b", "p": 0.985361, "t0": 608, "t1": 608, "offsets": { "from": 6080, "to": 6080 } },
+        { "text": "ør", "p": 0.99851, "t0": 608, "t1": 608, "offsets": { "from": 6080, "to": 6080 } },
+        { "text": "nem", "p": 0.95387, "t0": 608, "t1": 608, "offsets": { "from": 6080, "to": 6080 } },
+        { "text": "ish", "p": 0.923735, "t0": 608, "t1": 608, "offsets": { "from": 6080, "to": 6080 } },
+        { "text": "and", "p": 0.996316, "t0": 608, "t1": 608, "offsets": { "from": 6080, "to": 6080 } },
+        { "text": "ling", "p": 0.99728, "t0": 608, "t1": 608, "offsets": { "from": 6080, "to": 6080 } },
+        { "text": " eller", "p": 0.940964, "t0": 608, "t1": 608, "offsets": { "from": 6080, "to": 6080 } },
+        { "text": " trauma", "p": 0.62307, "t0": 608, "t1": 608, "offsets": { "from": 6080, "to": 6080 } },
+        { "text": " før", "p": 0.619086, "t0": 608, "t1": 608, "offsets": { "from": 6080, "to": 6080 } },
+        { "text": " de", "p": 0.955328, "t0": 608, "t1": 608, "offsets": { "from": 6080, "to": 6080 } },
+        { "text": " bliver", "p": 0.905707, "t0": 608, "t1": 608, "offsets": { "from": 6080, "to": 6080 } },
+        { "text": " for", "p": 0.987839, "t0": 608, "t1": 608, "offsets": { "from": 6080, "to": 6080 } },
+        { "text": "lad", "p": 0.965044, "t0": 608, "t1": 608, "offsets": { "from": 6080, "to": 6080 } },
+        { "text": "t", "p": 0.99968, "t0": 608, "t1": 608, "offsets": { "from": 6080, "to": 6080 } },
+        { "text": " eller", "p": 0.977239, "t0": 608, "t1": 608, "offsets": { "from": 6080, "to": 6080 } },
+        { "text": " l", "p": 0.995792, "t0": 608, "t1": 608, "offsets": { "from": 6080, "to": 6080 } },
+        { "text": "ø", "p": 0.999893, "t0": 608, "t1": 608, "offsets": { "from": 6080, "to": 6080 } },
+        { "text": "bet", "p": 0.40345, "t0": 608, "t1": 608, "offsets": { "from": 6080, "to": 6080 } },
+        { "text": " b", "p": 0.979117, "t0": 608, "t1": 608, "offsets": { "from": 6080, "to": 6080 } },
+        { "text": "ort", "p": 0.999163, "t0": 608, "t1": 608, "offsets": { "from": 6080, "to": 6080 } },
+        { "text": ".", "p": 0.893511, "t0": 608, "t1": 608, "offsets": { "from": 6080, "to": 6080 } }
+      ]
+    }
+  ]
+}

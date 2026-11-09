@@ -1,0 +1,57 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,710", "to": "00:00:30,710" },
+      "offsets":    { "from": 710, "to": 30710 },
+      "text":       " Koldsaften skifter alt, afhængigt af hvor surt eller basisk alkalisk kemikaliet er.",
+      "words": [
+        { "text": " Koldsaften", "t0": 93, "t1": 459, "offsets": { "from": 930, "to": 4590 } },
+        { "text": " skifter", "t0": 463, "t1": 700, "offsets": { "from": 4630, "to": 7000 } },
+        { "text": " alt,", "t0": 722, "t1": 722, "offsets": { "from": 7220, "to": 7220 } },
+        { "text": " afhængigt", "t0": 722, "t1": 722, "offsets": { "from": 7220, "to": 7220 } },
+        { "text": " af", "t0": 722, "t1": 722, "offsets": { "from": 7220, "to": 7220 } },
+        { "text": " hvor", "t0": 722, "t1": 722, "offsets": { "from": 7220, "to": 7220 } },
+        { "text": " surt", "t0": 722, "t1": 722, "offsets": { "from": 7220, "to": 7220 } },
+        { "text": " eller", "t0": 722, "t1": 722, "offsets": { "from": 7220, "to": 7220 } },
+        { "text": " basisk", "t0": 722, "t1": 722, "offsets": { "from": 7220, "to": 7220 } },
+        { "text": " alkalisk", "t0": 722, "t1": 722, "offsets": { "from": 7220, "to": 7220 } },
+        { "text": " kemikaliet", "t0": 722, "t1": 722, "offsets": { "from": 7220, "to": 7220 } },
+        { "text": " er.", "t0": 722, "t1": 722, "offsets": { "from": 7220, "to": 7220 } }
+      ],
+      "tokens": [
+        { "text": " K", "p": 0.840457, "t0": 93, "t1": 110, "offsets": { "from": 930, "to": 1100 } },
+        { "text": "old", "p": 0.456527, "t0": 110, "t1": 216, "offsets": { "from": 1100, "to": 2160 } },
+        { "text": "sa", "p": 0.970915, "t0": 297, "t1": 306, "offsets": { "from": 2970, "to": 3060 } },
+        { "text": "ften", "p": 0.997038, "t0": 306, "t1": 459, "offsets": { "from": 3060, "to": 4590 } },
+        { "text": " sk", "p": 0.992729, "t0": 463, "t1": 542, "offsets": { "from": 4630, "to": 5420 } },
+        { "text": "ifter", "p": 0.99354, "t0": 542, "t1": 700, "offsets": { "from": 5420, "to": 7000 } },
+        { "text": " alt", "p": 0.98305, "t0": 722, "t1": 722, "offsets": { "from": 7220, "to": 7220 } },
+        { "text": ",", "p": 0.523395, "t0": 722, "t1": 722, "offsets": { "from": 7220, "to": 7220 } },
+        { "text": " af", "p": 0.989549, "t0": 722, "t1": 722, "offsets": { "from": 7220, "to": 7220 } },
+        { "text": "h", "p": 0.998572, "t0": 722, "t1": 722, "offsets": { "from": 7220, "to": 7220 } },
+        { "text": "æ", "p": 0.999001, "t0": 722, "t1": 722, "offsets": { "from": 7220, "to": 7220 } },
+        { "text": "ng", "p": 0.959911, "t0": 722, "t1": 722, "offsets": { "from": 7220, "to": 7220 } },
+        { "text": "igt", "p": 0.858551, "t0": 722, "t1": 722, "offsets": { "from": 7220, "to": 7220 } },
+        { "text": " af", "p": 0.982244, "t0": 722, "t1": 722, "offsets": { "from": 7220, "to": 7220 } },
+        { "text": " hvor", "p": 0.85679, "t0": 722, "t1": 722, "offsets": { "from": 7220, "to": 7220 } },
+        { "text": " surt", "p": 0.912812, "t0": 722, "t1": 722, "offsets": { "from": 7220, "to": 7220 } },
+        { "text": " eller", "p": 0.880365, "t0": 722, "t1": 722, "offsets": { "from": 7220, "to": 7220 } },
+        { "text": " basis", "p": 0.820706, "t0": 722, "t1": 722, "offsets": { "from": 7220, "to": 7220 } },
+        { "text": "k", "p": 0.99001, "t0": 722, "t1": 722, "offsets": { "from": 7220, "to": 7220 } },
+        { "text": " alkal", "p": 0.524339, "t0": 722, "t1": 722, "offsets": { "from": 7220, "to": 7220 } },
+        { "text": "isk", "p": 0.973994, "t0": 722, "t1": 722, "offsets": { "from": 7220, "to": 7220 } },
+        { "text": " ke", "p": 0.974285, "t0": 722, "t1": 722, "offsets": { "from": 7220, "to": 7220 } },
+        { "text": "m", "p": 0.986863, "t0": 722, "t1": 722, "offsets": { "from": 7220, "to": 7220 } },
+        { "text": "ikal", "p": 0.991225, "t0": 722, "t1": 722, "offsets": { "from": 7220, "to": 7220 } },
+        { "text": "iet", "p": 0.960594, "t0": 722, "t1": 722, "offsets": { "from": 7220, "to": 7220 } },
+        { "text": " er", "p": 0.997739, "t0": 722, "t1": 722, "offsets": { "from": 7220, "to": 7220 } },
+        { "text": ".", "p": 0.956764, "t0": 722, "t1": 722, "offsets": { "from": 7220, "to": 7220 } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,720", "to": "00:00:30,720" },
+      "offsets":    { "from": 720, "to": 30720 },
+      "text":       " Løver er de mest sociale kanddyr og lever i store grupper af kandflokke.",
+      "words": [
+        { "text": " Løver", "t0": 95, "t1": 354, "offsets": { "from": 950, "to": 3540 } },
+        { "text": " er", "t0": 362, "t1": 446, "offsets": { "from": 3620, "to": 4460 } },
+        { "text": " de", "t0": 446, "t1": 480, "offsets": { "from": 4460, "to": 4800 } },
+        { "text": " mest", "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": " sociale", "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": " kanddyr", "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": " og", "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": " lever", "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": " i", "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": " store", "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": " grupper", "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": " af", "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": " kandflokke.", "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } }
+      ],
+      "tokens": [
+        { "text": " L", "p": 0.894403, "t0": 95, "t1": 119, "offsets": { "from": 950, "to": 1190 } },
+        { "text": "ø", "p": 0.865322, "t0": 119, "t1": 214, "offsets": { "from": 1190, "to": 2140 } },
+        { "text": "ver", "p": 0.6121, "t0": 214, "t1": 354, "offsets": { "from": 2140, "to": 3540 } },
+        { "text": " er", "p": 0.994658, "t0": 362, "t1": 446, "offsets": { "from": 3620, "to": 4460 } },
+        { "text": " de", "p": 0.988235, "t0": 446, "t1": 480, "offsets": { "from": 4460, "to": 4800 } },
+        { "text": " mest", "p": 0.989706, "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": " sociale", "p": 0.947888, "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": " k", "p": 0.878584, "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": "and", "p": 0.819157, "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": "dy", "p": 0.837245, "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": "r", "p": 0.972099, "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": " og", "p": 0.716919, "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": " lever", "p": 0.99398, "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": " i", "p": 0.995892, "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": " store", "p": 0.79145, "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": " gr", "p": 0.968505, "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": "u", "p": 0.998576, "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": "pper", "p": 0.999897, "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": " af", "p": 0.82862, "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": " k", "p": 0.677872, "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": "and", "p": 0.735463, "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": "fl", "p": 0.42246, "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": "ok", "p": 0.92014, "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": "ke", "p": 0.988985, "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } },
+        { "text": ".", "p": 0.87475, "t0": 498, "t1": 498, "offsets": { "from": 4980, "to": 4980 } }
+      ]
+    }
+  ]
+}

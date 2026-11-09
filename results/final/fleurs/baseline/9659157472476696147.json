@@ -1,0 +1,69 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,170", "to": "00:00:30,170" },
+      "offsets":    { "from": 170, "to": 30170 },
+      "text":       " De fleste moderne forskningsteleskoper er enorme faciliteter i fjernlæggende områder med gode atmosfæriske forhold.",
+      "words": [
+        { "text": " De", "t0": 36, "t1": 73, "offsets": { "from": 360, "to": 730 } },
+        { "text": " fleste", "t0": 73, "t1": 241, "offsets": { "from": 730, "to": 2410 } },
+        { "text": " moderne", "t0": 242, "t1": 435, "offsets": { "from": 2420, "to": 4350 } },
+        { "text": " forskningsteleskoper", "t0": 450, "t1": 997, "offsets": { "from": 4500, "to": 9970 } },
+        { "text": " er", "t0": 997, "t1": 1024, "offsets": { "from": 9970, "to": 10240 } },
+        { "text": " enorme", "t0": 1024, "t1": 1221, "offsets": { "from": 10240, "to": 12210 } },
+        { "text": " faciliteter", "t0": 1221, "t1": 1262, "offsets": { "from": 12210, "to": 12620 } },
+        { "text": " i", "t0": 1262, "t1": 1262, "offsets": { "from": 12620, "to": 12620 } },
+        { "text": " fjernlæggende", "t0": 1262, "t1": 1262, "offsets": { "from": 12620, "to": 12620 } },
+        { "text": " områder", "t0": 1262, "t1": 1262, "offsets": { "from": 12620, "to": 12620 } },
+        { "text": " med", "t0": 1262, "t1": 1262, "offsets": { "from": 12620, "to": 12620 } },
+        { "text": " gode", "t0": 1262, "t1": 1262, "offsets": { "from": 12620, "to": 12620 } },
+        { "text": " atmosfæriske", "t0": 1262, "t1": 1262, "offsets": { "from": 12620, "to": 12620 } },
+        { "text": " forhold.", "t0": 1262, "t1": 1262, "offsets": { "from": 12620, "to": 12620 } }
+      ],
+      "tokens": [
+        { "text": " De", "p": 0.942696, "t0": 36, "t1": 73, "offsets": { "from": 360, "to": 730 } },
+        { "text": " fl", "p": 0.998136, "t0": 73, "t1": 129, "offsets": { "from": 730, "to": 1290 } },
+        { "text": "este", "p": 0.995084, "t0": 240, "t1": 241, "offsets": { "from": 2400, "to": 2410 } },
+        { "text": " moder", "p": 0.764582, "t0": 242, "t1": 381, "offsets": { "from": 2420, "to": 3810 } },
+        { "text": "ne", "p": 0.999947, "t0": 381, "t1": 435, "offsets": { "from": 3810, "to": 4350 } },
+        { "text": " forsk", "p": 0.976075, "t0": 450, "t1": 563, "offsets": { "from": 4500, "to": 5630 } },
+        { "text": "ning", "p": 0.998437, "t0": 583, "t1": 685, "offsets": { "from": 5830, "to": 6850 } },
+        { "text": "st", "p": 0.961979, "t0": 689, "t1": 745, "offsets": { "from": 6890, "to": 7450 } },
+        { "text": "eles", "p": 0.996212, "t0": 745, "t1": 829, "offsets": { "from": 7450, "to": 8290 } },
+        { "text": "k", "p": 0.951597, "t0": 868, "t1": 878, "offsets": { "from": 8680, "to": 8780 } },
+        { "text": "oper", "p": 0.921637, "t0": 887, "t1": 997, "offsets": { "from": 8870, "to": 9970 } },
+        { "text": " er", "p": 0.871514, "t0": 997, "t1": 1024, "offsets": { "from": 9970, "to": 10240 } },
+        { "text": " enorme", "p": 0.961493, "t0": 1024, "t1": 1221, "offsets": { "from": 10240, "to": 12210 } },
+        { "text": " facilit", "p": 0.989532, "t0": 1221, "t1": 1262, "offsets": { "from": 12210, "to": 12620 } },
+        { "text": "eter", "p": 0.998479, "t0": 1262, "t1": 1262, "offsets": { "from": 12620, "to": 12620 } },
+        { "text": " i", "p": 0.971715, "t0": 1262, "t1": 1262, "offsets": { "from": 12620, "to": 12620 } },
+        { "text": " f", "p": 0.997855, "t0": 1262, "t1": 1262, "offsets": { "from": 12620, "to": 12620 } },
+        { "text": "j", "p": 0.984581, "t0": 1262, "t1": 1262, "offsets": { "from": 12620, "to": 12620 } },
+        { "text": "ern", "p": 0.999779, "t0": 1262, "t1": 1262, "offsets": { "from": 12620, "to": 12620 } },
+        { "text": "l", "p": 0.655676, "t0": 1262, "t1": 1262, "offsets": { "from": 12620, "to": 12620 } },
+        { "text": "æ", "p": 0.996883, "t0": 1262, "t1": 1262, "offsets": { "from": 12620, "to": 12620 } },
+        { "text": "gg", "p": 0.998612, "t0": 1262, "t1": 1262, "offsets": { "from": 12620, "to": 12620 } },
+        { "text": "ende", "p": 0.999712, "t0": 1262, "t1": 1262, "offsets": { "from": 12620, "to": 12620 } },
+        { "text": " om", "p": 0.996791, "t0": 1262, "t1": 1262, "offsets": { "from": 12620, "to": 12620 } },
+        { "text": "rå", "p": 0.99931, "t0": 1262, "t1": 1262, "offsets": { "from": 12620, "to": 12620 } },
+        { "text": "der", "p": 0.992604, "t0": 1262, "t1": 1262, "offsets": { "from": 12620, "to": 12620 } },
+        { "text": " med", "p": 0.889624, "t0": 1262, "t1": 1262, "offsets": { "from": 12620, "to": 12620 } },
+        { "text": " go", "p": 0.963617, "t0": 1262, "t1": 1262, "offsets": { "from": 12620, "to": 12620 } },
+        { "text": "de", "p": 0.998729, "t0": 1262, "t1": 1262, "offsets": { "from": 12620, "to": 12620 } },
+        { "text": " atmos", "p": 0.976675, "t0": 1262, "t1": 1262, "offsets": { "from": 12620, "to": 12620 } },
+        { "text": "f", "p": 0.997879, "t0": 1262, "t1": 1262, "offsets": { "from": 12620, "to": 12620 } },
+        { "text": "æ", "p": 0.997358, "t0": 1262, "t1": 1262, "offsets": { "from": 12620, "to": 12620 } },
+        { "text": "ris", "p": 0.995678, "t0": 1262, "t1": 1262, "offsets": { "from": 12620, "to": 12620 } },
+        { "text": "ke", "p": 0.999584, "t0": 1262, "t1": 1262, "offsets": { "from": 12620, "to": 12620 } },
+        { "text": " for", "p": 0.998414, "t0": 1262, "t1": 1262, "offsets": { "from": 12620, "to": 12620 } },
+        { "text": "hold", "p": 0.999089, "t0": 1262, "t1": 1262, "offsets": { "from": 12620, "to": 12620 } },
+        { "text": ".", "p": 0.937655, "t0": 1262, "t1": 1262, "offsets": { "from": 12620, "to": 12620 } }
+      ]
+    }
+  ]
+}

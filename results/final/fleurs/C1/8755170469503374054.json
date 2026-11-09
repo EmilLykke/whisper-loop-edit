@@ -1,0 +1,57 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,650", "to": "00:00:30,650" },
+      "offsets":    { "from": 650, "to": 30650 },
+      "text":       " Alle er en del af samfundet og benytter transportsystemerne. Næsten alle klager transportsystemerne.",
+      "words": [
+        { "text": " Alle", "t0": 88, "t1": 194, "offsets": { "from": 880, "to": 1940 } },
+        { "text": " er", "t0": 194, "t1": 253, "offsets": { "from": 1940, "to": 2530 } },
+        { "text": " en", "t0": 266, "t1": 322, "offsets": { "from": 2660, "to": 3220 } },
+        { "text": " del", "t0": 322, "t1": 418, "offsets": { "from": 3220, "to": 4180 } },
+        { "text": " af", "t0": 418, "t1": 482, "offsets": { "from": 4180, "to": 4820 } },
+        { "text": " samfundet", "t0": 482, "t1": 567, "offsets": { "from": 4820, "to": 5670 } },
+        { "text": " og", "t0": 567, "t1": 567, "offsets": { "from": 5670, "to": 5670 } },
+        { "text": " benytter", "t0": 567, "t1": 567, "offsets": { "from": 5670, "to": 5670 } },
+        { "text": " transportsystemerne.", "t0": 567, "t1": 567, "offsets": { "from": 5670, "to": 5670 } },
+        { "text": " Næsten", "t0": 567, "t1": 567, "offsets": { "from": 5670, "to": 5670 } },
+        { "text": " alle", "t0": 567, "t1": 567, "offsets": { "from": 5670, "to": 5670 } },
+        { "text": " klager", "t0": 567, "t1": 567, "offsets": { "from": 5670, "to": 5670 } },
+        { "text": " transportsystemerne.", "t0": 567, "t1": 567, "offsets": { "from": 5670, "to": 5670 } }
+      ],
+      "tokens": [
+        { "text": " Alle", "p": 0.935435, "t0": 88, "t1": 194, "offsets": { "from": 880, "to": 1940 } },
+        { "text": " er", "p": 0.41693, "t0": 194, "t1": 253, "offsets": { "from": 1940, "to": 2530 } },
+        { "text": " en", "p": 0.983539, "t0": 266, "t1": 322, "offsets": { "from": 2660, "to": 3220 } },
+        { "text": " del", "p": 0.995551, "t0": 322, "t1": 418, "offsets": { "from": 3220, "to": 4180 } },
+        { "text": " af", "p": 0.997061, "t0": 418, "t1": 482, "offsets": { "from": 4180, "to": 4820 } },
+        { "text": " sam", "p": 0.989942, "t0": 482, "t1": 544, "offsets": { "from": 4820, "to": 5440 } },
+        { "text": "fund", "p": 0.995847, "t0": 562, "t1": 567, "offsets": { "from": 5620, "to": 5670 } },
+        { "text": "et", "p": 0.99538, "t0": 567, "t1": 567, "offsets": { "from": 5670, "to": 5670 } },
+        { "text": " og", "p": 0.8552, "t0": 567, "t1": 567, "offsets": { "from": 5670, "to": 5670 } },
+        { "text": " ben", "p": 0.991835, "t0": 567, "t1": 567, "offsets": { "from": 5670, "to": 5670 } },
+        { "text": "yt", "p": 0.982542, "t0": 567, "t1": 567, "offsets": { "from": 5670, "to": 5670 } },
+        { "text": "ter", "p": 0.993375, "t0": 567, "t1": 567, "offsets": { "from": 5670, "to": 5670 } },
+        { "text": " transport", "p": 0.989306, "t0": 567, "t1": 567, "offsets": { "from": 5670, "to": 5670 } },
+        { "text": "system", "p": 0.892506, "t0": 567, "t1": 567, "offsets": { "from": 5670, "to": 5670 } },
+        { "text": "erne", "p": 0.977579, "t0": 567, "t1": 567, "offsets": { "from": 5670, "to": 5670 } },
+        { "text": ".", "p": 0.733738, "t0": 567, "t1": 567, "offsets": { "from": 5670, "to": 5670 } },
+        { "text": " N", "p": 0.794318, "t0": 567, "t1": 567, "offsets": { "from": 5670, "to": 5670 } },
+        { "text": "æ", "p": 0.997301, "t0": 567, "t1": 567, "offsets": { "from": 5670, "to": 5670 } },
+        { "text": "sten", "p": 0.998331, "t0": 567, "t1": 567, "offsets": { "from": 5670, "to": 5670 } },
+        { "text": " alle", "p": 0.996371, "t0": 567, "t1": 567, "offsets": { "from": 5670, "to": 5670 } },
+        { "text": " kl", "p": 0.967287, "t0": 567, "t1": 567, "offsets": { "from": 5670, "to": 5670 } },
+        { "text": "ager", "p": 0.993373, "t0": 567, "t1": 567, "offsets": { "from": 5670, "to": 5670 } },
+        { "text": " transport", "p": 0.694546, "t0": 567, "t1": 567, "offsets": { "from": 5670, "to": 5670 } },
+        { "text": "system", "p": 0.965276, "t0": 567, "t1": 567, "offsets": { "from": 5670, "to": 5670 } },
+        { "text": "erne", "p": 0.991885, "t0": 567, "t1": 567, "offsets": { "from": 5670, "to": 5670 } },
+        { "text": ".", "p": 0.927539, "t0": 567, "t1": 567, "offsets": { "from": 5670, "to": 5670 } }
+      ]
+    }
+  ]
+}

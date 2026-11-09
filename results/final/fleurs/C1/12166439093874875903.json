@@ -1,0 +1,61 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,000", "to": "00:00:30,000" },
+      "offsets":    { "from": 0, "to": 30000 },
+      "text":       " Udover onsdagens begivenhed konkurrerede KPN Nedo i to individuelle løb ved mesterskabet.",
+      "words": [
+        { "text": " Udover", "t0": 0, "t1": 220, "offsets": { "from": 0, "to": 2200 } },
+        { "text": " onsdagens", "t0": 220, "t1": 551, "offsets": { "from": 2200, "to": 5510 } },
+        { "text": " begivenhed", "t0": 551, "t1": 676, "offsets": { "from": 5510, "to": 6760 } },
+        { "text": " konkurrerede", "t0": 676, "t1": 676, "offsets": { "from": 6760, "to": 6760 } },
+        { "text": " KPN", "t0": 676, "t1": 676, "offsets": { "from": 6760, "to": 6760 } },
+        { "text": " Nedo", "t0": 676, "t1": 676, "offsets": { "from": 6760, "to": 6760 } },
+        { "text": " i", "t0": 676, "t1": 676, "offsets": { "from": 6760, "to": 6760 } },
+        { "text": " to", "t0": 676, "t1": 676, "offsets": { "from": 6760, "to": 6760 } },
+        { "text": " individuelle", "t0": 676, "t1": 676, "offsets": { "from": 6760, "to": 6760 } },
+        { "text": " løb", "t0": 676, "t1": 676, "offsets": { "from": 6760, "to": 6760 } },
+        { "text": " ved", "t0": 676, "t1": 676, "offsets": { "from": 6760, "to": 6760 } },
+        { "text": " mesterskabet.", "t0": 676, "t1": 676, "offsets": { "from": 6760, "to": 6760 } }
+      ],
+      "tokens": [
+        { "text": " U", "p": 0.967101, "t0": 0, "t1": 37, "offsets": { "from": 0, "to": 370 } },
+        { "text": "do", "p": 0.663934, "t0": 67, "t1": 110, "offsets": { "from": 670, "to": 1100 } },
+        { "text": "ver", "p": 0.998441, "t0": 110, "t1": 220, "offsets": { "from": 1100, "to": 2200 } },
+        { "text": " ons", "p": 0.960581, "t0": 220, "t1": 331, "offsets": { "from": 2200, "to": 3310 } },
+        { "text": "d", "p": 0.98685, "t0": 331, "t1": 346, "offsets": { "from": 3310, "to": 3460 } },
+        { "text": "agens", "p": 0.997377, "t0": 381, "t1": 551, "offsets": { "from": 3810, "to": 5510 } },
+        { "text": " beg", "p": 0.995345, "t0": 551, "t1": 656, "offsets": { "from": 5510, "to": 6560 } },
+        { "text": "iven", "p": 0.999119, "t0": 657, "t1": 676, "offsets": { "from": 6570, "to": 6760 } },
+        { "text": "hed", "p": 0.833399, "t0": 676, "t1": 676, "offsets": { "from": 6760, "to": 6760 } },
+        { "text": " konk", "p": 0.862378, "t0": 676, "t1": 676, "offsets": { "from": 6760, "to": 6760 } },
+        { "text": "ur", "p": 0.999041, "t0": 676, "t1": 676, "offsets": { "from": 6760, "to": 6760 } },
+        { "text": "r", "p": 0.65389, "t0": 676, "t1": 676, "offsets": { "from": 6760, "to": 6760 } },
+        { "text": "ered", "p": 0.977402, "t0": 676, "t1": 676, "offsets": { "from": 6760, "to": 6760 } },
+        { "text": "e", "p": 0.999941, "t0": 676, "t1": 676, "offsets": { "from": 6760, "to": 6760 } },
+        { "text": " K", "p": 0.121472, "t0": 676, "t1": 676, "offsets": { "from": 6760, "to": 6760 } },
+        { "text": "PN", "p": 0.706386, "t0": 676, "t1": 676, "offsets": { "from": 6760, "to": 6760 } },
+        { "text": " N", "p": 0.285092, "t0": 676, "t1": 676, "offsets": { "from": 6760, "to": 6760 } },
+        { "text": "edo", "p": 0.644643, "t0": 676, "t1": 676, "offsets": { "from": 6760, "to": 6760 } },
+        { "text": " i", "p": 0.926625, "t0": 676, "t1": 676, "offsets": { "from": 6760, "to": 6760 } },
+        { "text": " to", "p": 0.729477, "t0": 676, "t1": 676, "offsets": { "from": 6760, "to": 6760 } },
+        { "text": " individ", "p": 0.943899, "t0": 676, "t1": 676, "offsets": { "from": 6760, "to": 6760 } },
+        { "text": "uelle", "p": 0.998237, "t0": 676, "t1": 676, "offsets": { "from": 6760, "to": 6760 } },
+        { "text": " l", "p": 0.963861, "t0": 676, "t1": 676, "offsets": { "from": 6760, "to": 6760 } },
+        { "text": "ø", "p": 0.999908, "t0": 676, "t1": 676, "offsets": { "from": 6760, "to": 6760 } },
+        { "text": "b", "p": 0.920197, "t0": 676, "t1": 676, "offsets": { "from": 6760, "to": 6760 } },
+        { "text": " ved", "p": 0.90894, "t0": 676, "t1": 676, "offsets": { "from": 6760, "to": 6760 } },
+        { "text": " mest", "p": 0.599678, "t0": 676, "t1": 676, "offsets": { "from": 6760, "to": 6760 } },
+        { "text": "ers", "p": 0.989406, "t0": 676, "t1": 676, "offsets": { "from": 6760, "to": 6760 } },
+        { "text": "k", "p": 0.996706, "t0": 676, "t1": 676, "offsets": { "from": 6760, "to": 6760 } },
+        { "text": "abet", "p": 0.994456, "t0": 676, "t1": 676, "offsets": { "from": 6760, "to": 6760 } },
+        { "text": ".", "p": 0.923434, "t0": 676, "t1": 676, "offsets": { "from": 6760, "to": 6760 } }
+      ]
+    }
+  ]
+}

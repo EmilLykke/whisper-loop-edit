@@ -1,0 +1,57 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C2-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,000", "to": "00:00:30,000" },
+      "offsets":    { "from": 0, "to": 30000 },
+      "text":       " I fjerne egne uden mobildækning kan en satellittelefon være din eneste mulighed.",
+      "words": [
+        { "text": " I", "t0": 8, "t1": 38, "offsets": { "from": 80, "to": 380 } },
+        { "text": " fjerne", "t0": 52, "t1": 287, "offsets": { "from": 520, "to": 2870 } },
+        { "text": " egne", "t0": 287, "t1": 451, "offsets": { "from": 2870, "to": 4510 } },
+        { "text": " uden", "t0": 451, "t1": 611, "offsets": { "from": 4510, "to": 6110 } },
+        { "text": " mobildækning", "t0": 615, "t1": 666, "offsets": { "from": 6150, "to": 6660 } },
+        { "text": " kan", "t0": 666, "t1": 666, "offsets": { "from": 6660, "to": 6660 } },
+        { "text": " en", "t0": 666, "t1": 666, "offsets": { "from": 6660, "to": 6660 } },
+        { "text": " satellittelefon", "t0": 666, "t1": 666, "offsets": { "from": 6660, "to": 6660 } },
+        { "text": " være", "t0": 666, "t1": 666, "offsets": { "from": 6660, "to": 6660 } },
+        { "text": " din", "t0": 666, "t1": 666, "offsets": { "from": 6660, "to": 6660 } },
+        { "text": " eneste", "t0": 666, "t1": 666, "offsets": { "from": 6660, "to": 6660 } },
+        { "text": " mulighed.", "t0": 666, "t1": 666, "offsets": { "from": 6660, "to": 6660 } }
+      ],
+      "tokens": [
+        { "text": " I", "p": 0.945651, "t0": 8, "t1": 38, "offsets": { "from": 80, "to": 380 } },
+        { "text": " f", "p": 0.947041, "t0": 52, "t1": 82, "offsets": { "from": 520, "to": 820 } },
+        { "text": "jer", "p": 0.971037, "t0": 82, "t1": 205, "offsets": { "from": 820, "to": 2050 } },
+        { "text": "ne", "p": 0.999264, "t0": 205, "t1": 287, "offsets": { "from": 2050, "to": 2870 } },
+        { "text": " eg", "p": 0.768489, "t0": 287, "t1": 369, "offsets": { "from": 2870, "to": 3690 } },
+        { "text": "ne", "p": 0.997251, "t0": 369, "t1": 451, "offsets": { "from": 3690, "to": 4510 } },
+        { "text": " u", "p": 0.636424, "t0": 451, "t1": 488, "offsets": { "from": 4510, "to": 4880 } },
+        { "text": "den", "p": 0.999714, "t0": 493, "t1": 611, "offsets": { "from": 4930, "to": 6110 } },
+        { "text": " mob", "p": 0.903478, "t0": 615, "t1": 658, "offsets": { "from": 6150, "to": 6580 } },
+        { "text": "ild", "p": 0.982362, "t0": 666, "t1": 666, "offsets": { "from": 6660, "to": 6660 } },
+        { "text": "æ", "p": 0.996464, "t0": 666, "t1": 666, "offsets": { "from": 6660, "to": 6660 } },
+        { "text": "k", "p": 0.961357, "t0": 666, "t1": 666, "offsets": { "from": 6660, "to": 6660 } },
+        { "text": "ning", "p": 0.995708, "t0": 666, "t1": 666, "offsets": { "from": 6660, "to": 6660 } },
+        { "text": " kan", "p": 0.740754, "t0": 666, "t1": 666, "offsets": { "from": 6660, "to": 6660 } },
+        { "text": " en", "p": 0.959102, "t0": 666, "t1": 666, "offsets": { "from": 6660, "to": 6660 } },
+        { "text": " satell", "p": 0.832982, "t0": 666, "t1": 666, "offsets": { "from": 6660, "to": 6660 } },
+        { "text": "itte", "p": 0.852134, "t0": 666, "t1": 666, "offsets": { "from": 6660, "to": 6660 } },
+        { "text": "le", "p": 0.999931, "t0": 666, "t1": 666, "offsets": { "from": 6660, "to": 6660 } },
+        { "text": "fon", "p": 0.999777, "t0": 666, "t1": 666, "offsets": { "from": 6660, "to": 6660 } },
+        { "text": " være", "p": 0.982431, "t0": 666, "t1": 666, "offsets": { "from": 6660, "to": 6660 } },
+        { "text": " din", "p": 0.98401, "t0": 666, "t1": 666, "offsets": { "from": 6660, "to": 6660 } },
+        { "text": " en", "p": 0.996111, "t0": 666, "t1": 666, "offsets": { "from": 6660, "to": 6660 } },
+        { "text": "este", "p": 0.998154, "t0": 666, "t1": 666, "offsets": { "from": 6660, "to": 6660 } },
+        { "text": " mul", "p": 0.999655, "t0": 666, "t1": 666, "offsets": { "from": 6660, "to": 6660 } },
+        { "text": "igh", "p": 0.999447, "t0": 666, "t1": 666, "offsets": { "from": 6660, "to": 6660 } },
+        { "text": "ed", "p": 0.999558, "t0": 666, "t1": 666, "offsets": { "from": 6660, "to": 6660 } },
+        { "text": ".", "p": 0.901878, "t0": 666, "t1": 666, "offsets": { "from": 6660, "to": 6660 } }
+      ]
+    }
+  ]
+}

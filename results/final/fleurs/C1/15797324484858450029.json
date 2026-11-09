@@ -1,0 +1,44 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,170", "to": "00:00:30,170" },
+      "offsets":    { "from": 170, "to": 30170 },
+      "text":       " Den er tyndere under Marian og tykkere under Højland.",
+      "words": [
+        { "text": " Den", "t0": 177, "t1": 203, "offsets": { "from": 1770, "to": 2030 } },
+        { "text": " er", "t0": 207, "t1": 329, "offsets": { "from": 2070, "to": 3290 } },
+        { "text": " tyndere", "t0": 329, "t1": 758, "offsets": { "from": 3290, "to": 7580 } },
+        { "text": " under", "t0": 765, "t1": 861, "offsets": { "from": 7650, "to": 8610 } },
+        { "text": " Marian", "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": " og", "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": " tykkere", "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": " under", "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": " Højland.", "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } }
+      ],
+      "tokens": [
+        { "text": " Den", "p": 0.812545, "t0": 177, "t1": 203, "offsets": { "from": 1770, "to": 2030 } },
+        { "text": " er", "p": 0.959939, "t0": 207, "t1": 329, "offsets": { "from": 2070, "to": 3290 } },
+        { "text": " ty", "p": 0.952289, "t0": 329, "t1": 454, "offsets": { "from": 3290, "to": 4540 } },
+        { "text": "nd", "p": 0.937859, "t0": 454, "t1": 577, "offsets": { "from": 4540, "to": 5770 } },
+        { "text": "ere", "p": 0.997963, "t0": 577, "t1": 758, "offsets": { "from": 5770, "to": 7580 } },
+        { "text": " under", "p": 0.743886, "t0": 765, "t1": 861, "offsets": { "from": 7650, "to": 8610 } },
+        { "text": " Marian", "p": 0.895774, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": " og", "p": 0.618878, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": " ty", "p": 0.992882, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": "kk", "p": 0.878875, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": "ere", "p": 0.999832, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": " under", "p": 0.98398, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": " H", "p": 0.589356, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": "ø", "p": 0.993856, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": "j", "p": 0.996546, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": "land", "p": 0.899456, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": ".", "p": 0.885962, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } }
+      ]
+    }
+  ]
+}

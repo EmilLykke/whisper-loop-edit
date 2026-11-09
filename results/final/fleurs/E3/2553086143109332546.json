@@ -1,0 +1,87 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,170", "to": "00:00:30,170" },
+      "offsets":    { "from": 170, "to": 30170 },
+      "text":       " Moldovas hovedsted er Chisinau. Lokalspråget er romansk, men der tales også russisk i et bredt omfang.",
+      "chunk_id":   0,
+      "words": [
+        { "text": " Moldovas", "t0": 36, "t1": 269, "offsets": { "from": 360, "to": 2690 } },
+        { "text": " hovedsted", "t0": 269, "t1": 556, "offsets": { "from": 2690, "to": 5560 } },
+        { "text": " er", "t0": 556, "t1": 604, "offsets": { "from": 5560, "to": 6040 } },
+        { "text": " Chisinau.", "t0": 634, "t1": 913, "offsets": { "from": 6340, "to": 9130 } },
+        { "text": " Lokalspråget", "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " er", "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " romansk,", "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " men", "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " der", "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " tales", "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " også", "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " russisk", "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " i", "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " et", "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " bredt", "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " omfang.", "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } }
+      ],
+      "tokens": [
+        { "text": " M", "p": 0.973958, "t0": 36, "t1": 49, "offsets": { "from": 360, "to": 490 } },
+        { "text": "old", "p": 0.999857, "t0": 49, "t1": 144, "offsets": { "from": 490, "to": 1440 } },
+        { "text": "ov", "p": 0.804082, "t0": 164, "t1": 207, "offsets": { "from": 1640, "to": 2070 } },
+        { "text": "as", "p": 0.983676, "t0": 207, "t1": 269, "offsets": { "from": 2070, "to": 2690 } },
+        { "text": " ho", "p": 0.950018, "t0": 269, "t1": 309, "offsets": { "from": 2690, "to": 3090 } },
+        { "text": "ved", "p": 0.999842, "t0": 351, "t1": 418, "offsets": { "from": 3510, "to": 4180 } },
+        { "text": "sted", "p": 0.129187, "t0": 483, "t1": 556, "offsets": { "from": 4830, "to": 5560 } },
+        { "text": " er", "p": 0.997392, "t0": 556, "t1": 604, "offsets": { "from": 5560, "to": 6040 } },
+        { "text": " Ch", "p": 0.300868, "t0": 634, "t1": 672, "offsets": { "from": 6340, "to": 6720 } },
+        { "text": "is", "p": 0.726954, "t0": 697, "t1": 746, "offsets": { "from": 6970, "to": 7460 } },
+        { "text": "ina", "p": 0.998096, "t0": 750, "t1": 821, "offsets": { "from": 7500, "to": 8210 } },
+        { "text": "u", "p": 0.997832, "t0": 848, "t1": 861, "offsets": { "from": 8480, "to": 8610 } },
+        { "text": ".", "p": 0.714844, "t0": 876, "t1": 913, "offsets": { "from": 8760, "to": 9130 } },
+        { "text": " Lok", "p": 0.976627, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": "als", "p": 0.99798, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": "pr", "p": 0.601333, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": "å", "p": 0.983791, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": "get", "p": 0.877323, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " er", "p": 0.993379, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " rom", "p": 0.661799, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": "ans", "p": 0.706319, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": "k", "p": 0.999422, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": ",", "p": 0.922817, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " men", "p": 0.990348, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " der", "p": 0.989617, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " tales", "p": 0.917285, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " også", "p": 0.996139, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " r", "p": 0.959507, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": "uss", "p": 0.999159, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": "isk", "p": 0.997872, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " i", "p": 0.983988, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " et", "p": 0.974466, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " bred", "p": 0.999552, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": "t", "p": 0.999081, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " om", "p": 0.998121, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": "fang", "p": 0.99671, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": ".", "p": 0.953841, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } }
+      ]
+    },
+    {
+      "timestamps": { "from": "00:00:10,660", "to": "00:00:40,660" },
+      "offsets":    { "from": 10660, "to": 40660 },
+      "text":       " Hvorfor?",
+      "chunk_id":   1,
+      "words": [
+        { "text": " Hvorfor?", "t0": 1090, "t1": 1235, "offsets": { "from": 10900, "to": 12350 } }
+      ],
+      "tokens": [
+        { "text": " H", "p": 0.668838, "t0": 1090, "t1": 1235, "offsets": { "from": 10900, "to": 12350 } },
+        { "text": "vor", "p": 1, "t0": 1235, "t1": 1235, "offsets": { "from": 12350, "to": 12350 } },
+        { "text": "for", "p": 0.515194, "t0": 1235, "t1": 1235, "offsets": { "from": 12350, "to": 12350 } },
+        { "text": "?", "p": 0.998822, "t0": 1235, "t1": 1235, "offsets": { "from": 12350, "to": 12350 } }
+      ]
+    }
+  ]
+}

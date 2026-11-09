@@ -1,0 +1,53 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,000", "to": "00:00:30,000" },
+      "offsets":    { "from": 0, "to": 30000 },
+      "text":       " I denne forbindelse fungerer Schengen-området dog nogenlunde som et land.",
+      "words": [
+        { "text": " I", "t0": 0, "t1": 45, "offsets": { "from": 0, "to": 450 } },
+        { "text": " denne", "t0": 57, "t1": 268, "offsets": { "from": 570, "to": 2680 } },
+        { "text": " forbindelse", "t0": 268, "t1": 501, "offsets": { "from": 2680, "to": 5010 } },
+        { "text": " fungerer", "t0": 501, "t1": 501, "offsets": { "from": 5010, "to": 5010 } },
+        { "text": " Schengen-området", "t0": 501, "t1": 501, "offsets": { "from": 5010, "to": 5010 } },
+        { "text": " dog", "t0": 501, "t1": 501, "offsets": { "from": 5010, "to": 5010 } },
+        { "text": " nogenlunde", "t0": 501, "t1": 501, "offsets": { "from": 5010, "to": 5010 } },
+        { "text": " som", "t0": 501, "t1": 501, "offsets": { "from": 5010, "to": 5010 } },
+        { "text": " et", "t0": 501, "t1": 501, "offsets": { "from": 5010, "to": 5010 } },
+        { "text": " land.", "t0": 501, "t1": 501, "offsets": { "from": 5010, "to": 5010 } }
+      ],
+      "tokens": [
+        { "text": " I", "p": 0.947801, "t0": 0, "t1": 45, "offsets": { "from": 0, "to": 450 } },
+        { "text": " den", "p": 0.99028, "t0": 57, "t1": 179, "offsets": { "from": 570, "to": 1790 } },
+        { "text": "ne", "p": 0.995841, "t0": 179, "t1": 268, "offsets": { "from": 1790, "to": 2680 } },
+        { "text": " forb", "p": 0.644614, "t0": 268, "t1": 447, "offsets": { "from": 2680, "to": 4470 } },
+        { "text": "ind", "p": 0.999039, "t0": 447, "t1": 478, "offsets": { "from": 4470, "to": 4780 } },
+        { "text": "else", "p": 0.998784, "t0": 492, "t1": 501, "offsets": { "from": 4920, "to": 5010 } },
+        { "text": " fun", "p": 0.970239, "t0": 501, "t1": 501, "offsets": { "from": 5010, "to": 5010 } },
+        { "text": "ger", "p": 0.977704, "t0": 501, "t1": 501, "offsets": { "from": 5010, "to": 5010 } },
+        { "text": "er", "p": 0.997582, "t0": 501, "t1": 501, "offsets": { "from": 5010, "to": 5010 } },
+        { "text": " Sch", "p": 0.850975, "t0": 501, "t1": 501, "offsets": { "from": 5010, "to": 5010 } },
+        { "text": "eng", "p": 0.981611, "t0": 501, "t1": 501, "offsets": { "from": 5010, "to": 5010 } },
+        { "text": "en", "p": 0.991537, "t0": 501, "t1": 501, "offsets": { "from": 5010, "to": 5010 } },
+        { "text": "-", "p": 0.620722, "t0": 501, "t1": 501, "offsets": { "from": 5010, "to": 5010 } },
+        { "text": "om", "p": 0.960483, "t0": 501, "t1": 501, "offsets": { "from": 5010, "to": 5010 } },
+        { "text": "rå", "p": 0.999804, "t0": 501, "t1": 501, "offsets": { "from": 5010, "to": 5010 } },
+        { "text": "det", "p": 0.998134, "t0": 501, "t1": 501, "offsets": { "from": 5010, "to": 5010 } },
+        { "text": " dog", "p": 0.943051, "t0": 501, "t1": 501, "offsets": { "from": 5010, "to": 5010 } },
+        { "text": " no", "p": 0.824694, "t0": 501, "t1": 501, "offsets": { "from": 5010, "to": 5010 } },
+        { "text": "gen", "p": 0.999436, "t0": 501, "t1": 501, "offsets": { "from": 5010, "to": 5010 } },
+        { "text": "l", "p": 0.999674, "t0": 501, "t1": 501, "offsets": { "from": 5010, "to": 5010 } },
+        { "text": "unde", "p": 0.999287, "t0": 501, "t1": 501, "offsets": { "from": 5010, "to": 5010 } },
+        { "text": " som", "p": 0.993617, "t0": 501, "t1": 501, "offsets": { "from": 5010, "to": 5010 } },
+        { "text": " et", "p": 0.911956, "t0": 501, "t1": 501, "offsets": { "from": 5010, "to": 5010 } },
+        { "text": " land", "p": 0.929213, "t0": 501, "t1": 501, "offsets": { "from": 5010, "to": 5010 } },
+        { "text": ".", "p": 0.888599, "t0": 501, "t1": 501, "offsets": { "from": 5010, "to": 5010 } }
+      ]
+    }
+  ]
+}

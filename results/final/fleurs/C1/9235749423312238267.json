@@ -1,0 +1,72 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,000", "to": "00:00:30,000" },
+      "offsets":    { "from": 0, "to": 30000 },
+      "text":       " Sammenhæng mellem hjernens patologi og adfærd understøtter videnskabsmænd i dens forsætning. Forskning.",
+      "words": [
+        { "text": " Sammenhæng", "t0": 75, "t1": 325, "offsets": { "from": 750, "to": 3250 } },
+        { "text": " mellem", "t0": 325, "t1": 502, "offsets": { "from": 3250, "to": 5020 } },
+        { "text": " hjernens", "t0": 502, "t1": 658, "offsets": { "from": 5020, "to": 6580 } },
+        { "text": " patologi", "t0": 739, "t1": 860, "offsets": { "from": 7390, "to": 8600 } },
+        { "text": " og", "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": " adfærd", "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": " understøtter", "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": " videnskabsmænd", "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": " i", "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": " dens", "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": " forsætning.", "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": " Forskning.", "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } }
+      ],
+      "tokens": [
+        { "text": " Sam", "p": 0.856384, "t0": 75, "t1": 89, "offsets": { "from": 750, "to": 890 } },
+        { "text": "men", "p": 0.991807, "t0": 89, "t1": 178, "offsets": { "from": 890, "to": 1780 } },
+        { "text": "h", "p": 0.998296, "t0": 178, "t1": 207, "offsets": { "from": 1780, "to": 2070 } },
+        { "text": "æ", "p": 0.9987, "t0": 207, "t1": 266, "offsets": { "from": 2070, "to": 2660 } },
+        { "text": "ng", "p": 0.99274, "t0": 266, "t1": 325, "offsets": { "from": 2660, "to": 3250 } },
+        { "text": " me", "p": 0.811577, "t0": 325, "t1": 384, "offsets": { "from": 3250, "to": 3840 } },
+        { "text": "ll", "p": 0.999386, "t0": 384, "t1": 439, "offsets": { "from": 3840, "to": 4390 } },
+        { "text": "em", "p": 0.998925, "t0": 453, "t1": 502, "offsets": { "from": 4530, "to": 5020 } },
+        { "text": " hj", "p": 0.951781, "t0": 502, "t1": 547, "offsets": { "from": 5020, "to": 5470 } },
+        { "text": "ern", "p": 0.881587, "t0": 570, "t1": 650, "offsets": { "from": 5700, "to": 6500 } },
+        { "text": "ens", "p": 0.763215, "t0": 650, "t1": 658, "offsets": { "from": 6500, "to": 6580 } },
+        { "text": " pat", "p": 0.943943, "t0": 739, "t1": 777, "offsets": { "from": 7390, "to": 7770 } },
+        { "text": "olog", "p": 0.874424, "t0": 826, "t1": 860, "offsets": { "from": 8260, "to": 8600 } },
+        { "text": "i", "p": 0.999834, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": " og", "p": 0.983751, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": " ad", "p": 0.994044, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": "f", "p": 0.999752, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": "æ", "p": 0.996143, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": "rd", "p": 0.999235, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": " under", "p": 0.807674, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": "st", "p": 0.999352, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": "ø", "p": 0.999203, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": "t", "p": 0.993646, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": "ter", "p": 0.999533, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": " vid", "p": 0.979906, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": "ens", "p": 0.996846, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": "k", "p": 0.997234, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": "ab", "p": 0.96317, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": "sm", "p": 0.999405, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": "æ", "p": 0.995966, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": "nd", "p": 0.99846, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": " i", "p": 0.84442, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": " dens", "p": 0.654433, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": " fors", "p": 0.941894, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": "æ", "p": 0.242539, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": "t", "p": 0.496003, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": "ning", "p": 0.991314, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": ".", "p": 0.737417, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": " Fors", "p": 0.86091, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": "k", "p": 0.750553, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": "ning", "p": 0.999003, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } },
+        { "text": ".", "p": 0.659296, "t0": 860, "t1": 860, "offsets": { "from": 8600, "to": 8600 } }
+      ]
+    }
+  ]
+}

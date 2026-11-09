@@ -1,0 +1,71 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,620", "to": "00:00:30,620" },
+      "offsets":    { "from": 620, "to": 30620 },
+      "text":       " Dette giver en god mulighed for at se polarlys, da himlen vil være mørk mere eller mindre døgnet rundt.",
+      "words": [
+        { "text": " Dette", "t0": 83, "t1": 222, "offsets": { "from": 830, "to": 2220 } },
+        { "text": " giver", "t0": 227, "t1": 390, "offsets": { "from": 2270, "to": 3900 } },
+        { "text": " en", "t0": 390, "t1": 445, "offsets": { "from": 3900, "to": 4450 } },
+        { "text": " god", "t0": 486, "t1": 545, "offsets": { "from": 4860, "to": 5450 } },
+        { "text": " mulighed", "t0": 555, "t1": 657, "offsets": { "from": 5550, "to": 6570 } },
+        { "text": " for", "t0": 657, "t1": 657, "offsets": { "from": 6570, "to": 6570 } },
+        { "text": " at", "t0": 657, "t1": 657, "offsets": { "from": 6570, "to": 6570 } },
+        { "text": " se", "t0": 657, "t1": 657, "offsets": { "from": 6570, "to": 6570 } },
+        { "text": " polarlys,", "t0": 657, "t1": 657, "offsets": { "from": 6570, "to": 6570 } },
+        { "text": " da", "t0": 657, "t1": 657, "offsets": { "from": 6570, "to": 6570 } },
+        { "text": " himlen", "t0": 657, "t1": 657, "offsets": { "from": 6570, "to": 6570 } },
+        { "text": " vil", "t0": 657, "t1": 657, "offsets": { "from": 6570, "to": 6570 } },
+        { "text": " være", "t0": 657, "t1": 657, "offsets": { "from": 6570, "to": 6570 } },
+        { "text": " mørk", "t0": 657, "t1": 657, "offsets": { "from": 6570, "to": 6570 } },
+        { "text": " mere", "t0": 657, "t1": 657, "offsets": { "from": 6570, "to": 6570 } },
+        { "text": " eller", "t0": 657, "t1": 657, "offsets": { "from": 6570, "to": 6570 } },
+        { "text": " mindre", "t0": 657, "t1": 657, "offsets": { "from": 6570, "to": 6570 } },
+        { "text": " døgnet", "t0": 657, "t1": 657, "offsets": { "from": 6570, "to": 6570 } },
+        { "text": " rundt.", "t0": 657, "t1": 657, "offsets": { "from": 6570, "to": 6570 } }
+      ],
+      "tokens": [
+        { "text": " D", "p": 0.818114, "t0": 83, "t1": 95, "offsets": { "from": 830, "to": 950 } },
+        { "text": "ette", "p": 0.997092, "t0": 95, "t1": 222, "offsets": { "from": 950, "to": 2220 } },
+        { "text": " gi", "p": 0.992881, "t0": 227, "t1": 291, "offsets": { "from": 2270, "to": 2910 } },
+        { "text": "ver", "p": 0.988376, "t0": 291, "t1": 390, "offsets": { "from": 2910, "to": 3900 } },
+        { "text": " en", "p": 0.851348, "t0": 390, "t1": 445, "offsets": { "from": 3900, "to": 4450 } },
+        { "text": " god", "p": 0.99437, "t0": 486, "t1": 545, "offsets": { "from": 4860, "to": 5450 } },
+        { "text": " mul", "p": 0.998504, "t0": 555, "t1": 637, "offsets": { "from": 5550, "to": 6370 } },
+        { "text": "igh", "p": 0.997999, "t0": 657, "t1": 657, "offsets": { "from": 6570, "to": 6570 } },
+        { "text": "ed", "p": 0.998291, "t0": 657, "t1": 657, "offsets": { "from": 6570, "to": 6570 } },
+        { "text": " for", "p": 0.967879, "t0": 657, "t1": 657, "offsets": { "from": 6570, "to": 6570 } },
+        { "text": " at", "p": 0.977991, "t0": 657, "t1": 657, "offsets": { "from": 6570, "to": 6570 } },
+        { "text": " se", "p": 0.995416, "t0": 657, "t1": 657, "offsets": { "from": 6570, "to": 6570 } },
+        { "text": " polar", "p": 0.580837, "t0": 657, "t1": 657, "offsets": { "from": 6570, "to": 6570 } },
+        { "text": "lys", "p": 0.936797, "t0": 657, "t1": 657, "offsets": { "from": 6570, "to": 6570 } },
+        { "text": ",", "p": 0.877448, "t0": 657, "t1": 657, "offsets": { "from": 6570, "to": 6570 } },
+        { "text": " da", "p": 0.957315, "t0": 657, "t1": 657, "offsets": { "from": 6570, "to": 6570 } },
+        { "text": " him", "p": 0.97988, "t0": 657, "t1": 657, "offsets": { "from": 6570, "to": 6570 } },
+        { "text": "len", "p": 0.688674, "t0": 657, "t1": 657, "offsets": { "from": 6570, "to": 6570 } },
+        { "text": " vil", "p": 0.856108, "t0": 657, "t1": 657, "offsets": { "from": 6570, "to": 6570 } },
+        { "text": " være", "p": 0.994053, "t0": 657, "t1": 657, "offsets": { "from": 6570, "to": 6570 } },
+        { "text": " m", "p": 0.993688, "t0": 657, "t1": 657, "offsets": { "from": 6570, "to": 6570 } },
+        { "text": "ør", "p": 0.997775, "t0": 657, "t1": 657, "offsets": { "from": 6570, "to": 6570 } },
+        { "text": "k", "p": 0.994141, "t0": 657, "t1": 657, "offsets": { "from": 6570, "to": 6570 } },
+        { "text": " mere", "p": 0.886362, "t0": 657, "t1": 657, "offsets": { "from": 6570, "to": 6570 } },
+        { "text": " eller", "p": 0.992415, "t0": 657, "t1": 657, "offsets": { "from": 6570, "to": 6570 } },
+        { "text": " mind", "p": 0.998458, "t0": 657, "t1": 657, "offsets": { "from": 6570, "to": 6570 } },
+        { "text": "re", "p": 0.999706, "t0": 657, "t1": 657, "offsets": { "from": 6570, "to": 6570 } },
+        { "text": " d", "p": 0.737369, "t0": 657, "t1": 657, "offsets": { "from": 6570, "to": 6570 } },
+        { "text": "ø", "p": 0.997775, "t0": 657, "t1": 657, "offsets": { "from": 6570, "to": 6570 } },
+        { "text": "gn", "p": 0.999498, "t0": 657, "t1": 657, "offsets": { "from": 6570, "to": 6570 } },
+        { "text": "et", "p": 0.971041, "t0": 657, "t1": 657, "offsets": { "from": 6570, "to": 6570 } },
+        { "text": " rund", "p": 0.993885, "t0": 657, "t1": 657, "offsets": { "from": 6570, "to": 6570 } },
+        { "text": "t", "p": 0.999897, "t0": 657, "t1": 657, "offsets": { "from": 6570, "to": 6570 } },
+        { "text": ".", "p": 0.964573, "t0": 657, "t1": 657, "offsets": { "from": 6570, "to": 6570 } }
+      ]
+    }
+  ]
+}

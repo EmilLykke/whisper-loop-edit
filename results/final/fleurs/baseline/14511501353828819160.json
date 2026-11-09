@@ -1,0 +1,66 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,170", "to": "00:00:30,170" },
+      "offsets":    { "from": 170, "to": 30170 },
+      "text":       " I løbet af 1920'erne hældede de fleste borgere og nationers holdninger sig mod pacifisme og isolation.",
+      "words": [
+        { "text": " I", "t0": 36, "t1": 47, "offsets": { "from": 360, "to": 470 } },
+        { "text": " løbet", "t0": 47, "t1": 227, "offsets": { "from": 470, "to": 2270 } },
+        { "text": " af", "t0": 227, "t1": 287, "offsets": { "from": 2270, "to": 2870 } },
+        { "text": " 1920'erne", "t0": 287, "t1": 766, "offsets": { "from": 2870, "to": 7660 } },
+        { "text": " hældede", "t0": 802, "t1": 1041, "offsets": { "from": 8020, "to": 10410 } },
+        { "text": " de", "t0": 1041, "t1": 1099, "offsets": { "from": 10410, "to": 10990 } },
+        { "text": " fleste", "t0": 1109, "t1": 1161, "offsets": { "from": 11090, "to": 11610 } },
+        { "text": " borgere", "t0": 1161, "t1": 1161, "offsets": { "from": 11610, "to": 11610 } },
+        { "text": " og", "t0": 1161, "t1": 1161, "offsets": { "from": 11610, "to": 11610 } },
+        { "text": " nationers", "t0": 1161, "t1": 1161, "offsets": { "from": 11610, "to": 11610 } },
+        { "text": " holdninger", "t0": 1161, "t1": 1161, "offsets": { "from": 11610, "to": 11610 } },
+        { "text": " sig", "t0": 1161, "t1": 1161, "offsets": { "from": 11610, "to": 11610 } },
+        { "text": " mod", "t0": 1161, "t1": 1161, "offsets": { "from": 11610, "to": 11610 } },
+        { "text": " pacifisme", "t0": 1161, "t1": 1161, "offsets": { "from": 11610, "to": 11610 } },
+        { "text": " og", "t0": 1161, "t1": 1161, "offsets": { "from": 11610, "to": 11610 } },
+        { "text": " isolation.", "t0": 1161, "t1": 1161, "offsets": { "from": 11610, "to": 11610 } }
+      ],
+      "tokens": [
+        { "text": " I", "p": 0.973234, "t0": 36, "t1": 47, "offsets": { "from": 360, "to": 470 } },
+        { "text": " l", "p": 0.99593, "t0": 47, "t1": 77, "offsets": { "from": 470, "to": 770 } },
+        { "text": "ø", "p": 0.999969, "t0": 126, "t1": 137, "offsets": { "from": 1260, "to": 1370 } },
+        { "text": "bet", "p": 0.998015, "t0": 137, "t1": 227, "offsets": { "from": 1370, "to": 2270 } },
+        { "text": " af", "p": 0.999531, "t0": 227, "t1": 287, "offsets": { "from": 2270, "to": 2870 } },
+        { "text": " 1920", "p": 0.998567, "t0": 287, "t1": 649, "offsets": { "from": 2870, "to": 6490 } },
+        { "text": "'", "p": 0.889296, "t0": 650, "t1": 676, "offsets": { "from": 6500, "to": 6760 } },
+        { "text": "erne", "p": 0.995173, "t0": 689, "t1": 766, "offsets": { "from": 6890, "to": 7660 } },
+        { "text": " h", "p": 0.694395, "t0": 802, "t1": 831, "offsets": { "from": 8020, "to": 8310 } },
+        { "text": "æ", "p": 0.967687, "t0": 831, "t1": 891, "offsets": { "from": 8310, "to": 8910 } },
+        { "text": "ld", "p": 0.959984, "t0": 891, "t1": 916, "offsets": { "from": 8910, "to": 9160 } },
+        { "text": "ede", "p": 0.879779, "t0": 940, "t1": 1041, "offsets": { "from": 9400, "to": 10410 } },
+        { "text": " de", "p": 0.979937, "t0": 1041, "t1": 1099, "offsets": { "from": 10410, "to": 10990 } },
+        { "text": " fl", "p": 0.999495, "t0": 1109, "t1": 1154, "offsets": { "from": 11090, "to": 11540 } },
+        { "text": "este", "p": 0.99537, "t0": 1160, "t1": 1161, "offsets": { "from": 11600, "to": 11610 } },
+        { "text": " b", "p": 0.968456, "t0": 1161, "t1": 1161, "offsets": { "from": 11610, "to": 11610 } },
+        { "text": "org", "p": 0.99898, "t0": 1161, "t1": 1161, "offsets": { "from": 11610, "to": 11610 } },
+        { "text": "ere", "p": 0.999579, "t0": 1161, "t1": 1161, "offsets": { "from": 11610, "to": 11610 } },
+        { "text": " og", "p": 0.946875, "t0": 1161, "t1": 1161, "offsets": { "from": 11610, "to": 11610 } },
+        { "text": " nation", "p": 0.920834, "t0": 1161, "t1": 1161, "offsets": { "from": 11610, "to": 11610 } },
+        { "text": "ers", "p": 0.791364, "t0": 1161, "t1": 1161, "offsets": { "from": 11610, "to": 11610 } },
+        { "text": " hold", "p": 0.988304, "t0": 1161, "t1": 1161, "offsets": { "from": 11610, "to": 11610 } },
+        { "text": "ning", "p": 0.995556, "t0": 1161, "t1": 1161, "offsets": { "from": 11610, "to": 11610 } },
+        { "text": "er", "p": 0.995699, "t0": 1161, "t1": 1161, "offsets": { "from": 11610, "to": 11610 } },
+        { "text": " sig", "p": 0.985675, "t0": 1161, "t1": 1161, "offsets": { "from": 11610, "to": 11610 } },
+        { "text": " mod", "p": 0.835738, "t0": 1161, "t1": 1161, "offsets": { "from": 11610, "to": 11610 } },
+        { "text": " pac", "p": 0.980602, "t0": 1161, "t1": 1161, "offsets": { "from": 11610, "to": 11610 } },
+        { "text": "if", "p": 0.999079, "t0": 1161, "t1": 1161, "offsets": { "from": 11610, "to": 11610 } },
+        { "text": "isme", "p": 0.994372, "t0": 1161, "t1": 1161, "offsets": { "from": 11610, "to": 11610 } },
+        { "text": " og", "p": 0.992833, "t0": 1161, "t1": 1161, "offsets": { "from": 11610, "to": 11610 } },
+        { "text": " isolation", "p": 0.998557, "t0": 1161, "t1": 1161, "offsets": { "from": 11610, "to": 11610 } },
+        { "text": ".", "p": 0.928327, "t0": 1161, "t1": 1161, "offsets": { "from": 11610, "to": 11610 } }
+      ]
+    }
+  ]
+}

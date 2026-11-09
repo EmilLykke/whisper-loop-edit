@@ -1,0 +1,26 @@
+{
+  "path": "nt",
+  "clip": "heldout_da_continuous_90s_01",
+  "run": 1,
+  "argv": [
+    "../codictate/vendors/crispasr/crispasr",
+    "-m",
+    "models/ggml/ggml-large-v3-ours-q5_0.bin",
+    "-t",
+    "14",
+    "--language",
+    "da",
+    "-f",
+    "data/clips/heldout/heldout_da_continuous_90s_01.wav",
+    "--no-prints",
+    "-nt",
+    "-ojf",
+    "-of",
+    "results/final/extras/q5_0/baseline/nt/heldout_da_continuous_90s_01.run1"
+  ],
+  "wallSeconds": 4.47,
+  "exitCode": 0,
+  "error": null,
+  "stdoutBytes": 977,
+  "stderrTail": "output_json: saving output to 'results/final/extras/q5_0/baseline/nt/heldout_da_continuous_90s_01.run1.json'\n"
+}

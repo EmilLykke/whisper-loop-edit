@@ -1,0 +1,59 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:01,290", "to": "00:00:31,290" },
+      "offsets":    { "from": 1290, "to": 31290 },
+      "text":       " Normarianernes beredskabskontor meddelte, at der ikke var rapporteret om skader i nationen.",
+      "words": [
+        { "text": " Normarianernes", "t0": 153, "t1": 633, "offsets": { "from": 1530, "to": 6330 } },
+        { "text": " beredskabskontor", "t0": 633, "t1": 680, "offsets": { "from": 6330, "to": 6800 } },
+        { "text": " meddelte,", "t0": 680, "t1": 680, "offsets": { "from": 6800, "to": 6800 } },
+        { "text": " at", "t0": 680, "t1": 680, "offsets": { "from": 6800, "to": 6800 } },
+        { "text": " der", "t0": 680, "t1": 680, "offsets": { "from": 6800, "to": 6800 } },
+        { "text": " ikke", "t0": 680, "t1": 680, "offsets": { "from": 6800, "to": 6800 } },
+        { "text": " var", "t0": 680, "t1": 680, "offsets": { "from": 6800, "to": 6800 } },
+        { "text": " rapporteret", "t0": 680, "t1": 680, "offsets": { "from": 6800, "to": 6800 } },
+        { "text": " om", "t0": 680, "t1": 680, "offsets": { "from": 6800, "to": 6800 } },
+        { "text": " skader", "t0": 680, "t1": 680, "offsets": { "from": 6800, "to": 6800 } },
+        { "text": " i", "t0": 680, "t1": 680, "offsets": { "from": 6800, "to": 6800 } },
+        { "text": " nationen.", "t0": 680, "t1": 680, "offsets": { "from": 6800, "to": 6800 } }
+      ],
+      "tokens": [
+        { "text": " Norm", "p": 0.336131, "t0": 153, "t1": 270, "offsets": { "from": 1530, "to": 2700 } },
+        { "text": "arian", "p": 0.690324, "t0": 275, "t1": 414, "offsets": { "from": 2750, "to": 4140 } },
+        { "text": "ern", "p": 0.946526, "t0": 456, "t1": 561, "offsets": { "from": 4560, "to": 5610 } },
+        { "text": "es", "p": 0.999087, "t0": 561, "t1": 633, "offsets": { "from": 5610, "to": 6330 } },
+        { "text": " b", "p": 0.951331, "t0": 633, "t1": 664, "offsets": { "from": 6330, "to": 6640 } },
+        { "text": "ered", "p": 0.999949, "t0": 668, "t1": 680, "offsets": { "from": 6680, "to": 6800 } },
+        { "text": "sk", "p": 0.992636, "t0": 680, "t1": 680, "offsets": { "from": 6800, "to": 6800 } },
+        { "text": "ab", "p": 0.983112, "t0": 680, "t1": 680, "offsets": { "from": 6800, "to": 6800 } },
+        { "text": "sk", "p": 0.982512, "t0": 680, "t1": 680, "offsets": { "from": 6800, "to": 6800 } },
+        { "text": "ont", "p": 0.992799, "t0": 680, "t1": 680, "offsets": { "from": 6800, "to": 6800 } },
+        { "text": "or", "p": 0.996253, "t0": 680, "t1": 680, "offsets": { "from": 6800, "to": 6800 } },
+        { "text": " med", "p": 0.790224, "t0": 680, "t1": 680, "offsets": { "from": 6800, "to": 6800 } },
+        { "text": "del", "p": 0.655745, "t0": 680, "t1": 680, "offsets": { "from": 6800, "to": 6800 } },
+        { "text": "te", "p": 0.987873, "t0": 680, "t1": 680, "offsets": { "from": 6800, "to": 6800 } },
+        { "text": ",", "p": 0.785869, "t0": 680, "t1": 680, "offsets": { "from": 6800, "to": 6800 } },
+        { "text": " at", "p": 0.986177, "t0": 680, "t1": 680, "offsets": { "from": 6800, "to": 6800 } },
+        { "text": " der", "p": 0.991437, "t0": 680, "t1": 680, "offsets": { "from": 6800, "to": 6800 } },
+        { "text": " ikke", "p": 0.976736, "t0": 680, "t1": 680, "offsets": { "from": 6800, "to": 6800 } },
+        { "text": " var", "p": 0.996445, "t0": 680, "t1": 680, "offsets": { "from": 6800, "to": 6800 } },
+        { "text": " rapp", "p": 0.961657, "t0": 680, "t1": 680, "offsets": { "from": 6800, "to": 6800 } },
+        { "text": "orter", "p": 0.999763, "t0": 680, "t1": 680, "offsets": { "from": 6800, "to": 6800 } },
+        { "text": "et", "p": 0.967813, "t0": 680, "t1": 680, "offsets": { "from": 6800, "to": 6800 } },
+        { "text": " om", "p": 0.961214, "t0": 680, "t1": 680, "offsets": { "from": 6800, "to": 6800 } },
+        { "text": " sk", "p": 0.993961, "t0": 680, "t1": 680, "offsets": { "from": 6800, "to": 6800 } },
+        { "text": "ader", "p": 0.963165, "t0": 680, "t1": 680, "offsets": { "from": 6800, "to": 6800 } },
+        { "text": " i", "p": 0.965517, "t0": 680, "t1": 680, "offsets": { "from": 6800, "to": 6800 } },
+        { "text": " nation", "p": 0.929307, "t0": 680, "t1": 680, "offsets": { "from": 6800, "to": 6800 } },
+        { "text": "en", "p": 0.991038, "t0": 680, "t1": 680, "offsets": { "from": 6800, "to": 6800 } },
+        { "text": ".", "p": 0.623262, "t0": 680, "t1": 680, "offsets": { "from": 6800, "to": 6800 } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E5-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:01,580", "to": "00:00:31,580" },
+      "offsets":    { "from": 1580, "to": 31580 },
+      "text":       " Busen var på vej mod Six Flags i St. Louis Missouri, for at bande kunne spille for et helt udsolgt publikum.",
+      "words": [
+        { "text": " Busen", "t0": 158, "t1": 316, "offsets": { "from": 1580, "to": 3160 } },
+        { "text": " var", "t0": 316, "t1": 411, "offsets": { "from": 3160, "to": 4110 } },
+        { "text": " på", "t0": 411, "t1": 505, "offsets": { "from": 4110, "to": 5050 } },
+        { "text": " vej", "t0": 505, "t1": 601, "offsets": { "from": 5050, "to": 6010 } },
+        { "text": " mod", "t0": 601, "t1": 694, "offsets": { "from": 6010, "to": 6940 } },
+        { "text": " Six", "t0": 697, "t1": 791, "offsets": { "from": 6970, "to": 7910 } },
+        { "text": " Flags", "t0": 791, "t1": 948, "offsets": { "from": 7910, "to": 9480 } },
+        { "text": " i", "t0": 950, "t1": 982, "offsets": { "from": 9500, "to": 9820 } },
+        { "text": " St.", "t0": 982, "t1": 1141, "offsets": { "from": 9820, "to": 11410 } },
+        { "text": " Louis", "t0": 1141, "t1": 1300, "offsets": { "from": 11410, "to": 13000 } },
+        { "text": " Missouri,", "t0": 1300, "t1": 1529, "offsets": { "from": 13000, "to": 15290 } },
+        { "text": " for", "t0": 1529, "t1": 1529, "offsets": { "from": 15290, "to": 15290 } },
+        { "text": " at", "t0": 1529, "t1": 1529, "offsets": { "from": 15290, "to": 15290 } },
+        { "text": " bande", "t0": 1529, "t1": 1529, "offsets": { "from": 15290, "to": 15290 } },
+        { "text": " kunne", "t0": 1529, "t1": 1529, "offsets": { "from": 15290, "to": 15290 } },
+        { "text": " spille", "t0": 1529, "t1": 1529, "offsets": { "from": 15290, "to": 15290 } },
+        { "text": " for", "t0": 1529, "t1": 1529, "offsets": { "from": 15290, "to": 15290 } },
+        { "text": " et", "t0": 1529, "t1": 1529, "offsets": { "from": 15290, "to": 15290 } },
+        { "text": " helt", "t0": 1529, "t1": 1529, "offsets": { "from": 15290, "to": 15290 } },
+        { "text": " udsolgt", "t0": 1529, "t1": 1529, "offsets": { "from": 15290, "to": 15290 } },
+        { "text": " publikum.", "t0": 1529, "t1": 1529, "offsets": { "from": 15290, "to": 15290 } }
+      ],
+      "tokens": [
+        { "text": " Bus", "p": 0.623887, "t0": 158, "t1": 253, "offsets": { "from": 1580, "to": 2530 } },
+        { "text": "en", "p": 0.905053, "t0": 253, "t1": 316, "offsets": { "from": 2530, "to": 3160 } },
+        { "text": " var", "p": 0.993231, "t0": 316, "t1": 411, "offsets": { "from": 3160, "to": 4110 } },
+        { "text": " på", "p": 0.988459, "t0": 411, "t1": 505, "offsets": { "from": 4110, "to": 5050 } },
+        { "text": " ve", "p": 0.813716, "t0": 505, "t1": 570, "offsets": { "from": 5050, "to": 5700 } },
+        { "text": "j", "p": 0.799961, "t0": 570, "t1": 601, "offsets": { "from": 5700, "to": 6010 } },
+        { "text": " mod", "p": 0.955205, "t0": 601, "t1": 694, "offsets": { "from": 6010, "to": 6940 } },
+        { "text": " Six", "p": 0.784868, "t0": 697, "t1": 791, "offsets": { "from": 6970, "to": 7910 } },
+        { "text": " Fl", "p": 0.661253, "t0": 791, "t1": 855, "offsets": { "from": 7910, "to": 8550 } },
+        { "text": "ags", "p": 0.856088, "t0": 855, "t1": 948, "offsets": { "from": 8550, "to": 9480 } },
+        { "text": " i", "p": 0.446956, "t0": 950, "t1": 982, "offsets": { "from": 9500, "to": 9820 } },
+        { "text": " St", "p": 0.921655, "t0": 982, "t1": 1046, "offsets": { "from": 9820, "to": 10460 } },
+        { "text": ".", "p": 0.660338, "t0": 1046, "t1": 1141, "offsets": { "from": 10460, "to": 11410 } },
+        { "text": " Louis", "p": 0.964734, "t0": 1141, "t1": 1300, "offsets": { "from": 11410, "to": 13000 } },
+        { "text": " Missouri", "p": 0.566942, "t0": 1300, "t1": 1529, "offsets": { "from": 13000, "to": 15290 } },
+        { "text": ",", "p": 0.419679, "t0": 1529, "t1": 1529, "offsets": { "from": 15290, "to": 15290 } },
+        { "text": " for", "p": 0.976427, "t0": 1529, "t1": 1529, "offsets": { "from": 15290, "to": 15290 } },
+        { "text": " at", "p": 0.92658, "t0": 1529, "t1": 1529, "offsets": { "from": 15290, "to": 15290 } },
+        { "text": " bande", "p": 0.322253, "t0": 1529, "t1": 1529, "offsets": { "from": 15290, "to": 15290 } },
+        { "text": " kunne", "p": 0.934164, "t0": 1529, "t1": 1529, "offsets": { "from": 15290, "to": 15290 } },
+        { "text": " sp", "p": 0.983106, "t0": 1529, "t1": 1529, "offsets": { "from": 15290, "to": 15290 } },
+        { "text": "ille", "p": 0.82966, "t0": 1529, "t1": 1529, "offsets": { "from": 15290, "to": 15290 } },
+        { "text": " for", "p": 0.93161, "t0": 1529, "t1": 1529, "offsets": { "from": 15290, "to": 15290 } },
+        { "text": " et", "p": 0.906319, "t0": 1529, "t1": 1529, "offsets": { "from": 15290, "to": 15290 } },
+        { "text": " helt", "p": 0.977942, "t0": 1529, "t1": 1529, "offsets": { "from": 15290, "to": 15290 } },
+        { "text": " ud", "p": 0.93582, "t0": 1529, "t1": 1529, "offsets": { "from": 15290, "to": 15290 } },
+        { "text": "sol", "p": 0.767673, "t0": 1529, "t1": 1529, "offsets": { "from": 15290, "to": 15290 } },
+        { "text": "gt", "p": 0.983687, "t0": 1529, "t1": 1529, "offsets": { "from": 15290, "to": 15290 } },
+        { "text": " publ", "p": 0.994389, "t0": 1529, "t1": 1529, "offsets": { "from": 15290, "to": 15290 } },
+        { "text": "ikum", "p": 0.98596, "t0": 1529, "t1": 1529, "offsets": { "from": 15290, "to": 15290 } },
+        { "text": ".", "p": 0.96218, "t0": 1529, "t1": 1529, "offsets": { "from": 15290, "to": 15290 } }
+      ]
+    }
+  ]
+}

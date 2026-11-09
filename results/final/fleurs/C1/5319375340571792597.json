@@ -1,0 +1,66 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,620", "to": "00:00:30,620" },
+      "offsets":    { "from": 620, "to": 30620 },
+      "text":       " La Ka Singe præsenterede også Sjapan Bok Bahan, sangeren Raju, Kandalval gjorde ham selskab.",
+      "words": [
+        { "text": " La", "t0": 82, "t1": 132, "offsets": { "from": 820, "to": 1320 } },
+        { "text": " Ka", "t0": 132, "t1": 202, "offsets": { "from": 1320, "to": 2020 } },
+        { "text": " Singe", "t0": 202, "t1": 378, "offsets": { "from": 2020, "to": 3780 } },
+        { "text": " præsenterede", "t0": 378, "t1": 818, "offsets": { "from": 3780, "to": 8180 } },
+        { "text": " også", "t0": 833, "t1": 835, "offsets": { "from": 8330, "to": 8350 } },
+        { "text": " Sjapan", "t0": 837, "t1": 837, "offsets": { "from": 8370, "to": 8370 } },
+        { "text": " Bok", "t0": 837, "t1": 837, "offsets": { "from": 8370, "to": 8370 } },
+        { "text": " Bahan,", "t0": 837, "t1": 837, "offsets": { "from": 8370, "to": 8370 } },
+        { "text": " sangeren", "t0": 837, "t1": 837, "offsets": { "from": 8370, "to": 8370 } },
+        { "text": " Raju,", "t0": 837, "t1": 837, "offsets": { "from": 8370, "to": 8370 } },
+        { "text": " Kandalval", "t0": 837, "t1": 837, "offsets": { "from": 8370, "to": 8370 } },
+        { "text": " gjorde", "t0": 837, "t1": 837, "offsets": { "from": 8370, "to": 8370 } },
+        { "text": " ham", "t0": 837, "t1": 837, "offsets": { "from": 8370, "to": 8370 } },
+        { "text": " selskab.", "t0": 837, "t1": 837, "offsets": { "from": 8370, "to": 8370 } }
+      ],
+      "tokens": [
+        { "text": " La", "p": 0.465587, "t0": 82, "t1": 132, "offsets": { "from": 820, "to": 1320 } },
+        { "text": " Ka", "p": 0.044188, "t0": 132, "t1": 202, "offsets": { "from": 1320, "to": 2020 } },
+        { "text": " Sing", "p": 0.787599, "t0": 202, "t1": 343, "offsets": { "from": 2020, "to": 3430 } },
+        { "text": "e", "p": 0.775862, "t0": 343, "t1": 378, "offsets": { "from": 3430, "to": 3780 } },
+        { "text": " pr", "p": 0.943027, "t0": 378, "t1": 408, "offsets": { "from": 3780, "to": 4080 } },
+        { "text": "æ", "p": 0.999926, "t0": 451, "t1": 518, "offsets": { "from": 4510, "to": 5180 } },
+        { "text": "sent", "p": 0.737645, "t0": 518, "t1": 653, "offsets": { "from": 5180, "to": 6530 } },
+        { "text": "ered", "p": 0.91489, "t0": 661, "t1": 798, "offsets": { "from": 6610, "to": 7980 } },
+        { "text": "e", "p": 0.997582, "t0": 798, "t1": 818, "offsets": { "from": 7980, "to": 8180 } },
+        { "text": " også", "p": 0.946318, "t0": 833, "t1": 835, "offsets": { "from": 8330, "to": 8350 } },
+        { "text": " S", "p": 0.161932, "t0": 837, "t1": 837, "offsets": { "from": 8370, "to": 8370 } },
+        { "text": "j", "p": 0.724167, "t0": 837, "t1": 837, "offsets": { "from": 8370, "to": 8370 } },
+        { "text": "apan", "p": 0.475786, "t0": 837, "t1": 837, "offsets": { "from": 8370, "to": 8370 } },
+        { "text": " B", "p": 0.486506, "t0": 837, "t1": 837, "offsets": { "from": 8370, "to": 8370 } },
+        { "text": "ok", "p": 0.935885, "t0": 837, "t1": 837, "offsets": { "from": 8370, "to": 8370 } },
+        { "text": " Bah", "p": 0.462424, "t0": 837, "t1": 837, "offsets": { "from": 8370, "to": 8370 } },
+        { "text": "an", "p": 0.942291, "t0": 837, "t1": 837, "offsets": { "from": 8370, "to": 8370 } },
+        { "text": ",", "p": 0.509272, "t0": 837, "t1": 837, "offsets": { "from": 8370, "to": 8370 } },
+        { "text": " s", "p": 0.650759, "t0": 837, "t1": 837, "offsets": { "from": 8370, "to": 8370 } },
+        { "text": "anger", "p": 0.997777, "t0": 837, "t1": 837, "offsets": { "from": 8370, "to": 8370 } },
+        { "text": "en", "p": 0.977361, "t0": 837, "t1": 837, "offsets": { "from": 8370, "to": 8370 } },
+        { "text": " Raj", "p": 0.702239, "t0": 837, "t1": 837, "offsets": { "from": 8370, "to": 8370 } },
+        { "text": "u", "p": 0.705967, "t0": 837, "t1": 837, "offsets": { "from": 8370, "to": 8370 } },
+        { "text": ",", "p": 0.483882, "t0": 837, "t1": 837, "offsets": { "from": 8370, "to": 8370 } },
+        { "text": " K", "p": 0.573924, "t0": 837, "t1": 837, "offsets": { "from": 8370, "to": 8370 } },
+        { "text": "andal", "p": 0.644924, "t0": 837, "t1": 837, "offsets": { "from": 8370, "to": 8370 } },
+        { "text": "val", "p": 0.711992, "t0": 837, "t1": 837, "offsets": { "from": 8370, "to": 8370 } },
+        { "text": " gjorde", "p": 0.335702, "t0": 837, "t1": 837, "offsets": { "from": 8370, "to": 8370 } },
+        { "text": " ham", "p": 0.805922, "t0": 837, "t1": 837, "offsets": { "from": 8370, "to": 8370 } },
+        { "text": " s", "p": 0.935442, "t0": 837, "t1": 837, "offsets": { "from": 8370, "to": 8370 } },
+        { "text": "els", "p": 0.995118, "t0": 837, "t1": 837, "offsets": { "from": 8370, "to": 8370 } },
+        { "text": "k", "p": 0.999376, "t0": 837, "t1": 837, "offsets": { "from": 8370, "to": 8370 } },
+        { "text": "ab", "p": 0.861926, "t0": 837, "t1": 837, "offsets": { "from": 8370, "to": 8370 } },
+        { "text": ".", "p": 0.895182, "t0": 837, "t1": 837, "offsets": { "from": 8370, "to": 8370 } }
+      ]
+    }
+  ]
+}

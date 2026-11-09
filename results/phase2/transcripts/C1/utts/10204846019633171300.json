@@ -1,0 +1,73 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:01,900", "to": "00:00:31,900" },
+      "offsets":    { "from": 1900, "to": 31900 },
+      "text":       " Apps til tekstoversættelse i realtid applikationer, som automatisk kan oversætte hele tekstdele fra et sprog til et andet.",
+      "words": [
+        { "text": " Apps", "t0": 211, "t1": 298, "offsets": { "from": 2110, "to": 2980 } },
+        { "text": " til", "t0": 304, "t1": 379, "offsets": { "from": 3040, "to": 3790 } },
+        { "text": " tekstoversættelse", "t0": 382, "t1": 854, "offsets": { "from": 3820, "to": 8540 } },
+        { "text": " i", "t0": 869, "t1": 893, "offsets": { "from": 8690, "to": 8930 } },
+        { "text": " realtid", "t0": 897, "t1": 1031, "offsets": { "from": 8970, "to": 10310 } },
+        { "text": " applikationer,", "t0": 1052, "t1": 1052, "offsets": { "from": 10520, "to": 10520 } },
+        { "text": " som", "t0": 1052, "t1": 1052, "offsets": { "from": 10520, "to": 10520 } },
+        { "text": " automatisk", "t0": 1052, "t1": 1052, "offsets": { "from": 10520, "to": 10520 } },
+        { "text": " kan", "t0": 1052, "t1": 1052, "offsets": { "from": 10520, "to": 10520 } },
+        { "text": " oversætte", "t0": 1052, "t1": 1052, "offsets": { "from": 10520, "to": 10520 } },
+        { "text": " hele", "t0": 1052, "t1": 1052, "offsets": { "from": 10520, "to": 10520 } },
+        { "text": " tekstdele", "t0": 1052, "t1": 1052, "offsets": { "from": 10520, "to": 10520 } },
+        { "text": " fra", "t0": 1052, "t1": 1052, "offsets": { "from": 10520, "to": 10520 } },
+        { "text": " et", "t0": 1052, "t1": 1052, "offsets": { "from": 10520, "to": 10520 } },
+        { "text": " sprog", "t0": 1052, "t1": 1052, "offsets": { "from": 10520, "to": 10520 } },
+        { "text": " til", "t0": 1052, "t1": 1052, "offsets": { "from": 10520, "to": 10520 } },
+        { "text": " et", "t0": 1052, "t1": 1052, "offsets": { "from": 10520, "to": 10520 } },
+        { "text": " andet.", "t0": 1052, "t1": 1052, "offsets": { "from": 10520, "to": 10520 } }
+      ],
+      "tokens": [
+        { "text": " Apps", "p": 0.477278, "t0": 211, "t1": 298, "offsets": { "from": 2110, "to": 2980 } },
+        { "text": " til", "p": 0.989132, "t0": 304, "t1": 379, "offsets": { "from": 3040, "to": 3790 } },
+        { "text": " tek", "p": 0.990167, "t0": 382, "t1": 461, "offsets": { "from": 3820, "to": 4610 } },
+        { "text": "sto", "p": 0.544878, "t0": 461, "t1": 542, "offsets": { "from": 4610, "to": 5420 } },
+        { "text": "vers", "p": 0.997841, "t0": 542, "t1": 650, "offsets": { "from": 5420, "to": 6500 } },
+        { "text": "æ", "p": 0.98459, "t0": 650, "t1": 704, "offsets": { "from": 6500, "to": 7040 } },
+        { "text": "tt", "p": 0.998083, "t0": 704, "t1": 755, "offsets": { "from": 7040, "to": 7550 } },
+        { "text": "else", "p": 0.98493, "t0": 758, "t1": 854, "offsets": { "from": 7580, "to": 8540 } },
+        { "text": " i", "p": 0.984626, "t0": 869, "t1": 893, "offsets": { "from": 8690, "to": 8930 } },
+        { "text": " realt", "p": 0.736709, "t0": 897, "t1": 1029, "offsets": { "from": 8970, "to": 10290 } },
+        { "text": "id", "p": 0.993767, "t0": 1029, "t1": 1031, "offsets": { "from": 10290, "to": 10310 } },
+        { "text": " appl", "p": 0.379826, "t0": 1052, "t1": 1052, "offsets": { "from": 10520, "to": 10520 } },
+        { "text": "ik", "p": 0.996371, "t0": 1052, "t1": 1052, "offsets": { "from": 10520, "to": 10520 } },
+        { "text": "ation", "p": 0.99891, "t0": 1052, "t1": 1052, "offsets": { "from": 10520, "to": 10520 } },
+        { "text": "er", "p": 0.997773, "t0": 1052, "t1": 1052, "offsets": { "from": 10520, "to": 10520 } },
+        { "text": ",", "p": 0.569333, "t0": 1052, "t1": 1052, "offsets": { "from": 10520, "to": 10520 } },
+        { "text": " som", "p": 0.992511, "t0": 1052, "t1": 1052, "offsets": { "from": 10520, "to": 10520 } },
+        { "text": " automat", "p": 0.976066, "t0": 1052, "t1": 1052, "offsets": { "from": 10520, "to": 10520 } },
+        { "text": "isk", "p": 0.997954, "t0": 1052, "t1": 1052, "offsets": { "from": 10520, "to": 10520 } },
+        { "text": " kan", "p": 0.996033, "t0": 1052, "t1": 1052, "offsets": { "from": 10520, "to": 10520 } },
+        { "text": " overs", "p": 0.994806, "t0": 1052, "t1": 1052, "offsets": { "from": 10520, "to": 10520 } },
+        { "text": "æ", "p": 0.997524, "t0": 1052, "t1": 1052, "offsets": { "from": 10520, "to": 10520 } },
+        { "text": "tte", "p": 0.993299, "t0": 1052, "t1": 1052, "offsets": { "from": 10520, "to": 10520 } },
+        { "text": " hele", "p": 0.974685, "t0": 1052, "t1": 1052, "offsets": { "from": 10520, "to": 10520 } },
+        { "text": " tek", "p": 0.99782, "t0": 1052, "t1": 1052, "offsets": { "from": 10520, "to": 10520 } },
+        { "text": "st", "p": 0.97121, "t0": 1052, "t1": 1052, "offsets": { "from": 10520, "to": 10520 } },
+        { "text": "de", "p": 0.624881, "t0": 1052, "t1": 1052, "offsets": { "from": 10520, "to": 10520 } },
+        { "text": "le", "p": 0.999129, "t0": 1052, "t1": 1052, "offsets": { "from": 10520, "to": 10520 } },
+        { "text": " fra", "p": 0.84494, "t0": 1052, "t1": 1052, "offsets": { "from": 10520, "to": 10520 } },
+        { "text": " et", "p": 0.631835, "t0": 1052, "t1": 1052, "offsets": { "from": 10520, "to": 10520 } },
+        { "text": " sp", "p": 0.985103, "t0": 1052, "t1": 1052, "offsets": { "from": 10520, "to": 10520 } },
+        { "text": "rog", "p": 0.999756, "t0": 1052, "t1": 1052, "offsets": { "from": 10520, "to": 10520 } },
+        { "text": " til", "p": 0.992104, "t0": 1052, "t1": 1052, "offsets": { "from": 10520, "to": 10520 } },
+        { "text": " et", "p": 0.979907, "t0": 1052, "t1": 1052, "offsets": { "from": 10520, "to": 10520 } },
+        { "text": " and", "p": 0.989253, "t0": 1052, "t1": 1052, "offsets": { "from": 10520, "to": 10520 } },
+        { "text": "et", "p": 0.999232, "t0": 1052, "t1": 1052, "offsets": { "from": 10520, "to": 10520 } },
+        { "text": ".", "p": 0.89086, "t0": 1052, "t1": 1052, "offsets": { "from": 10520, "to": 10520 } }
+      ]
+    }
+  ]
+}

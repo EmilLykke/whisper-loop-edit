@@ -1,0 +1,70 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E4-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,000", "to": "00:00:30,000" },
+      "offsets":    { "from": 0, "to": 30000 },
+      "text":       " Fætning som moderne sport udøves på mange niveauer af studerende på universiteter til professionelle og olympiske turneringer.",
+      "words": [
+        { "text": " Fætning", "t0": 0, "t1": 205, "offsets": { "from": 0, "to": 2050 } },
+        { "text": " som", "t0": 205, "t1": 282, "offsets": { "from": 2050, "to": 2820 } },
+        { "text": " moderne", "t0": 282, "t1": 461, "offsets": { "from": 2820, "to": 4610 } },
+        { "text": " sport", "t0": 461, "t1": 591, "offsets": { "from": 4610, "to": 5910 } },
+        { "text": " udøves", "t0": 591, "t1": 769, "offsets": { "from": 5910, "to": 7690 } },
+        { "text": " på", "t0": 774, "t1": 847, "offsets": { "from": 7740, "to": 8470 } },
+        { "text": " mange", "t0": 847, "t1": 862, "offsets": { "from": 8470, "to": 8620 } },
+        { "text": " niveauer", "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": " af", "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": " studerende", "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": " på", "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": " universiteter", "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": " til", "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": " professionelle", "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": " og", "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": " olympiske", "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": " turneringer.", "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } }
+      ],
+      "tokens": [
+        { "text": " F", "p": 0.547007, "t0": 0, "t1": 26, "offsets": { "from": 0, "to": 260 } },
+        { "text": "æ", "p": 0.818103, "t0": 26, "t1": 77, "offsets": { "from": 260, "to": 770 } },
+        { "text": "t", "p": 0.793215, "t0": 77, "t1": 102, "offsets": { "from": 770, "to": 1020 } },
+        { "text": "ning", "p": 0.857765, "t0": 102, "t1": 205, "offsets": { "from": 1020, "to": 2050 } },
+        { "text": " som", "p": 0.810361, "t0": 205, "t1": 282, "offsets": { "from": 2050, "to": 2820 } },
+        { "text": " moder", "p": 0.634117, "t0": 282, "t1": 411, "offsets": { "from": 2820, "to": 4110 } },
+        { "text": "ne", "p": 0.962682, "t0": 411, "t1": 461, "offsets": { "from": 4110, "to": 4610 } },
+        { "text": " sport", "p": 0.99767, "t0": 461, "t1": 591, "offsets": { "from": 4610, "to": 5910 } },
+        { "text": " ud", "p": 0.823644, "t0": 591, "t1": 642, "offsets": { "from": 5910, "to": 6420 } },
+        { "text": "ø", "p": 0.998774, "t0": 642, "t1": 692, "offsets": { "from": 6420, "to": 6920 } },
+        { "text": "ves", "p": 0.982358, "t0": 692, "t1": 769, "offsets": { "from": 6920, "to": 7690 } },
+        { "text": " på", "p": 0.994218, "t0": 774, "t1": 847, "offsets": { "from": 7740, "to": 8470 } },
+        { "text": " mange", "p": 0.995442, "t0": 847, "t1": 862, "offsets": { "from": 8470, "to": 8620 } },
+        { "text": " nive", "p": 0.945653, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": "auer", "p": 0.982201, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": " af", "p": 0.96661, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": " stud", "p": 0.964436, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": "er", "p": 0.989874, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": "ende", "p": 0.995437, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": " på", "p": 0.95201, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": " univers", "p": 0.960994, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": "it", "p": 0.810441, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": "eter", "p": 0.994628, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": " til", "p": 0.933675, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": " profession", "p": 0.984793, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": "elle", "p": 0.982933, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": " og", "p": 0.94542, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": " o", "p": 0.818365, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": "lymp", "p": 0.996715, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": "is", "p": 0.992649, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": "ke", "p": 0.999777, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": " turn", "p": 0.995883, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": "ering", "p": 0.998473, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": "er", "p": 0.996441, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } },
+        { "text": ".", "p": 0.922877, "t0": 863, "t1": 863, "offsets": { "from": 8630, "to": 8630 } }
+      ]
+    }
+  ]
+}

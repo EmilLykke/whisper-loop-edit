@@ -1,0 +1,55 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,570", "to": "00:00:30,570" },
+      "offsets":    { "from": 570, "to": 30570 },
+      "text":       " Skorpen er omkring 70 km tyk på forsiden og 100 km tyk på bagsiden.",
+      "words": [
+        { "text": " Skorpen", "t0": 81, "t1": 365, "offsets": { "from": 810, "to": 3650 } },
+        { "text": " er", "t0": 365, "t1": 445, "offsets": { "from": 3650, "to": 4450 } },
+        { "text": " omkring", "t0": 454, "t1": 549, "offsets": { "from": 4540, "to": 5490 } },
+        { "text": " 70", "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } },
+        { "text": " km", "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } },
+        { "text": " tyk", "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } },
+        { "text": " på", "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } },
+        { "text": " forsiden", "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } },
+        { "text": " og", "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } },
+        { "text": " 100", "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } },
+        { "text": " km", "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } },
+        { "text": " tyk", "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } },
+        { "text": " på", "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } },
+        { "text": " bagsiden.", "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } }
+      ],
+      "tokens": [
+        { "text": " Sk", "p": 0.986128, "t0": 81, "t1": 142, "offsets": { "from": 810, "to": 1420 } },
+        { "text": "or", "p": 0.965447, "t0": 147, "t1": 233, "offsets": { "from": 1470, "to": 2330 } },
+        { "text": "pen", "p": 0.991671, "t0": 233, "t1": 365, "offsets": { "from": 2330, "to": 3650 } },
+        { "text": " er", "p": 0.990442, "t0": 365, "t1": 445, "offsets": { "from": 3650, "to": 4450 } },
+        { "text": " om", "p": 0.630193, "t0": 454, "t1": 529, "offsets": { "from": 4540, "to": 5290 } },
+        { "text": "k", "p": 0.980823, "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } },
+        { "text": "ring", "p": 0.998771, "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } },
+        { "text": " 70", "p": 0.995387, "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } },
+        { "text": " km", "p": 0.603878, "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } },
+        { "text": " ty", "p": 0.991408, "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } },
+        { "text": "k", "p": 0.968387, "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } },
+        { "text": " på", "p": 0.972644, "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } },
+        { "text": " fors", "p": 0.989027, "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } },
+        { "text": "iden", "p": 0.980475, "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } },
+        { "text": " og", "p": 0.729706, "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } },
+        { "text": " 100", "p": 0.990767, "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } },
+        { "text": " km", "p": 0.967421, "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } },
+        { "text": " ty", "p": 0.983509, "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } },
+        { "text": "k", "p": 0.998281, "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } },
+        { "text": " på", "p": 0.992523, "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } },
+        { "text": " bags", "p": 0.979017, "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } },
+        { "text": "iden", "p": 0.990416, "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } },
+        { "text": ".", "p": 0.923014, "t0": 549, "t1": 549, "offsets": { "from": 5490, "to": 5490 } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E6-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,790", "to": "00:00:30,790" },
+      "offsets":    { "from": 790, "to": 30790 },
+      "text":       " For nyheder om turneringer samt hvor man kan købe billetter, kan du få hørt af hos Association Argentina de Polo.",
+      "words": [
+        { "text": " For", "t0": 99, "t1": 164, "offsets": { "from": 990, "to": 1640 } },
+        { "text": " nyheder", "t0": 171, "t1": 376, "offsets": { "from": 1710, "to": 3760 } },
+        { "text": " om", "t0": 376, "t1": 433, "offsets": { "from": 3760, "to": 4330 } },
+        { "text": " turneringer", "t0": 455, "t1": 765, "offsets": { "from": 4550, "to": 7650 } },
+        { "text": " samt", "t0": 765, "t1": 809, "offsets": { "from": 7650, "to": 8090 } },
+        { "text": " hvor", "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " man", "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " kan", "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " købe", "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " billetter,", "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " kan", "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " du", "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " få", "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " hørt", "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " af", "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " hos", "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " Association", "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " Argentina", "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " de", "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " Polo.", "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } }
+      ],
+      "tokens": [
+        { "text": " For", "p": 0.839229, "t0": 99, "t1": 164, "offsets": { "from": 990, "to": 1640 } },
+        { "text": " ny", "p": 0.996476, "t0": 171, "t1": 228, "offsets": { "from": 1710, "to": 2280 } },
+        { "text": "h", "p": 0.998167, "t0": 228, "t1": 258, "offsets": { "from": 2280, "to": 2580 } },
+        { "text": "eder", "p": 0.999283, "t0": 258, "t1": 376, "offsets": { "from": 2580, "to": 3760 } },
+        { "text": " om", "p": 0.983697, "t0": 376, "t1": 433, "offsets": { "from": 3760, "to": 4330 } },
+        { "text": " turn", "p": 0.98686, "t0": 455, "t1": 557, "offsets": { "from": 4550, "to": 5570 } },
+        { "text": "ering", "p": 0.997912, "t0": 557, "t1": 705, "offsets": { "from": 5570, "to": 7050 } },
+        { "text": "er", "p": 0.983547, "t0": 710, "t1": 765, "offsets": { "from": 7100, "to": 7650 } },
+        { "text": " sam", "p": 0.581307, "t0": 765, "t1": 790, "offsets": { "from": 7650, "to": 7900 } },
+        { "text": "t", "p": 0.990898, "t0": 790, "t1": 809, "offsets": { "from": 7900, "to": 8090 } },
+        { "text": " hvor", "p": 0.882335, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " man", "p": 0.941938, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " kan", "p": 0.985684, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " k", "p": 0.996303, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": "ø", "p": 0.995334, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": "be", "p": 0.996843, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " bill", "p": 0.994653, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": "etter", "p": 0.986722, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": ",", "p": 0.605798, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " kan", "p": 0.974461, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " du", "p": 0.99686, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " få", "p": 0.928747, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " h", "p": 0.985229, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": "ør", "p": 0.692458, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": "t", "p": 0.795451, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " af", "p": 0.558838, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " h", "p": 0.45799, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": "os", "p": 0.988318, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " Association", "p": 0.508586, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " Argentina", "p": 0.982307, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " de", "p": 0.902486, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": " Pol", "p": 0.752984, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": "o", "p": 0.769976, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } },
+        { "text": ".", "p": 0.782073, "t0": 809, "t1": 809, "offsets": { "from": 8090, "to": 8090 } }
+      ]
+    }
+  ]
+}

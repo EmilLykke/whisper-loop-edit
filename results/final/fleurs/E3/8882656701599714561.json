@@ -1,0 +1,71 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,980", "to": "00:00:30,980" },
+      "offsets":    { "from": 980, "to": 30980 },
+      "text":       " Den er en del af hovedattraktionerne i Sydafrika og betragtes som flagskibet for de sydafrikanske nationalparker .",
+      "words": [
+        { "text": " Den", "t0": 119, "t1": 187, "offsets": { "from": 1190, "to": 1870 } },
+        { "text": " er", "t0": 195, "t1": 248, "offsets": { "from": 1950, "to": 2480 } },
+        { "text": " en", "t0": 248, "t1": 308, "offsets": { "from": 2480, "to": 3080 } },
+        { "text": " del", "t0": 308, "t1": 398, "offsets": { "from": 3080, "to": 3980 } },
+        { "text": " af", "t0": 398, "t1": 457, "offsets": { "from": 3980, "to": 4570 } },
+        { "text": " hovedattraktionerne", "t0": 473, "t1": 913, "offsets": { "from": 4730, "to": 9130 } },
+        { "text": " i", "t0": 913, "t1": 913, "offsets": { "from": 9130, "to": 9130 } },
+        { "text": " Sydafrika", "t0": 913, "t1": 913, "offsets": { "from": 9130, "to": 9130 } },
+        { "text": " og", "t0": 913, "t1": 913, "offsets": { "from": 9130, "to": 9130 } },
+        { "text": " betragtes", "t0": 913, "t1": 913, "offsets": { "from": 9130, "to": 9130 } },
+        { "text": " som", "t0": 913, "t1": 913, "offsets": { "from": 9130, "to": 9130 } },
+        { "text": " flagskibet", "t0": 913, "t1": 913, "offsets": { "from": 9130, "to": 9130 } },
+        { "text": " for", "t0": 913, "t1": 913, "offsets": { "from": 9130, "to": 9130 } },
+        { "text": " de", "t0": 913, "t1": 913, "offsets": { "from": 9130, "to": 9130 } },
+        { "text": " sydafrikanske", "t0": 913, "t1": 913, "offsets": { "from": 9130, "to": 9130 } },
+        { "text": " nationalparker", "t0": 913, "t1": 913, "offsets": { "from": 9130, "to": 9130 } },
+        { "text": " .", "t0": 913, "t1": 913, "offsets": { "from": 9130, "to": 9130 } }
+      ],
+      "tokens": [
+        { "text": " Den", "p": 0.872657, "t0": 119, "t1": 187, "offsets": { "from": 1190, "to": 1870 } },
+        { "text": " er", "p": 0.983472, "t0": 195, "t1": 248, "offsets": { "from": 1950, "to": 2480 } },
+        { "text": " en", "p": 0.980028, "t0": 248, "t1": 308, "offsets": { "from": 2480, "to": 3080 } },
+        { "text": " del", "p": 0.988208, "t0": 308, "t1": 398, "offsets": { "from": 3080, "to": 3980 } },
+        { "text": " af", "p": 0.996023, "t0": 398, "t1": 457, "offsets": { "from": 3980, "to": 4570 } },
+        { "text": " ho", "p": 0.995835, "t0": 473, "t1": 518, "offsets": { "from": 4730, "to": 5180 } },
+        { "text": "ved", "p": 0.999125, "t0": 518, "t1": 601, "offsets": { "from": 5180, "to": 6010 } },
+        { "text": "att", "p": 0.97612, "t0": 607, "t1": 696, "offsets": { "from": 6070, "to": 6960 } },
+        { "text": "raktion", "p": 0.993352, "t0": 696, "t1": 893, "offsets": { "from": 6960, "to": 8930 } },
+        { "text": "erne", "p": 0.989051, "t0": 913, "t1": 913, "offsets": { "from": 9130, "to": 9130 } },
+        { "text": " i", "p": 0.984431, "t0": 913, "t1": 913, "offsets": { "from": 9130, "to": 9130 } },
+        { "text": " Sy", "p": 0.912673, "t0": 913, "t1": 913, "offsets": { "from": 9130, "to": 9130 } },
+        { "text": "da", "p": 0.999367, "t0": 913, "t1": 913, "offsets": { "from": 9130, "to": 9130 } },
+        { "text": "f", "p": 0.999939, "t0": 913, "t1": 913, "offsets": { "from": 9130, "to": 9130 } },
+        { "text": "rika", "p": 0.998193, "t0": 913, "t1": 913, "offsets": { "from": 9130, "to": 9130 } },
+        { "text": " og", "p": 0.721272, "t0": 913, "t1": 913, "offsets": { "from": 9130, "to": 9130 } },
+        { "text": " bet", "p": 0.950453, "t0": 913, "t1": 913, "offsets": { "from": 9130, "to": 9130 } },
+        { "text": "rag", "p": 0.982523, "t0": 913, "t1": 913, "offsets": { "from": 9130, "to": 9130 } },
+        { "text": "tes", "p": 0.997733, "t0": 913, "t1": 913, "offsets": { "from": 9130, "to": 9130 } },
+        { "text": " som", "p": 0.9924, "t0": 913, "t1": 913, "offsets": { "from": 9130, "to": 9130 } },
+        { "text": " flag", "p": 0.9377, "t0": 913, "t1": 913, "offsets": { "from": 9130, "to": 9130 } },
+        { "text": "sk", "p": 0.643919, "t0": 913, "t1": 913, "offsets": { "from": 9130, "to": 9130 } },
+        { "text": "ib", "p": 0.987257, "t0": 913, "t1": 913, "offsets": { "from": 9130, "to": 9130 } },
+        { "text": "et", "p": 0.997687, "t0": 913, "t1": 913, "offsets": { "from": 9130, "to": 9130 } },
+        { "text": " for", "p": 0.959124, "t0": 913, "t1": 913, "offsets": { "from": 9130, "to": 9130 } },
+        { "text": " de", "p": 0.980058, "t0": 913, "t1": 913, "offsets": { "from": 9130, "to": 9130 } },
+        { "text": " sy", "p": 0.94971, "t0": 913, "t1": 913, "offsets": { "from": 9130, "to": 9130 } },
+        { "text": "da", "p": 0.997798, "t0": 913, "t1": 913, "offsets": { "from": 9130, "to": 9130 } },
+        { "text": "f", "p": 0.998527, "t0": 913, "t1": 913, "offsets": { "from": 9130, "to": 9130 } },
+        { "text": "rik", "p": 0.992375, "t0": 913, "t1": 913, "offsets": { "from": 9130, "to": 9130 } },
+        { "text": "ans", "p": 0.998965, "t0": 913, "t1": 913, "offsets": { "from": 9130, "to": 9130 } },
+        { "text": "ke", "p": 0.997986, "t0": 913, "t1": 913, "offsets": { "from": 9130, "to": 9130 } },
+        { "text": " national", "p": 0.988795, "t0": 913, "t1": 913, "offsets": { "from": 9130, "to": 9130 } },
+        { "text": "park", "p": 0.991745, "t0": 913, "t1": 913, "offsets": { "from": 9130, "to": 9130 } },
+        { "text": "er", "p": 0.982435, "t0": 913, "t1": 913, "offsets": { "from": 9130, "to": 9130 } },
+        { "text": " .", "p": 0.158516, "t0": 913, "t1": 913, "offsets": { "from": 9130, "to": 9130 } }
+      ]
+    }
+  ]
+}

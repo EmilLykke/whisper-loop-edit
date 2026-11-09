@@ -1,0 +1,25 @@
+{
+  "path": "timestamps-bare",
+  "clip": "heldout_da_5min_04",
+  "run": 1,
+  "argv": [
+    "../codictate/vendors/crispasr/crispasr",
+    "-m",
+    "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "-t",
+    "14",
+    "--language",
+    "da",
+    "-f",
+    "data/clips/heldout/heldout_da_5min_04.wav",
+    "--no-prints",
+    "-ojf",
+    "-of",
+    "results/final/transcripts/E3/timestamps-bare/heldout_da_5min_04.run1"
+  ],
+  "wallSeconds": 24.65,
+  "exitCode": 0,
+  "error": null,
+  "stdoutBytes": 4776,
+  "stderrTail": "output_json: saving output to 'results/final/transcripts/E3/timestamps-bare/heldout_da_5min_04.run1.json'\n"
+}

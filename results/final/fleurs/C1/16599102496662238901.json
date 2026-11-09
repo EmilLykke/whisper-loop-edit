@@ -1,0 +1,73 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,000", "to": "00:00:30,000" },
+      "offsets":    { "from": 0, "to": 30000 },
+      "text":       " Angel 2006 forklarer Continuum tilgangen som en metode der kan hjælpe organisationer med at nå et højere ydelsesniveau.",
+      "words": [
+        { "text": " Angel", "t0": 64, "t1": 111, "offsets": { "from": 640, "to": 1110 } },
+        { "text": " 2006", "t0": 147, "t1": 388, "offsets": { "from": 1470, "to": 3880 } },
+        { "text": " forklarer", "t0": 449, "t1": 676, "offsets": { "from": 4490, "to": 6760 } },
+        { "text": " Continuum", "t0": 676, "t1": 910, "offsets": { "from": 6760, "to": 9100 } },
+        { "text": " tilgangen", "t0": 910, "t1": 1061, "offsets": { "from": 9100, "to": 10610 } },
+        { "text": " som", "t0": 1061, "t1": 1061, "offsets": { "from": 10610, "to": 10610 } },
+        { "text": " en", "t0": 1061, "t1": 1061, "offsets": { "from": 10610, "to": 10610 } },
+        { "text": " metode", "t0": 1061, "t1": 1061, "offsets": { "from": 10610, "to": 10610 } },
+        { "text": " der", "t0": 1061, "t1": 1061, "offsets": { "from": 10610, "to": 10610 } },
+        { "text": " kan", "t0": 1061, "t1": 1061, "offsets": { "from": 10610, "to": 10610 } },
+        { "text": " hjælpe", "t0": 1061, "t1": 1061, "offsets": { "from": 10610, "to": 10610 } },
+        { "text": " organisationer", "t0": 1061, "t1": 1061, "offsets": { "from": 10610, "to": 10610 } },
+        { "text": " med", "t0": 1061, "t1": 1061, "offsets": { "from": 10610, "to": 10610 } },
+        { "text": " at", "t0": 1061, "t1": 1061, "offsets": { "from": 10610, "to": 10610 } },
+        { "text": " nå", "t0": 1061, "t1": 1061, "offsets": { "from": 10610, "to": 10610 } },
+        { "text": " et", "t0": 1061, "t1": 1061, "offsets": { "from": 10610, "to": 10610 } },
+        { "text": " højere", "t0": 1061, "t1": 1061, "offsets": { "from": 10610, "to": 10610 } },
+        { "text": " ydelsesniveau.", "t0": 1061, "t1": 1061, "offsets": { "from": 10610, "to": 10610 } }
+      ],
+      "tokens": [
+        { "text": " Angel", "p": 0.730957, "t0": 64, "t1": 111, "offsets": { "from": 640, "to": 1110 } },
+        { "text": " 2006", "p": 0.586935, "t0": 147, "t1": 388, "offsets": { "from": 1470, "to": 3880 } },
+        { "text": " fork", "p": 0.912719, "t0": 449, "t1": 546, "offsets": { "from": 4490, "to": 5460 } },
+        { "text": "lar", "p": 0.983905, "t0": 546, "t1": 624, "offsets": { "from": 5460, "to": 6240 } },
+        { "text": "er", "p": 0.998093, "t0": 624, "t1": 676, "offsets": { "from": 6240, "to": 6760 } },
+        { "text": " Contin", "p": 0.337293, "t0": 676, "t1": 830, "offsets": { "from": 6760, "to": 8300 } },
+        { "text": "uum", "p": 0.645927, "t0": 835, "t1": 910, "offsets": { "from": 8350, "to": 9100 } },
+        { "text": " til", "p": 0.545161, "t0": 910, "t1": 954, "offsets": { "from": 9100, "to": 9540 } },
+        { "text": "gangen", "p": 0.826063, "t0": 987, "t1": 1061, "offsets": { "from": 9870, "to": 10610 } },
+        { "text": " som", "p": 0.966842, "t0": 1061, "t1": 1061, "offsets": { "from": 10610, "to": 10610 } },
+        { "text": " en", "p": 0.988755, "t0": 1061, "t1": 1061, "offsets": { "from": 10610, "to": 10610 } },
+        { "text": " met", "p": 0.995019, "t0": 1061, "t1": 1061, "offsets": { "from": 10610, "to": 10610 } },
+        { "text": "ode", "p": 0.996557, "t0": 1061, "t1": 1061, "offsets": { "from": 10610, "to": 10610 } },
+        { "text": " der", "p": 0.743462, "t0": 1061, "t1": 1061, "offsets": { "from": 10610, "to": 10610 } },
+        { "text": " kan", "p": 0.984324, "t0": 1061, "t1": 1061, "offsets": { "from": 10610, "to": 10610 } },
+        { "text": " hj", "p": 0.996101, "t0": 1061, "t1": 1061, "offsets": { "from": 10610, "to": 10610 } },
+        { "text": "æ", "p": 0.998294, "t0": 1061, "t1": 1061, "offsets": { "from": 10610, "to": 10610 } },
+        { "text": "l", "p": 0.999762, "t0": 1061, "t1": 1061, "offsets": { "from": 10610, "to": 10610 } },
+        { "text": "pe", "p": 0.9974, "t0": 1061, "t1": 1061, "offsets": { "from": 10610, "to": 10610 } },
+        { "text": " organisation", "p": 0.902218, "t0": 1061, "t1": 1061, "offsets": { "from": 10610, "to": 10610 } },
+        { "text": "er", "p": 0.971832, "t0": 1061, "t1": 1061, "offsets": { "from": 10610, "to": 10610 } },
+        { "text": " med", "p": 0.972771, "t0": 1061, "t1": 1061, "offsets": { "from": 10610, "to": 10610 } },
+        { "text": " at", "p": 0.983342, "t0": 1061, "t1": 1061, "offsets": { "from": 10610, "to": 10610 } },
+        { "text": " nå", "p": 0.989279, "t0": 1061, "t1": 1061, "offsets": { "from": 10610, "to": 10610 } },
+        { "text": " et", "p": 0.986758, "t0": 1061, "t1": 1061, "offsets": { "from": 10610, "to": 10610 } },
+        { "text": " h", "p": 0.980338, "t0": 1061, "t1": 1061, "offsets": { "from": 10610, "to": 10610 } },
+        { "text": "ø", "p": 0.999819, "t0": 1061, "t1": 1061, "offsets": { "from": 10610, "to": 10610 } },
+        { "text": "j", "p": 0.996244, "t0": 1061, "t1": 1061, "offsets": { "from": 10610, "to": 10610 } },
+        { "text": "ere", "p": 0.998093, "t0": 1061, "t1": 1061, "offsets": { "from": 10610, "to": 10610 } },
+        { "text": " y", "p": 0.98689, "t0": 1061, "t1": 1061, "offsets": { "from": 10610, "to": 10610 } },
+        { "text": "d", "p": 0.981339, "t0": 1061, "t1": 1061, "offsets": { "from": 10610, "to": 10610 } },
+        { "text": "els", "p": 0.998816, "t0": 1061, "t1": 1061, "offsets": { "from": 10610, "to": 10610 } },
+        { "text": "es", "p": 0.997626, "t0": 1061, "t1": 1061, "offsets": { "from": 10610, "to": 10610 } },
+        { "text": "n", "p": 0.98628, "t0": 1061, "t1": 1061, "offsets": { "from": 10610, "to": 10610 } },
+        { "text": "ive", "p": 0.992142, "t0": 1061, "t1": 1061, "offsets": { "from": 10610, "to": 10610 } },
+        { "text": "au", "p": 0.998407, "t0": 1061, "t1": 1061, "offsets": { "from": 10610, "to": 10610 } },
+        { "text": ".", "p": 0.868599, "t0": 1061, "t1": 1061, "offsets": { "from": 10610, "to": 10610 } }
+      ]
+    }
+  ]
+}

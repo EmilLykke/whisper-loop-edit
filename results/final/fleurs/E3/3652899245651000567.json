@@ -1,0 +1,62 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E3-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,500", "to": "00:00:30,500" },
+      "offsets":    { "from": 500, "to": 30500 },
+      "text":       " Udtrykket bruges af en tomologer som en formelbeskrivelse af denne gruppe af insekter.",
+      "words": [
+        { "text": " Udtrykket", "t0": 70, "t1": 395, "offsets": { "from": 700, "to": 3950 } },
+        { "text": " bruges", "t0": 425, "t1": 635, "offsets": { "from": 4250, "to": 6350 } },
+        { "text": " af", "t0": 640, "t1": 693, "offsets": { "from": 6400, "to": 6930 } },
+        { "text": " en", "t0": 726, "t1": 777, "offsets": { "from": 7260, "to": 7770 } },
+        { "text": " tomologer", "t0": 811, "t1": 937, "offsets": { "from": 8110, "to": 9370 } },
+        { "text": " som", "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " en", "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " formelbeskrivelse", "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " af", "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " denne", "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " gruppe", "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " af", "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " insekter.", "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } }
+      ],
+      "tokens": [
+        { "text": " U", "p": 0.931994, "t0": 70, "t1": 87, "offsets": { "from": 700, "to": 870 } },
+        { "text": "dt", "p": 0.923514, "t0": 92, "t1": 166, "offsets": { "from": 920, "to": 1660 } },
+        { "text": "ry", "p": 0.999872, "t0": 166, "t1": 172, "offsets": { "from": 1660, "to": 1720 } },
+        { "text": "k", "p": 0.991828, "t0": 217, "t1": 284, "offsets": { "from": 2170, "to": 2840 } },
+        { "text": "ket", "p": 0.998999, "t0": 301, "t1": 395, "offsets": { "from": 3010, "to": 3950 } },
+        { "text": " br", "p": 0.991482, "t0": 425, "t1": 455, "offsets": { "from": 4250, "to": 4550 } },
+        { "text": "uges", "p": 0.996949, "t0": 495, "t1": 635, "offsets": { "from": 4950, "to": 6350 } },
+        { "text": " af", "p": 0.894265, "t0": 640, "t1": 693, "offsets": { "from": 6400, "to": 6930 } },
+        { "text": " en", "p": 0.714309, "t0": 726, "t1": 777, "offsets": { "from": 7260, "to": 7770 } },
+        { "text": " tom", "p": 0.844351, "t0": 811, "t1": 911, "offsets": { "from": 8110, "to": 9110 } },
+        { "text": "olog", "p": 0.982532, "t0": 911, "t1": 921, "offsets": { "from": 9110, "to": 9210 } },
+        { "text": "er", "p": 0.939461, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " som", "p": 0.762902, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " en", "p": 0.950517, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " form", "p": 0.973342, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": "el", "p": 0.984341, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": "bes", "p": 0.784379, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": "k", "p": 0.997706, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": "ri", "p": 0.999735, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": "vel", "p": 0.999743, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": "se", "p": 0.997957, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " af", "p": 0.948449, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " den", "p": 0.97135, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": "ne", "p": 0.9709, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " grupp", "p": 0.989715, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": "e", "p": 0.999235, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " af", "p": 0.879736, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": " in", "p": 0.96172, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": "sek", "p": 0.999907, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": "ter", "p": 0.999729, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } },
+        { "text": ".", "p": 0.892939, "t0": 937, "t1": 937, "offsets": { "from": 9370, "to": 9370 } }
+      ]
+    }
+  ]
+}

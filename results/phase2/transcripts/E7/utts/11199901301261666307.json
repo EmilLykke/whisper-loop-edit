@@ -1,0 +1,59 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E7-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,000", "to": "00:00:30,000" },
+      "offsets":    { "from": 0, "to": 30000 },
+      "text":       " Vidal har siden han flyttede til den catalanske hovedstad spillet 49 kampe for klubben.",
+      "words": [
+        { "text": " Vidal", "t0": 1, "t1": 184, "offsets": { "from": 10, "to": 1840 } },
+        { "text": " har", "t0": 186, "t1": 298, "offsets": { "from": 1860, "to": 2980 } },
+        { "text": " siden", "t0": 298, "t1": 484, "offsets": { "from": 2980, "to": 4840 } },
+        { "text": " han", "t0": 484, "t1": 592, "offsets": { "from": 4840, "to": 5920 } },
+        { "text": " flyttede", "t0": 596, "t1": 617, "offsets": { "from": 5960, "to": 6170 } },
+        { "text": " til", "t0": 617, "t1": 617, "offsets": { "from": 6170, "to": 6170 } },
+        { "text": " den", "t0": 617, "t1": 617, "offsets": { "from": 6170, "to": 6170 } },
+        { "text": " catalanske", "t0": 617, "t1": 617, "offsets": { "from": 6170, "to": 6170 } },
+        { "text": " hovedstad", "t0": 617, "t1": 617, "offsets": { "from": 6170, "to": 6170 } },
+        { "text": " spillet", "t0": 617, "t1": 617, "offsets": { "from": 6170, "to": 6170 } },
+        { "text": " 49", "t0": 617, "t1": 617, "offsets": { "from": 6170, "to": 6170 } },
+        { "text": " kampe", "t0": 617, "t1": 617, "offsets": { "from": 6170, "to": 6170 } },
+        { "text": " for", "t0": 617, "t1": 617, "offsets": { "from": 6170, "to": 6170 } },
+        { "text": " klubben.", "t0": 617, "t1": 617, "offsets": { "from": 6170, "to": 6170 } }
+      ],
+      "tokens": [
+        { "text": " V", "p": 0.859949, "t0": 1, "t1": 37, "offsets": { "from": 10, "to": 370 } },
+        { "text": "idal", "p": 0.99878, "t0": 91, "t1": 184, "offsets": { "from": 910, "to": 1840 } },
+        { "text": " har", "p": 0.969178, "t0": 186, "t1": 298, "offsets": { "from": 1860, "to": 2980 } },
+        { "text": " s", "p": 0.918252, "t0": 298, "t1": 334, "offsets": { "from": 2980, "to": 3340 } },
+        { "text": "iden", "p": 0.988793, "t0": 335, "t1": 484, "offsets": { "from": 3350, "to": 4840 } },
+        { "text": " han", "p": 0.962415, "t0": 484, "t1": 592, "offsets": { "from": 4840, "to": 5920 } },
+        { "text": " fly", "p": 0.837162, "t0": 596, "t1": 617, "offsets": { "from": 5960, "to": 6170 } },
+        { "text": "tt", "p": 0.997691, "t0": 617, "t1": 617, "offsets": { "from": 6170, "to": 6170 } },
+        { "text": "ede", "p": 0.62816, "t0": 617, "t1": 617, "offsets": { "from": 6170, "to": 6170 } },
+        { "text": " til", "p": 0.974031, "t0": 617, "t1": 617, "offsets": { "from": 6170, "to": 6170 } },
+        { "text": " den", "p": 0.687239, "t0": 617, "t1": 617, "offsets": { "from": 6170, "to": 6170 } },
+        { "text": " catal", "p": 0.125366, "t0": 617, "t1": 617, "offsets": { "from": 6170, "to": 6170 } },
+        { "text": "ans", "p": 0.93592, "t0": 617, "t1": 617, "offsets": { "from": 6170, "to": 6170 } },
+        { "text": "ke", "p": 0.95591, "t0": 617, "t1": 617, "offsets": { "from": 6170, "to": 6170 } },
+        { "text": " ho", "p": 0.993544, "t0": 617, "t1": 617, "offsets": { "from": 6170, "to": 6170 } },
+        { "text": "ved", "p": 0.99983, "t0": 617, "t1": 617, "offsets": { "from": 6170, "to": 6170 } },
+        { "text": "stad", "p": 0.966481, "t0": 617, "t1": 617, "offsets": { "from": 6170, "to": 6170 } },
+        { "text": " spill", "p": 0.484393, "t0": 617, "t1": 617, "offsets": { "from": 6170, "to": 6170 } },
+        { "text": "et", "p": 0.997451, "t0": 617, "t1": 617, "offsets": { "from": 6170, "to": 6170 } },
+        { "text": " 49", "p": 0.98599, "t0": 617, "t1": 617, "offsets": { "from": 6170, "to": 6170 } },
+        { "text": " kam", "p": 0.752608, "t0": 617, "t1": 617, "offsets": { "from": 6170, "to": 6170 } },
+        { "text": "pe", "p": 0.979738, "t0": 617, "t1": 617, "offsets": { "from": 6170, "to": 6170 } },
+        { "text": " for", "p": 0.99346, "t0": 617, "t1": 617, "offsets": { "from": 6170, "to": 6170 } },
+        { "text": " kl", "p": 0.981489, "t0": 617, "t1": 617, "offsets": { "from": 6170, "to": 6170 } },
+        { "text": "ub", "p": 0.999565, "t0": 617, "t1": 617, "offsets": { "from": 6170, "to": 6170 } },
+        { "text": "ben", "p": 0.999207, "t0": 617, "t1": 617, "offsets": { "from": 6170, "to": 6170 } },
+        { "text": ".", "p": 0.824864, "t0": 617, "t1": 617, "offsets": { "from": 6170, "to": 6170 } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-E5-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,000", "to": "00:00:30,000" },
+      "offsets":    { "from": 0, "to": 30000 },
+      "text":       " Sanskrits er et gammelt sprog i sammenhæng med Latiskes bog der tales Europa.",
+      "words": [
+        { "text": " Sanskrits", "t0": 1, "t1": 395, "offsets": { "from": 10, "to": 3950 } },
+        { "text": " er", "t0": 395, "t1": 482, "offsets": { "from": 3950, "to": 4820 } },
+        { "text": " et", "t0": 485, "t1": 519, "offsets": { "from": 4850, "to": 5190 } },
+        { "text": " gammelt", "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": " sprog", "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": " i", "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": " sammenhæng", "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": " med", "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": " Latiskes", "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": " bog", "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": " der", "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": " tales", "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": " Europa.", "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } }
+      ],
+      "tokens": [
+        { "text": " Sans", "p": 0.240412, "t0": 1, "t1": 176, "offsets": { "from": 10, "to": 1760 } },
+        { "text": "kr", "p": 0.389105, "t0": 176, "t1": 258, "offsets": { "from": 1760, "to": 2580 } },
+        { "text": "its", "p": 0.258971, "t0": 273, "t1": 395, "offsets": { "from": 2730, "to": 3950 } },
+        { "text": " er", "p": 0.573122, "t0": 395, "t1": 482, "offsets": { "from": 3950, "to": 4820 } },
+        { "text": " et", "p": 0.945907, "t0": 485, "t1": 519, "offsets": { "from": 4850, "to": 5190 } },
+        { "text": " g", "p": 0.946102, "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": "amm", "p": 0.996346, "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": "elt", "p": 0.313201, "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": " sp", "p": 0.476435, "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": "rog", "p": 0.893112, "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": " i", "p": 0.632132, "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": " sam", "p": 0.976157, "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": "men", "p": 0.923758, "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": "h", "p": 0.753143, "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": "æ", "p": 0.917468, "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": "ng", "p": 0.950826, "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": " med", "p": 0.455629, "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": " Lat", "p": 0.159522, "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": "is", "p": 0.224441, "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": "kes", "p": 0.967503, "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": " bog", "p": 0.608687, "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": " der", "p": 0.358416, "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": " tales", "p": 0.591527, "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": " Europa", "p": 0.687561, "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } },
+        { "text": ".", "p": 0.863591, "t0": 519, "t1": 519, "offsets": { "from": 5190, "to": 5190 } }
+      ]
+    }
+  ]
+}

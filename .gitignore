@@ -1,0 +1,9 @@
+.venv/
+models/
+data/raw/
+data/clips/
+__pycache__/
+*.wav
+results/final/extras/dictation/
+release/hf/*
+!release/hf/README.md

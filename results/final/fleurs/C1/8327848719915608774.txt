@@ -1,0 +1,1 @@
+Standarden 802.11n opererer på både 2,4 GHz og 5,0 GHz frekvenserne.

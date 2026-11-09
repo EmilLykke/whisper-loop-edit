@@ -1,0 +1,66 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,170", "to": "00:00:30,170" },
+      "offsets":    { "from": 170, "to": 30170 },
+      "text":       " Sammenhæng mellem hjernens patologi og adfærd understøtter videnskabsmænd i deres forskning.",
+      "words": [
+        { "text": " Sammenhæng", "t0": 36, "t1": 389, "offsets": { "from": 360, "to": 3890 } },
+        { "text": " mellem", "t0": 398, "t1": 595, "offsets": { "from": 3980, "to": 5950 } },
+        { "text": " hjernens", "t0": 595, "t1": 823, "offsets": { "from": 5950, "to": 8230 } },
+        { "text": " patologi", "t0": 863, "t1": 1097, "offsets": { "from": 8630, "to": 10970 } },
+        { "text": " og", "t0": 1097, "t1": 1097, "offsets": { "from": 10970, "to": 10970 } },
+        { "text": " adfærd", "t0": 1097, "t1": 1097, "offsets": { "from": 10970, "to": 10970 } },
+        { "text": " understøtter", "t0": 1097, "t1": 1097, "offsets": { "from": 10970, "to": 10970 } },
+        { "text": " videnskabsmænd", "t0": 1097, "t1": 1097, "offsets": { "from": 10970, "to": 10970 } },
+        { "text": " i", "t0": 1097, "t1": 1097, "offsets": { "from": 10970, "to": 10970 } },
+        { "text": " deres", "t0": 1097, "t1": 1097, "offsets": { "from": 10970, "to": 10970 } },
+        { "text": " forskning.", "t0": 1097, "t1": 1097, "offsets": { "from": 10970, "to": 10970 } }
+      ],
+      "tokens": [
+        { "text": " Sam", "p": 0.927871, "t0": 36, "t1": 119, "offsets": { "from": 360, "to": 1190 } },
+        { "text": "men", "p": 0.993739, "t0": 210, "t1": 221, "offsets": { "from": 2100, "to": 2210 } },
+        { "text": "h", "p": 0.997122, "t0": 221, "t1": 255, "offsets": { "from": 2210, "to": 2550 } },
+        { "text": "æ", "p": 0.99858, "t0": 255, "t1": 323, "offsets": { "from": 2550, "to": 3230 } },
+        { "text": "ng", "p": 0.985958, "t0": 323, "t1": 389, "offsets": { "from": 3230, "to": 3890 } },
+        { "text": " me", "p": 0.827861, "t0": 398, "t1": 445, "offsets": { "from": 3980, "to": 4450 } },
+        { "text": "ll", "p": 0.999712, "t0": 464, "t1": 527, "offsets": { "from": 4640, "to": 5270 } },
+        { "text": "em", "p": 0.999167, "t0": 527, "t1": 595, "offsets": { "from": 5270, "to": 5950 } },
+        { "text": " hj", "p": 0.957297, "t0": 595, "t1": 660, "offsets": { "from": 5950, "to": 6600 } },
+        { "text": "ern", "p": 0.995252, "t0": 662, "t1": 765, "offsets": { "from": 6620, "to": 7650 } },
+        { "text": "ens", "p": 0.922203, "t0": 765, "t1": 823, "offsets": { "from": 7650, "to": 8230 } },
+        { "text": " pat", "p": 0.986399, "t0": 863, "t1": 968, "offsets": { "from": 8630, "to": 9680 } },
+        { "text": "olog", "p": 0.976462, "t0": 978, "t1": 1092, "offsets": { "from": 9780, "to": 10920 } },
+        { "text": "i", "p": 0.999531, "t0": 1097, "t1": 1097, "offsets": { "from": 10970, "to": 10970 } },
+        { "text": " og", "p": 0.98799, "t0": 1097, "t1": 1097, "offsets": { "from": 10970, "to": 10970 } },
+        { "text": " ad", "p": 0.988429, "t0": 1097, "t1": 1097, "offsets": { "from": 10970, "to": 10970 } },
+        { "text": "f", "p": 0.99942, "t0": 1097, "t1": 1097, "offsets": { "from": 10970, "to": 10970 } },
+        { "text": "æ", "p": 0.995171, "t0": 1097, "t1": 1097, "offsets": { "from": 10970, "to": 10970 } },
+        { "text": "rd", "p": 0.998839, "t0": 1097, "t1": 1097, "offsets": { "from": 10970, "to": 10970 } },
+        { "text": " under", "p": 0.709225, "t0": 1097, "t1": 1097, "offsets": { "from": 10970, "to": 10970 } },
+        { "text": "st", "p": 0.998197, "t0": 1097, "t1": 1097, "offsets": { "from": 10970, "to": 10970 } },
+        { "text": "ø", "p": 0.986348, "t0": 1097, "t1": 1097, "offsets": { "from": 10970, "to": 10970 } },
+        { "text": "t", "p": 0.713087, "t0": 1097, "t1": 1097, "offsets": { "from": 10970, "to": 10970 } },
+        { "text": "ter", "p": 0.997714, "t0": 1097, "t1": 1097, "offsets": { "from": 10970, "to": 10970 } },
+        { "text": " vid", "p": 0.993889, "t0": 1097, "t1": 1097, "offsets": { "from": 10970, "to": 10970 } },
+        { "text": "ens", "p": 0.999264, "t0": 1097, "t1": 1097, "offsets": { "from": 10970, "to": 10970 } },
+        { "text": "k", "p": 0.997529, "t0": 1097, "t1": 1097, "offsets": { "from": 10970, "to": 10970 } },
+        { "text": "ab", "p": 0.984465, "t0": 1097, "t1": 1097, "offsets": { "from": 10970, "to": 10970 } },
+        { "text": "sm", "p": 0.999443, "t0": 1097, "t1": 1097, "offsets": { "from": 10970, "to": 10970 } },
+        { "text": "æ", "p": 0.999331, "t0": 1097, "t1": 1097, "offsets": { "from": 10970, "to": 10970 } },
+        { "text": "nd", "p": 0.999886, "t0": 1097, "t1": 1097, "offsets": { "from": 10970, "to": 10970 } },
+        { "text": " i", "p": 0.946026, "t0": 1097, "t1": 1097, "offsets": { "from": 10970, "to": 10970 } },
+        { "text": " der", "p": 0.990602, "t0": 1097, "t1": 1097, "offsets": { "from": 10970, "to": 10970 } },
+        { "text": "es", "p": 0.999573, "t0": 1097, "t1": 1097, "offsets": { "from": 10970, "to": 10970 } },
+        { "text": " forsk", "p": 0.990669, "t0": 1097, "t1": 1097, "offsets": { "from": 10970, "to": 10970 } },
+        { "text": "ning", "p": 0.996932, "t0": 1097, "t1": 1097, "offsets": { "from": 10970, "to": 10970 } },
+        { "text": ".", "p": 0.915385, "t0": 1097, "t1": 1097, "offsets": { "from": 10970, "to": 10970 } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/ggml-large-v3-ours-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,170", "to": "00:00:30,170" },
+      "offsets":    { "from": 170, "to": 30170 },
+      "text":       " Skamfære ikke stedet med markeringer, eller ved at indrisse graffiti på strukturerne.",
+      "words": [
+        { "text": " Skamfære", "t0": 36, "t1": 354, "offsets": { "from": 360, "to": 3540 } },
+        { "text": " ikke", "t0": 355, "t1": 506, "offsets": { "from": 3550, "to": 5060 } },
+        { "text": " stedet", "t0": 506, "t1": 716, "offsets": { "from": 5060, "to": 7160 } },
+        { "text": " med", "t0": 732, "t1": 847, "offsets": { "from": 7320, "to": 8470 } },
+        { "text": " markeringer,", "t0": 847, "t1": 947, "offsets": { "from": 8470, "to": 9470 } },
+        { "text": " eller", "t0": 947, "t1": 947, "offsets": { "from": 9470, "to": 9470 } },
+        { "text": " ved", "t0": 947, "t1": 947, "offsets": { "from": 9470, "to": 9470 } },
+        { "text": " at", "t0": 947, "t1": 947, "offsets": { "from": 9470, "to": 9470 } },
+        { "text": " indrisse", "t0": 947, "t1": 947, "offsets": { "from": 9470, "to": 9470 } },
+        { "text": " graffiti", "t0": 947, "t1": 947, "offsets": { "from": 9470, "to": 9470 } },
+        { "text": " på", "t0": 947, "t1": 947, "offsets": { "from": 9470, "to": 9470 } },
+        { "text": " strukturerne.", "t0": 947, "t1": 947, "offsets": { "from": 9470, "to": 9470 } }
+      ],
+      "tokens": [
+        { "text": " Sk", "p": 0.928483, "t0": 36, "t1": 93, "offsets": { "from": 360, "to": 930 } },
+        { "text": "am", "p": 0.745164, "t0": 163, "t1": 168, "offsets": { "from": 1630, "to": 1680 } },
+        { "text": "f", "p": 0.69561, "t0": 180, "t1": 205, "offsets": { "from": 1800, "to": 2050 } },
+        { "text": "æ", "p": 0.40536, "t0": 211, "t1": 280, "offsets": { "from": 2110, "to": 2800 } },
+        { "text": "re", "p": 0.799392, "t0": 280, "t1": 354, "offsets": { "from": 2800, "to": 3540 } },
+        { "text": " ikke", "p": 0.939137, "t0": 355, "t1": 506, "offsets": { "from": 3550, "to": 5060 } },
+        { "text": " st", "p": 0.554495, "t0": 506, "t1": 583, "offsets": { "from": 5060, "to": 5830 } },
+        { "text": "ed", "p": 0.994581, "t0": 583, "t1": 658, "offsets": { "from": 5830, "to": 6580 } },
+        { "text": "et", "p": 0.938761, "t0": 658, "t1": 716, "offsets": { "from": 6580, "to": 7160 } },
+        { "text": " med", "p": 0.976788, "t0": 732, "t1": 847, "offsets": { "from": 7320, "to": 8470 } },
+        { "text": " mark", "p": 0.97801, "t0": 847, "t1": 947, "offsets": { "from": 8470, "to": 9470 } },
+        { "text": "ering", "p": 0.987103, "t0": 947, "t1": 947, "offsets": { "from": 9470, "to": 9470 } },
+        { "text": "er", "p": 0.986918, "t0": 947, "t1": 947, "offsets": { "from": 9470, "to": 9470 } },
+        { "text": ",", "p": 0.445144, "t0": 947, "t1": 947, "offsets": { "from": 9470, "to": 9470 } },
+        { "text": " eller", "p": 0.95857, "t0": 947, "t1": 947, "offsets": { "from": 9470, "to": 9470 } },
+        { "text": " ved", "p": 0.974447, "t0": 947, "t1": 947, "offsets": { "from": 9470, "to": 9470 } },
+        { "text": " at", "p": 0.971751, "t0": 947, "t1": 947, "offsets": { "from": 9470, "to": 9470 } },
+        { "text": " ind", "p": 0.968335, "t0": 947, "t1": 947, "offsets": { "from": 9470, "to": 9470 } },
+        { "text": "ris", "p": 0.804694, "t0": 947, "t1": 947, "offsets": { "from": 9470, "to": 9470 } },
+        { "text": "se", "p": 0.996485, "t0": 947, "t1": 947, "offsets": { "from": 9470, "to": 9470 } },
+        { "text": " graffiti", "p": 0.884163, "t0": 947, "t1": 947, "offsets": { "from": 9470, "to": 9470 } },
+        { "text": " på", "p": 0.978806, "t0": 947, "t1": 947, "offsets": { "from": 9470, "to": 9470 } },
+        { "text": " st", "p": 0.978327, "t0": 947, "t1": 947, "offsets": { "from": 9470, "to": 9470 } },
+        { "text": "rukt", "p": 0.997368, "t0": 947, "t1": 947, "offsets": { "from": 9470, "to": 9470 } },
+        { "text": "urer", "p": 0.986803, "t0": 947, "t1": 947, "offsets": { "from": 9470, "to": 9470 } },
+        { "text": "ne", "p": 0.990537, "t0": 947, "t1": 947, "offsets": { "from": 9470, "to": 9470 } },
+        { "text": ".", "p": 0.896393, "t0": 947, "t1": 947, "offsets": { "from": 9470, "to": 9470 } }
+      ]
+    }
+  ]
+}

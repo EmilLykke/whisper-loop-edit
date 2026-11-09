@@ -1,0 +1,70 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C2-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,940", "to": "00:00:30,940" },
+      "offsets":    { "from": 940, "to": 30940 },
+      "text":       " Nogle filmkameraer i medium format bruger et format på 6x6 cm, mere præcist et 56x56 mm negativt format.",
+      "words": [
+        { "text": " Nogle", "t0": 94, "t1": 238, "offsets": { "from": 940, "to": 2380 } },
+        { "text": " filmkameraer", "t0": 238, "t1": 582, "offsets": { "from": 2380, "to": 5820 } },
+        { "text": " i", "t0": 582, "t1": 609, "offsets": { "from": 5820, "to": 6090 } },
+        { "text": " medium", "t0": 616, "t1": 784, "offsets": { "from": 6160, "to": 7840 } },
+        { "text": " format", "t0": 784, "t1": 957, "offsets": { "from": 7840, "to": 9570 } },
+        { "text": " bruger", "t0": 957, "t1": 1129, "offsets": { "from": 9570, "to": 11290 } },
+        { "text": " et", "t0": 1129, "t1": 1186, "offsets": { "from": 11290, "to": 11860 } },
+        { "text": " format", "t0": 1186, "t1": 1218, "offsets": { "from": 11860, "to": 12180 } },
+        { "text": " på", "t0": 1232, "t1": 1238, "offsets": { "from": 12320, "to": 12380 } },
+        { "text": " 6x6", "t0": 1238, "t1": 1238, "offsets": { "from": 12380, "to": 12380 } },
+        { "text": " cm,", "t0": 1238, "t1": 1238, "offsets": { "from": 12380, "to": 12380 } },
+        { "text": " mere", "t0": 1238, "t1": 1238, "offsets": { "from": 12380, "to": 12380 } },
+        { "text": " præcist", "t0": 1238, "t1": 1238, "offsets": { "from": 12380, "to": 12380 } },
+        { "text": " et", "t0": 1238, "t1": 1238, "offsets": { "from": 12380, "to": 12380 } },
+        { "text": " 56x56", "t0": 1238, "t1": 1238, "offsets": { "from": 12380, "to": 12380 } },
+        { "text": " mm", "t0": 1238, "t1": 1238, "offsets": { "from": 12380, "to": 12380 } },
+        { "text": " negativt", "t0": 1238, "t1": 1238, "offsets": { "from": 12380, "to": 12380 } },
+        { "text": " format.", "t0": 1238, "t1": 1238, "offsets": { "from": 12380, "to": 12380 } }
+      ],
+      "tokens": [
+        { "text": " N", "p": 0.963107, "t0": 94, "t1": 123, "offsets": { "from": 940, "to": 1230 } },
+        { "text": "ogle", "p": 0.99751, "t0": 163, "t1": 238, "offsets": { "from": 1630, "to": 2380 } },
+        { "text": " film", "p": 0.966608, "t0": 238, "t1": 353, "offsets": { "from": 2380, "to": 3530 } },
+        { "text": "kam", "p": 0.951181, "t0": 353, "t1": 439, "offsets": { "from": 3530, "to": 4390 } },
+        { "text": "era", "p": 0.980873, "t0": 439, "t1": 525, "offsets": { "from": 4390, "to": 5250 } },
+        { "text": "er", "p": 0.992829, "t0": 525, "t1": 582, "offsets": { "from": 5250, "to": 5820 } },
+        { "text": " i", "p": 0.921306, "t0": 582, "t1": 609, "offsets": { "from": 5820, "to": 6090 } },
+        { "text": " medium", "p": 0.937494, "t0": 616, "t1": 784, "offsets": { "from": 6160, "to": 7840 } },
+        { "text": " format", "p": 0.874466, "t0": 784, "t1": 957, "offsets": { "from": 7840, "to": 9570 } },
+        { "text": " br", "p": 0.828782, "t0": 957, "t1": 1014, "offsets": { "from": 9570, "to": 10140 } },
+        { "text": "uger", "p": 0.987295, "t0": 1014, "t1": 1129, "offsets": { "from": 10140, "to": 11290 } },
+        { "text": " et", "p": 0.967054, "t0": 1129, "t1": 1186, "offsets": { "from": 11290, "to": 11860 } },
+        { "text": " format", "p": 0.978262, "t0": 1186, "t1": 1218, "offsets": { "from": 11860, "to": 12180 } },
+        { "text": " på", "p": 0.986709, "t0": 1232, "t1": 1238, "offsets": { "from": 12320, "to": 12380 } },
+        { "text": " 6", "p": 0.978519, "t0": 1238, "t1": 1238, "offsets": { "from": 12380, "to": 12380 } },
+        { "text": "x", "p": 0.916742, "t0": 1238, "t1": 1238, "offsets": { "from": 12380, "to": 12380 } },
+        { "text": "6", "p": 0.989517, "t0": 1238, "t1": 1238, "offsets": { "from": 12380, "to": 12380 } },
+        { "text": " cm", "p": 0.789978, "t0": 1238, "t1": 1238, "offsets": { "from": 12380, "to": 12380 } },
+        { "text": ",", "p": 0.539558, "t0": 1238, "t1": 1238, "offsets": { "from": 12380, "to": 12380 } },
+        { "text": " mere", "p": 0.977616, "t0": 1238, "t1": 1238, "offsets": { "from": 12380, "to": 12380 } },
+        { "text": " pr", "p": 0.997683, "t0": 1238, "t1": 1238, "offsets": { "from": 12380, "to": 12380 } },
+        { "text": "æ", "p": 0.999815, "t0": 1238, "t1": 1238, "offsets": { "from": 12380, "to": 12380 } },
+        { "text": "c", "p": 0.973203, "t0": 1238, "t1": 1238, "offsets": { "from": 12380, "to": 12380 } },
+        { "text": "ist", "p": 0.997613, "t0": 1238, "t1": 1238, "offsets": { "from": 12380, "to": 12380 } },
+        { "text": " et", "p": 0.873551, "t0": 1238, "t1": 1238, "offsets": { "from": 12380, "to": 12380 } },
+        { "text": " 56", "p": 0.993436, "t0": 1238, "t1": 1238, "offsets": { "from": 12380, "to": 12380 } },
+        { "text": "x", "p": 0.979712, "t0": 1238, "t1": 1238, "offsets": { "from": 12380, "to": 12380 } },
+        { "text": "56", "p": 0.991612, "t0": 1238, "t1": 1238, "offsets": { "from": 12380, "to": 12380 } },
+        { "text": " mm", "p": 0.959871, "t0": 1238, "t1": 1238, "offsets": { "from": 12380, "to": 12380 } },
+        { "text": " neg", "p": 0.967702, "t0": 1238, "t1": 1238, "offsets": { "from": 12380, "to": 12380 } },
+        { "text": "ativ", "p": 0.999907, "t0": 1238, "t1": 1238, "offsets": { "from": 12380, "to": 12380 } },
+        { "text": "t", "p": 0.992801, "t0": 1238, "t1": 1238, "offsets": { "from": 12380, "to": 12380 } },
+        { "text": " format", "p": 0.990441, "t0": 1238, "t1": 1238, "offsets": { "from": 12380, "to": 12380 } },
+        { "text": ".", "p": 0.934696, "t0": 1238, "t1": 1238, "offsets": { "from": 12380, "to": 12380 } }
+      ]
+    }
+  ]
+}

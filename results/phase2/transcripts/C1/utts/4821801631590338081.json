@@ -1,0 +1,72 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:01,280", "to": "00:00:31,280" },
+      "offsets":    { "from": 1280, "to": 31280 },
+      "text":       " Flere steder i Rotora betyder geometisk hangi, mens andre hangi kan smages i Christchurch, Welton og andre steder.",
+      "words": [
+        { "text": " Flere", "t0": 148, "t1": 275, "offsets": { "from": 1480, "to": 2750 } },
+        { "text": " steder", "t0": 275, "t1": 452, "offsets": { "from": 2750, "to": 4520 } },
+        { "text": " i", "t0": 452, "t1": 475, "offsets": { "from": 4520, "to": 4750 } },
+        { "text": " Rotora", "t0": 484, "t1": 639, "offsets": { "from": 4840, "to": 6390 } },
+        { "text": " betyder", "t0": 680, "t1": 863, "offsets": { "from": 6800, "to": 8630 } },
+        { "text": " geometisk", "t0": 863, "t1": 1127, "offsets": { "from": 8630, "to": 11270 } },
+        { "text": " hangi,", "t0": 1135, "t1": 1297, "offsets": { "from": 11350, "to": 12970 } },
+        { "text": " mens", "t0": 1317, "t1": 1317, "offsets": { "from": 13170, "to": 13170 } },
+        { "text": " andre", "t0": 1317, "t1": 1317, "offsets": { "from": 13170, "to": 13170 } },
+        { "text": " hangi", "t0": 1317, "t1": 1317, "offsets": { "from": 13170, "to": 13170 } },
+        { "text": " kan", "t0": 1317, "t1": 1317, "offsets": { "from": 13170, "to": 13170 } },
+        { "text": " smages", "t0": 1317, "t1": 1317, "offsets": { "from": 13170, "to": 13170 } },
+        { "text": " i", "t0": 1317, "t1": 1317, "offsets": { "from": 13170, "to": 13170 } },
+        { "text": " Christchurch,", "t0": 1317, "t1": 1317, "offsets": { "from": 13170, "to": 13170 } },
+        { "text": " Welton", "t0": 1317, "t1": 1317, "offsets": { "from": 13170, "to": 13170 } },
+        { "text": " og", "t0": 1317, "t1": 1317, "offsets": { "from": 13170, "to": 13170 } },
+        { "text": " andre", "t0": 1317, "t1": 1317, "offsets": { "from": 13170, "to": 13170 } },
+        { "text": " steder.", "t0": 1317, "t1": 1317, "offsets": { "from": 13170, "to": 13170 } }
+      ],
+      "tokens": [
+        { "text": " Fl", "p": 0.786754, "t0": 148, "t1": 187, "offsets": { "from": 1480, "to": 1870 } },
+        { "text": "ere", "p": 0.949057, "t0": 187, "t1": 275, "offsets": { "from": 1870, "to": 2750 } },
+        { "text": " st", "p": 0.989112, "t0": 275, "t1": 280, "offsets": { "from": 2750, "to": 2800 } },
+        { "text": "eder", "p": 0.993936, "t0": 347, "t1": 452, "offsets": { "from": 3470, "to": 4520 } },
+        { "text": " i", "p": 0.940073, "t0": 452, "t1": 475, "offsets": { "from": 4520, "to": 4750 } },
+        { "text": " Rot", "p": 0.309967, "t0": 484, "t1": 563, "offsets": { "from": 4840, "to": 5630 } },
+        { "text": "ora", "p": 0.384141, "t0": 600, "t1": 639, "offsets": { "from": 6000, "to": 6390 } },
+        { "text": " bet", "p": 0.943713, "t0": 680, "t1": 745, "offsets": { "from": 6800, "to": 7450 } },
+        { "text": "y", "p": 0.998793, "t0": 746, "t1": 764, "offsets": { "from": 7460, "to": 7640 } },
+        { "text": "der", "p": 0.999125, "t0": 792, "t1": 863, "offsets": { "from": 7920, "to": 8630 } },
+        { "text": " geomet", "p": 0.866178, "t0": 863, "t1": 1042, "offsets": { "from": 8630, "to": 10420 } },
+        { "text": "isk", "p": 0.541423, "t0": 1042, "t1": 1127, "offsets": { "from": 10420, "to": 11270 } },
+        { "text": " hang", "p": 0.376764, "t0": 1135, "t1": 1248, "offsets": { "from": 11350, "to": 12480 } },
+        { "text": "i", "p": 0.739237, "t0": 1248, "t1": 1277, "offsets": { "from": 12480, "to": 12770 } },
+        { "text": ",", "p": 0.7601, "t0": 1277, "t1": 1297, "offsets": { "from": 12770, "to": 12970 } },
+        { "text": " mens", "p": 0.977342, "t0": 1317, "t1": 1317, "offsets": { "from": 13170, "to": 13170 } },
+        { "text": " and", "p": 0.972355, "t0": 1317, "t1": 1317, "offsets": { "from": 13170, "to": 13170 } },
+        { "text": "re", "p": 0.996848, "t0": 1317, "t1": 1317, "offsets": { "from": 13170, "to": 13170 } },
+        { "text": " hang", "p": 0.926805, "t0": 1317, "t1": 1317, "offsets": { "from": 13170, "to": 13170 } },
+        { "text": "i", "p": 0.99605, "t0": 1317, "t1": 1317, "offsets": { "from": 13170, "to": 13170 } },
+        { "text": " kan", "p": 0.965561, "t0": 1317, "t1": 1317, "offsets": { "from": 13170, "to": 13170 } },
+        { "text": " sm", "p": 0.99339, "t0": 1317, "t1": 1317, "offsets": { "from": 13170, "to": 13170 } },
+        { "text": "ages", "p": 0.988717, "t0": 1317, "t1": 1317, "offsets": { "from": 13170, "to": 13170 } },
+        { "text": " i", "p": 0.984301, "t0": 1317, "t1": 1317, "offsets": { "from": 13170, "to": 13170 } },
+        { "text": " Christ", "p": 0.387446, "t0": 1317, "t1": 1317, "offsets": { "from": 13170, "to": 13170 } },
+        { "text": "ch", "p": 0.599927, "t0": 1317, "t1": 1317, "offsets": { "from": 13170, "to": 13170 } },
+        { "text": "urch", "p": 0.998851, "t0": 1317, "t1": 1317, "offsets": { "from": 13170, "to": 13170 } },
+        { "text": ",", "p": 0.974948, "t0": 1317, "t1": 1317, "offsets": { "from": 13170, "to": 13170 } },
+        { "text": " Wel", "p": 0.925231, "t0": 1317, "t1": 1317, "offsets": { "from": 13170, "to": 13170 } },
+        { "text": "ton", "p": 0.91326, "t0": 1317, "t1": 1317, "offsets": { "from": 13170, "to": 13170 } },
+        { "text": " og", "p": 0.826702, "t0": 1317, "t1": 1317, "offsets": { "from": 13170, "to": 13170 } },
+        { "text": " and", "p": 0.99039, "t0": 1317, "t1": 1317, "offsets": { "from": 13170, "to": 13170 } },
+        { "text": "re", "p": 0.999317, "t0": 1317, "t1": 1317, "offsets": { "from": 13170, "to": 13170 } },
+        { "text": " st", "p": 0.998028, "t0": 1317, "t1": 1317, "offsets": { "from": 13170, "to": 13170 } },
+        { "text": "eder", "p": 0.999563, "t0": 1317, "t1": 1317, "offsets": { "from": 13170, "to": 13170 } },
+        { "text": ".", "p": 0.943624, "t0": 1317, "t1": 1317, "offsets": { "from": 13170, "to": 13170 } }
+      ]
+    }
+  ]
+}

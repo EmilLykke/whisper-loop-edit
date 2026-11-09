@@ -1,0 +1,71 @@
+{
+  "crispasr": {
+    "backend": "whisper",
+    "model":   "models/ggml/edits/ggml-large-v3-C1-f16.bin",
+    "language":"da"
+  },
+  "transcription": [
+    {
+      "timestamps": { "from": "00:00:00,380", "to": "00:00:30,380" },
+      "offsets":    { "from": 380, "to": 30380 },
+      "text":       " Specielt hævderes det, at man kan identificere hvorvidt en person lurer ved at fortolke mikroudtryk korrekt.",
+      "words": [
+        { "text": " Specielt", "t0": 72, "t1": 282, "offsets": { "from": 720, "to": 2820 } },
+        { "text": " hævderes", "t0": 287, "t1": 558, "offsets": { "from": 2870, "to": 5580 } },
+        { "text": " det,", "t0": 558, "t1": 707, "offsets": { "from": 5580, "to": 7070 } },
+        { "text": " at", "t0": 712, "t1": 773, "offsets": { "from": 7120, "to": 7730 } },
+        { "text": " man", "t0": 773, "t1": 807, "offsets": { "from": 7730, "to": 8070 } },
+        { "text": " kan", "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": " identificere", "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": " hvorvidt", "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": " en", "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": " person", "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": " lurer", "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": " ved", "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": " at", "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": " fortolke", "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": " mikroudtryk", "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": " korrekt.", "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } }
+      ],
+      "tokens": [
+        { "text": " Spe", "p": 0.90001, "t0": 72, "t1": 130, "offsets": { "from": 720, "to": 1300 } },
+        { "text": "ci", "p": 0.992441, "t0": 130, "t1": 191, "offsets": { "from": 1300, "to": 1910 } },
+        { "text": "elt", "p": 0.997023, "t0": 191, "t1": 282, "offsets": { "from": 1910, "to": 2820 } },
+        { "text": " h", "p": 0.896549, "t0": 287, "t1": 313, "offsets": { "from": 2870, "to": 3130 } },
+        { "text": "æ", "p": 0.999415, "t0": 314, "t1": 375, "offsets": { "from": 3140, "to": 3750 } },
+        { "text": "v", "p": 0.917807, "t0": 375, "t1": 388, "offsets": { "from": 3750, "to": 3880 } },
+        { "text": "der", "p": 0.601995, "t0": 405, "t1": 497, "offsets": { "from": 4050, "to": 4970 } },
+        { "text": "es", "p": 0.428538, "t0": 497, "t1": 558, "offsets": { "from": 4970, "to": 5580 } },
+        { "text": " det", "p": 0.962694, "t0": 558, "t1": 650, "offsets": { "from": 5580, "to": 6500 } },
+        { "text": ",", "p": 0.796063, "t0": 650, "t1": 707, "offsets": { "from": 6500, "to": 7070 } },
+        { "text": " at", "p": 0.976362, "t0": 712, "t1": 773, "offsets": { "from": 7120, "to": 7730 } },
+        { "text": " man", "p": 0.95001, "t0": 773, "t1": 807, "offsets": { "from": 7730, "to": 8070 } },
+        { "text": " kan", "p": 0.977461, "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": " identific", "p": 0.959607, "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": "ere", "p": 0.991978, "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": " hvor", "p": 0.609577, "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": "vid", "p": 0.840348, "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": "t", "p": 0.991246, "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": " en", "p": 0.974836, "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": " person", "p": 0.995657, "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": " l", "p": 0.777159, "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": "urer", "p": 0.995678, "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": " ved", "p": 0.649388, "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": " at", "p": 0.988998, "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": " fort", "p": 0.98106, "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": "ol", "p": 0.99911, "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": "ke", "p": 0.99724, "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": " mik", "p": 0.927803, "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": "r", "p": 0.877242, "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": "oud", "p": 0.923643, "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": "t", "p": 0.999607, "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": "ry", "p": 0.99791, "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": "k", "p": 0.97212, "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": " kor", "p": 0.730521, "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": "re", "p": 0.999068, "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": "kt", "p": 0.995042, "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } },
+        { "text": ".", "p": 0.949367, "t0": 827, "t1": 827, "offsets": { "from": 8270, "to": 8270 } }
+      ]
+    }
+  ]
+}
