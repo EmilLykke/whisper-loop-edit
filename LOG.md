@@ -124,3 +124,8 @@ User chose to publish E3 as `whisper-large-v3-copy-heads-off` (personal Hugging 
 - **Absolute paths** (`/Users/...`) scrubbed from 5,308 tracked result files (crispasr JSON and meta); text-only, scoring unchanged. Older commits still contain them.
 - **`release/make_copy_heads_off.py`** rebuilds E3 from `openai/whisper-large-v3` at `06f233fe`, tested end to end: sha256 `2c08dd6c…` matches. Model card and staged files in `release/hf/` (large files gitignored, hard links to `models/`).
 - LICENSE (Apache-2.0) and NOTICE added for the code.
+
+## Published (2026-11-09)
+
+- Code: https://github.com/EmilLykke/whisper-loop-edit (one squashed commit; the full local history is kept only in the local branch `history-local`).
+- Model: https://huggingface.co/emillykkegrann/whisper-large-v3-copy-heads-off (safetensors, ggml f16, ggml q5_0, make script, model card). Uploaded sha256 values match the card.
