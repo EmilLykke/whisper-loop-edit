@@ -60,34 +60,45 @@ def finish(ax):
 
 
 # 1. Words written by Loops, 30 sealed recordings
-# One group of four bars, original and edited first. Direct labels replace the axis and
-# grid; the description sits centered under the bars, with room around the title.
+# One framed plot, bars sorted from most to fewest repeated words, all starting on a
+# visible zero line, with an x axis and a light grid; the description sits under it.
 base_words = loop_words("baseline")
 rows = [
-    (4.0, "Original large-v3", "baseline", ORIGINAL, TEXT),
-    (3.0, "Edited (copy heads off)", "E3", EDITED, TEXT),
-    (2.0, "Random edit A", "C1", CONTROL, TEXT_2),
-    (1.0, "Random edit B", "C4", CONTROL, TEXT_2),
+    ("Random edit B", "C4", CONTROL, TEXT_2),
+    ("Original large-v3", "baseline", ORIGINAL, TEXT),
+    ("Random edit A", "C1", CONTROL, TEXT_2),
+    ("Edited (copy heads off)", "E3", EDITED, TEXT),
 ]
-fig, ax = plt.subplots(figsize=(11, 5.4))
-fig.subplots_adjust(left=0.27, right=0.98, top=0.78, bottom=0.14)
-ax.set_xlim(0, 3600)
-ax.set_ylim(0.5, 4.5)
-for y, label, m, color, ink in rows:
+fig, ax = plt.subplots(figsize=(11, 5.8))
+fig.subplots_adjust(left=0.28, right=0.975, top=0.80, bottom=0.2)
+ax.set_xlim(0, 3800)
+ax.set_ylim(0.4, 4.6)
+ax.set_facecolor("#202020")
+for y, (label, m, color, ink) in zip([4, 3, 2, 1], rows):
     v = loop_words(m)
-    ax.barh(y, v, height=0.62, color=color)
-    ax.text(-40, y, label, ha="right", va="center", color=ink, fontsize=14.5,
+    ax.barh(y, v, height=0.6, color=color, zorder=3)
+    ax.text(-60, y, label, ha="right", va="center", color=ink, fontsize=14.5,
             fontweight="bold" if ink == TEXT else "normal")
-    t = ax.text(v + 40, y + 0.02, f"{v:,}", va="center", color=ink, fontsize=17, fontweight="bold")
+    t = ax.text(v + 50, y + 0.02, f"{v:,}", va="center", color=ink, fontsize=17,
+                fontweight="bold", zorder=4)
     fig.canvas.draw()
     bb = t.get_window_extent().transformed(ax.transData.inverted())
-    ax.text(bb.x1 + 30, y, f"words   ·   {loops(m)} repeats", va="center", color=MUTED, fontsize=13)
+    ax.text(bb.x1 + 30, y, f"words   ·   {loops(m)} repeats", va="center", color=MUTED,
+            fontsize=13, zorder=4)
 drop = 1 - loop_words("E3") / base_words
-ax.axis("off")
-fig.text(0.022, 0.89, f"The edit cut repeated words by {drop:.0%}", fontsize=19, fontweight="bold",
+ax.set_yticks([])
+ax.set_xticks(range(0, 3501, 500), [f"{x:,}" for x in range(0, 3501, 500)], fontsize=12)
+ax.xaxis.grid(True, color=GRID, linewidth=0.8, zorder=0)
+for side in ("top", "right", "bottom"):
+    ax.spines[side].set_color(GRID)
+ax.spines["left"].set_color(TEXT_2)
+ax.spines["left"].set_linewidth(1.6)
+ax.spines["left"].set_zorder(5)
+ax.tick_params(axis="x", length=4, color=GRID, pad=6)
+ax.set_xlabel("Extra words written by repeats", fontsize=12.5, color=TEXT_2, labelpad=10)
+fig.text(0.022, 0.9, f"The edit cut repeated words by {drop:.0%}", fontsize=19, fontweight="bold",
          color=TEXT, va="center")
-fig.text(0.5, 0.055,
-         "Extra words written by repeats on 30 Danish recordings (90 min) the edit never saw. Lower is better.",
+fig.text((0.28 + 0.975) / 2, 0.04, "30 Danish recordings (90 min) the edit never saw. Lower is better.",
          fontsize=12.5, color=MUTED, ha="center", va="center")
 fig.savefig(OUT / "loop-words.png", dpi=200)
 plt.close(fig)
