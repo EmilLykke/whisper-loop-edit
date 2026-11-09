@@ -1,58 +1,83 @@
 # Whisper Loop Edit
 
-Research spike, November 2026. Question: can a hand-written edit to Whisper large-v3's weights stop it from looping on long Danish audio, without making it worse elsewhere?
+Whisper large-v3 sometimes gets stuck on long recordings. It writes a sentence, then writes it again, and again. In one 5-minute Danish test it wrote the same sentence 43 times.
 
-The edited model is on Hugging Face: [emillykkegrann/whisper-large-v3-copy-heads-off](https://huggingface.co/emillykkegrann/whisper-large-v3-copy-heads-off) (transformers safetensors, ggml f16 and q5_0).
+We found the small part of the model that causes this, and switched it off by editing the model's weights directly. No training. The idea comes from "Sparks of Weight-Space Programming" (MIT, November 2026: [blog](https://rikiyat.github.io/blog/weight-space-programming/), [code](https://github.com/RikiyaT/lm_understand-logs)), where an AI agent edited a language model's weights to stop it from going in circles. Here, Claude (Anthropic's Opus 5.5) did the editing.
 
-**Answer: mostly yes, but it failed the bar we set in advance.** Zeroing 11 decoder self-attention heads removes almost all of the copy Loop on sealed audio (long Loops 21 → 1, words lost to Loops −94%), and random edits of the same size don't. Danish WER does not get worse, and it does not get better. By the frozen bar it fails narrowly: Loops −76% where −80% was required, and `nt-vad` lost one utterance more than the unedited model.
+The edited model is on Hugging Face: [emillykkegrann/whisper-large-v3-copy-heads-off](https://huggingface.co/emillykkegrann/whisper-large-v3-copy-heads-off).
 
-Terms (Loop, Lost Audio, Decode Path, Weight Edit, Control Edit, Find Set, Held-out Set) are defined in [GLOSSARY.md](GLOSSARY.md). The full lab notebook, phase by phase, is [LOG.md](LOG.md).
+## The short answer
 
-## Where the idea came from
+| Question | Answer | |
+|---|---|---|
+| Can a direct weight edit remove the loops? | **Yes, mostly.** On 30 recordings the edit never saw, long loops went from 21 to 1, and the words written by loops dropped 94%. | 🟢 Good |
+| Is that real, or luck? | **Real.** Two random edits of the same size did nothing like it. | 🟢 Good |
+| Does it break anything? | **Nothing we found.** Danish accuracy on normal short recordings stayed the same. It still works when the model is compressed. | 🟢 Good |
+| Did it pass the strict pass mark we set before the final test? | **Just missed.** We asked for 80% fewer loops and got 76%. One test lost one more sentence than the original (15 against 14). | 🟡 Meh |
+| Is it better at Danish? | **No.** Accuracy did not change. Removing a fault does not teach the model more Danish. | ⚪ Neutral |
+| Does it stop Whisper making up text in silence? | **No.** That is a different fault. Use voice detection (VAD) in front of the model. | 🔴 Not fixed |
 
-"Sparks of Weight-Space Programming" (Takehi et al., MIT CSAIL, 2026; [blog](https://rikiyat.github.io/blog/weight-space-programming/), [code](https://github.com/RikiyaT/lm_understand-logs)) had an LLM agent read a small model's internals and write explicit weight edits, with no training, that removed its reasoning loops. Whisper large-v3 writes the same sentence over and over on long Danish recordings. We asked whether the same approach could remove that.
+**Verdict: the method works.** We found what causes the copy loop and removed it with a small edit, without training. It fell just short of the strict pass mark we set for ourselves, so we call it a strong result, not a finished fix.
 
-## Approach
+## How we tested it
 
-Rules ([ADR 0001](docs/adr/0001-gradient-free-edits-only.md)):
+1. **We made the problem happen on purpose.** We built long Danish recordings (90 seconds to 5 minutes) by joining short [FLEURS](https://huggingface.co/datasets/google/fleurs) recordings of people reading sentences aloud. The original model looped on them, the same way every time.
+2. **We found the cause.** Whisper listens in 30-second windows. For each new window, it gets the text it already wrote as a hint. When that hint contains an earlier copy of a sentence, Whisper copies the sentence again. When we took the copy out of the hint, the loop stopped.
+3. **We found the part that copies.** The text half of Whisper has 640 small parts called attention heads. We tested which ones do the copying, and found 11. With those 11 switched off, test loops went from 68% to 0%. With 11 random heads switched off, nothing changed.
+4. **We tried edits on 10 practice recordings.** Claude built and tested 8 different edits there. The best one simply switches off the 11 heads.
+5. **We tested once on 30 hidden recordings.** These 30 recordings (90 minutes) stayed sealed until the edit and the pass mark were locked. We ran the original model, the edited model, and two random edits on them.
 
-- **No training.** Every Weight Edit is an explicit formula over the original weights (zero a head, project out a direction). Shapes stay the same, so the edited model converts to ggml and runs in crispasr like any other model. Claude (Opus 5.5) was the editor.
-- **Find Set / Held-out Set.** Edits were searched for on 10 Long Clips built from FLEURS `da_dk` train/dev. 30 other Long Clips and FLEURS `da_dk` test stayed sealed until one final run.
-- **Control Edits.** Every edit was compared with random edits of the same size in the same place.
-- **Guardrails.** `nt-vad` (Codictate's slicing path) stays free of Loops, and FLEURS `da_dk` test WER may get at most 0.3 points worse.
+Rules that keep the test fair ([ADR 0001](docs/adr/0001-gradient-free-edits-only.md)):
 
-Phases:
+- **No training.** Every edit is a formula on the original weights. Anyone can rerun it.
+- **Practice and hidden recordings are separate.** The edit was chosen on the practice set only.
+- **Random edits for comparison.** If a random edit of the same size does the same, the result is luck.
+- **A pass mark, set in advance.** We changed it once, openly, before the final test ([ADR 0002](docs/adr/0002-timestamps-bare-leaves-the-bar.md)). See "Other results" below.
 
-1. **Reproduce.** Our own ggml conversion matched the official one tensor for tensor. Loops reproduced deterministically in crispasr on the `timestamps` and `-nt` Decode Paths, and in Hugging Face transformers from the same decoder state. Trigger: the previous text Whisper is conditioned on. Remove earlier copies of a sentence from it and the Loop stops.
-2. **Localize.** 220 contrastive pairs (previous text with a sentence repeated vs cut out). The Loop is written by induction heads in decoder self-attention (L12H13, L25H18 and 9 more), not by cross-attention as the literature suggested (Glazer et al. 2025). Zeroing the 11 heads took an induced Loop rate from 68% to 0%; random heads did nothing.
-3. **Edit on the Find Set.** Eight edits plus controls. E3 (zero the 11 heads) ended every copy Loop on `timestamps` and `-nt`, but on `timestamps-bare` (no VAD) Loops of made-up filler rose 10 → 26. Combining E3 with a direction edit (E7) or with Calm-Whisper's silence heads (E9) did not help; E9 damaged the model.
-4. **Bar amended, openly.** `timestamps-bare` was dropped from the bar after seeing the Find Set results ([ADR 0002](docs/adr/0002-timestamps-bare-leaves-the-bar.md)), and the bar was frozen before the final run.
-5. **Final run** on the 30 sealed Held-out clips, FLEURS test, Codictate's own long clips, English Long Clips and q5_0.
+## Results on the 30 hidden recordings
 
-## Final result (E3, Held-out Set)
+Measured with whisper.cpp (crispasr), which transcribes a long recording in one go, with and without timestamps. Lower is better in every row.
 
-| # | Condition | baseline → E3 | |
-|---|---|---|---|
-| 1 | Loops on `timestamps` + `-nt` at least −80% | 25 → 6 (−76%) | fail |
-| 2 | Control Edits do not do the same | C1 −12%, C4 +4% | pass |
-| 3 | Lost Audio no worse on any path | `nt-vad` 14 → 15 | fail |
-| 4 | `nt-vad` has no Loops | 0 → 0 | pass |
-| 5 | FLEURS `da_dk` test WER at most +0.3 points | 12.56 → 12.45% | pass |
+| | Original | **Edited** | Random edit A | Random edit B |
+|---|---|---|---|---|
+| Loops | 25 | **6** | 22 | 26 |
+| Long loops (10 words or more) | 21 | **1** | 15 | 22 |
+| Extra words written by loops | 1,380 | **85** | 730 | 2,313 |
+| Word error rate, with timestamps | 31.0% | **19.7%** | 24.5% | 36.1% |
+| Word error rate, without timestamps | 38.3% | **36.2%** | 38.3% | 41.0% |
 
-Beyond the bar (report only):
+### The strict pass mark
 
-- 5 of E3's 6 remaining Loops are 3–4 word phrases written twice, a kind every model has. The sixth is made-up filler, not a copy.
-- `timestamps` WER: Held-out 31.0 → 19.7%; Codictate's Danish long clips 17.3 → 11.3%; Codictate's English long clip 17.6 → 1.7%.
-- The effect survives q5_0 Quantization (Loops −79%).
-- It also holds in Hugging Face transformers long-form decoding (10 Held-out clips, `results/hf_check/report.md`): with OpenAI's recommended fallback settings, Loops 21 → 3 and long Loops 10 → 0; without fallback, WER 112% → 30.6%.
-- `timestamps-bare` improved on the Held-out Set (Loops 41 → 23), the opposite of the Find Set. So the Find Set result that ADR 0002 rested on was most likely noise.
+| What we required | What happened | Passed? |
+|---|---|---|
+| At least 80% fewer loops | 76% fewer (25 to 6) | ❌ Just missed |
+| Random edits must not do the same | Random edits: 12% fewer, and 4% more | ✅ |
+| No more lost speech, in any mode | One more lost sentence when the audio is cut into slices (14 to 15). The random edits lost 15 and 14. | ❌ Just missed |
+| No loops when the audio is cut into slices | 0 and 0 | ✅ |
+| Danish accuracy no more than 0.3 points worse (FLEURS test, 930 recordings) | Word error rate 12.56% to 12.45% | ✅ |
+
+Why the misses are small: 5 of the 6 loops left are 3 or 4 words written twice, like "til at booke" two times in a row. The original model and both random edits make that kind of slip too. The sixth is made-up text, not a copy.
+
+### Other results (not part of the pass mark)
+
+- **English.** On Codictate's three English test recordings (about 7 minutes), the original wrote 160 made-up words in a loop. The edited model wrote none. Word error rate went from 17.6% to 1.7%.
+- **Codictate's Danish test recordings.** Word error rate with timestamps went from 17.3% to 11.3%.
+- **Compressed model (q5_0).** About a third of the size. Loops still dropped 79%.
+- **Hugging Face transformers.** 10 of the hidden recordings, with OpenAI's recommended settings: loops went from 21 to 3 ([report](results/hf_check/report.md)).
+- **Audio with no voice detection.** We removed this mode from the pass mark, because on the practice recordings the edit made it worse (10 to 26 loops). On the hidden recordings it made it better (41 to 23). So the practice result was most likely chance.
 
 ## What we learned
 
-- Whisper's copy Loop has a concrete, small mechanism: a handful of induction heads copying earlier text from the previous-text prompt. A gradient-free edit can switch it off.
-- Removing it does not make Danish better. On `nt-vad`, which slices audio and has no Loops to begin with, nothing changes. The blog's Gemma finding holds here too: an edit can remove an obstacle, not add ability.
-- Long-clip decoding is chaotic. Even a random edit can break or create one big Loop, so only comparisons against Control Edits mean anything, and a single small Find Set misleads (the `timestamps-bare` flip).
-- Whisper making up text in silence is a separate failure from copying, and these edits do not fix it. VAD does.
+- **The copy loop has a small, clear cause.** A few attention heads copy earlier text from the hint. You can switch them off without training.
+- **Removing a fault does not add skill.** Where there were no loops to begin with (audio cut into short slices, which is what Codictate does), nothing changed. The MIT paper found the same: an edit can remove an obstacle, but it cannot teach the model something new.
+- **Long recordings are unpredictable.** Any change to the model, even a random one, can make a single recording loop or stop looping. Only a comparison with random edits shows what is real. 10 practice recordings were not enough to see that.
+- **Making up text in silence is a separate problem.** This edit does not fix it. Voice detection does.
+
+## Technical details
+
+- **The edit (E3):** zero the 64 columns of `model.decoder.layers.L.self_attn.out_proj.weight` for 11 decoder self-attention heads: L2H19, L12H13, L13H7, L13H18, L15H17, L18H19 (they find the earlier copy), and L21H14, L24H0, L25H18, L25H19, L26H6 (they write it out). These are induction heads. Cross-attention, which earlier work blamed ([Glazer et al. 2025](https://arxiv.org/abs/2508.15882)), does not collapse in our cases.
+- **Names in the files:** practice recordings = Find Set, hidden recordings = Held-out Set, random edits = Control Edits C1 and C4, a loop = Loop, lost speech = Lost Audio. Modes: `timestamps`, `-nt` (no timestamps), `nt-vad` (cut into slices of 30 s or less, what Codictate ships), `timestamps-bare` (no voice detection). All terms are in [GLOSSARY.md](GLOSSARY.md).
+- **Edits that did worse:** E1 and E2 (only 2 or 5 of the heads), E4 and E5 (removing a loop direction from the layer 13-24 writers; E5 hurt accuracy), E6 (5 heads plus that direction), E7 (E3 plus the direction) and E9 (E3 plus Calm-Whisper's silence heads, which damaged the model). Every step, number and decision is in [LOG.md](LOG.md).
 
 ## Reproduce
 
