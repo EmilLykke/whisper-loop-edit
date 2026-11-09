@@ -52,7 +52,7 @@ Measured with whisper.cpp (crispasr), which transcribes a long recording in one 
 |---|---|---|
 | At least 80% fewer loops | 76% fewer (25 to 6) | ❌ Just missed |
 | Random edits must not do the same | Random edits: 12% fewer, and 4% more | ✅ |
-| No more lost speech, in any mode | One more lost sentence when the audio is cut into slices (14 to 15). The random edits lost 15 and 14. | ❌ Just missed |
+| No sentence left out more often, in any mode | When the audio is cut into short slices (how Codictate works), 15 of 460 sentences were left out, against 14 for the original. The random edits left out 15 and 14. In the long-recording modes the edit left out far fewer (26 against 59 with timestamps). | ❌ Just missed, by one sentence |
 | No loops when the audio is cut into slices | 0 and 0 | ✅ |
 | Danish accuracy no more than 0.3 points worse (FLEURS test, 930 recordings) | Word error rate 12.56% to 12.45% | ✅ |
 

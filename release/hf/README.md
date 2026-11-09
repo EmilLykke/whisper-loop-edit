@@ -68,7 +68,7 @@ All long-audio numbers are whisper.cpp ([crispasr](https://github.com/CrispStrob
 |---|---|---|---|
 | At least 80% fewer Loops (`timestamps` + `-nt`) | 25 | 6 (76% fewer) | ❌ Just missed |
 | Random edits of the same size must not do the same | | they gave 12% fewer and 4% more | ✅ |
-| No more Lost Audio in any mode (`nt-vad`) | 14 | 15 (random edits: 15 and 14) | ❌ Just missed |
+| No more sentences left out (Lost Audio), in any mode | `nt-vad` (slices): 14 of 460 | 15 of 460 (random edits: 15 and 14) | ❌ Just missed, by one sentence |
 | No Loops when the audio is cut into slices (`nt-vad`) | 0 | 0 | ✅ |
 | FLEURS `da_dk` test word error rate no more than 0.3 points worse | 12.56% | 12.45% | ✅ |
 
