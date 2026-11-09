@@ -60,19 +60,19 @@ def finish(ax):
 
 
 # 1. Words written by Loops, 30 sealed recordings
-# The comparison that matters (original vs edited) sits on top; random edits are a
-# separate, quieter group below. Direct labels replace the axis and grid.
+# One group of four bars, original and edited first. Direct labels replace the axis and
+# grid; the description sits centered under the bars, with room around the title.
 base_words = loop_words("baseline")
 rows = [
-    (5.0, "Original large-v3", "baseline", ORIGINAL, TEXT),
-    (4.0, "Edited (copy heads off)", "E3", EDITED, TEXT),
+    (4.0, "Original large-v3", "baseline", ORIGINAL, TEXT),
+    (3.0, "Edited (copy heads off)", "E3", EDITED, TEXT),
     (2.0, "Random edit A", "C1", CONTROL, TEXT_2),
     (1.0, "Random edit B", "C4", CONTROL, TEXT_2),
 ]
-fig, ax = plt.subplots(figsize=(11, 5.0))
-fig.subplots_adjust(left=0.27, right=0.98, top=0.83, bottom=0.03)
+fig, ax = plt.subplots(figsize=(11, 5.4))
+fig.subplots_adjust(left=0.27, right=0.98, top=0.78, bottom=0.14)
 ax.set_xlim(0, 3600)
-ax.set_ylim(0.55, 5.45)
+ax.set_ylim(0.5, 4.5)
 for y, label, m, color, ink in rows:
     v = loop_words(m)
     ax.barh(y, v, height=0.62, color=color)
@@ -83,14 +83,12 @@ for y, label, m, color, ink in rows:
     bb = t.get_window_extent().transformed(ax.transData.inverted())
     ax.text(bb.x1 + 30, y, f"words   ·   {loops(m)} repeats", va="center", color=MUTED, fontsize=13)
 drop = 1 - loop_words("E3") / base_words
-ax.text(0, 2.7, "For comparison: random edits of the same size", ha="left", va="center",
-        color=MUTED, fontsize=12.5, style="italic")
-ax.axhline(3.2, xmin=0, xmax=1, color=GRID, linewidth=1)
 ax.axis("off")
-fig.text(0.02, 0.94, f"The edit cut repeated words by {drop:.0%}", fontsize=19, fontweight="bold", color=TEXT)
-fig.text(0.02, 0.875,
+fig.text(0.022, 0.89, f"The edit cut repeated words by {drop:.0%}", fontsize=19, fontweight="bold",
+         color=TEXT, va="center")
+fig.text(0.5, 0.055,
          "Extra words written by repeats on 30 Danish recordings (90 min) the edit never saw. Lower is better.",
-         fontsize=12.5, color=MUTED)
+         fontsize=12.5, color=MUTED, ha="center", va="center")
 fig.savefig(OUT / "loop-words.png", dpi=200)
 plt.close(fig)
 
