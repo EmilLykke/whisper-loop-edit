@@ -14,7 +14,7 @@ The edited model is on Hugging Face: [emillykkegrann/whisper-large-v3-copy-heads
 | Is that real, or luck? | **Real.** Two random edits of the same size did nothing like it. | 🟢 Good |
 | Does it break anything? | **Nothing we found.** Danish accuracy on normal short recordings stayed the same. It still works when the model is compressed. | 🟢 Good |
 | Did it pass the strict pass mark we set before the final test? | **Just missed.** We asked for 80% fewer loops and got 76%. One test lost one more sentence than the original (15 against 14). | 🟡 Meh |
-| Is it better at Danish? | **No.** Accuracy did not change. Removing a fault does not teach the model more Danish. | ⚪ Neutral |
+| Is it better at Danish? | **Only on long audio.** On long recordings transcribed in one go, the Danish word error rate went from 31.0% to 19.7%, because the repeats are gone. On short recordings it did not change: removing a fault does not teach the model more Danish. | 🟡 Partly |
 | Does it stop Whisper making up text in silence? | **No.** That is a different fault. Use voice detection (VAD) in front of the model. | 🔴 Not fixed |
 
 **Verdict: the method works.** We found what causes the copy loop and removed it with a small edit, without training. It fell just short of the strict pass mark we set for ourselves, so we call it a strong result, not a finished fix.
