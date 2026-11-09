@@ -22,7 +22,18 @@ tags:
 
 Whisper large-v3 with 11 decoder self-attention heads switched off. Those heads copy earlier text, and they are what makes large-v3 write the same sentence over and over on long recordings. Nothing was trained: the edit is one line of arithmetic on the original weights, and [a short script](make_copy_heads_off.py) rebuilds this exact file from `openai/whisper-large-v3`.
 
-**Result in one paragraph.** On 30 long Danish recordings that were kept sealed until the end, the edit cuts Loops on whisper.cpp's long-form decoding from 25 to 6 (−76%), long Loops (10+ words) from 21 to 1, and the words written by Loops by 94%. Two random edits of the same size do nothing (−12% and +4%). FLEURS Danish test WER does not move (12.56% → 12.45%). But we set the bar before the final run at −80% and no Lost Audio on any path, and the edit misses both, narrowly. So by our own rules this is a failed experiment that still shows a large, real effect. We publish it as a research model, not as a drop-in replacement.
+## The short answer
+
+| Question | Answer | |
+|---|---|---|
+| Can a direct weight edit remove the loops? | **Yes, mostly.** On 30 recordings the edit never saw, long loops went from 21 to 1, and the words written by loops dropped 94%. | 🟢 Good |
+| Is that real, or luck? | **Real.** Two random edits of the same size did nothing like it. | 🟢 Good |
+| Does it break anything? | **Nothing we found.** Danish accuracy on normal short recordings stayed the same. It still works when the model is compressed. | 🟢 Good |
+| Did it pass the strict pass mark we set before the final test? | **Just missed.** We asked for 80% fewer loops and got 76%. One test lost one more sentence than the original (15 against 14). | 🟡 Meh |
+| Is it better at Danish? | **No.** Accuracy did not change. Removing a fault does not teach the model more Danish. | ⚪ Neutral |
+| Does it stop Whisper making up text in silence? | **No.** That is a different fault. Use voice detection (VAD) in front of the model. | 🔴 Not fixed |
+
+**Verdict: the method works.** We found what causes the copy loop and removed it with a small edit, without training. It fell just short of the strict pass mark we set for ourselves, so we call it a strong result, not a finished fix.
 
 Method, code and every number: [github.com/EmilLykke/whisper-loop-edit](https://github.com/EmilLykke/whisper-loop-edit).
 
@@ -51,19 +62,19 @@ How the heads were found: on long Danish clips we rebuilt the decoder state at t
 
 All long-audio numbers are whisper.cpp ([crispasr](https://github.com/CrispStrobe/CrispASR) v0.8.41, a whisper.cpp fork, Metal) on an Apple Silicon Mac, Danish, with Codictate's exact command lines.
 
-### The pre-set bar (30 sealed Danish Long Clips, 90 minutes, FLEURS `da_dk` utterances joined end to end)
+### The strict pass mark (30 hidden Danish recordings, 90 minutes, sealed until the final test)
 
-| # | Condition | large-v3 | this model | |
-|---|---|---|---|---|
-| 1 | Loops on `timestamps` + `-nt` at least −80% | 25 | 6 (−76%) | fail |
-| 2 | Control Edits do not do the same | | −12%, +4% | pass |
-| 3 | Lost Audio no worse on any path (`nt-vad`) | 14 | 15 | fail |
-| 4 | `nt-vad` has no Loops | 0 | 0 | pass |
-| 5 | FLEURS `da_dk` test WER on `nt-vad` at most +0.3 points | 12.56% | 12.45% | pass |
+| What we required | large-v3 | this model | Passed? |
+|---|---|---|---|
+| At least 80% fewer Loops (`timestamps` + `-nt`) | 25 | 6 (76% fewer) | ❌ Just missed |
+| Random edits of the same size must not do the same | | they gave 12% fewer and 4% more | ✅ |
+| No more Lost Audio in any mode (`nt-vad`) | 14 | 15 (random edits: 15 and 14) | ❌ Just missed |
+| No Loops when the audio is cut into slices (`nt-vad`) | 0 | 0 | ✅ |
+| FLEURS `da_dk` test word error rate no more than 0.3 points worse | 12.56% | 12.45% | ✅ |
 
-5 of the 6 remaining Loops are a 3–4 word phrase written twice, a kind every model and control has. The sixth is made-up filler, not a copy. On `nt-vad` both models lose the same 12 utterances; this model loses 3 others and keeps 2 others, and the controls lose 15 and 14.
+Why the misses are small: 5 of the 6 Loops left are 3 or 4 words written twice, a slip the original and both random edits make too. The sixth is made-up text, not a copy.
 
-### Beyond the bar
+### Other results (not part of the pass mark)
 
 | | large-v3 | this model |
 |---|---|---|
