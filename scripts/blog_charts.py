@@ -88,7 +88,7 @@ for y, (label, m, color, ink) in zip([4, 3, 2, 1], rows):
 drop = 1 - loop_words("E3") / base_words
 ax.set_yticks([])
 ax.set_xticks(range(0, 3501, 500), [f"{x:,}" for x in range(0, 3501, 500)], fontsize=12)
-ax.xaxis.grid(True, color=GRID, linewidth=0.8, zorder=0)
+ax.xaxis.grid(True, color="#4a4a47", linewidth=0.8, linestyle=(0, (1, 4)), alpha=0.6, zorder=0)
 for side in ("top", "right", "bottom"):
     ax.spines[side].set_color(GRID)
 ax.spines["left"].set_color(TEXT_2)
