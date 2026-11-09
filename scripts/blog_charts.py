@@ -60,33 +60,37 @@ def finish(ax):
 
 
 # 1. Words written by Loops, 30 sealed recordings
+# The comparison that matters (original vs edited) sits on top; random edits are a
+# separate, quieter group below. Direct labels replace the axis and grid.
+base_words = loop_words("baseline")
 rows = [
-    ("Original large-v3", "baseline", ORIGINAL),
-    ("Random edit A", "C1", CONTROL),
-    ("Random edit B", "C4", CONTROL),
-    ("Copy heads off", "E3", EDITED),
+    (5.0, "Original large-v3", "baseline", ORIGINAL, TEXT),
+    (4.0, "Edited (copy heads off)", "E3", EDITED, TEXT),
+    (2.0, "Random edit A", "C1", CONTROL, TEXT_2),
+    (1.0, "Random edit B", "C4", CONTROL, TEXT_2),
 ]
-fig, ax = plt.subplots(figsize=(11, 4.6))
-ys = list(range(len(rows)))[::-1]
-for y, (label, m, color) in zip(ys, rows):
+fig, ax = plt.subplots(figsize=(11, 5.0))
+fig.subplots_adjust(left=0.27, right=0.98, top=0.83, bottom=0.03)
+ax.set_xlim(0, 3600)
+ax.set_ylim(0.55, 5.45)
+for y, label, m, color, ink in rows:
     v = loop_words(m)
-    ax.barh(y, v, height=0.6, color=color)
-    ax.text(v + 30, y, f"{v:,} words  ·  {loops(m)} Loops", va="center", color=TEXT, fontsize=13)
-ax.set_yticks(ys, [x[0] for x in rows], fontsize=14, color=TEXT)
-ax.set_xlim(0, 3000)
-ax.xaxis.grid(True, color=GRID, linestyle="--", linewidth=0.8)
-ax.set_axisbelow(True)
-ax.set_xlabel("Extra words written by Loops (lower is better)")
-finish(ax)
-fig.suptitle(
-    "Loops on 30 Danish recordings the edit never saw (90 min)",
-    x=0.02, ha="left", fontsize=16, fontweight="bold",
-)
-ax.set_title(
-    "whisper.cpp long-form, with and without timestamps",
-    loc="left", fontsize=12, color=MUTED, pad=10,
-)
-fig.tight_layout()
+    ax.barh(y, v, height=0.62, color=color)
+    ax.text(-40, y, label, ha="right", va="center", color=ink, fontsize=14.5,
+            fontweight="bold" if ink == TEXT else "normal")
+    t = ax.text(v + 40, y + 0.02, f"{v:,}", va="center", color=ink, fontsize=17, fontweight="bold")
+    fig.canvas.draw()
+    bb = t.get_window_extent().transformed(ax.transData.inverted())
+    ax.text(bb.x1 + 30, y, f"words   ·   {loops(m)} repeats", va="center", color=MUTED, fontsize=13)
+drop = 1 - loop_words("E3") / base_words
+ax.text(0, 2.7, "For comparison: random edits of the same size", ha="left", va="center",
+        color=MUTED, fontsize=12.5, style="italic")
+ax.axhline(3.2, xmin=0, xmax=1, color=GRID, linewidth=1)
+ax.axis("off")
+fig.text(0.02, 0.94, f"The edit cut repeated words by {drop:.0%}", fontsize=19, fontweight="bold", color=TEXT)
+fig.text(0.02, 0.875,
+         "Extra words written by repeats on 30 Danish recordings (90 min) the edit never saw. Lower is better.",
+         fontsize=12.5, color=MUTED)
 fig.savefig(OUT / "loop-words.png", dpi=200)
 plt.close(fig)
 
@@ -114,7 +118,7 @@ ax.bar(0, 0, color=ORIGINAL, label="Original large-v3")
 ax.bar(0, 0, color=EDITED, label="Copy heads off")
 ax.legend(frameon=False, loc="upper right", labelcolor=TEXT, fontsize=12.5)
 fig.suptitle(
-    "The edit helps where Loops happen, and changes nothing where they don't",
+    "The edit helps where repeats happen, and changes nothing where they don't",
     x=0.02, ha="left", fontsize=16, fontweight="bold",
 )
 fig.tight_layout()
